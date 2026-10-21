@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "entry_types": {
+    "entity": {
+      "required": [
+        "id",
+        "edition",
+        "sources"
+      ],
+      "optional": [
+        "classification",
+        "health",
+        "breathing",
+        "fire",
+        "fear",
+        "breeding",
+        "taming",
+        "drops",
+        "spawns",
+        "caveats"
+      ]
+    },
+    "block": {
+      "required": [
+        "id",
+        "edition",
+        "sources"
+      ],
+      "optional": [
+        "hardness",
+        "tools",
+        "drops",
+        "gravity",
+        "flammability",
+        "interactions",
+        "crafting_recipe_ids"
+      ]
+    },
+    "recipe": {
+      "required": [
+        "id",
+        "result",
+        "station",
+        "sources"
+      ],
+      "optional": [
+        "ingredients",
+        "pattern",
+        "conditions",
+        "availability"
+      ]
+    },
+    "conversation": {
+      "required": [
+        "intent",
+        "lines"
+      ],
+      "optional": [
+        "cooldown_ticks",
+        "context_rules"
+      ]
+    },
+    "answer": {
+      "required": [
+        "question",
+        "answer",
+        "source_refs",
+        "verification_status"
+      ],
+      "optional": [
+        "edition",
+        "version",
+        "conditions"
+      ]
+    }
+  },
+  "verification_status_values": [
+    "verified_in_samples",
+    "verified_official_docs",
+    "wiki_supported_pending_version_check",
+    "requires_in_game_test",
+    "unknown"
+  ],
+  "rule": "Never convert absent component data to a definitive no; keep conditional component groups and source paths."
+}

@@ -1,0 +1,1 @@
+Version 27: 16 original family-friendly Bedrock-focused mob and block Q&A entries from accessible Minecraft Wiki search excerpts and topic references; sources and edition/version review status preserved. Previous 26 versions retained. No full wiki scrape claimed.

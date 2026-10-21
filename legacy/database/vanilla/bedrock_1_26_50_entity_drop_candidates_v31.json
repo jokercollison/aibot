@@ -1,0 +1,3860 @@
+[
+  {
+    "entity": "minecraft:snow_golem",
+    "source": "behavior_pack/entities/snow_golem.json",
+    "loot_table_reference": "loot_tables/entities/snowman.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:snowball",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 15
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:drowned",
+    "source": "behavior_pack/entities/drowned.json",
+    "loot_table_reference": "loot_tables/entities/drowned.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 5,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:pillager",
+    "source": "behavior_pack/entities/pillager.json",
+    "loot_table_reference": "loot_tables/entities/pillager_raid.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "source": "behavior_pack/entities/armadillo.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:fireball",
+    "source": "behavior_pack/entities/fireball.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:guardian",
+    "source": "behavior_pack/entities/guardian.json",
+    "loot_table_reference": "loot_tables/entities/guardian.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:fish",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 2,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "pool_path": "$.pools[1].entries[1]",
+        "weight": 2,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:husk",
+    "source": "behavior_pack/entities/husk.json",
+    "loot_table_reference": "loot_tables/entities/husk_rider.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "pool_path": "$.pools[0].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:carrot",
+        "pool_path": "$.pools[1].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:potato",
+        "pool_path": "$.pools[1].entries[2]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:music_disc_lava_chicken",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ender_pearl",
+    "source": "behavior_pack/entities/ender_pearl.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:bat",
+    "source": "behavior_pack/entities/bat.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:cushion",
+    "source": "behavior_pack/entities/cushion.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:chicken",
+    "source": "behavior_pack/entities/chicken.json",
+    "loot_table_reference": "loot_tables/entities/chicken.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:feather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:chicken",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:endermite",
+    "source": "behavior_pack/entities/endermite.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:area_effect_cloud",
+    "source": "behavior_pack/entities/area_effect_cloud.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "source": "behavior_pack/entities/ender_dragon.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "source": "behavior_pack/entities/dolphin.json",
+    "loot_table_reference": "loot_tables/entities/dolphin.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:fish",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:arrow",
+    "source": "behavior_pack/entities/arrow.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:sheep",
+    "source": "behavior_pack/entities/sheep.json",
+    "loot_table_reference": "loot_tables/entities/sheep.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:wool",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "minecraft:set_data_from_color_index"
+          }
+        ]
+      },
+      {
+        "item": "minecraft:muttonRaw",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:fireworks_rocket",
+    "source": "behavior_pack/entities/fireworks_rocket.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "source": "behavior_pack/entities/skeleton.json",
+    "loot_table_reference": "loot_tables/entities/skeleton.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "source": "behavior_pack/entities/happy_ghast.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:player",
+    "source": "behavior_pack/entities/player.json",
+    "loot_table_reference": "loot_tables/empty.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "source": "behavior_pack/entities/zombie_horse.json",
+    "loot_table_reference": "loot_tables/entities/zombie_horse.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 2,
+              "max": 3
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "source": "behavior_pack/entities/zombie_villager.json",
+    "loot_table_reference": "loot_tables/entities/zombie.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:carrot",
+        "pool_path": "$.pools[1].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:potato",
+        "pool_path": "$.pools[1].entries[2]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:music_disc_lava_chicken",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "source": "behavior_pack/entities/pufferfish.json",
+    "loot_table_reference": "loot_tables/entities/pufferfish.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:pufferfish",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:shulker_bullet",
+    "source": "behavior_pack/entities/shulker_bullet.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:boat",
+    "source": "behavior_pack/entities/boat.json",
+    "loot_table_reference": "loot_tables/entities/boat.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:small_fireball",
+    "source": "behavior_pack/entities/small_fireball.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:turtle",
+    "source": "behavior_pack/entities/turtle.json",
+    "loot_table_reference": "loot_tables/entities/sea_turtle.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:seagrass",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 3,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "source": "behavior_pack/entities/zombie_pigman.json",
+    "loot_table_reference": "loot_tables/entities/zombie_pigman.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:gold_nugget",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:villager",
+    "source": "behavior_pack/entities/villager.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:tripod_camera",
+    "source": "behavior_pack/entities/tripod_camera.json",
+    "loot_table_reference": "loot_tables/empty.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:armor_stand",
+    "source": "behavior_pack/entities/armor_stand.json",
+    "loot_table_reference": "loot_tables/entities/armor_stand.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:stray",
+    "source": "behavior_pack/entities/stray.json",
+    "loot_table_reference": "loot_tables/entities/stray.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            },
+            "limit": 1
+          },
+          {
+            "function": "minecraft:set_potion",
+            "id": "slowness"
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "source": "behavior_pack/entities/sniffer.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "source": "behavior_pack/entities/tropicalfish.json",
+    "loot_table_reference": "loot_tables/entities/tropicalfish.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:clownfish",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wither_skull_dangerous",
+    "source": "behavior_pack/entities/wither_skull_dangerous.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:fishing_hook",
+    "source": "behavior_pack/entities/fishing_hook.json",
+    "loot_table_reference": "loot_tables/gameplay/jungle_fishing.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:tnt",
+    "source": "behavior_pack/entities/tnt.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "source": "behavior_pack/entities/magma_cube.json",
+    "loot_table_reference": "loot_tables/entities/magma_cube.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:magma_cream",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:donkey",
+    "source": "behavior_pack/entities/donkey.json",
+    "loot_table_reference": "loot_tables/entities/horse.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wither",
+    "source": "behavior_pack/entities/wither.json",
+    "loot_table_reference": "loot_tables/entities/wither_boss.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:netherStar",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "source": "behavior_pack/entities/cave_spider.json",
+    "loot_table_reference": "loot_tables/entities/spider.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:string",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:strider",
+    "source": "behavior_pack/entities/strider.json",
+    "loot_table_reference": "loot_tables/entities/strider.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:string",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 2,
+              "max": 5
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "source": "behavior_pack/entities/evocation_illager.json",
+    "loot_table_reference": "loot_tables/entities/evocation_illager.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:emerald",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:totem",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:lightning_bolt",
+    "source": "behavior_pack/entities/lightning_bolt.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ender_crystal",
+    "source": "behavior_pack/entities/ender_crystal.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:cat",
+    "source": "behavior_pack/entities/cat.json",
+    "loot_table_reference": "loot_tables/entities/cat.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:string",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "source": "behavior_pack/entities/trader_llama.json",
+    "loot_table_reference": "loot_tables/entities/llama.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:panda",
+    "source": "behavior_pack/entities/panda.json",
+    "loot_table_reference": "loot_tables/entities/panda.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:bamboo",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:horse",
+    "source": "behavior_pack/entities/horse.json",
+    "loot_table_reference": "loot_tables/entities/horse.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "source": "behavior_pack/entities/elder_guardian.json",
+    "loot_table_reference": "loot_tables/entities/elder_guardian.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:fish",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 3,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "pool_path": "$.pools[1].entries[1]",
+        "weight": 2,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:wet_sponge",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:tide_armor_trim_smithing_template",
+        "pool_path": "$.pools[4].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:thrown_trident",
+    "source": "behavior_pack/entities/thrown_trident.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "source": "behavior_pack/entities/glow_squid.json",
+    "loot_table_reference": "loot_tables/entities/glow_squid.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:glow_ink_sac",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          },
+          {
+            "function": "set_data",
+            "data": 0
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:parrot",
+    "source": "behavior_pack/entities/parrot.json",
+    "loot_table_reference": "loot_tables/entities/parrot.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:feather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:bee",
+    "source": "behavior_pack/entities/bee.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:cod",
+    "source": "behavior_pack/entities/fish.json",
+    "loot_table_reference": "loot_tables/entities/fish.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:fish",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:pig",
+    "source": "behavior_pack/entities/pig.json",
+    "loot_table_reference": "loot_tables/entities/pig_saddled.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:porkchop",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:saddle",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:xp_orb",
+    "source": "behavior_pack/entities/xp_orb.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "source": "behavior_pack/entities/skeleton_horse.json",
+    "loot_table_reference": "loot_tables/entities/skeleton_horse.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:blaze",
+    "source": "behavior_pack/entities/blaze.json",
+    "loot_table_reference": "loot_tables/entities/blaze.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:blaze_rod",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:vex",
+    "source": "behavior_pack/entities/vex.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:eye_of_ender_signal",
+    "source": "behavior_pack/entities/eye_of_ender_signal.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "source": "behavior_pack/entities/zoglin.json",
+    "loot_table_reference": "loot_tables/entities/zoglin.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:enderman",
+    "source": "behavior_pack/entities/enderman.json",
+    "loot_table_reference": "loot_tables/entities/enderman.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:ender_pearl",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:command_block_minecart",
+    "source": "behavior_pack/entities/command_block_minecart.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:hopper_minecart",
+    "source": "behavior_pack/entities/hopper_minecart.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:dragon_fireball",
+    "source": "behavior_pack/entities/dragon_fireball.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:parched",
+    "source": "behavior_pack/entities/parched.json",
+    "loot_table_reference": "loot_tables/entities/parched.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            },
+            "limit": 1
+          },
+          {
+            "function": "minecraft:set_potion",
+            "id": "weakness"
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:tnt_minecart",
+    "source": "behavior_pack/entities/tnt_minecart.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:fox",
+    "source": "behavior_pack/entities/fox.json",
+    "loot_table_reference": "loot_tables/entities/fox.json",
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:salmon",
+    "source": "behavior_pack/entities/salmon.json",
+    "loot_table_reference": "loot_tables/entities/salmon_normal.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:salmon",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:phantom",
+    "source": "behavior_pack/entities/phantom.json",
+    "loot_table_reference": "loot_tables/entities/phantom.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "source": "behavior_pack/entities/wandering_trader.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wolf",
+    "source": "behavior_pack/entities/wolf.json",
+    "loot_table_reference": "loot_tables/entities/wolf.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ominous_item_spawner",
+    "source": "behavior_pack/entities/ominous_item_spawner.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:creeper",
+    "source": "behavior_pack/entities/creeper.json",
+    "loot_table_reference": "loot_tables/entities/creeper.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:gunpowder",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:record_13",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_cat",
+        "pool_path": "$.pools[1].entries[1]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_blocks",
+        "pool_path": "$.pools[1].entries[2]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_chirp",
+        "pool_path": "$.pools[1].entries[3]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_far",
+        "pool_path": "$.pools[1].entries[4]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mall",
+        "pool_path": "$.pools[1].entries[5]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mellohi",
+        "pool_path": "$.pools[1].entries[6]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_stal",
+        "pool_path": "$.pools[1].entries[7]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_strad",
+        "pool_path": "$.pools[1].entries[8]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_ward",
+        "pool_path": "$.pools[1].entries[9]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_11",
+        "pool_path": "$.pools[1].entries[10]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_wait",
+        "pool_path": "$.pools[1].entries[11]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_13",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_cat",
+        "pool_path": "$.pools[2].entries[1]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_blocks",
+        "pool_path": "$.pools[2].entries[2]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_chirp",
+        "pool_path": "$.pools[2].entries[3]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_far",
+        "pool_path": "$.pools[2].entries[4]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mall",
+        "pool_path": "$.pools[2].entries[5]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mellohi",
+        "pool_path": "$.pools[2].entries[6]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_stal",
+        "pool_path": "$.pools[2].entries[7]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_strad",
+        "pool_path": "$.pools[2].entries[8]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_ward",
+        "pool_path": "$.pools[2].entries[9]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_11",
+        "pool_path": "$.pools[2].entries[10]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_wait",
+        "pool_path": "$.pools[2].entries[11]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_13",
+        "pool_path": "$.pools[3].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_cat",
+        "pool_path": "$.pools[3].entries[1]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_blocks",
+        "pool_path": "$.pools[3].entries[2]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_chirp",
+        "pool_path": "$.pools[3].entries[3]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_far",
+        "pool_path": "$.pools[3].entries[4]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mall",
+        "pool_path": "$.pools[3].entries[5]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mellohi",
+        "pool_path": "$.pools[3].entries[6]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_stal",
+        "pool_path": "$.pools[3].entries[7]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_strad",
+        "pool_path": "$.pools[3].entries[8]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_ward",
+        "pool_path": "$.pools[3].entries[9]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_11",
+        "pool_path": "$.pools[3].entries[10]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_wait",
+        "pool_path": "$.pools[3].entries[11]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_13",
+        "pool_path": "$.pools[4].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_cat",
+        "pool_path": "$.pools[4].entries[1]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_blocks",
+        "pool_path": "$.pools[4].entries[2]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_chirp",
+        "pool_path": "$.pools[4].entries[3]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_far",
+        "pool_path": "$.pools[4].entries[4]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mall",
+        "pool_path": "$.pools[4].entries[5]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_mellohi",
+        "pool_path": "$.pools[4].entries[6]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_stal",
+        "pool_path": "$.pools[4].entries[7]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_strad",
+        "pool_path": "$.pools[4].entries[8]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_ward",
+        "pool_path": "$.pools[4].entries[9]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_11",
+        "pool_path": "$.pools[4].entries[10]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:record_wait",
+        "pool_path": "$.pools[4].entries[11]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:mule",
+    "source": "behavior_pack/entities/mule.json",
+    "loot_table_reference": "loot_tables/entities/horse.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:shulker",
+    "source": "behavior_pack/entities/shulker.json",
+    "loot_table_reference": "loot_tables/entities/shulker.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:shulker_shell",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:breeze",
+    "source": "behavior_pack/entities/breeze.json",
+    "loot_table_reference": "loot_tables/entities/breeze.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:breeze_rod",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:splash_potion",
+    "source": "behavior_pack/entities/splash_potion.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ghast",
+    "source": "behavior_pack/entities/ghast.json",
+    "loot_table_reference": "loot_tables/entities/ghast.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:ghast_tear",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:music_disc_tears",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:witch",
+    "source": "behavior_pack/entities/witch.json",
+    "loot_table_reference": "loot_tables/entities/witch.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:sugar",
+        "pool_path": "$.pools[0].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "pool_path": "$.pools[0].entries[2]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "pool_path": "$.pools[0].entries[3]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "pool_path": "$.pools[0].entries[4]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:stick",
+        "pool_path": "$.pools[0].entries[5]",
+        "weight": 2,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:redstone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 4,
+              "max": 8
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "source": "behavior_pack/entities/nautilus.json",
+    "loot_table_reference": "loot_tables/entities/nautilus.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:nautilus_shell",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 5,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wither_skull",
+    "source": "behavior_pack/entities/wither_skull.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:allay",
+    "source": "behavior_pack/entities/allay.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:chest_boat",
+    "source": "behavior_pack/entities/chest_boat.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "source": "behavior_pack/entities/camel_husk.json",
+    "loot_table_reference": "loot_tables/entities/camel_husk.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 2,
+              "max": 3
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:snowball",
+    "source": "behavior_pack/entities/snowball.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "source": "behavior_pack/entities/piglin_brute.json",
+    "loot_table_reference": "loot_tables/entities/piglin.json",
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "source": "behavior_pack/entities/ocelot.json",
+    "loot_table_reference": "loot_tables/entities/ocelot.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "source": "behavior_pack/entities/zombie_nautilus.json",
+    "loot_table_reference": "loot_tables/entities/zombie_nautilus.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 5,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:llama_spit",
+    "source": "behavior_pack/entities/llama_spit.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:npc",
+    "source": "behavior_pack/entities/npc.json",
+    "loot_table_reference": "loot_tables/empty.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zombie",
+    "source": "behavior_pack/entities/zombie.json",
+    "loot_table_reference": "loot_tables/entities/zombie_rider.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:red_mushroom",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:carrot",
+        "pool_path": "$.pools[2].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:potato",
+        "pool_path": "$.pools[2].entries[2]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:frog",
+    "source": "behavior_pack/entities/frog.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:llama",
+    "source": "behavior_pack/entities/llama.json",
+    "loot_table_reference": "loot_tables/entities/llama.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:egg",
+    "source": "behavior_pack/entities/egg.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:cow",
+    "source": "behavior_pack/entities/cow.json",
+    "loot_table_reference": "loot_tables/entities/cow.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:beef",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "source": "behavior_pack/entities/tadpole.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:piglin",
+    "source": "behavior_pack/entities/piglin.json",
+    "loot_table_reference": "loot_tables/entities/piglin.json",
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "source": "behavior_pack/entities/mooshroom.json",
+    "loot_table_reference": "loot_tables/entities/mooshroom.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:beef",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "source": "behavior_pack/entities/rabbit.json",
+    "loot_table_reference": "loot_tables/entities/rabbit.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rabbit_hide",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:rabbit",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "source": "behavior_pack/entities/polar_bear.json",
+    "loot_table_reference": "loot_tables/entities/polar_bear.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:fish",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 3,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:salmon",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wind_charge_projectile",
+    "source": "behavior_pack/entities/wind_charge_projectile.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:creaking",
+    "source": "behavior_pack/entities/creaking.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "source": "behavior_pack/entities/zombie_villager_v2.json",
+    "loot_table_reference": "loot_tables/entities/zombie.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:carrot",
+        "pool_path": "$.pools[1].entries[1]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:potato",
+        "pool_path": "$.pools[1].entries[2]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      },
+      {
+        "item": "minecraft:music_disc_lava_chicken",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "source": "behavior_pack/entities/villager_v2.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "source": "behavior_pack/entities/sulfur_cube.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:bogged",
+    "source": "behavior_pack/entities/bogged.json",
+    "loot_table_reference": "loot_tables/entities/bogged.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:arrow",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            },
+            "limit": 1
+          },
+          {
+            "function": "minecraft:set_potion",
+            "id": "poison"
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "source": "behavior_pack/entities/axolotl.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:breeze_wind_charge_projectile",
+    "source": "behavior_pack/entities/breeze_wind_charge_projectile.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "source": "behavior_pack/entities/silverfish.json",
+    "loot_table_reference": "loot_tables/entities/silverfish.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "source": "behavior_pack/entities/iron_golem.json",
+    "loot_table_reference": "loot_tables/entities/iron_golem.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:poppy",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 3,
+              "max": 5
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "source": "behavior_pack/entities/vindicator.json",
+    "loot_table_reference": "loot_tables/entities/vindicator_raid.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "source": "behavior_pack/entities/hoglin.json",
+    "loot_table_reference": "loot_tables/entities/hoglin.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:porkchop",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 2,
+              "max": 4
+            }
+          },
+          {
+            "function": "furnace_smelt",
+            "conditions": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "properties": {
+                  "on_fire": true
+                }
+              }
+            ]
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:leather",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:lingering_potion",
+    "source": "behavior_pack/entities/lingering_potion.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:minecart",
+    "source": "behavior_pack/entities/minecart.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:warden",
+    "source": "behavior_pack/entities/warden.json",
+    "loot_table_reference": "loot_tables/entities/warden.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:sculk_catalyst",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:goat",
+    "source": "behavior_pack/entities/goat.json",
+    "loot_table_reference": "loot_tables/entities/goat.json",
+    "loot_table_found": true,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:chest_minecart",
+    "source": "behavior_pack/entities/chest_minecart.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:squid",
+    "source": "behavior_pack/entities/squid.json",
+    "loot_table_reference": "loot_tables/entities/squid.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:dye",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          },
+          {
+            "function": "set_data",
+            "data": 0
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:xp_bottle",
+    "source": "behavior_pack/entities/xp_bottle.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:spider",
+    "source": "behavior_pack/entities/spider.json",
+    "loot_table_reference": "loot_tables/entities/spider.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:string",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "source": "behavior_pack/entities/wither_skeleton.json",
+    "loot_table_reference": "loot_tables/entities/wither_skeleton.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:coal",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:bone",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:skull",
+        "pool_path": "$.pools[2].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_data",
+            "data": 1
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "source": "behavior_pack/entities/copper_golem.json",
+    "loot_table_reference": "loot_tables/entities/copper_golem.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:copper_ingot",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ]
+      },
+      {
+        "item": "minecraft:poppy",
+        "pool_path": "$.pools[1].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:camel",
+    "source": "behavior_pack/entities/camel.json",
+    "loot_table_reference": null,
+    "loot_table_found": false,
+    "potential_drops": [],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:slime",
+    "source": "behavior_pack/entities/slime.json",
+    "loot_table_reference": "loot_tables/entities/slime.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:slime_ball",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": 1,
+        "conditions": [],
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  },
+  {
+    "entity": "minecraft:ravager",
+    "source": "behavior_pack/entities/ravager.json",
+    "loot_table_reference": "loot_tables/entities/ravager.json",
+    "loot_table_found": true,
+    "potential_drops": [
+      {
+        "item": "minecraft:saddle",
+        "pool_path": "$.pools[0].entries[0]",
+        "weight": null,
+        "conditions": [],
+        "functions": []
+      }
+    ],
+    "status": "candidate_entries_not_guaranteed_drops",
+    "notes": "Drops depend on rolls, conditions, looting, burning, equipment, game rules, and possible conditional entity component groups. Referenced nested loot tables may need recursive resolution."
+  }
+]

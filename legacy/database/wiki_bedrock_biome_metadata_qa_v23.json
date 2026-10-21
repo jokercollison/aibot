@@ -1,0 +1,612 @@
+[
+  {
+    "id": "biome_snowy_slopes",
+    "category": "biome_technical_facts",
+    "question": "What is the Snowy Slopes biome?",
+    "answer": "Snowy Slopes is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is -0.3. Its configured downfall value is 0.9. Tags include frozen, mountains, monster, overworld, spawns_cold_variant_frogs.",
+    "source_file": "behavior_pack/biomes/snowy_slopes.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_mushroom_island_shore",
+    "category": "biome_technical_facts",
+    "question": "What is the Mushroom Island Shore biome?",
+    "answer": "Mushroom Island Shore is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.9. Its configured downfall value is 1.0. Tags include mooshroom_island, overworld, shore, spawns_without_patrols.",
+    "source_file": "behavior_pack/biomes/mushroom_island_shore.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_frozen_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Frozen Ocean biome?",
+    "answer": "Frozen Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.0. Its configured downfall value is 0.5. Tags include frozen, monster, ocean, overworld, spawns_polar_bears_on_alternate_blocks.",
+    "source_file": "behavior_pack/biomes/frozen_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_frozen_river",
+    "category": "biome_technical_facts",
+    "question": "What is the Frozen River biome?",
+    "answer": "Frozen River is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.0. Its configured downfall value is 0.5. Tags include frozen, overworld, river, spawns_cold_variant_farm_animals, spawns_cold_variant_frogs.",
+    "source_file": "behavior_pack/biomes/frozen_river.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_savanna",
+    "category": "biome_technical_facts",
+    "question": "What is the Savanna biome?",
+    "answer": "Savanna is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 1.2. Its configured downfall value is 0.0. Tags include animal, monster, overworld, savanna, spawns_savanna_mobs.",
+    "source_file": "behavior_pack/biomes/savanna.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_basalt_deltas",
+    "category": "biome_technical_facts",
+    "question": "What is the Basalt Deltas biome?",
+    "answer": "Basalt Deltas is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include nether, basalt_deltas, spawn_many_magma_cubes, spawn_ghast, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/basalt_deltas.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_desert",
+    "category": "biome_technical_facts",
+    "question": "What is the Desert biome?",
+    "answer": "Desert is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include desert, monster, overworld, spawns_gold_rabbits, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/desert.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_cold_beach",
+    "category": "biome_technical_facts",
+    "question": "What is the Cold Beach biome?",
+    "answer": "Cold Beach is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.05. Its configured downfall value is 0.3. Tags include beach, cold, monster, overworld, spawns_cold_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/cold_beach.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_the_end",
+    "category": "biome_technical_facts",
+    "question": "What is the The End biome?",
+    "answer": "The End is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include the_end, spawns_cold_variant_farm_animals, spawns_cold_variant_frogs.",
+    "source_file": "behavior_pack/biomes/the_end.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_lush_caves",
+    "category": "biome_technical_facts",
+    "question": "What is the Lush Caves biome?",
+    "answer": "Lush Caves is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.9. Its configured downfall value is 0.0. Tags include caves, lush_caves, overworld, monster, spawns_tropical_fish_at_any_height.",
+    "source_file": "behavior_pack/biomes/lush_caves.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_grove",
+    "category": "biome_technical_facts",
+    "question": "What is the Grove biome?",
+    "answer": "Grove is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is -0.2. Its configured downfall value is 0.8. Tags include mountains, cold, monster, overworld, grove.",
+    "source_file": "behavior_pack/biomes/grove.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_mangrove_swamp",
+    "category": "biome_technical_facts",
+    "question": "What is the Mangrove Swamp biome?",
+    "answer": "Mangrove Swamp is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.8. Its configured downfall value is 0.9. Tags include mangrove_swamp, overworld, monster, spawns_slimes_on_surface, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/mangrove_swamp.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_dripstone_caves",
+    "category": "biome_technical_facts",
+    "question": "What is the Dripstone Caves biome?",
+    "answer": "Dripstone Caves is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.2. Its configured downfall value is 0.0. Tags include caves, overworld, dripstone_caves, monster.",
+    "source_file": "behavior_pack/biomes/dripstone_caves.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_deep_frozen_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Deep Frozen Ocean biome?",
+    "answer": "Deep Frozen Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include deep, frozen, monster, ocean, overworld.",
+    "source_file": "behavior_pack/biomes/deep_frozen_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_warped_forest",
+    "category": "biome_technical_facts",
+    "question": "What is the Warped Forest biome?",
+    "answer": "Warped Forest is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include nether, netherwart_forest, warped_forest, spawn_endermen, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/warped_forest.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_deep_dark",
+    "category": "biome_technical_facts",
+    "question": "What is the Deep Dark biome?",
+    "answer": "Deep Dark is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.8. Its configured downfall value is 0.4. Tags include caves, deep_dark, overworld, spawns_cold_variant_farm_animals, spawns_cold_variant_frogs.",
+    "source_file": "behavior_pack/biomes/deep_dark.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_jagged_peaks",
+    "category": "biome_technical_facts",
+    "question": "What is the Jagged Peaks biome?",
+    "answer": "Jagged Peaks is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is -0.7. Its configured downfall value is 0.9. Tags include mountains, monster, overworld, frozen, jagged_peaks.",
+    "source_file": "behavior_pack/biomes/jagged_peaks.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_sulfur_caves",
+    "category": "biome_technical_facts",
+    "question": "What is the Sulfur Caves biome?",
+    "answer": "Sulfur Caves is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.8. Its configured downfall value is 0.4. Tags include caves, sulfur_caves, overworld, monster.",
+    "source_file": "behavior_pack/biomes/sulfur_caves.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_lukewarm_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Lukewarm Ocean biome?",
+    "answer": "Lukewarm Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include lukewarm, monster, ocean, overworld, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/lukewarm_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_frozen_peaks",
+    "category": "biome_technical_facts",
+    "question": "What is the Frozen Peaks biome?",
+    "answer": "Frozen Peaks is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is -0.7. Its configured downfall value is 0.9. Tags include mountains, monster, overworld, frozen, frozen_peaks.",
+    "source_file": "behavior_pack/biomes/frozen_peaks.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_jungle_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Jungle Hills biome?",
+    "answer": "Jungle Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.95. Its configured downfall value is 0.9. Tags include animal, hills, jungle, monster, overworld.",
+    "source_file": "behavior_pack/biomes/jungle_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_soulsand_valley",
+    "category": "biome_technical_facts",
+    "question": "What is the Soulsand Valley biome?",
+    "answer": "Soulsand Valley is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include nether, soulsand_valley, spawn_ghast, spawn_endermen, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/soulsand_valley.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_jungle_edge",
+    "category": "biome_technical_facts",
+    "question": "What is the Jungle Edge biome?",
+    "answer": "Jungle Edge is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.95. Its configured downfall value is 0.8. Tags include animal, edge, jungle, monster, overworld.",
+    "source_file": "behavior_pack/biomes/jungle_edge.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_bamboo_jungle",
+    "category": "biome_technical_facts",
+    "question": "What is the Bamboo Jungle biome?",
+    "answer": "Bamboo Jungle is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.95. Its configured downfall value is 0.9. Tags include animal, bamboo, jungle, monster, overworld.",
+    "source_file": "behavior_pack/biomes/bamboo_jungle.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_crimson_forest",
+    "category": "biome_technical_facts",
+    "question": "What is the Crimson Forest biome?",
+    "answer": "Crimson Forest is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include nether, netherwart_forest, crimson_forest, spawn_few_zombified_piglins, spawn_piglin.",
+    "source_file": "behavior_pack/biomes/crimson_forest.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_beach",
+    "category": "biome_technical_facts",
+    "question": "What is the Beach biome?",
+    "answer": "Beach is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.8. Its configured downfall value is 0.4. Tags include beach, monster, overworld, warm.",
+    "source_file": "behavior_pack/biomes/beach.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_stony_peaks",
+    "category": "biome_technical_facts",
+    "question": "What is the Stony Peaks biome?",
+    "answer": "Stony Peaks is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 1.0. Its configured downfall value is 0.3. Tags include mountains, monster, overworld, spawns_cold_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/stony_peaks.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_mega_taiga_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Mega Taiga Hills biome?",
+    "answer": "Mega Taiga Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.3. Its configured downfall value is 0.8. Tags include animal, forest, hills, mega, monster.",
+    "source_file": "behavior_pack/biomes/mega_taiga_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_deep_cold_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Deep Cold Ocean biome?",
+    "answer": "Deep Cold Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include cold, deep, monster, ocean, overworld.",
+    "source_file": "behavior_pack/biomes/deep_cold_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_mesa_plateau_stone",
+    "category": "biome_technical_facts",
+    "question": "What is the Mesa Plateau Stone biome?",
+    "answer": "Mesa Plateau Stone is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include animal, mesa, monster, overworld, plateau.",
+    "source_file": "behavior_pack/biomes/mesa_plateau_stone.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_jungle",
+    "category": "biome_technical_facts",
+    "question": "What is the Jungle biome?",
+    "answer": "Jungle is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.95. Its configured downfall value is 0.9. Tags include animal, has_structure_trail_ruins, jungle, monster, overworld.",
+    "source_file": "behavior_pack/biomes/jungle.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_plains",
+    "category": "biome_technical_facts",
+    "question": "What is the Plains biome?",
+    "answer": "Plains is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.8. Its configured downfall value is 0.4. Tags include animal, monster, overworld, plains, bee_habitat.",
+    "source_file": "behavior_pack/biomes/plains.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_sunflower_plains",
+    "category": "biome_technical_facts",
+    "question": "What is the Sunflower Plains biome?",
+    "answer": "Sunflower Plains is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.8. Its configured downfall value is 0.4. Tags include animal, monster, mutated, overworld, plains.",
+    "source_file": "behavior_pack/biomes/sunflower_plains.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_ice_mountains",
+    "category": "biome_technical_facts",
+    "question": "What is the Ice Mountains biome?",
+    "answer": "Ice Mountains is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.0. Its configured downfall value is 0.5. Tags include frozen, ice, mountain, overworld, spawns_cold_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/ice_mountains.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_ice_plains_spikes",
+    "category": "biome_technical_facts",
+    "question": "What is the Ice Plains Spikes biome?",
+    "answer": "Ice Plains Spikes is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.0. Its configured downfall value is 1.0. Tags include frozen, ice_plains, monster, mutated, overworld.",
+    "source_file": "behavior_pack/biomes/ice_plains_spikes.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_bamboo_jungle_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Bamboo Jungle Hills biome?",
+    "answer": "Bamboo Jungle Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.95. Its configured downfall value is 0.9. Tags include animal, bamboo, hills, jungle, monster.",
+    "source_file": "behavior_pack/biomes/bamboo_jungle_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_deep_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Deep Ocean biome?",
+    "answer": "Deep Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include deep, monster, ocean, overworld, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/deep_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Ocean biome?",
+    "answer": "Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include monster, ocean, overworld, fast_fishing, high_seas.",
+    "source_file": "behavior_pack/biomes/ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_forest",
+    "category": "biome_technical_facts",
+    "question": "What is the Forest biome?",
+    "answer": "Forest is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.7. Its configured downfall value is 0.8. Tags include animal, forest, monster, overworld, bee_habitat.",
+    "source_file": "behavior_pack/biomes/forest.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_deep_lukewarm_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Deep Lukewarm Ocean biome?",
+    "answer": "Deep Lukewarm Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include deep, lukewarm, monster, ocean, overworld.",
+    "source_file": "behavior_pack/biomes/deep_lukewarm_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_flower_forest",
+    "category": "biome_technical_facts",
+    "question": "What is the Flower Forest biome?",
+    "answer": "Flower Forest is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.7. Its configured downfall value is 0.8. Tags include animal, flower_forest, monster, mutated, overworld.",
+    "source_file": "behavior_pack/biomes/flower_forest.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_extreme_hills_edge",
+    "category": "biome_technical_facts",
+    "question": "What is the Extreme Hills Edge biome?",
+    "answer": "Extreme Hills Edge is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.2. Its configured downfall value is 0.3. Tags include animal, edge, extreme_hills, monster, mountain.",
+    "source_file": "behavior_pack/biomes/extreme_hills_edge.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_cherry_grove",
+    "category": "biome_technical_facts",
+    "question": "What is the Cherry Grove biome?",
+    "answer": "Cherry Grove is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.3. Its configured downfall value is 0.8. Tags include mountains, monster, overworld, cherry_grove, bee_habitat.",
+    "source_file": "behavior_pack/biomes/cherry_grove.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_meadow",
+    "category": "biome_technical_facts",
+    "question": "What is the Meadow biome?",
+    "answer": "Meadow is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.3. Its configured downfall value is 0.8. Tags include mountains, monster, overworld, meadow, bee_habitat.",
+    "source_file": "behavior_pack/biomes/meadow.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_birch_forest_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Birch Forest Hills biome?",
+    "answer": "Birch Forest Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.6. Its configured downfall value is 0.6. Tags include animal, birch, forest, hills, monster.",
+    "source_file": "behavior_pack/biomes/birch_forest_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_river",
+    "category": "biome_technical_facts",
+    "question": "What is the River biome?",
+    "answer": "River is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include overworld, spawns_more_frequent_drowned, spawns_reduced_water_ambient_mobs, spawns_river_mobs, river.",
+    "source_file": "behavior_pack/biomes/river.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_cold_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Cold Ocean biome?",
+    "answer": "Cold Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include cold, monster, ocean, overworld, spawns_cold_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/cold_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_deep_warm_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Deep Warm Ocean biome?",
+    "answer": "Deep Warm Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include deep, monster, ocean, overworld, warm.",
+    "source_file": "behavior_pack/biomes/deep_warm_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_savanna_plateau",
+    "category": "biome_technical_facts",
+    "question": "What is the Savanna Plateau biome?",
+    "answer": "Savanna Plateau is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 1.0. Its configured downfall value is 0.0. Tags include animal, monster, overworld, plateau, savanna.",
+    "source_file": "behavior_pack/biomes/savanna_plateau.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_cold_taiga_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Cold Taiga Hills biome?",
+    "answer": "Cold Taiga Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is -0.5. Its configured downfall value is 0.4. Tags include animal, cold, forest, hills, monster.",
+    "source_file": "behavior_pack/biomes/cold_taiga_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_taiga",
+    "category": "biome_technical_facts",
+    "question": "What is the Taiga biome?",
+    "answer": "Taiga is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.25. Its configured downfall value is 0.8. Tags include animal, forest, monster, overworld, taiga.",
+    "source_file": "behavior_pack/biomes/taiga.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_taiga_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Taiga Hills biome?",
+    "answer": "Taiga Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.25. Its configured downfall value is 0.8. Tags include animal, forest, hills, monster, overworld.",
+    "source_file": "behavior_pack/biomes/taiga_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_forest_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Forest Hills biome?",
+    "answer": "Forest Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.7. Its configured downfall value is 0.8. Tags include animal, hills, monster, overworld, forest.",
+    "source_file": "behavior_pack/biomes/forest_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_desert_hills",
+    "category": "biome_technical_facts",
+    "question": "What is the Desert Hills biome?",
+    "answer": "Desert Hills is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include desert, hills, monster, overworld, spawns_gold_rabbits.",
+    "source_file": "behavior_pack/biomes/desert_hills.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_extreme_hills_plus_trees",
+    "category": "biome_technical_facts",
+    "question": "What is the Extreme Hills Plus Trees biome?",
+    "answer": "Extreme Hills Plus Trees is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.2. Its configured downfall value is 0.3. Tags include animal, extreme_hills, forest, monster, mountain.",
+    "source_file": "behavior_pack/biomes/extreme_hills_plus_trees.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_pale_garden",
+    "category": "biome_technical_facts",
+    "question": "What is the Pale Garden biome?",
+    "answer": "Pale Garden is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.7. Its configured downfall value is 0.8. Tags include monster, overworld, pale_garden, has_structure_abandoned_camp.",
+    "source_file": "behavior_pack/biomes/pale_garden.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_dappled_forest",
+    "category": "biome_technical_facts",
+    "question": "What is the Dappled Forest biome?",
+    "answer": "Dappled Forest is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.6. Its configured downfall value is 0.6. Tags include animal, dappled_forest, monster, forest, overworld.",
+    "source_file": "behavior_pack/biomes/dappled_forest.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_mesa_bryce",
+    "category": "biome_technical_facts",
+    "question": "What is the Mesa Bryce biome?",
+    "answer": "Mesa Bryce is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include animal, mesa, monster, mutated, overworld.",
+    "source_file": "behavior_pack/biomes/mesa_bryce.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_mesa_plateau",
+    "category": "biome_technical_facts",
+    "question": "What is the Mesa Plateau biome?",
+    "answer": "Mesa Plateau is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 2.0. Its configured downfall value is 0.0. Tags include animal, mesa, monster, overworld, plateau.",
+    "source_file": "behavior_pack/biomes/mesa_plateau.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_birch_forest",
+    "category": "biome_technical_facts",
+    "question": "What is the Birch Forest biome?",
+    "answer": "Birch Forest is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.6. Its configured downfall value is 0.6. Tags include animal, birch, forest, monster, overworld.",
+    "source_file": "behavior_pack/biomes/birch_forest.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  },
+  {
+    "id": "biome_warm_ocean",
+    "category": "biome_technical_facts",
+    "question": "What is the Warm Ocean biome?",
+    "answer": "Warm Ocean is a biome listed in the Bedrock 1.26.50 vanilla samples. Its configured temperature is 0.5. Its configured downfall value is 0.5. Tags include monster, ocean, overworld, warm, spawns_warm_variant_farm_animals.",
+    "source_file": "behavior_pack/biomes/warm_ocean.biome.json",
+    "edition": "bedrock",
+    "review_status": "technical_metadata_verified_gameplay_explanation_pending",
+    "family_friendly": true
+  }
+]

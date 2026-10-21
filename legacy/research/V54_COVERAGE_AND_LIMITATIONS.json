@@ -1,0 +1,22 @@
+{
+  "ambiguous_aliases": 9,
+  "category_counts": {
+    "brewing": 72,
+    "enchantment": 42,
+    "entity": 128,
+    "recipe": 918
+  },
+  "cross_category_edges": 1865,
+  "important_limitations": [
+    "Entity components can be conditional; do not equate component presence with always-active behavior",
+    "Recipe variants may include stonecutting or other methods; do not call all of them crafting-table recipes",
+    "Loot entries represent possibilities, not guaranteed drops",
+    "Source files and indices do not establish in-game version correctness",
+    "Banter is creative writing, not a gameplay fact"
+  ],
+  "reverse_nodes": 452,
+  "source": "Existing cumulative V53 database; no claim of exhaustive game coverage",
+  "total_aliases": 1151,
+  "total_records": 1160,
+  "version": 54
+}

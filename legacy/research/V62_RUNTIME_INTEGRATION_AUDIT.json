@@ -1,0 +1,26 @@
+{
+  "version": 62,
+  "source_version": 61,
+  "records": 4783,
+  "by_kind": {
+    "biome": 89,
+    "block": 1463,
+    "enchantment": 42,
+    "entity": 129,
+    "item": 1630,
+    "brewing": 72,
+    "recipe": 918,
+    "loot_item": 440
+  },
+  "aliases": 2340,
+  "ingredient_keys": 429,
+  "recipe_variants": 1659,
+  "verified_in_game": false,
+  "limitations": [
+    "Source-derived metadata and component evidence are not runtime verification.",
+    "Many block/item registry entries have no survival acquisition method.",
+    "Question understanding is rule-based and not full natural-language comprehension.",
+    "Unknown questions fail closed; ambiguous names request clarification.",
+    "Some data may include non-survival or experimental registry entries."
+  ]
+}

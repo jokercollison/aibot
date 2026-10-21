@@ -1,0 +1,29 @@
+{
+  "version": 44,
+  "build": "offline",
+  "source": "Minecraft_AI_43.zip",
+  "index_counts": {
+    "recipes": 918,
+    "mobs": 123,
+    "enchantments": 42,
+    "brewing": 46,
+    "biomes": 89,
+    "loot": 440,
+    "profiles": 105
+  },
+  "design": [
+    "content-first schema",
+    "single deterministic router",
+    "explicit unknown answers",
+    "conditional evidence never represented as definitive",
+    "JSON stays separate from code",
+    "no API integration until Bedrock-safe packaging"
+  ],
+  "known_limits": [
+    "Question understanding uses rules and token matching, not a language model",
+    "Some category data is technical evidence rather than player-ready facts",
+    "Crafting variants default to first recipe; future ranking needed",
+    "Mob engine defaults may be absent from vanilla behavior definitions",
+    "No in-game Bedrock test has been performed"
+  ]
+}

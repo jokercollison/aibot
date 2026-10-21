@@ -1,0 +1,25 @@
+{
+  "version": 56,
+  "categories": {
+    "brewing": 72,
+    "entity": 128,
+    "recipe": 918,
+    "enchantment": 42,
+    "block": 98,
+    "item": 68,
+    "biome": 89,
+    "loot_item": 440
+  },
+  "total_records": 1855,
+  "alias_terms": 2307,
+  "ingredient_keys": 429,
+  "ambiguous_aliases": 398,
+  "notes": [
+    "98 block and 68 item definitions are only definitions present in behavior_pack; NOT all vanilla block/item identifiers",
+    "Recipe outputs can include blocks/items not represented by standalone definition files",
+    "Loot entries represent possible drops, not guaranteed acquisition",
+    "The 42 enchantment records come from curated references with runtime verification pending",
+    "Source provenance and missing facts are preserved; no invented values",
+    "Cross-category aliases may be ambiguous and must be disambiguated before answering"
+  ]
+}

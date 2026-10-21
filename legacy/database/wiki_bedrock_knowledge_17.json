@@ -1,0 +1,134 @@
+[
+  {
+    "id": "wiki17_mob_farm_overview",
+    "category": "gameplay",
+    "question": "How does a mob farm work?",
+    "answer": "A mob farm provides suitable spawning areas and funnels mobs toward a collection or killing point. Efficiency depends on spawn rules, location, and nearby mobs.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Mob_farm",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_mob_farm_bedrock_caps",
+    "category": "gameplay",
+    "question": "Why is my Bedrock mob farm slow?",
+    "answer": "Bedrock spawning limits and local mob populations can reduce farm rates. Check nearby caves, spawnable surfaces, simulation distance, and whether the farm is designed for Bedrock.",
+    "edition": "bedrock_specific",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Mob_farm",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_mob_farm_water",
+    "category": "gameplay",
+    "question": "How can water help a mob farm?",
+    "answer": "Water streams can push spawned mobs into a collection shaft or grinder. Dispensers and redstone can periodically flush spawning platforms.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Mob_farm",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_spawn_proof_carpet",
+    "category": "gameplay",
+    "question": "Can hostile mobs spawn on carpet?",
+    "answer": "Carpet generally prevents normal hostile mob spawning on the covered block. Verify special mob and structure rules when designing farms.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Spawn-proofing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_spawn_proof_slabs",
+    "category": "gameplay",
+    "question": "Do bottom slabs stop mob spawning?",
+    "answer": "Bottom slabs are commonly used to prevent normal hostile mob spawning; top slabs and double slabs behave differently.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Spawn-proofing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_spawn_proof_glass",
+    "category": "gameplay",
+    "question": "Can hostile mobs spawn on glass?",
+    "answer": "Glass is normally a non-spawnable surface for standard hostile mob spawning.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Spawn-proofing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_mob_switch_difference",
+    "category": "gameplay",
+    "question": "Can I build a Java-style global mob switch in Bedrock?",
+    "answer": "No. Bedrock spawning and chunk-loading mechanics differ, so Java global mob-switch designs should not be presented as Bedrock solutions.",
+    "edition": "bedrock_specific",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Mob_switch",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_brew_base",
+    "category": "gameplay",
+    "question": "What is the usual base for effect potions?",
+    "answer": "Most effect potions start with an awkward potion, made by brewing nether wart into water bottles using a fueled brewing stand.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Template:Brewing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_brew_regeneration",
+    "category": "gameplay",
+    "question": "How do I brew a potion of regeneration?",
+    "answer": "Add a ghast tear to an awkward potion in a brewing stand.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Template:Brewing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_brew_splash",
+    "category": "gameplay",
+    "question": "How do I turn a potion into a splash potion?",
+    "answer": "Brew gunpowder into the regular potion to make its splash variant, when supported.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Template:Brewing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_brew_duration",
+    "category": "gameplay",
+    "question": "How do I make a potion last longer?",
+    "answer": "Brewing redstone dust into a supported potion can extend its duration; not every effect supports this modifier.",
+    "edition": "bedrock_general",
+    "source_url": "https://minecraft.wiki/w/Template:Brewing",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  },
+  {
+    "id": "wiki17_bedrock_blaze_drop",
+    "category": "gameplay",
+    "question": "What drops blaze rods?",
+    "answer": "Blazes can drop blaze rods when killed by a player or a tamed wolf. Looting changes the possible quantity.",
+    "edition": "bedrock_specific",
+    "source_url": "https://minecraft.wiki/w/Template:Drop_sources",
+    "status": "needs_1_26_50_test",
+    "content_screen": "family_friendly_pass",
+    "note": "Original concise paraphrase; validate against current Bedrock samples/game."
+  }
+]

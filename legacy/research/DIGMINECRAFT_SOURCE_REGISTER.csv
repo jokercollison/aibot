@@ -1,0 +1,15 @@
+category,page,url,review_status,notes
+brewing,Brewing recipes index,https://www.digminecraft.com/brewing_recipes/index.php,indexed,"Potion families, ingredients, variants, effects; individual Bedrock verification pending"
+commands,Give command,https://www.digminecraft.com/game_commands/give_command.php,reviewed_partially,Edition-specific syntax; verify current Bedrock arguments
+commands,Gamemode command,https://www.digminecraft.com/game_commands/gamemode_command.php,reviewed_partially,Modes and targets; filter Java-only legacy syntax
+commands,Clear command,https://www.digminecraft.com/game_commands/clear_command.php,reviewed_partially,Clear player inventory; current Bedrock syntax needs verification
+commands,Help command,https://www.digminecraft.com/game_commands/help_command.php,reviewed_partially,Shows available command help; permissions vary
+commands,List command,https://www.digminecraft.com/game_commands/list_command.php,reviewed_partially,List connected players; check platform support
+commands,Ability command,https://www.digminecraft.com/game_commands/ability_command.php,reviewed_partially,Education and Bedrock differences; validate before inclusion
+commands,Function command,https://www.digminecraft.com/game_commands/function_command.php,reviewed_partially,Execute function; avoid Java-only conditional syntax
+commands,Reload command,https://www.digminecraft.com/game_commands/reload_command.php,reviewed_partially,Reload game functions; edition differences
+commands,Spawnpoint command,https://www.digminecraft.com/game_commands/spawnpoint_command.php,reviewed_partially,Set player spawn; target/position syntax
+commands,Say command,https://www.digminecraft.com/game_commands/say_command.php,reviewed_partially,Broadcast chat message
+commands,Me command,https://www.digminecraft.com/game_commands/me_command.php,reviewed_partially,Display action message
+basic_recipes,Enchanting table recipe,https://www.digminecraft.com/basic_recipes/make_enchantment_table.php,reviewed_partially,Compare recipe with official samples
+block_recipes,Bedrock block,https://www.digminecraft.com/block_recipes/make_bedrock.php,reviewed_partially,Not survival-craftable; command acquisition differs by edition

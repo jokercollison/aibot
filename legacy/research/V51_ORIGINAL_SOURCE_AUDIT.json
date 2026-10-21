@@ -1,0 +1,249 @@
+{
+  "version": 51,
+  "source": "original user-supplied Bedrock Samples 1.26.50.4",
+  "entity_json_files": 128,
+  "entities_parsed": 105,
+  "parse_errors": [
+    {
+      "file": "behavior_pack/entities/area_effect_cloud.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/breeze_wind_charge_projectile.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/chest_minecart.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/dragon_fireball.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/elder_guardian.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/endermite.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/eye_of_ender_signal.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/fireworks_rocket.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/fish.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/ghast.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/lingering_potion.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/llama_spit.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/minecart.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/npc.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/ominous_item_spawner.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/phantom.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/small_fireball.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/snowball.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/splash_potion.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/tripod_camera.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/wind_charge_projectile.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/xp_bottle.json",
+      "issue": "'NoneType' object is not iterable"
+    },
+    {
+      "file": "behavior_pack/entities/xp_orb.json",
+      "issue": "'NoneType' object is not iterable"
+    }
+  ],
+  "v36_qa_count": 175,
+  "qa_audit_status_counts": {
+    "component_present_answer_not_semantically_verified": 148,
+    "entity_absent_from_samples": 26,
+    "component_not_found_in_extracted_scope": 1
+  },
+  "prior_26_missing_profile_rows_rechecked": [
+    {
+      "entity": "minecraft:breeze_wind_charge_projectile",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:chest_minecart",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:cod",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:cod",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:dragon_fireball",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:endermite",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:fireworks_rocket",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:ghast",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:ghast",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:lingering_potion",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:llama_spit",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:minecart",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:npc",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:npc",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:phantom",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:phantom",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:phantom",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:small_fireball",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:snowball",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:splash_potion",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:tripod_camera",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:wind_charge_projectile",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:xp_bottle",
+      "source_present": false,
+      "source_file": null
+    },
+    {
+      "entity": "minecraft:xp_orb",
+      "source_present": false,
+      "source_file": null
+    }
+  ],
+  "critical_corrections": [
+    "V50 source paths were not individually inspected. V51 opens and parses original source files directly.",
+    "Entity technical source existence does not verify gameplay Q&A truth.",
+    "Several entities absent from prior unified profiles do exist in original samples; minecraft:cod has no matching entity definition in this archive.",
+    "Not every entity is a mob; projectiles, minecarts, and effects must be classified separately."
+  ],
+  "next_steps": [
+    "Semantic validation of claims against exact component values and conditions",
+    "Supplement game-engine-only rules from verified Bedrock documentation",
+    "Integrate these source-backed profiles into question answering with explicit uncertainty"
+  ]
+}

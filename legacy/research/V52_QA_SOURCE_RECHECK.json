@@ -1,0 +1,618 @@
+[
+  {
+    "qa_id": "entity_minecraft_snow_golem",
+    "source_file": "behavior_pack/entities/snow_golem.json",
+    "source_entity": "minecraft:snow_golem",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines snow golem behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_drowned",
+    "source_file": "behavior_pack/entities/drowned.json",
+    "source_entity": "minecraft:drowned",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines drowned behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_pillager",
+    "source_file": "behavior_pack/entities/pillager.json",
+    "source_entity": "minecraft:pillager",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines pillager behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_armadillo",
+    "source_file": "behavior_pack/entities/armadillo.json",
+    "source_entity": "minecraft:armadillo",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines armadillo behavior related to breeding. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_guardian",
+    "source_file": "behavior_pack/entities/guardian.json",
+    "source_entity": "minecraft:guardian",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines guardian behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_husk",
+    "source_file": "behavior_pack/entities/husk.json",
+    "source_entity": "minecraft:husk",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines husk behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_chicken",
+    "source_file": "behavior_pack/entities/chicken.json",
+    "source_entity": "minecraft:chicken",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines chicken behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_endermite",
+    "source_file": "behavior_pack/entities/endermite.json",
+    "source_entity": "minecraft:endermite",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines endermite behavior related to combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_ender_dragon",
+    "source_file": "behavior_pack/entities/ender_dragon.json",
+    "source_entity": "minecraft:ender_dragon",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines ender dragon behavior related to combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_dolphin",
+    "source_file": "behavior_pack/entities/dolphin.json",
+    "source_entity": "minecraft:dolphin",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines dolphin behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_sheep",
+    "source_file": "behavior_pack/entities/sheep.json",
+    "source_entity": "minecraft:sheep",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines sheep behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_skeleton",
+    "source_file": "behavior_pack/entities/skeleton.json",
+    "source_entity": "minecraft:skeleton",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines skeleton behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_player",
+    "source_file": "behavior_pack/entities/player.json",
+    "source_entity": "minecraft:player",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines player behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zombie_horse",
+    "source_file": "behavior_pack/entities/zombie_horse.json",
+    "source_entity": "minecraft:zombie_horse",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zombie horse behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zombie_villager",
+    "source_file": "behavior_pack/entities/zombie_villager.json",
+    "source_entity": "minecraft:zombie_villager",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zombie villager behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_pufferfish",
+    "source_file": "behavior_pack/entities/pufferfish.json",
+    "source_entity": "minecraft:pufferfish",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines pufferfish behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_boat",
+    "source_file": "behavior_pack/entities/boat.json",
+    "source_entity": "minecraft:boat",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines boat behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_turtle",
+    "source_file": "behavior_pack/entities/turtle.json",
+    "source_entity": "minecraft:turtle",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines turtle behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zombie_pigman",
+    "source_file": "behavior_pack/entities/zombie_pigman.json",
+    "source_entity": "minecraft:zombie_pigman",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zombie pigman behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_tripod_camera",
+    "source_file": "behavior_pack/entities/tripod_camera.json",
+    "source_entity": "minecraft:tripod_camera",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines tripod camera behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_armor_stand",
+    "source_file": "behavior_pack/entities/armor_stand.json",
+    "source_entity": "minecraft:armor_stand",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines armor stand behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_stray",
+    "source_file": "behavior_pack/entities/stray.json",
+    "source_entity": "minecraft:stray",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines stray behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_sniffer",
+    "source_file": "behavior_pack/entities/sniffer.json",
+    "source_entity": "minecraft:sniffer",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines sniffer behavior related to breeding. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_tropicalfish",
+    "source_file": "behavior_pack/entities/tropicalfish.json",
+    "source_entity": "minecraft:tropicalfish",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines tropicalfish behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_fishing_hook",
+    "source_file": "behavior_pack/entities/fishing_hook.json",
+    "source_entity": "minecraft:fishing_hook",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines fishing hook behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_magma_cube",
+    "source_file": "behavior_pack/entities/magma_cube.json",
+    "source_entity": "minecraft:magma_cube",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines magma cube behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_donkey",
+    "source_file": "behavior_pack/entities/donkey.json",
+    "source_entity": "minecraft:donkey",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines donkey behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_wither",
+    "source_file": "behavior_pack/entities/wither.json",
+    "source_entity": "minecraft:wither",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines wither behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_cave_spider",
+    "source_file": "behavior_pack/entities/cave_spider.json",
+    "source_entity": "minecraft:cave_spider",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines cave spider behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_strider",
+    "source_file": "behavior_pack/entities/strider.json",
+    "source_entity": "minecraft:strider",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines strider behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_evocation_illager",
+    "source_file": "behavior_pack/entities/evocation_illager.json",
+    "source_entity": "minecraft:evocation_illager",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines evocation illager behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_cat",
+    "source_file": "behavior_pack/entities/cat.json",
+    "source_entity": "minecraft:cat",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines cat behavior related to taming, breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_trader_llama",
+    "source_file": "behavior_pack/entities/trader_llama.json",
+    "source_entity": "minecraft:trader_llama",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines trader llama behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_panda",
+    "source_file": "behavior_pack/entities/panda.json",
+    "source_entity": "minecraft:panda",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines panda behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_horse",
+    "source_file": "behavior_pack/entities/horse.json",
+    "source_entity": "minecraft:horse",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines horse behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_elder_guardian",
+    "source_file": "behavior_pack/entities/elder_guardian.json",
+    "source_entity": "minecraft:elder_guardian",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines elder guardian behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_glow_squid",
+    "source_file": "behavior_pack/entities/glow_squid.json",
+    "source_entity": "minecraft:glow_squid",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines glow squid behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_parrot",
+    "source_file": "behavior_pack/entities/parrot.json",
+    "source_entity": "minecraft:parrot",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines parrot behavior related to taming, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_bee",
+    "source_file": "behavior_pack/entities/bee.json",
+    "source_entity": "minecraft:bee",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines bee behavior related to breeding, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_cod",
+    "source_file": "behavior_pack/entities/fish.json",
+    "source_entity": "minecraft:cod",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines cod behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_pig",
+    "source_file": "behavior_pack/entities/pig.json",
+    "source_entity": "minecraft:pig",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines pig behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_skeleton_horse",
+    "source_file": "behavior_pack/entities/skeleton_horse.json",
+    "source_entity": "minecraft:skeleton_horse",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines skeleton horse behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_blaze",
+    "source_file": "behavior_pack/entities/blaze.json",
+    "source_entity": "minecraft:blaze",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines blaze behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_vex",
+    "source_file": "behavior_pack/entities/vex.json",
+    "source_entity": "minecraft:vex",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines vex behavior related to combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zoglin",
+    "source_file": "behavior_pack/entities/zoglin.json",
+    "source_entity": "minecraft:zoglin",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zoglin behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_enderman",
+    "source_file": "behavior_pack/entities/enderman.json",
+    "source_entity": "minecraft:enderman",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines enderman behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_parched",
+    "source_file": "behavior_pack/entities/parched.json",
+    "source_entity": "minecraft:parched",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines parched behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_fox",
+    "source_file": "behavior_pack/entities/fox.json",
+    "source_entity": "minecraft:fox",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines fox behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_salmon",
+    "source_file": "behavior_pack/entities/salmon.json",
+    "source_entity": "minecraft:salmon",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines salmon behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_phantom",
+    "source_file": "behavior_pack/entities/phantom.json",
+    "source_entity": "minecraft:phantom",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines phantom behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_wolf",
+    "source_file": "behavior_pack/entities/wolf.json",
+    "source_entity": "minecraft:wolf",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines wolf behavior related to taming, breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_creeper",
+    "source_file": "behavior_pack/entities/creeper.json",
+    "source_entity": "minecraft:creeper",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines creeper behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_mule",
+    "source_file": "behavior_pack/entities/mule.json",
+    "source_entity": "minecraft:mule",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines mule behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_shulker",
+    "source_file": "behavior_pack/entities/shulker.json",
+    "source_entity": "minecraft:shulker",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines shulker behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_breeze",
+    "source_file": "behavior_pack/entities/breeze.json",
+    "source_entity": "minecraft:breeze",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines breeze behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_ghast",
+    "source_file": "behavior_pack/entities/ghast.json",
+    "source_entity": "minecraft:ghast",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines ghast behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_witch",
+    "source_file": "behavior_pack/entities/witch.json",
+    "source_entity": "minecraft:witch",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines witch behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_nautilus",
+    "source_file": "behavior_pack/entities/nautilus.json",
+    "source_entity": "minecraft:nautilus",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines nautilus behavior related to taming, breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_camel_husk",
+    "source_file": "behavior_pack/entities/camel_husk.json",
+    "source_entity": "minecraft:camel_husk",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines camel husk behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_piglin_brute",
+    "source_file": "behavior_pack/entities/piglin_brute.json",
+    "source_entity": "minecraft:piglin_brute",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines piglin brute behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_ocelot",
+    "source_file": "behavior_pack/entities/ocelot.json",
+    "source_entity": "minecraft:ocelot",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines ocelot behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zombie_nautilus",
+    "source_file": "behavior_pack/entities/zombie_nautilus.json",
+    "source_entity": "minecraft:zombie_nautilus",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zombie nautilus behavior related to taming, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_npc",
+    "source_file": "behavior_pack/entities/npc.json",
+    "source_entity": "minecraft:npc",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines npc behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zombie",
+    "source_file": "behavior_pack/entities/zombie.json",
+    "source_entity": "minecraft:zombie",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zombie behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_frog",
+    "source_file": "behavior_pack/entities/frog.json",
+    "source_entity": "minecraft:frog",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines frog behavior related to breeding. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_llama",
+    "source_file": "behavior_pack/entities/llama.json",
+    "source_entity": "minecraft:llama",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines llama behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_cow",
+    "source_file": "behavior_pack/entities/cow.json",
+    "source_entity": "minecraft:cow",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines cow behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_piglin",
+    "source_file": "behavior_pack/entities/piglin.json",
+    "source_entity": "minecraft:piglin",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines piglin behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_mooshroom",
+    "source_file": "behavior_pack/entities/mooshroom.json",
+    "source_entity": "minecraft:mooshroom",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines mooshroom behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_rabbit",
+    "source_file": "behavior_pack/entities/rabbit.json",
+    "source_entity": "minecraft:rabbit",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines rabbit behavior related to breeding, loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_polar_bear",
+    "source_file": "behavior_pack/entities/polar_bear.json",
+    "source_entity": "minecraft:polar_bear",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines polar bear behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_creaking",
+    "source_file": "behavior_pack/entities/creaking.json",
+    "source_entity": "minecraft:creaking",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines creaking behavior related to combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_zombie_villager_v2",
+    "source_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "source_entity": "minecraft:zombie_villager_v2",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines zombie villager v2 behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_bogged",
+    "source_file": "behavior_pack/entities/bogged.json",
+    "source_entity": "minecraft:bogged",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines bogged behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_axolotl",
+    "source_file": "behavior_pack/entities/axolotl.json",
+    "source_entity": "minecraft:axolotl",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines axolotl behavior related to breeding, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_silverfish",
+    "source_file": "behavior_pack/entities/silverfish.json",
+    "source_entity": "minecraft:silverfish",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines silverfish behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_iron_golem",
+    "source_file": "behavior_pack/entities/iron_golem.json",
+    "source_entity": "minecraft:iron_golem",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines iron golem behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_vindicator",
+    "source_file": "behavior_pack/entities/vindicator.json",
+    "source_entity": "minecraft:vindicator",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines vindicator behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_hoglin",
+    "source_file": "behavior_pack/entities/hoglin.json",
+    "source_entity": "minecraft:hoglin",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines hoglin behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_warden",
+    "source_file": "behavior_pack/entities/warden.json",
+    "source_entity": "minecraft:warden",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines warden behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_goat",
+    "source_file": "behavior_pack/entities/goat.json",
+    "source_entity": "minecraft:goat",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines goat behavior related to breeding, loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_squid",
+    "source_file": "behavior_pack/entities/squid.json",
+    "source_entity": "minecraft:squid",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines squid behavior related to loot. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_spider",
+    "source_file": "behavior_pack/entities/spider.json",
+    "source_entity": "minecraft:spider",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines spider behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_wither_skeleton",
+    "source_file": "behavior_pack/entities/wither_skeleton.json",
+    "source_entity": "minecraft:wither_skeleton",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines wither skeleton behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_copper_golem",
+    "source_file": "behavior_pack/entities/copper_golem.json",
+    "source_entity": "minecraft:copper_golem",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines copper golem behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_camel",
+    "source_file": "behavior_pack/entities/camel.json",
+    "source_entity": "minecraft:camel",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines camel behavior related to breeding. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_slime",
+    "source_file": "behavior_pack/entities/slime.json",
+    "source_entity": "minecraft:slime",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines slime behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  },
+  {
+    "qa_id": "entity_minecraft_ravager",
+    "source_file": "behavior_pack/entities/ravager.json",
+    "source_entity": "minecraft:ravager",
+    "status": "source_file_parsed_not_answer_validated",
+    "original_answer": "The Bedrock sample defines ravager behavior related to loot, combat. Specific gameplay advice needs separate verification."
+  }
+]

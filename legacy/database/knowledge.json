@@ -1,0 +1,130 @@
+{
+  "schema_version": "0.1.0",
+  "entries": [
+    {
+      "id": "crafting.piston",
+      "category": "crafting",
+      "intent": "recipe_lookup",
+      "subject": "minecraft:piston",
+      "example_utterances": [
+        "How do I make a piston?",
+        "What's the piston recipe?",
+        "How do you craft a piston?"
+      ],
+      "answer": "You'll need 3 wooden planks, 4 cobblestone, 1 iron ingot, and 1 redstone dust.",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [],
+      "verification_status": "needs_source_verification",
+      "notes": "Starter example; verify recipe against current Bedrock version before release."
+    },
+    {
+      "id": "brewing.strength",
+      "category": "brewing",
+      "intent": "knowledge_lookup",
+      "subject": "potion_of_strength",
+      "example_utterances": [
+        "How do I brew a Strength potion?"
+      ],
+      "answer": "Brew a water bottle with nether wart to make an Awkward Potion, then add blaze powder to produce a Potion of Strength (3:00).",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [
+        "https://www.digminecraft.com/brewing_recipes/make_potion_strength.php"
+      ],
+      "verification_status": "source_checked_bedrock_details_need_vanilla_validation",
+      "edition": "bedrock",
+      "notes": "Original concise summary from DigMinecraft; verify against Bedrock 1.26.50 before production."
+    },
+    {
+      "id": "brewing.poison_extended",
+      "category": "brewing",
+      "intent": "knowledge_lookup",
+      "subject": "potion_of_poison_extended",
+      "example_utterances": [
+        "How do I make Poison last longer?"
+      ],
+      "answer": "Add redstone dust to a Potion of Poison to extend its duration. DigMinecraft lists 2:00 for Bedrock Edition; verify in the target game version.",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [
+        "https://www.digminecraft.com/brewing_recipes/make_potion_poison_extended.php"
+      ],
+      "verification_status": "source_checked_version_check_needed",
+      "edition": "bedrock",
+      "notes": "Original concise summary from DigMinecraft; verify against Bedrock 1.26.50 before production."
+    },
+    {
+      "id": "brewing.poison_ii",
+      "category": "brewing",
+      "intent": "knowledge_lookup",
+      "subject": "potion_of_poison_ii",
+      "example_utterances": [
+        "How do I make Poison II?"
+      ],
+      "answer": "Add glowstone dust to a standard Potion of Poison to make a stronger, shorter-duration Poison II potion.",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [
+        "https://www.digminecraft.com/brewing_recipes/make_potion_poison_extended2.php"
+      ],
+      "verification_status": "source_checked_version_check_needed",
+      "edition": "bedrock",
+      "notes": "Original concise summary from DigMinecraft; verify against Bedrock 1.26.50 before production."
+    },
+    {
+      "id": "commands.help",
+      "category": "commands",
+      "intent": "knowledge_lookup",
+      "subject": "help",
+      "example_utterances": [
+        "How can I see Minecraft commands?"
+      ],
+      "answer": "Use /help to see available commands, or /help followed by a command name for details. Available help depends on game settings.",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [
+        "https://www.digminecraft.com/game_commands/help_command.php"
+      ],
+      "verification_status": "source_checked_bedrock_command_validation_pending",
+      "edition": "bedrock",
+      "notes": "Original concise summary from DigMinecraft; verify against Bedrock 1.26.50 before production."
+    },
+    {
+      "id": "commands.list",
+      "category": "commands",
+      "intent": "knowledge_lookup",
+      "subject": "list",
+      "example_utterances": [
+        "How do I see who is online?"
+      ],
+      "answer": "Use /list to show players connected to the game. DigMinecraft states it works without enabling cheats.",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [
+        "https://www.digminecraft.com/game_commands/list_command.php"
+      ],
+      "verification_status": "source_checked_bedrock_command_validation_pending",
+      "edition": "bedrock",
+      "notes": "Original concise summary from DigMinecraft; verify against Bedrock 1.26.50 before production."
+    },
+    {
+      "id": "brewing.overview",
+      "category": "brewing",
+      "intent": "knowledge_lookup",
+      "subject": "brewing_overview",
+      "example_utterances": [
+        "How does brewing work?"
+      ],
+      "answer": "A brewing stand uses blaze powder as fuel. Start with water bottles, make an Awkward Potion using nether wart, then add an effect ingredient. Redstone generally extends duration and glowstone generally strengthens an effect, when supported.",
+      "response_variants": [],
+      "action_id": null,
+      "source_urls": [
+        "https://www.digminecraft.com/brewing_recipes/index.php"
+      ],
+      "verification_status": "source_checked_general_rule_validate_exceptions",
+      "edition": "bedrock",
+      "notes": "Original concise summary from DigMinecraft; verify against Bedrock 1.26.50 before production."
+    }
+  ]
+}

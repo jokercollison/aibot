@@ -1,0 +1,15 @@
+"use strict";
+const assert=require('node:assert/strict');
+const api=require('../scripts/evidence_query_v49');
+const recipe=api.lookupRecipe('hopper');assert.equal(recipe.status,'found');assert.ok(recipe.recipes.length);
+assert.equal(api.lookupRecipe('completely_nonexistent_block').status,'unknown');
+assert.equal(api.lookupMob('snow_golem').status,'found');
+assert.equal(api.lookupMob('snow_golem','drown').topic,'breathing');
+assert.equal(api.lookupMob('snow_golem','lava').topic,'fire_and_lava');
+assert.equal(api.lookupMob('snow_golem','scared').topic,'fear_and_avoidance');
+assert.equal(api.lookupMob('imaginary_mob').status,'unknown');
+assert.equal(api.lookupMob('snow_golem','invented_topic').status,'unsupported_topic');
+assert.equal(api.lookupMob('snow_golem','breed').status,'unverified');
+assert.ok(api.lookupIngredientUses('iron_ingot').outputs.length>0);
+assert.equal(api.lookupIngredientUses('nonexistent_material').status,'unknown');
+console.log('PASS 11 evidence/recipe checks');

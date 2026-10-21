@@ -1,0 +1,25 @@
+{
+  "version": 66,
+  "source": "Bedrock Samples 1.26.50.4, previously extracted v65 indexes",
+  "acquisition_records": 3086,
+  "unique_identifiers": 1985,
+  "without_recipe_or_loot_evidence": 1245,
+  "source_types": {
+    "chests": 862,
+    "entities": 340,
+    "gameplay": 53,
+    "blocks": 198,
+    "other": 69,
+    "equipment": 17
+  },
+  "loot_tables": 290,
+  "spawn_rule_entities": 56,
+  "spawn_alternatives": 83,
+  "limitations": [
+    "No wiki-only facts added",
+    "Source evidence is not full acquisition coverage",
+    "Entity spawning may be affected by engine rules and settings",
+    "Table paths are not confirmed physical locations"
+  ],
+  "runtime_checks": "7 checks passed"
+}

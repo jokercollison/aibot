@@ -1,0 +1,6091 @@
+{
+  "allay": {
+    "id": "allay",
+    "source": "behavior_pack/entities/allay.json",
+    "families": [
+      "allay",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocateTime": 0,
+        "totalSupply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "deals_damage": "no",
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "player"
+                  },
+                  {
+                    "subject": "other",
+                    "test": "is_owner"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "armadillo": {
+    "id": "armadillo",
+    "source": "behavior_pack/entities/armadillo.json",
+    "families": [
+      "armadillo",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "conditional_group:minecraft:unrolled/minecraft:damage_sensor",
+        "conditional_group:minecraft:rolled_up/minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:adult/minecraft:breedable",
+        "conditional_group:minecraft:adult_unrolled/minecraft:behavior.breed"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "minecraft:baby",
+      "minecraft:adult",
+      "minecraft:adult_unrolled",
+      "minecraft:unrolled",
+      "minecraft:rolled_up"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "armor_stand": {
+    "id": "armor_stand",
+    "source": "behavior_pack/entities/armor_stand.json",
+    "families": [
+      "armor_stand",
+      "inanimate",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/armor_stand.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "arrow": {
+    "id": "arrow",
+    "source": "behavior_pack/entities/arrow.json",
+    "families": [
+      "projectile",
+      "arrow"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "axolotl": {
+    "id": "axolotl",
+    "source": "behavior_pack/entities/axolotl.json",
+    "families": [
+      "aquatic",
+      "axolotl",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [
+        "conditional_group:axolotl_adult/minecraft:behavior.breed",
+        "conditional_group:axolotl_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": []
+    },
+    "conditional_groups": [
+      "axolotl_baby",
+      "axolotl_adult",
+      "axolotl_in_water",
+      "axolotl_on_land_in_rain"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true,
+        "breathes_air": true,
+        "generates_bubbles": false
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "lightning",
+          "deals_damage": "yes",
+          "damage_multiplier": 2000.0
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "bat": {
+    "id": "bat",
+    "source": "behavior_pack/entities/bat.json",
+    "families": [
+      "bat",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "bee": {
+    "id": "bee",
+    "source": "behavior_pack/entities/bee.json",
+    "families": [
+      "bee",
+      "mob",
+      "arthropod"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition",
+        "conditional_group:perish/minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "conditional_group:escape_fire/minecraft:behavior.panic",
+        "conditional_group:countdown_to_perish/minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:bee_adult/minecraft:behavior.breed",
+        "conditional_group:bee_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "conditional_group:track_attacker/minecraft:behavior.hurt_by_target",
+        "conditional_group:take_nearest_target/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": []
+    },
+    "conditional_groups": [
+      "bee_baby",
+      "bee_adult",
+      "track_attacker",
+      "escape_fire",
+      "countdown_to_perish",
+      "perish",
+      "take_nearest_target",
+      "shelter_detection",
+      "abort_shelter_detection"
+    ],
+    "mechanics": {
+      "breathable": {
+        "totalSupply": 0,
+        "suffocateTime": -1
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "test": "is_block",
+                "subject": "block",
+                "value": "minecraft:sweet_berry_bush"
+              }
+            },
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "blaze": {
+    "id": "blaze",
+    "source": "behavior_pack/entities/blaze.json",
+    "families": [
+      "blaze",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": {},
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "drowning",
+            "damage_per_tick": 1,
+            "filters": {
+              "test": "in_contact_with_water"
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/blaze.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "boat": {
+    "id": "boat",
+    "source": "behavior_pack/entities/boat.json",
+    "families": [
+      "boat",
+      "inanimate"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/boat.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "bogged": {
+    "id": "bogged",
+    "source": "behavior_pack/entities/bogged.json",
+    "families": [
+      "bogged",
+      "skeleton",
+      "monster",
+      "mob",
+      "undead"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:melee_attack",
+      "minecraft:ranged_attack",
+      "minecraft:ranged_attack_hard"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/bogged.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "breeze": {
+    "id": "breeze",
+    "source": "behavior_pack/entities/breeze.json",
+    "families": [
+      "breeze",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          },
+          {
+            "cause": "projectile",
+            "on_damage": {
+              "filters": {
+                "operator": "!=",
+                "test": "is_family",
+                "subject": "damager",
+                "value": "wind_charge"
+              }
+            },
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/breeze.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "camel": {
+    "id": "camel",
+    "source": "behavior_pack/entities/camel.json",
+    "families": [
+      "camel",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:camel_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:camel_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "minecraft:camel_baby",
+      "minecraft:camel_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "yes",
+          "damage_modifier": -4
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "camel_husk": {
+    "id": "camel_husk",
+    "source": "behavior_pack/entities/camel_husk.json",
+    "families": [
+      "camel_husk",
+      "mob",
+      "undead"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:camel_husk_with_no_hostile_rider"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": true,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "damage_modifier": -4,
+          "deals_damage": "yes"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/camel_husk.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "cat": {
+    "id": "cat",
+    "source": "behavior_pack/entities/cat.json",
+    "families": [
+      "cat",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic",
+        "conditional_group:minecraft:cat_wild/minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:cat_adult/minecraft:breedable",
+        "conditional_group:minecraft:cat_adult/minecraft:behavior.breed"
+      ],
+      "taming": [
+        "conditional_group:minecraft:cat_wild/minecraft:tameable"
+      ],
+      "combat": [
+        "conditional_group:minecraft:cat_wild/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:cat_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:cat_baby",
+      "minecraft:cat_adult",
+      "minecraft:cat_wild"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "cave_spider": {
+    "id": "cave_spider",
+    "source": "behavior_pack/entities/cave_spider.json",
+    "families": [
+      "cavespider",
+      "monster",
+      "arthropod",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:spider_angry/minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:spider_hostile/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:spider_angry",
+      "minecraft:spider_hostile",
+      "minecraft:spider_neutral"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/spider.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "chest_boat": {
+    "id": "chest_boat",
+    "source": "behavior_pack/entities/chest_boat.json",
+    "families": [
+      "boat",
+      "inanimate"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "chicken": {
+    "id": "chicken",
+    "source": "behavior_pack/entities/chicken.json",
+    "families": [
+      "chicken",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:chicken_adult/minecraft:breedable",
+        "conditional_group:minecraft:chicken_adult/minecraft:behavior.breed"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:chicken_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:chicken_baby",
+      "minecraft:chicken_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "command_block_minecart": {
+    "id": "command_block_minecart",
+    "source": "behavior_pack/entities/command_block_minecart.json",
+    "families": [
+      "minecart",
+      "inanimate"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "copper_golem": {
+    "id": "copper_golem",
+    "source": "behavior_pack/entities/copper_golem.json",
+    "families": [
+      "copper_golem",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          },
+          {
+            "deals_damage": "no",
+            "on_damage": {
+              "event": "minecraft:remove_oxidation_layer",
+              "filters": {
+                "all_of": [
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "lightning"
+                  },
+                  {
+                    "operator": "==",
+                    "test": "is_variant",
+                    "subject": "self",
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/copper_golem.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "cow": {
+    "id": "cow",
+    "source": "behavior_pack/entities/cow.json",
+    "families": [
+      "cow",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "minecraft:behavior.breed",
+        "conditional_group:minecraft:cow_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:cow_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:cow_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:cow_baby",
+      "minecraft:cow_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "creaking": {
+    "id": "creaking",
+    "source": "behavior_pack/entities/creaking.json",
+    "families": [
+      "creaking",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "conditional_group:minecraft:spawned_by_player/minecraft:hurt_on_condition",
+        "conditional_group:minecraft:spawned_by_creaking_heart/minecraft:damage_sensor",
+        "conditional_group:minecraft:spawned_by_creaking_heart/minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "minecraft:mobile",
+      "minecraft:spawned_by_player",
+      "minecraft:spawned_by_creaking_heart"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "creeper": {
+    "id": "creeper",
+    "source": "behavior_pack/entities/creeper.json",
+    "families": [
+      "creeper",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "deals_damage": "no",
+          "on_damage": {
+            "event": "minecraft:become_charged",
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "lightning"
+            }
+          }
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/creeper.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "cushion": {
+    "id": "cushion",
+    "source": "behavior_pack/entities/cushion.json",
+    "families": [
+      "cushion",
+      "inanimate",
+      "actor"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "dolphin": {
+    "id": "dolphin",
+    "source": "behavior_pack/entities/dolphin.json",
+    "families": [
+      "aquatic",
+      "dolphin",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "conditional_group:dolphin_baby/minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "conditional_group:dolphin_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "dolphin_adult",
+      "dolphin_baby",
+      "dolphin_swimming_navigation",
+      "dolphin_on_land_in_rain"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 240,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": false,
+        "generates_bubbles": false
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "donkey": {
+    "id": "donkey",
+    "source": "behavior_pack/entities/donkey.json",
+    "families": [
+      "donkey",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:donkey_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:donkey_tamed/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:donkey_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:donkey_baby",
+      "minecraft:donkey_adult",
+      "minecraft:donkey_tamed",
+      "minecraft:donkey_unchested",
+      "minecraft:donkey_chested"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "drowned": {
+    "id": "drowned",
+    "source": "behavior_pack/entities/drowned.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement",
+        "conditional_group:minecraft:baby_drowned/minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:baby_drowned",
+      "minecraft:adult_drowned"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": true,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/drowned.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "egg": {
+    "id": "egg",
+    "source": "behavior_pack/entities/egg.json",
+    "families": [
+      "projectile",
+      "egg"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "ender_crystal": {
+    "id": "ender_crystal",
+    "source": "behavior_pack/entities/ender_crystal.json",
+    "families": [],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "ender_dragon": {
+    "id": "ender_dragon",
+    "source": "behavior_pack/entities/ender_dragon.json",
+    "families": [
+      "dragon",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "ender_pearl": {
+    "id": "ender_pearl",
+    "source": "behavior_pack/entities/ender_pearl.json",
+    "families": [
+      "projectile",
+      "ender_pearl"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "enderman": {
+    "id": "enderman",
+    "source": "behavior_pack/entities/enderman.json",
+    "families": [
+      "enderman",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:riding",
+      "minecraft:not_riding"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          },
+          {
+            "filters": {
+              "test": "in_contact_with_water"
+            },
+            "cause": "drowning",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/enderman.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "evocation_illager": {
+    "id": "evocation_illager",
+    "source": "behavior_pack/entities/evocation_illager.json",
+    "families": [
+      "evocation_illager",
+      "monster",
+      "illager",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/evocation_illager.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "fireball": {
+    "id": "fireball",
+    "source": "behavior_pack/entities/fireball.json",
+    "families": [
+      "projectile",
+      "fireball"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "fishing_hook": {
+    "id": "fishing_hook",
+    "source": "behavior_pack/entities/fishing_hook.json",
+    "families": [
+      "projectile",
+      "fishing_hook"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot",
+        "conditional_group:loot_jungle/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "loot_jungle"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/gameplay/fishing.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "fox": {
+    "id": "fox",
+    "source": "behavior_pack/entities/fox.json",
+    "families": [
+      "fox",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "conditional_group:minecraft:docile_fox/minecraft:behavior.panic",
+        "conditional_group:minecraft:defending_fox/minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:fox_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:fox_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:fox_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:fox_baby",
+      "minecraft:fox_adult",
+      "minecraft:docile_fox",
+      "minecraft:defending_fox",
+      "minecraft:fox_thunderstorm",
+      "minecraft:fox_day",
+      "minecraft:fox_night"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "test": "is_block",
+                "subject": "block",
+                "value": "minecraft:sweet_berry_bush"
+              }
+            },
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "frog": {
+    "id": "frog",
+    "source": "behavior_pack/entities/frog.json",
+    "families": [
+      "frog",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": true,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "generates_bubbles": false,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "damage_modifier": -5,
+          "deals_damage": "yes"
+        }
+      },
+      "breedable": {
+        "breed_items": [
+          "slime_ball"
+        ],
+        "breeds_with": {
+          "minecraft:frog": {
+            "event": "become_pregnant",
+            "target": "self"
+          }
+        },
+        "causes_pregnancy": true,
+        "require_tame": false
+      },
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "glow_squid": {
+    "id": "glow_squid",
+    "source": "behavior_pack/entities/glow_squid.json",
+    "families": [
+      "aquatic",
+      "squid",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:squid_baby"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": false,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/glow_squid.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "goat": {
+    "id": "goat",
+    "source": "behavior_pack/entities/goat.json",
+    "families": [
+      "goat",
+      "animal"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:goat_adult/minecraft:behavior.breed",
+        "conditional_group:goat_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:goat_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "goat_baby",
+      "goat_adult",
+      "interact_default",
+      "interact_screamer"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "yes",
+          "damage_modifier": -10
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "guardian": {
+    "id": "guardian",
+    "source": "behavior_pack/entities/guardian.json",
+    "families": [
+      "aquatic",
+      "guardian",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "conditional_group:minecraft:guardian_passive/minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:guardian_aggressive/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:guardian_aggressive",
+      "minecraft:guardian_passive"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/guardian.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "happy_ghast": {
+    "id": "happy_ghast",
+    "source": "behavior_pack/entities/happy_ghast.json",
+    "families": [
+      "happy_ghast",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "conditional_group:minecraft:baby/minecraft:breathable",
+        "conditional_group:minecraft:adult/minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "conditional_group:minecraft:baby/minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "minecraft:baby",
+      "minecraft:adult",
+      "minecraft:adult_mobile",
+      "minecraft:adult_unharnessed",
+      "minecraft:adult_harnessed"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "hoglin": {
+    "id": "hoglin",
+    "source": "behavior_pack/entities/hoglin.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.avoid_block",
+        "conditional_group:minecraft:hoglin_baby/minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:hoglin_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:hoglin_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:hoglin_adult/minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:hoglin_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "zombification_sensor",
+      "start_zombification",
+      "become_zombie",
+      "minecraft:hoglin_baby",
+      "minecraft:hoglin_adult",
+      "unhuntable_adult",
+      "huntable_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "hopper_minecart": {
+    "id": "hopper_minecart",
+    "source": "behavior_pack/entities/hopper_minecart.json",
+    "families": [
+      "minecart",
+      "inanimate"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "horse": {
+    "id": "horse",
+    "source": "behavior_pack/entities/horse.json",
+    "families": [
+      "horse",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:horse_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:horse_tamed/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:horse_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:horse_baby",
+      "minecraft:horse_adult",
+      "minecraft:horse_tamed"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "husk": {
+    "id": "husk",
+    "source": "behavior_pack/entities/husk.json",
+    "families": [
+      "husk",
+      "zombie",
+      "undead",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot",
+        "conditional_group:minecraft:zombie_husk_rider/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:zombie_husk_baby",
+      "minecraft:zombie_husk_rider",
+      "minecraft:look_to_start_transformations",
+      "minecraft:start_zombie_transformation",
+      "minecraft:convert_to_zombie",
+      "minecraft:convert_to_baby_zombie"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/zombie.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "iron_golem": {
+    "id": "iron_golem",
+    "source": "behavior_pack/entities/iron_golem.json",
+    "families": [
+      "irongolem",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:player_created/minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:player_created"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/iron_golem.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "lightning_bolt": {
+    "id": "lightning_bolt",
+    "source": "behavior_pack/entities/lightning_bolt.json",
+    "families": [
+      "lightning"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "llama": {
+    "id": "llama",
+    "source": "behavior_pack/entities/llama.json",
+    "families": [
+      "llama",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor",
+        "conditional_group:minecraft:in_caravan/minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:llama_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:llama_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:llama_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:llama_baby",
+      "minecraft:llama_adult",
+      "minecraft:llama_unchested",
+      "minecraft:llama_chested",
+      "minecraft:in_caravan"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "yes",
+          "on_damage": {
+            "filters": {
+              "test": "in_caravan",
+              "value": false
+            },
+            "event": "minecraft:become_angry"
+          }
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "magma_cube": {
+    "id": "magma_cube",
+    "source": "behavior_pack/entities/magma_cube.json",
+    "families": [
+      "magmacube",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:slime_large/minecraft:loot",
+        "conditional_group:minecraft:slime_medium/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:slime_large",
+      "minecraft:slime_medium"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_lava": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "mooshroom": {
+    "id": "mooshroom",
+    "source": "behavior_pack/entities/mooshroom.json",
+    "families": [
+      "mushroomcow",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "minecraft:behavior.breed",
+        "conditional_group:minecraft:cow_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:cow_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:cow_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:mooshroom_become_cow",
+      "minecraft:cow_baby",
+      "minecraft:cow_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "lightning"
+                  },
+                  {
+                    "test": "is_variant",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": 0
+                  }
+                ]
+              },
+              "event": "minecraft:become_brown"
+            },
+            "deals_damage": "no",
+            "on_damage_sound_event": "convert_mooshroom"
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "lightning"
+                  },
+                  {
+                    "test": "is_variant",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": 1
+                  }
+                ]
+              },
+              "event": "minecraft:become_red"
+            },
+            "deals_damage": "no",
+            "on_damage_sound_event": "convert_mooshroom"
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "mule": {
+    "id": "mule",
+    "source": "behavior_pack/entities/mule.json",
+    "families": [
+      "mule",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:mule_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:mule_baby",
+      "minecraft:mule_adult",
+      "minecraft:mule_unchested",
+      "minecraft:mule_chested"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "nautilus": {
+    "id": "nautilus",
+    "source": "behavior_pack/entities/nautilus.json",
+    "families": [
+      "aquatic",
+      "nautilus",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "conditional_group:minecraft:nautilus_baby/minecraft:underwater_movement",
+        "conditional_group:minecraft:nautilus_player_controlled/minecraft:underwater_movement",
+        "conditional_group:minecraft:nautilus_ai_controlled/minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "conditional_group:minecraft:nautilus_baby/minecraft:behavior.panic",
+        "conditional_group:minecraft:nautilus_tame/minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:nautilus_adult/minecraft:breedable",
+        "conditional_group:minecraft:nautilus_adult/minecraft:behavior.breed"
+      ],
+      "taming": [
+        "conditional_group:minecraft:nautilus_wild_adult_calm/minecraft:tameable"
+      ],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:nautilus_wild_adult_calm/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:nautilus_baby",
+      "minecraft:nautilus_adult",
+      "minecraft:nautilus_wild_adult_calm",
+      "minecraft:nautilus_tame",
+      "minecraft:nautilus_tame_adult",
+      "minecraft:nautilus_tame_saddled_in_water",
+      "minecraft:nautilus_tame_saddled_on_ground",
+      "minecraft:nautilus_player_controlled",
+      "minecraft:nautilus_ai_controlled"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": false,
+        "breathes_water": true
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/nautilus.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "ocelot": {
+    "id": "ocelot",
+    "source": "behavior_pack/entities/ocelot.json",
+    "families": [
+      "ocelot",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic",
+        "conditional_group:minecraft:ocelot_wild/minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:ocelot_trusting/minecraft:breedable",
+        "conditional_group:minecraft:ocelot_trusting/minecraft:behavior.breed"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:ocelot_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:ocelot_baby",
+      "minecraft:ocelot_adult",
+      "minecraft:ocelot_wild",
+      "minecraft:ocelot_trusting"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "panda": {
+    "id": "panda",
+    "source": "behavior_pack/entities/panda.json",
+    "families": [
+      "panda"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic",
+        "conditional_group:minecraft:panda_lazy/minecraft:behavior.panic",
+        "conditional_group:minecraft:panda_worried/minecraft:behavior.avoid_mob_type",
+        "conditional_group:minecraft:panda_aggressive/minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "minecraft:behavior.breed",
+        "conditional_group:minecraft:panda_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:panda_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:panda_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:panda_baby",
+      "minecraft:panda_adult",
+      "minecraft:panda_lazy",
+      "minecraft:panda_worried",
+      "minecraft:panda_aggressive"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "parched": {
+    "id": "parched",
+    "source": "behavior_pack/entities/parched.json",
+    "families": [
+      "parched",
+      "skeleton",
+      "monster",
+      "mob",
+      "undead"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:melee_attack",
+      "minecraft:ranged_attack",
+      "minecraft:ranged_attack_hard"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/parched.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "parrot": {
+    "id": "parrot",
+    "source": "behavior_pack/entities/parrot.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [
+        "conditional_group:minecraft:parrot_wild/minecraft:tameable"
+      ],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:parrot_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:parrot_adult",
+      "minecraft:parrot_tame",
+      "minecraft:parrot_wild"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "pig": {
+    "id": "pig",
+    "source": "behavior_pack/entities/pig.json",
+    "families": [
+      "pig",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:pig_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:pig_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:pig_adult/minecraft:loot",
+        "conditional_group:minecraft:pig_saddled/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:pig_baby",
+      "minecraft:pig_transform",
+      "minecraft:pig_adult",
+      "minecraft:pig_unsaddled",
+      "minecraft:pig_saddled"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "on_damage": {
+            "filters": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "lightning"
+              },
+              {
+                "test": "is_difficulty",
+                "operator": "!=",
+                "value": "peaceful"
+              }
+            ],
+            "event": "become_zombie"
+          },
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "piglin": {
+    "id": "piglin",
+    "source": "behavior_pack/entities/piglin.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.avoid_block",
+        "conditional_group:piglin_baby/minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:alert_for_attack_targets/minecraft:behavior.nearest_attackable_target",
+        "conditional_group:take_target_as_response_to_block_break/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "zombification_sensor",
+      "start_zombification",
+      "become_zombie",
+      "piglin_baby",
+      "interactable_piglin",
+      "hunter",
+      "not_hunter",
+      "alert_for_attack_targets",
+      "take_target_as_response_to_block_break"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/piglin.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "piglin_brute": {
+    "id": "piglin_brute",
+    "source": "behavior_pack/entities/piglin_brute.json",
+    "families": [
+      "piglin",
+      "adult_piglin",
+      "piglin_brute",
+      "monster"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:take_target_as_response_to_block_break/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "become_zombie",
+      "take_target_as_response_to_block_break",
+      "zombification_sensor",
+      "start_zombification"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/piglin.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "pillager": {
+    "id": "pillager",
+    "source": "behavior_pack/entities/pillager.json",
+    "families": [
+      "pillager",
+      "monster",
+      "illager",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot",
+        "conditional_group:minecraft:illager_squad_captain/minecraft:loot",
+        "conditional_group:minecraft:patrol_captain/minecraft:loot",
+        "conditional_group:minecraft:raid_configuration/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:melee_attack",
+      "minecraft:illager_squad_captain",
+      "minecraft:patrol_captain",
+      "minecraft:raid_configuration",
+      "minecraft:ranged_attack"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/pillager.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "player": {
+    "id": "player",
+    "source": "behavior_pack/entities/player.json",
+    "families": [
+      "player"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "generates_bubbles": false,
+        "inhale_time": 3.75,
+        "suffocate_time": -1,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/empty.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "polar_bear": {
+    "id": "polar_bear",
+    "source": "behavior_pack/entities/polar_bear.json",
+    "families": [
+      "polarbear",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:baby_wild/minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:adult_wild/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:baby",
+      "minecraft:baby_wild",
+      "minecraft:adult",
+      "minecraft:adult_wild"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "pufferfish": {
+    "id": "pufferfish",
+    "source": "behavior_pack/entities/pufferfish.json",
+    "families": [
+      "aquatic",
+      "pufferfish",
+      "fish"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": false,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/pufferfish.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "rabbit": {
+    "id": "rabbit",
+    "source": "behavior_pack/entities/rabbit.json",
+    "families": [
+      "rabbit",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic",
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [
+        "conditional_group:adult/minecraft:behavior.breed",
+        "conditional_group:adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "baby",
+      "adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "ravager": {
+    "id": "ravager",
+    "source": "behavior_pack/entities/ravager.json",
+    "families": [
+      "monster",
+      "ravager",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "conditional_group:minecraft:hostile/minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:hostile/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:hostile"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/ravager.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "salmon": {
+    "id": "salmon",
+    "source": "behavior_pack/entities/salmon.json",
+    "families": [
+      "aquatic",
+      "salmon",
+      "fish"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:scale_large/minecraft:loot",
+        "conditional_group:scale_normal/minecraft:loot",
+        "conditional_group:scale_small/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "scale_large",
+      "scale_normal",
+      "scale_small"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": false,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "sheep": {
+    "id": "sheep",
+    "source": "behavior_pack/entities/sheep.json",
+    "families": [
+      "sheep",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:sheep_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:sheep_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:loot_sheared/minecraft:loot",
+        "conditional_group:minecraft:loot_wooly/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:loot_sheared",
+      "minecraft:loot_wooly",
+      "minecraft:sheep_baby",
+      "minecraft:sheep_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "shulker": {
+    "id": "shulker",
+    "source": "behavior_pack/entities/shulker.json",
+    "families": [
+      "shulker",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "breathes_lava": false,
+        "breathes_water": false,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/shulker.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "shulker_bullet": {
+    "id": "shulker_bullet",
+    "source": "behavior_pack/entities/shulker_bullet.json",
+    "families": [
+      "projectile",
+      "shulker_bullet"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "silverfish": {
+    "id": "silverfish",
+    "source": "behavior_pack/entities/silverfish.json",
+    "families": [
+      "silverfish",
+      "monster",
+      "mob",
+      "arthropod"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/silverfish.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "skeleton": {
+    "id": "skeleton",
+    "source": "behavior_pack/entities/skeleton.json",
+    "families": [
+      "skeleton",
+      "undead",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "conditional_group:minecraft:lightning_immune/minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "become_stray",
+      "got_out_of_powder_snow_environment_sensor",
+      "in_powder_snow",
+      "minecraft:lightning_immune",
+      "minecraft:melee_attack",
+      "minecraft:ranged_attack",
+      "minecraft:ranged_attack_hard"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/skeleton.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "skeleton_horse": {
+    "id": "skeleton_horse",
+    "source": "behavior_pack/entities/skeleton_horse.json",
+    "families": [
+      "skeletonhorse",
+      "undead",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "conditional_group:minecraft:lightning_immune/minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:skeleton_horse_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:skeleton_horse_baby",
+      "minecraft:skeleton_horse_adult",
+      "minecraft:lightning_immune"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "slime": {
+    "id": "slime",
+    "source": "behavior_pack/entities/slime.json",
+    "families": [
+      "slime",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:slime_small/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:slime_small"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "sniffer": {
+    "id": "sniffer",
+    "source": "behavior_pack/entities/sniffer.json",
+    "families": [
+      "sniffer",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:sniffer_adult/minecraft:behavior.breed",
+        "conditional_group:sniffer_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "sniffer_baby",
+      "sniffer_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "snow_golem": {
+    "id": "snow_golem",
+    "source": "behavior_pack/entities/snow_golem.json",
+    "families": [
+      "snowgolem",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          },
+          {
+            "cause": "temperature",
+            "damage_per_tick": 1,
+            "filters": {
+              "all_of": [
+                {
+                  "operator": ">",
+                  "test": "is_temperature_value",
+                  "value": 1.0
+                },
+                {
+                  "operator": "!=",
+                  "test": "has_component",
+                  "subject": "self",
+                  "value": "minecraft:effect.fire_resistance"
+                }
+              ]
+            }
+          },
+          {
+            "cause": "drowning",
+            "damage_per_tick": 1,
+            "filters": {
+              "operator": "==",
+              "test": "in_contact_with_water",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": "no"
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/snowman.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "spider": {
+    "id": "spider",
+    "source": "behavior_pack/entities/spider.json",
+    "families": [
+      "spider",
+      "monster",
+      "mob",
+      "arthropod"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:spider_hostile/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:spider_hostile",
+      "minecraft:spider_neutral"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/spider.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "squid": {
+    "id": "squid",
+    "source": "behavior_pack/entities/squid.json",
+    "families": [
+      "aquatic",
+      "squid",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:squid_baby"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": false,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "subject": "self",
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/squid.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "stray": {
+    "id": "stray",
+    "source": "behavior_pack/entities/stray.json",
+    "families": [
+      "stray",
+      "skeleton",
+      "monster",
+      "mob",
+      "undead"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:melee_attack",
+      "minecraft:revert_to_skeleton",
+      "minecraft:ranged_attack",
+      "minecraft:ranged_attack_hard"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/stray.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "strider": {
+    "id": "strider",
+    "source": "behavior_pack/entities/strider.json",
+    "families": [
+      "strider",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:strider_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:strider_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:strider_saddled/minecraft:loot",
+        "conditional_group:minecraft:strider_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:strider_saddled",
+      "minecraft:strider_unsaddled",
+      "minecraft:strider_baby",
+      "minecraft:strider_adult",
+      "minecraft:start_suffocating",
+      "minecraft:detect_suffocating"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": {},
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_contact_with_water"
+            },
+            "cause": "drowning",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "sulfur_cube": {
+    "id": "sulfur_cube",
+    "source": "behavior_pack/entities/sulfur_cube.json",
+    "families": [
+      "sulfur_cube",
+      "animal",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "conditional_group:minecraft:sulfur_cube_ai/minecraft:breathable",
+        "conditional_group:minecraft:sulfur_cube_medium_with_block/minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "conditional_group:minecraft:sulfur_cube_medium_with_block/minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "minecraft:sulfur_cube_ai",
+      "minecraft:sulfur_cube_medium_without_block",
+      "minecraft:sulfur_cube_medium_with_block",
+      "minecraft:sulfur_cube_medium_with_block_interactable"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "tadpole": {
+    "id": "tadpole",
+    "source": "behavior_pack/entities/tadpole.json",
+    "families": [
+      "aquatic",
+      "tadpole",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "grow_up"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 8,
+        "suffocate_time": 0,
+        "breathes_water": true,
+        "breathes_air": false,
+        "generates_bubbles": false
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "thrown_trident": {
+    "id": "thrown_trident",
+    "source": "behavior_pack/entities/thrown_trident.json",
+    "families": [
+      "projectile",
+      "thrown_trident"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "tnt": {
+    "id": "tnt",
+    "source": "behavior_pack/entities/tnt.json",
+    "families": [
+      "tnt",
+      "inanimate"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "tnt_minecart": {
+    "id": "tnt_minecart",
+    "source": "behavior_pack/entities/tnt_minecart.json",
+    "families": [
+      "minecart",
+      "inanimate"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "minecraft:inactive"
+    ],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "trader_llama": {
+    "id": "trader_llama",
+    "source": "behavior_pack/entities/trader_llama.json",
+    "families": [
+      "trader_llama",
+      "llama",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition",
+        "minecraft:damage_sensor",
+        "conditional_group:minecraft:in_caravan/minecraft:damage_sensor"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:llama_adult/minecraft:behavior.breed",
+        "conditional_group:minecraft:llama_adult/minecraft:breedable"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:llama_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:llama_baby",
+      "minecraft:llama_adult",
+      "minecraft:llama_wandering_trader",
+      "minecraft:llama_unchested",
+      "minecraft:in_caravan"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "yes",
+          "on_damage": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": "trader_llama"
+                },
+                {
+                  "test": "in_caravan",
+                  "value": false
+                }
+              ]
+            },
+            "event": "minecraft:become_angry"
+          }
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "tropicalfish": {
+    "id": "tropicalfish",
+    "source": "behavior_pack/entities/tropicalfish.json",
+    "families": [
+      "aquatic",
+      "tropicalfish",
+      "fish"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": false,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/tropicalfish.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "turtle": {
+    "id": "turtle",
+    "source": "behavior_pack/entities/turtle.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "conditional_group:minecraft:baby/minecraft:underwater_movement",
+        "conditional_group:minecraft:adult/minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:adult/minecraft:breedable",
+        "conditional_group:minecraft:adult/minecraft:behavior.breed"
+      ],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:baby",
+      "minecraft:adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true,
+        "breathes_air": true,
+        "generates_bubbles": false
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": {
+          "cause": "lightning",
+          "deals_damage": "yes",
+          "damage_multiplier": 2000.0
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "vex": {
+    "id": "vex",
+    "source": "behavior_pack/entities/vex.json",
+    "families": [
+      "vex",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "villager": {
+    "id": "villager",
+    "source": "behavior_pack/entities/villager.json",
+    "families": [
+      "villager",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "become_zombie",
+      "armorer",
+      "baby",
+      "become_villager_v2",
+      "weaponsmith",
+      "butcher",
+      "become_witch",
+      "cartographer",
+      "cleric",
+      "farmer",
+      "fisherman",
+      "fletcher",
+      "leatherworker",
+      "librarian",
+      "shepherd",
+      "toolsmith"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "deals_damage": "no",
+            "on_damage": {
+              "event": "become_witch",
+              "filters": {
+                "subject": "other",
+                "test": "is_family",
+                "value": "lightning"
+              }
+            }
+          },
+          {
+            "on_damage": {
+              "event": "become_zombie",
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_damage",
+                    "value": "fatal"
+                  }
+                ],
+                "any_of": [
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "zombie"
+                  },
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "husk"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "villager_v2": {
+    "id": "villager_v2",
+    "source": "behavior_pack/entities/villager_v2.json",
+    "families": [
+      "villager",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "become_zombie",
+      "armorer",
+      "cartographer",
+      "baby",
+      "become_witch",
+      "weaponsmith",
+      "butcher",
+      "cleric",
+      "farmer",
+      "fisherman",
+      "fletcher",
+      "librarian",
+      "leatherworker",
+      "mason",
+      "nitwit",
+      "unskilled",
+      "shepherd",
+      "toolsmith"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "deals_damage": "no",
+            "on_damage": {
+              "event": "become_witch",
+              "filters": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "lightning"
+                },
+                {
+                  "operator": "!=",
+                  "test": "is_difficulty",
+                  "value": "peaceful"
+                }
+              ]
+            }
+          },
+          {
+            "on_damage": {
+              "event": "become_zombie",
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_damage",
+                    "value": "fatal"
+                  }
+                ],
+                "any_of": [
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "zombie"
+                  },
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "husk"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "vindicator": {
+    "id": "vindicator",
+    "source": "behavior_pack/entities/vindicator.json",
+    "families": [
+      "vindicator",
+      "monster",
+      "illager",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:default_targeting/minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:vindicator_johnny/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot",
+        "conditional_group:minecraft:illager_squad_captain/minecraft:loot",
+        "conditional_group:minecraft:patrol_captain/minecraft:loot",
+        "conditional_group:minecraft:raid_configuration/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:default_targeting",
+      "minecraft:illager_squad_captain",
+      "minecraft:patrol_captain",
+      "minecraft:raid_configuration",
+      "minecraft:vindicator_johnny"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/vindication_illager.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "wandering_trader": {
+    "id": "wandering_trader",
+    "source": "behavior_pack/entities/wandering_trader.json",
+    "families": [
+      "wandering_trader",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [
+      "despawning"
+    ],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {
+        "triggers": [
+          {
+            "cause": "entity_attack",
+            "on_damage": {
+              "event": "minecraft:become_scared"
+            },
+            "deals_damage": "yes"
+          },
+          {
+            "cause": "projectile",
+            "on_damage": {
+              "event": "minecraft:become_scared"
+            },
+            "deals_damage": "yes"
+          },
+          {
+            "cause": "magic",
+            "on_damage": {
+              "event": "minecraft:become_scared"
+            },
+            "deals_damage": "yes"
+          }
+        ]
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "warden": {
+    "id": "warden",
+    "source": "behavior_pack/entities/warden.json",
+    "families": [
+      "warden",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/warden.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "witch": {
+    "id": "witch",
+    "source": "behavior_pack/entities/witch.json",
+    "families": [
+      "witch",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": {},
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/witch.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "wither": {
+    "id": "wither",
+    "source": "behavior_pack/entities/wither.json",
+    "families": [
+      "wither",
+      "skeleton",
+      "monster",
+      "undead",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": {
+        "triggers": {
+          "deals_damage": "no",
+          "on_damage": {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "undead"
+            }
+          }
+        }
+      },
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/wither_boss.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "wither_skeleton": {
+    "id": "wither_skeleton",
+    "source": "behavior_pack/entities/wither_skeleton.json",
+    "families": [
+      "wither",
+      "monster",
+      "undead",
+      "skeleton",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/wither_skeleton.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "wither_skull": {
+    "id": "wither_skull",
+    "source": "behavior_pack/entities/wither_skull.json",
+    "families": [
+      "projectile",
+      "wither_skull"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "wither_skull_dangerous": {
+    "id": "wither_skull_dangerous",
+    "source": "behavior_pack/entities/wither_skull_dangerous.json",
+    "families": [
+      "projectile",
+      "wither_skull_dangerous"
+    ],
+    "evidence": {
+      "breathing": [],
+      "fire_and_lava": [],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": []
+    },
+    "conditional_groups": [],
+    "mechanics": {
+      "breathable": null,
+      "fire_immune": null,
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "wolf": {
+    "id": "wolf",
+    "source": "behavior_pack/entities/wolf.json",
+    "families": [
+      "wolf",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "minecraft:behavior.panic",
+        "conditional_group:minecraft:wolf_baby/minecraft:behavior.panic",
+        "conditional_group:minecraft:wolf_wild/minecraft:behavior.avoid_mob_type"
+      ],
+      "breeding": [
+        "conditional_group:minecraft:wolf_adult/minecraft:breedable",
+        "conditional_group:minecraft:wolf_tame/minecraft:behavior.breed"
+      ],
+      "taming": [
+        "conditional_group:minecraft:wolf_wild/minecraft:tameable"
+      ],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:wolf_wild/minecraft:behavior.nearest_attackable_target",
+        "conditional_group:minecraft:wolf_tame/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:wolf_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:wolf_baby",
+      "minecraft:wolf_adult",
+      "minecraft:wolf_wild",
+      "minecraft:wolf_tame",
+      "minecraft:wolf_armorable"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zoglin": {
+    "id": "zoglin",
+    "source": "behavior_pack/entities/zoglin.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.nearest_attackable_target",
+        "conditional_group:zoglin_adult/minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "zoglin_adult",
+      "zoglin_baby"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/zoglin.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zombie": {
+    "id": "zombie",
+    "source": "behavior_pack/entities/zombie.json",
+    "families": [
+      "zombie",
+      "undead",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "conditional_group:minecraft:zombie_default/minecraft:loot",
+        "conditional_group:minecraft:zombie_jockey/minecraft:loot",
+        "conditional_group:minecraft:zombie_rider/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:zombie_baby",
+      "minecraft:zombie_default",
+      "minecraft:zombie_jockey",
+      "minecraft:zombie_rider",
+      "minecraft:look_to_start_transformations",
+      "minecraft:start_drowned_transformation",
+      "minecraft:convert_to_drowned",
+      "minecraft:convert_to_baby_drowned"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": true,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zombie_horse": {
+    "id": "zombie_horse",
+    "source": "behavior_pack/entities/zombie_horse.json",
+    "families": [
+      "zombiehorse",
+      "undead",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [],
+      "drops": [
+        "conditional_group:minecraft:horse_adult/minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:horse_baby",
+      "minecraft:horse_adult",
+      "minecraft:horse_tamed",
+      "minecraft:horse_wild_with_rider",
+      "minecraft:horse_can_be_leashed"
+    ],
+    "mechanics": {
+      "breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": null
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zombie_nautilus": {
+    "id": "zombie_nautilus",
+    "source": "behavior_pack/entities/zombie_nautilus.json",
+    "families": [
+      "aquatic",
+      "zombie_nautilus",
+      "undead",
+      "monster",
+      "mob"
+    ],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable",
+        "conditional_group:minecraft:zombie_nautilus_ai_controlled/minecraft:underwater_movement",
+        "conditional_group:minecraft:zombie_nautilus_player_controlled/minecraft:underwater_movement",
+        "conditional_group:minecraft:zombie_nautilus_wild_mounted/minecraft:underwater_movement"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [
+        "conditional_group:minecraft:zombie_nautilus_tameable/minecraft:tameable"
+      ],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "conditional_group:minecraft:zombie_nautilus_wild_unmounted/minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:zombie_nautilus_ai_controlled",
+      "minecraft:zombie_nautilus_player_controlled",
+      "minecraft:zombie_nautilus_tame_saddled_in_water",
+      "minecraft:zombie_nautilus_tame",
+      "minecraft:zombie_nautilus_tame_saddled_on_ground",
+      "minecraft:zombie_nautilus_tameable",
+      "minecraft:zombie_nautilus_wild_mounted",
+      "minecraft:zombie_nautilus_wild_unmounted"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_air": true,
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "test": "in_lava"
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/zombie_nautilus.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zombie_pigman": {
+    "id": "zombie_pigman",
+    "source": "behavior_pack/entities/zombie_pigman.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:fire_immune"
+      ],
+      "fear_and_avoidance": [],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "minecraft:pig_zombie_baby",
+      "minecraft:pig_zombie_adult"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": {},
+      "hurt_on_condition": null,
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/zombie_pigman.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zombie_villager": {
+    "id": "zombie_villager",
+    "source": "behavior_pack/entities/zombie_villager.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "conditional_group:from_abandoned_village/minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "become_zombie_villager_v2",
+      "armorer",
+      "cartographer",
+      "baby",
+      "weaponsmith",
+      "butcher",
+      "cleric",
+      "farmer",
+      "fisherman",
+      "fletcher",
+      "from_abandoned_village",
+      "leatherworker",
+      "librarian",
+      "to_villager",
+      "shepherd",
+      "toolsmith"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/zombie.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  },
+  "zombie_villager_v2": {
+    "id": "zombie_villager_v2",
+    "source": "behavior_pack/entities/zombie_villager_v2.json",
+    "families": [],
+    "evidence": {
+      "breathing": [
+        "minecraft:breathable"
+      ],
+      "fire_and_lava": [
+        "minecraft:hurt_on_condition"
+      ],
+      "fear_and_avoidance": [
+        "conditional_group:from_abandoned_village/minecraft:behavior.flee_sun"
+      ],
+      "breeding": [],
+      "taming": [],
+      "combat": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ],
+      "drops": [
+        "minecraft:loot"
+      ]
+    },
+    "conditional_groups": [
+      "cartographer",
+      "armorer",
+      "baby",
+      "weaponsmith",
+      "butcher",
+      "cleric",
+      "farmer",
+      "fisherman",
+      "fletcher",
+      "from_abandoned_village",
+      "to_villager",
+      "librarian",
+      "leatherworker",
+      "mason",
+      "nitwit",
+      "unskilled",
+      "shepherd",
+      "toolsmith"
+    ],
+    "mechanics": {
+      "breathable": {
+        "breathes_water": true,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "fire_immune": null,
+      "hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 4,
+            "filters": {
+              "operator": "==",
+              "test": "in_lava",
+              "subject": "self",
+              "value": true
+            }
+          }
+        ]
+      },
+      "damage_sensor": null,
+      "breedable": null,
+      "tameable": null,
+      "loot": {
+        "table": "loot_tables/entities/zombie.json"
+      }
+    },
+    "interpretation_rule": "Absence of a component is not proof of immunity or vulnerability. Group components may activate only after an event. Check runtime engine defaults."
+  }
+}

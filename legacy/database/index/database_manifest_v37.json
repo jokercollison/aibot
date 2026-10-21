@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "edition": "Bedrock",
+  "samples_version": "1.26.50.4",
+  "build_version": 37,
+  "entity_count": 128,
+  "recipe_output_count": 924,
+  "enchantment_count": 42,
+  "sources": {
+    "entities": "database/vanilla/bedrock_1_26_50_all_entities_parsed.json",
+    "recipes": "database/vanilla/bedrock_1_26_50_recipe_methods_lookup.json",
+    "enchantments": "database/enchantments/bedrock_enchantment_reference_v35.json",
+    "mob_qa": "database/qa/bedrock_component_grounded_mob_qa_v36.json",
+    "mob_drops": "database/vanilla/bedrock_1_26_50_reverse_mob_drops_v32.json"
+  },
+  "rules": [
+    "Never infer absent component means a mob lacks a mechanic",
+    "Never state a candidate drop is guaranteed",
+    "Recipes in samples are not proof all obtainable items are craftable",
+    "Mark engine-defined behaviors as unverified until checked in game",
+    "Use Bedrock edition/version for every factual answer"
+  ]
+}

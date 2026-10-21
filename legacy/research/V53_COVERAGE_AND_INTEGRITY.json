@@ -1,0 +1,30 @@
+{
+  "source_archive": "bedrock-samples-v1.26.50.4-full(1).zip",
+  "version": "53",
+  "entity_count": 128,
+  "category_component_evidence_counts": {
+    "breathing": 84,
+    "fire_lava": 99,
+    "fear": 56,
+    "breeding": 26,
+    "taming": 7,
+    "combat": 59,
+    "interactions": 44,
+    "spawn": 85
+  },
+  "component_evidence_records": 794,
+  "explicit_component_gaps": 564,
+  "recipe_output_count": 918,
+  "recipe_variants": 1659,
+  "reverse_ingredient_keys": 241,
+  "loot_source_item_keys": 440,
+  "banter_categories": 7,
+  "cautions": [
+    "Missing a component is not evidence a mechanic is impossible.",
+    "Conditional groups are not always active.",
+    "Some game-engine mechanics are not present in behavior-pack samples.",
+    "Loot candidates are not guaranteed drops.",
+    "Recipe source JSON may be more authoritative than a simplified ingredient list.",
+    "No Minecraft in-game integration test has been run."
+  ]
+}

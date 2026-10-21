@@ -1,0 +1,1 @@
+Version 23: Extracted 89 vanilla Bedrock biome definition metadata records, generated 61 original biome Q&A technical summaries, and documented Wiki enchantment compatibility and brewing schema research. Full prior ZIP retained. Legacy biomes are explicitly flagged; source files do not establish current generation.

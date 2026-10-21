@@ -1,0 +1,58 @@
+{
+  "schema": "41.0",
+  "game_version": "1.26.50.4",
+  "scope": "Bedrock Samples extracted records; not full vanilla completeness",
+  "categories": {
+    "recipes": {
+      "records": 909,
+      "source": "database/vanilla (previous versions)"
+    },
+    "entities": {
+      "records": 128,
+      "source": "database/vanilla (previous versions)"
+    },
+    "blocks": {
+      "records": 98,
+      "source": "database/vanilla (previous versions)"
+    },
+    "items": {
+      "records": 68,
+      "source": "database/vanilla (previous versions)"
+    },
+    "enchantments": {
+      "records": 42,
+      "source": "database/vanilla (previous versions)"
+    },
+    "biomes": {
+      "records": 89,
+      "source": "database/vanilla (previous versions)"
+    },
+    "brewing": {
+      "records": 72,
+      "source": "database/vanilla (previous versions)"
+    },
+    "trading": {
+      "records": 321,
+      "source": "database/vanilla (previous versions)"
+    },
+    "loot_sources": {
+      "records": 440,
+      "source": "database/vanilla (previous versions)"
+    },
+    "commands": {
+      "records": 78,
+      "source": "database/vanilla (previous versions)"
+    },
+    "mob_evidence": {
+      "records": 128,
+      "source": "database/vanilla (previous versions)"
+    }
+  },
+  "index_terms": 1546,
+  "notes": [
+    "Each category has an independent source dataset.",
+    "Search results point to source records; no unsupported behavior inferred.",
+    "Trades and loot are possible outcomes, not guaranteed.",
+    "Items/blocks only reflect definitions present in supplied samples, not all vanilla IDs."
+  ]
+}

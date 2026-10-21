@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bedrock_edition_category",
+    "url": "https://minecraft.wiki/w/Category:Bedrock_Edition",
+    "purpose": "Bedrock main index; 509 listed pages at index snapshot",
+    "status": "index_only"
+  },
+  {
+    "id": "bedrock_specific",
+    "url": "https://minecraft.wiki/w/Category:Bedrock_Edition_specific_information",
+    "purpose": "87 Bedrock-specific pages at indexed snapshot",
+    "status": "index_only"
+  },
+  {
+    "id": "bedrock_guides",
+    "url": "https://minecraft.wiki/w/Bedrock_Edition_guides",
+    "purpose": "Update-by-update Bedrock feature guides",
+    "status": "index_only"
+  },
+  {
+    "id": "bedrock_settings",
+    "url": "https://minecraft.wiki/w/Tutorial:Menu_screen/Bedrock_Edition",
+    "purpose": "World settings including simulation distance and mob spawning",
+    "status": "excerpt_reviewed"
+  },
+  {
+    "id": "mob_farm",
+    "url": "https://minecraft.wiki/w/Tutorial:Mob_farm",
+    "purpose": "Edition-specific spawning distances; do not hard-code unverified values",
+    "status": "excerpt_reviewed"
+  },
+  {
+    "id": "java_specific",
+    "url": "https://minecraft.wiki/w/Category:Java_Edition_specific_information",
+    "purpose": "Negative filter; Java-only advice and commands",
+    "status": "index_only"
+  },
+  {
+    "id": "verify_bedrock",
+    "url": "https://minecraft.wiki/w/Category:Verify_for_Bedrock_Edition",
+    "purpose": "25 wiki pages flagged for verification at indexed snapshot",
+    "status": "index_only"
+  },
+  {
+    "id": "verify_current_bedrock",
+    "url": "https://minecraft.wiki/w/Category:Verify_current_information_in_Bedrock_Edition",
+    "purpose": "3 current-version verification flags at indexed snapshot",
+    "status": "index_only"
+  },
+  {
+    "id": "outdated_metadata",
+    "url": "https://minecraft.wiki/w/Bedrock_Edition_data_values/Metadata_table",
+    "purpose": "Explicitly outdated metadata; exclude from current gameplay answers",
+    "status": "excluded_outdated"
+  },
+  {
+    "id": "java_advancement",
+    "url": "https://minecraft.wiki/w/Tutorial:Advancement_guide/Nether_tab",
+    "purpose": "Java advancement guidance; exclude from Bedrock answer generation",
+    "status": "excluded_java"
+  }
+]

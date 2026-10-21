@@ -1,0 +1,19 @@
+{
+  "validated_archive_entries": 132,
+  "index_counts": {
+    "entities": 128,
+    "recipe_outputs": 924,
+    "enchantments": 42
+  },
+  "known_issues": [
+    "Unverified max enchantment level: minecraft:lunge"
+  ],
+  "gaps": [
+    "Runtime-defined mob rules",
+    "Full block-to-item acquisition mapping",
+    "Recipe ingredients and output variants in unified answer format",
+    "Version-specific enchantment compatibility testing",
+    "Live in-game regression tests"
+  ],
+  "claim": "This is a consolidated navigation and provenance layer, not a completed gameplay encyclopedia."
+}

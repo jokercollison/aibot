@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "source": "Minecraft_AI_27.zip and Mojang Bedrock Samples 1.26.50.4",
+  "counts": {
+    "recipe_definitions": 1892,
+    "distinct_recipe_outputs": 909,
+    "parsed_entity_definitions": 128,
+    "loot_records": 305,
+    "spawn_records": 56
+  },
+  "coverage_assessment": {
+    "recipes": "recipe definitions available; not all items/blocks are craftable; result index added; furnace and other transformation recipes may differ",
+    "entities": "128 technical entity files are not complete player-facing profiles; component presence does not prove immunities or fears",
+    "blocks": "custom definitions and texture registry do not constitute full gameplay mechanics for every vanilla block",
+    "locations": "biome definitions and spawn rules available, but not full where-to-find item/structure knowledge",
+    "wiki": "indexed excerpts are limited and may be old; current Bedrock mechanics need validation"
+  },
+  "priority_gaps": [
+    "Every mob: classification, attacks, target/fears, environmental immunities, breeding, taming, drops, locations",
+    "Every block and item: craftable or not, recipe, obtainable from, usage, breaking tool, interactions",
+    "Find X: biome, structure, Y-level or source, and version-specific rules",
+    "Every mechanic: evidence plus Bedrock-specific exceptions"
+  ],
+  "wiki_sources": [
+    "https://minecraft.wiki/w/Mob",
+    "https://minecraft.wiki/w/Block",
+    "https://minecraft.wiki/w/Item",
+    "https://minecraft.wiki/w/Crafting",
+    "https://minecraft.wiki/w/Spawn",
+    "https://minecraft.wiki/w/Damage"
+  ]
+}

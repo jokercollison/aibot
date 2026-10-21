@@ -1,0 +1,17 @@
+import {createKnowledgeEngine} from './knowledge_engine_v64.mjs';
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const r=JSON.parse(fs.readFileSync('./knowledge_v64.json','utf8')).records;
+const a=JSON.parse(fs.readFileSync('./aliases_v64.json','utf8'));
+const e=JSON.parse(fs.readFileSync('./entity_evidence_v64.json','utf8'));
+const bot=createKnowledgeEngine(r,a,e);
+assert.equal(bot.resolve('creeper','entity').status,'found');
+assert.equal(bot.resolve('hopper','block').status,'found');
+assert.equal(bot.ask('How do I craft a hopper?').status,'found');
+assert.equal(bot.ask('What scares a creeper?').intent,'mob_mechanics');
+assert.equal(bot.ask('Does a creeper drown?').intent,'mob_mechanics');
+assert.equal(bot.ask('Can a creeper survive lava?').intent,'mob_mechanics');
+assert.equal(bot.ask('How do I craft an imaginarythingxyz?').status,'unknown');
+assert.equal(bot.ask('').status,'clarify');
+assert.equal(bot.ask('Tell me about a creeper').status,'found');
+assert.equal(bot.ask('How do I breed cows?').intent,'mob_mechanics');
+console.log('10 V64 smoke assertions passed');

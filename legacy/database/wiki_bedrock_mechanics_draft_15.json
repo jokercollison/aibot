@@ -1,0 +1,74 @@
+[
+  {
+    "id": "wiki15_bedrock_iron_farm",
+    "question": "How does an iron farm work in Bedrock?",
+    "answer": "Bedrock iron farms use village-based spawning. A common baseline requires 20 beds, 10 villagers, and villagers working at their job sites; the village must be inside simulation distance.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Iron_Golem_farming",
+    "edition": "bedrock",
+    "verification": "bedrock_specific_requires_1_26_50_recheck",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_iron_farm_java_warning",
+    "question": "Can I use a Java zombie-scaring iron farm in Bedrock?",
+    "answer": "Do not assume so. Java iron farms use different golem-summoning rules; use a Bedrock-specific design.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Iron_Golem_farming",
+    "edition": "bedrock",
+    "verification": "bedrock_cross_edition_warning",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_quasi_connectivity",
+    "question": "Why does a Java piston door fail in Bedrock?",
+    "answer": "Some Java piston circuits depend on quasi-connectivity, which Bedrock pistons do not support. Use a Bedrock-specific circuit.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Quasi-connectivity",
+    "edition": "bedrock",
+    "verification": "bedrock_verified_edition_difference",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_redstone_test",
+    "question": "How should I test a complicated redstone build?",
+    "answer": "Prototype it in Creative mode, check the input and output, and confirm it works in Bedrock before spending survival resources.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Redstone_tips",
+    "edition": "bedrock",
+    "verification": "general_advice",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_drowned_farm",
+    "question": "Are drowned farms identical between Java and Bedrock?",
+    "answer": "No. Spawning rules and efficient farm locations differ by edition. Choose a Bedrock-tested design.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Drowned_farming",
+    "edition": "bedrock",
+    "verification": "bedrock_cross_edition_warning",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_function_location",
+    "question": "Where do Bedrock .mcfunction files go?",
+    "answer": "Inside a behavior pack’s functions folder. A file at functions/sub/foo.mcfunction can be called by its subfolder path.",
+    "source_url": "https://minecraft.wiki/w/Function_(Bedrock_Edition)",
+    "edition": "bedrock",
+    "verification": "technical_not_player_facing",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_old_iron_farm",
+    "question": "Do old door-based iron farms still work?",
+    "answer": "Avoid old door-based village tutorials; their village mechanics are obsolete. Use current Bedrock bed-and-workstation-based guidance.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Door-based_iron_golem_farming",
+    "edition": "bedrock",
+    "verification": "outdated_tutorial_warning",
+    "type": "original_condensed_qa"
+  },
+  {
+    "id": "wiki15_bedrock_glitches",
+    "question": "Can I rely on a bedrock block farming glitch?",
+    "answer": "No. These exploits can break after updates and should not be presented as reliable survival mechanics.",
+    "source_url": "https://minecraft.wiki/w/Tutorial:Bedrock_farming",
+    "edition": "bedrock",
+    "verification": "unstable_exploit_warning",
+    "type": "original_condensed_qa"
+  }
+]

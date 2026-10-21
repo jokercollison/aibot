@@ -1,0 +1,75 @@
+{
+  "review_date": "2026-10-20",
+  "site": "https://www.digminecraft.com/",
+  "access": "Direct requests to homepage and multiple section indexes returned HTTP 403; search-index excerpts available. No exhaustive site crawl was possible.",
+  "source_sections": [
+    {
+      "category": "brewing",
+      "url": "https://www.digminecraft.com/brewing_recipes/index.php",
+      "finding": "Search index returned extensive potions, splash/lingering variants, brewing ingredients; edition checks needed",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "basic recipes",
+      "url": "https://www.digminecraft.com/basic_recipes/index.php",
+      "finding": "Bed, chest, furnace and more; official recipes preferred",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "block recipes",
+      "url": "https://www.digminecraft.com/block_recipes/index.php",
+      "finding": "Building block variants; sample recipes preferred",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "tools",
+      "url": "https://www.digminecraft.com/tool_recipes/index.php",
+      "finding": "Tool types and explanations",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "enchantments",
+      "url": "https://www.digminecraft.com/enchantments/",
+      "finding": "Enchantment overview and links to individual entries",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "enchantment lists",
+      "url": "https://www.digminecraft.com/lists/",
+      "finding": "Separate edition-specific lists; Java not suitable as Bedrock authority",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "getting started",
+      "url": "https://www.digminecraft.com/getting_started/index.php",
+      "finding": "Beginner/intermediate tutorials, not contained in vanilla recipes",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "commands example",
+      "url": "https://www.digminecraft.com/game_commands/enchant_command.php",
+      "finding": "Detailed command tutorial; cross-check official Bedrock syntax",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "command list example",
+      "url": "https://www.digminecraft.com/game_commands/list_command.php",
+      "finding": "Edition-specific syntax and permission notes",
+      "status": "search-index review only; individual articles not exhaustively read"
+    },
+    {
+      "category": "crafter",
+      "url": "https://www.digminecraft.com/basic_recipes/make_crafter.php",
+      "finding": "Player-facing usage instructions beyond recipe JSON",
+      "status": "search-index review only; individual articles not exhaustively read"
+    }
+  ],
+  "next_gaps": [
+    "Complete Bedrock command syntax and examples",
+    "Brewing transitions and duration modifiers",
+    "Enchantments and item compatibility",
+    "Mobs, drops, biomes, and tutorials",
+    "Verify any non-vanilla sample facts independently"
+  ],
+  "copyright": "Keep source URLs and original factual summaries, not copies of third-party articles."
+}

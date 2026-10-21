@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {resolve,answer,ingredientUses} from './knowledge_engine_v56.js';
+const c=JSON.parse(fs.readFileSync('./knowledge_catalog_v56.json'));
+const a=JSON.parse(fs.readFileSync('./alias_index_v56.json'));
+const g=JSON.parse(fs.readFileSync('./ingredient_uses_v56.json'));
+assert.equal(resolve('aqua affinity',c,a,'enchantment').status,'found');
+assert.equal(resolve('minecraft:aqua_affinity',c,a,'enchantment').status,'found');
+assert.equal(resolve('snowy slopes',c,a,'biome').status,'found');
+assert.equal(resolve('not a real block',c,a).status,'unknown');
+assert.equal(answer('aqua affinity',c,a,'enchantment').status,'found');
+assert.equal(answer('snowy slopes',c,a,'biome').verifiedInGame,false);
+assert.ok(Object.keys(g).length>0);
+assert.ok(Object.values(c).some(r=>r.category==='block'));
+assert.ok(Object.values(c).some(r=>r.category==='loot_item'));
+assert.ok(Object.values(c).some(r=>r.category==='item'));
+console.log('9 integration checks passed');

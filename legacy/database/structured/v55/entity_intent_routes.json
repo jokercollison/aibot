@@ -1,0 +1,2396 @@
+[
+  {
+    "entity": "minecraft:allay",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/allay.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:allay",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/allay.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:allay",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/allay.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:allay",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/allay.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/armadillo.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/armadillo.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/armadillo.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/armadillo.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:armor_stand",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/armor_stand.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:arrow",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/arrow.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/axolotl.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/axolotl.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/axolotl.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/axolotl.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bat",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bat",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bee",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bee.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bee",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bee.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bee",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bee.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bee",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bee.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bee",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bee.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/blaze.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/blaze.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:boat",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/boat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bogged.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bogged.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bogged.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bogged.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/bogged.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/breeze.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/breeze.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/breeze.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel_husk.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel_husk.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/camel_husk.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cat",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cat",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cat",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cat",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cat",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cave_spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cave_spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cave_spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cave_spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:chest_boat",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/chest_boat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/chicken.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/chicken.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/chicken.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/chicken.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cod",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cod",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cod",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/copper_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/copper_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/copper_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/copper_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cow",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cow.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cow",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cow.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cow",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cow.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cow",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cow.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creaking.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creaking.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creeper.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creeper.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creeper.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creeper.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/creeper.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:cushion",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/cushion.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/dolphin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/dolphin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/dolphin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/dolphin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/donkey.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/donkey.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/donkey.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/donkey.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/drowned.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/drowned.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/drowned.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/drowned.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/elder_guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/elder_guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/elder_guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ender_crystal",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ender_crystal.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ender_dragon.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ender_dragon.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/enderman.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/enderman.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/enderman.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/endermite.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/endermite.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/endermite.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/evocation_illager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/evocation_illager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/evocation_illager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/evocation_illager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:fox",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fox.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:fox",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fox.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:fox",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fox.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:fox",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fox.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:fox",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/fox.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:frog",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/frog.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:frog",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/frog.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:frog",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/frog.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:frog",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/frog.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:frog",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/frog.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/glow_squid.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/glow_squid.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:goat",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/goat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:goat",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/goat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:goat",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/goat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:goat",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/goat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:goat",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/goat.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/guardian.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/happy_ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/happy_ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/happy_ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/happy_ghast.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/hoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/hoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/hoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/hoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:horse",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:horse",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:horse",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:horse",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:husk",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/husk.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:husk",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/husk.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:husk",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/husk.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/iron_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/iron_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/iron_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:llama",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:llama",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:llama",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:llama",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:llama",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/magma_cube.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/magma_cube.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/magma_cube.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mooshroom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mooshroom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mooshroom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mooshroom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mule",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mule.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mule",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mule.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mule",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mule.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:mule",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/mule.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:npc",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/npc.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ocelot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ocelot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ocelot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ocelot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ocelot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:panda",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/panda.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:panda",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/panda.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:panda",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/panda.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:panda",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/panda.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:panda",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/panda.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parched",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parched.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parched",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parched.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parched",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parched.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parched",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parched.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parrot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parrot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parrot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/parrot.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/phantom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/phantom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/phantom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/phantom.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pig",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pig.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pig",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pig.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pig",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pig.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pig",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pig.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin_brute.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin_brute.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/piglin_brute.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pillager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pillager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pillager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pillager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:player",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/player.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:player",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/player.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:player",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/player.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/polar_bear.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/polar_bear.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/polar_bear.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/polar_bear.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pufferfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pufferfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/pufferfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/rabbit.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/rabbit.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/rabbit.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/rabbit.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ravager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ravager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/ravager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/salmon.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/salmon.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/salmon.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sheep.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sheep.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sheep.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sheep.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/shulker.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/shulker.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/shulker.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/shulker.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/silverfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/silverfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/silverfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/skeleton_horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/skeleton_horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:slime",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/slime.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:slime",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/slime.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:slime",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/slime.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sniffer.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sniffer.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sniffer.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sniffer.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/snow_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/snow_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/snow_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/snow_golem.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:spider",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:spider",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:spider",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:spider",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/spider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:squid",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/squid.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:squid",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/squid.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:stray",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/stray.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:stray",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/stray.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:stray",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/stray.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:stray",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/stray.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:strider",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/strider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:strider",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/strider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:strider",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/strider.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sulfur_cube.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sulfur_cube.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/sulfur_cube.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tadpole.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tadpole.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tadpole.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tadpole.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tnt_minecart",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tnt_minecart.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/trader_llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/trader_llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/trader_llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/trader_llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/trader_llama.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tripod_camera",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tripod_camera.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tropicalfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tropicalfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/tropicalfish.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/turtle.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/turtle.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/turtle.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/turtle.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:vex",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/vex.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:vex",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/vex.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:villager",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:villager",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:villager",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/vindicator.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/vindicator.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/vindicator.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/vindicator.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wandering_trader.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wandering_trader.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wandering_trader.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:warden",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/warden.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:warden",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/warden.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:warden",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/warden.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:witch",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/witch.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:witch",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/witch.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:witch",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/witch.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wither",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wither.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wither",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wither.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wither",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wither.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wither_skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wither_skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wither_skeleton.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wolf.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wolf.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wolf.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wolf.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/wolf.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zoglin.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_horse.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_nautilus.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_pigman.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_pigman.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_pigman.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "intent": "breathing",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "intent": "fire_lava",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "intent": "fear",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "intent": "combat",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "intent": "interactions",
+    "status": "evidence_available",
+    "evidence_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "response_policy": "interpret_filters_before_answering; never infer immunity or absence from missing components"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "version": 50,
+  "purpose": "Provenance crosswalk for existing entity Q&A; no fabricated gameplay verification",
+  "v36_mob_qa_count": 175,
+  "entity_technical_qa_count": 88,
+  "qa_profiles_found": 149,
+  "qa_profiles_missing": 26,
+  "source_path_verification": "Path derived from sample metadata; not individually inspected against original archive",
+  "limitations": [
+    "A linked entity file is not proof that every answer is correct",
+    "Entity component groups and engine defaults require runtime validation",
+    "Existing Q&A source fields were not overwritten; crosswalk is additive and reversible"
+  ],
+  "missing_profiles": [
+    {
+      "index": 15,
+      "entity": "minecraft:breeze_wind_charge_projectile",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 22,
+      "entity": "minecraft:chest_minecart",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 24,
+      "entity": "minecraft:cod",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 25,
+      "entity": "minecraft:cod",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 35,
+      "entity": "minecraft:dragon_fireball",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 39,
+      "entity": "minecraft:elder_guardian",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 40,
+      "entity": "minecraft:elder_guardian",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 46,
+      "entity": "minecraft:endermite",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 49,
+      "entity": "minecraft:fireworks_rocket",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 55,
+      "entity": "minecraft:ghast",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 56,
+      "entity": "minecraft:ghast",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 69,
+      "entity": "minecraft:lingering_potion",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 71,
+      "entity": "minecraft:llama_spit",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 76,
+      "entity": "minecraft:minecart",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 81,
+      "entity": "minecraft:npc",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 82,
+      "entity": "minecraft:npc",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 87,
+      "entity": "minecraft:phantom",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 88,
+      "entity": "minecraft:phantom",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 89,
+      "entity": "minecraft:phantom",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 113,
+      "entity": "minecraft:small_fireball",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 116,
+      "entity": "minecraft:snowball",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 118,
+      "entity": "minecraft:splash_potion",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 133,
+      "entity": "minecraft:tripod_camera",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 145,
+      "entity": "minecraft:wind_charge_projectile",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 156,
+      "entity": "minecraft:xp_bottle",
+      "reason": "not_in_v49_profiles"
+    },
+    {
+      "index": 157,
+      "entity": "minecraft:xp_orb",
+      "reason": "not_in_v49_profiles"
+    }
+  ],
+  "source_paths_found": 261,
+  "source_paths_missing": 2,
+  "sample_archive_prefix": ""
+}

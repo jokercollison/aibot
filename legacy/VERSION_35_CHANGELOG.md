@@ -1,0 +1,1 @@
+V35: Added structured effects and equipment families for all 42 sample enchantments; 41 tentative max levels, Lunge pending; conflict group indexing; source and verification audit. All previous versions retained.

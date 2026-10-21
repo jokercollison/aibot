@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "reviewed_articles": [
+    "https://minecraft.wiki/w/Traveling_merchant",
+    "https://minecraft.wiki/w/Tutorial:Best_enchantments_guide",
+    "https://minecraft.wiki/w/Tutorial:Block_and_item_duplication",
+    "https://minecraft.wiki/w/Tutorial:Diamonds",
+    "https://minecraft.wiki/w/Tutorial:Trading",
+    "https://minecraft.wiki/w/Tutorial:Useful_commands",
+    "https://minecraft.wiki/w/Tutorial:Villager_trading_hall",
+    "https://minecraft.wiki/w/Villager_(old)"
+  ],
+  "excluded_or_flagged": [
+    {
+      "url": "https://minecraft.wiki/w/Tutorial:Useful_commands",
+      "reason": "Examples use Java-only NBT syntax in /give and /summon; must not be presented as Bedrock commands."
+    },
+    {
+      "url": "https://minecraft.wiki/w/Tutorial:Trading",
+      "reason": "Repeated zombie-cure discount exploit explicitly marked outdated; do not ingest."
+    },
+    {
+      "url": "https://minecraft.wiki/w/Tutorial:Block_and_item_duplication",
+      "reason": "Void trading described as Java-exclusive; do not ingest as Bedrock mechanic."
+    },
+    {
+      "url": "https://minecraft.wiki/w/Villager_(old)",
+      "reason": "Historical villager behavior; do not present as current."
+    }
+  ],
+  "note": "Search-indexed snapshots are ~1.4 years old; new entries are provisional pending 1.26.50 verification. No full site scrape or permission to reproduce verbatim articles."
+}

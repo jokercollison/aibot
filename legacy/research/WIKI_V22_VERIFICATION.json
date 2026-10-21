@@ -1,0 +1,23 @@
+{
+  "reviewed_on": "2026-10-20",
+  "goal": "Bedrock-only Wiki research with appropriateness and version filtering",
+  "access": "Search-indexed excerpts only; direct Wiki crawling restricted",
+  "new_references": 10,
+  "new_original_answer_records": 6,
+  "full_site_scrape_completed": false,
+  "notes": [
+    "Wiki search snapshots may be 1+ years old; do not equate indexing with current validation.",
+    "Bedrock Samples v1.26.50.4 are the primary local source for vanilla definitions.",
+    "Never copy large portions of Wiki articles into commercial add-on; store original paraphrased answers with links.",
+    "Wiki pages flagged Verify for Bedrock require additional validation.",
+    "Exclude Java advancement/Java NBT examples and obsolete metadata tables.",
+    "Screen every entry for vulgar or inappropriate content."
+  ],
+  "next_priorities": [
+    "Version-check simulation-distance specifics in Bedrock 1.26.50",
+    "Detailed enchantment compatibility table",
+    "Mob mechanics and breeding matrix",
+    "Bedrock command syntax and permissions",
+    "Biome/structure/loot lookups"
+  ]
+}

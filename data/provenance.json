@@ -1,0 +1,14 @@
+{
+  "samples": {
+    "repository": "https://github.com/Mojang/bedrock-samples",
+    "tag": "v1.26.50.4",
+    "commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d"
+  },
+  "carried_forward": "Minecraft_AI_66.zip: v64 records and aliases; full original archive contents preserved in legacy/",
+  "checks": [
+    "hopper recipe shape matched official samples",
+    "creeper cat/ocelot avoidance inspected",
+    "cow adult breeding ingredient checked"
+  ],
+  "limits": "Most inherited records have not been independently reverified. Registry presence is not an explanation or proof of availability in a particular game version."
+}

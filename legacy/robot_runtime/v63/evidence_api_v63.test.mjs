@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createEvidenceAPI} from './evidence_api_v63.mjs';
+const records=JSON.parse(fs.readFileSync('./knowledge_v63.json','utf8')).records;
+const profiles=JSON.parse(fs.readFileSync('./entity_mechanics_v63.json','utf8'));
+const api=createEvidenceAPI(records,profiles);
+assert.equal(api.entity('Cow').status,'found');
+assert(api.mechanic('Cow','breeding_food').evidence.some(x=>x.values.includes('wheat')));
+assert(api.mechanic('Creeper','environmental_damage').evidence.some(x=>x.cause==='lava'));
+assert.equal(api.crafting('hopper').status,'found');
+assert(api.crafting('hopper').variants.length>0);
+assert.equal(api.mechanic('Cow','unseen_mechanic').status,'not_documented');
+assert.equal(api.entity('invented mob').status,'unknown');
+console.log('7 evidence/recipe tests passed');

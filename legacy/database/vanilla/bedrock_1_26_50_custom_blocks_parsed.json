@@ -1,0 +1,5029 @@
+[
+  {
+    "identifier": "minecraft:yellow_wool_slab",
+    "source_file": "behavior_pack/blocks/yellow_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#FED83D",
+      "minecraft:loot": "loot_tables/blocks/yellow_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:green_wool_stairs",
+    "source_file": "behavior_pack/blocks/green_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#5E7C16",
+      "minecraft:loot": "loot_tables/blocks/green_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_gray_wool_stairs",
+    "source_file": "behavior_pack/blocks/light_gray_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#9D9D97",
+      "minecraft:loot": "loot_tables/blocks/light_gray_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:black_concrete_slab",
+    "source_file": "behavior_pack/blocks/black_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#191919",
+      "minecraft:loot": "loot_tables/blocks/black_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:magenta_concrete_slab",
+    "source_file": "behavior_pack/blocks/magenta_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#B24CD8",
+      "minecraft:loot": "loot_tables/blocks/magenta_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:magenta_wool_slab",
+    "source_file": "behavior_pack/blocks/magenta_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#C74EBD",
+      "minecraft:loot": "loot_tables/blocks/magenta_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:purple_concrete_stairs",
+    "source_file": "behavior_pack/blocks/purple_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#995ACD",
+      "minecraft:loot": "loot_tables/blocks/purple_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:yellow_concrete_slab",
+    "source_file": "behavior_pack/blocks/yellow_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#E5E533",
+      "minecraft:loot": "loot_tables/blocks/yellow_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_concrete_slab",
+    "source_file": "behavior_pack/blocks/red_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#993333",
+      "minecraft:loot": "loot_tables/blocks/red_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:yellow_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/yellow_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#E5E533",
+      "minecraft:loot": "loot_tables/blocks/yellow_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:lime_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/lime_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#7FCC19",
+      "minecraft:loot": "loot_tables/blocks/lime_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:white_concrete_slab",
+    "source_file": "behavior_pack/blocks/white_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:loot": "loot_tables/blocks/white_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:blue_wool_stairs",
+    "source_file": "behavior_pack/blocks/blue_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#2E388D",
+      "minecraft:loot": "loot_tables/blocks/blue_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:orange_concrete_slab",
+    "source_file": "behavior_pack/blocks/orange_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#D87F33",
+      "minecraft:loot": "loot_tables/blocks/orange_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:pink_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/pink_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#F27FA5",
+      "minecraft:loot": "loot_tables/blocks/pink_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:blue_concrete_slab",
+    "source_file": "behavior_pack/blocks/blue_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#334CB2",
+      "minecraft:loot": "loot_tables/blocks/blue_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:gray_wool_stairs",
+    "source_file": "behavior_pack/blocks/gray_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#474F52",
+      "minecraft:loot": "loot_tables/blocks/gray_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:black_wool_double_slab",
+    "source_file": "behavior_pack/blocks/black_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#1D1D21",
+      "minecraft:loot": "loot_tables/blocks/black_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:orange_wool_stairs",
+    "source_file": "behavior_pack/blocks/orange_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#F9801D",
+      "minecraft:loot": "loot_tables/blocks/orange_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:cyan_wool_double_slab",
+    "source_file": "behavior_pack/blocks/cyan_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#169C9C",
+      "minecraft:loot": "loot_tables/blocks/cyan_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:pink_wool_stairs",
+    "source_file": "behavior_pack/blocks/pink_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#F38BAA",
+      "minecraft:loot": "loot_tables/blocks/pink_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:brown_concrete_slab",
+    "source_file": "behavior_pack/blocks/brown_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#664C33",
+      "minecraft:loot": "loot_tables/blocks/brown_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:green_wool_slab",
+    "source_file": "behavior_pack/blocks/green_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#5E7C16",
+      "minecraft:loot": "loot_tables/blocks/green_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:black_wool_stairs",
+    "source_file": "behavior_pack/blocks/black_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#1D1D21",
+      "minecraft:loot": "loot_tables/blocks/black_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/red_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#993333",
+      "minecraft:loot": "loot_tables/blocks/red_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:blue_wool_double_slab",
+    "source_file": "behavior_pack/blocks/blue_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#2E388D",
+      "minecraft:loot": "loot_tables/blocks/blue_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:gray_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/gray_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#4C4C4C",
+      "minecraft:loot": "loot_tables/blocks/gray_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:lime_concrete_slab",
+    "source_file": "behavior_pack/blocks/lime_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#7FCC19",
+      "minecraft:loot": "loot_tables/blocks/lime_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:lime_wool_stairs",
+    "source_file": "behavior_pack/blocks/lime_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#80C71F",
+      "minecraft:loot": "loot_tables/blocks/lime_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_gray_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/light_gray_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#999999",
+      "minecraft:loot": "loot_tables/blocks/light_gray_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:magenta_wool_double_slab",
+    "source_file": "behavior_pack/blocks/magenta_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#C74EBD",
+      "minecraft:loot": "loot_tables/blocks/magenta_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:pink_concrete_slab",
+    "source_file": "behavior_pack/blocks/pink_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#F27FA5",
+      "minecraft:loot": "loot_tables/blocks/pink_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:magenta_concrete_stairs",
+    "source_file": "behavior_pack/blocks/magenta_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#B24CD8",
+      "minecraft:loot": "loot_tables/blocks/magenta_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_gray_wool_slab",
+    "source_file": "behavior_pack/blocks/light_gray_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#9D9D97",
+      "minecraft:loot": "loot_tables/blocks/light_gray_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:cyan_concrete_stairs",
+    "source_file": "behavior_pack/blocks/cyan_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#4C7F99",
+      "minecraft:loot": "loot_tables/blocks/cyan_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_blue_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/light_blue_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#6699D8",
+      "minecraft:loot": "loot_tables/blocks/light_blue_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:purple_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/purple_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#995ACD",
+      "minecraft:loot": "loot_tables/blocks/purple_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:lime_wool_double_slab",
+    "source_file": "behavior_pack/blocks/lime_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#80C71F",
+      "minecraft:loot": "loot_tables/blocks/lime_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:cyan_wool_slab",
+    "source_file": "behavior_pack/blocks/cyan_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#169C9C",
+      "minecraft:loot": "loot_tables/blocks/cyan_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:gray_wool_slab",
+    "source_file": "behavior_pack/blocks/gray_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#474F52",
+      "minecraft:loot": "loot_tables/blocks/gray_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:orange_wool_double_slab",
+    "source_file": "behavior_pack/blocks/orange_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#F9801D",
+      "minecraft:loot": "loot_tables/blocks/orange_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_concrete_stairs",
+    "source_file": "behavior_pack/blocks/red_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#993333",
+      "minecraft:loot": "loot_tables/blocks/red_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:purple_wool_slab",
+    "source_file": "behavior_pack/blocks/purple_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#8932B8",
+      "minecraft:loot": "loot_tables/blocks/purple_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:white_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/white_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:loot": "loot_tables/blocks/white_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:white_concrete_stairs",
+    "source_file": "behavior_pack/blocks/white_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:loot": "loot_tables/blocks/white_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:orange_wool_slab",
+    "source_file": "behavior_pack/blocks/orange_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#F9801D",
+      "minecraft:loot": "loot_tables/blocks/orange_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:yellow_wool_double_slab",
+    "source_file": "behavior_pack/blocks/yellow_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#FED83D",
+      "minecraft:loot": "loot_tables/blocks/yellow_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:brown_wool_slab",
+    "source_file": "behavior_pack/blocks/brown_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#835432",
+      "minecraft:loot": "loot_tables/blocks/brown_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:green_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/green_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#667F33",
+      "minecraft:loot": "loot_tables/blocks/green_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:purple_wool_double_slab",
+    "source_file": "behavior_pack/blocks/purple_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#8932B8",
+      "minecraft:loot": "loot_tables/blocks/purple_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:black_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/black_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#191919",
+      "minecraft:loot": "loot_tables/blocks/black_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:white_wool_double_slab",
+    "source_file": "behavior_pack/blocks/white_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#E9ECEC",
+      "minecraft:loot": "loot_tables/blocks/white_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:lime_concrete_stairs",
+    "source_file": "behavior_pack/blocks/lime_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#7FCC19",
+      "minecraft:loot": "loot_tables/blocks/lime_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:purple_concrete_slab",
+    "source_file": "behavior_pack/blocks/purple_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#995ACD",
+      "minecraft:loot": "loot_tables/blocks/purple_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:brown_wool_stairs",
+    "source_file": "behavior_pack/blocks/brown_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#835432",
+      "minecraft:loot": "loot_tables/blocks/brown_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_gray_wool_double_slab",
+    "source_file": "behavior_pack/blocks/light_gray_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#9D9D97",
+      "minecraft:loot": "loot_tables/blocks/light_gray_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:yellow_concrete_stairs",
+    "source_file": "behavior_pack/blocks/yellow_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#E5E533",
+      "minecraft:loot": "loot_tables/blocks/yellow_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_blue_concrete_slab",
+    "source_file": "behavior_pack/blocks/light_blue_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#6699D8",
+      "minecraft:loot": "loot_tables/blocks/light_blue_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:blue_wool_slab",
+    "source_file": "behavior_pack/blocks/blue_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#2E388D",
+      "minecraft:loot": "loot_tables/blocks/blue_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:shelf_mushroom",
+    "source_file": "behavior_pack/blocks/shelf_mushroom_block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:collision_box",
+      "minecraft:connection_rule",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:geometry",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:material_instances",
+      "minecraft:movable",
+      "minecraft:precipitation_interactions",
+      "minecraft:selection_box"
+    ],
+    "components": {
+      "minecraft:collision_box": {
+        "origin": [
+          -5,
+          4,
+          1
+        ],
+        "size": [
+          10,
+          7,
+          7
+        ]
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destruction_particles": {
+        "texture": "shelf_mushroom_particle",
+        "tint_method": "none",
+        "particle_count": 48
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.shelf_mushroom_small",
+        "culling": "minecraft:culling.shelf_mushroom_small"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": false,
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/blocks/shelf_mushroom_growth_0.json",
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:map_color": "#ba8524",
+      "minecraft:material_instances": {
+        "small": {
+          "texture": "shelf_mushroom_small",
+          "render_method": "alpha_test_single_sided",
+          "ambient_occlusion": 0.0
+        }
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          8,
+          1
+        ],
+        "size": [
+          10,
+          3,
+          7
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('growth') == 0",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/shelf_mushroom_growth_0.json"
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/shelf_mushroom_growth_1.json"
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 0 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 0 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 0 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      }
+    ],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:magenta_wool_stairs",
+    "source_file": "behavior_pack/blocks/magenta_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#C74EBD",
+      "minecraft:loot": "loot_tables/blocks/magenta_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_shrub",
+    "source_file": "behavior_pack/blocks/red_shrub.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:collision_box",
+      "minecraft:connection_rule",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:geometry",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:material_instances",
+      "minecraft:movable",
+      "minecraft:precipitation_interactions",
+      "minecraft:replaceable",
+      "minecraft:selection_box"
+    ],
+    "components": {
+      "minecraft:collision_box": false,
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:flammable": {
+        "catch_chance_modifier": 60,
+        "destroy_chance_modifier": 100
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.cross"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": false,
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/blocks/red_shrub.json",
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "snowlogging"
+      },
+      "minecraft:replaceable": {},
+      "minecraft:map_color": "#bd3031",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "red_shrub",
+          "render_method": "alpha_test_single_sided",
+          "ambient_occlusion": 0.0
+        }
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_blue_wool_double_slab",
+    "source_file": "behavior_pack/blocks/light_blue_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#3AB3DA",
+      "minecraft:loot": "loot_tables/blocks/light_blue_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:gray_wool_double_slab",
+    "source_file": "behavior_pack/blocks/gray_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#474F52",
+      "minecraft:loot": "loot_tables/blocks/gray_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_blue_wool_stairs",
+    "source_file": "behavior_pack/blocks/light_blue_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#3AB3DA",
+      "minecraft:loot": "loot_tables/blocks/light_blue_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:cyan_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/cyan_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#4C7F99",
+      "minecraft:loot": "loot_tables/blocks/cyan_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:white_wool_slab",
+    "source_file": "behavior_pack/blocks/white_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#E9ECEC",
+      "minecraft:loot": "loot_tables/blocks/white_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_gray_concrete_slab",
+    "source_file": "behavior_pack/blocks/light_gray_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#999999",
+      "minecraft:loot": "loot_tables/blocks/light_gray_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:gray_concrete_stairs",
+    "source_file": "behavior_pack/blocks/gray_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#4C4C4C",
+      "minecraft:loot": "loot_tables/blocks/gray_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_blue_wool_slab",
+    "source_file": "behavior_pack/blocks/light_blue_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#3AB3DA",
+      "minecraft:loot": "loot_tables/blocks/light_blue_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_wool_slab",
+    "source_file": "behavior_pack/blocks/red_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#A02722",
+      "minecraft:loot": "loot_tables/blocks/red_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:green_wool_double_slab",
+    "source_file": "behavior_pack/blocks/green_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#5E7C16",
+      "minecraft:loot": "loot_tables/blocks/green_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:blue_concrete_stairs",
+    "source_file": "behavior_pack/blocks/blue_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#334CB2",
+      "minecraft:loot": "loot_tables/blocks/blue_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:yellow_wool_stairs",
+    "source_file": "behavior_pack/blocks/yellow_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#FED83D",
+      "minecraft:loot": "loot_tables/blocks/yellow_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:black_concrete_stairs",
+    "source_file": "behavior_pack/blocks/black_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#191919",
+      "minecraft:loot": "loot_tables/blocks/black_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:pink_concrete_stairs",
+    "source_file": "behavior_pack/blocks/pink_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#F27FA5",
+      "minecraft:loot": "loot_tables/blocks/pink_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:cyan_concrete_slab",
+    "source_file": "behavior_pack/blocks/cyan_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#4C7F99",
+      "minecraft:loot": "loot_tables/blocks/cyan_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:blue_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/blue_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#334CB2",
+      "minecraft:loot": "loot_tables/blocks/blue_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_blue_concrete_stairs",
+    "source_file": "behavior_pack/blocks/light_blue_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#6699D8",
+      "minecraft:loot": "loot_tables/blocks/light_blue_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:light_gray_concrete_stairs",
+    "source_file": "behavior_pack/blocks/light_gray_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#999999",
+      "minecraft:loot": "loot_tables/blocks/light_gray_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:gray_concrete_slab",
+    "source_file": "behavior_pack/blocks/gray_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#4C4C4C",
+      "minecraft:loot": "loot_tables/blocks/gray_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:brown_wool_double_slab",
+    "source_file": "behavior_pack/blocks/brown_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#835432",
+      "minecraft:loot": "loot_tables/blocks/brown_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_wool_double_slab",
+    "source_file": "behavior_pack/blocks/red_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#A02722",
+      "minecraft:loot": "loot_tables/blocks/red_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:cyan_wool_stairs",
+    "source_file": "behavior_pack/blocks/cyan_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#169C9C",
+      "minecraft:loot": "loot_tables/blocks/cyan_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:black_wool_slab",
+    "source_file": "behavior_pack/blocks/black_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#1D1D21",
+      "minecraft:loot": "loot_tables/blocks/black_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:pink_wool_slab",
+    "source_file": "behavior_pack/blocks/pink_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#F38BAA",
+      "minecraft:loot": "loot_tables/blocks/pink_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:lime_wool_slab",
+    "source_file": "behavior_pack/blocks/lime_wool_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#80C71F",
+      "minecraft:loot": "loot_tables/blocks/lime_wool_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:green_concrete_stairs",
+    "source_file": "behavior_pack/blocks/green_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#667F33",
+      "minecraft:loot": "loot_tables/blocks/green_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:white_wool_stairs",
+    "source_file": "behavior_pack/blocks/white_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#E9ECEC",
+      "minecraft:loot": "loot_tables/blocks/white_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:pink_wool_double_slab",
+    "source_file": "behavior_pack/blocks/pink_wool_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:flammable",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#F38BAA",
+      "minecraft:loot": "loot_tables/blocks/pink_wool_double_slab.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:brown_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/brown_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#664C33",
+      "minecraft:loot": "loot_tables/blocks/brown_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:magenta_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/magenta_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#B24CD8",
+      "minecraft:loot": "loot_tables/blocks/magenta_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:purple_wool_stairs",
+    "source_file": "behavior_pack/blocks/purple_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#8932B8",
+      "minecraft:loot": "loot_tables/blocks/purple_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:orange_concrete_double_slab",
+    "source_file": "behavior_pack/blocks/orange_concrete_double_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:instrument_sound",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#D87F33",
+      "minecraft:loot": "loot_tables/blocks/orange_concrete_double_slab.json",
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:brown_concrete_stairs",
+    "source_file": "behavior_pack/blocks/brown_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#664C33",
+      "minecraft:loot": "loot_tables/blocks/brown_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:red_wool_stairs",
+    "source_file": "behavior_pack/blocks/red_wool_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:flammable",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_shears_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:map_color": "#A02722",
+      "minecraft:loot": "loot_tables/blocks/red_wool_stairs.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 30,
+        "destroy_chance_modifier": 60,
+        "lava_flammable": "always"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:orange_concrete_stairs",
+    "source_file": "behavior_pack/blocks/orange_concrete_stairs.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:chest_obstruction",
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:support",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false,
+        "allows_wire_to_step_down": true
+      },
+      "minecraft:map_color": "#D87F33",
+      "minecraft:loot": "loot_tables/blocks/orange_concrete_stairs.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:chest_obstruction": {
+        "obstruction_rule": "never"
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  },
+  {
+    "identifier": "minecraft:green_concrete_slab",
+    "source_file": "behavior_pack/blocks/green_concrete_slab.block.json",
+    "format_version": "1.26.50",
+    "component_keys": [
+      "minecraft:destructible_by_explosion",
+      "minecraft:destructible_by_mining",
+      "minecraft:destruction_particles",
+      "minecraft:instrument_sound",
+      "minecraft:liquid_detection",
+      "minecraft:loot",
+      "minecraft:map_color",
+      "minecraft:redstone_conductivity",
+      "minecraft:tags"
+    ],
+    "components": {
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:map_color": "#667F33",
+      "minecraft:loot": "loot_tables/blocks/green_concrete_slab.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "particle_count": 48
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": false
+      },
+      "minecraft:instrument_sound": {
+        "up": "note.bassattack"
+      }
+    },
+    "permutations": [],
+    "data_status": "sample_definition_not_full_gameplay_guide"
+  }
+]

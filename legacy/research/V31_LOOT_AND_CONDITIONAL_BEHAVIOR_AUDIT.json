@@ -1,0 +1,147 @@
+{
+  "version": 31,
+  "sample": "Bedrock Samples 1.26.50.4",
+  "loot_tables_parsed": 309,
+  "loot_parse_errors": [],
+  "entities_in_database": 128,
+  "entities_with_resolved_default_loot_table": 75,
+  "unresolved_default_loot_references": [
+    {
+      "entity": "minecraft:fox",
+      "table": "loot_tables/entities/fox.json"
+    },
+    {
+      "entity": "minecraft:piglin_brute",
+      "table": "loot_tables/entities/piglin.json"
+    },
+    {
+      "entity": "minecraft:piglin",
+      "table": "loot_tables/entities/piglin.json"
+    }
+  ],
+  "candidate_item_entries_with_conditions_or_functions": 96,
+  "mechanics_profiles": 105,
+  "mechanics_errors": [
+    {
+      "entity": "minecraft:endermite",
+      "source": "behavior_pack/entities/endermite.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:area_effect_cloud",
+      "source": "behavior_pack/entities/area_effect_cloud.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:fireworks_rocket",
+      "source": "behavior_pack/entities/fireworks_rocket.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:small_fireball",
+      "source": "behavior_pack/entities/small_fireball.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:tripod_camera",
+      "source": "behavior_pack/entities/tripod_camera.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "source": "behavior_pack/entities/elder_guardian.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:cod",
+      "source": "behavior_pack/entities/fish.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:xp_orb",
+      "source": "behavior_pack/entities/xp_orb.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:eye_of_ender_signal",
+      "source": "behavior_pack/entities/eye_of_ender_signal.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:dragon_fireball",
+      "source": "behavior_pack/entities/dragon_fireball.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:phantom",
+      "source": "behavior_pack/entities/phantom.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:ominous_item_spawner",
+      "source": "behavior_pack/entities/ominous_item_spawner.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:splash_potion",
+      "source": "behavior_pack/entities/splash_potion.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:ghast",
+      "source": "behavior_pack/entities/ghast.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:snowball",
+      "source": "behavior_pack/entities/snowball.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:llama_spit",
+      "source": "behavior_pack/entities/llama_spit.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:npc",
+      "source": "behavior_pack/entities/npc.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:wind_charge_projectile",
+      "source": "behavior_pack/entities/wind_charge_projectile.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:breeze_wind_charge_projectile",
+      "source": "behavior_pack/entities/breeze_wind_charge_projectile.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:lingering_potion",
+      "source": "behavior_pack/entities/lingering_potion.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:minecart",
+      "source": "behavior_pack/entities/minecart.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:chest_minecart",
+      "source": "behavior_pack/entities/chest_minecart.json",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "entity": "minecraft:xp_bottle",
+      "source": "behavior_pack/entities/xp_bottle.json",
+      "error": "object of type 'NoneType' has no len()"
+    }
+  ],
+  "limitations": [
+    "Default loot table reference is not necessarily the active table in every entity state",
+    "Loot table entries represent possibilities not guaranteed drops",
+    "This dataset is based on sample files; built-in engine behavior and wiki-verified facts remain separate",
+    "Nested loot table references are indexed but not recursively expanded"
+  ]
+}

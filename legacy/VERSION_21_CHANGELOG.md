@@ -1,0 +1,1 @@
+Version 21 (2026-10-20): Added 9 Wiki source references, 6 concise Bedrock draft Q&A, and raw Mojang Bedrock 1.26.50 datasets: trading 25, loot_tables 305, spawn_rules 56, entities 77. All V20 files retained. Direct Wiki crawling unavailable; no complete wiki extraction claimed.

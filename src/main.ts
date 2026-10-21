@@ -1,0 +1,130 @@
+import {world, system, Entity, Player, EntityTameableComponent} from '@minecraft/server';
+import {ActionFormData, ModalFormData} from '@minecraft/server-ui';
+import {createConversation} from './knowledge.js';
+import banter from '../data/banter.json';
+import {owns, safeName, decodeHome, canWarn} from './state.js';
+const ROBOT = 'tts:robot';
+const key = (k: string) => `tts:${k}`;
+const owner = (bot: Entity) => bot.getDynamicProperty(key('owner')) as string | undefined;
+const conversations = new Map<string, ReturnType<typeof createConversation>>();
+const busy = new Set<string>();
+const lastWarning = new Map<string, number>();
+function assertOwner(player: Player, bot: Entity) {
+  if (!player.isValid || !bot.isValid || !owns(player.id, owner(bot))) throw new Error('Only the robot owner can use this control.');
+  if (bot.dimension.id !== player.dimension.id || distance2(bot.location, player.location) > 144) throw new Error('Move closer to your robot.');
+}
+function distance2(a: {x:number;y:number;z:number}, b: {x:number;y:number;z:number}) {return (a.x-b.x)**2+(a.y-b.y)**2+(a.z-b.z)**2;}
+function say(player: Player, bot: Entity, text: string) {
+  player.sendMessage(`§b[${safeName(bot.nameTag)}]§r ${text}`);
+  try {player.playSound('tts.robot.chirp', {volume: 0.25, pitch: 1});} catch { /* Text remains usable with missing client audio. */ }
+}
+function mode(bot: Entity, following: boolean) {
+  bot.triggerEvent(`tts:follow_${following?'on':'off'}`);
+  bot.setDynamicProperty(key('mode'), following ? 'follow' : 'stay');
+}
+async function interact(player: Player, bot: Entity) {
+  if (busy.has(player.id)) return;
+  busy.add(player.id);
+  try {
+    if (!bot.isValid || !player.isValid) return;
+    if (!owner(bot)) {
+      // Claim synchronously, before any form await: competing players cannot both claim.
+      const tame = bot.getComponent('minecraft:tameable') as EntityTameableComponent | undefined;
+      if (!tame || !tame.tame(player)) throw new Error('Robot ownership could not be established.');
+      bot.setDynamicProperty(key('owner'), player.id);
+      bot.setDynamicProperty(key('name'), 'TTR-1');
+      bot.setDynamicProperty(key('warnings'), true);
+      bot.setDynamicProperty(key('defend'), false);
+      bot.setDynamicProperty(key('home'), JSON.stringify({...bot.location, dimension:bot.dimension.id}));
+      bot.nameTag = 'TTR-1';
+      mode(bot, false);
+      say(player, bot, `${banter.greeting[0]} I'm your offline Minecraft helper. Use Ask to type a question, or Settings to name me. I only answer what my database supports.`);
+    }
+    assertOwner(player, bot);
+    const form = await new ActionFormData().title(bot.nameTag || 'TTR-1').body('Your offline Minecraft companion. All controls are owner-only.')
+      .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').show(player);
+    if (form.canceled) return;
+    assertOwner(player, bot);
+    switch (form.selection) {
+      case 0: {
+        const answer = await new ModalFormData().title('Ask your robot').textField('Minecraft question', 'How do I craft a hopper?').show(player);
+        if (answer.canceled) break;
+        assertOwner(player, bot);
+        const question = String(answer.formValues?.[0] ?? '').slice(0, 240);
+        const sessionKey = `${player.id}:${bot.id}`;
+        if (!conversations.has(sessionKey)) conversations.set(sessionKey, createConversation());
+        say(player, bot, conversations.get(sessionKey)!.ask(question).answer);
+        break;
+      }
+      case 1: mode(bot, true); say(player, bot, 'Following you. Navigation cannot cross dimensions.'); break;
+      case 2: mode(bot, false); say(player, bot, 'Staying here. Water, combat and pushing can still move me.'); break;
+      case 3:
+        bot.setDynamicProperty(key('home'), JSON.stringify({...bot.location, dimension:bot.dimension.id}));
+        say(player, bot, 'Home position saved.'); break;
+      case 4: {
+        const home = decodeHome(String(bot.getDynamicProperty(key('home')) ?? ''));
+        if (!home) {say(player, bot, 'No usable home position saved.'); break;}
+        if (home.dimension !== bot.dimension.id) {say(player, bot, 'Home is in another dimension. Bring me there first.'); break;}
+        // Collision checking and a loaded destination are required; never force into blocks.
+        const arrived = bot.tryTeleport({x:home.x,y:home.y,z:home.z}, {checkForBlocks:true});
+        if (arrived) mode(bot, false);
+        say(player, bot, arrived ? 'Home sweet charging station.' : 'Home is blocked or unloaded. Move nearer or set a new home.');
+        break;
+      }
+      case 5: {
+        const settings = await new ModalFormData().title('Robot settings')
+          .textField('Name (24 characters)', 'TTR-1', {defaultValue: String(bot.getDynamicProperty(key('name')) ?? 'TTR-1')})
+          .toggle('Defend owner when attacked', {defaultValue: bot.getDynamicProperty(key('defend')) === true})
+          .toggle('Nearby danger warnings', {defaultValue: bot.getDynamicProperty(key('warnings')) !== false}).show(player);
+        if (settings.canceled) break;
+        assertOwner(player, bot);
+        const name = safeName(settings.formValues?.[0]);
+        bot.setDynamicProperty(key('name'),name);bot.nameTag=name;
+        const defend = settings.formValues?.[1] === true;
+        bot.triggerEvent(`tts:defend_${defend?'on':'off'}`);
+        bot.setDynamicProperty(key('defend'),defend);
+        bot.setDynamicProperty(key('warnings'),settings.formValues?.[2] === true);
+        say(player,bot,'Settings saved.'); break;
+      }
+    }
+  } catch (error) {
+    if (player.isValid) player.sendMessage(`Robot: ${error instanceof Error ? error.message : 'Please try again.'}`);
+  } finally {busy.delete(player.id);}
+}
+world.beforeEvents.playerInteractWithEntity.subscribe(event => {
+  if (event.target.typeId !== ROBOT) return;
+  event.cancel = true;
+  system.run(() => {void interact(event.player,event.target);});
+});
+world.afterEvents.playerLeave.subscribe(event => {
+  busy.delete(event.playerId);
+  for (const id of conversations.keys()) if (id.startsWith(event.playerId + ':')) conversations.delete(id);
+});
+// One bounded scan per second. Only nearby loaded robots; deduplicate multiplayer overlap.
+system.runInterval(() => {
+  const seen = new Set<string>();
+  for (const player of world.getAllPlayers()) {
+    for (const bot of player.dimension.getEntities({type:ROBOT, location:player.location, maxDistance:24, closest:8})) {
+      if (seen.has(bot.id) || !owns(player.id,owner(bot))) continue;
+      seen.add(bot.id);
+      try {
+        if (bot.getDynamicProperty(key('warnings')) === false || !canWarn(system.currentTick,lastWarning.get(bot.id))) continue;
+        let line: string | undefined;
+        if (player.dimension.getEntities({type:'minecraft:creeper',location:player.location,maxDistance:10,closest:1}).length) line=banter.creeper_nearby[0];
+        if (!line) {
+          const p=player.location;
+          scan: for (let x=-2;x<=2;x++) for (let z=-2;z<=2;z++) {
+            if (player.dimension.getBlock({x:Math.floor(p.x)+x,y:Math.floor(p.y)-1,z:Math.floor(p.z)+z})?.typeId === 'minecraft:lava') {line=banter.lava_nearby[0];break scan;}
+          }
+        }
+        const health=player.getComponent('minecraft:health');
+        if (!line && health && health.currentValue <= 6) line=banter.low_health[0];
+        if (line) {say(player,bot,line);lastWarning.set(bot.id,system.currentTick);}
+      } catch (error) {console.warn(`Robot scan: ${String(error)}`);}
+    }
+  }
+  // Bound transient memory even when robots are removed or chunks unload.
+  for (const id of lastWarning.keys()) if (!seen.has(id)) lastWarning.delete(id);
+  if (conversations.size > 128) conversations.clear();
+},20);
+console.info('Time Trap Robot development build loaded.');

@@ -1,0 +1,71 @@
+{
+  "version": 25,
+  "source_archive": "bedrock-samples-v1.26.50.4-full(1).zip",
+  "source_edition": "Bedrock 1.26.50.4",
+  "scope": "Explicit vanilla behavior_pack item and block definitions, not all registered game items/blocks",
+  "stats": {
+    "items": {
+      "files": 79,
+      "parsed": 68,
+      "identifiers": 68
+    },
+    "blocks": {
+      "files": 98,
+      "parsed": 98,
+      "identifiers": 98
+    }
+  },
+  "errors": [
+    {
+      "path": "behavior_pack/items/pufferfish.json",
+      "error": "Expecting property name enclosed in double quotes: line 23 column 43 (char 665)"
+    },
+    {
+      "path": "behavior_pack/items/wooden_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1419)"
+    },
+    {
+      "path": "behavior_pack/items/golden_apple.json",
+      "error": "Expecting property name enclosed in double quotes: line 27 column 30 (char 651)"
+    },
+    {
+      "path": "behavior_pack/items/copper_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1402)"
+    },
+    {
+      "path": "behavior_pack/items/golden_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1397)"
+    },
+    {
+      "path": "behavior_pack/items/appleEnchanted.json",
+      "error": "Expecting property name enclosed in double quotes: line 27 column 30 (char 694)"
+    },
+    {
+      "path": "behavior_pack/items/stone_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1429)"
+    },
+    {
+      "path": "behavior_pack/items/wheat_seeds.json",
+      "error": "Expecting ',' delimiter: line 10 column 32 (char 202)"
+    },
+    {
+      "path": "behavior_pack/items/diamond_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1437)"
+    },
+    {
+      "path": "behavior_pack/items/iron_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1388)"
+    },
+    {
+      "path": "behavior_pack/items/netherite_spear.json",
+      "error": "Expecting property name enclosed in double quotes: line 55 column 9 (char 1424)"
+    }
+  ],
+  "notes": [
+    "These are structured game definitions, not player-facing gameplay explanations.",
+    "Do not infer that the samples enumerate every vanilla item/block.",
+    "Review component properties against stable APIs before exposing details in robot answers.",
+    "Family-friendly original explanations must be authored and fact-checked separately.",
+    "Minecraft Wiki direct automated extraction is still restricted; no claim of complete Wiki scrape."
+  ]
+}

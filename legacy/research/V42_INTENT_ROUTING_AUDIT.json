@@ -1,0 +1,20 @@
+{
+  "version": 42,
+  "scope": "deterministic offline intent parsing, topic-aware answer routing, safe abstention",
+  "test_result": "PASS: 11 intent, routing, and abstention checks",
+  "data_sources": [
+    "robot_prototype/knowledge/recipes.json",
+    "robot_prototype/knowledge/mobs.json"
+  ],
+  "limitations": [
+    "No semantic language model",
+    "Entity lookup for non-recipe categories remains incomplete",
+    "Unknown facts are not inferred",
+    "Not connected to Minecraft Script API"
+  ],
+  "sample_questions": [
+    "How do I craft a hopper?",
+    "Will a zombie drown?",
+    "What do skeletons drop?"
+  ]
+}

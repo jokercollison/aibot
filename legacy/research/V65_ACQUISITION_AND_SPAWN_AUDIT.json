@@ -1,0 +1,22 @@
+{
+  "version": 65,
+  "source_version": "Bedrock Samples 1.26.50.4",
+  "spawn_rule_entities": 56,
+  "spawn_rule_alternative_conditions": 83,
+  "loot_items": 440,
+  "loot_table_entries": 1397,
+  "registry_acquisition_entries": 3086,
+  "acquisition_mode_counts": {
+    "recipe_in_samples": 1259,
+    "method_not_established_by_available_indexes": 1245,
+    "appears_in_loot_table": 240,
+    "recipe_in_samples,appears_in_loot_table": 342
+  },
+  "limitations": [
+    "Spawn rules are only part of spawning logic; world settings, engine mechanics and structures also matter",
+    "Loot-table presence does not prove a guaranteed drop or accessible chest location",
+    "Crafting recipe presence does not establish survival obtainability for every block state",
+    "A missing recipe is not proof of an unobtainable item",
+    "This pass does not establish full mob behavior or acquisition coverage"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 63,
+  "entities": 129,
+  "profiles_with_component_evidence": 100,
+  "derived_evidence_facts": 231,
+  "topics": {
+    "breathing_component": 86,
+    "environmental_damage": 91,
+    "breeding_food": 26,
+    "avoidance": 28
+  },
+  "recipe_coverage": {
+    "total_item_block_ids": 3093,
+    "with_recipe": 1601,
+    "without_recipe": 1492,
+    "missing_recipe_reference": 0,
+    "by_kind": {
+      "block": {
+        "total": 1463,
+        "without_recipe": 767,
+        "with_recipe": 696
+      },
+      "item": {
+        "total": 1630,
+        "with_recipe": 905,
+        "without_recipe": 725
+      }
+    },
+    "notes": [
+      "No recipe does not imply unobtainable.",
+      "Recipe registry can contain creative-only, legacy, or other non-survival identifiers."
+    ]
+  },
+  "missing_recipe_references": [],
+  "limitations": [
+    "Entity components do not specify all hardcoded engine mechanics.",
+    "Conditional groups and filters must be evaluated before answering as an unconditional fact.",
+    "Unknown properties must not be assumed false.",
+    "No Minecraft Bedrock runtime tests have been performed."
+  ]
+}

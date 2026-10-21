@@ -1,0 +1,506 @@
+{
+  "version": 60,
+  "records": 5201,
+  "by_kind": {
+    "biome": 178,
+    "block": 1561,
+    "enchantment": 84,
+    "entity": 257,
+    "item": 1691,
+    "brewing": 72,
+    "recipe": 918,
+    "loot_item": 440
+  },
+  "duplicate_minecraft_id_groups": 418,
+  "duplicate_examples": [
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:bamboo_jungle",
+      "record_ids": [
+        "biome:minecraft:bamboo_jungle",
+        "biome:bamboo_jungle"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:bamboo_jungle_hills",
+      "record_ids": [
+        "biome:minecraft:bamboo_jungle_hills",
+        "biome:bamboo_jungle_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:basalt_deltas",
+      "record_ids": [
+        "biome:minecraft:basalt_deltas",
+        "biome:basalt_deltas"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:beach",
+      "record_ids": [
+        "biome:minecraft:beach",
+        "biome:beach"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:birch_forest",
+      "record_ids": [
+        "biome:minecraft:birch_forest",
+        "biome:birch_forest"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:birch_forest_hills",
+      "record_ids": [
+        "biome:minecraft:birch_forest_hills",
+        "biome:birch_forest_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:birch_forest_hills_mutated",
+      "record_ids": [
+        "biome:minecraft:birch_forest_hills_mutated",
+        "biome:birch_forest_hills_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:birch_forest_mutated",
+      "record_ids": [
+        "biome:minecraft:birch_forest_mutated",
+        "biome:birch_forest_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:cherry_grove",
+      "record_ids": [
+        "biome:minecraft:cherry_grove",
+        "biome:cherry_grove"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:cold_beach",
+      "record_ids": [
+        "biome:minecraft:cold_beach",
+        "biome:cold_beach"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:cold_ocean",
+      "record_ids": [
+        "biome:minecraft:cold_ocean",
+        "biome:cold_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:cold_taiga",
+      "record_ids": [
+        "biome:minecraft:cold_taiga",
+        "biome:cold_taiga"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:cold_taiga_hills",
+      "record_ids": [
+        "biome:minecraft:cold_taiga_hills",
+        "biome:cold_taiga_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:cold_taiga_mutated",
+      "record_ids": [
+        "biome:minecraft:cold_taiga_mutated",
+        "biome:cold_taiga_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:crimson_forest",
+      "record_ids": [
+        "biome:minecraft:crimson_forest",
+        "biome:crimson_forest"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:dappled_forest",
+      "record_ids": [
+        "biome:minecraft:dappled_forest",
+        "biome:dappled_forest"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:deep_cold_ocean",
+      "record_ids": [
+        "biome:minecraft:deep_cold_ocean",
+        "biome:deep_cold_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:deep_dark",
+      "record_ids": [
+        "biome:minecraft:deep_dark",
+        "biome:deep_dark"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:deep_frozen_ocean",
+      "record_ids": [
+        "biome:minecraft:deep_frozen_ocean",
+        "biome:deep_frozen_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:deep_lukewarm_ocean",
+      "record_ids": [
+        "biome:minecraft:deep_lukewarm_ocean",
+        "biome:deep_lukewarm_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:deep_ocean",
+      "record_ids": [
+        "biome:minecraft:deep_ocean",
+        "biome:deep_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:deep_warm_ocean",
+      "record_ids": [
+        "biome:minecraft:deep_warm_ocean",
+        "biome:deep_warm_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:desert",
+      "record_ids": [
+        "biome:minecraft:desert",
+        "biome:desert"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:desert_hills",
+      "record_ids": [
+        "biome:minecraft:desert_hills",
+        "biome:desert_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:desert_mutated",
+      "record_ids": [
+        "biome:minecraft:desert_mutated",
+        "biome:desert_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:dripstone_caves",
+      "record_ids": [
+        "biome:minecraft:dripstone_caves",
+        "biome:dripstone_caves"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:extreme_hills",
+      "record_ids": [
+        "biome:minecraft:extreme_hills",
+        "biome:extreme_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:extreme_hills_edge",
+      "record_ids": [
+        "biome:minecraft:extreme_hills_edge",
+        "biome:extreme_hills_edge"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:extreme_hills_mutated",
+      "record_ids": [
+        "biome:minecraft:extreme_hills_mutated",
+        "biome:extreme_hills_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:extreme_hills_plus_trees",
+      "record_ids": [
+        "biome:minecraft:extreme_hills_plus_trees",
+        "biome:extreme_hills_plus_trees"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:extreme_hills_plus_trees_mutated",
+      "record_ids": [
+        "biome:minecraft:extreme_hills_plus_trees_mutated",
+        "biome:extreme_hills_plus_trees_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:flower_forest",
+      "record_ids": [
+        "biome:minecraft:flower_forest",
+        "biome:flower_forest"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:forest",
+      "record_ids": [
+        "biome:minecraft:forest",
+        "biome:forest"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:forest_hills",
+      "record_ids": [
+        "biome:minecraft:forest_hills",
+        "biome:forest_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:frozen_ocean",
+      "record_ids": [
+        "biome:minecraft:frozen_ocean",
+        "biome:frozen_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:frozen_peaks",
+      "record_ids": [
+        "biome:minecraft:frozen_peaks",
+        "biome:frozen_peaks"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:frozen_river",
+      "record_ids": [
+        "biome:minecraft:frozen_river",
+        "biome:frozen_river"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:grove",
+      "record_ids": [
+        "biome:minecraft:grove",
+        "biome:grove"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:hell",
+      "record_ids": [
+        "biome:minecraft:hell",
+        "biome:hell"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:ice_mountains",
+      "record_ids": [
+        "biome:minecraft:ice_mountains",
+        "biome:ice_mountains"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:ice_plains",
+      "record_ids": [
+        "biome:minecraft:ice_plains",
+        "biome:ice_plains"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:ice_plains_spikes",
+      "record_ids": [
+        "biome:minecraft:ice_plains_spikes",
+        "biome:ice_plains_spikes"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:jagged_peaks",
+      "record_ids": [
+        "biome:minecraft:jagged_peaks",
+        "biome:jagged_peaks"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:jungle",
+      "record_ids": [
+        "biome:minecraft:jungle",
+        "biome:jungle"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:jungle_edge",
+      "record_ids": [
+        "biome:minecraft:jungle_edge",
+        "biome:jungle_edge"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:jungle_edge_mutated",
+      "record_ids": [
+        "biome:minecraft:jungle_edge_mutated",
+        "biome:jungle_edge_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:jungle_hills",
+      "record_ids": [
+        "biome:minecraft:jungle_hills",
+        "biome:jungle_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:jungle_mutated",
+      "record_ids": [
+        "biome:minecraft:jungle_mutated",
+        "biome:jungle_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:legacy_frozen_ocean",
+      "record_ids": [
+        "biome:minecraft:legacy_frozen_ocean",
+        "biome:legacy_frozen_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:lukewarm_ocean",
+      "record_ids": [
+        "biome:minecraft:lukewarm_ocean",
+        "biome:lukewarm_ocean"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:lush_caves",
+      "record_ids": [
+        "biome:minecraft:lush_caves",
+        "biome:lush_caves"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mangrove_swamp",
+      "record_ids": [
+        "biome:minecraft:mangrove_swamp",
+        "biome:mangrove_swamp"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:meadow",
+      "record_ids": [
+        "biome:minecraft:meadow",
+        "biome:meadow"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mega_taiga",
+      "record_ids": [
+        "biome:minecraft:mega_taiga",
+        "biome:mega_taiga"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mega_taiga_hills",
+      "record_ids": [
+        "biome:minecraft:mega_taiga_hills",
+        "biome:mega_taiga_hills"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mesa",
+      "record_ids": [
+        "biome:minecraft:mesa",
+        "biome:mesa"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mesa_bryce",
+      "record_ids": [
+        "biome:minecraft:mesa_bryce",
+        "biome:mesa_bryce"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mesa_plateau",
+      "record_ids": [
+        "biome:minecraft:mesa_plateau",
+        "biome:mesa_plateau"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mesa_plateau_mutated",
+      "record_ids": [
+        "biome:minecraft:mesa_plateau_mutated",
+        "biome:mesa_plateau_mutated"
+      ]
+    },
+    {
+      "kind": "biome",
+      "minecraft_id": "minecraft:mesa_plateau_stone",
+      "record_ids": [
+        "biome:minecraft:mesa_plateau_stone",
+        "biome:mesa_plateau_stone"
+      ]
+    }
+  ],
+  "craftable_registry_entries": 1601,
+  "uncraftable_or_unknown_registry_entries": 1651,
+  "limitations": [
+    "Registry entries include items not obtainable in survival.",
+    "Recipe absence is not proof of uncraftability.",
+    "Minecraft identifiers shared across kinds must be resolved by intent.",
+    "Mob technical components require event/conditional interpretation.",
+    "Wiki and runtime verification remain incomplete."
+  ]
+}

@@ -1,0 +1,1 @@
+Version 25: Extracted and indexed 79 vanilla item JSON definitions and 98 vanilla block JSON definitions from user-provided Bedrock 1.26.50.4 samples, with component names, identifiers and selected properties. This is a targeted data extraction, NOT a complete Wiki scrape or full item/block registry. All prior version 24 files retained.

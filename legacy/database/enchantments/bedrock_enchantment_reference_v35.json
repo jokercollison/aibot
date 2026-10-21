@@ -1,0 +1,676 @@
+[
+  {
+    "registry_identifier": "minecraft:aqua_affinity",
+    "canonical_identifier": "minecraft:aqua_affinity",
+    "maximum_level": 1,
+    "effect_summary": "Mine underwater faster",
+    "equipment_family": [
+      "helmet"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:bane_of_arthropods",
+    "canonical_identifier": "minecraft:bane_of_arthropods",
+    "maximum_level": 5,
+    "effect_summary": "Extra damage to arthropods and inflicts slowness",
+    "equipment_family": [
+      "sword",
+      "axe"
+    ],
+    "conflict_groups": [
+      "melee_damage"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:binding",
+    "canonical_identifier": "minecraft:binding",
+    "maximum_level": 1,
+    "effect_summary": "Cursed wearable item cannot be removed normally",
+    "equipment_family": [
+      "wearable"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:blast_protection",
+    "canonical_identifier": "minecraft:blast_protection",
+    "maximum_level": 4,
+    "effect_summary": "Reduces explosion damage and knockback",
+    "equipment_family": [
+      "armor"
+    ],
+    "conflict_groups": [
+      "protection"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:bow_infinity",
+    "canonical_identifier": "minecraft:infinity",
+    "maximum_level": 1,
+    "effect_summary": "Shoot normal arrows without consuming them when carrying at least one",
+    "equipment_family": [
+      "bow"
+    ],
+    "conflict_groups": [
+      "bow_ammo"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:breach",
+    "canonical_identifier": "minecraft:breach",
+    "maximum_level": 4,
+    "effect_summary": "Mace smash attacks bypass part of target armor",
+    "equipment_family": [
+      "mace"
+    ],
+    "conflict_groups": [
+      "mace_damage"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:channeling",
+    "canonical_identifier": "minecraft:channeling",
+    "maximum_level": 1,
+    "effect_summary": "Summon lightning on a mob struck by a thrown trident during a thunderstorm",
+    "equipment_family": [
+      "trident"
+    ],
+    "conflict_groups": [
+      "trident_weather"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:density",
+    "canonical_identifier": "minecraft:density",
+    "maximum_level": 5,
+    "effect_summary": "Increases mace smash damage based on fall distance",
+    "equipment_family": [
+      "mace"
+    ],
+    "conflict_groups": [
+      "mace_damage"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:depth_strider",
+    "canonical_identifier": "minecraft:depth_strider",
+    "maximum_level": 3,
+    "effect_summary": "Move faster underwater",
+    "equipment_family": [
+      "boots"
+    ],
+    "conflict_groups": [
+      "boots_movement"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:efficiency",
+    "canonical_identifier": "minecraft:efficiency",
+    "maximum_level": 5,
+    "effect_summary": "Mine appropriate blocks faster",
+    "equipment_family": [
+      "tools"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:feather_falling",
+    "canonical_identifier": "minecraft:feather_falling",
+    "maximum_level": 4,
+    "effect_summary": "Reduce fall damage",
+    "equipment_family": [
+      "boots"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:fire_aspect",
+    "canonical_identifier": "minecraft:fire_aspect",
+    "maximum_level": 2,
+    "effect_summary": "Set melee targets on fire",
+    "equipment_family": [
+      "sword"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:fire_protection",
+    "canonical_identifier": "minecraft:fire_protection",
+    "maximum_level": 4,
+    "effect_summary": "Reduce fire damage and burning duration",
+    "equipment_family": [
+      "armor"
+    ],
+    "conflict_groups": [
+      "protection"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:flame",
+    "canonical_identifier": "minecraft:flame",
+    "maximum_level": 1,
+    "effect_summary": "Set arrows on fire",
+    "equipment_family": [
+      "bow"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:fortune",
+    "canonical_identifier": "minecraft:fortune",
+    "maximum_level": 3,
+    "effect_summary": "Increase drops from some mined blocks",
+    "equipment_family": [
+      "tools"
+    ],
+    "conflict_groups": [
+      "mining_drops"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:frost_walker",
+    "canonical_identifier": "minecraft:frost_walker",
+    "maximum_level": 2,
+    "effect_summary": "Temporarily freeze water underfoot while walking",
+    "equipment_family": [
+      "boots"
+    ],
+    "conflict_groups": [
+      "boots_movement"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:impaling",
+    "canonical_identifier": "minecraft:impaling",
+    "maximum_level": 5,
+    "effect_summary": "Increase trident damage against aquatic targets or targets in water/rain in Bedrock",
+    "equipment_family": [
+      "trident"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:knockback",
+    "canonical_identifier": "minecraft:knockback",
+    "maximum_level": 2,
+    "effect_summary": "Push targets farther when hit",
+    "equipment_family": [
+      "sword"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:looting",
+    "canonical_identifier": "minecraft:looting",
+    "maximum_level": 3,
+    "effect_summary": "Improve certain mob drops when killed using enchanted weapon",
+    "equipment_family": [
+      "sword"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:loyalty",
+    "canonical_identifier": "minecraft:loyalty",
+    "maximum_level": 3,
+    "effect_summary": "Thrown trident returns to thrower",
+    "equipment_family": [
+      "trident"
+    ],
+    "conflict_groups": [
+      "trident_return"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:luck_of_the_sea",
+    "canonical_identifier": "minecraft:luck_of_the_sea",
+    "maximum_level": 3,
+    "effect_summary": "Improve chances of treasure while fishing",
+    "equipment_family": [
+      "fishing_rod"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:lunge",
+    "canonical_identifier": "minecraft:lunge",
+    "maximum_level": null,
+    "effect_summary": "Lunge-related weapon enchantment; precise mechanics require current-version verification",
+    "equipment_family": [
+      "spear"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "unknown_needs_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:lure",
+    "canonical_identifier": "minecraft:lure",
+    "maximum_level": 3,
+    "effect_summary": "Reduce wait for fish bites",
+    "equipment_family": [
+      "fishing_rod"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:mending",
+    "canonical_identifier": "minecraft:mending",
+    "maximum_level": 1,
+    "effect_summary": "Use collected experience to repair an item",
+    "equipment_family": [
+      "durable_equipment"
+    ],
+    "conflict_groups": [
+      "durability"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:multishot",
+    "canonical_identifier": "minecraft:multishot",
+    "maximum_level": 1,
+    "effect_summary": "Shoot three projectiles from crossbow",
+    "equipment_family": [
+      "crossbow"
+    ],
+    "conflict_groups": [
+      "crossbow_shot"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:piercing",
+    "canonical_identifier": "minecraft:piercing",
+    "maximum_level": 4,
+    "effect_summary": "Crossbow projectiles pass through multiple targets",
+    "equipment_family": [
+      "crossbow"
+    ],
+    "conflict_groups": [
+      "crossbow_shot"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:power",
+    "canonical_identifier": "minecraft:power",
+    "maximum_level": 5,
+    "effect_summary": "Increase arrow damage",
+    "equipment_family": [
+      "bow"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:projectile_protection",
+    "canonical_identifier": "minecraft:projectile_protection",
+    "maximum_level": 4,
+    "effect_summary": "Reduce projectile damage",
+    "equipment_family": [
+      "armor"
+    ],
+    "conflict_groups": [
+      "protection"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:protection",
+    "canonical_identifier": "minecraft:protection",
+    "maximum_level": 4,
+    "effect_summary": "Reduce many types of incoming damage",
+    "equipment_family": [
+      "armor"
+    ],
+    "conflict_groups": [
+      "protection"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:punch",
+    "canonical_identifier": "minecraft:punch",
+    "maximum_level": 2,
+    "effect_summary": "Increase arrow knockback",
+    "equipment_family": [
+      "bow"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:quick_charge",
+    "canonical_identifier": "minecraft:quick_charge",
+    "maximum_level": 3,
+    "effect_summary": "Load crossbow faster",
+    "equipment_family": [
+      "crossbow"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:respiration",
+    "canonical_identifier": "minecraft:respiration",
+    "maximum_level": 3,
+    "effect_summary": "Extend time underwater before air runs out",
+    "equipment_family": [
+      "helmet"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:riptide",
+    "canonical_identifier": "minecraft:riptide",
+    "maximum_level": 3,
+    "effect_summary": "Propel player using trident while wet or in rain",
+    "equipment_family": [
+      "trident"
+    ],
+    "conflict_groups": [
+      "trident_return",
+      "trident_weather"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:sharpness",
+    "canonical_identifier": "minecraft:sharpness",
+    "maximum_level": 5,
+    "effect_summary": "Increase melee damage",
+    "equipment_family": [
+      "sword",
+      "axe"
+    ],
+    "conflict_groups": [
+      "melee_damage"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:silk_touch",
+    "canonical_identifier": "minecraft:silk_touch",
+    "maximum_level": 1,
+    "effect_summary": "Collect many blocks in their block form instead of usual drops",
+    "equipment_family": [
+      "tools"
+    ],
+    "conflict_groups": [
+      "mining_drops"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:smite",
+    "canonical_identifier": "minecraft:smite",
+    "maximum_level": 5,
+    "effect_summary": "Increase damage to undead mobs",
+    "equipment_family": [
+      "sword",
+      "axe"
+    ],
+    "conflict_groups": [
+      "melee_damage"
+    ],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:soul_speed",
+    "canonical_identifier": "minecraft:soul_speed",
+    "maximum_level": 3,
+    "effect_summary": "Walk faster on soul sand and soul soil",
+    "equipment_family": [
+      "boots"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:swift_sneak",
+    "canonical_identifier": "minecraft:swift_sneak",
+    "maximum_level": 3,
+    "effect_summary": "Move faster while sneaking",
+    "equipment_family": [
+      "leggings"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:thorns",
+    "canonical_identifier": "minecraft:thorns",
+    "maximum_level": 3,
+    "effect_summary": "Chance to damage attackers when hit",
+    "equipment_family": [
+      "armor"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:unbreaking",
+    "canonical_identifier": "minecraft:unbreaking",
+    "maximum_level": 3,
+    "effect_summary": "Reduce durability consumption",
+    "equipment_family": [
+      "durable_equipment"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:vanishing",
+    "canonical_identifier": "minecraft:vanishing",
+    "maximum_level": 1,
+    "effect_summary": "Cursed item disappears when its holder dies",
+    "equipment_family": [
+      "equipment"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  },
+  {
+    "registry_identifier": "minecraft:wind_burst",
+    "canonical_identifier": "minecraft:wind_burst",
+    "maximum_level": 3,
+    "effect_summary": "Launch player upward after successful mace smash attack",
+    "equipment_family": [
+      "mace"
+    ],
+    "conflict_groups": [],
+    "max_level_status": "reference_pending_runtime_verification",
+    "edition": "Bedrock",
+    "registry_source": "bedrock-samples-v1.26.50.4",
+    "effect_source": "Microsoft Bedrock Creator docs and gameplay reference",
+    "verification": "reference-based; verify against runtime before claiming current exact mechanics"
+  }
+]

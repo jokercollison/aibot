@@ -1,0 +1,5405 @@
+[
+  {
+    "block_id": "minecraft:yellow_wool_slab",
+    "source": "behavior_pack/blocks/yellow_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/yellow_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:green_wool_stairs",
+    "source": "behavior_pack/blocks/green_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/green_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_gray_wool_stairs",
+    "source": "behavior_pack/blocks/light_gray_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_gray_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:black_concrete_slab",
+    "source": "behavior_pack/blocks/black_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/black_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:magenta_concrete_slab",
+    "source": "behavior_pack/blocks/magenta_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/magenta_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:magenta_wool_slab",
+    "source": "behavior_pack/blocks/magenta_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/magenta_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:purple_concrete_stairs",
+    "source": "behavior_pack/blocks/purple_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/purple_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:yellow_concrete_slab",
+    "source": "behavior_pack/blocks/yellow_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/yellow_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_concrete_slab",
+    "source": "behavior_pack/blocks/red_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:yellow_concrete_double_slab",
+    "source": "behavior_pack/blocks/yellow_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/yellow_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:lime_concrete_double_slab",
+    "source": "behavior_pack/blocks/lime_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/lime_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:white_concrete_slab",
+    "source": "behavior_pack/blocks/white_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/white_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:blue_wool_stairs",
+    "source": "behavior_pack/blocks/blue_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/blue_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:orange_concrete_slab",
+    "source": "behavior_pack/blocks/orange_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/orange_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:pink_concrete_double_slab",
+    "source": "behavior_pack/blocks/pink_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/pink_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:blue_concrete_slab",
+    "source": "behavior_pack/blocks/blue_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/blue_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:gray_wool_stairs",
+    "source": "behavior_pack/blocks/gray_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/gray_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:black_wool_double_slab",
+    "source": "behavior_pack/blocks/black_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/black_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:orange_wool_stairs",
+    "source": "behavior_pack/blocks/orange_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/orange_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:cyan_wool_double_slab",
+    "source": "behavior_pack/blocks/cyan_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/cyan_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:pink_wool_stairs",
+    "source": "behavior_pack/blocks/pink_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/pink_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:brown_concrete_slab",
+    "source": "behavior_pack/blocks/brown_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/brown_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:green_wool_slab",
+    "source": "behavior_pack/blocks/green_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/green_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:black_wool_stairs",
+    "source": "behavior_pack/blocks/black_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/black_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_concrete_double_slab",
+    "source": "behavior_pack/blocks/red_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:blue_wool_double_slab",
+    "source": "behavior_pack/blocks/blue_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/blue_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:gray_concrete_double_slab",
+    "source": "behavior_pack/blocks/gray_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/gray_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:lime_concrete_slab",
+    "source": "behavior_pack/blocks/lime_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/lime_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:lime_wool_stairs",
+    "source": "behavior_pack/blocks/lime_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/lime_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_gray_concrete_double_slab",
+    "source": "behavior_pack/blocks/light_gray_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_gray_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:magenta_wool_double_slab",
+    "source": "behavior_pack/blocks/magenta_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/magenta_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:pink_concrete_slab",
+    "source": "behavior_pack/blocks/pink_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/pink_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:magenta_concrete_stairs",
+    "source": "behavior_pack/blocks/magenta_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/magenta_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_gray_wool_slab",
+    "source": "behavior_pack/blocks/light_gray_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_gray_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:cyan_concrete_stairs",
+    "source": "behavior_pack/blocks/cyan_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/cyan_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_blue_concrete_double_slab",
+    "source": "behavior_pack/blocks/light_blue_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_blue_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:purple_concrete_double_slab",
+    "source": "behavior_pack/blocks/purple_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/purple_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:lime_wool_double_slab",
+    "source": "behavior_pack/blocks/lime_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/lime_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:cyan_wool_slab",
+    "source": "behavior_pack/blocks/cyan_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/cyan_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:gray_wool_slab",
+    "source": "behavior_pack/blocks/gray_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/gray_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:orange_wool_double_slab",
+    "source": "behavior_pack/blocks/orange_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/orange_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_concrete_stairs",
+    "source": "behavior_pack/blocks/red_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:purple_wool_slab",
+    "source": "behavior_pack/blocks/purple_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/purple_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:white_concrete_double_slab",
+    "source": "behavior_pack/blocks/white_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/white_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:white_concrete_stairs",
+    "source": "behavior_pack/blocks/white_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/white_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:orange_wool_slab",
+    "source": "behavior_pack/blocks/orange_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/orange_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:yellow_wool_double_slab",
+    "source": "behavior_pack/blocks/yellow_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/yellow_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:brown_wool_slab",
+    "source": "behavior_pack/blocks/brown_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/brown_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:green_concrete_double_slab",
+    "source": "behavior_pack/blocks/green_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/green_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:purple_wool_double_slab",
+    "source": "behavior_pack/blocks/purple_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/purple_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:black_concrete_double_slab",
+    "source": "behavior_pack/blocks/black_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/black_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:white_wool_double_slab",
+    "source": "behavior_pack/blocks/white_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/white_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:lime_concrete_stairs",
+    "source": "behavior_pack/blocks/lime_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/lime_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:purple_concrete_slab",
+    "source": "behavior_pack/blocks/purple_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/purple_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:brown_wool_stairs",
+    "source": "behavior_pack/blocks/brown_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/brown_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_gray_wool_double_slab",
+    "source": "behavior_pack/blocks/light_gray_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_gray_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:yellow_concrete_stairs",
+    "source": "behavior_pack/blocks/yellow_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/yellow_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_blue_concrete_slab",
+    "source": "behavior_pack/blocks/light_blue_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_blue_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:blue_wool_slab",
+    "source": "behavior_pack/blocks/blue_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/blue_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:shelf_mushroom",
+    "source": "behavior_pack/blocks/shelf_mushroom_block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": false,
+              "on_liquid_touches": "popped"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.0
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.0
+        }
+      },
+      "redstone": {
+        "status": "not_defined_here"
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/shelf_mushroom_growth_0.json"
+      },
+      "collision": {
+        "status": "defined",
+        "value": {
+          "origin": [
+            -5,
+            4,
+            1
+          ],
+          "size": [
+            10,
+            7,
+            7
+          ]
+        }
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [
+      {
+        "condition": "query.block_state('growth') == 0",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/shelf_mushroom_growth_0.json"
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/shelf_mushroom_growth_1.json"
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 0 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 0 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 0 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('growth') == 1 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              4,
+              -2
+            ],
+            "size": [
+              14,
+              7,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              6,
+              -2
+            ],
+            "size": [
+              14,
+              5,
+              10
+            ]
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          },
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.shelf_mushroom_large",
+            "culling": "minecraft:culling.shelf_mushroom_large"
+          },
+          "minecraft:material_instances": {
+            "large": {
+              "texture": "shelf_mushroom_large",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": 0.0
+            }
+          }
+        }
+      }
+    ],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:magenta_wool_stairs",
+    "source": "behavior_pack/blocks/magenta_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/magenta_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_shrub",
+    "source": "behavior_pack/blocks/red_shrub.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 60,
+          "destroy_chance_modifier": 100
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": false,
+              "on_liquid_touches": "popped"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.0
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.0
+        }
+      },
+      "redstone": {
+        "status": "not_defined_here"
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_shrub.json"
+      },
+      "collision": {
+        "status": "defined",
+        "value": false
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_blue_wool_double_slab",
+    "source": "behavior_pack/blocks/light_blue_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_blue_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:gray_wool_double_slab",
+    "source": "behavior_pack/blocks/gray_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/gray_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_blue_wool_stairs",
+    "source": "behavior_pack/blocks/light_blue_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_blue_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:cyan_concrete_double_slab",
+    "source": "behavior_pack/blocks/cyan_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/cyan_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:white_wool_slab",
+    "source": "behavior_pack/blocks/white_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/white_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_gray_concrete_slab",
+    "source": "behavior_pack/blocks/light_gray_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_gray_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:gray_concrete_stairs",
+    "source": "behavior_pack/blocks/gray_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/gray_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_blue_wool_slab",
+    "source": "behavior_pack/blocks/light_blue_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_blue_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_wool_slab",
+    "source": "behavior_pack/blocks/red_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:green_wool_double_slab",
+    "source": "behavior_pack/blocks/green_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/green_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:blue_concrete_stairs",
+    "source": "behavior_pack/blocks/blue_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/blue_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:yellow_wool_stairs",
+    "source": "behavior_pack/blocks/yellow_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/yellow_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:black_concrete_stairs",
+    "source": "behavior_pack/blocks/black_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/black_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:pink_concrete_stairs",
+    "source": "behavior_pack/blocks/pink_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/pink_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:cyan_concrete_slab",
+    "source": "behavior_pack/blocks/cyan_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/cyan_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:blue_concrete_double_slab",
+    "source": "behavior_pack/blocks/blue_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/blue_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_blue_concrete_stairs",
+    "source": "behavior_pack/blocks/light_blue_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_blue_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:light_gray_concrete_stairs",
+    "source": "behavior_pack/blocks/light_gray_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/light_gray_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:gray_concrete_slab",
+    "source": "behavior_pack/blocks/gray_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/gray_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:brown_wool_double_slab",
+    "source": "behavior_pack/blocks/brown_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/brown_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_wool_double_slab",
+    "source": "behavior_pack/blocks/red_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:cyan_wool_stairs",
+    "source": "behavior_pack/blocks/cyan_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/cyan_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:black_wool_slab",
+    "source": "behavior_pack/blocks/black_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/black_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:pink_wool_slab",
+    "source": "behavior_pack/blocks/pink_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/pink_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:lime_wool_slab",
+    "source": "behavior_pack/blocks/lime_wool_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/lime_wool_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:green_concrete_stairs",
+    "source": "behavior_pack/blocks/green_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/green_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:white_wool_stairs",
+    "source": "behavior_pack/blocks/white_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/white_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:pink_wool_double_slab",
+    "source": "behavior_pack/blocks/pink_wool_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/pink_wool_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:brown_concrete_double_slab",
+    "source": "behavior_pack/blocks/brown_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/brown_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:magenta_concrete_double_slab",
+    "source": "behavior_pack/blocks/magenta_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/magenta_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:purple_wool_stairs",
+    "source": "behavior_pack/blocks/purple_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/purple_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:orange_concrete_double_slab",
+    "source": "behavior_pack/blocks/orange_concrete_double_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "not_defined_here"
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/orange_concrete_double_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:brown_concrete_stairs",
+    "source": "behavior_pack/blocks/brown_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/brown_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:red_wool_stairs",
+    "source": "behavior_pack/blocks/red_wool_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "defined",
+        "value": {
+          "catch_chance_modifier": 30,
+          "destroy_chance_modifier": 60,
+          "lava_flammable": "always"
+        }
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 0.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 0.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/red_wool_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:orange_concrete_stairs",
+    "source": "behavior_pack/blocks/orange_concrete_stairs.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false,
+          "allows_wire_to_step_down": true
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/orange_concrete_stairs.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  },
+  {
+    "block_id": "minecraft:green_concrete_slab",
+    "source": "behavior_pack/blocks/green_concrete_slab.block.json",
+    "sample_version": "1.26.50.4",
+    "evidence": {
+      "flammability": {
+        "status": "not_defined_here"
+      },
+      "water_behavior": {
+        "status": "defined",
+        "value": {
+          "detection_rules": [
+            {
+              "liquid_type": "water",
+              "can_contain_liquid": true,
+              "on_liquid_touches": "blocking"
+            }
+          ]
+        }
+      },
+      "mining": {
+        "status": "defined",
+        "value": {
+          "seconds_to_destroy": 1.8
+        }
+      },
+      "explosion_resistance": {
+        "status": "defined",
+        "value": {
+          "explosion_resistance": 1.8
+        }
+      },
+      "redstone": {
+        "status": "defined",
+        "value": {
+          "redstone_conductor": false
+        }
+      },
+      "loot": {
+        "status": "defined",
+        "value": "loot_tables/blocks/green_concrete_slab.json"
+      },
+      "collision": {
+        "status": "not_defined_here"
+      },
+      "light": {
+        "status": "not_defined_here"
+      }
+    },
+    "states": {},
+    "permutations": [],
+    "warning": "Custom block definitions are not a comprehensive list of all vanilla blocks. Missing component does not prove a global rule."
+  }
+]

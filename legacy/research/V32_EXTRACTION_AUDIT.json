@@ -1,0 +1,17 @@
+{
+  "version": 32,
+  "source": "Bedrock Samples 1.26.50.4 via Version 31",
+  "entities_with_loot_links": 75,
+  "unique_potential_mob_drop_items": 72,
+  "mob_item_links": 172,
+  "unique_loot_items_across_all_tables": 440,
+  "loot_item_table_links": 1397,
+  "entities_with_targeted_mechanic_evidence": 92,
+  "targeted_mechanic_records": 492,
+  "warnings": [
+    "Raw component evidence cannot automatically answer whether a mob always drowns, burns, or fears another mob.",
+    "Conditional entity component groups depend on events and filters.",
+    "Possible loot is not guaranteed loot; loot tables may have conditions, nested tables, and random rolls.",
+    "This is vanilla-sample evidence, not an exhaustive Wiki gameplay encyclopedia."
+  ]
+}

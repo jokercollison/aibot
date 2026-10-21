@@ -1,0 +1,1024 @@
+[
+  {
+    "identifier": "minecraft:black_bundle",
+    "source_path": "behavior_pack/items/black_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:baked_potato",
+    "source_path": "behavior_pack/items/baked_potato.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 5,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:wind_charge",
+    "source_path": "behavior_pack/items/wind_charge.json",
+    "format_version": "1.26.30",
+    "component_names": [
+      "minecraft:cooldown",
+      "minecraft:display_name",
+      "minecraft:icon",
+      "minecraft:projectile",
+      "minecraft:throwable"
+    ],
+    "component_count": 5,
+    "menu_category": {
+      "category": "items"
+    },
+    "minecraft:cooldown": {
+      "category": "wind_charge",
+      "duration": 0.5
+    }
+  },
+  {
+    "identifier": "minecraft:beetroot_soup",
+    "source_path": "behavior_pack/items/beetroot_soup.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_stack_size",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:max_stack_size": 1,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "normal",
+      "using_converts_to": "bowl"
+    }
+  },
+  {
+    "identifier": "minecraft:spider_eye",
+    "source_path": "behavior_pack/items/spider_eye.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "good",
+      "effects": [
+        {
+          "name": "poison",
+          "chance": 1.0,
+          "duration": 5,
+          "amplifier": 0
+        }
+      ]
+    }
+  },
+  {
+    "identifier": "minecraft:apple",
+    "source_path": "behavior_pack/items/apple.json",
+    "format_version": "1.26.30",
+    "component_names": [
+      "minecraft:display_name",
+      "minecraft:food",
+      "minecraft:icon",
+      "minecraft:tags",
+      "minecraft:use_animation",
+      "minecraft:use_modifiers"
+    ],
+    "component_count": 6,
+    "menu_category": {
+      "category": "items"
+    },
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation_modifier": 0.3
+    },
+    "minecraft:use_modifiers": {
+      "start_using": "always",
+      "use_duration": 1.6,
+      "movement_modifier": 0.35
+    }
+  },
+  {
+    "identifier": "minecraft:muttonRaw",
+    "source_path": "behavior_pack/items/muttonRaw.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "low"
+    }
+  },
+  {
+    "identifier": "minecraft:sweet_berries",
+    "source_path": "behavior_pack/items/sweet_berries.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:seed",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "low",
+      "is_meat": false
+    }
+  },
+  {
+    "identifier": "minecraft:chicken",
+    "source_path": "behavior_pack/items/chicken.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "low",
+      "effects": [
+        {
+          "name": "hunger",
+          "chance": 0.3,
+          "duration": 30,
+          "amplifier": 0
+        }
+      ]
+    }
+  },
+  {
+    "identifier": "minecraft:brown_bundle",
+    "source_path": "behavior_pack/items/brown_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:bread",
+    "source_path": "behavior_pack/items/bread.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 5,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:honey_bottle",
+    "source_path": "behavior_pack/items/honey_bottle.json",
+    "format_version": "1.14",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_stack_size",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:max_stack_size": 16,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "poor",
+      "can_always_eat": true,
+      "using_converts_to": "glass_bottle",
+      "remove_effects": [
+        "poison"
+      ]
+    }
+  },
+  {
+    "identifier": "minecraft:melon",
+    "source_path": "behavior_pack/items/melon.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "low"
+    }
+  },
+  {
+    "identifier": "minecraft:rabbit_stew",
+    "source_path": "behavior_pack/items/rabbit_stew.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_stack_size",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:max_stack_size": 1,
+    "minecraft:food": {
+      "nutrition": 10,
+      "saturation_modifier": "normal",
+      "using_converts_to": "bowl"
+    }
+  },
+  {
+    "identifier": "minecraft:carrot",
+    "source_path": "behavior_pack/items/carrot.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:seed",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:white_bundle",
+    "source_path": "behavior_pack/items/white_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:yellow_bundle",
+    "source_path": "behavior_pack/items/yellow_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:breeze_rod",
+    "source_path": "behavior_pack/items/breeze_rod.json",
+    "format_version": "1.26.30",
+    "component_names": [
+      "minecraft:display_name",
+      "minecraft:hand_equipped",
+      "minecraft:icon"
+    ],
+    "component_count": 3,
+    "menu_category": {
+      "category": "items"
+    },
+    "minecraft:hand_equipped": {
+      "value": true
+    }
+  },
+  {
+    "identifier": "minecraft:ominous_trial_key",
+    "source_path": "behavior_pack/items/ominous_trial_key.json",
+    "format_version": "1.26.30",
+    "component_names": [
+      "minecraft:display_name",
+      "minecraft:icon"
+    ],
+    "component_count": 2,
+    "menu_category": {
+      "category": "items"
+    }
+  },
+  {
+    "identifier": "minecraft:beetroot",
+    "source_path": "behavior_pack/items/beetroot.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:mushroom_stew",
+    "source_path": "behavior_pack/items/mushroom_stew.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_stack_size",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:max_stack_size": 1,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "normal",
+      "using_converts_to": "bowl"
+    }
+  },
+  {
+    "identifier": "minecraft:pumpkin_seeds",
+    "source_path": "behavior_pack/items/pumpkin_seeds.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:seed"
+    ],
+    "component_count": 1
+  },
+  {
+    "identifier": "minecraft:muttonCooked",
+    "source_path": "behavior_pack/items/muttonCooked.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "good"
+    }
+  },
+  {
+    "identifier": "minecraft:beetroot_seeds",
+    "source_path": "behavior_pack/items/beetroot_seeds.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:seed"
+    ],
+    "component_count": 1
+  },
+  {
+    "identifier": "minecraft:purple_bundle",
+    "source_path": "behavior_pack/items/purple_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:torchflower_seeds",
+    "source_path": "behavior_pack/items/torchflower_seeds.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:seed"
+    ],
+    "component_count": 1
+  },
+  {
+    "identifier": "minecraft:orange_bundle",
+    "source_path": "behavior_pack/items/orange_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:trial_key",
+    "source_path": "behavior_pack/items/trial_key.json",
+    "format_version": "1.26.30",
+    "component_names": [
+      "minecraft:display_name",
+      "minecraft:icon"
+    ],
+    "component_count": 2,
+    "menu_category": {
+      "category": "items"
+    }
+  },
+  {
+    "identifier": "minecraft:fish",
+    "source_path": "behavior_pack/items/fish.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_damage",
+      "minecraft:stacked_by_data",
+      "minecraft:use_duration"
+    ],
+    "component_count": 4,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "poor"
+    }
+  },
+  {
+    "identifier": "minecraft:shelf_mushroom",
+    "source_path": "behavior_pack/items/shelf_mushroom.json",
+    "format_version": "1.26.50",
+    "component_names": [
+      "minecraft:block_placer",
+      "minecraft:compostable",
+      "minecraft:display_name",
+      "minecraft:tags"
+    ],
+    "component_count": 4
+  },
+  {
+    "identifier": "minecraft:blue_bundle",
+    "source_path": "behavior_pack/items/blue_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:clownfish",
+    "source_path": "behavior_pack/items/clownfish.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_damage",
+      "minecraft:stacked_by_data",
+      "minecraft:use_duration"
+    ],
+    "component_count": 4,
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation_modifier": "poor"
+    }
+  },
+  {
+    "identifier": "minecraft:camera",
+    "source_path": "behavior_pack/items/camera.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:block",
+      "minecraft:camera",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3
+  },
+  {
+    "identifier": "minecraft:bundle",
+    "source_path": "behavior_pack/items/bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:suspicious_stew",
+    "source_path": "behavior_pack/items/suspicious_stew.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_stack_size",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:max_stack_size": 1,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "normal",
+      "using_converts_to": "bowl",
+      "on_use_action": "suspicious_stew_effect",
+      "can_always_eat": true
+    }
+  },
+  {
+    "identifier": "minecraft:golden_carrot",
+    "source_path": "behavior_pack/items/golden_carrot.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "supernatural"
+    }
+  },
+  {
+    "identifier": "minecraft:pitcher_pod",
+    "source_path": "behavior_pack/items/pitcher_pod.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:seed"
+    ],
+    "component_count": 1
+  },
+  {
+    "identifier": "minecraft:dried_kelp",
+    "source_path": "behavior_pack/items/dried_kelp.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation_modifier": "poor"
+    }
+  },
+  {
+    "identifier": "minecraft:salmon",
+    "source_path": "behavior_pack/items/salmon.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_damage",
+      "minecraft:stacked_by_data",
+      "minecraft:use_duration"
+    ],
+    "component_count": 4,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "poor"
+    }
+  },
+  {
+    "identifier": "minecraft:green_bundle",
+    "source_path": "behavior_pack/items/green_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:cooked_chicken",
+    "source_path": "behavior_pack/items/cooked_chicken.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:potato",
+    "source_path": "behavior_pack/items/potato.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:seed",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation_modifier": "low"
+    }
+  },
+  {
+    "identifier": "minecraft:red_bundle",
+    "source_path": "behavior_pack/items/red_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:gray_bundle",
+    "source_path": "behavior_pack/items/gray_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:porkchop",
+    "source_path": "behavior_pack/items/porkchop.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation_modifier": "low"
+    }
+  },
+  {
+    "identifier": "minecraft:cooked_porkchop",
+    "source_path": "behavior_pack/items/cooked_porkchop.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 8,
+      "saturation_modifier": "good"
+    }
+  },
+  {
+    "identifier": "minecraft:poisonous_potato",
+    "source_path": "behavior_pack/items/poisonous_potato.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "low",
+      "effects": [
+        {
+          "name": "poison",
+          "chance": 0.6,
+          "duration": 5,
+          "amplifier": 0
+        }
+      ]
+    }
+  },
+  {
+    "identifier": "minecraft:cooked_rabbit",
+    "source_path": "behavior_pack/items/cooked_rabbit.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 5,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:cyan_bundle",
+    "source_path": "behavior_pack/items/cyan_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:rabbit",
+    "source_path": "behavior_pack/items/rabbit.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation_modifier": "low"
+    }
+  },
+  {
+    "identifier": "minecraft:beef",
+    "source_path": "behavior_pack/items/beef.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation_modifier": "low"
+    }
+  },
+  {
+    "identifier": "minecraft:magenta_bundle",
+    "source_path": "behavior_pack/items/magenta_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:rotten_flesh",
+    "source_path": "behavior_pack/items/rotten_flesh.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation_modifier": "poor",
+      "effects": [
+        {
+          "name": "hunger",
+          "chance": 0.8,
+          "duration": 30,
+          "amplifier": 0
+        }
+      ]
+    }
+  },
+  {
+    "identifier": "minecraft:cooked_beef",
+    "source_path": "behavior_pack/items/cooked_beef.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 8,
+      "saturation_modifier": "good"
+    }
+  },
+  {
+    "identifier": "minecraft:cooked_fish",
+    "source_path": "behavior_pack/items/cooked_fish.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_damage",
+      "minecraft:stacked_by_data",
+      "minecraft:use_duration"
+    ],
+    "component_count": 4,
+    "minecraft:food": {
+      "nutrition": 5,
+      "saturation_modifier": "normal"
+    }
+  },
+  {
+    "identifier": "minecraft:lime_bundle",
+    "source_path": "behavior_pack/items/lime_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:pink_bundle",
+    "source_path": "behavior_pack/items/pink_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:cooked_salmon",
+    "source_path": "behavior_pack/items/cooked_salmon.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:max_damage",
+      "minecraft:stacked_by_data",
+      "minecraft:use_duration"
+    ],
+    "component_count": 4,
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation_modifier": "good"
+    }
+  },
+  {
+    "identifier": "minecraft:red_shrub",
+    "source_path": "behavior_pack/items/red_shrub.json",
+    "format_version": "1.26.50",
+    "component_names": [
+      "minecraft:block_placer",
+      "minecraft:compostable",
+      "minecraft:display_name",
+      "minecraft:icon"
+    ],
+    "component_count": 4
+  },
+  {
+    "identifier": "minecraft:melon_seeds",
+    "source_path": "behavior_pack/items/melon_seeds.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:seed"
+    ],
+    "component_count": 1
+  },
+  {
+    "identifier": "minecraft:nether_wart",
+    "source_path": "behavior_pack/items/nether_wart.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:seed"
+    ],
+    "component_count": 1
+  },
+  {
+    "identifier": "minecraft:light_blue_bundle",
+    "source_path": "behavior_pack/items/light_blue_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:chorus_fruit",
+    "source_path": "behavior_pack/items/chorus_fruit.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation_modifier": "low",
+      "on_use_action": "chorus_teleport",
+      "on_use_range": [
+        8,
+        8,
+        8
+      ],
+      "cooldown_type": "chorusfruit",
+      "cooldown_time": 20,
+      "can_always_eat": true
+    }
+  },
+  {
+    "identifier": "minecraft:glow_berries",
+    "source_path": "behavior_pack/items/glow_berries.json",
+    "format_version": "1.16.0",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:seed",
+      "minecraft:use_duration"
+    ],
+    "component_count": 3,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "low",
+      "is_meat": false
+    }
+  },
+  {
+    "identifier": "minecraft:cookie",
+    "source_path": "behavior_pack/items/cookie.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 2,
+      "saturation_modifier": "poor"
+    }
+  },
+  {
+    "identifier": "minecraft:light_gray_bundle",
+    "source_path": "behavior_pack/items/light_gray_bundle.json",
+    "format_version": "1.21.80",
+    "component_names": [
+      "minecraft:bundle_interaction",
+      "minecraft:icon",
+      "minecraft:max_stack_size",
+      "minecraft:storage_item",
+      "minecraft:storage_weight_limit",
+      "minecraft:storage_weight_modifier"
+    ],
+    "component_count": 6,
+    "minecraft:max_stack_size": 1
+  },
+  {
+    "identifier": "minecraft:honeycomb",
+    "source_path": "behavior_pack/items/honeycomb.json",
+    "format_version": "1.16",
+    "component_names": [],
+    "component_count": 0
+  },
+  {
+    "identifier": "minecraft:pumpkin_pie",
+    "source_path": "behavior_pack/items/pumpkin_pie.json",
+    "format_version": "1.10",
+    "component_names": [
+      "minecraft:food",
+      "minecraft:use_duration"
+    ],
+    "component_count": 2,
+    "minecraft:food": {
+      "nutrition": 8,
+      "saturation_modifier": "low"
+    }
+  }
+]

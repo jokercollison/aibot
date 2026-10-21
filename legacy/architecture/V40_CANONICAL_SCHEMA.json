@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.0.0",
+  "scope": "offline Bedrock robot; content schema independent of Minecraft Script API",
+  "identity": {
+    "canonical_id": "minecraft:<identifier> for vanilla game objects; robot:<id> for dialogue and actions",
+    "record_id": "<category>:<canonical_id>:<fact_type>:<variant>",
+    "language": "en_US",
+    "edition": "bedrock",
+    "game_version": "1.26.50.4"
+  },
+  "record": {
+    "required": [
+      "record_id",
+      "category",
+      "subject_id",
+      "predicate",
+      "value",
+      "edition",
+      "source_refs",
+      "verification"
+    ],
+    "optional": [
+      "conditions",
+      "exceptions",
+      "valid_from",
+      "valid_until",
+      "aliases",
+      "confidence_notes",
+      "response_templates",
+      "related_ids"
+    ]
+  },
+  "verification": [
+    "confirmed_from_samples",
+    "confirmed_from_official_docs",
+    "wiki_cross_checked",
+    "needs_validation",
+    "unknown",
+    "contradicted"
+  ],
+  "categories": {
+    "entity": [
+      "classification",
+      "health",
+      "attack",
+      "avoidance",
+      "breathing",
+      "fire_lava",
+      "sunlight",
+      "breeding",
+      "taming",
+      "drops",
+      "spawning",
+      "interactions"
+    ],
+    "block": [
+      "obtainment",
+      "crafting",
+      "mining",
+      "drops",
+      "gravity",
+      "flammability",
+      "redstone",
+      "waterlogging",
+      "interactions"
+    ],
+    "item": [
+      "obtainment",
+      "crafting",
+      "uses",
+      "durability",
+      "effects",
+      "equipment"
+    ],
+    "recipe": [
+      "inputs",
+      "station",
+      "output",
+      "conditions",
+      "variant"
+    ],
+    "enchantment": [
+      "max_level",
+      "equipment",
+      "conflicts",
+      "effects",
+      "acquisition"
+    ],
+    "location": [
+      "biome",
+      "structure",
+      "dimension",
+      "generation_conditions"
+    ],
+    "dialogue": [
+      "intent",
+      "variants",
+      "tone",
+      "cooldown",
+      "context"
+    ],
+    "reaction": [
+      "trigger",
+      "conditions",
+      "priority",
+      "cooldown",
+      "variants"
+    ],
+    "action": [
+      "intent",
+      "permissions",
+      "preconditions",
+      "effect",
+      "confirmation"
+    ]
+  },
+  "rules": [
+    "Missing field means unknown, never false",
+    "Component presence alone does not establish unconditional behavior",
+    "Do not mix Java-only mechanics into Bedrock answers",
+    "Recipe existence does not imply every item is craftable",
+    "Every factual response must cite internal source_ref and version",
+    "Content additions must not require modifications to routing logic"
+  ]
+}

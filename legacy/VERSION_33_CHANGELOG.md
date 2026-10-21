@@ -1,0 +1,1 @@
+Version 33: Recipe type/station coverage audit, normalized result-to-method index, reverse ingredient-to-recipe lookup. Source: user-provided Bedrock Samples 1.26.50.4. All previous versions preserved. Not a claim that every obtainable item is craftable.

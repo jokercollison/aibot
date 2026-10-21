@@ -1,0 +1,24 @@
+{
+  "minecraft:creeper": {
+    "fear": {
+      "text": "Creepers avoid cats and ocelots. The sample behavior checks for them within 6 blocks; other active behaviors can affect the result.",
+      "status": "conditional",
+      "source": "behavior_pack/entities/creeper.json",
+      "verification": "checked_against_samples_v1.26.50.4_not_in_game"
+    },
+    "danger": {
+      "text": "Creepers swell and explode near a target. Back away rather than relying on a robot to stop the explosion.",
+      "status": "conditional",
+      "source": "behavior_pack/entities/creeper.json",
+      "verification": "checked_against_samples_v1.26.50.4_not_in_game"
+    }
+  },
+  "minecraft:cow": {
+    "breed": {
+      "text": "Feed wheat to two adult cows that can enter breeding mode. They need to be close enough to breed.",
+      "status": "conditional",
+      "source": "behavior_pack/entities/cow.json",
+      "verification": "checked_against_samples_v1.26.50.4_not_in_game"
+    }
+  }
+}

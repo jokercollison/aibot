@@ -1,0 +1,1 @@
+Version 18: retained complete Version 17; added 223 source-linked Minecraft Wiki topic catalog records across enchantments, biomes, monster mobs, passive mobs, redstone; audited vanilla sample JSON categories. Entries are explicitly marked as unreviewed topic stubs, not completed knowledge articles.

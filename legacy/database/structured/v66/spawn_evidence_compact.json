@@ -1,0 +1,3069 @@
+{
+  "minecraft:drowned": {
+    "entity_id": "minecraft:drowned",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "ocean"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4,
+          "initial_event": "minecraft:as_rider",
+          "initial_event_count": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "ocean"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 100
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "river"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "dripstone_caves"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": false,
+        "underwater": true,
+        "underground": true,
+        "weight": {
+          "default": 95
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:pillager": {
+    "entity_id": "minecraft:pillager",
+    "population_control": "pillager",
+    "alternatives": [],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:guardian": {
+    "entity_id": "minecraft:guardian",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "surface": false,
+        "underwater": true,
+        "underground": false
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:husk": {
+    "entity_id": "minecraft:husk",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "desert"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 240
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:bat": {
+    "entity_id": "minecraft:bat",
+    "population_control": "ambient",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "value": "overworld"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "not",
+            "value": "deep_dark"
+          }
+        ],
+        "brightness": {
+          "min": 0,
+          "max": 4,
+          "adjust_for_weather": true
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "block_filter": [
+          "minecraft:stone",
+          "minecraft:granite",
+          "minecraft:diorite",
+          "minecraft:andesite",
+          "minecraft:tuff",
+          "minecraft:deepslate"
+        ],
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 8,
+          "max_size": 8
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:chicken": {
+    "entity_id": "minecraft:chicken",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "animal"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:dolphin": {
+    "entity_id": "minecraft:dolphin",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "cold"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 7
+        },
+        "herd": {
+          "min_size": 3,
+          "max_size": 5
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:sheep": {
+    "entity_id": "minecraft:sheep",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "animal"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 12
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 3
+        }
+      },
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "meadow"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cherry_grove"
+            }
+          ]
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 2
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:pillager_patrol": {
+    "entity_id": "minecraft:pillager_patrol",
+    "population_control": "pillager",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "mooshroom_island"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "the_end"
+            }
+          ]
+        },
+        "difficulty": {
+          "max": "easy"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "herd": {
+          "min_size": 2,
+          "max_size": 5,
+          "initial_event": "minecraft:promote_to_patrol_captain",
+          "initial_event_count": 1,
+          "event": "minecraft:spawn_as_patrol_follower",
+          "event_skip_count": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "mooshroom_island"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "the_end"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "normal",
+          "max": "normal"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "herd": {
+          "min_size": 2,
+          "max_size": 5,
+          "initial_event": "minecraft:promote_to_patrol_captain",
+          "initial_event_count": 1,
+          "event": "minecraft:spawn_as_patrol_follower",
+          "event_skip_count": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "mooshroom_island"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "the_end"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "herd": {
+          "min_size": 2,
+          "max_size": 5,
+          "initial_event": "minecraft:promote_to_patrol_captain",
+          "initial_event_count": 1,
+          "event": "minecraft:spawn_as_patrol_follower",
+          "event_skip_count": 1
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:skeleton": {
+    "entity_id": "minecraft:skeleton",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 50
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 2
+        }
+      },
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "all_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "monster"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "!=",
+                  "value": "frozen"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "!=",
+                  "value": "mangrove_swamp"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "!=",
+                  "value": "sulfur_caves"
+                }
+              ]
+            },
+            {
+              "test": "has_biome_tag",
+              "value": "soulsand_valley"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 80
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:zombie_horse": {
+    "entity_id": "minecraft:zombie_horse",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "savanna"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ice_plains"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass",
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1,
+          "event": "minecraft:spawn_adult_with_rider"
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:pufferfish": {
+    "entity_id": "minecraft:pufferfish",
+    "population_control": "water_animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "warm"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 25
+        },
+        "herd": {
+          "min_size": 3,
+          "max_size": 5
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "lukewarm"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 13
+        },
+        "herd": {
+          "min_size": 3,
+          "max_size": 5
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:turtle": {
+    "entity_id": "minecraft:turtle",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "beach"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "warm"
+          }
+        ],
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:sand",
+        "weight": {
+          "default": 8
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 6
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:zombie_pigman": {
+    "entity_id": "minecraft:zombie_pigman",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_zombified_piglin"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 11,
+          "adjust_for_weather": true
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 100
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_few_zombified_piglins"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 11,
+          "adjust_for_weather": true
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 1
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:stray": {
+    "entity_id": "minecraft:stray",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "ocean"
+          }
+        ],
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 120
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          }
+        ],
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 120
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:tropicalfish": {
+    "entity_id": "minecraft:tropicalfish",
+    "population_control": "water_animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warm"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "lukewarm"
+              }
+            ]
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 75
+        },
+        "herd": [
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_anenonme"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_black_tang"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_blue_dory"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_butterfly_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_cichlid"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_clownfish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_cc_betta"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_dog_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_e_red_snapper"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_goat_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_moorish_idol"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_ornate_butterfly"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_parrot_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_queen_angel_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_cichlid"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_lipped_benny"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_snapper"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_threadfin"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_tomato_clown"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_triggerfish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_yellow_tang"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_yellow_tail_parrot"
+          }
+        ]
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "warm"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "lukewarm"
+              }
+            ]
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 25
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 3
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "lush_caves"
+        },
+        "surface": false,
+        "underwater": true,
+        "underground": true,
+        "weight": {
+          "default": 75
+        },
+        "herd": [
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_anenonme"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_black_tang"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_blue_dory"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_butterfly_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_cichlid"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_clownfish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_cc_betta"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_dog_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_e_red_snapper"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_goat_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_moorish_idol"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_ornate_butterfly"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_parrot_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_queen_angel_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_cichlid"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_lipped_benny"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_snapper"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_threadfin"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_tomato_clown"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_triggerfish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_yellow_tang"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_yellow_tail_parrot"
+          }
+        ]
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "lush_caves"
+        },
+        "surface": false,
+        "underwater": true,
+        "underground": true,
+        "weight": {
+          "default": 25
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 3
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "mangrove_swamp"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 25
+        },
+        "herd": [
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_anenonme"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_black_tang"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_blue_dory"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_butterfly_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_cichlid"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_clownfish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_cc_betta"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_dog_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_e_red_snapper"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_goat_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_moorish_idol"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_ornate_butterfly"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_parrot_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_queen_angel_fish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_cichlid"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_lipped_benny"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_red_snapper"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_threadfin"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_tomato_clown"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_triggerfish"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_yellow_tang"
+          },
+          {
+            "min_size": 3,
+            "max_size": 5,
+            "event": "minecraft:become_yellow_tail_parrot"
+          }
+        ]
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:magma_cube": {
+    "entity_id": "minecraft:magma_cube",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_magma_cubes"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 4
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_many_magma_cubes"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 100
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 5
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:donkey": {
+    "entity_id": "minecraft:donkey",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "plains"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 1
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 3
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "savanna"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 1
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "meadow"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 1
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:cave_spider": {
+    "entity_id": "minecraft:cave_spider",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 20
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:strider": {
+    "entity_id": "minecraft:strider",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "nether"
+        },
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 20
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:cat": {
+    "entity_id": "minecraft:cat",
+    "population_control": "cat",
+    "alternatives": [],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:panda": {
+    "entity_id": "minecraft:panda",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "jungle"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "bamboo"
+          }
+        ],
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "bamboo"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 40
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:horse": {
+    "entity_id": "minecraft:horse",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "plains"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 4
+        },
+        "herd": [
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_white"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_creamy"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_chestnut"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_brown"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_black"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_gray"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_darkbrown"
+          }
+        ]
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "savanna"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 1
+        },
+        "herd": [
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_white"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_creamy"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_chestnut"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_brown"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_black"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_gray"
+          },
+          {
+            "min_size": 2,
+            "max_size": 6,
+            "event": "minecraft:make_darkbrown"
+          }
+        ]
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:glow_squid": {
+    "entity_id": "minecraft:glow_squid",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "surface": false,
+        "underwater": true,
+        "underground": true,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:parrot": {
+    "entity_id": "minecraft:parrot",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "jungle"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 40
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:bee": {
+    "entity_id": "minecraft:bee",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "plains"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "sunflower_plains"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "flower_forest"
+          }
+        ],
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:pig": {
+    "entity_id": "minecraft:pig",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "animal"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cherry_grove"
+            }
+          ]
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 3
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:blaze": {
+    "entity_id": "minecraft:blaze",
+    "population_control": "monster",
+    "alternatives": [],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:enderman": {
+    "entity_id": "minecraft:enderman",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "monster"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      },
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "spawn_endermen"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 6
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "warped_forest"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "the_end"
+          }
+        ],
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:parched": {
+    "entity_id": "minecraft:parched",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "all_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "monster"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "desert"
+                }
+              ]
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 40
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:salmon": {
+    "entity_id": "minecraft:salmon",
+    "population_control": "water_animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "warm"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 26
+        },
+        "herd": {
+          "min_size": 3,
+          "max_size": 5
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "river"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 16
+        },
+        "herd": {
+          "min_size": 3,
+          "max_size": 5
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:phantom": {
+    "entity_id": "minecraft:phantom",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "monster"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 100
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:creeper": {
+    "entity_id": "minecraft:creeper",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 50
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 2
+        }
+      },
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 100
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:ghast": {
+    "entity_id": "minecraft:ghast",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "spawn_ghast"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 40
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:witch": {
+    "entity_id": "minecraft:witch",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 1
+        }
+      },
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 5
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:nautilus": {
+    "entity_id": "minecraft:nautilus",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "none_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "frozen"
+              },
+              {
+                "all_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "cold"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "!=",
+                    "value": "deep"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 25
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "frozen"
+              },
+              {
+                "all_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "cold"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "!=",
+                    "value": "deep"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:camel_husk": {
+    "entity_id": "minecraft:camel_husk",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "desert"
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:sand",
+        "weight": {
+          "default": 25
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1,
+          "event": "minecraft:spawn_with_rider"
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:ocelot": {
+    "entity_id": "minecraft:ocelot",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "jungle"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 30
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:zombie": {
+    "entity_id": "minecraft:zombie",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 55
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 2
+        }
+      },
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 100
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:frog": {
+    "entity_id": "minecraft:frog",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mangrove_swamp"
+            }
+          ]
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 5
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:llama": {
+    "entity_id": "minecraft:llama",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "extreme_hills"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 6
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "savanna"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 8
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:cow": {
+    "entity_id": "minecraft:cow",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "animal"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:grass_block",
+        "weight": {
+          "default": 8
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 3
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:piglin": {
+    "entity_id": "minecraft:piglin",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_piglin"
+        },
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      },
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "spawn_few_piglins"
+        },
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 15
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:mooshroom": {
+    "entity_id": "minecraft:mooshroom",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "mooshroom_island"
+        },
+        "brightness": {
+          "min": 9,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 8
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 8
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:polar_bear": {
+    "entity_id": "minecraft:polar_bear",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "ocean"
+          }
+        ],
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 1
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2,
+          "event": "minecraft:entity_born",
+          "event_skip_count": 1
+        }
+      },
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          }
+        ],
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": "minecraft:ice",
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2,
+          "event": "minecraft:entity_born",
+          "event_skip_count": 1
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:sulfur_cube": {
+    "entity_id": "minecraft:sulfur_cube",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "value": "sulfur_caves"
+          }
+        ],
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 150
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:bogged": {
+    "entity_id": "minecraft:bogged",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mangrove_swamp"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "weight": {
+          "default": 40
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:cod": {
+    "entity_id": "minecraft:cod",
+    "population_control": "water_animal",
+    "alternatives": [
+      {
+        "biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "warm"
+          }
+        ],
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 75
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 7
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:axolotl": {
+    "entity_id": "minecraft:axolotl",
+    "population_control": "water_animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "lush_caves"
+        },
+        "surface": false,
+        "underwater": true,
+        "underground": true,
+        "block_filter": "minecraft:clay",
+        "weight": {
+          "default": 10
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 6,
+          "event": "minecraft:entity_born",
+          "event_skip_count": 2
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:hoglin": {
+    "entity_id": "minecraft:hoglin",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "crimson_forest"
+        },
+        "difficulty": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "surface": false,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 20
+        },
+        "herd": {
+          "min_size": 4,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:goat": {
+    "entity_id": "minecraft:goat",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "snowy_slopes"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "jagged_peaks"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen_peaks"
+            }
+          ]
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": [
+          "minecraft:stone",
+          "minecraft:granite",
+          "minecraft:polished_granite",
+          "minecraft:diorite",
+          "minecraft:polished_diorite",
+          "minecraft:andesite",
+          "minecraft:polished_andesite",
+          "minecraft:snow",
+          "minecraft:powder_snow",
+          "minecraft:snow_layer",
+          "minecraft:packed_ice",
+          "minecraft:gravel"
+        ],
+        "weight": {
+          "default": 5
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 3
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:squid": {
+    "entity_id": "minecraft:squid",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "ocean"
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 8
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      },
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "river"
+            }
+          ]
+        },
+        "surface": true,
+        "underwater": true,
+        "underground": false,
+        "weight": {
+          "default": 8
+        },
+        "herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:spider": {
+    "entity_id": "minecraft:spider",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "sulfur_caves"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "brightness": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 100
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:wither_skeleton": {
+    "entity_id": "minecraft:wither_skeleton",
+    "population_control": "monster",
+    "alternatives": [],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:camel": {
+    "entity_id": "minecraft:camel",
+    "population_control": "animal",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "test": "has_biome_tag",
+          "value": "desert"
+        },
+        "brightness": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": false,
+        "block_filter": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "minecraft:sandstone"
+        ],
+        "weight": {
+          "default": 1
+        },
+        "herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  },
+  "minecraft:slime": {
+    "entity_id": "minecraft:slime",
+    "population_control": "monster",
+    "alternatives": [
+      {
+        "biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "monster"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mangrove_swamp"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            }
+          ]
+        },
+        "difficulty": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "surface": true,
+        "underwater": false,
+        "underground": true,
+        "weight": {
+          "default": 100
+        }
+      }
+    ],
+    "provenance": "Bedrock Samples 1.26.50.4 spawn_rules; not complete spawning guarantee"
+  }
+}

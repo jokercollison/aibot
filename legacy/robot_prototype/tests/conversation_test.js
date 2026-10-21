@@ -1,0 +1,15 @@
+const assert=require('assert');
+const {respond,DialogueScheduler}=require('../scripts/conversation_engine');
+assert.equal(respond('tell me a joke').category,'conversation');
+assert.equal(respond('thanks').intent,'thanks');
+assert.equal(respond('hello').intent,'greeting');
+assert.equal(respond('how do I craft a hopper').category,'recipe');
+assert.equal(respond('how do I craft the banana spaceship').status,'unknown');
+const s=new DialogueScheduler();
+assert(s.maybe('lava_nearby','p1',100,0));
+assert.equal(s.maybe('lava_nearby','p1',101,1),null);
+assert(s.maybe('lava_nearby','p2',101,1));
+assert(s.maybe('lava_nearby','p1',701,2));
+assert.equal(s.maybe('nonexistent','p1',800),null);
+s.forget('p1');assert(s.maybe('lava_nearby','p1',802,0));
+console.log('PASS: conversation routing, crafting fallback, unknowns, owner-specific cooldowns');

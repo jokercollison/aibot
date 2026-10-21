@@ -1,0 +1,1 @@
+V28: Audited real coverage vs requested full Minecraft Bedrock gameplay knowledge. Added output-indexed recipe lookup, 128 entity per-field evidence/gap profiles, and prioritized coverage audit. No unsupported claim of full mob/block knowledge. All V27 files retained.

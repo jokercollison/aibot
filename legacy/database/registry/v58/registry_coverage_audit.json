@@ -1,0 +1,36 @@
+{
+  "version": 58,
+  "original_samples_version": "1.26.50.4",
+  "registry_counts": {
+    "items": 1623,
+    "blocks": 1463,
+    "entities": 129,
+    "biomes": 89,
+    "enchantments": 42
+  },
+  "crafting_registry_matches": {
+    "items": 905,
+    "blocks": 696
+  },
+  "recipe_output_names_not_matching_item_or_block_registry": [
+    "banner_pattern",
+    "carpet",
+    "carrotonastick",
+    "chain",
+    "chest_boat",
+    "darkoak_sign",
+    "dye",
+    "emptymap",
+    "horsearmorleather",
+    "record_5",
+    "sealantern",
+    "sign",
+    "speckled_melon"
+  ],
+  "limitations": [
+    "Metadata registries are identifier inventories, not full gameplay descriptions",
+    "No crafting recipe found does not mean unobtainable or uncraftable; outputs may be aliases or generated elsewhere",
+    "No direct in-game testing performed",
+    "The runtime uses exact identifier links, not assumed equivalence across item and block IDs"
+  ]
+}

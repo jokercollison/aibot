@@ -1,0 +1,1 @@
+Version 24: Extracted 321 candidate villager/wandering-trader trade records from 27 official Bedrock 1.26.50 trading JSON files; extracted 72 brewing transformations from recipe JSON. Added edition-safe Wiki cross-check and warnings for random trades and outdated advice. Previous version files retained. Not a complete Wiki scrape.

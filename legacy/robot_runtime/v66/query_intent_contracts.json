@@ -1,0 +1,37 @@
+{
+  "acquisition": {
+    "phrases": [
+      "where can i find {item}",
+      "how do i get {item}",
+      "where do i obtain {item}",
+      "how to make {item}"
+    ],
+    "fields": [
+      "recipes",
+      "loot_by_category"
+    ],
+    "unknown_reply": "I cannot confirm how to obtain that from the available evidence."
+  },
+  "spawn": {
+    "phrases": [
+      "where does {mob} spawn",
+      "where can i find {mob}",
+      "what conditions spawn {mob}"
+    ],
+    "fields": [
+      "alternatives"
+    ],
+    "unknown_reply": "The sample files do not establish its spawning conditions."
+  },
+  "loot": {
+    "phrases": [
+      "what drops {item}",
+      "which chests contain {item}",
+      "can {mob} drop {item}"
+    ],
+    "fields": [
+      "loot_by_category"
+    ],
+    "unknown_reply": "I cannot confirm that drop from the current source evidence."
+  }
+}

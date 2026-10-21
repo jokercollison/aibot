@@ -1,0 +1,6354 @@
+[
+  {
+    "entity": "minecraft:allay",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/allay.json"
+  },
+  {
+    "entity": "minecraft:allay",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/allay.json"
+  },
+  {
+    "entity": "minecraft:allay",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/allay.json"
+  },
+  {
+    "entity": "minecraft:allay",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/allay.json"
+  },
+  {
+    "entity": "minecraft:allay",
+    "category": "taming",
+    "component": "minecraft:behavior.follow_owner",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/allay.json"
+  },
+  {
+    "entity": "minecraft:allay",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/allay.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:unrolled",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:rolled_up",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:adult",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:adult_unrolled",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:adult",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:unrolled",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "conditional_group",
+    "group": "minecraft:unrolled",
+    "source": "behavior_pack/entities/armadillo.json"
+  },
+  {
+    "entity": "minecraft:armor_stand",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/armor_stand.json"
+  },
+  {
+    "entity": "minecraft:arrow",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/arrow.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "axolotl_adult",
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "axolotl_adult",
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/axolotl.json"
+  },
+  {
+    "entity": "minecraft:bat",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bat.json"
+  },
+  {
+    "entity": "minecraft:bat",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bat.json"
+  },
+  {
+    "entity": "minecraft:bat",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bat.json"
+  },
+  {
+    "entity": "minecraft:bat",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bat.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "conditional_group",
+    "group": "perish",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "escape_fire",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "countdown_to_perish",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "bee_adult",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "bee_adult",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "easy_attack",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "normal_attack",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "hard_attack",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "angry_bee",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "take_nearest_target",
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:bee",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bee.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "melee_mode",
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "melee_mode",
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "ranged_mode",
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:blaze",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/blaze.json"
+  },
+  {
+    "entity": "minecraft:boat",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/boat.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack",
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack_hard",
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:bogged",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/bogged.json"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/breeze.json"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/breeze.json"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/breeze.json"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/breeze.json"
+  },
+  {
+    "entity": "minecraft:breeze",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/breeze.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:camel_adult",
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:camel_adult",
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:camel_adult",
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:camel_husk_with_no_hostile_rider",
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:camel_husk_with_no_hostile_rider",
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/camel_husk.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_wild",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_adult",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_adult",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "taming",
+    "component": "minecraft:tameable",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_wild",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "taming",
+    "component": "minecraft:behavior.follow_owner",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_tame",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_wild",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_wild",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:cat_tame",
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cat",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cat.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_poison_easy",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_poison_hard",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_poison_normal",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_angry",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_hostile",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_angry",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_hostile",
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cave_spider.json"
+  },
+  {
+    "entity": "minecraft:chest_boat",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chest_boat.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:chicken_adult",
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:chicken_adult",
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:chicken",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/chicken.json"
+  },
+  {
+    "entity": "minecraft:cod",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fish.json"
+  },
+  {
+    "entity": "minecraft:cod",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fish.json"
+  },
+  {
+    "entity": "minecraft:cod",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fish.json"
+  },
+  {
+    "entity": "minecraft:cod",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fish.json"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/copper_golem.json"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/copper_golem.json"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/copper_golem.json"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/copper_golem.json"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/copper_golem.json"
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/copper_golem.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:cow_adult",
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:cow_adult",
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:cow_adult",
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:cow",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cow.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "conditional_group",
+    "group": "minecraft:spawned_by_creaking_heart",
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "conditional_group",
+    "group": "minecraft:spawned_by_player",
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:spawned_by_creaking_heart",
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:hostile_unobserved",
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creaking",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "conditional_group",
+    "group": "minecraft:neutral",
+    "source": "behavior_pack/entities/creaking.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:creeper",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/creeper.json"
+  },
+  {
+    "entity": "minecraft:cushion",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/cushion.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "dolphin_baby",
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "dolphin_adult",
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/dolphin.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:donkey_tamed",
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:donkey_adult",
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:donkey_tamed",
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:donkey_unchested",
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:donkey_chested",
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:donkey",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/donkey.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_mode",
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_mode",
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_mode",
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:drowned",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/drowned.json"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/elder_guardian.json"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/elder_guardian.json"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/elder_guardian.json"
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/elder_guardian.json"
+  },
+  {
+    "entity": "minecraft:ender_crystal",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ender_crystal.json"
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ender_dragon.json"
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ender_dragon.json"
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ender_dragon.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:enderman_angry",
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:enderman",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/enderman.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:endermite",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/endermite.json"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/evocation_illager.json"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/evocation_illager.json"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/evocation_illager.json"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/evocation_illager.json"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "conditional_group",
+    "group": "minecraft:raid_despawn",
+    "source": "behavior_pack/entities/evocation_illager.json"
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/evocation_illager.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:docile_fox",
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:defending_fox",
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:fox_adult",
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:fox_adult",
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:docile_fox",
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:defending_fox",
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:fox",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/fox.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:frog",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/frog.json"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ghast.json"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ghast.json"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ghast.json"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ghast.json"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ghast.json"
+  },
+  {
+    "entity": "minecraft:ghast",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ghast.json"
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/glow_squid.json"
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/glow_squid.json"
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/glow_squid.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "goat_adult",
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "goat_adult",
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "goat_baby",
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "goat_adult",
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "interact_default",
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "interact_screamer",
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:goat",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/goat.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "conditional_group",
+    "group": "minecraft:guardian_passive",
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:guardian_aggressive",
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:guardian",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/guardian.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "conditional_group",
+    "group": "minecraft:baby",
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "conditional_group",
+    "group": "minecraft:adult",
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:baby",
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:adult_unharnessed",
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:adult_harnessed",
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:baby",
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/happy_ghast.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_baby",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_adult",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_adult",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_baby",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_adult",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_baby",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:hoglin_adult",
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/hoglin.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:horse_tamed",
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:horse_adult",
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:horse_tamed",
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:horse",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/horse.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:husk",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/husk.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/iron_golem.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:in_caravan",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_adult",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_adult",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_angry",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_angry_wolf",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_unchested",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_chested",
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:llama",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/llama.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:slime_large",
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:slime_medium",
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:slime_small",
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/magma_cube.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:cow_adult",
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:cow_adult",
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:cow_adult",
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mooshroom.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:mule_unchested",
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:mule_chested",
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:mule",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/mule.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_baby",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_tame",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_adult",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_adult",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "taming",
+    "component": "minecraft:tameable",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_wild_adult_calm",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_wild_adult_calm",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_tame_adult",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_tame",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_baby",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_wild_adult_calm",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:nautilus_tame",
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/nautilus.json"
+  },
+  {
+    "entity": "minecraft:npc",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/npc.json"
+  },
+  {
+    "entity": "minecraft:npc",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/npc.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "conditional_group",
+    "group": "minecraft:ocelot_wild",
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:ocelot_trusting",
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:ocelot_trusting",
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "taming",
+    "component": "minecraft:behavior.follow_owner",
+    "scope": "conditional_group",
+    "group": "minecraft:ocelot_tame",
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:ocelot_wild",
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:ocelot_trusting",
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ocelot.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_worried",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_lazy",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_aggressive",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_adult",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_adult",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_adult",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_aggressive",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_adult",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:panda_aggressive",
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:panda",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/panda.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack",
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack_hard",
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parched",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parched.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "taming",
+    "component": "minecraft:tameable",
+    "scope": "conditional_group",
+    "group": "minecraft:parrot_wild",
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "taming",
+    "component": "minecraft:behavior.follow_owner",
+    "scope": "conditional_group",
+    "group": "minecraft:parrot_tame",
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:parrot",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/parrot.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:phantom",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/phantom.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:pig_adult",
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:pig_adult",
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:pig_unsaddled",
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:pig_saddled",
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:pig",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pig.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "piglin_baby",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "melee_unit",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "melee_unit",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "ranged_unit",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "alert_for_attack_targets",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "take_target_as_response_to_block_break",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "interactable_piglin",
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "melee_unit",
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "melee_unit",
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "take_target_as_response_to_block_break",
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/piglin_brute.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack",
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:pillager",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pillager.json"
+  },
+  {
+    "entity": "minecraft:player",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/player.json"
+  },
+  {
+    "entity": "minecraft:player",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/player.json"
+  },
+  {
+    "entity": "minecraft:player",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/player.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:adult_hostile",
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:baby_wild",
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:adult_wild",
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/polar_bear.json"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pufferfish.json"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pufferfish.json"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pufferfish.json"
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/pufferfish.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "adult",
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "adult",
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/rabbit.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:hostile",
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "conditional_group",
+    "group": "minecraft:raid_configuration",
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:ravager",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "conditional_group",
+    "group": "minecraft:hostile",
+    "source": "behavior_pack/entities/ravager.json"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/salmon.json"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/salmon.json"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/salmon.json"
+  },
+  {
+    "entity": "minecraft:salmon",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/salmon.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:sheep_adult",
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:sheep_adult",
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:sheep",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sheep.json"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/shulker.json"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/shulker.json"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/shulker.json"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/shulker.json"
+  },
+  {
+    "entity": "minecraft:shulker",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/shulker.json"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/silverfish.json"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/silverfish.json"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/silverfish.json"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:silverfish_angry",
+    "source": "behavior_pack/entities/silverfish.json"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/silverfish.json"
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/silverfish.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:lightning_immune",
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack",
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack_hard",
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton.json"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton_horse.json"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton_horse.json"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:lightning_immune",
+    "source": "behavior_pack/entities/skeleton_horse.json"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton_horse.json"
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/skeleton_horse.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:slime_large",
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:slime_medium",
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:slime_small",
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:slime",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/slime.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "sniffer_adult",
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "sniffer_adult",
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sniffer.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:snow_golem",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/snow_golem.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_angry",
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:spider_hostile",
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:spider",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/spider.json"
+  },
+  {
+    "entity": "minecraft:squid",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/squid.json"
+  },
+  {
+    "entity": "minecraft:squid",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/squid.json"
+  },
+  {
+    "entity": "minecraft:squid",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/squid.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:melee_attack",
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack",
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:ranged_attack_hard",
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:stray",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/stray.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:strider_adult",
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:strider_adult",
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:strider_saddled",
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:strider_unsaddled",
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:strider",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "conditional_group",
+    "group": "minecraft:strider_pathing_behaviors",
+    "source": "behavior_pack/entities/strider.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_ai",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_medium_with_block",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_medium_with_block",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_medium_without_block",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_medium_with_block_interactable",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_small",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:sulfur_cube_medium_without_block",
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/sulfur_cube.json"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tadpole.json"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tadpole.json"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tadpole.json"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tadpole.json"
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tadpole.json"
+  },
+  {
+    "entity": "minecraft:tnt_minecart",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:inactive",
+    "source": "behavior_pack/entities/tnt_minecart.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "conditional_group",
+    "group": "minecraft:in_caravan",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_adult",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_adult",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_angry",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_angry_wolf",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_defend_trader",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:llama_unchested",
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/trader_llama.json"
+  },
+  {
+    "entity": "minecraft:tripod_camera",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tripod_camera.json"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tropicalfish.json"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tropicalfish.json"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tropicalfish.json"
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/tropicalfish.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:adult",
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:adult",
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:turtle",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "conditional_group",
+    "group": "minecraft:adult",
+    "source": "behavior_pack/entities/turtle.json"
+  },
+  {
+    "entity": "minecraft:vex",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vex.json"
+  },
+  {
+    "entity": "minecraft:vex",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vex.json"
+  },
+  {
+    "entity": "minecraft:vex",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vex.json"
+  },
+  {
+    "entity": "minecraft:vex",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vex.json"
+  },
+  {
+    "entity": "minecraft:villager",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager.json"
+  },
+  {
+    "entity": "minecraft:villager",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager.json"
+  },
+  {
+    "entity": "minecraft:villager",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager.json"
+  },
+  {
+    "entity": "minecraft:villager",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager.json"
+  },
+  {
+    "entity": "minecraft:villager",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager.json"
+  },
+  {
+    "entity": "minecraft:villager",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager.json"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager_v2.json"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager_v2.json"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager_v2.json"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager_v2.json"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager_v2.json"
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/villager_v2.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:default_targeting",
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:vindicator_johnny",
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "conditional_group",
+    "group": "minecraft:raid_despawn",
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/vindicator.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wandering_trader.json"
+  },
+  {
+    "entity": "minecraft:warden",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/warden.json"
+  },
+  {
+    "entity": "minecraft:warden",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/warden.json"
+  },
+  {
+    "entity": "minecraft:warden",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/warden.json"
+  },
+  {
+    "entity": "minecraft:warden",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/warden.json"
+  },
+  {
+    "entity": "minecraft:warden",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/warden.json"
+  },
+  {
+    "entity": "minecraft:witch",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/witch.json"
+  },
+  {
+    "entity": "minecraft:witch",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/witch.json"
+  },
+  {
+    "entity": "minecraft:witch",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/witch.json"
+  },
+  {
+    "entity": "minecraft:witch",
+    "category": "combat",
+    "component": "minecraft:behavior.ranged_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/witch.json"
+  },
+  {
+    "entity": "minecraft:witch",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/witch.json"
+  },
+  {
+    "entity": "minecraft:witch",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/witch.json"
+  },
+  {
+    "entity": "minecraft:wither",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither.json"
+  },
+  {
+    "entity": "minecraft:wither",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither.json"
+  },
+  {
+    "entity": "minecraft:wither",
+    "category": "fire_lava",
+    "component": "minecraft:damage_sensor",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither.json"
+  },
+  {
+    "entity": "minecraft:wither",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither.json"
+  },
+  {
+    "entity": "minecraft:wither",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wither_skeleton.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "fear",
+    "component": "minecraft:behavior.avoid_mob_type",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_wild",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "fear",
+    "component": "minecraft:behavior.panic",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_baby",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "breeding",
+    "component": "minecraft:breedable",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_adult",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "breeding",
+    "component": "minecraft:behavior.breed",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_tame",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "taming",
+    "component": "minecraft:tameable",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_wild",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "taming",
+    "component": "minecraft:behavior.follow_owner",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_tame",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_tame",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_wild",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_tame",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:wolf_armorable",
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:wolf",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/wolf.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "zoglin_adult",
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "conditional_group",
+    "group": "zoglin_baby",
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zoglin.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:horse_tamed",
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_horse.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "taming",
+    "component": "minecraft:tameable",
+    "scope": "conditional_group",
+    "group": "minecraft:zombie_nautilus_tameable",
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "conditional_group",
+    "group": "minecraft:zombie_nautilus_wild_unmounted",
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "conditional_group",
+    "group": "minecraft:zombie_nautilus_tame",
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "interactions",
+    "component": "minecraft:healable",
+    "scope": "conditional_group",
+    "group": "minecraft:zombie_nautilus_tame",
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:zombie_nautilus_tame",
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "interactions",
+    "component": "minecraft:behavior.tempt",
+    "scope": "conditional_group",
+    "group": "minecraft:zombie_nautilus_tameable",
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_nautilus.json"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_pigman.json"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "category": "fire_lava",
+    "component": "minecraft:fire_immune",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_pigman.json"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_pigman.json"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_pigman.json"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_pigman.json"
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_pigman.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "conditional_group",
+    "group": "from_abandoned_village",
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "breathing",
+    "component": "minecraft:breathable",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "fire_lava",
+    "component": "minecraft:hurt_on_condition",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "fire_lava",
+    "component": "minecraft:burns_in_daylight",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "fear",
+    "component": "minecraft:behavior.flee_sun",
+    "scope": "conditional_group",
+    "group": "from_abandoned_village",
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "combat",
+    "component": "minecraft:attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "combat",
+    "component": "minecraft:behavior.melee_box_attack",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "combat",
+    "component": "minecraft:behavior.nearest_attackable_target",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "interactions",
+    "component": "minecraft:interact",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "spawn",
+    "component": "minecraft:despawn",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "category": "spawn",
+    "component": "minecraft:behavior.random_stroll",
+    "scope": "base",
+    "group": null,
+    "source": "behavior_pack/entities/zombie_villager_v2.json"
+  }
+]

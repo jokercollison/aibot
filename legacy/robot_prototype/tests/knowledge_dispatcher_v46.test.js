@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict');
+const {answer,mobQuery,conversation,componentsFor}=require('../scripts/knowledge_dispatcher_v46');
+let tests=0;
+function check(fn){fn();tests++;}
+check(()=>assert.equal(answer('Hello!').status,'conversation'));
+check(()=>assert.equal(answer('Tell me a joke').status,'conversation'));
+check(()=>assert.notEqual(answer('How do I craft a hopper?').status,'conversation'));
+check(()=>assert.equal(answer('How do I craft a hopper?').category,'recipes'));
+check(()=>assert.equal(answer('What can I make with iron ingot?').intent,'ingredient_uses'));
+check(()=>assert.equal(answer('Will a creeper drown?').subject,'creeper'));
+check(()=>assert.equal(answer('Is a zombie afraid of anything?').subject,'zombie'));
+check(()=>assert.equal(answer('Can I breed cows?').subject,'cow'));
+check(()=>assert.equal(answer('Will an axolotl burn in lava?').intent,'fire'));
+check(()=>assert.equal(answer('Thank you').status,'conversation'));
+check(()=>assert.equal(answer('Hi',{dialogueIndex:2}).answer,'Reporting for duty. Snacks not included.'));
+check(()=>assert.equal(answer('gibberish xyz').status,'unknown_subject'));
+check(()=>assert.equal(answer('').status,'clarify'));
+check(()=>assert.equal(answer('Where can I find diamonds?').intent,'acquisition'));
+check(()=>assert.equal(answer('What is Sharpness?').category,'enchantments'));
+check(()=>assert.equal(answer('How do I brew a potion of weakness?').category,'brewing'));
+check(()=>assert.ok(Array.isArray(componentsFor({components:{'minecraft:behavior.panic':{}},component_groups:{hurt:{'minecraft:damage_sensor':{}}}},'avoidance'))));
+check(()=>assert.ok(answer('Will a creeper drown?').status!=='found'));
+console.log('V46 dispatcher tests passed:',tests);

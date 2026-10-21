@@ -1,0 +1,1 @@
+Version 19: Expanded wiki coverage audit to 13 topic indexes; added source URLs, category counts, editorial filters, edition-specific caveats, and remaining data gaps. No full-site scrape claimed. All prior files retained.

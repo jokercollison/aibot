@@ -1,0 +1,42 @@
+{
+  "version": 30,
+  "source": "Bedrock Samples 1.26.50.4 via Version 29 cumulative archive",
+  "entities_indexed": 128,
+  "blocks_indexed": 98,
+  "entities_with_component_evidence_by_question": {
+    "breathing": 84,
+    "fire_lava": 99,
+    "combat": 76,
+    "drops": 78,
+    "families": 124,
+    "interactions": 32,
+    "health": 94,
+    "movement": 92,
+    "sunlight": 12,
+    "fears_avoidance": 56,
+    "breeding": 26,
+    "taming": 7
+  },
+  "blocks_with_component_evidence_by_question": {
+    "flammability": 49,
+    "water_behavior": 66,
+    "mining": 98,
+    "explosion_resistance": 98,
+    "redstone": 96,
+    "loot": 98,
+    "collision": 2
+  },
+  "limits": [
+    "No new wiki content claimed",
+    "Vanilla entity component groups may be conditional",
+    "Some mechanics are engine-defined and absent from JSON",
+    "98 block definitions are custom/behavior-pack subset, not full vanilla block encyclopedia",
+    "Do not treat absence of component as negative answer"
+  ],
+  "next_priority": [
+    "Resolve entity component-group activation and events",
+    "Join entity loot references to loot-table outcomes",
+    "Join crafting outputs to ingredient descriptions",
+    "Fill engine-level mob and block mechanics from current Bedrock wiki/docs"
+  ]
+}

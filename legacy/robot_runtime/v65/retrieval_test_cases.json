@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Where does a drowned spawn?",
+    "entity_id": "minecraft:drowned",
+    "source": "spawn_rules",
+    "status": "structured evidence; interpretation conditional"
+  },
+  {
+    "question": "Can I get an apple from a loot chest?",
+    "item_id": "minecraft:apple",
+    "source": "loot_tables",
+    "status": "possible loot only"
+  },
+  {
+    "question": "How do I get an acacia boat?",
+    "item_id": "minecraft:acacia_boat",
+    "source": "recipes",
+    "status": "recipe indexed"
+  }
+]

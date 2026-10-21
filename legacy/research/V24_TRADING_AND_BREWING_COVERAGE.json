@@ -1,0 +1,164 @@
+{
+  "audit": {
+    "date": "2026-10-20",
+    "target": "Bedrock 1.26.50",
+    "method": "Parsed user-supplied vanilla samples, not scraped wiki",
+    "trade_files": 27,
+    "malformed_files": [
+      {
+        "path": "behavior_pack/trading/economy_trades/librarian_trades.json",
+        "error": "Expecting property name enclosed in double quotes: line 257 column 15 (char 6568)"
+      },
+      {
+        "path": "behavior_pack/trading/librarian_trades.json",
+        "error": "Expecting value: line 110 column 9 (char 2266)"
+      }
+    ],
+    "candidate_trade_records": 321,
+    "brewing_recipe_count": 72,
+    "cautions": [
+      "Trade tables contain candidate pools and groups, not guaranteed offers.",
+      "Some trade files may be experimental or unused; validate profession bindings.",
+      "Brewing recipes represent container/mix transformations, not complete potion effect variants.",
+      "No Java NBT command examples ingested.",
+      "All extracted data is suitable for original, family-friendly answer generation."
+    ],
+    "wiki_crosscheck": [
+      {
+        "url": "https://minecraft.wiki/w/Tutorial:Trading",
+        "note": "Some indexed tutorial content explicitly warns that repeated-curing discounts are outdated."
+      },
+      {
+        "url": "https://minecraft.wiki/w/Tutorial:Best_enchantments_guide",
+        "note": "Protection types and Sharpness/Smite/Bane are incompatible groups; article mixes Java history, so retain only general verified group notes."
+      }
+    ]
+  },
+  "trade_table_summaries": [
+    {
+      "table": "armorer_trades.json",
+      "tiers": 4,
+      "candidate_trades": 0
+    },
+    {
+      "table": "butcher_trades.json",
+      "tiers": 2,
+      "candidate_trades": 5
+    },
+    {
+      "table": "cartographer_trades.json",
+      "tiers": 4,
+      "candidate_trades": 0
+    },
+    {
+      "table": "cleric_trades.json",
+      "tiers": 4,
+      "candidate_trades": 7
+    },
+    {
+      "table": "armorer_trades.json",
+      "tiers": 5,
+      "candidate_trades": 18
+    },
+    {
+      "table": "butcher_trades.json",
+      "tiers": 5,
+      "candidate_trades": 11
+    },
+    {
+      "table": "cartographer_trades.json",
+      "tiers": 5,
+      "candidate_trades": 31
+    },
+    {
+      "table": "cleric_trades.json",
+      "tiers": 5,
+      "candidate_trades": 11
+    },
+    {
+      "table": "farmer_trades.json",
+      "tiers": 5,
+      "candidate_trades": 14
+    },
+    {
+      "table": "fisherman_trades.json",
+      "tiers": 5,
+      "candidate_trades": 12
+    },
+    {
+      "table": "fletcher_trades.json",
+      "tiers": 5,
+      "candidate_trades": 12
+    },
+    {
+      "table": "leather_worker_trades.json",
+      "tiers": 5,
+      "candidate_trades": 12
+    },
+    {
+      "table": "shepherd_trades.json",
+      "tiers": 5,
+      "candidate_trades": 10
+    },
+    {
+      "table": "stone_mason_trades.json",
+      "tiers": 5,
+      "candidate_trades": 9
+    },
+    {
+      "table": "tool_smith_trades.json",
+      "tiers": 5,
+      "candidate_trades": 16
+    },
+    {
+      "table": "wandering_trader_trades.json",
+      "tiers": 1,
+      "candidate_trades": 100
+    },
+    {
+      "table": "weapon_smith_trades.json",
+      "tiers": 5,
+      "candidate_trades": 9
+    },
+    {
+      "table": "farmer_trades.json",
+      "tiers": 4,
+      "candidate_trades": 10
+    },
+    {
+      "table": "fisherman_trades.json",
+      "tiers": 2,
+      "candidate_trades": 0
+    },
+    {
+      "table": "fletcher_trades.json",
+      "tiers": 2,
+      "candidate_trades": 4
+    },
+    {
+      "table": "leather_worker_trades.json",
+      "tiers": 3,
+      "candidate_trades": 0
+    },
+    {
+      "table": "shepherd_trades.json",
+      "tiers": 2,
+      "candidate_trades": 18
+    },
+    {
+      "table": "stone_mason_trades.json",
+      "tiers": 5,
+      "candidate_trades": 12
+    },
+    {
+      "table": "tool_smith_trades.json",
+      "tiers": 3,
+      "candidate_trades": 0
+    },
+    {
+      "table": "weapon_smith_trades.json",
+      "tiers": 3,
+      "candidate_trades": 0
+    }
+  ]
+}

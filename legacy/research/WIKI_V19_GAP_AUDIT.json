@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-20",
+  "source": "minecraft.wiki",
+  "access": "Search-indexed category pages; direct crawling blocked",
+  "warning": "Counts are overlapping category memberships, not unique pages; not a full content extraction",
+  "categories": [
+    {
+      "name": "Gameplay",
+      "url": "https://minecraft.wiki/w/Category:Gameplay",
+      "listed_pages": 136,
+      "research_topics": [
+        "brewing",
+        "smelting",
+        "smithing",
+        "trading",
+        "fishing",
+        "archaeology",
+        "game rules",
+        "mob spawning",
+        "effects",
+        "experience"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Commands",
+      "url": "https://minecraft.wiki/w/Category:Commands",
+      "listed_pages": 313,
+      "research_topics": [
+        "Bedrock command syntax",
+        "permissions",
+        "examples",
+        "edition differences"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Items",
+      "url": "https://minecraft.wiki/w/Category:Items",
+      "listed_pages": 439,
+      "research_topics": [
+        "uses",
+        "obtaining",
+        "durability",
+        "enchantability"
+      ],
+      "priority": "medium",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Blocks",
+      "url": "https://minecraft.wiki/w/Category:Blocks",
+      "listed_pages": 685,
+      "research_topics": [
+        "uses",
+        "breaking",
+        "interactions",
+        "mechanics"
+      ],
+      "priority": "medium",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Entities",
+      "url": "https://minecraft.wiki/w/Category:Entities",
+      "listed_pages": 224,
+      "research_topics": [
+        "mobs",
+        "spawns",
+        "drops",
+        "taming",
+        "combat"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Environment",
+      "url": "https://minecraft.wiki/w/Category:Environment",
+      "listed_pages": 65,
+      "research_topics": [
+        "weather",
+        "dimensions",
+        "generation"
+      ],
+      "priority": "medium",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Redstone",
+      "url": "https://minecraft.wiki/w/Category:Redstone",
+      "listed_pages": 79,
+      "research_topics": [
+        "components",
+        "signal behavior",
+        "circuits"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Food",
+      "url": "https://minecraft.wiki/w/Category:Food",
+      "listed_pages": 54,
+      "research_topics": [
+        "hunger",
+        "saturation",
+        "cooking"
+      ],
+      "priority": "medium",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Plants",
+      "url": "https://minecraft.wiki/w/Category:Plants",
+      "listed_pages": 105,
+      "research_topics": [
+        "farming",
+        "growth",
+        "biomes"
+      ],
+      "priority": "medium",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Tutorials",
+      "url": "https://minecraft.wiki/w/Category:Tutorials",
+      "listed_pages": 390,
+      "research_topics": [
+        "Bedrock survival",
+        "farms",
+        "exploration",
+        "combat"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Bedrock guides",
+      "url": "https://minecraft.wiki/w/Category:Bedrock_Edition_guides",
+      "listed_pages": 46,
+      "research_topics": [
+        "Bedrock-specific tutorials",
+        "controls",
+        "differences"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Bedrock specific information",
+      "url": "https://minecraft.wiki/w/Category:Bedrock_Edition_specific_information",
+      "listed_pages": 87,
+      "research_topics": [
+        "edition differences",
+        "Bedrock mechanics"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    },
+    {
+      "name": "Mechanisms",
+      "url": "https://minecraft.wiki/w/Category:Mechanisms",
+      "listed_pages": 64,
+      "research_topics": [
+        "redstone devices",
+        "inputs",
+        "outputs"
+      ],
+      "priority": "high",
+      "status": "index_found_content_incomplete"
+    }
+  ],
+  "additional_gaps": [
+    "Detailed Bedrock command examples",
+    "enchantment incompatibilities and maximum levels",
+    "mob breeding/taming matrices",
+    "biome-specific structures and loot",
+    "villager trades and experimental toggle warnings",
+    "Bedrock redstone timings",
+    "potions and brewing ingredient tables"
+  ],
+  "editorial_rules": [
+    "Do not ingest Java-only syntax as Bedrock",
+    "Flag experimental and outdated content",
+    "Use original summaries, not copied articles",
+    "Exclude vulgar/inappropriate content",
+    "Cross-check with Bedrock 1.26.50 samples",
+    "Mark unverifiable claims as draft"
+  ],
+  "notable_findings": [
+    {
+      "topic": "Bedrock trading",
+      "note": "Wiki trading tutorial identifies edition-specific armorer differences; verify against current Bedrock data before writing definitive answers",
+      "url": "https://minecraft.wiki/w/Tutorial:Trading"
+    },
+    {
+      "topic": "Experimental villager rebalance",
+      "note": "Older version pages discuss experimental villager trade rebalance; do not assume it is default behavior",
+      "url": "https://minecraft.wiki/w/Bedrock_Edition_1.20.30"
+    },
+    {
+      "topic": "Bedrock-exclusive topics",
+      "note": "Wiki has a dedicated index for Bedrock-specific mechanics and commands",
+      "url": "https://minecraft.wiki/w/Category:Bedrock_Edition_specific_information"
+    }
+  ]
+}

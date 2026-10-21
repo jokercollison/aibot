@@ -1,0 +1,5 @@
+// Auto-built vanilla registry lookup, Bedrock Samples 1.26.50.4. Pure JS, offline.
+export function normalizeName(input){return String(input??'').toLowerCase().replace(/^minecraft:/,'').replace(/[_-]+/g,' ').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();}
+export function createRegistryIndex(records){const index=new Map();for(const [key,rec] of Object.entries(records)){for(const alias of [rec.id,rec.id.split(':')[1],rec.display_name]){const n=normalizeName(alias);if(!index.has(n))index.set(n,[]);if(!index.get(n).includes(key))index.get(n).push(key);}}return index;}
+export function lookupRegistry(name,records,index,kind=null){const keys=index.get(normalizeName(name))??[];return keys.map(k=>records[k]).filter(r=>!kind||r.kind===kind);}
+export function getAcquisition(name,records,index){const matches=lookupRegistry(name,records,index);if(!matches.length)return {status:'unknown_identifier',matches:[]};return {status:'found',matches:matches.map(r=>({id:r.id,kind:r.kind,recipe_ids:r.crafting_recipe_record_ids??[],potential_loot_ids:r.potential_loot_record_ids??[],acquisition_status:r.acquisition_status??'not_indexed'}))};}

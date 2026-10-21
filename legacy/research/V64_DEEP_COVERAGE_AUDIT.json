@@ -1,0 +1,56 @@
+{
+  "version": 64,
+  "source_version": 63,
+  "record_counts": {
+    "biome": 89,
+    "block": 1463,
+    "enchantment": 42,
+    "entity": 129,
+    "item": 1630,
+    "brewing": 72,
+    "recipe": 918,
+    "loot_item": 440
+  },
+  "item_block_records": 3093,
+  "item_block_with_recipe_link": 1601,
+  "item_block_without_recipe_link": 1492,
+  "broken_recipe_links": 0,
+  "broken_recipe_examples": [],
+  "entities_with_no_extracted_facts": 34,
+  "entities_with_no_facts_examples": [
+    "entity:minecraft:agent",
+    "entity:minecraft:area_effect_cloud",
+    "entity:minecraft:breeze_wind_charge_projectile",
+    "entity:minecraft:chest_minecart",
+    "entity:minecraft:command_block_minecart",
+    "entity:minecraft:dragon_fireball",
+    "entity:minecraft:egg",
+    "entity:minecraft:ender_crystal",
+    "entity:minecraft:ender_dragon",
+    "entity:minecraft:ender_pearl",
+    "entity:minecraft:eye_of_ender_signal",
+    "entity:minecraft:fireball",
+    "entity:minecraft:fireworks_rocket",
+    "entity:minecraft:fishing_hook",
+    "entity:minecraft:hopper_minecart",
+    "entity:minecraft:lightning_bolt",
+    "entity:minecraft:lingering_potion",
+    "entity:minecraft:llama_spit",
+    "entity:minecraft:minecart",
+    "entity:minecraft:npc"
+  ],
+  "mob_evidence_topic_counts": {
+    "breathing_component": 86,
+    "environmental_damage": 91,
+    "breeding_food": 26,
+    "avoidance": 28
+  },
+  "alias_terms": 6437,
+  "alias_collisions": 3927,
+  "important_limitations": [
+    "A missing recipe link is not proof an item is uncraftable.",
+    "Entity component evidence is not proof of every gameplay mechanic.",
+    "Registry coverage is not proof of complete acquisition or block behavior coverage.",
+    "No Bedrock in-game validation performed."
+  ]
+}

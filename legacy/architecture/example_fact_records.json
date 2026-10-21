@@ -1,0 +1,21 @@
+[
+  {
+    "record_id": "entity:minecraft:cow:breeding:adult",
+    "category": "entity",
+    "subject_id": "minecraft:cow",
+    "predicate": "breeding",
+    "value": {
+      "food_item_ids": [
+        "minecraft:wheat"
+      ]
+    },
+    "conditions": [
+      "two eligible adult cows"
+    ],
+    "edition": "bedrock",
+    "source_refs": [
+      "behavior_pack/entities/cow.json"
+    ],
+    "verification": "needs_validation"
+  }
+]

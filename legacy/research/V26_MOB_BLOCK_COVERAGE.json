@@ -1,0 +1,17 @@
+{
+  "source": "bedrock-samples-v1.26.50.4-full(1).zip",
+  "source_version": "1.26.50.4",
+  "generated_utc": "2026-10-20",
+  "entity_files_parsed": 128,
+  "custom_block_files_parsed": 98,
+  "resource_block_texture_registry_entries": 1352,
+  "parse_failures": 0,
+  "errors": [],
+  "coverage_limitations": [
+    "Vanilla entity files are behavior definitions, not complete mob gameplay guides.",
+    "resource_pack/blocks.json is a visual registry, not a complete block mechanics database.",
+    "behavior_pack/blocks entries are limited to blocks represented in the sample pack; do not assume every vanilla block is defined there.",
+    "Spawning, drops, and loot may live in separate files; link with existing extracted databases.",
+    "Wiki explanations still needed for mob weaknesses, breeding foods, block uses, redstone, and survival advice."
+  ]
+}

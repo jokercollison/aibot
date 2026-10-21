@@ -1,0 +1,346 @@
+{
+  "sample": "bedrock-samples-v1.26.50.4-full(1).zip",
+  "source_entity_files": 128,
+  "parsed_entities": 128,
+  "unparsed_entities": [],
+  "parsed_behavior_block_definitions": 98,
+  "unparsed_block_definitions": [],
+  "mechanic_presence_counts": {
+    "minecraft:breathable": 84,
+    "minecraft:health": 94,
+    "minecraft:damage_sensor": 39,
+    "minecraft:behavior.nearest_attackable_target": 49,
+    "minecraft:movement": 92,
+    "minecraft:type_family": 124,
+    "minecraft:loot": 78,
+    "minecraft:interact": 32,
+    "minecraft:burns_in_daylight": 11,
+    "minecraft:behavior.hurt_by_target": 42,
+    "minecraft:behavior.flee_sun": 7,
+    "minecraft:underwater_movement": 15,
+    "minecraft:behavior.pickup_items": 20,
+    "minecraft:environment_sensor": 29,
+    "minecraft:behavior.avoid_mob_type": 28,
+    "minecraft:behavior.float": 49,
+    "minecraft:behavior.panic": 37,
+    "minecraft:behavior.breed": 26,
+    "minecraft:breedable": 26,
+    "minecraft:behavior.tempt": 31,
+    "minecraft:behavior.random_swim": 12,
+    "minecraft:behavior.float_wander": 3,
+    "minecraft:fire_immune": 15,
+    "minecraft:behavior.swim_wander": 6,
+    "minecraft:water_movement": 3,
+    "minecraft:lava_movement": 1,
+    "minecraft:tameable": 5
+  },
+  "most_common_entity_components": [
+    [
+      "minecraft:physics",
+      125
+    ],
+    [
+      "minecraft:collision_box",
+      124
+    ],
+    [
+      "minecraft:type_family",
+      124
+    ],
+    [
+      "minecraft:conditional_bandwidth_optimization",
+      116
+    ],
+    [
+      "minecraft:health",
+      94
+    ],
+    [
+      "minecraft:nameable",
+      93
+    ],
+    [
+      "minecraft:is_hidden_when_invisible",
+      92
+    ],
+    [
+      "minecraft:movement",
+      92
+    ],
+    [
+      "minecraft:pushable_by_block",
+      91
+    ],
+    [
+      "minecraft:hurt_on_condition",
+      87
+    ],
+    [
+      "minecraft:pushable_by_entity",
+      85
+    ],
+    [
+      "minecraft:breathable",
+      84
+    ],
+    [
+      "minecraft:experience_reward",
+      80
+    ],
+    [
+      "minecraft:jump.static",
+      79
+    ],
+    [
+      "minecraft:loot",
+      78
+    ],
+    [
+      "minecraft:despawn",
+      76
+    ],
+    [
+      "minecraft:behavior.look_at_player",
+      69
+    ],
+    [
+      "minecraft:navigation.walk",
+      66
+    ],
+    [
+      "minecraft:movement.basic",
+      65
+    ],
+    [
+      "minecraft:behavior.random_stroll",
+      64
+    ],
+    [
+      "minecraft:can_climb",
+      57
+    ],
+    [
+      "minecraft:behavior.random_look_around",
+      55
+    ],
+    [
+      "minecraft:behavior.nearest_attackable_target",
+      49
+    ],
+    [
+      "minecraft:behavior.float",
+      49
+    ],
+    [
+      "minecraft:attack",
+      48
+    ],
+    [
+      "minecraft:scale",
+      47
+    ],
+    [
+      "minecraft:is_baby",
+      44
+    ],
+    [
+      "minecraft:leashable",
+      43
+    ],
+    [
+      "minecraft:offspring",
+      43
+    ],
+    [
+      "minecraft:spawn_egg_interaction",
+      43
+    ],
+    [
+      "minecraft:leashable_to",
+      42
+    ],
+    [
+      "minecraft:behavior.hurt_by_target",
+      42
+    ],
+    [
+      "minecraft:balloonable",
+      39
+    ],
+    [
+      "minecraft:damage_sensor",
+      39
+    ],
+    [
+      "minecraft:behavior.panic",
+      37
+    ],
+    [
+      "minecraft:rideable",
+      36
+    ],
+    [
+      "minecraft:ageable",
+      35
+    ],
+    [
+      "minecraft:interact",
+      32
+    ],
+    [
+      "minecraft:ambient_sound_interval",
+      32
+    ],
+    [
+      "minecraft:behavior.melee_box_attack",
+      32
+    ],
+    [
+      "minecraft:behavior.tempt",
+      31
+    ],
+    [
+      "minecraft:variant",
+      29
+    ],
+    [
+      "minecraft:environment_sensor",
+      29
+    ],
+    [
+      "minecraft:behavior.avoid_mob_type",
+      28
+    ],
+    [
+      "minecraft:follow_range",
+      27
+    ],
+    [
+      "minecraft:pushable",
+      26
+    ],
+    [
+      "minecraft:breedable",
+      26
+    ],
+    [
+      "minecraft:behavior.breed",
+      26
+    ],
+    [
+      "minecraft:behavior.mount_pathing",
+      26
+    ],
+    [
+      "minecraft:behavior.follow_parent",
+      24
+    ],
+    [
+      "minecraft:on_target_acquired",
+      22
+    ],
+    [
+      "minecraft:behavior.pickup_items",
+      20
+    ],
+    [
+      "minecraft:angry",
+      20
+    ],
+    [
+      "minecraft:shareables",
+      19
+    ],
+    [
+      "minecraft:timer",
+      19
+    ],
+    [
+      "minecraft:inventory",
+      19
+    ],
+    [
+      "minecraft:equipment",
+      18
+    ],
+    [
+      "minecraft:projectile",
+      18
+    ],
+    [
+      "minecraft:persistent",
+      17
+    ],
+    [
+      "minecraft:behavior.equip_item",
+      17
+    ],
+    [
+      "minecraft:equip_item",
+      17
+    ],
+    [
+      "minecraft:is_tamed",
+      16
+    ],
+    [
+      "minecraft:shooter",
+      15
+    ],
+    [
+      "minecraft:underwater_movement",
+      15
+    ],
+    [
+      "minecraft:fire_immune",
+      15
+    ],
+    [
+      "minecraft:behavior.ranged_attack",
+      14
+    ],
+    [
+      "minecraft:navigation.generic",
+      14
+    ],
+    [
+      "minecraft:transformation",
+      14
+    ],
+    [
+      "minecraft:healable",
+      14
+    ],
+    [
+      "minecraft:knockback_resistance",
+      13
+    ],
+    [
+      "minecraft:behavior.random_swim",
+      12
+    ],
+    [
+      "minecraft:burns_in_daylight",
+      11
+    ],
+    [
+      "minecraft:on_target_escape",
+      10
+    ],
+    [
+      "minecraft:dimension_bound",
+      10
+    ],
+    [
+      "minecraft:explode",
+      10
+    ]
+  ],
+  "limitations": [
+    "This is a structured source extraction, not a claim of full player-facing gameplay coverage.",
+    "Some entity behaviors are implemented in engine code, not sample JSON.",
+    "Entity component groups are conditional; mechanics cannot be naively combined.",
+    "Vanilla behavior_pack blocks are not the full set of vanilla blocks.",
+    "Entity files may include technical/experimental entities."
+  ]
+}

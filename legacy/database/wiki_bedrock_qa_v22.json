@@ -1,0 +1,69 @@
+[
+  {
+    "id": "wiki22_simulation_distance",
+    "category": "world_settings",
+    "questions": [
+      "What is simulation distance?",
+      "Why do mobs stop moving far away?"
+    ],
+    "answer": "Simulation distance controls how far around players the world actively updates entities and blocks. It can affect farms and mob behavior.",
+    "edition": "bedrock",
+    "status": "supported_by_indexed_wiki_excerpt_check_in_game",
+    "source_id": "bedrock_settings"
+  },
+  {
+    "id": "wiki22_mob_spawning",
+    "category": "world_settings",
+    "questions": [
+      "How do I turn off natural mob spawning?"
+    ],
+    "answer": "In a world’s settings, disable natural mob spawning. This does not necessarily remove existing mobs or prevent commands and spawn eggs from creating them.",
+    "edition": "bedrock",
+    "status": "supported_by_indexed_wiki_excerpt_check_in_game",
+    "source_id": "bedrock_settings"
+  },
+  {
+    "id": "wiki22_mob_griefing",
+    "category": "world_settings",
+    "questions": [
+      "What does mob griefing change?"
+    ],
+    "answer": "The mob-griefing setting controls certain mob interactions that change blocks or the environment. The affected behaviors vary by mob.",
+    "edition": "bedrock",
+    "status": "supported_by_indexed_wiki_excerpt_check_in_game",
+    "source_id": "bedrock_settings"
+  },
+  {
+    "id": "wiki22_farm_distance",
+    "category": "mob_farming",
+    "questions": [
+      "Why is my mob farm not working?"
+    ],
+    "answer": "Check difficulty, light levels, spawn-proofing, player distance, and simulation distance. Bedrock spawning ranges and mechanics differ from Java, so use a Bedrock-specific farm design.",
+    "edition": "bedrock",
+    "status": "supported_by_indexed_wiki_excerpt_check_in_game",
+    "source_id": "mob_farm"
+  },
+  {
+    "id": "wiki22_edition_specific",
+    "category": "gameplay_basics",
+    "questions": [
+      "Do Java farms always work in Bedrock?"
+    ],
+    "answer": "No. Mob spawning, redstone, and some mechanics differ between editions. Use a Bedrock-specific design or verify it in your game version.",
+    "edition": "bedrock",
+    "status": "reviewed_general",
+    "source_id": "java_specific"
+  },
+  {
+    "id": "wiki22_experimental",
+    "category": "world_settings",
+    "questions": [
+      "Should I turn on experimental features?"
+    ],
+    "answer": "Only enable experiments when you understand the risks. Experimental features may change, and worlds using them may behave differently from stable Marketplace-compatible gameplay.",
+    "edition": "bedrock",
+    "status": "reviewed_general",
+    "source_id": "bedrock_guides"
+  }
+]

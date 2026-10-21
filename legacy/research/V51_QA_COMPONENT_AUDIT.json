@@ -1,0 +1,2672 @@
+[
+  {
+    "qa_index": 0,
+    "entity": "minecraft:allay",
+    "topic": "families",
+    "question": "What mob families does the allay belong to?",
+    "source_file": "behavior_pack/entities/allay.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 1,
+    "entity": "minecraft:armadillo",
+    "topic": "families",
+    "question": "What mob families does the armadillo belong to?",
+    "source_file": "behavior_pack/entities/armadillo.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 2,
+    "entity": "minecraft:armor_stand",
+    "topic": "families",
+    "question": "What mob families does the armor stand belong to?",
+    "source_file": "behavior_pack/entities/armor_stand.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 3,
+    "entity": "minecraft:arrow",
+    "topic": "families",
+    "question": "What mob families does the arrow belong to?",
+    "source_file": "behavior_pack/entities/arrow.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 4,
+    "entity": "minecraft:axolotl",
+    "topic": "breathing",
+    "question": "What can the axolotl breathe?",
+    "source_file": "behavior_pack/entities/axolotl.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 5,
+    "entity": "minecraft:axolotl",
+    "topic": "families",
+    "question": "What mob families does the axolotl belong to?",
+    "source_file": "behavior_pack/entities/axolotl.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 6,
+    "entity": "minecraft:bat",
+    "topic": "families",
+    "question": "What mob families does the bat belong to?",
+    "source_file": "behavior_pack/entities/bat.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 7,
+    "entity": "minecraft:bee",
+    "topic": "families",
+    "question": "What mob families does the bee belong to?",
+    "source_file": "behavior_pack/entities/bee.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "countdown_to_perish"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 8,
+    "entity": "minecraft:blaze",
+    "topic": "families",
+    "question": "What mob families does the blaze belong to?",
+    "source_file": "behavior_pack/entities/blaze.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 9,
+    "entity": "minecraft:blaze",
+    "topic": "fire",
+    "question": "Is the blaze immune to fire?",
+    "source_file": "behavior_pack/entities/blaze.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 10,
+    "entity": "minecraft:boat",
+    "topic": "families",
+    "question": "What mob families does the boat belong to?",
+    "source_file": "behavior_pack/entities/boat.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 11,
+    "entity": "minecraft:bogged",
+    "topic": "breathing",
+    "question": "What can the bogged breathe?",
+    "source_file": "behavior_pack/entities/bogged.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 12,
+    "entity": "minecraft:bogged",
+    "topic": "families",
+    "question": "What mob families does the bogged belong to?",
+    "source_file": "behavior_pack/entities/bogged.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 13,
+    "entity": "minecraft:bogged",
+    "topic": "sunlight",
+    "question": "Does the bogged burn in sunlight?",
+    "source_file": "behavior_pack/entities/bogged.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 14,
+    "entity": "minecraft:breeze",
+    "topic": "families",
+    "question": "What mob families does the breeze belong to?",
+    "source_file": "behavior_pack/entities/breeze.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 15,
+    "entity": "minecraft:breeze_wind_charge_projectile",
+    "topic": "families",
+    "question": "What mob families does the breeze wind charge projectile belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 16,
+    "entity": "minecraft:camel",
+    "topic": "families",
+    "question": "What mob families does the camel belong to?",
+    "source_file": "behavior_pack/entities/camel.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 17,
+    "entity": "minecraft:camel_husk",
+    "topic": "breathing",
+    "question": "What can the camel husk breathe?",
+    "source_file": "behavior_pack/entities/camel_husk.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 18,
+    "entity": "minecraft:camel_husk",
+    "topic": "families",
+    "question": "What mob families does the camel husk belong to?",
+    "source_file": "behavior_pack/entities/camel_husk.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 19,
+    "entity": "minecraft:cat",
+    "topic": "families",
+    "question": "What mob families does the cat belong to?",
+    "source_file": "behavior_pack/entities/cat.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 20,
+    "entity": "minecraft:cave_spider",
+    "topic": "families",
+    "question": "What mob families does the cave spider belong to?",
+    "source_file": "behavior_pack/entities/cave_spider.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 21,
+    "entity": "minecraft:chest_boat",
+    "topic": "families",
+    "question": "What mob families does the chest boat belong to?",
+    "source_file": "behavior_pack/entities/chest_boat.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 22,
+    "entity": "minecraft:chest_minecart",
+    "topic": "families",
+    "question": "What mob families does the chest minecart belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 23,
+    "entity": "minecraft:chicken",
+    "topic": "families",
+    "question": "What mob families does the chicken belong to?",
+    "source_file": "behavior_pack/entities/chicken.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 24,
+    "entity": "minecraft:cod",
+    "topic": "breathing",
+    "question": "What can the cod breathe?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 25,
+    "entity": "minecraft:cod",
+    "topic": "families",
+    "question": "What mob families does the cod belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 26,
+    "entity": "minecraft:command_block_minecart",
+    "topic": "families",
+    "question": "What mob families does the command block minecart belong to?",
+    "source_file": "behavior_pack/entities/command_block_minecart.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 27,
+    "entity": "minecraft:copper_golem",
+    "topic": "families",
+    "question": "What mob families does the copper golem belong to?",
+    "source_file": "behavior_pack/entities/copper_golem.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 28,
+    "entity": "minecraft:cow",
+    "topic": "families",
+    "question": "What mob families does the cow belong to?",
+    "source_file": "behavior_pack/entities/cow.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 29,
+    "entity": "minecraft:creaking",
+    "topic": "families",
+    "question": "What mob families does the creaking belong to?",
+    "source_file": "behavior_pack/entities/creaking.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 30,
+    "entity": "minecraft:creeper",
+    "topic": "families",
+    "question": "What mob families does the creeper belong to?",
+    "source_file": "behavior_pack/entities/creeper.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 31,
+    "entity": "minecraft:cushion",
+    "topic": "families",
+    "question": "What mob families does the cushion belong to?",
+    "source_file": "behavior_pack/entities/cushion.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 32,
+    "entity": "minecraft:dolphin",
+    "topic": "breathing",
+    "question": "What can the dolphin breathe?",
+    "source_file": "behavior_pack/entities/dolphin.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 33,
+    "entity": "minecraft:dolphin",
+    "topic": "families",
+    "question": "What mob families does the dolphin belong to?",
+    "source_file": "behavior_pack/entities/dolphin.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 34,
+    "entity": "minecraft:donkey",
+    "topic": "families",
+    "question": "What mob families does the donkey belong to?",
+    "source_file": "behavior_pack/entities/donkey.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 35,
+    "entity": "minecraft:dragon_fireball",
+    "topic": "families",
+    "question": "What mob families does the dragon fireball belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 36,
+    "entity": "minecraft:drowned",
+    "topic": "breathing",
+    "question": "What can the drowned breathe?",
+    "source_file": "behavior_pack/entities/drowned.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 37,
+    "entity": "minecraft:drowned",
+    "topic": "sunlight",
+    "question": "Does the drowned burn in sunlight?",
+    "source_file": "behavior_pack/entities/drowned.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 38,
+    "entity": "minecraft:egg",
+    "topic": "families",
+    "question": "What mob families does the egg belong to?",
+    "source_file": "behavior_pack/entities/egg.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 39,
+    "entity": "minecraft:elder_guardian",
+    "topic": "breathing",
+    "question": "What can the elder guardian breathe?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 40,
+    "entity": "minecraft:elder_guardian",
+    "topic": "families",
+    "question": "What mob families does the elder guardian belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 41,
+    "entity": "minecraft:ender_crystal",
+    "topic": "fire",
+    "question": "Is the ender crystal immune to fire?",
+    "source_file": "behavior_pack/entities/ender_crystal.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 42,
+    "entity": "minecraft:ender_dragon",
+    "topic": "families",
+    "question": "What mob families does the ender dragon belong to?",
+    "source_file": "behavior_pack/entities/ender_dragon.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 43,
+    "entity": "minecraft:ender_dragon",
+    "topic": "fire",
+    "question": "Is the ender dragon immune to fire?",
+    "source_file": "behavior_pack/entities/ender_dragon.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 44,
+    "entity": "minecraft:ender_pearl",
+    "topic": "families",
+    "question": "What mob families does the ender pearl belong to?",
+    "source_file": "behavior_pack/entities/ender_pearl.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 45,
+    "entity": "minecraft:enderman",
+    "topic": "families",
+    "question": "What mob families does the enderman belong to?",
+    "source_file": "behavior_pack/entities/enderman.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 46,
+    "entity": "minecraft:endermite",
+    "topic": "families",
+    "question": "What mob families does the endermite belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 47,
+    "entity": "minecraft:evocation_illager",
+    "topic": "families",
+    "question": "What mob families does the evocation illager belong to?",
+    "source_file": "behavior_pack/entities/evocation_illager.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 48,
+    "entity": "minecraft:fireball",
+    "topic": "families",
+    "question": "What mob families does the fireball belong to?",
+    "source_file": "behavior_pack/entities/fireball.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 49,
+    "entity": "minecraft:fireworks_rocket",
+    "topic": "families",
+    "question": "What mob families does the fireworks rocket belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 50,
+    "entity": "minecraft:fishing_hook",
+    "topic": "families",
+    "question": "What mob families does the fishing hook belong to?",
+    "source_file": "behavior_pack/entities/fishing_hook.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 51,
+    "entity": "minecraft:fox",
+    "topic": "families",
+    "question": "What mob families does the fox belong to?",
+    "source_file": "behavior_pack/entities/fox.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 52,
+    "entity": "minecraft:frog",
+    "topic": "breathing",
+    "question": "What can the frog breathe?",
+    "source_file": "behavior_pack/entities/frog.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 53,
+    "entity": "minecraft:frog",
+    "topic": "breeding",
+    "question": "What do I feed frogs to breed them?",
+    "source_file": "behavior_pack/entities/frog.json",
+    "component_matches": [],
+    "status": "component_not_found_in_extracted_scope",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 54,
+    "entity": "minecraft:frog",
+    "topic": "families",
+    "question": "What mob families does the frog belong to?",
+    "source_file": "behavior_pack/entities/frog.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 55,
+    "entity": "minecraft:ghast",
+    "topic": "families",
+    "question": "What mob families does the ghast belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 56,
+    "entity": "minecraft:ghast",
+    "topic": "fire",
+    "question": "Is the ghast immune to fire?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 57,
+    "entity": "minecraft:glow_squid",
+    "topic": "breathing",
+    "question": "What can the glow squid breathe?",
+    "source_file": "behavior_pack/entities/glow_squid.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 58,
+    "entity": "minecraft:glow_squid",
+    "topic": "families",
+    "question": "What mob families does the glow squid belong to?",
+    "source_file": "behavior_pack/entities/glow_squid.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 59,
+    "entity": "minecraft:goat",
+    "topic": "families",
+    "question": "What mob families does the goat belong to?",
+    "source_file": "behavior_pack/entities/goat.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 60,
+    "entity": "minecraft:guardian",
+    "topic": "breathing",
+    "question": "What can the guardian breathe?",
+    "source_file": "behavior_pack/entities/guardian.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 61,
+    "entity": "minecraft:guardian",
+    "topic": "families",
+    "question": "What mob families does the guardian belong to?",
+    "source_file": "behavior_pack/entities/guardian.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 62,
+    "entity": "minecraft:happy_ghast",
+    "topic": "families",
+    "question": "What mob families does the happy ghast belong to?",
+    "source_file": "behavior_pack/entities/happy_ghast.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 63,
+    "entity": "minecraft:hopper_minecart",
+    "topic": "families",
+    "question": "What mob families does the hopper minecart belong to?",
+    "source_file": "behavior_pack/entities/hopper_minecart.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 64,
+    "entity": "minecraft:horse",
+    "topic": "families",
+    "question": "What mob families does the horse belong to?",
+    "source_file": "behavior_pack/entities/horse.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 65,
+    "entity": "minecraft:husk",
+    "topic": "breathing",
+    "question": "What can the husk breathe?",
+    "source_file": "behavior_pack/entities/husk.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 66,
+    "entity": "minecraft:husk",
+    "topic": "families",
+    "question": "What mob families does the husk belong to?",
+    "source_file": "behavior_pack/entities/husk.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:zombie_husk_baby"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:zombie_husk_rider"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 67,
+    "entity": "minecraft:iron_golem",
+    "topic": "families",
+    "question": "What mob families does the iron golem belong to?",
+    "source_file": "behavior_pack/entities/iron_golem.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 68,
+    "entity": "minecraft:lightning_bolt",
+    "topic": "families",
+    "question": "What mob families does the lightning bolt belong to?",
+    "source_file": "behavior_pack/entities/lightning_bolt.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 69,
+    "entity": "minecraft:lingering_potion",
+    "topic": "families",
+    "question": "What mob families does the lingering potion belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 70,
+    "entity": "minecraft:llama",
+    "topic": "families",
+    "question": "What mob families does the llama belong to?",
+    "source_file": "behavior_pack/entities/llama.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 71,
+    "entity": "minecraft:llama_spit",
+    "topic": "families",
+    "question": "What mob families does the llama spit belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 72,
+    "entity": "minecraft:magma_cube",
+    "topic": "breathing",
+    "question": "What can the magma cube breathe?",
+    "source_file": "behavior_pack/entities/magma_cube.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 73,
+    "entity": "minecraft:magma_cube",
+    "topic": "families",
+    "question": "What mob families does the magma cube belong to?",
+    "source_file": "behavior_pack/entities/magma_cube.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 74,
+    "entity": "minecraft:magma_cube",
+    "topic": "fire",
+    "question": "Is the magma cube immune to fire?",
+    "source_file": "behavior_pack/entities/magma_cube.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 75,
+    "entity": "minecraft:magma_cube",
+    "topic": "sunlight",
+    "question": "Does the magma cube burn in sunlight?",
+    "source_file": "behavior_pack/entities/magma_cube.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 76,
+    "entity": "minecraft:minecart",
+    "topic": "families",
+    "question": "What mob families does the minecart belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 77,
+    "entity": "minecraft:mooshroom",
+    "topic": "families",
+    "question": "What mob families does the mooshroom belong to?",
+    "source_file": "behavior_pack/entities/mooshroom.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 78,
+    "entity": "minecraft:mule",
+    "topic": "families",
+    "question": "What mob families does the mule belong to?",
+    "source_file": "behavior_pack/entities/mule.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 79,
+    "entity": "minecraft:nautilus",
+    "topic": "breathing",
+    "question": "What can the nautilus breathe?",
+    "source_file": "behavior_pack/entities/nautilus.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 80,
+    "entity": "minecraft:nautilus",
+    "topic": "families",
+    "question": "What mob families does the nautilus belong to?",
+    "source_file": "behavior_pack/entities/nautilus.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 81,
+    "entity": "minecraft:npc",
+    "topic": "families",
+    "question": "What mob families does the npc belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 82,
+    "entity": "minecraft:npc",
+    "topic": "fire",
+    "question": "Is the npc immune to fire?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 83,
+    "entity": "minecraft:ocelot",
+    "topic": "families",
+    "question": "What mob families does the ocelot belong to?",
+    "source_file": "behavior_pack/entities/ocelot.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 84,
+    "entity": "minecraft:panda",
+    "topic": "families",
+    "question": "What mob families does the panda belong to?",
+    "source_file": "behavior_pack/entities/panda.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:panda_aggressive"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 85,
+    "entity": "minecraft:parched",
+    "topic": "breathing",
+    "question": "What can the parched breathe?",
+    "source_file": "behavior_pack/entities/parched.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 86,
+    "entity": "minecraft:parched",
+    "topic": "families",
+    "question": "What mob families does the parched belong to?",
+    "source_file": "behavior_pack/entities/parched.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 87,
+    "entity": "minecraft:phantom",
+    "topic": "breathing",
+    "question": "What can the phantom breathe?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 88,
+    "entity": "minecraft:phantom",
+    "topic": "families",
+    "question": "What mob families does the phantom belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 89,
+    "entity": "minecraft:phantom",
+    "topic": "sunlight",
+    "question": "Does the phantom burn in sunlight?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 90,
+    "entity": "minecraft:pig",
+    "topic": "families",
+    "question": "What mob families does the pig belong to?",
+    "source_file": "behavior_pack/entities/pig.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 91,
+    "entity": "minecraft:piglin_brute",
+    "topic": "families",
+    "question": "What mob families does the piglin brute belong to?",
+    "source_file": "behavior_pack/entities/piglin_brute.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 92,
+    "entity": "minecraft:pillager",
+    "topic": "families",
+    "question": "What mob families does the pillager belong to?",
+    "source_file": "behavior_pack/entities/pillager.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 93,
+    "entity": "minecraft:player",
+    "topic": "families",
+    "question": "What mob families does the player belong to?",
+    "source_file": "behavior_pack/entities/player.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 94,
+    "entity": "minecraft:polar_bear",
+    "topic": "families",
+    "question": "What mob families does the polar bear belong to?",
+    "source_file": "behavior_pack/entities/polar_bear.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 95,
+    "entity": "minecraft:pufferfish",
+    "topic": "breathing",
+    "question": "What can the pufferfish breathe?",
+    "source_file": "behavior_pack/entities/pufferfish.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 96,
+    "entity": "minecraft:pufferfish",
+    "topic": "families",
+    "question": "What mob families does the pufferfish belong to?",
+    "source_file": "behavior_pack/entities/pufferfish.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 97,
+    "entity": "minecraft:rabbit",
+    "topic": "families",
+    "question": "What mob families does the rabbit belong to?",
+    "source_file": "behavior_pack/entities/rabbit.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 98,
+    "entity": "minecraft:ravager",
+    "topic": "families",
+    "question": "What mob families does the ravager belong to?",
+    "source_file": "behavior_pack/entities/ravager.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 99,
+    "entity": "minecraft:salmon",
+    "topic": "breathing",
+    "question": "What can the salmon breathe?",
+    "source_file": "behavior_pack/entities/salmon.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 100,
+    "entity": "minecraft:salmon",
+    "topic": "families",
+    "question": "What mob families does the salmon belong to?",
+    "source_file": "behavior_pack/entities/salmon.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 101,
+    "entity": "minecraft:sheep",
+    "topic": "families",
+    "question": "What mob families does the sheep belong to?",
+    "source_file": "behavior_pack/entities/sheep.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 102,
+    "entity": "minecraft:shulker",
+    "topic": "breathing",
+    "question": "What can the shulker breathe?",
+    "source_file": "behavior_pack/entities/shulker.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 103,
+    "entity": "minecraft:shulker",
+    "topic": "families",
+    "question": "What mob families does the shulker belong to?",
+    "source_file": "behavior_pack/entities/shulker.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 104,
+    "entity": "minecraft:shulker",
+    "topic": "fire",
+    "question": "Is the shulker immune to fire?",
+    "source_file": "behavior_pack/entities/shulker.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 105,
+    "entity": "minecraft:shulker_bullet",
+    "topic": "families",
+    "question": "What mob families does the shulker bullet belong to?",
+    "source_file": "behavior_pack/entities/shulker_bullet.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 106,
+    "entity": "minecraft:silverfish",
+    "topic": "families",
+    "question": "What mob families does the silverfish belong to?",
+    "source_file": "behavior_pack/entities/silverfish.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 107,
+    "entity": "minecraft:skeleton",
+    "topic": "breathing",
+    "question": "What can the skeleton breathe?",
+    "source_file": "behavior_pack/entities/skeleton.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 108,
+    "entity": "minecraft:skeleton",
+    "topic": "families",
+    "question": "What mob families does the skeleton belong to?",
+    "source_file": "behavior_pack/entities/skeleton.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 109,
+    "entity": "minecraft:skeleton",
+    "topic": "sunlight",
+    "question": "Does the skeleton burn in sunlight?",
+    "source_file": "behavior_pack/entities/skeleton.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 110,
+    "entity": "minecraft:skeleton_horse",
+    "topic": "breathing",
+    "question": "What can the skeleton horse breathe?",
+    "source_file": "behavior_pack/entities/skeleton_horse.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 111,
+    "entity": "minecraft:skeleton_horse",
+    "topic": "families",
+    "question": "What mob families does the skeleton horse belong to?",
+    "source_file": "behavior_pack/entities/skeleton_horse.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 112,
+    "entity": "minecraft:slime",
+    "topic": "families",
+    "question": "What mob families does the slime belong to?",
+    "source_file": "behavior_pack/entities/slime.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 113,
+    "entity": "minecraft:small_fireball",
+    "topic": "families",
+    "question": "What mob families does the small fireball belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 114,
+    "entity": "minecraft:sniffer",
+    "topic": "families",
+    "question": "What mob families does the sniffer belong to?",
+    "source_file": "behavior_pack/entities/sniffer.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 115,
+    "entity": "minecraft:snow_golem",
+    "topic": "families",
+    "question": "What mob families does the snow golem belong to?",
+    "source_file": "behavior_pack/entities/snow_golem.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 116,
+    "entity": "minecraft:snowball",
+    "topic": "families",
+    "question": "What mob families does the snowball belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 117,
+    "entity": "minecraft:spider",
+    "topic": "families",
+    "question": "What mob families does the spider belong to?",
+    "source_file": "behavior_pack/entities/spider.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 118,
+    "entity": "minecraft:splash_potion",
+    "topic": "families",
+    "question": "What mob families does the splash potion belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 119,
+    "entity": "minecraft:squid",
+    "topic": "breathing",
+    "question": "What can the squid breathe?",
+    "source_file": "behavior_pack/entities/squid.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 120,
+    "entity": "minecraft:squid",
+    "topic": "families",
+    "question": "What mob families does the squid belong to?",
+    "source_file": "behavior_pack/entities/squid.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 121,
+    "entity": "minecraft:stray",
+    "topic": "breathing",
+    "question": "What can the stray breathe?",
+    "source_file": "behavior_pack/entities/stray.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 122,
+    "entity": "minecraft:stray",
+    "topic": "families",
+    "question": "What mob families does the stray belong to?",
+    "source_file": "behavior_pack/entities/stray.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 123,
+    "entity": "minecraft:stray",
+    "topic": "sunlight",
+    "question": "Does the stray burn in sunlight?",
+    "source_file": "behavior_pack/entities/stray.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 124,
+    "entity": "minecraft:strider",
+    "topic": "families",
+    "question": "What mob families does the strider belong to?",
+    "source_file": "behavior_pack/entities/strider.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:strider_baby"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:strider_adult"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 125,
+    "entity": "minecraft:strider",
+    "topic": "fire",
+    "question": "Is the strider immune to fire?",
+    "source_file": "behavior_pack/entities/strider.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 126,
+    "entity": "minecraft:sulfur_cube",
+    "topic": "families",
+    "question": "What mob families does the sulfur cube belong to?",
+    "source_file": "behavior_pack/entities/sulfur_cube.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 127,
+    "entity": "minecraft:tadpole",
+    "topic": "breathing",
+    "question": "What can the tadpole breathe?",
+    "source_file": "behavior_pack/entities/tadpole.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 128,
+    "entity": "minecraft:tadpole",
+    "topic": "families",
+    "question": "What mob families does the tadpole belong to?",
+    "source_file": "behavior_pack/entities/tadpole.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 129,
+    "entity": "minecraft:thrown_trident",
+    "topic": "families",
+    "question": "What mob families does the thrown trident belong to?",
+    "source_file": "behavior_pack/entities/thrown_trident.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 130,
+    "entity": "minecraft:tnt",
+    "topic": "families",
+    "question": "What mob families does the tnt belong to?",
+    "source_file": "behavior_pack/entities/tnt.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 131,
+    "entity": "minecraft:tnt_minecart",
+    "topic": "families",
+    "question": "What mob families does the tnt minecart belong to?",
+    "source_file": "behavior_pack/entities/tnt_minecart.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 132,
+    "entity": "minecraft:trader_llama",
+    "topic": "families",
+    "question": "What mob families does the trader llama belong to?",
+    "source_file": "behavior_pack/entities/trader_llama.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 133,
+    "entity": "minecraft:tripod_camera",
+    "topic": "families",
+    "question": "What mob families does the tripod camera belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 134,
+    "entity": "minecraft:tropicalfish",
+    "topic": "breathing",
+    "question": "What can the tropicalfish breathe?",
+    "source_file": "behavior_pack/entities/tropicalfish.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 135,
+    "entity": "minecraft:tropicalfish",
+    "topic": "families",
+    "question": "What mob families does the tropicalfish belong to?",
+    "source_file": "behavior_pack/entities/tropicalfish.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 136,
+    "entity": "minecraft:turtle",
+    "topic": "breathing",
+    "question": "What can the turtle breathe?",
+    "source_file": "behavior_pack/entities/turtle.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 137,
+    "entity": "minecraft:vex",
+    "topic": "families",
+    "question": "What mob families does the vex belong to?",
+    "source_file": "behavior_pack/entities/vex.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 138,
+    "entity": "minecraft:vex",
+    "topic": "fire",
+    "question": "Is the vex immune to fire?",
+    "source_file": "behavior_pack/entities/vex.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 139,
+    "entity": "minecraft:villager",
+    "topic": "families",
+    "question": "What mob families does the villager belong to?",
+    "source_file": "behavior_pack/entities/villager.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "armorer"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "weaponsmith"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "butcher"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "cartographer"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "cleric"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "farmer"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "fisherman"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "fletcher"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "leatherworker"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "librarian"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "shepherd"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "toolsmith"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 140,
+    "entity": "minecraft:villager_v2",
+    "topic": "families",
+    "question": "What mob families does the villager v2 belong to?",
+    "source_file": "behavior_pack/entities/villager_v2.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "armorer"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "cartographer"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "weaponsmith"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "butcher"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "cleric"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "farmer"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "fisherman"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "fletcher"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "librarian"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "leatherworker"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "mason"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "nitwit"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "unskilled"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "shepherd"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "toolsmith"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 141,
+    "entity": "minecraft:vindicator",
+    "topic": "families",
+    "question": "What mob families does the vindicator belong to?",
+    "source_file": "behavior_pack/entities/vindicator.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 142,
+    "entity": "minecraft:wandering_trader",
+    "topic": "families",
+    "question": "What mob families does the wandering trader belong to?",
+    "source_file": "behavior_pack/entities/wandering_trader.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "despawning"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 143,
+    "entity": "minecraft:warden",
+    "topic": "families",
+    "question": "What mob families does the warden belong to?",
+    "source_file": "behavior_pack/entities/warden.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 144,
+    "entity": "minecraft:warden",
+    "topic": "fire",
+    "question": "Is the warden immune to fire?",
+    "source_file": "behavior_pack/entities/warden.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 145,
+    "entity": "minecraft:wind_charge_projectile",
+    "topic": "families",
+    "question": "What mob families does the wind charge projectile belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 146,
+    "entity": "minecraft:witch",
+    "topic": "families",
+    "question": "What mob families does the witch belong to?",
+    "source_file": "behavior_pack/entities/witch.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 147,
+    "entity": "minecraft:wither",
+    "topic": "breathing",
+    "question": "What can the wither breathe?",
+    "source_file": "behavior_pack/entities/wither.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 148,
+    "entity": "minecraft:wither",
+    "topic": "families",
+    "question": "What mob families does the wither belong to?",
+    "source_file": "behavior_pack/entities/wither.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 149,
+    "entity": "minecraft:wither",
+    "topic": "fire",
+    "question": "Is the wither immune to fire?",
+    "source_file": "behavior_pack/entities/wither.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 150,
+    "entity": "minecraft:wither_skeleton",
+    "topic": "breathing",
+    "question": "What can the wither skeleton breathe?",
+    "source_file": "behavior_pack/entities/wither_skeleton.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 151,
+    "entity": "minecraft:wither_skeleton",
+    "topic": "families",
+    "question": "What mob families does the wither skeleton belong to?",
+    "source_file": "behavior_pack/entities/wither_skeleton.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 152,
+    "entity": "minecraft:wither_skeleton",
+    "topic": "fire",
+    "question": "Is the wither skeleton immune to fire?",
+    "source_file": "behavior_pack/entities/wither_skeleton.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 153,
+    "entity": "minecraft:wither_skull",
+    "topic": "families",
+    "question": "What mob families does the wither skull belong to?",
+    "source_file": "behavior_pack/entities/wither_skull.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 154,
+    "entity": "minecraft:wither_skull_dangerous",
+    "topic": "families",
+    "question": "What mob families does the wither skull dangerous belong to?",
+    "source_file": "behavior_pack/entities/wither_skull_dangerous.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 155,
+    "entity": "minecraft:wolf",
+    "topic": "families",
+    "question": "What mob families does the wolf belong to?",
+    "source_file": "behavior_pack/entities/wolf.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 156,
+    "entity": "minecraft:xp_bottle",
+    "topic": "families",
+    "question": "What mob families does the xp bottle belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 157,
+    "entity": "minecraft:xp_orb",
+    "topic": "families",
+    "question": "What mob families does the xp orb belong to?",
+    "source_file": null,
+    "component_matches": [],
+    "status": "entity_absent_from_samples",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 158,
+    "entity": "minecraft:zoglin",
+    "topic": "breathing",
+    "question": "What can the zoglin breathe?",
+    "source_file": "behavior_pack/entities/zoglin.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 159,
+    "entity": "minecraft:zoglin",
+    "topic": "fire",
+    "question": "Is the zoglin immune to fire?",
+    "source_file": "behavior_pack/entities/zoglin.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 160,
+    "entity": "minecraft:zombie",
+    "topic": "breathing",
+    "question": "What can the zombie breathe?",
+    "source_file": "behavior_pack/entities/zombie.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 161,
+    "entity": "minecraft:zombie",
+    "topic": "families",
+    "question": "What mob families does the zombie belong to?",
+    "source_file": "behavior_pack/entities/zombie.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:zombie_baby"
+      },
+      {
+        "component": "minecraft:type_family",
+        "scope": "conditional",
+        "group": "minecraft:zombie_rider"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 162,
+    "entity": "minecraft:zombie",
+    "topic": "sunlight",
+    "question": "Does the zombie burn in sunlight?",
+    "source_file": "behavior_pack/entities/zombie.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 163,
+    "entity": "minecraft:zombie_horse",
+    "topic": "breathing",
+    "question": "What can the zombie horse breathe?",
+    "source_file": "behavior_pack/entities/zombie_horse.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 164,
+    "entity": "minecraft:zombie_horse",
+    "topic": "families",
+    "question": "What mob families does the zombie horse belong to?",
+    "source_file": "behavior_pack/entities/zombie_horse.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 165,
+    "entity": "minecraft:zombie_horse",
+    "topic": "sunlight",
+    "question": "Does the zombie horse burn in sunlight?",
+    "source_file": "behavior_pack/entities/zombie_horse.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 166,
+    "entity": "minecraft:zombie_nautilus",
+    "topic": "breathing",
+    "question": "What can the zombie nautilus breathe?",
+    "source_file": "behavior_pack/entities/zombie_nautilus.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 167,
+    "entity": "minecraft:zombie_nautilus",
+    "topic": "families",
+    "question": "What mob families does the zombie nautilus belong to?",
+    "source_file": "behavior_pack/entities/zombie_nautilus.json",
+    "component_matches": [
+      {
+        "component": "minecraft:type_family",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 168,
+    "entity": "minecraft:zombie_nautilus",
+    "topic": "sunlight",
+    "question": "Does the zombie nautilus burn in sunlight?",
+    "source_file": "behavior_pack/entities/zombie_nautilus.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 169,
+    "entity": "minecraft:zombie_pigman",
+    "topic": "breathing",
+    "question": "What can the zombie pigman breathe?",
+    "source_file": "behavior_pack/entities/zombie_pigman.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 170,
+    "entity": "minecraft:zombie_pigman",
+    "topic": "fire",
+    "question": "Is the zombie pigman immune to fire?",
+    "source_file": "behavior_pack/entities/zombie_pigman.json",
+    "component_matches": [
+      {
+        "component": "minecraft:fire_immune",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 171,
+    "entity": "minecraft:zombie_villager",
+    "topic": "breathing",
+    "question": "What can the zombie villager breathe?",
+    "source_file": "behavior_pack/entities/zombie_villager.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 172,
+    "entity": "minecraft:zombie_villager",
+    "topic": "sunlight",
+    "question": "Does the zombie villager burn in sunlight?",
+    "source_file": "behavior_pack/entities/zombie_villager.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 173,
+    "entity": "minecraft:zombie_villager_v2",
+    "topic": "breathing",
+    "question": "What can the zombie villager v2 breathe?",
+    "source_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "component_matches": [
+      {
+        "component": "minecraft:breathable",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  },
+  {
+    "qa_index": 174,
+    "entity": "minecraft:zombie_villager_v2",
+    "topic": "sunlight",
+    "question": "Does the zombie villager v2 burn in sunlight?",
+    "source_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "component_matches": [
+      {
+        "component": "minecraft:burns_in_daylight",
+        "scope": "base"
+      }
+    ],
+    "status": "component_present_answer_not_semantically_verified",
+    "warning": "Component existence alone does not establish that the original answer correctly describes behavior."
+  }
+]

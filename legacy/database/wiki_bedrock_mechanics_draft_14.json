@@ -1,0 +1,128 @@
+[
+  {
+    "id": "wiki14_villager_trade_lock",
+    "category": "gameplay",
+    "question": "How do I lock a villager trade?",
+    "answer": "Trade with the villager at least once. Its offered trades are then locked in, even if its workstation is removed.",
+    "edition": "bedrock",
+    "source_id": "trading_hall",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_villager_trade_reroll",
+    "category": "gameplay",
+    "question": "How do I change a librarian’s first trade?",
+    "answer": "Before making any trade, break and replace the librarian’s lectern and check the new offers. Once you trade, the offers lock.",
+    "edition": "bedrock",
+    "source_id": "trading_hall",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_villager_armor",
+    "category": "gameplay",
+    "question": "Can villagers sell diamond armor?",
+    "answer": "Yes. Higher-level armorer villagers can offer enchanted diamond armor. Available pieces vary, so you may need more than one armorer.",
+    "edition": "bedrock",
+    "source_id": "trading",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_villager_books",
+    "category": "gameplay",
+    "question": "How do I get Mending from a villager?",
+    "answer": "Check librarian enchanted-book trades. Availability can depend on world settings and trading experiments; confirm the current trade rules.",
+    "edition": "bedrock",
+    "source_id": "trading",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_villager_professions",
+    "category": "gameplay",
+    "question": "How do villagers get professions?",
+    "answer": "Unemployed adult villagers can claim nearby job-site blocks. A lectern makes a librarian; a blast furnace makes an armorer.",
+    "edition": "bedrock",
+    "source_id": "trading_hall",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_raid_omen",
+    "category": "gameplay",
+    "question": "How do I start a raid?",
+    "answer": "Use an ominous bottle to gain Bad Omen, then enter a village to trigger Raid Omen. Check difficulty and village requirements.",
+    "edition": "bedrock",
+    "source_id": "raid_farm",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_raid_loot",
+    "category": "gameplay",
+    "question": "What can I get from a raid farm?",
+    "answer": "Raid farms can yield emeralds, crossbows, and totems of undying. Bedrock raid loot differs from Java, so use a Bedrock-specific design.",
+    "edition": "bedrock",
+    "source_id": "raid_farm",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_redstone_slime",
+    "category": "gameplay",
+    "question": "What do I need slimeballs for in redstone?",
+    "answer": "Slimeballs are used for sticky pistons and slime blocks, which are common in moving redstone machines.",
+    "edition": "bedrock",
+    "source_id": "redstone",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_redstone_quartz",
+    "category": "gameplay",
+    "question": "Why do I need Nether quartz for redstone?",
+    "answer": "Nether quartz is a crafting ingredient for comparators, observers, and daylight detectors.",
+    "edition": "bedrock",
+    "source_id": "redstone",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_xp_trading",
+    "category": "gameplay",
+    "question": "Can villager trading give experience?",
+    "answer": "Yes. Trading awards experience and can help repair gear enchanted with Mending.",
+    "edition": "bedrock",
+    "source_id": "xp_farm",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_barter_gold",
+    "category": "gameplay",
+    "question": "How do I barter with piglins?",
+    "answer": "Offer gold ingots to adult piglins in the Nether. They return one of several possible items; protect yourself from hostile piglins.",
+    "edition": "bedrock",
+    "source_id": "bartering",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_barter_water",
+    "category": "gameplay",
+    "question": "Can I use water streams for a Nether bartering farm?",
+    "answer": "No. Water placed from a bucket normally evaporates in the Nether, so use alternative item transport methods.",
+    "edition": "bedrock",
+    "source_id": "bartering",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_village_beds",
+    "category": "gameplay",
+    "question": "What does a village need?",
+    "answer": "Villagers need valid beds for village mechanics, and job-site blocks allow professions. Keep the area safe from hostile mobs.",
+    "edition": "bedrock",
+    "source_id": "village",
+    "status": "draft_check_against_1_26_50"
+  },
+  {
+    "id": "wiki14_command_java_nbt",
+    "category": "gameplay",
+    "question": "Can I use Java NBT commands in Bedrock?",
+    "answer": "No. Java-specific NBT syntax shown in some command tutorials does not work in Bedrock. Use Bedrock command syntax instead.",
+    "edition": "bedrock",
+    "source_id": "useful_commands",
+    "status": "draft_check_against_1_26_50"
+  }
+]

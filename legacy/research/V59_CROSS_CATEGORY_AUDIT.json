@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "registry_records": 3346,
+    "total_records": 5201,
+    "aliases": 4566,
+    "ambiguous_aliases": 2844,
+    "recipe_edges": 1601,
+    "potential_loot_edges": 582,
+    "missing_recipe_references": 0,
+    "registry_profiles_linked": 418,
+    "limitations": [
+      "No claim of full mob mechanics from metadata alone",
+      "Craftable by a recipe does not mean this is the only way to obtain an item",
+      "Loot references represent possible drops, not guarantees",
+      "Some identifiers are technical or inaccessible in survival",
+      "Gameplay tests remain outstanding"
+    ]
+  },
+  "unresolved_references": []
+}

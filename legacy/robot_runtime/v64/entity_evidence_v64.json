@@ -1,0 +1,5021 @@
+{
+  "entity:minecraft:agent": {
+    "entity_id": "entity:minecraft:agent",
+    "name": "Agent",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:allay": {
+    "entity_id": "entity:minecraft:allay",
+    "name": "Allay",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": null,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:area_effect_cloud": {
+    "entity_id": "entity:minecraft:area_effect_cloud",
+    "name": "Area Effect Cloud",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:armadillo": {
+    "entity_id": "entity:minecraft:armadillo",
+    "name": "Armadillo",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "spider_eye"
+        ],
+        "conditional": true,
+        "group": "minecraft:adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:armor_stand": {
+    "entity_id": "entity:minecraft:armor_stand",
+    "name": "Armor Stand",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:arrow": {
+    "entity_id": "entity:minecraft:arrow",
+    "name": "Arrow",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:axolotl": {
+    "entity_id": "entity:minecraft:axolotl",
+    "name": "Axolotl",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          {
+            "item": "tropical_fish_bucket",
+            "result_item": "water_bucket:0"
+          }
+        ],
+        "conditional": true,
+        "group": "axolotl_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:bat": {
+    "entity_id": "entity:minecraft:bat",
+    "name": "Bat",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:bee": {
+    "entity_id": "entity:minecraft:bee",
+    "name": "Bee",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": null,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "minecraft:poppy",
+          "minecraft:blue_orchid",
+          "minecraft:allium",
+          "minecraft:azure_bluet",
+          "minecraft:red_tulip",
+          "minecraft:orange_tulip",
+          "minecraft:white_tulip",
+          "minecraft:pink_tulip",
+          "minecraft:oxeye_daisy",
+          "minecraft:cornflower",
+          "minecraft:lily_of_the_valley",
+          "minecraft:dandelion",
+          "minecraft:wither_rose",
+          "minecraft:sunflower",
+          "minecraft:lilac",
+          "minecraft:rose_bush",
+          "minecraft:peony",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule",
+          "minecraft:pitcher_plant",
+          "minecraft:torchflower",
+          "minecraft:cherry_leaves",
+          "minecraft:pink_petals",
+          "minecraft:wildflowers",
+          "minecraft:cactus_flower",
+          "minecraft:chorus_flower",
+          "minecraft:spore_blossom"
+        ],
+        "conditional": true,
+        "group": "bee_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "none",
+        "damage_per_tick": 999,
+        "filters": null,
+        "conditional": true,
+        "group": "perish",
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:blaze": {
+    "entity_id": "entity:minecraft:blaze",
+    "name": "Blaze",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "drowning",
+        "damage_per_tick": 1,
+        "filters": {
+          "test": "in_contact_with_water"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:boat": {
+    "entity_id": "entity:minecraft:boat",
+    "name": "Boat",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:bogged": {
+    "entity_id": "entity:minecraft:bogged",
+    "name": "Bogged",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "wolf"
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2,
+            "walk_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:breeze": {
+    "entity_id": "entity:minecraft:breeze",
+    "name": "Breeze",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:breeze_wind_charge_projectile": {
+    "entity_id": "entity:minecraft:breeze_wind_charge_projectile",
+    "name": "Breeze Wind Charge Projectile",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:camel": {
+    "entity_id": "entity:minecraft:camel",
+    "name": "Camel",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "cactus"
+        ],
+        "conditional": true,
+        "group": "minecraft:camel_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:camel_husk": {
+    "entity_id": "entity:minecraft:camel_husk",
+    "name": "Camel Husk",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:cat": {
+    "entity_id": "entity:minecraft:cat",
+    "name": "Cat",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "fish",
+          "salmon"
+        ],
+        "conditional": true,
+        "group": "minecraft:cat_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "player"
+            },
+            "max_dist": 10,
+            "sprint_speed_multiplier": 1.33,
+            "walk_speed_multiplier": 0.8
+          }
+        ],
+        "conditional": true,
+        "group": "minecraft:cat_wild",
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:cave_spider": {
+    "entity_id": "entity:minecraft:cave_spider",
+    "name": "Cave Spider",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "armadillo"
+                },
+                {
+                  "domain": "minecraft:armadillo_state",
+                  "subject": "other",
+                  "test": "enum_property",
+                  "value": "unrolled"
+                }
+              ]
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:chest_boat": {
+    "entity_id": "entity:minecraft:chest_boat",
+    "name": "Chest Boat",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:chest_minecart": {
+    "entity_id": "entity:minecraft:chest_minecart",
+    "name": "Chest Minecart",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:chicken": {
+    "entity_id": "entity:minecraft:chicken",
+    "name": "Chicken",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "wheat_seeds",
+          "beetroot_seeds",
+          "melon_seeds",
+          "pumpkin_seeds",
+          "pitcher_pod",
+          "torchflower_seeds"
+        ],
+        "conditional": true,
+        "group": "minecraft:chicken_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:cod": {
+    "entity_id": "entity:minecraft:cod",
+    "name": "Cod",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "axolotl"
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 2,
+            "walk_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:command_block_minecart": {
+    "entity_id": "entity:minecraft:command_block_minecart",
+    "name": "Command Block Minecart",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:copper_golem": {
+    "entity_id": "entity:minecraft:copper_golem",
+    "name": "Copper Golem",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:cow": {
+    "entity_id": "entity:minecraft:cow",
+    "name": "Cow",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "wheat"
+        ],
+        "conditional": true,
+        "group": "minecraft:cow_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:creaking": {
+    "entity_id": "entity:minecraft:creaking",
+    "name": "Creaking",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": true,
+        "group": "minecraft:spawned_by_player",
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:creeper": {
+    "entity_id": "entity:minecraft:creeper",
+    "name": "Creeper",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "ocelot"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "cat"
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:cushion": {
+    "entity_id": "entity:minecraft:cushion",
+    "name": "Cushion",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:dolphin": {
+    "entity_id": "entity:minecraft:dolphin",
+    "name": "Dolphin",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 240,
+        "breathes_air": true,
+        "breathes_water": false,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "guardian_elder"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "guardian"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 1.0,
+            "walk_speed_multiplier": 1.0
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:donkey": {
+    "entity_id": "entity:minecraft:donkey",
+    "name": "Donkey",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "golden_carrot",
+          "golden_apple",
+          "appleEnchanted"
+        ],
+        "conditional": true,
+        "group": "minecraft:donkey_tamed",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:dragon_fireball": {
+    "entity_id": "entity:minecraft:dragon_fireball",
+    "name": "Dragon Fireball",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:drowned": {
+    "entity_id": "entity:minecraft:drowned",
+    "name": "Drowned",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:egg": {
+    "entity_id": "entity:minecraft:egg",
+    "name": "Egg",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:elder_guardian": {
+    "entity_id": "entity:minecraft:elder_guardian",
+    "name": "Elder Guardian",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": null,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ender_crystal": {
+    "entity_id": "entity:minecraft:ender_crystal",
+    "name": "Ender Crystal",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ender_dragon": {
+    "entity_id": "entity:minecraft:ender_dragon",
+    "name": "Ender Dragon",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [
+      "combat",
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ender_pearl": {
+    "entity_id": "entity:minecraft:ender_pearl",
+    "name": "Ender Pearl",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:enderman": {
+    "entity_id": "entity:minecraft:enderman",
+    "name": "Enderman",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "drowning",
+        "damage_per_tick": 1,
+        "filters": {
+          "test": "in_contact_with_water"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:endermite": {
+    "entity_id": "entity:minecraft:endermite",
+    "name": "Endermite",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:evocation_illager": {
+    "entity_id": "entity:minecraft:evocation_illager",
+    "name": "Evocation Illager",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "operator": 0,
+                  "subject": 1,
+                  "test": "is_family",
+                  "value": "player"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "walk_speed_multiplier": 0.6
+          },
+          {
+            "filters": {
+              "AND": [
+                {
+                  "operator": 0,
+                  "subject": 1,
+                  "test": "is_family",
+                  "value": "creaking"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:eye_of_ender_signal": {
+    "entity_id": "entity:minecraft:eye_of_ender_signal",
+    "name": "Eye Of Ender Signal",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:fireball": {
+    "entity_id": "entity:minecraft:fireball",
+    "name": "Fireball",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:fireworks_rocket": {
+    "entity_id": "entity:minecraft:fireworks_rocket",
+    "name": "Fireworks Rocket",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:fishing_hook": {
+    "entity_id": "entity:minecraft:fishing_hook",
+    "name": "Fishing Hook",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:fox": {
+    "entity_id": "entity:minecraft:fox",
+    "name": "Fox",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "sweet_berries",
+          "glow_berries"
+        ],
+        "conditional": true,
+        "group": "minecraft:fox_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "all_of": [
+                    {
+                      "subject": "other",
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    {
+                      "operator": "!=",
+                      "subject": "other",
+                      "test": "trusts",
+                      "value": true
+                    },
+                    {
+                      "operator": "!=",
+                      "subject": "other",
+                      "test": "is_sneaking",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "polarbear"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "wolf"
+                }
+              ]
+            },
+            "max_dist": 10,
+            "sprint_speed_multiplier": 1.5,
+            "walk_speed_multiplier": 1.0
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:frog": {
+    "entity_id": "entity:minecraft:frog",
+    "name": "Frog",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "slime_ball"
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ghast": {
+    "entity_id": "entity:minecraft:ghast",
+    "name": "Ghast",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:glow_squid": {
+    "entity_id": "entity:minecraft:glow_squid",
+    "name": "Glow Squid",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:goat": {
+    "entity_id": "entity:minecraft:goat",
+    "name": "Goat",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "wheat"
+        ],
+        "conditional": true,
+        "group": "goat_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:guardian": {
+    "entity_id": "entity:minecraft:guardian",
+    "name": "Guardian",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": null,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "operator": 0,
+                  "subject": 1,
+                  "test": "is_family",
+                  "value": "player"
+                }
+              ]
+            },
+            "max_dist": 8
+          }
+        ],
+        "conditional": true,
+        "group": "minecraft:guardian_passive",
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:happy_ghast": {
+    "entity_id": "entity:minecraft:happy_ghast",
+    "name": "Happy Ghast",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 5,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": true,
+        "group": "minecraft:baby",
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breathing_component",
+        "total_supply": 5,
+        "breathes_air": true,
+        "breathes_water": false,
+        "conditional": true,
+        "group": "minecraft:adult",
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:hoglin": {
+    "entity_id": "entity:minecraft:hoglin",
+    "name": "Hoglin",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "crimson_fungus"
+        ],
+        "conditional": true,
+        "group": "minecraft:hoglin_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "check_if_outnumbered": true,
+            "filters": {
+              "all_of": [
+                {
+                  "subject": "other",
+                  "test": "has_target",
+                  "value": true
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "piglin"
+                }
+              ]
+            },
+            "max_dist": 10,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:hopper_minecart": {
+    "entity_id": "entity:minecraft:hopper_minecart",
+    "name": "Hopper Minecart",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:horse": {
+    "entity_id": "entity:minecraft:horse",
+    "name": "Horse",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "golden_carrot",
+          "golden_apple",
+          "appleEnchanted"
+        ],
+        "conditional": true,
+        "group": "minecraft:horse_tamed",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:husk": {
+    "entity_id": "entity:minecraft:husk",
+    "name": "Husk",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:iron_golem": {
+    "entity_id": "entity:minecraft:iron_golem",
+    "name": "Iron Golem",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "combat",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:lightning_bolt": {
+    "entity_id": "entity:minecraft:lightning_bolt",
+    "name": "Lightning Bolt",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:lingering_potion": {
+    "entity_id": "entity:minecraft:lingering_potion",
+    "name": "Lingering Potion",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:llama": {
+    "entity_id": "entity:minecraft:llama",
+    "name": "Llama",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "hay_block"
+        ],
+        "conditional": true,
+        "group": "minecraft:llama_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:llama_spit": {
+    "entity_id": "entity:minecraft:llama_spit",
+    "name": "Llama Spit",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:magma_cube": {
+    "entity_id": "entity:minecraft:magma_cube",
+    "name": "Magma Cube",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:minecart": {
+    "entity_id": "entity:minecraft:minecart",
+    "name": "Minecart",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:mooshroom": {
+    "entity_id": "entity:minecraft:mooshroom",
+    "name": "Mooshroom",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "wheat"
+        ],
+        "conditional": true,
+        "group": "minecraft:cow_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:mule": {
+    "entity_id": "entity:minecraft:mule",
+    "name": "Mule",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:nautilus": {
+    "entity_id": "entity:minecraft:nautilus",
+    "name": "Nautilus",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          {
+            "item": "pufferfish_bucket",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "item": "cod_bucket",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "item": "salmon_bucket",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "item": "tropical_fish_bucket",
+            "result_item": "water_bucket:0"
+          },
+          "pufferfish",
+          "fish",
+          "salmon",
+          "clownfish",
+          "cooked_fish",
+          "cooked_salmon"
+        ],
+        "conditional": true,
+        "group": "minecraft:nautilus_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:npc": {
+    "entity_id": "entity:minecraft:npc",
+    "name": "Npc",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ocelot": {
+    "entity_id": "entity:minecraft:ocelot",
+    "name": "Ocelot",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "fish",
+          "salmon"
+        ],
+        "conditional": true,
+        "group": "minecraft:ocelot_trusting",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "player"
+            },
+            "max_dist": 10,
+            "sprint_speed_multiplier": 1.33,
+            "walk_speed_multiplier": 0.8
+          }
+        ],
+        "conditional": true,
+        "group": "minecraft:ocelot_wild",
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ominous_item_spawner": {
+    "entity_id": "entity:minecraft:ominous_item_spawner",
+    "name": "Ominous Item Spawner",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:panda": {
+    "entity_id": "entity:minecraft:panda",
+    "name": "Panda",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "bamboo"
+        ],
+        "conditional": true,
+        "group": "minecraft:panda_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "operator": "!=",
+              "subject": "other",
+              "test": "is_family",
+              "value": "panda"
+            },
+            "max_dist": 16,
+            "sprint_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": true,
+        "group": "minecraft:panda_worried",
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:parched": {
+    "entity_id": "entity:minecraft:parched",
+    "name": "Parched",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "wolf"
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2,
+            "walk_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:parrot": {
+    "entity_id": "entity:minecraft:parrot",
+    "name": "Parrot",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:phantom": {
+    "entity_id": "entity:minecraft:phantom",
+    "name": "Phantom",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "ocelot"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "cat"
+                }
+              ]
+            }
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:pig": {
+    "entity_id": "entity:minecraft:pig",
+    "name": "Pig",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "carrot",
+          "beetroot",
+          "potato"
+        ],
+        "conditional": true,
+        "group": "minecraft:pig_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:piglin": {
+    "entity_id": "entity:minecraft:piglin",
+    "name": "Piglin",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "zombie_pigman"
+                }
+              ]
+            },
+            "max_dist": 6
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "zoglin"
+                }
+              ]
+            },
+            "max_dist": 6
+          },
+          {
+            "check_if_outnumbered": true,
+            "filters": {
+              "all_of": [
+                {
+                  "subject": "other",
+                  "test": "has_target"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "hoglin"
+                }
+              ]
+            },
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:piglin_brute": {
+    "entity_id": "entity:minecraft:piglin_brute",
+    "name": "Piglin Brute",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:pillager": {
+    "entity_id": "entity:minecraft:pillager",
+    "name": "Pillager",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "operator": 0,
+                  "subject": 1,
+                  "test": "is_family",
+                  "value": "creaking"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:player": {
+    "entity_id": "entity:minecraft:player",
+    "name": "Player",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:polar_bear": {
+    "entity_id": "entity:minecraft:polar_bear",
+    "name": "Polar Bear",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:pufferfish": {
+    "entity_id": "entity:minecraft:pufferfish",
+    "name": "Pufferfish",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "axolotl"
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 2,
+            "walk_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:rabbit": {
+    "entity_id": "entity:minecraft:rabbit",
+    "name": "Rabbit",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "golden_carrot",
+          "carrot",
+          "dandelion"
+        ],
+        "conditional": true,
+        "group": "adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "player"
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 1.8,
+            "walk_speed_multiplier": 1.5
+          },
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "wolf"
+            },
+            "max_dist": 4,
+            "sprint_speed_multiplier": 1.8,
+            "walk_speed_multiplier": 1.5
+          },
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "monster"
+            },
+            "max_dist": 4,
+            "sprint_speed_multiplier": 1.5,
+            "walk_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:ravager": {
+    "entity_id": "entity:minecraft:ravager",
+    "name": "Ravager",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:salmon": {
+    "entity_id": "entity:minecraft:salmon",
+    "name": "Salmon",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "axolotl"
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 3,
+            "sprint_speed_multiplier": 2,
+            "walk_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:sheep": {
+    "entity_id": "entity:minecraft:sheep",
+    "name": "Sheep",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "wheat"
+        ],
+        "conditional": true,
+        "group": "minecraft:sheep_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:shulker": {
+    "entity_id": "entity:minecraft:shulker",
+    "name": "Shulker",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": false,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "interactions"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:shulker_bullet": {
+    "entity_id": "entity:minecraft:shulker_bullet",
+    "name": "Shulker Bullet",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:silverfish": {
+    "entity_id": "entity:minecraft:silverfish",
+    "name": "Silverfish",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:skeleton": {
+    "entity_id": "entity:minecraft:skeleton",
+    "name": "Skeleton",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "wolf"
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2,
+            "walk_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:skeleton_horse": {
+    "entity_id": "entity:minecraft:skeleton_horse",
+    "name": "Skeleton Horse",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:slime": {
+    "entity_id": "entity:minecraft:slime",
+    "name": "Slime",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:small_fireball": {
+    "entity_id": "entity:minecraft:small_fireball",
+    "name": "Small Fireball",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:sniffer": {
+    "entity_id": "entity:minecraft:sniffer",
+    "name": "Sniffer",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "torchflower_seeds"
+        ],
+        "conditional": true,
+        "group": "sniffer_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:snow_golem": {
+    "entity_id": "entity:minecraft:snow_golem",
+    "name": "Snow Golem",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "temperature",
+        "damage_per_tick": 1,
+        "filters": {
+          "all_of": [
+            {
+              "operator": ">",
+              "test": "is_temperature_value",
+              "value": 1.0
+            },
+            {
+              "operator": "!=",
+              "subject": "self",
+              "test": "has_component",
+              "value": "minecraft:effect.fire_resistance"
+            }
+          ]
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "drowning",
+        "damage_per_tick": 1,
+        "filters": {
+          "operator": "==",
+          "test": "in_contact_with_water",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:snowball": {
+    "entity_id": "entity:minecraft:snowball",
+    "name": "Snowball",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:spider": {
+    "entity_id": "entity:minecraft:spider",
+    "name": "Spider",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "armadillo"
+                },
+                {
+                  "domain": "minecraft:armadillo_state",
+                  "subject": "other",
+                  "test": "enum_property",
+                  "value": "unrolled"
+                }
+              ]
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:splash_potion": {
+    "entity_id": "entity:minecraft:splash_potion",
+    "name": "Splash Potion",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:squid": {
+    "entity_id": "entity:minecraft:squid",
+    "name": "Squid",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "subject": "self",
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:stray": {
+    "entity_id": "entity:minecraft:stray",
+    "name": "Stray",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "wolf"
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 1.2,
+            "walk_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:strider": {
+    "entity_id": "entity:minecraft:strider",
+    "name": "Strider",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breeding_food",
+        "values": [
+          "warped_fungus"
+        ],
+        "conditional": true,
+        "group": "minecraft:strider_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "drowning",
+        "damage_per_tick": 1,
+        "filters": {
+          "test": "in_contact_with_water"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:sulfur_cube": {
+    "entity_id": "entity:minecraft:sulfur_cube",
+    "name": "Sulfur Cube",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": true,
+        "group": "minecraft:sulfur_cube_ai",
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": true,
+        "group": "minecraft:sulfur_cube_medium_with_block",
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:tadpole": {
+    "entity_id": "entity:minecraft:tadpole",
+    "name": "Tadpole",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 8,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:thrown_trident": {
+    "entity_id": "entity:minecraft:thrown_trident",
+    "name": "Thrown Trident",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:tnt": {
+    "entity_id": "entity:minecraft:tnt",
+    "name": "Tnt",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:tnt_minecart": {
+    "entity_id": "entity:minecraft:tnt_minecart",
+    "name": "Tnt Minecart",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [
+      "interactions"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:trader_llama": {
+    "entity_id": "entity:minecraft:trader_llama",
+    "name": "Trader Llama",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "hay_block"
+        ],
+        "conditional": true,
+        "group": "minecraft:llama_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:tripod_camera": {
+    "entity_id": "entity:minecraft:tripod_camera",
+    "name": "Tripod Camera",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "fire_lava"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:tropicalfish": {
+    "entity_id": "entity:minecraft:tropicalfish",
+    "name": "Tropicalfish",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": false,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "axolotl"
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 6,
+            "sprint_speed_multiplier": 2,
+            "walk_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:turtle": {
+    "entity_id": "entity:minecraft:turtle",
+    "name": "Turtle",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "seagrass"
+        ],
+        "conditional": true,
+        "group": "minecraft:adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:vex": {
+    "entity_id": "entity:minecraft:vex",
+    "name": "Vex",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:villager": {
+    "entity_id": "entity:minecraft:villager",
+    "name": "Villager",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "zombie"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "zombie_villager"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "illager"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "vex"
+                    }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 0.6,
+            "walk_speed_multiplier": 0.6
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:villager_v2": {
+    "entity_id": "entity:minecraft:villager_v2",
+    "name": "Villager V2",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "zombie"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "zombie_villager"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "illager"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "vex"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "zoglin"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 0.6,
+            "walk_speed_multiplier": 0.6
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:vindicator": {
+    "entity_id": "entity:minecraft:vindicator",
+    "name": "Vindicator",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "operator": 0,
+                  "subject": 1,
+                  "test": "is_family",
+                  "value": "creaking"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "sprint_speed_multiplier": 1.2
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wandering_trader": {
+    "entity_id": "entity:minecraft:wandering_trader",
+    "name": "Wandering Trader",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "AND": [
+                {
+                  "OR": [
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "zombie"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "zombie_villager"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "zombie_pigman"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "illager"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "vex"
+                    },
+                    {
+                      "operator": 0,
+                      "subject": 1,
+                      "test": "is_family",
+                      "value": "zoglin"
+                    }
+                  ]
+                }
+              ]
+            },
+            "sprint_speed_multiplier": 0.6,
+            "walk_speed_multiplier": 0.6
+          }
+        ],
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fear",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:warden": {
+    "entity_id": "entity:minecraft:warden",
+    "name": "Warden",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wind_charge_projectile": {
+    "entity_id": "entity:minecraft:wind_charge_projectile",
+    "name": "Wind Charge Projectile",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:witch": {
+    "entity_id": "entity:minecraft:witch",
+    "name": "Witch",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wither": {
+    "entity_id": "entity:minecraft:wither",
+    "name": "Wither",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wither_skeleton": {
+    "entity_id": "entity:minecraft:wither_skeleton",
+    "name": "Wither Skeleton",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wither_skull": {
+    "entity_id": "entity:minecraft:wither_skull",
+    "name": "Wither Skull",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wither_skull_dangerous": {
+    "entity_id": "entity:minecraft:wither_skull_dangerous",
+    "name": "Wither Skull Dangerous",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:wolf": {
+    "entity_id": "entity:minecraft:wolf",
+    "name": "Wolf",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": null,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "breeding_food",
+        "values": [
+          "chicken",
+          "cooked_chicken",
+          "beef",
+          "cooked_beef",
+          "muttonRaw",
+          "muttonCooked",
+          "porkchop",
+          "cooked_porkchop",
+          "rabbit",
+          "cooked_rabbit",
+          "rotten_flesh"
+        ],
+        "conditional": true,
+        "group": "minecraft:wolf_adult",
+        "source_component": "minecraft:breedable"
+      },
+      {
+        "topic": "avoidance",
+        "filters": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "llama"
+            },
+            "max_dist": 24,
+            "sprint_speed_multiplier": 1.5,
+            "walk_speed_multiplier": 1.5
+          }
+        ],
+        "conditional": true,
+        "group": "minecraft:wolf_wild",
+        "source_component": "minecraft:behavior.avoid_mob_type",
+        "note": "Filters may describe categories rather than specific named mobs."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "breeding",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:xp_bottle": {
+    "entity_id": "entity:minecraft:xp_bottle",
+    "name": "Xp Bottle",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:xp_orb": {
+    "entity_id": "entity:minecraft:xp_orb",
+    "name": "Xp Orb",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [],
+    "evidence_categories": [],
+    "has_behavior_profile": false,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zoglin": {
+    "entity_id": "entity:minecraft:zoglin",
+    "name": "Zoglin",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zombie": {
+    "entity_id": "entity:minecraft:zombie",
+    "name": "Zombie",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zombie_horse": {
+    "entity_id": "entity:minecraft:zombie_horse",
+    "name": "Zombie Horse",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zombie_nautilus": {
+    "entity_id": "entity:minecraft:zombie_nautilus",
+    "name": "Zombie Nautilus",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": true,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "test": "in_lava"
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "interactions",
+      "spawn",
+      "taming"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zombie_pigman": {
+    "entity_id": "entity:minecraft:zombie_pigman",
+    "name": "Zombie Pigman",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fire_lava",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zombie_villager": {
+    "entity_id": "entity:minecraft:zombie_villager",
+    "name": "Zombie Villager",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  },
+  "entity:minecraft:zombie_villager_v2": {
+    "entity_id": "entity:minecraft:zombie_villager_v2",
+    "name": "Zombie Villager V2",
+    "source": "metadata/vanilladata_modules/mojang-entities.json",
+    "extracted_facts": [
+      {
+        "topic": "breathing_component",
+        "total_supply": 15,
+        "breathes_air": null,
+        "breathes_water": true,
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:breathable",
+        "note": "Missing flags must not be interpreted as true or false without engine defaults."
+      },
+      {
+        "topic": "environmental_damage",
+        "cause": "lava",
+        "damage_per_tick": 4,
+        "filters": {
+          "operator": "==",
+          "subject": "self",
+          "test": "in_lava",
+          "value": true
+        },
+        "conditional": false,
+        "group": null,
+        "source_component": "minecraft:hurt_on_condition"
+      }
+    ],
+    "evidence_categories": [
+      "breathing",
+      "combat",
+      "fear",
+      "fire_lava",
+      "interactions",
+      "spawn"
+    ],
+    "has_behavior_profile": true,
+    "verification": "bedrock_samples_component_evidence_not_gameplay_test"
+  }
+}

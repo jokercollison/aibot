@@ -1,0 +1,1 @@
+Version 20: Ten original Bedrock-focused knowledge answers from accessible Wiki indexed pages; four Java-only/outdated/historical content exclusions; edition/version verification warnings. Includes all version 19 files.

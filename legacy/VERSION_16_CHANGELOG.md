@@ -1,0 +1,1 @@
+Version 16: Official Minecraft beginner hub reviewed, 12 topic pointers, five concise original Bedrock Q&A records, link to official Minecraft Help Game Guides. Retains all Version 15 files. Linked articles and videos require further review.

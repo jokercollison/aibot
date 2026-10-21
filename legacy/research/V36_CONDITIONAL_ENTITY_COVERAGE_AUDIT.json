@@ -1,0 +1,156 @@
+{
+  "source": "user-provided official Bedrock samples 1.26.50.4",
+  "entities_parsed": 128,
+  "questions_with_explicit_evidence": 175,
+  "conditional_groups_with_relevant_components": 266,
+  "parsing_issues": [],
+  "common_components": [
+    [
+      "minecraft:type_family",
+      115
+    ],
+    [
+      "minecraft:health",
+      89
+    ],
+    [
+      "minecraft:hurt_on_condition",
+      86
+    ],
+    [
+      "minecraft:breathable",
+      82
+    ],
+    [
+      "minecraft:movement",
+      77
+    ],
+    [
+      "minecraft:movement.basic",
+      65
+    ],
+    [
+      "minecraft:navigation.walk",
+      64
+    ],
+    [
+      "minecraft:loot",
+      49
+    ],
+    [
+      "minecraft:spawn_egg_interaction",
+      43
+    ],
+    [
+      "minecraft:behavior.hurt_by_target",
+      38
+    ],
+    [
+      "minecraft:behavior.nearest_attackable_target",
+      37
+    ],
+    [
+      "minecraft:damage_sensor",
+      34
+    ],
+    [
+      "minecraft:behavior.panic",
+      30
+    ],
+    [
+      "minecraft:behavior.avoid_mob_type",
+      23
+    ],
+    [
+      "minecraft:navigation.generic",
+      14
+    ],
+    [
+      "minecraft:fire_immune",
+      14
+    ],
+    [
+      "minecraft:underwater_movement",
+      12
+    ],
+    [
+      "minecraft:environment_sensor",
+      12
+    ],
+    [
+      "minecraft:healable",
+      12
+    ],
+    [
+      "minecraft:interact",
+      11
+    ],
+    [
+      "minecraft:burns_in_daylight",
+      11
+    ],
+    [
+      "minecraft:movement.sway",
+      9
+    ],
+    [
+      "minecraft:game_event_movement_tracking",
+      8
+    ],
+    [
+      "minecraft:freezing_immune",
+      7
+    ],
+    [
+      "minecraft:rail_movement",
+      5
+    ],
+    [
+      "minecraft:water_movement",
+      3
+    ],
+    [
+      "minecraft:movement.amphibious",
+      3
+    ],
+    [
+      "minecraft:navigation.float",
+      2
+    ],
+    [
+      "minecraft:movement.jump",
+      2
+    ],
+    [
+      "minecraft:block_movement_slowdown_immunity",
+      2
+    ],
+    [
+      "minecraft:navigation.climb",
+      2
+    ],
+    [
+      "minecraft:movement_sound_distance_offset",
+      2
+    ],
+    [
+      "minecraft:navigation.hover",
+      2
+    ],
+    [
+      "minecraft:movement.hover",
+      2
+    ],
+    [
+      "minecraft:behavior.avoid_block",
+      2
+    ]
+  ],
+  "critical_limitations": [
+    "Does not infer a negative answer from missing components",
+    "Breathes lava is not the same as being immune to lava damage",
+    "Entity components and events may be conditional; not all active simultaneously",
+    "Base entity definitions do not cover all hardcoded engine behavior",
+    "Questions are component-backed technical answers, not yet all natural-language gameplay guides"
+  ]
+}

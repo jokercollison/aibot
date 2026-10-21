@@ -1,0 +1,16 @@
+{
+  "categories": {
+    "enchantments": 42,
+    "brewing": 46,
+    "loot": 440,
+    "biomes": 89,
+    "methods": 909
+  },
+  "caveats": [
+    "Searchable loot-table entries are not guaranteed loot or locations.",
+    "Enchantment reference has pending version verification.",
+    "Brewing potion type identifiers may require better human-friendly aliases.",
+    "Recipe methods only describe station/method; exact ingredients are in prior recipe database.",
+    "Prototype is Node/CommonJS, not yet a Bedrock-compatible compiled module."
+  ]
+}

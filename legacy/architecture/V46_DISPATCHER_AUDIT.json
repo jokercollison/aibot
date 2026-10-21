@@ -1,0 +1,15 @@
+{
+  "version": 46,
+  "focus": [
+    "question dispatch and fallback",
+    "mob conditional evidence",
+    "original banter integration",
+    "regression tests"
+  ],
+  "limitations": [
+    "Still a Node prototype, not Minecraft Script API code",
+    "Conditional mob behavior cannot be reduced to a yes/no answer without evaluating group activation and engine defaults",
+    "Banter lines remain editorial content, not game facts"
+  ],
+  "data_source": "cumulative v45 and original Bedrock sample provenance"
+}

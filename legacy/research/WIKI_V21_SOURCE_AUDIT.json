@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-20",
+  "scope": "Search-indexed accessible Minecraft Wiki categories and articles, Bedrock only",
+  "full_scrape_completed": false,
+  "direct_access_limitation": "robots.txt restriction",
+  "pages": [
+    {
+      "topic": "Bedrock-specific mechanics",
+      "url": "https://minecraft.wiki/w/Category:Bedrock_Edition_specific_information",
+      "notes": "87 indexed pages; category labels may contain mixed-edition topics",
+      "status": "category_index_only"
+    },
+    {
+      "topic": "Tutorials",
+      "url": "https://minecraft.wiki/w/Category:Tutorials",
+      "notes": "390 listed pages, mixed edition, many historical or Java-only",
+      "status": "category_index_only"
+    },
+    {
+      "topic": "Commands",
+      "url": "https://minecraft.wiki/w/Category:Commands",
+      "notes": "Command list; per-command syntax needs stable official validation",
+      "status": "category_index_only"
+    },
+    {
+      "topic": "Enchantments",
+      "url": "https://minecraft.wiki/w/Category:Enchantments",
+      "notes": "Enchantments including Java-only Sweeping Edge; filter",
+      "status": "category_index_only"
+    },
+    {
+      "topic": "Bedrock functions",
+      "url": "https://minecraft.wiki/w/Function_(Bedrock_Edition)",
+      "notes": "Functions in behavior pack, .mcfunction syntax; old examples may be stale",
+      "status": "search_index_article_excerpt"
+    },
+    {
+      "topic": "Experience farming",
+      "url": "https://minecraft.wiki/w/Tutorial:Experience_farming",
+      "notes": "XP from fishing and mobs; verify specific farm mechanics",
+      "status": "search_index_article_excerpt"
+    },
+    {
+      "topic": "Raid farming",
+      "url": "https://minecraft.wiki/w/Tutorial:Raid_farming",
+      "notes": "Bedrock-specific raid drops; tutorial flags missing Bedrock farm details",
+      "status": "search_index_article_excerpt"
+    },
+    {
+      "topic": "Bedrock world settings",
+      "url": "https://minecraft.wiki/w/Tutorial:Menu_screen/Bedrock_Edition",
+      "notes": "World options, mob spawning, mob griefing and player permissions",
+      "status": "search_index_article_excerpt"
+    },
+    {
+      "topic": "Bedrock edition index",
+      "url": "https://minecraft.wiki/w/Category:Bedrock_Edition",
+      "notes": "509 pages including historical and development material; do not treat as current gameplay",
+      "status": "category_index_only"
+    }
+  ],
+  "excluded_examples": [
+    "Java Sweeping Edge",
+    "Java-only NBT syntax",
+    "Java-only advancements",
+    "obsolete experimental features"
+  ],
+  "quality_rule": "Source-specific claims must be verified before production; family-friendly; no verbatim article redistribution."
+}

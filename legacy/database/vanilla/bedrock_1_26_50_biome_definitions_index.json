@@ -1,0 +1,2681 @@
+[
+  {
+    "id": "minecraft:snowy_slopes",
+    "source_file": "behavior_pack/biomes/snowy_slopes.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.125,
+        0.5
+      ],
+      "temperature": -0.3
+    },
+    "tags": [
+      "frozen",
+      "mountains",
+      "monster",
+      "overworld",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits",
+      "snowy_slopes",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mushroom_island_shore",
+    "source_file": "behavior_pack/biomes/mushroom_island_shore.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 1.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.9
+    },
+    "tags": [
+      "mooshroom_island",
+      "overworld",
+      "shore",
+      "spawns_without_patrols"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:legacy_frozen_ocean",
+    "source_file": "behavior_pack/biomes/legacy_frozen_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": 0.0
+    },
+    "tags": [
+      "legacy",
+      "frozen",
+      "ocean",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_polar_bears_on_alternate_blocks",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:frozen_ocean",
+    "source_file": "behavior_pack/biomes/frozen_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": 0.0
+    },
+    "tags": [
+      "frozen",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_polar_bears_on_alternate_blocks",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": -1.5,
+        "target_humidity": 1.0,
+        "target_altitude": -0.2,
+        "target_weirdness": 1.0,
+        "weight": 0.0
+      },
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "frozen",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mesa",
+    "source_file": "behavior_pack/biomes/mesa.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "mesa",
+      "monster",
+      "overworld",
+      "spawns_mesa_mobs",
+      "spawns_warm_variant_farm_animals",
+      "surface_mineshaft"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:mesa_bryce"
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:cold_taiga_mutated",
+    "source_file": "behavior_pack/biomes/cold_taiga_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.4,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": -0.5
+    },
+    "tags": [
+      "animal",
+      "cold",
+      "forest",
+      "monster",
+      "mutated",
+      "taiga",
+      "overworld_generation",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mega_taiga",
+    "source_file": "behavior_pack/biomes/mega_taiga.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.3
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "mega",
+      "monster",
+      "overworld",
+      "rare",
+      "taiga",
+      "has_structure_trail_ruins",
+      "spawns_cold_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:mega_taiga_hills",
+        "mutate_transformation": "minecraft:redwood_taiga_mutated",
+        "generate_for_climates": [
+          [
+            "cold",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:frozen_river",
+    "source_file": "behavior_pack/biomes/frozen_river.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": 0.0
+    },
+    "tags": [
+      "frozen",
+      "overworld",
+      "river",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_river_mobs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:savanna",
+    "source_file": "behavior_pack/biomes/savanna.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 1.2
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "overworld",
+      "savanna",
+      "spawns_savanna_mobs",
+      "spawns_warm_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.1,
+        "target_humidity": -0.1,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.1,
+        "weight": 0.2
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:savanna_plateau",
+        "mutate_transformation": "minecraft:savanna_mutated",
+        "generate_for_climates": [
+          [
+            "warm",
+            2
+          ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "savanna"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:jungle_mutated",
+    "source_file": "behavior_pack/biomes/jungle_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "jungle",
+      "monster",
+      "mutated",
+      "overworld_generation",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:basalt_deltas",
+    "source_file": "behavior_pack/biomes/basalt_deltas.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "nether",
+      "basalt_deltas",
+      "spawn_many_magma_cubes",
+      "spawn_ghast",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": -0.5,
+        "target_humidity": 0.0,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.175
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:taiga_mutated",
+    "source_file": "behavior_pack/biomes/taiga_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.25
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "monster",
+      "mutated",
+      "taiga",
+      "overworld_generation",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:desert",
+    "source_file": "behavior_pack/biomes/desert.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "desert",
+      "monster",
+      "overworld",
+      "spawns_gold_rabbits",
+      "spawns_warm_variant_farm_animals",
+      "spawns_warm_variant_frogs"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.4,
+        "target_humidity": -0.4,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.1
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:desert_hills",
+        "mutate_transformation": "minecraft:desert_mutated",
+        "generate_for_climates": [
+          [
+            "warm",
+            3
+          ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "desert"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:cold_beach",
+    "source_file": "behavior_pack/biomes/cold_beach.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": 0.05
+    },
+    "tags": [
+      "beach",
+      "cold",
+      "monster",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:the_end",
+    "source_file": "behavior_pack/biomes/the_end.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "the_end",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:hell",
+    "source_file": "behavior_pack/biomes/hell.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "nether",
+      "nether_wastes",
+      "spawn_endermen",
+      "spawn_few_piglins",
+      "spawn_ghast",
+      "spawn_magma_cubes",
+      "spawns_nether_mobs",
+      "spawn_zombified_piglin",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": 0.0,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.0
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:lush_caves",
+    "source_file": "behavior_pack/biomes/lush_caves.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "temperature": 0.9
+    },
+    "tags": [
+      "caves",
+      "lush_caves",
+      "overworld",
+      "monster",
+      "spawns_tropical_fish_at_any_height"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:grove",
+    "source_file": "behavior_pack/biomes/grove.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": -0.2
+    },
+    "tags": [
+      "mountains",
+      "cold",
+      "monster",
+      "overworld",
+      "grove",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mangrove_swamp",
+    "source_file": "behavior_pack/biomes/mangrove_swamp.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.8
+    },
+    "tags": [
+      "mangrove_swamp",
+      "overworld",
+      "monster",
+      "spawns_slimes_on_surface",
+      "spawns_warm_variant_farm_animals",
+      "spawns_warm_variant_frogs",
+      "slime"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:dripstone_caves",
+    "source_file": "behavior_pack/biomes/dripstone_caves.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "temperature": 0.2
+    },
+    "tags": [
+      "caves",
+      "overworld",
+      "dripstone_caves",
+      "monster"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:savanna_plateau_mutated",
+    "source_file": "behavior_pack/biomes/savanna_plateau_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 1.0
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "mutated",
+      "overworld",
+      "plateau",
+      "savanna",
+      "spawns_savanna_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:deep_frozen_ocean",
+    "source_file": "behavior_pack/biomes/deep_frozen_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "deep",
+      "frozen",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_polar_bears_on_alternate_blocks",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "frozen",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:warped_forest",
+    "source_file": "behavior_pack/biomes/warped_forest.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "nether",
+      "netherwart_forest",
+      "warped_forest",
+      "spawn_endermen",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": 0.5,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.375
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:deep_dark",
+    "source_file": "behavior_pack/biomes/deep_dark.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "temperature": 0.8,
+      "downfall": 0.4
+    },
+    "tags": [
+      "caves",
+      "deep_dark",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:birch_forest_hills_mutated",
+    "source_file": "behavior_pack/biomes/birch_forest_hills_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "animal",
+      "birch",
+      "forest",
+      "hills",
+      "monster",
+      "mutated",
+      "overworld_generation"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:jagged_peaks",
+    "source_file": "behavior_pack/biomes/jagged_peaks.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": -0.7
+    },
+    "tags": [
+      "mountains",
+      "monster",
+      "overworld",
+      "frozen",
+      "jagged_peaks",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:swampland_mutated",
+    "source_file": "behavior_pack/biomes/swampland_mutated.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.8
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "mutated",
+      "swamp",
+      "overworld_generation",
+      "spawns_slimes_on_surface",
+      "slime",
+      "swamp_water_huge_mushroom"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:sulfur_caves",
+    "source_file": "behavior_pack/biomes/sulfur_caves.biome.json",
+    "format_version": "1.26.30",
+    "climate": {
+      "downfall": 0.4,
+      "temperature": 0.8
+    },
+    "tags": [
+      "caves",
+      "sulfur_caves",
+      "overworld",
+      "monster"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:extreme_hills",
+    "source_file": "behavior_pack/biomes/extreme_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.0,
+        0.25
+      ],
+      "temperature": 0.2
+    },
+    "tags": [
+      "animal",
+      "extreme_hills",
+      "monster",
+      "overworld",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:extreme_hills_plus_trees",
+        "mutate_transformation": "minecraft:extreme_hills_mutated",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ],
+          [
+            "cold",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:lukewarm_ocean",
+    "source_file": "behavior_pack/biomes/lukewarm_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "lukewarm",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_warm_variant_farm_animals",
+      "fast_fishing",
+      "high_seas",
+      "temperate_ocean"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "lukewarm",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:frozen_peaks",
+    "source_file": "behavior_pack/biomes/frozen_peaks.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.125,
+        0.25
+      ],
+      "temperature": -0.7
+    },
+    "tags": [
+      "mountains",
+      "monster",
+      "overworld",
+      "frozen",
+      "frozen_peaks",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:jungle_hills",
+    "source_file": "behavior_pack/biomes/jungle_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "hills",
+      "jungle",
+      "monster",
+      "overworld",
+      "spawns_jungle_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.4,
+        "target_humidity": 0.0,
+        "target_altitude": 0.2,
+        "target_weirdness": 0.0,
+        "weight": 0.0
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:soulsand_valley",
+    "source_file": "behavior_pack/biomes/soulsand_valley.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "nether",
+      "soulsand_valley",
+      "spawn_ghast",
+      "spawn_endermen",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": -0.5,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.0
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:jungle_edge",
+    "source_file": "behavior_pack/biomes/jungle_edge.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "edge",
+      "jungle",
+      "monster",
+      "overworld",
+      "spawns_jungle_mobs",
+      "spawns_warm_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:jungle_edge_mutated"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:bamboo_jungle",
+    "source_file": "behavior_pack/biomes/bamboo_jungle.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "bamboo",
+      "jungle",
+      "monster",
+      "overworld",
+      "spawns_jungle_mobs",
+      "spawns_warm_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:bamboo_jungle_hills"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:savanna_mutated",
+    "source_file": "behavior_pack/biomes/savanna_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "mutated",
+      "overworld",
+      "savanna",
+      "spawns_savanna_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mushroom_island",
+    "source_file": "behavior_pack/biomes/mushroom_island.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 1.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.9
+    },
+    "tags": [
+      "mooshroom_island",
+      "overworld",
+      "spawns_without_patrols"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:crimson_forest",
+    "source_file": "behavior_pack/biomes/crimson_forest.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "nether",
+      "netherwart_forest",
+      "crimson_forest",
+      "spawn_few_zombified_piglins",
+      "spawn_piglin",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.4,
+        "target_humidity": 0.0,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.0
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:beach",
+    "source_file": "behavior_pack/biomes/beach.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.4,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.8
+    },
+    "tags": [
+      "beach",
+      "monster",
+      "overworld",
+      "warm"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:stony_peaks",
+    "source_file": "behavior_pack/biomes/stony_peaks.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "temperature": 1.0
+    },
+    "tags": [
+      "mountains",
+      "monster",
+      "overworld",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:roofed_forest_mutated",
+    "source_file": "behavior_pack/biomes/roofed_forest_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "monster",
+      "mutated",
+      "roofed",
+      "overworld_generation"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mesa_plateau_stone_mutated",
+    "source_file": "behavior_pack/biomes/mesa_plateau_stone_mutated.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "mesa",
+      "monster",
+      "mutated",
+      "overworld",
+      "plateau",
+      "spawns_mesa_mobs",
+      "spawns_warm_variant_farm_animals",
+      "surface_mineshaft"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mega_taiga_hills",
+    "source_file": "behavior_pack/biomes/mega_taiga_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.3
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "hills",
+      "mega",
+      "monster",
+      "overworld",
+      "taiga",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:redwood_taiga_hills_mutated"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:cold_taiga",
+    "source_file": "behavior_pack/biomes/cold_taiga.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.4,
+      "snow_accumulation": [
+        0.125,
+        0.5
+      ],
+      "temperature": -0.5
+    },
+    "tags": [
+      "animal",
+      "cold",
+      "forest",
+      "monster",
+      "overworld",
+      "taiga",
+      "has_structure_trail_ruins",
+      "spawns_cold_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:cold_taiga_hills",
+        "mutate_transformation": "minecraft:cold_taiga_mutated",
+        "generate_for_climates": [
+          [
+            "frozen",
+            1
+          ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "taiga"
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:deep_cold_ocean",
+    "source_file": "behavior_pack/biomes/deep_cold_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "cold",
+      "deep",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "cold",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mesa_plateau_stone",
+    "source_file": "behavior_pack/biomes/mesa_plateau_stone.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "mesa",
+      "monster",
+      "overworld",
+      "plateau",
+      "rare",
+      "stone",
+      "spawns_mesa_mobs",
+      "spawns_warm_variant_farm_animals",
+      "surface_mineshaft",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:mesa",
+        "mutate_transformation": "minecraft:mesa_plateau_stone_mutated",
+        "generate_for_climates": [
+          [
+            "warm",
+            2
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:extreme_hills_plus_trees_mutated",
+    "source_file": "behavior_pack/biomes/extreme_hills_plus_trees_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.2
+    },
+    "tags": [
+      "animal",
+      "extreme_hills",
+      "forest",
+      "monster",
+      "mutated",
+      "overworld",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:jungle",
+    "source_file": "behavior_pack/biomes/jungle.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "has_structure_trail_ruins",
+      "jungle",
+      "monster",
+      "overworld",
+      "rare",
+      "spawns_jungle_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.4,
+        "target_humidity": 0.0,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.0
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:jungle_hills",
+        "mutate_transformation": "minecraft:jungle_mutated",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:plains",
+    "source_file": "behavior_pack/biomes/plains.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.4,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.8
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "overworld",
+      "plains",
+      "bee_habitat"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": 0.0,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.4
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": [
+          [
+            "minecraft:forest_hills",
+            1
+          ],
+          [
+            "minecraft:forest",
+            2
+          ]
+        ],
+        "mutate_transformation": "minecraft:sunflower_plains",
+        "generate_for_climates": [
+          [
+            "medium",
+            3
+          ],
+          [
+            "warm",
+            1
+          ],
+          [
+            "cold",
+            1
+          ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "default"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:sunflower_plains",
+    "source_file": "behavior_pack/biomes/sunflower_plains.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.4,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.8
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "mutated",
+      "overworld",
+      "plains",
+      "bee_habitat"
+    ],
+    "generation_rules": {
+      "minecraft:village_type": {
+        "type": "default"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:ice_mountains",
+    "source_file": "behavior_pack/biomes/ice_mountains.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.375,
+        1.5
+      ],
+      "temperature": 0.0
+    },
+    "tags": [
+      "frozen",
+      "ice",
+      "mountain",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:ice_plains_spikes",
+    "source_file": "behavior_pack/biomes/ice_plains_spikes.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 1.0,
+      "snow_accumulation": [
+        0.5,
+        1.5
+      ],
+      "temperature": 0.0
+    },
+    "tags": [
+      "frozen",
+      "ice_plains",
+      "monster",
+      "mutated",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:swampland",
+    "source_file": "behavior_pack/biomes/swampland.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.8
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "overworld",
+      "swamp",
+      "spawns_slimes_on_surface",
+      "slime",
+      "swamp_water_huge_mushroom",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:swampland_mutated",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:bamboo_jungle_hills",
+    "source_file": "behavior_pack/biomes/bamboo_jungle_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.9,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "bamboo",
+      "hills",
+      "jungle",
+      "monster",
+      "overworld",
+      "spawns_jungle_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:deep_ocean",
+    "source_file": "behavior_pack/biomes/deep_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "deep",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_warm_variant_farm_animals",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": [
+          "minecraft:plains",
+          "minecraft:forest"
+        ],
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:ocean",
+    "source_file": "behavior_pack/biomes/ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "monster",
+      "ocean",
+      "overworld",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": 0.1,
+        "target_altitude": -0.1,
+        "target_weirdness": 0.0,
+        "weight": 0.3
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:deep_ocean",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mesa_plateau_mutated",
+    "source_file": "behavior_pack/biomes/mesa_plateau_mutated.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "mesa",
+      "monster",
+      "mutated",
+      "overworld",
+      "plateau",
+      "stone",
+      "spawns_mesa_mobs",
+      "spawns_warm_variant_farm_animals",
+      "surface_mineshaft"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:forest",
+    "source_file": "behavior_pack/biomes/forest.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "monster",
+      "overworld",
+      "bee_habitat",
+      "has_structure_abandoned_camp",
+      "oak_forest"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": 0.5,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.375
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:forest_hills",
+        "mutate_transformation": "minecraft:flower_forest",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ],
+          [
+            "cold",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:deep_lukewarm_ocean",
+    "source_file": "behavior_pack/biomes/deep_lukewarm_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "deep",
+      "lukewarm",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_warm_variant_farm_animals",
+      "fast_fishing",
+      "high_seas",
+      "temperate_ocean"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "lukewarm",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:flower_forest",
+    "source_file": "behavior_pack/biomes/flower_forest.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "animal",
+      "flower_forest",
+      "monster",
+      "mutated",
+      "overworld",
+      "bee_habitat",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:extreme_hills_edge",
+    "source_file": "behavior_pack/biomes/extreme_hills_edge.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.0,
+        0.25
+      ],
+      "temperature": 0.2
+    },
+    "tags": [
+      "animal",
+      "edge",
+      "extreme_hills",
+      "monster",
+      "mountain",
+      "overworld",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:redwood_taiga_hills_mutated",
+    "source_file": "behavior_pack/biomes/redwood_taiga_hills_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.3
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "hills",
+      "mega",
+      "monster",
+      "mutated",
+      "taiga",
+      "overworld_generation",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:desert_mutated",
+    "source_file": "behavior_pack/biomes/desert_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "desert",
+      "monster",
+      "mutated",
+      "overworld_generation",
+      "spawns_gold_rabbits",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:cherry_grove",
+    "source_file": "behavior_pack/biomes/cherry_grove.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "temperature": 0.3
+    },
+    "tags": [
+      "mountains",
+      "monster",
+      "overworld",
+      "cherry_grove",
+      "bee_habitat",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:meadow",
+    "source_file": "behavior_pack/biomes/meadow.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "temperature": 0.3
+    },
+    "tags": [
+      "mountains",
+      "monster",
+      "overworld",
+      "meadow",
+      "bee_habitat",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:village_type": {
+        "type": "default"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:birch_forest_hills",
+    "source_file": "behavior_pack/biomes/birch_forest_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.6,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.6
+    },
+    "tags": [
+      "animal",
+      "birch",
+      "forest",
+      "hills",
+      "monster",
+      "overworld",
+      "bee_habitat"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:birch_forest_hills_mutated"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:jungle_edge_mutated",
+    "source_file": "behavior_pack/biomes/jungle_edge_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.95
+    },
+    "tags": [
+      "animal",
+      "edge",
+      "jungle",
+      "monster",
+      "mutated",
+      "overworld_generation",
+      "spawns_jungle_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:redwood_taiga_mutated",
+    "source_file": "behavior_pack/biomes/redwood_taiga_mutated.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.25
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "mega",
+      "monster",
+      "mutated",
+      "overworld",
+      "taiga",
+      "has_structure_trail_ruins",
+      "spawns_cold_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:ice_plains",
+    "source_file": "behavior_pack/biomes/ice_plains.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.25,
+        1.0
+      ],
+      "temperature": 0.0
+    },
+    "tags": [
+      "frozen",
+      "ice",
+      "ice_plains",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_snow_foxes",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": -1.0,
+        "target_humidity": 1.0,
+        "target_altitude": 0.2,
+        "target_weirdness": 1.0,
+        "weight": 0.0
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:ice_mountains",
+        "mutate_transformation": "minecraft:ice_plains_spikes",
+        "generate_for_climates": [
+          [
+            "frozen",
+            3
+          ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "ice"
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:river",
+    "source_file": "behavior_pack/biomes/river.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "overworld",
+      "spawns_more_frequent_drowned",
+      "spawns_reduced_water_ambient_mobs",
+      "spawns_river_mobs",
+      "river"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:extreme_hills_mutated",
+    "source_file": "behavior_pack/biomes/extreme_hills_mutated.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.2
+    },
+    "tags": [
+      "animal",
+      "extreme_hills",
+      "monster",
+      "mutated",
+      "overworld",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:cold_ocean",
+    "source_file": "behavior_pack/biomes/cold_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "cold",
+      "monster",
+      "ocean",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "fast_fishing",
+      "high_seas"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "cold",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:deep_warm_ocean",
+    "source_file": "behavior_pack/biomes/deep_warm_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "deep",
+      "monster",
+      "ocean",
+      "overworld",
+      "warm",
+      "spawns_warm_variant_farm_animals",
+      "fast_fishing",
+      "high_seas",
+      "temperate_ocean"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:roofed_forest",
+    "source_file": "behavior_pack/biomes/roofed_forest.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "monster",
+      "no_legacy_worldgen",
+      "overworld",
+      "roofed"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:plains",
+        "mutate_transformation": "minecraft:roofed_forest_mutated",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:birch_forest_mutated",
+    "source_file": "behavior_pack/biomes/birch_forest_mutated.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.6,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.6
+    },
+    "tags": [
+      "animal",
+      "birch",
+      "forest",
+      "monster",
+      "mutated",
+      "bee_habitat",
+      "overworld_generation",
+      "has_structure_trail_ruins",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:savanna_plateau",
+    "source_file": "behavior_pack/biomes/savanna_plateau.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 1.0
+    },
+    "tags": [
+      "animal",
+      "monster",
+      "overworld",
+      "plateau",
+      "savanna",
+      "spawns_savanna_mobs",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:savanna_plateau_mutated"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:cold_taiga_hills",
+    "source_file": "behavior_pack/biomes/cold_taiga_hills.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.4,
+      "snow_accumulation": [
+        0.125,
+        0.5
+      ],
+      "temperature": -0.5
+    },
+    "tags": [
+      "animal",
+      "cold",
+      "forest",
+      "hills",
+      "monster",
+      "overworld",
+      "taiga",
+      "spawns_cold_variant_farm_animals",
+      "spawns_cold_variant_frogs",
+      "spawns_white_rabbits"
+    ],
+    "generation_rules": {
+      "minecraft:village_type": {
+        "type": "taiga"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:taiga",
+    "source_file": "behavior_pack/biomes/taiga.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.25
+      ],
+      "temperature": 0.25
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "monster",
+      "overworld",
+      "taiga",
+      "has_structure_trail_ruins",
+      "spawns_cold_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": -0.4,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.1
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:taiga_hills",
+        "mutate_transformation": "minecraft:taiga_mutated",
+        "generate_for_climates": [
+          [
+            "cold",
+            1
+          ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "taiga"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:taiga_hills",
+    "source_file": "behavior_pack/biomes/taiga_hills.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.25
+      ],
+      "temperature": 0.25
+    },
+    "tags": [
+      "animal",
+      "forest",
+      "hills",
+      "monster",
+      "overworld",
+      "taiga",
+      "spawns_cold_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": -0.5,
+        "target_altitude": 0.2,
+        "target_weirdness": 0.0,
+        "weight": 0.0
+      },
+      "minecraft:village_type": {
+        "type": "taiga"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:forest_hills",
+    "source_file": "behavior_pack/biomes/forest_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "animal",
+      "hills",
+      "monster",
+      "overworld",
+      "forest",
+      "bee_habitat"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.0,
+        "target_humidity": 0.5,
+        "target_altitude": 0.2,
+        "target_weirdness": 0.0,
+        "weight": 0.375
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:desert_hills",
+    "source_file": "behavior_pack/biomes/desert_hills.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "desert",
+      "hills",
+      "monster",
+      "overworld",
+      "spawns_gold_rabbits",
+      "spawns_warm_variant_farm_animals"
+    ],
+    "generation_rules": {
+      "minecraft:multinoise_generation_rules": {
+        "target_temperature": 0.4,
+        "target_humidity": -0.4,
+        "target_altitude": 0.2,
+        "target_weirdness": 0.0,
+        "weight": 0.1
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:extreme_hills_plus_trees",
+    "source_file": "behavior_pack/biomes/extreme_hills_plus_trees.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.2
+    },
+    "tags": [
+      "animal",
+      "extreme_hills",
+      "forest",
+      "monster",
+      "mountain",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:extreme_hills_plus_trees_mutated"
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:pale_garden",
+    "source_file": "behavior_pack/biomes/pale_garden.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.8,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.7
+    },
+    "tags": [
+      "monster",
+      "overworld",
+      "pale_garden",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:dappled_forest",
+    "source_file": "behavior_pack/biomes/dappled_forest.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.6,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.6
+    },
+    "tags": [
+      "animal",
+      "dappled_forest",
+      "monster",
+      "forest",
+      "overworld",
+      "spawns_cold_variant_farm_animals",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mesa_bryce",
+    "source_file": "behavior_pack/biomes/mesa_bryce.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "mesa",
+      "monster",
+      "mutated",
+      "overworld",
+      "spawns_mesa_mobs",
+      "spawns_warm_variant_farm_animals",
+      "surface_mineshaft"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:mesa_plateau",
+    "source_file": "behavior_pack/biomes/mesa_plateau.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.0,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 2.0
+    },
+    "tags": [
+      "animal",
+      "mesa",
+      "monster",
+      "overworld",
+      "plateau",
+      "rare",
+      "spawns_mesa_mobs",
+      "spawns_warm_variant_farm_animals",
+      "surface_mineshaft"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:mesa",
+        "mutate_transformation": "minecraft:mesa_plateau_mutated",
+        "generate_for_climates": [
+          [
+            "warm",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:stone_beach",
+    "source_file": "behavior_pack/biomes/stone_beach.biome.json",
+    "format_version": "1.21.110",
+    "climate": {
+      "downfall": 0.3,
+      "snow_accumulation": [
+        0.0,
+        0.25
+      ],
+      "temperature": 0.2
+    },
+    "tags": [
+      "beach",
+      "monster",
+      "overworld",
+      "stone"
+    ],
+    "generation_rules": {},
+    "historical_or_legacy_name_flag": true,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:birch_forest",
+    "source_file": "behavior_pack/biomes/birch_forest.biome.json",
+    "format_version": "1.26.50",
+    "climate": {
+      "downfall": 0.6,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.6
+    },
+    "tags": [
+      "animal",
+      "birch",
+      "forest",
+      "monster",
+      "overworld",
+      "bee_habitat",
+      "has_structure_abandoned_camp"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:birch_forest_hills",
+        "mutate_transformation": "minecraft:birch_forest_mutated",
+        "generate_for_climates": [
+          [
+            "medium",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  },
+  {
+    "id": "minecraft:warm_ocean",
+    "source_file": "behavior_pack/biomes/warm_ocean.biome.json",
+    "format_version": "1.26.0",
+    "climate": {
+      "downfall": 0.5,
+      "snow_accumulation": [
+        0.0,
+        0.125
+      ],
+      "temperature": 0.5
+    },
+    "tags": [
+      "monster",
+      "ocean",
+      "overworld",
+      "warm",
+      "spawns_warm_variant_farm_animals",
+      "spawns_warm_variant_frogs",
+      "fast_fishing",
+      "high_seas",
+      "temperate_ocean"
+    ],
+    "generation_rules": {
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [
+            "warm",
+            1
+          ]
+        ]
+      }
+    },
+    "historical_or_legacy_name_flag": false,
+    "verification": "official_bedrock_sample_definition_not_proof_current_world_generation"
+  }
+]

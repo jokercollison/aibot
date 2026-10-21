@@ -1,0 +1,1 @@
+Version 42: deterministic offline question intent parsing and subject resolution; recipe answering and evidence-bound mob-topic answers; abstention for missing knowledge; 11 automated checks passed. All prior files retained.

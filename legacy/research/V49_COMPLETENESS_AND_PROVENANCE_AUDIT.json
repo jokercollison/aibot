@@ -1,0 +1,22 @@
+{
+  "version": 49,
+  "focus": "Verified evidence graph and automatic content audit",
+  "entities_with_extracted_profiles": 105,
+  "entities_in_qa": 123,
+  "recipe_outputs": 918,
+  "recipe_variants": 1659,
+  "ingredient_keys": 241,
+  "method_counts": {
+    "shaped": 1056,
+    "shapeless": 591,
+    "smithing_transform": 12
+  },
+  "mob_qa_records": 191,
+  "mob_qa_without_source_field": 191,
+  "caveats": [
+    "Component evidence is not a guarantee of a gameplay behavior.",
+    "Only 105 entity profiles were present in the unified V44 index; this pass does not claim all vanilla mobs are covered.",
+    "Recipe data is limited to the user-supplied vanilla sample recipes.",
+    "Some shaped crafting ingredients may be encoded through pattern/key fields; original fields are preserved."
+  ]
+}

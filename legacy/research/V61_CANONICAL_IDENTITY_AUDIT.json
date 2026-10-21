@@ -1,0 +1,21 @@
+{
+  "version": 61,
+  "original_records": 5201,
+  "canonical_records": 4783,
+  "deduplicated": 418,
+  "duplicate_groups": 418,
+  "merged_profiles_in_duplicate_groups": 418,
+  "by_kind": {
+    "biome": 89,
+    "block": 1463,
+    "enchantment": 42,
+    "entity": 129,
+    "item": 1630,
+    "brewing": 72,
+    "recipe": 918,
+    "loot_item": 440
+  },
+  "unresolved_recipe_links": 0,
+  "unresolved_recipe_examples": [],
+  "scope": "Identity deduplication only; gameplay accuracy and completeness remain unverified"
+}

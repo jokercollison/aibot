@@ -1,0 +1,1 @@
+Version 12: Added Minecraft Wiki source map (9 references), 9 original draft Bedrock survival Q&A entries, access/licensing notes and explicit coverage gaps. Retained all version 11 files. No claim of complete wiki scrape.

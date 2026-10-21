@@ -1,0 +1,4476 @@
+{
+  "minecraft:diorite": [
+    {
+      "output": "andesite",
+      "recipe_id": "minecraft:andesite"
+    },
+    {
+      "output": "diorite_slab",
+      "recipe_id": "minecraft:stonecutter_diorite_slab"
+    },
+    {
+      "output": "diorite_stairs",
+      "recipe_id": "minecraft:stonecutter_diorite_stairs"
+    },
+    {
+      "output": "diorite_wall",
+      "recipe_id": "minecraft:stonecutter_diorite_wall"
+    },
+    {
+      "output": "granite",
+      "recipe_id": "minecraft:granite"
+    },
+    {
+      "output": "polished_diorite",
+      "recipe_id": "minecraft:stonecutter_polished_diorite"
+    },
+    {
+      "output": "polished_diorite_slab",
+      "recipe_id": "minecraft:stonecutter_polished_diorite_slab"
+    },
+    {
+      "output": "polished_diorite_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_diorite_stairs"
+    }
+  ],
+  "minecraft:cobblestone": [
+    {
+      "output": "andesite",
+      "recipe_id": "minecraft:andesite"
+    },
+    {
+      "output": "chiseled_stone_bricks",
+      "recipe_id": "minecraft:stonecutter_chiseled_stone_bricks_from_cobblestone"
+    },
+    {
+      "output": "cobblestone_slab",
+      "recipe_id": "minecraft:stonecutter_cobbledouble_stone_slab"
+    },
+    {
+      "output": "cobblestone_wall",
+      "recipe_id": "minecraft:stonecutter_cobblestone_wall"
+    },
+    {
+      "output": "mossy_cobblestone",
+      "recipe_id": "minecraft:mossy_cobblestone"
+    },
+    {
+      "output": "mossy_cobblestone",
+      "recipe_id": "minecraft:mossy_cobblestone_from_moss"
+    },
+    {
+      "output": "stone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_stone_brick_slab_from_cobblestone"
+    },
+    {
+      "output": "stone_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_stone_brick_stairs_from_cobblestone"
+    },
+    {
+      "output": "stone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_stone_brick_wall_from_cobblestone"
+    },
+    {
+      "output": "stone_bricks",
+      "recipe_id": "minecraft:stonecutter_stone_bricks_from_cobblestone"
+    },
+    {
+      "output": "stone_stairs",
+      "recipe_id": "minecraft:stonecutter_cobblestone_stairs"
+    }
+  ],
+  "minecraft:andesite": [
+    {
+      "output": "andesite_slab",
+      "recipe_id": "minecraft:stonecutter_andesite_slab"
+    },
+    {
+      "output": "andesite_stairs",
+      "recipe_id": "minecraft:stonecutter_andesite_stairs"
+    },
+    {
+      "output": "andesite_wall",
+      "recipe_id": "minecraft:stonecutter_andesite_wall"
+    },
+    {
+      "output": "polished_andesite",
+      "recipe_id": "minecraft:stonecutter_polished_andesite"
+    },
+    {
+      "output": "polished_andesite_slab",
+      "recipe_id": "minecraft:stonecutter_polished_andesite_slab"
+    },
+    {
+      "output": "polished_andesite_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_andesite_stairs"
+    }
+  ],
+  "minecraft:paper": [
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_thing"
+    },
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_vines"
+    },
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_bricks"
+    },
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_flower"
+    },
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_creeper"
+    },
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_skull"
+    },
+    {
+      "output": "book",
+      "recipe_id": "minecraft:book"
+    },
+    {
+      "output": "book",
+      "recipe_id": "minecraft:book"
+    },
+    {
+      "output": "book",
+      "recipe_id": "minecraft:book"
+    },
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:cartography_table_locator_map"
+    },
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:cartography_table_map"
+    }
+  ],
+  "minecraft:appleenchanted": [
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_thing"
+    }
+  ],
+  "minecraft:vine": [
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_vines"
+    },
+    {
+      "output": "mossy_cobblestone",
+      "recipe_id": "minecraft:mossy_cobblestone"
+    },
+    {
+      "output": "mossy_stone_bricks",
+      "recipe_id": "minecraft:mossy_stonebrick"
+    }
+  ],
+  "minecraft:brick_block": [
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_bricks"
+    },
+    {
+      "output": "brick_slab",
+      "recipe_id": "minecraft:stonecutter_brick_slab"
+    },
+    {
+      "output": "brick_stairs",
+      "recipe_id": "minecraft:stonecutter_brick_stairs"
+    },
+    {
+      "output": "brick_wall",
+      "recipe_id": "minecraft:stonecutter_brick_wall"
+    }
+  ],
+  "minecraft:oxeye_daisy": [
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_flower"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_oxeye_daisy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_oxeye_daisy"
+    }
+  ],
+  "minecraft:skull": [
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_creeper"
+    },
+    {
+      "output": "banner_pattern",
+      "recipe_id": "minecraft:banner_pattern_skull"
+    }
+  ],
+  "minecraft:bowl": [
+    {
+      "output": "beetroot_soup",
+      "recipe_id": "minecraft:beetroot_soup"
+    },
+    {
+      "output": "mushroom_stew",
+      "recipe_id": "minecraft:mushroom_stew"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_shelf_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_lily_of_the_valley"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_pink"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_poppy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_orange"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_white"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_open_eyeblossom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_torchflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_allium"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_blue_orchid"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_azure_bluet"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_red"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_oxeye_daisy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_golden_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_cornflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_wither_rose"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_closed_eyeblossom"
+    }
+  ],
+  "minecraft:beetroot": [
+    {
+      "output": "beetroot_soup",
+      "recipe_id": "minecraft:beetroot_soup"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:red_dye_from_beetroot"
+    }
+  ],
+  "minecraft:candle": [
+    {
+      "output": "black_candle",
+      "recipe_id": "minecraft:black_candle"
+    },
+    {
+      "output": "black_candle",
+      "recipe_id": "minecraft:black_candle_from_ink_sac"
+    },
+    {
+      "output": "blue_candle",
+      "recipe_id": "minecraft:blue_candle_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_candle",
+      "recipe_id": "minecraft:blue_candle"
+    },
+    {
+      "output": "brown_candle",
+      "recipe_id": "minecraft:brown_candle_from_cocoa_beans"
+    },
+    {
+      "output": "brown_candle",
+      "recipe_id": "minecraft:brown_candle"
+    },
+    {
+      "output": "cyan_candle",
+      "recipe_id": "minecraft:cyan_candle"
+    },
+    {
+      "output": "gray_candle",
+      "recipe_id": "minecraft:gray_candle"
+    },
+    {
+      "output": "green_candle",
+      "recipe_id": "minecraft:green_candle"
+    },
+    {
+      "output": "light_blue_candle",
+      "recipe_id": "minecraft:light_blue_candle"
+    },
+    {
+      "output": "light_gray_candle",
+      "recipe_id": "minecraft:light_gray_candle"
+    },
+    {
+      "output": "lime_candle",
+      "recipe_id": "minecraft:lime_candle"
+    },
+    {
+      "output": "magenta_candle",
+      "recipe_id": "minecraft:magenta_candle"
+    },
+    {
+      "output": "orange_candle",
+      "recipe_id": "minecraft:orange_candle"
+    },
+    {
+      "output": "pink_candle",
+      "recipe_id": "minecraft:pink_candle"
+    },
+    {
+      "output": "purple_candle",
+      "recipe_id": "minecraft:purple_candle"
+    },
+    {
+      "output": "red_candle",
+      "recipe_id": "minecraft:red_candle"
+    },
+    {
+      "output": "white_candle",
+      "recipe_id": "minecraft:white_candle_from_bonemeal"
+    },
+    {
+      "output": "white_candle",
+      "recipe_id": "minecraft:white_candle"
+    },
+    {
+      "output": "white_candle",
+      "recipe_id": "minecraft:white_candle_from_bonemeal"
+    },
+    {
+      "output": "yellow_candle",
+      "recipe_id": "minecraft:yellow_candle"
+    }
+  ],
+  "minecraft:dye": [
+    {
+      "output": "black_candle",
+      "recipe_id": "minecraft:black_candle"
+    },
+    {
+      "output": "black_candle",
+      "recipe_id": "minecraft:black_candle_from_ink_sac"
+    },
+    {
+      "output": "blue_candle",
+      "recipe_id": "minecraft:blue_candle_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_candle",
+      "recipe_id": "minecraft:blue_candle"
+    },
+    {
+      "output": "brown_candle",
+      "recipe_id": "minecraft:brown_candle_from_cocoa_beans"
+    },
+    {
+      "output": "brown_candle",
+      "recipe_id": "minecraft:brown_candle"
+    },
+    {
+      "output": "cyan_candle",
+      "recipe_id": "minecraft:cyan_candle"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye_from_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye_from_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:pink_dye_from_red_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:pink_dye_from_red_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:purple_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:purple_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_red_pink"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_red_pink"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_red_pink"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:pink_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:pink_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_purple_and_pink"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_purple_and_pink"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:purple_dye_from_lapis_lazuli"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:purple_dye_from_lapis_lazuli"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_lapis_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_lapis_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_gray_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_gray_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:cyan_dye_from_lapis_lazuli"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:cyan_dye_from_lapis_lazuli"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:brown_dye_from_cocoa_beans"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:lime_dye_from_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:lime_dye_from_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:white_dye_from_bone_meal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:lime_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:lime_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_lapis_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_lapis_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye_from_black_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye_from_black_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye_from_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:gray_dye_from_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_black_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_black_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_black_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_blue_ink_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_gray_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_gray_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:orange_dye_from_red_yellow"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:orange_dye_from_red_yellow"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:black_dye_from_ink_sac"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_blue_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_blue_bonemeal"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:cyan_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:cyan_dye"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:blue_dye_from_lapis_lazuli"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_white"
+    },
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_lapis_ink_white"
+    },
+    {
+      "output": "gray_candle",
+      "recipe_id": "minecraft:gray_candle"
+    },
+    {
+      "output": "green_candle",
+      "recipe_id": "minecraft:green_candle"
+    },
+    {
+      "output": "light_blue_candle",
+      "recipe_id": "minecraft:light_blue_candle"
+    },
+    {
+      "output": "light_gray_candle",
+      "recipe_id": "minecraft:light_gray_candle"
+    },
+    {
+      "output": "lime_candle",
+      "recipe_id": "minecraft:lime_candle"
+    },
+    {
+      "output": "magenta_candle",
+      "recipe_id": "minecraft:magenta_candle"
+    },
+    {
+      "output": "orange_candle",
+      "recipe_id": "minecraft:orange_candle"
+    },
+    {
+      "output": "pink_candle",
+      "recipe_id": "minecraft:pink_candle"
+    },
+    {
+      "output": "purple_candle",
+      "recipe_id": "minecraft:purple_candle"
+    },
+    {
+      "output": "red_candle",
+      "recipe_id": "minecraft:red_candle"
+    },
+    {
+      "output": "white_candle",
+      "recipe_id": "minecraft:white_candle_from_bonemeal"
+    },
+    {
+      "output": "white_candle",
+      "recipe_id": "minecraft:white_candle"
+    },
+    {
+      "output": "white_candle",
+      "recipe_id": "minecraft:white_candle_from_bonemeal"
+    },
+    {
+      "output": "writable_book",
+      "recipe_id": "minecraft:writable_book"
+    },
+    {
+      "output": "yellow_candle",
+      "recipe_id": "minecraft:yellow_candle"
+    }
+  ],
+  "minecraft:ink_sac": [
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    }
+  ],
+  "minecraft:sand": [
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    }
+  ],
+  "minecraft:gravel": [
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder_from_ink_sac"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    }
+  ],
+  "minecraft:black_dye": [
+    {
+      "output": "black_concrete_powder",
+      "recipe_id": "minecraft:black_concrete_powder"
+    }
+  ],
+  "minecraft:black_concrete": [
+    {
+      "output": "black_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_black_concrete_slab_from_black_concrete"
+    },
+    {
+      "output": "black_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_black_concrete_stairs_from_black_concrete"
+    }
+  ],
+  "minecraft:blackstone": [
+    {
+      "output": "blackstone_slab",
+      "recipe_id": "minecraft:stonecutter_blackstone_slab_from_blackstone"
+    },
+    {
+      "output": "blackstone_stairs",
+      "recipe_id": "minecraft:stonecutter_blackstone_stairs_from_blackstone"
+    },
+    {
+      "output": "blackstone_wall",
+      "recipe_id": "minecraft:stonecutter_blackstone_wall_from_blackstone"
+    },
+    {
+      "output": "chiseled_polished_blackstone",
+      "recipe_id": "minecraft:stonecutter_chiseled_polished_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone",
+      "recipe_id": "minecraft:stonecutter_polished_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_polished_brick_slab_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_brick_stairs_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_polished_brick_wall_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_bricks",
+      "recipe_id": "minecraft:stonecutter_polished_bricks_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_slab",
+      "recipe_id": "minecraft:stonecutter_polished_slab_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_stairs_from_blackstone"
+    },
+    {
+      "output": "polished_blackstone_wall",
+      "recipe_id": "minecraft:stonecutter_polished_wall_from_blackstone"
+    }
+  ],
+  "minecraft:blaze_rod": [
+    {
+      "output": "blaze_powder",
+      "recipe_id": "minecraft:blaze_powder"
+    }
+  ],
+  "minecraft:blue_dye": [
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder"
+    }
+  ],
+  "minecraft:lapis_lazuli": [
+    {
+      "output": "blue_concrete_powder",
+      "recipe_id": "minecraft:blue_concrete_powder_from_lapis_lazuli"
+    }
+  ],
+  "minecraft:blue_concrete": [
+    {
+      "output": "blue_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_blue_concrete_slab_from_blue_concrete"
+    },
+    {
+      "output": "blue_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_blue_concrete_stairs_from_blue_concrete"
+    }
+  ],
+  "minecraft:leather": [
+    {
+      "output": "book",
+      "recipe_id": "minecraft:book"
+    }
+  ],
+  "minecraft:cocoa_beans": [
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder_from_cocoa_beans"
+    }
+  ],
+  "minecraft:brown_dye": [
+    {
+      "output": "brown_concrete_powder",
+      "recipe_id": "minecraft:brown_concrete_powder"
+    }
+  ],
+  "minecraft:brown_concrete": [
+    {
+      "output": "brown_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_brown_concrete_slab_from_brown_concrete"
+    },
+    {
+      "output": "brown_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_brown_concrete_stairs_from_brown_concrete"
+    }
+  ],
+  "minecraft:chest": [
+    {
+      "output": "cherry_chest_boat",
+      "recipe_id": "minecraft:cherry_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:birch_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:jungle_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:mangrove_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:bamboo_chest_raft"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:acacia_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:spruce_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:chest_boat"
+    },
+    {
+      "output": "chest_minecart",
+      "recipe_id": "minecraft:chest_minecart"
+    },
+    {
+      "output": "pale_oak_chest_boat",
+      "recipe_id": "minecraft:pale_oak_chest_boat"
+    },
+    {
+      "output": "poplar_chest_boat",
+      "recipe_id": "minecraft:poplar_chest_boat"
+    },
+    {
+      "output": "trapped_chest",
+      "recipe_id": "minecraft:trapped_chest"
+    }
+  ],
+  "minecraft:cherry_boat": [
+    {
+      "output": "cherry_chest_boat",
+      "recipe_id": "minecraft:cherry_chest_boat"
+    }
+  ],
+  "minecraft:boat": [
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:birch_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:jungle_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:mangrove_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:bamboo_chest_raft"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:acacia_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:spruce_chest_boat"
+    },
+    {
+      "output": "chest_boat",
+      "recipe_id": "minecraft:chest_boat"
+    }
+  ],
+  "minecraft:minecart": [
+    {
+      "output": "chest_minecart",
+      "recipe_id": "minecraft:chest_minecart"
+    },
+    {
+      "output": "hopper_minecart",
+      "recipe_id": "minecraft:hopper_minecart"
+    },
+    {
+      "output": "tnt_minecart",
+      "recipe_id": "minecraft:tnt_minecart"
+    }
+  ],
+  "minecraft:cinnabar": [
+    {
+      "output": "chiseled_cinnabar",
+      "recipe_id": "minecraft:stonecutter_chiseled_cinnabar_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_brick_slab",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_slab_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_stairs_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_brick_wall",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_wall_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_bricks",
+      "recipe_id": "minecraft:stonecutter_cinnabar_bricks_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_slab",
+      "recipe_id": "minecraft:stonecutter_cinnabar_slab_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_stairs",
+      "recipe_id": "minecraft:stonecutter_cinnabar_stairs_from_cinnabar"
+    },
+    {
+      "output": "cinnabar_wall",
+      "recipe_id": "minecraft:stonecutter_cinnabar_wall_from_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_from_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar_slab",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_slab_from_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_stairs_from_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar_wall",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_wall_from_cinnabar"
+    }
+  ],
+  "minecraft:cut_copper": [
+    {
+      "output": "chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_cut_copper_to_chiseled_copper"
+    },
+    {
+      "output": "cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_cut_copper_to_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_cut_copper",
+      "recipe_id": "minecraft:waxing_cut_copper"
+    }
+  ],
+  "minecraft:copper_block": [
+    {
+      "output": "chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_copper_block_to_chiseled_copper"
+    },
+    {
+      "output": "copper_grate",
+      "recipe_id": "minecraft:stonecutter_copper_block_to_copper_grate"
+    },
+    {
+      "output": "cut_copper",
+      "recipe_id": "minecraft:stonecutter_copper_block_to_cut_copper"
+    },
+    {
+      "output": "cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_copper_block_to_cut_copper_slab"
+    },
+    {
+      "output": "cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_copper_block_to_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_copper",
+      "recipe_id": "minecraft:waxing_copper_block"
+    }
+  ],
+  "minecraft:deepslate": [
+    {
+      "output": "chiseled_deepslate",
+      "recipe_id": "minecraft:stonecutting_chiseled_deepslate_from_deepslate"
+    },
+    {
+      "output": "cobbled_deepslate",
+      "recipe_id": "minecraft:stonecutting_cobbled_deepslateblock_from_deepslate"
+    },
+    {
+      "output": "cobbled_deepslate_slab",
+      "recipe_id": "minecraft:stonecutting_cobbled_deepslate_slab_from_deepslate"
+    },
+    {
+      "output": "cobbled_deepslate_stairs",
+      "recipe_id": "minecraft:stonecutting_cobbled_deepslate_stairs_from_deepslate"
+    },
+    {
+      "output": "cobbled_deepslate_wall",
+      "recipe_id": "minecraft:stonecutting_cobbled_deepslate_wall_from_deepslate"
+    },
+    {
+      "output": "deepslate_brick_slab",
+      "recipe_id": "minecraft:stonecutting_deepslate_brick_slab_from_deepslate"
+    },
+    {
+      "output": "deepslate_brick_stairs",
+      "recipe_id": "minecraft:stonecutting_deepslate_brick_stairs_from_deepslate"
+    },
+    {
+      "output": "deepslate_brick_wall",
+      "recipe_id": "minecraft:stonecutting_deepslate_brick_wall_from_deepslate"
+    },
+    {
+      "output": "deepslate_bricks",
+      "recipe_id": "minecraft:stonecutting_deepslate_bricks_from_deepslate"
+    },
+    {
+      "output": "deepslate_tile_slab",
+      "recipe_id": "minecraft:stonecutting_deepslate_tile_slab_from_deepslate"
+    },
+    {
+      "output": "deepslate_tile_stairs",
+      "recipe_id": "minecraft:stonecutting_deepslate_tile_stairs_from_deepslate"
+    },
+    {
+      "output": "deepslate_tile_wall",
+      "recipe_id": "minecraft:stonecutting_deepslate_tile_wall_from_deepslate"
+    },
+    {
+      "output": "deepslate_tiles",
+      "recipe_id": "minecraft:stonecutting_deepslate_tiles_from_deepslate"
+    },
+    {
+      "output": "polished_deepslate",
+      "recipe_id": "minecraft:stonecutting_polished_deepslateblock_from_deepslate"
+    },
+    {
+      "output": "polished_deepslate_slab",
+      "recipe_id": "minecraft:stonecutting_polished_deepslate_slab_from_deepslate"
+    },
+    {
+      "output": "polished_deepslate_stairs",
+      "recipe_id": "minecraft:stonecutting_polished_deepslate_stairs_from_deepslate"
+    },
+    {
+      "output": "polished_deepslate_wall",
+      "recipe_id": "minecraft:stonecutting_polished_deepslate_wall_from_deepslate"
+    }
+  ],
+  "minecraft:cobbled_deepslate": [
+    {
+      "output": "chiseled_deepslate",
+      "recipe_id": "minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "cobbled_deepslate_slab",
+      "recipe_id": "minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "cobbled_deepslate_stairs",
+      "recipe_id": "minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "cobbled_deepslate_wall",
+      "recipe_id": "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_brick_slab",
+      "recipe_id": "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_brick_stairs",
+      "recipe_id": "minecraft:deepslate_brick_stairs_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_brick_wall",
+      "recipe_id": "minecraft:deepslate_brick_wall_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_bricks",
+      "recipe_id": "minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_slab",
+      "recipe_id": "minecraft:deepslate_tile_slab_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_stairs",
+      "recipe_id": "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_wall",
+      "recipe_id": "minecraft:deepslate_tile_wall_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tiles",
+      "recipe_id": "minecraft:deepslate_tiles_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "polished_deepslate",
+      "recipe_id": "minecraft:polished_deepslate_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "polished_deepslate_slab",
+      "recipe_id": "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecut"
+    },
+    {
+      "output": "polished_deepslate_stairs",
+      "recipe_id": "minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "output": "polished_deepslate_wall",
+      "recipe_id": "minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecut"
+    }
+  ],
+  "minecraft:nether_brick": [
+    {
+      "output": "chiseled_nether_bricks",
+      "recipe_id": "minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick"
+    },
+    {
+      "output": "nether_brick_slab",
+      "recipe_id": "minecraft:stonecutter_nether_brick_slab"
+    },
+    {
+      "output": "nether_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_nether_brick_stairs"
+    },
+    {
+      "output": "nether_brick_wall",
+      "recipe_id": "minecraft:stonecutter_nether_brick_wall"
+    }
+  ],
+  "minecraft:polished_blackstone": [
+    {
+      "output": "chiseled_polished_blackstone",
+      "recipe_id": "minecraft:stonecutter_chiseled_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_brick_slab_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_brick_stairs_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_brick_wall_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_bricks",
+      "recipe_id": "minecraft:stonecutter_bricks_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_slab",
+      "recipe_id": "minecraft:stonecutter_slab_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_stairs",
+      "recipe_id": "minecraft:stonecutter_stairs_from_polished_blackstone"
+    },
+    {
+      "output": "polished_blackstone_wall",
+      "recipe_id": "minecraft:stonecutter_wall_from_polished_blackstone"
+    }
+  ],
+  "minecraft:quartz_block": [
+    {
+      "output": "chiseled_quartz_block",
+      "recipe_id": "minecraft:stonecutter_quartz_chiseled"
+    },
+    {
+      "output": "quartz_block",
+      "recipe_id": "minecraft:stonecutter_quartz_lines"
+    },
+    {
+      "output": "quartz_pillar",
+      "recipe_id": "minecraft:stonecutter_quartz_lines"
+    },
+    {
+      "output": "quartz_slab",
+      "recipe_id": "minecraft:stonecutter_quartz_slab"
+    },
+    {
+      "output": "quartz_stairs",
+      "recipe_id": "minecraft:stonecutter_quartz_stairs"
+    }
+  ],
+  "minecraft:red_sandstone": [
+    {
+      "output": "chiseled_red_sandstone",
+      "recipe_id": "minecraft:stonecutter_red_sandstone_heiroglyphs"
+    },
+    {
+      "output": "cut_red_sandstone",
+      "recipe_id": "minecraft:stonecutter_red_sandstone_cut"
+    },
+    {
+      "output": "red_sandstone_slab",
+      "recipe_id": "minecraft:stonecutter_red_sanddouble_stone_slab"
+    },
+    {
+      "output": "red_sandstone_stairs",
+      "recipe_id": "minecraft:stonecutter_red_sandstone_stairs"
+    },
+    {
+      "output": "red_sandstone_wall",
+      "recipe_id": "minecraft:stonecutter_red_sandstone_wall"
+    }
+  ],
+  "minecraft:resin_bricks": [
+    {
+      "output": "chiseled_resin_bricks",
+      "recipe_id": "minecraft:stonecutter_resin_brick_chiseled"
+    },
+    {
+      "output": "resin_brick_slab",
+      "recipe_id": "minecraft:stonecutter_resin_brick_slab"
+    },
+    {
+      "output": "resin_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_resin_brick_stairs"
+    },
+    {
+      "output": "resin_brick_wall",
+      "recipe_id": "minecraft:stonecutter_resin_brick_wall"
+    }
+  ],
+  "minecraft:sandstone": [
+    {
+      "output": "chiseled_sandstone",
+      "recipe_id": "minecraft:stonecutter_sandstone_heiroglyphs"
+    },
+    {
+      "output": "cut_sandstone",
+      "recipe_id": "minecraft:stonecutter_sandstone_cut"
+    },
+    {
+      "output": "sandstone_slab",
+      "recipe_id": "minecraft:stonecutter_sanddouble_stone_slab"
+    },
+    {
+      "output": "sandstone_stairs",
+      "recipe_id": "minecraft:stonecutter_sandstone_stairs"
+    },
+    {
+      "output": "sandstone_wall",
+      "recipe_id": "minecraft:stonecutter_sandstone_wall"
+    },
+    {
+      "output": "smooth_sandstone_stairs",
+      "recipe_id": "minecraft:stonecutter_smooth_sandstone_stairs"
+    }
+  ],
+  "minecraft:stone_bricks": [
+    {
+      "output": "chiseled_stone_bricks",
+      "recipe_id": "minecraft:stonecutter_stonebrick_chiseled2"
+    },
+    {
+      "output": "mossy_stone_bricks",
+      "recipe_id": "minecraft:mossy_stonebrick_from_moss"
+    },
+    {
+      "output": "mossy_stone_bricks",
+      "recipe_id": "minecraft:mossy_stonebrick"
+    },
+    {
+      "output": "stone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_stonebrick_slab2"
+    },
+    {
+      "output": "stone_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_stonebrick_stairs2"
+    },
+    {
+      "output": "stone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_stonebrick_wall2"
+    }
+  ],
+  "minecraft:stone": [
+    {
+      "output": "chiseled_stone_bricks",
+      "recipe_id": "minecraft:stonecutter_stonebrick_chiseled"
+    },
+    {
+      "output": "cobblestone",
+      "recipe_id": "minecraft:stonecutter_cobblestone_from_stone"
+    },
+    {
+      "output": "cobblestone_slab",
+      "recipe_id": "minecraft:stonecutter_cobblestone_slab_from_stone"
+    },
+    {
+      "output": "cobblestone_wall",
+      "recipe_id": "minecraft:stonecutter_cobblestone_wall_from_stone"
+    },
+    {
+      "output": "normal_stone_slab",
+      "recipe_id": "minecraft:stonecutter_double_stone_slab"
+    },
+    {
+      "output": "normal_stone_stairs",
+      "recipe_id": "minecraft:stonecutter_stone_stairs"
+    },
+    {
+      "output": "stone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_stonebrick_slab"
+    },
+    {
+      "output": "stone_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_stonebrick_stairs"
+    },
+    {
+      "output": "stone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_stonebrick_wall"
+    },
+    {
+      "output": "stone_bricks",
+      "recipe_id": "minecraft:stonecutter_stonebrick"
+    },
+    {
+      "output": "stone_stairs",
+      "recipe_id": "minecraft:stonecutter_cobblestone_stairs_from_stone"
+    }
+  ],
+  "minecraft:sulfur": [
+    {
+      "output": "chiseled_sulfur",
+      "recipe_id": "minecraft:stonecutter_chiseled_sulfur_from_sulfur"
+    },
+    {
+      "output": "polished_sulfur",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_from_sulfur"
+    },
+    {
+      "output": "polished_sulfur_slab",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_slab_from_sulfur"
+    },
+    {
+      "output": "polished_sulfur_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_stairs_from_sulfur"
+    },
+    {
+      "output": "polished_sulfur_wall",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_wall_from_sulfur"
+    },
+    {
+      "output": "sulfur_brick_slab",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_slab_from_sulfur"
+    },
+    {
+      "output": "sulfur_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_stairs_from_sulfur"
+    },
+    {
+      "output": "sulfur_brick_wall",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_wall_from_sulfur"
+    },
+    {
+      "output": "sulfur_bricks",
+      "recipe_id": "minecraft:stonecutter_sulfur_bricks_from_sulfur"
+    },
+    {
+      "output": "sulfur_slab",
+      "recipe_id": "minecraft:stonecutter_sulfur_slab_from_sulfur"
+    },
+    {
+      "output": "sulfur_stairs",
+      "recipe_id": "minecraft:stonecutter_sulfur_stairs_from_sulfur"
+    },
+    {
+      "output": "sulfur_wall",
+      "recipe_id": "minecraft:stonecutter_sulfur_wall_from_sulfur"
+    }
+  ],
+  "minecraft:tuff": [
+    {
+      "output": "chiseled_tuff",
+      "recipe_id": "minecraft:stonecutter_tuff_to_chiseled_tuff"
+    },
+    {
+      "output": "chiseled_tuff_bricks",
+      "recipe_id": "minecraft:stonecutter_tuff_to_chiseled_tuff_bricks"
+    },
+    {
+      "output": "polished_tuff",
+      "recipe_id": "minecraft:stonecutter_tuff_to_polished_tuff"
+    },
+    {
+      "output": "polished_tuff_slab",
+      "recipe_id": "minecraft:stonecutter_tuff_to_polished_tuff_slab"
+    },
+    {
+      "output": "polished_tuff_stairs",
+      "recipe_id": "minecraft:stonecutter_tuff_to_polished_tuff_stairs"
+    },
+    {
+      "output": "polished_tuff_wall",
+      "recipe_id": "minecraft:stonecutter_tuff_to_polished_tuff_wall"
+    },
+    {
+      "output": "tuff_brick_slab",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_brick_slab"
+    },
+    {
+      "output": "tuff_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_brick_stairs"
+    },
+    {
+      "output": "tuff_brick_wall",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_brick_wall"
+    },
+    {
+      "output": "tuff_bricks",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_bricks"
+    },
+    {
+      "output": "tuff_slab",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_slab"
+    },
+    {
+      "output": "tuff_stairs",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_stairs"
+    },
+    {
+      "output": "tuff_wall",
+      "recipe_id": "minecraft:stonecutter_tuff_to_tuff_wall"
+    }
+  ],
+  "minecraft:tuff_bricks": [
+    {
+      "output": "chiseled_tuff_bricks",
+      "recipe_id": "minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks"
+    },
+    {
+      "output": "tuff_brick_slab",
+      "recipe_id": "minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab"
+    },
+    {
+      "output": "tuff_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs"
+    },
+    {
+      "output": "tuff_brick_wall",
+      "recipe_id": "minecraft:stonecutter_tuff_bricks_to_tuff_brick_wall"
+    }
+  ],
+  "minecraft:polished_tuff": [
+    {
+      "output": "chiseled_tuff_bricks",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_chiseled_tuff_bricks"
+    },
+    {
+      "output": "polished_tuff_slab",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_polished_tuff_slab"
+    },
+    {
+      "output": "polished_tuff_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_polished_tuff_stairs"
+    },
+    {
+      "output": "polished_tuff_wall",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_polished_tuff_wall"
+    },
+    {
+      "output": "tuff_brick_slab",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_tuff_brick_slab"
+    },
+    {
+      "output": "tuff_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_tuff_brick_stairs"
+    },
+    {
+      "output": "tuff_brick_wall",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_tuff_brick_wall"
+    },
+    {
+      "output": "tuff_bricks",
+      "recipe_id": "minecraft:stonecutter_polished_tuff_to_tuff_bricks"
+    }
+  ],
+  "minecraft:cinnabar_bricks": [
+    {
+      "output": "cinnabar_brick_slab",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_slab_from_cinnabar_bricks"
+    },
+    {
+      "output": "cinnabar_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_stairs_from_cinnabar_bricks"
+    },
+    {
+      "output": "cinnabar_brick_wall",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_wall_from_cinnabar_bricks"
+    }
+  ],
+  "minecraft:polished_cinnabar": [
+    {
+      "output": "cinnabar_brick_slab",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_slab_from_polished_cinnabar"
+    },
+    {
+      "output": "cinnabar_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_stairs_from_polished_cinnabar"
+    },
+    {
+      "output": "cinnabar_brick_wall",
+      "recipe_id": "minecraft:stonecutter_cinnabar_brick_wall_from_polished_cinnabar"
+    },
+    {
+      "output": "cinnabar_bricks",
+      "recipe_id": "minecraft:stonecutter_cinnabar_bricks_from_polished_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar_slab",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_slab_from_polished_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_stairs_from_polished_cinnabar"
+    },
+    {
+      "output": "polished_cinnabar_wall",
+      "recipe_id": "minecraft:stonecutter_polished_cinnabar_wall_from_polished_cinnabar"
+    }
+  ],
+  "minecraft:cut_red_sandstone": [
+    {
+      "output": "cut_red_sandstone_slab",
+      "recipe_id": "minecraft:stonecutter_cut_red_sandstone_slab"
+    }
+  ],
+  "minecraft:cut_sandstone": [
+    {
+      "output": "cut_sandstone_slab",
+      "recipe_id": "minecraft:stonecutter_cut_sandstone_slab"
+    }
+  ],
+  "minecraft:cyan_dye": [
+    {
+      "output": "cyan_concrete_powder",
+      "recipe_id": "minecraft:cyan_concrete_powder"
+    }
+  ],
+  "minecraft:cyan_concrete": [
+    {
+      "output": "cyan_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_cyan_concrete_slab_from_cyan_concrete"
+    },
+    {
+      "output": "cyan_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_cyan_concrete_stairs_from_cyan_concrete"
+    }
+  ],
+  "minecraft:pitcher_plant": [
+    {
+      "output": "cyan_dye",
+      "recipe_id": "minecraft:cyan_dye_from_pitcher_plant"
+    }
+  ],
+  "minecraft:dark_prismarine": [
+    {
+      "output": "dark_prismarine_slab",
+      "recipe_id": "minecraft:stonecutter_dark_prismarine_slab"
+    },
+    {
+      "output": "dark_prismarine_stairs",
+      "recipe_id": "minecraft:stonecutter_dark_prismarine_stairs"
+    }
+  ],
+  "minecraft:polished_deepslate": [
+    {
+      "output": "deepslate_brick_slab",
+      "recipe_id": "minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_brick_stairs",
+      "recipe_id": "minecraft:deepslate_brick_stairs_from_polished_deepslate_stonecut"
+    },
+    {
+      "output": "deepslate_brick_wall",
+      "recipe_id": "minecraft:deepslate_brick_wall_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_bricks",
+      "recipe_id": "minecraft:deepslate_bricks_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_slab",
+      "recipe_id": "minecraft:deepslate_tile_slab_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_stairs",
+      "recipe_id": "minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_wall",
+      "recipe_id": "minecraft:deepslate_tile_wall_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "deepslate_tiles",
+      "recipe_id": "minecraft:deepslate_tiles_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "polished_deepslate_slab",
+      "recipe_id": "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "polished_deepslate_stairs",
+      "recipe_id": "minecraft:polished_deepslate_stairs_from_polished_deepslate_stonecutting"
+    },
+    {
+      "output": "polished_deepslate_wall",
+      "recipe_id": "minecraft:polished_deepslate_wall_from_polished_deepslate_stonecut"
+    }
+  ],
+  "minecraft:deepslate_bricks": [
+    {
+      "output": "deepslate_brick_slab",
+      "recipe_id": "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "output": "deepslate_brick_stairs",
+      "recipe_id": "minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "output": "deepslate_brick_wall",
+      "recipe_id": "minecraft:deepslate_brick_wall_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_slab",
+      "recipe_id": "minecraft:deepslate_tile_slab_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_stairs",
+      "recipe_id": "minecraft:deepslate_tile_stairs_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_wall",
+      "recipe_id": "minecraft:deepslate_tile_wall_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "output": "deepslate_tiles",
+      "recipe_id": "minecraft:deepslate_tiles_from_deepslate_bricks_stonecutting"
+    }
+  ],
+  "minecraft:deepslate_tiles": [
+    {
+      "output": "deepslate_tile_slab",
+      "recipe_id": "minecraft:deepslate_tile_slab_from_deepslate_tiles_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_stairs",
+      "recipe_id": "minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting"
+    },
+    {
+      "output": "deepslate_tile_wall",
+      "recipe_id": "minecraft:deepslate_tile_wall_from_deepslate_tiles_stonecutting"
+    }
+  ],
+  "minecraft:pink_tulip": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:pink_dye_from_pink_tulip"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_pink"
+    }
+  ],
+  "minecraft:torchflower": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:orange_dye_from_torchflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_torchflower"
+    }
+  ],
+  "minecraft:lily_of_the_valley": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:white_dye_from_lily_of_the_valley"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_lily_of_the_valley"
+    }
+  ],
+  "minecraft:cornflower": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:blue_dye_from_cornflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_cornflower"
+    }
+  ],
+  "minecraft:dandelion": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:yellow_dye_from_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_dandelion"
+    }
+  ],
+  "minecraft:poppy": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:red_dye_from_poppy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_poppy"
+    }
+  ],
+  "minecraft:blue_orchid": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_blue_dye_from_blue_orchid"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_blue_orchid"
+    }
+  ],
+  "minecraft:bone": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:bone_meal_from_bone"
+    }
+  ],
+  "minecraft:azure_bluet": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_azure_bluet"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_azure_bluet"
+    }
+  ],
+  "minecraft:wither_rose": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:black_dye_from_wither_rose"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_wither_rose"
+    }
+  ],
+  "minecraft:red_tulip": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:red_dye_from_tulip"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_red"
+    }
+  ],
+  "minecraft:golden_dandelion": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:yellow_dye_from_golden_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_golden_dandelion"
+    }
+  ],
+  "minecraft:allium": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:magenta_dye_from_allium"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_allium"
+    }
+  ],
+  "minecraft:bone_block": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:bone_meal_from_block"
+    }
+  ],
+  "minecraft:orange_tulip": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:orange_dye_from_orange_tulip"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_orange"
+    }
+  ],
+  "minecraft:white_tulip": [
+    {
+      "output": "dye",
+      "recipe_id": "minecraft:light_gray_dye_from_white_tulip"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_white"
+    }
+  ],
+  "minecraft:compass": [
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:cartography_table_locator_map"
+    },
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:empty_map_to_enhanced"
+    },
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:basic_map_to_enhanced"
+    }
+  ],
+  "minecraft:emptymap": [
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:empty_map_to_enhanced"
+    },
+    {
+      "output": "emptymap",
+      "recipe_id": "minecraft:basic_map_to_enhanced"
+    }
+  ],
+  "minecraft:end_stone": [
+    {
+      "output": "end_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_endbrick_stairs"
+    },
+    {
+      "output": "end_bricks",
+      "recipe_id": "minecraft:stonecutter_endbricks"
+    },
+    {
+      "output": "end_stone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_endbrick_slab"
+    },
+    {
+      "output": "end_stone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_endbrick_wall"
+    }
+  ],
+  "minecraft:end_bricks": [
+    {
+      "output": "end_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_endbrick_stairs2"
+    },
+    {
+      "output": "end_stone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_endbrick_slab2"
+    },
+    {
+      "output": "end_stone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_endbrick_wall2"
+    }
+  ],
+  "minecraft:ender_pearl": [
+    {
+      "output": "ender_eye",
+      "recipe_id": "minecraft:ender_eye"
+    }
+  ],
+  "minecraft:blaze_powder": [
+    {
+      "output": "ender_eye",
+      "recipe_id": "minecraft:ender_eye"
+    },
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_blaze_powder_coal_sulphur_recipeId"
+    },
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_coal_sulphur_recipeId"
+    },
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_coal_sulphur_recipeId"
+    },
+    {
+      "output": "magma_cream",
+      "recipe_id": "minecraft:magma_cream"
+    }
+  ],
+  "minecraft:exposed_copper": [
+    {
+      "output": "exposed_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_exposed_copper_to_exposed_chiseled_copper"
+    },
+    {
+      "output": "exposed_copper_grate",
+      "recipe_id": "minecraft:stonecutter_exposed_copper_to_exposed_copper_grate"
+    },
+    {
+      "output": "exposed_cut_copper",
+      "recipe_id": "minecraft:stonecutter_exposed_copper_to_cut_copper"
+    },
+    {
+      "output": "exposed_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_exposed_copper_to_exposed_cut_copper_slab"
+    },
+    {
+      "output": "exposed_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_exposed_copper_to_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_exposed_copper",
+      "recipe_id": "minecraft:waxing_exposed_copper"
+    }
+  ],
+  "minecraft:exposed_cut_copper": [
+    {
+      "output": "exposed_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_exposed_cut_copper_to_exposed_chiseled_copper"
+    },
+    {
+      "output": "exposed_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_exposed_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "exposed_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_exposed_cut_copper_to_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_exposed_cut_copper",
+      "recipe_id": "minecraft:waxing_exposed_cut_copper"
+    }
+  ],
+  "minecraft:spider_eye": [
+    {
+      "output": "fermented_spider_eye",
+      "recipe_id": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "minecraft:brown_mushroom": [
+    {
+      "output": "fermented_spider_eye",
+      "recipe_id": "minecraft:fermented_spider_eye"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+    }
+  ],
+  "minecraft:sugar": [
+    {
+      "output": "fermented_spider_eye",
+      "recipe_id": "minecraft:fermented_spider_eye"
+    },
+    {
+      "output": "pumpkin_pie",
+      "recipe_id": "minecraft:pumpkin_pie"
+    }
+  ],
+  "minecraft:charcoal": [
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_blaze_powder_coal_sulphur_recipeId"
+    }
+  ],
+  "minecraft:gunpowder": [
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_blaze_powder_coal_sulphur_recipeId"
+    },
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_coal_sulphur_recipeId"
+    },
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_coal_sulphur_recipeId"
+    }
+  ],
+  "minecraft:coal": [
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_coal_sulphur_recipeId"
+    }
+  ],
+  "minecraft:coals": [
+    {
+      "output": "fire_charge",
+      "recipe_id": "minecraft:FireCharge_coal_sulphur_recipeId"
+    }
+  ],
+  "minecraft:iron_ingot": [
+    {
+      "output": "flint_and_steel",
+      "recipe_id": "minecraft:flint_and_steel"
+    }
+  ],
+  "minecraft:flint": [
+    {
+      "output": "flint_and_steel",
+      "recipe_id": "minecraft:flint_and_steel"
+    }
+  ],
+  "minecraft:frame": [
+    {
+      "output": "glow_frame",
+      "recipe_id": "minecraft:glow_frame"
+    }
+  ],
+  "minecraft:glow_ink_sac": [
+    {
+      "output": "glow_frame",
+      "recipe_id": "minecraft:glow_frame"
+    }
+  ],
+  "minecraft:quartz": [
+    {
+      "output": "granite",
+      "recipe_id": "minecraft:granite"
+    }
+  ],
+  "minecraft:granite": [
+    {
+      "output": "granite_slab",
+      "recipe_id": "minecraft:stonecutter_granite_slab"
+    },
+    {
+      "output": "granite_stairs",
+      "recipe_id": "minecraft:stonecutter_granite_stairs"
+    },
+    {
+      "output": "granite_wall",
+      "recipe_id": "minecraft:stonecutter_granite_wall"
+    },
+    {
+      "output": "polished_granite",
+      "recipe_id": "minecraft:stonecutter_polished_granite"
+    },
+    {
+      "output": "polished_granite_slab",
+      "recipe_id": "minecraft:stonecutter_polished_granite_slab"
+    },
+    {
+      "output": "polished_granite_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_granite_stairs"
+    }
+  ],
+  "minecraft:gray_dye": [
+    {
+      "output": "gray_concrete_powder",
+      "recipe_id": "minecraft:gray_concrete_powder"
+    }
+  ],
+  "minecraft:gray_concrete": [
+    {
+      "output": "gray_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_gray_concrete_slab_from_gray_concrete"
+    },
+    {
+      "output": "gray_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_gray_concrete_stairs_from_gray_concrete"
+    }
+  ],
+  "minecraft:closed_eyeblossom": [
+    {
+      "output": "gray_dye",
+      "recipe_id": "minecraft:gray_dye_from_closed_eyeblossom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_closed_eyeblossom"
+    }
+  ],
+  "minecraft:green_dye": [
+    {
+      "output": "green_concrete_powder",
+      "recipe_id": "minecraft:green_concrete_powder"
+    }
+  ],
+  "minecraft:green_concrete": [
+    {
+      "output": "green_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_green_concrete_slab_from_green_concrete"
+    },
+    {
+      "output": "green_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_green_concrete_stairs_from_green_concrete"
+    }
+  ],
+  "minecraft:honey_block": [
+    {
+      "output": "honey_bottle",
+      "recipe_id": "minecraft:honey_bottle"
+    }
+  ],
+  "minecraft:glass_bottle": [
+    {
+      "output": "honey_bottle",
+      "recipe_id": "minecraft:honey_bottle"
+    },
+    {
+      "output": "honey_bottle",
+      "recipe_id": "minecraft:honey_bottle"
+    },
+    {
+      "output": "honey_bottle",
+      "recipe_id": "minecraft:honey_bottle"
+    },
+    {
+      "output": "honey_bottle",
+      "recipe_id": "minecraft:honey_bottle"
+    }
+  ],
+  "minecraft:hopper": [
+    {
+      "output": "hopper_minecart",
+      "recipe_id": "minecraft:hopper_minecart"
+    }
+  ],
+  "minecraft:light_blue_dye": [
+    {
+      "output": "light_blue_concrete_powder",
+      "recipe_id": "minecraft:light_blue_concrete_powder"
+    }
+  ],
+  "minecraft:light_blue_concrete": [
+    {
+      "output": "light_blue_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_light_blue_concrete_slab_from_light_blue_concrete"
+    },
+    {
+      "output": "light_blue_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_light_blue_concrete_stairs_from_light_blue_concrete"
+    }
+  ],
+  "minecraft:light_gray_dye": [
+    {
+      "output": "light_gray_concrete_powder",
+      "recipe_id": "minecraft:light_gray_concrete_powder"
+    }
+  ],
+  "minecraft:light_gray_concrete": [
+    {
+      "output": "light_gray_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_light_gray_concrete_slab_from_light_gray_concrete"
+    },
+    {
+      "output": "light_gray_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_light_gray_concrete_stairs_from_light_gray_concrete"
+    }
+  ],
+  "minecraft:lime_dye": [
+    {
+      "output": "lime_concrete_powder",
+      "recipe_id": "minecraft:lime_concrete_powder"
+    }
+  ],
+  "minecraft:lime_concrete": [
+    {
+      "output": "lime_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_lime_concrete_slab_from_lime_concrete"
+    },
+    {
+      "output": "lime_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_lime_concrete_stairs_from_lime_concrete"
+    }
+  ],
+  "minecraft:magenta_dye": [
+    {
+      "output": "magenta_concrete_powder",
+      "recipe_id": "minecraft:magenta_concrete_powder"
+    }
+  ],
+  "minecraft:magenta_concrete": [
+    {
+      "output": "magenta_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_magenta_concrete_slab_from_magenta_concrete"
+    },
+    {
+      "output": "magenta_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_magenta_concrete_stairs_from_magenta_concrete"
+    }
+  ],
+  "minecraft:lilac": [
+    {
+      "output": "magenta_dye",
+      "recipe_id": "minecraft:magenta_dye_from_lilac"
+    }
+  ],
+  "minecraft:slime_ball": [
+    {
+      "output": "magma_cream",
+      "recipe_id": "minecraft:magma_cream"
+    }
+  ],
+  "minecraft:moss_block": [
+    {
+      "output": "mossy_cobblestone",
+      "recipe_id": "minecraft:mossy_cobblestone_from_moss"
+    },
+    {
+      "output": "mossy_stone_bricks",
+      "recipe_id": "minecraft:mossy_stonebrick_from_moss"
+    }
+  ],
+  "minecraft:mossy_cobblestone": [
+    {
+      "output": "mossy_cobblestone_slab",
+      "recipe_id": "minecraft:stonecutter_mossy_cobbledouble_stone_slab"
+    },
+    {
+      "output": "mossy_cobblestone_stairs",
+      "recipe_id": "minecraft:stonecutter_mossy_cobblestone_stairs"
+    },
+    {
+      "output": "mossy_cobblestone_wall",
+      "recipe_id": "minecraft:stonecutter_mossy_cobblestone_wall"
+    }
+  ],
+  "minecraft:mossy_stone_bricks": [
+    {
+      "output": "mossy_stone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_mossy_stonebrick_slab"
+    },
+    {
+      "output": "mossy_stone_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_mossy_stonebrick_stairs"
+    },
+    {
+      "output": "mossy_stone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_mossy_stonebrick_wall"
+    }
+  ],
+  "minecraft:mud_bricks": [
+    {
+      "output": "mud_brick_slab",
+      "recipe_id": "minecraft:stonecutter_mud_brick_slab"
+    },
+    {
+      "output": "mud_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_mud_brick_stairs"
+    },
+    {
+      "output": "mud_brick_wall",
+      "recipe_id": "minecraft:stonecutter_mud_brick_wall"
+    }
+  ],
+  "minecraft:mangrove_roots": [
+    {
+      "output": "muddy_mangrove_roots",
+      "recipe_id": "minecraft:muddy_mangrove_roots"
+    }
+  ],
+  "minecraft:mud": [
+    {
+      "output": "muddy_mangrove_roots",
+      "recipe_id": "minecraft:muddy_mangrove_roots"
+    },
+    {
+      "output": "packed_mud",
+      "recipe_id": "minecraft:packed_mud"
+    }
+  ],
+  "minecraft:mushrooms_for_stew": [
+    {
+      "output": "mushroom_stew",
+      "recipe_id": "minecraft:mushroom_stew"
+    },
+    {
+      "output": "mushroom_stew",
+      "recipe_id": "minecraft:mushroom_stew"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_lily_of_the_valley"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_lily_of_the_valley"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_pink"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_pink"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_poppy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_poppy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_orange"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_orange"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_white"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_white"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_open_eyeblossom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_open_eyeblossom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_torchflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_torchflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_allium"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_allium"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_blue_orchid"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_blue_orchid"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_azure_bluet"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_azure_bluet"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_red"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_tulip_red"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_oxeye_daisy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_oxeye_daisy"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_golden_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_golden_dandelion"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_cornflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_cornflower"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_wither_rose"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_wither_rose"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_closed_eyeblossom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_closed_eyeblossom"
+    }
+  ],
+  "minecraft:netherite_scrap": [
+    {
+      "output": "netherite_ingot",
+      "recipe_id": "minecraft:netherite_ingot"
+    }
+  ],
+  "minecraft:gold_ingot": [
+    {
+      "output": "netherite_ingot",
+      "recipe_id": "minecraft:netherite_ingot"
+    }
+  ],
+  "minecraft:orange_dye": [
+    {
+      "output": "orange_concrete_powder",
+      "recipe_id": "minecraft:orange_concrete_powder"
+    }
+  ],
+  "minecraft:orange_concrete": [
+    {
+      "output": "orange_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_orange_concrete_slab_from_orange_concrete"
+    },
+    {
+      "output": "orange_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_orange_concrete_stairs_from_orange_concrete"
+    }
+  ],
+  "minecraft:open_eyeblossom": [
+    {
+      "output": "orange_dye",
+      "recipe_id": "minecraft:orange_dye_from_open_eyeblossom"
+    },
+    {
+      "output": "suspicious_stew",
+      "recipe_id": "minecraft:suspicious_stew_from_open_eyeblossom"
+    }
+  ],
+  "minecraft:oxidized_copper": [
+    {
+      "output": "oxidized_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_oxidized_copper_to_oxidized_chiseled_copper"
+    },
+    {
+      "output": "oxidized_copper_grate",
+      "recipe_id": "minecraft:stonecutter_oxidized_copper_to_oxidized_copper_grate"
+    },
+    {
+      "output": "oxidized_cut_copper",
+      "recipe_id": "minecraft:stonecutter_oxidized_copper_to_cut_copper"
+    },
+    {
+      "output": "oxidized_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_oxidized_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "oxidized_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_oxidized_copper_to_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_oxidized_copper",
+      "recipe_id": "minecraft:waxing_oxidized_copper"
+    }
+  ],
+  "minecraft:oxidized_cut_copper": [
+    {
+      "output": "oxidized_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_oxidized_cut_copper_to_oxidized_chiseled_copper"
+    },
+    {
+      "output": "oxidized_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "oxidized_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper",
+      "recipe_id": "minecraft:waxing_oxidized_cut_copper"
+    }
+  ],
+  "minecraft:wheat": [
+    {
+      "output": "packed_mud",
+      "recipe_id": "minecraft:packed_mud"
+    }
+  ],
+  "minecraft:pale_oak_boat": [
+    {
+      "output": "pale_oak_chest_boat",
+      "recipe_id": "minecraft:pale_oak_chest_boat"
+    }
+  ],
+  "minecraft:pink_dye": [
+    {
+      "output": "pink_concrete_powder",
+      "recipe_id": "minecraft:pink_concrete_powder"
+    }
+  ],
+  "minecraft:pink_concrete": [
+    {
+      "output": "pink_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_pink_concrete_slab_from_pink_concrete"
+    },
+    {
+      "output": "pink_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_pink_concrete_stairs_from_pink_concrete"
+    }
+  ],
+  "minecraft:peony": [
+    {
+      "output": "pink_dye",
+      "recipe_id": "minecraft:pink_dye_from_peony"
+    }
+  ],
+  "minecraft:pink_petals": [
+    {
+      "output": "pink_dye",
+      "recipe_id": "minecraft:pink_dye_from_pink_petals"
+    }
+  ],
+  "minecraft:cactus_flower": [
+    {
+      "output": "pink_dye",
+      "recipe_id": "minecraft:pink_dye_from_cactus_flower"
+    }
+  ],
+  "minecraft:polished_andesite": [
+    {
+      "output": "polished_andesite_slab",
+      "recipe_id": "minecraft:stonecutter_polished_andesite_slab2"
+    },
+    {
+      "output": "polished_andesite_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_andesite_stairs2"
+    }
+  ],
+  "minecraft:basalt": [
+    {
+      "output": "polished_basalt",
+      "recipe_id": "minecraft:stonecutter_polished_basalt_from_basalt"
+    }
+  ],
+  "minecraft:polished_blackstone_bricks": [
+    {
+      "output": "polished_blackstone_brick_slab",
+      "recipe_id": "minecraft:stonecutter_slab_from_polished_blackstone_bricks"
+    },
+    {
+      "output": "polished_blackstone_brick_stairs",
+      "recipe_id": "stonecutter_stairs_from_polished_blackstone_bricks"
+    },
+    {
+      "output": "polished_blackstone_brick_wall",
+      "recipe_id": "minecraft:stonecutter_wall_from_polished_blackstone_bricks"
+    }
+  ],
+  "minecraft:polished_diorite": [
+    {
+      "output": "polished_diorite_slab",
+      "recipe_id": "minecraft:stonecutter_polished_diorite_slab2"
+    },
+    {
+      "output": "polished_diorite_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_diorite_stairs2"
+    }
+  ],
+  "minecraft:polished_granite": [
+    {
+      "output": "polished_granite_slab",
+      "recipe_id": "minecraft:stonecutter_polished_granite_slab2"
+    },
+    {
+      "output": "polished_granite_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_granite_stairs2"
+    }
+  ],
+  "minecraft:polished_sulfur": [
+    {
+      "output": "polished_sulfur_slab",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_slab_from_polished_sulfur"
+    },
+    {
+      "output": "polished_sulfur_stairs",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_stairs_from_polished_sulfur"
+    },
+    {
+      "output": "polished_sulfur_wall",
+      "recipe_id": "minecraft:stonecutter_polished_sulfur_wall_from_polished_sulfur"
+    },
+    {
+      "output": "sulfur_brick_slab",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_slab_from_polished_sulfur"
+    },
+    {
+      "output": "sulfur_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_stairs_from_polished_sulfur"
+    },
+    {
+      "output": "sulfur_brick_wall",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_wall_from_polished_sulfur"
+    },
+    {
+      "output": "sulfur_bricks",
+      "recipe_id": "minecraft:stonecutter_sulfur_bricks_from_polished_sulfur"
+    }
+  ],
+  "minecraft:poplar_boat": [
+    {
+      "output": "poplar_chest_boat",
+      "recipe_id": "minecraft:poplar_chest_boat"
+    }
+  ],
+  "minecraft:prismarine_bricks": [
+    {
+      "output": "prismarine_brick_slab",
+      "recipe_id": "minecraft:stonecutter_prismarine_brick_slab"
+    },
+    {
+      "output": "prismarine_bricks_stairs",
+      "recipe_id": "minecraft:stonecutter_prismarine_brick_stairs"
+    }
+  ],
+  "minecraft:prismarine": [
+    {
+      "output": "prismarine_slab",
+      "recipe_id": "minecraft:stonecutter_prismarine_slab"
+    },
+    {
+      "output": "prismarine_stairs",
+      "recipe_id": "minecraft:stonecutter_prismarine_stairs"
+    },
+    {
+      "output": "prismarine_wall",
+      "recipe_id": "minecraft:stonecutter_prismarine_wall"
+    }
+  ],
+  "minecraft:pumpkin": [
+    {
+      "output": "pumpkin_pie",
+      "recipe_id": "minecraft:pumpkin_pie"
+    }
+  ],
+  "minecraft:egg": [
+    {
+      "output": "pumpkin_pie",
+      "recipe_id": "minecraft:pumpkin_pie"
+    }
+  ],
+  "minecraft:purple_dye": [
+    {
+      "output": "purple_concrete_powder",
+      "recipe_id": "minecraft:purple_concrete_powder"
+    }
+  ],
+  "minecraft:purple_concrete": [
+    {
+      "output": "purple_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_purple_concrete_slab_from_purple_concrete"
+    },
+    {
+      "output": "purple_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_purple_concrete_stairs_from_purple_concrete"
+    }
+  ],
+  "minecraft:purpur_block": [
+    {
+      "output": "purpur_block",
+      "recipe_id": "minecraft:stonecutter_purpur_lines"
+    },
+    {
+      "output": "purpur_pillar",
+      "recipe_id": "minecraft:stonecutter_purpur_lines"
+    },
+    {
+      "output": "purpur_slab",
+      "recipe_id": "minecraft:stonecutter_purpur_slab"
+    },
+    {
+      "output": "purpur_stairs",
+      "recipe_id": "minecraft:stonecutter_purpur_stairs"
+    }
+  ],
+  "minecraft:quartz_block:0": [
+    {
+      "output": "quartz_bricks",
+      "recipe_id": "minecraft:stonecutter_quartz_bricks_from_quartz_block"
+    }
+  ],
+  "minecraft:baked_potato": [
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_shelf_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+    }
+  ],
+  "minecraft:carrot": [
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_shelf_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+    }
+  ],
+  "minecraft:shelf_mushroom": [
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_shelf_mushroom"
+    }
+  ],
+  "minecraft:cooked_rabbit": [
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_shelf_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+    },
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+    }
+  ],
+  "minecraft:red_mushroom": [
+    {
+      "output": "rabbit_stew",
+      "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+    }
+  ],
+  "minecraft:red_dye": [
+    {
+      "output": "red_concrete_powder",
+      "recipe_id": "minecraft:red_concrete_powder"
+    }
+  ],
+  "minecraft:red_concrete": [
+    {
+      "output": "red_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_red_concrete_slab_from_red_concrete"
+    },
+    {
+      "output": "red_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_red_concrete_stairs_from_red_concrete"
+    }
+  ],
+  "minecraft:rose_bush": [
+    {
+      "output": "red_dye",
+      "recipe_id": "minecraft:red_dye_from_rose_bush"
+    }
+  ],
+  "minecraft:red_nether_brick": [
+    {
+      "output": "red_nether_brick_slab",
+      "recipe_id": "minecraft:stonecutter_red_nether_brick_slab"
+    },
+    {
+      "output": "red_nether_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_red_nether_brick_stairs"
+    },
+    {
+      "output": "red_nether_brick_wall",
+      "recipe_id": "minecraft:stonecutter_red_nether_brick_wall"
+    }
+  ],
+  "minecraft:smooth_quartz": [
+    {
+      "output": "smooth_quartz_slab",
+      "recipe_id": "minecraft:stonecutter_smooth_quartz_slab"
+    },
+    {
+      "output": "smooth_quartz_stairs",
+      "recipe_id": "minecraft:stonecutter_smooth_quartz_stairs"
+    }
+  ],
+  "minecraft:smooth_red_sandstone": [
+    {
+      "output": "smooth_red_sandstone_slab",
+      "recipe_id": "minecraft:stonecutter_smooth_red_sanddouble_stone_slab"
+    },
+    {
+      "output": "smooth_red_sandstone_stairs",
+      "recipe_id": "minecraft:stonecutter_smooth_red_sandstone_stairs"
+    }
+  ],
+  "minecraft:smooth_sandstone": [
+    {
+      "output": "smooth_sandstone_slab",
+      "recipe_id": "minecraft:stonecutter_smooth_sanddouble_stone_slab"
+    }
+  ],
+  "minecraft:smooth_stone": [
+    {
+      "output": "smooth_stone_slab",
+      "recipe_id": "minecraft:stonecutter_smooth_double_stone_slab"
+    }
+  ],
+  "minecraft:web": [
+    {
+      "output": "string",
+      "recipe_id": "minecraft:cobweb_to_string"
+    }
+  ],
+  "minecraft:string": [
+    {
+      "output": "string",
+      "recipe_id": "minecraft:cobweb_to_string"
+    }
+  ],
+  "minecraft:sulfur_bricks": [
+    {
+      "output": "sulfur_brick_slab",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_slab_from_sulfur_bricks"
+    },
+    {
+      "output": "sulfur_brick_stairs",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_stairs_from_sulfur_bricks"
+    },
+    {
+      "output": "sulfur_brick_wall",
+      "recipe_id": "minecraft:stonecutter_sulfur_brick_wall_from_sulfur_bricks"
+    }
+  ],
+  "minecraft:tnt": [
+    {
+      "output": "tnt_minecart",
+      "recipe_id": "minecraft:tnt_minecart"
+    }
+  ],
+  "minecraft:tripwire_hook": [
+    {
+      "output": "trapped_chest",
+      "recipe_id": "minecraft:trapped_chest"
+    }
+  ],
+  "minecraft:chiseled_copper": [
+    {
+      "output": "waxed_chiseled_copper",
+      "recipe_id": "minecraft:waxing_chiseled_copper"
+    }
+  ],
+  "minecraft:honeycomb": [
+    {
+      "output": "waxed_chiseled_copper",
+      "recipe_id": "minecraft:waxing_chiseled_copper"
+    },
+    {
+      "output": "waxed_copper",
+      "recipe_id": "minecraft:waxing_copper_block"
+    },
+    {
+      "output": "waxed_copper_bars",
+      "recipe_id": "minecraft:waxing_copper_bars"
+    },
+    {
+      "output": "waxed_copper_bulb",
+      "recipe_id": "minecraft:waxing_copper_bulb"
+    },
+    {
+      "output": "waxed_copper_chain",
+      "recipe_id": "minecraft:waxing_copper_chain"
+    },
+    {
+      "output": "waxed_copper_chest",
+      "recipe_id": "minecraft:waxing_copper_chest"
+    },
+    {
+      "output": "waxed_copper_door",
+      "recipe_id": "minecraft:waxing_copper_door"
+    },
+    {
+      "output": "waxed_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_copper_golem_statue"
+    },
+    {
+      "output": "waxed_copper_grate",
+      "recipe_id": "minecraft:waxing_copper_grate"
+    },
+    {
+      "output": "waxed_copper_lantern",
+      "recipe_id": "minecraft:waxing_copper_lantern"
+    },
+    {
+      "output": "waxed_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_copper_trapdoor"
+    },
+    {
+      "output": "waxed_cut_copper",
+      "recipe_id": "minecraft:waxing_cut_copper"
+    },
+    {
+      "output": "waxed_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_cut_copper_slab"
+    },
+    {
+      "output": "waxed_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_exposed_chiseled_copper",
+      "recipe_id": "minecraft:waxed_exposed_chiseled_copper_from_honeycomb"
+    },
+    {
+      "output": "waxed_exposed_copper",
+      "recipe_id": "minecraft:waxing_exposed_copper"
+    },
+    {
+      "output": "waxed_exposed_copper_bars",
+      "recipe_id": "minecraft:waxing_exposed_copper_bars"
+    },
+    {
+      "output": "waxed_exposed_copper_bulb",
+      "recipe_id": "minecraft:waxing_exposed_copper_bulb"
+    },
+    {
+      "output": "waxed_exposed_copper_chain",
+      "recipe_id": "minecraft:waxing_exposed_copper_chain"
+    },
+    {
+      "output": "waxed_exposed_copper_chest",
+      "recipe_id": "minecraft:waxing_exposed_copper_chest"
+    },
+    {
+      "output": "waxed_exposed_copper_door",
+      "recipe_id": "minecraft:waxing_exposed_copper_door"
+    },
+    {
+      "output": "waxed_exposed_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_exposed_copper_golem_statue"
+    },
+    {
+      "output": "waxed_exposed_copper_grate",
+      "recipe_id": "minecraft:waxing_exposed_copper_grate"
+    },
+    {
+      "output": "waxed_exposed_copper_lantern",
+      "recipe_id": "minecraft:waxing_exposed_copper_lantern"
+    },
+    {
+      "output": "waxed_exposed_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_exposed_copper_trapdoor"
+    },
+    {
+      "output": "waxed_exposed_cut_copper",
+      "recipe_id": "minecraft:waxing_exposed_cut_copper"
+    },
+    {
+      "output": "waxed_exposed_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_exposed_cut_copper_slab"
+    },
+    {
+      "output": "waxed_exposed_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_exposed_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_exposed_lightning_rod",
+      "recipe_id": "minecraft:waxing_exposed_lightning_rod"
+    },
+    {
+      "output": "waxed_lightning_rod",
+      "recipe_id": "minecraft:waxing_lightning_rod"
+    },
+    {
+      "output": "waxed_oxidized_chiseled_copper",
+      "recipe_id": "minecraft:waxed_oxidized_chiseled_copper_from_honeycomb"
+    },
+    {
+      "output": "waxed_oxidized_copper",
+      "recipe_id": "minecraft:waxing_oxidized_copper"
+    },
+    {
+      "output": "waxed_oxidized_copper_bars",
+      "recipe_id": "minecraft:waxing_oxidized_copper_bars"
+    },
+    {
+      "output": "waxed_oxidized_copper_bulb",
+      "recipe_id": "minecraft:waxing_oxidized_copper_bulb"
+    },
+    {
+      "output": "waxed_oxidized_copper_chain",
+      "recipe_id": "minecraft:waxing_oxidized_copper_chain"
+    },
+    {
+      "output": "waxed_oxidized_copper_chest",
+      "recipe_id": "minecraft:waxing_oxidized_copper_chest"
+    },
+    {
+      "output": "waxed_oxidized_copper_door",
+      "recipe_id": "minecraft:waxing_oxidized_copper_door"
+    },
+    {
+      "output": "waxed_oxidized_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_oxidized_copper_golem_statue"
+    },
+    {
+      "output": "waxed_oxidized_copper_grate",
+      "recipe_id": "minecraft:waxing_oxidized_copper_grate"
+    },
+    {
+      "output": "waxed_oxidized_copper_lantern",
+      "recipe_id": "minecraft:waxing_oxidized_copper_lantern"
+    },
+    {
+      "output": "waxed_oxidized_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_oxidized_copper_trapdoor"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper",
+      "recipe_id": "minecraft:waxing_oxidized_cut_copper"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_oxidized_cut_copper_slab"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_oxidized_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_oxidized_lightning_rod",
+      "recipe_id": "minecraft:waxing_oxidized_lightning_rod"
+    },
+    {
+      "output": "waxed_weathered_chiseled_copper",
+      "recipe_id": "minecraft:waxed_weathered_chiseled_copper_from_honeycomb"
+    },
+    {
+      "output": "waxed_weathered_copper",
+      "recipe_id": "minecraft:waxing_weathered_copper"
+    },
+    {
+      "output": "waxed_weathered_copper_bars",
+      "recipe_id": "minecraft:waxing_weathered_copper_bars"
+    },
+    {
+      "output": "waxed_weathered_copper_bulb",
+      "recipe_id": "minecraft:waxing_weathered_copper_bulb"
+    },
+    {
+      "output": "waxed_weathered_copper_chain",
+      "recipe_id": "minecraft:waxing_weathered_copper_chain"
+    },
+    {
+      "output": "waxed_weathered_copper_chest",
+      "recipe_id": "minecraft:waxing_weathered_copper_chest"
+    },
+    {
+      "output": "waxed_weathered_copper_door",
+      "recipe_id": "minecraft:waxing_weathered_copper_door"
+    },
+    {
+      "output": "waxed_weathered_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_weathered_copper_golem_statue"
+    },
+    {
+      "output": "waxed_weathered_copper_grate",
+      "recipe_id": "minecraft:waxing_weathered_copper_grate"
+    },
+    {
+      "output": "waxed_weathered_copper_lantern",
+      "recipe_id": "minecraft:waxing_weathered_copper_lantern"
+    },
+    {
+      "output": "waxed_weathered_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_weathered_copper_trapdoor"
+    },
+    {
+      "output": "waxed_weathered_cut_copper",
+      "recipe_id": "minecraft:waxing_weathered_cut_copper"
+    },
+    {
+      "output": "waxed_weathered_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_weathered_cut_copper_slab"
+    },
+    {
+      "output": "waxed_weathered_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_weathered_cut_copper_stairs"
+    },
+    {
+      "output": "waxed_weathered_lightning_rod",
+      "recipe_id": "minecraft:waxing_weathered_lightning_rod"
+    }
+  ],
+  "minecraft:waxed_copper": [
+    {
+      "output": "waxed_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_copper_to_waxed_chiseled_copper"
+    },
+    {
+      "output": "waxed_copper_grate",
+      "recipe_id": "minecraft:stonecutter_waxed_copper_to_waxed_copper_grate"
+    },
+    {
+      "output": "waxed_cut_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_copper_to_cut_copper"
+    },
+    {
+      "output": "waxed_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:waxed_cut_copper": [
+    {
+      "output": "waxed_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_cut_copper_to_waxed_chiseled_copper"
+    },
+    {
+      "output": "waxed_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_cut_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:copper_bars": [
+    {
+      "output": "waxed_copper_bars",
+      "recipe_id": "minecraft:waxing_copper_bars"
+    }
+  ],
+  "minecraft:copper_bulb": [
+    {
+      "output": "waxed_copper_bulb",
+      "recipe_id": "minecraft:waxing_copper_bulb"
+    }
+  ],
+  "minecraft:copper_chain": [
+    {
+      "output": "waxed_copper_chain",
+      "recipe_id": "minecraft:waxing_copper_chain"
+    }
+  ],
+  "minecraft:copper_chest": [
+    {
+      "output": "waxed_copper_chest",
+      "recipe_id": "minecraft:waxing_copper_chest"
+    }
+  ],
+  "minecraft:copper_door": [
+    {
+      "output": "waxed_copper_door",
+      "recipe_id": "minecraft:waxing_copper_door"
+    }
+  ],
+  "minecraft:copper_golem_statue": [
+    {
+      "output": "waxed_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_copper_golem_statue"
+    }
+  ],
+  "minecraft:copper_grate": [
+    {
+      "output": "waxed_copper_grate",
+      "recipe_id": "minecraft:waxing_copper_grate"
+    }
+  ],
+  "minecraft:copper_lantern": [
+    {
+      "output": "waxed_copper_lantern",
+      "recipe_id": "minecraft:waxing_copper_lantern"
+    }
+  ],
+  "minecraft:copper_trapdoor": [
+    {
+      "output": "waxed_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_copper_trapdoor"
+    }
+  ],
+  "minecraft:cut_copper_slab": [
+    {
+      "output": "waxed_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_cut_copper_slab"
+    }
+  ],
+  "minecraft:cut_copper_stairs": [
+    {
+      "output": "waxed_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_cut_copper_stairs"
+    }
+  ],
+  "minecraft:waxed_exposed_copper": [
+    {
+      "output": "waxed_exposed_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_copper_to_waxed_exposed_chiseled_copper"
+    },
+    {
+      "output": "waxed_exposed_copper_grate",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_copper_to_waxed_exposed_copper_grate"
+    },
+    {
+      "output": "waxed_exposed_cut_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_copper_to_cut_copper"
+    },
+    {
+      "output": "waxed_exposed_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_copper_to_exposed_cut_copper_slab"
+    },
+    {
+      "output": "waxed_exposed_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:waxed_exposed_cut_copper": [
+    {
+      "output": "waxed_exposed_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_cut_copper_to_waxed_exposed_chiseled_copper"
+    },
+    {
+      "output": "waxed_exposed_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_exposed_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_exposed_cut_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:exposed_chiseled_copper": [
+    {
+      "output": "waxed_exposed_chiseled_copper",
+      "recipe_id": "minecraft:waxed_exposed_chiseled_copper_from_honeycomb"
+    }
+  ],
+  "minecraft:exposed_copper_bars": [
+    {
+      "output": "waxed_exposed_copper_bars",
+      "recipe_id": "minecraft:waxing_exposed_copper_bars"
+    }
+  ],
+  "minecraft:exposed_copper_bulb": [
+    {
+      "output": "waxed_exposed_copper_bulb",
+      "recipe_id": "minecraft:waxing_exposed_copper_bulb"
+    }
+  ],
+  "minecraft:exposed_copper_chain": [
+    {
+      "output": "waxed_exposed_copper_chain",
+      "recipe_id": "minecraft:waxing_exposed_copper_chain"
+    }
+  ],
+  "minecraft:exposed_copper_chest": [
+    {
+      "output": "waxed_exposed_copper_chest",
+      "recipe_id": "minecraft:waxing_exposed_copper_chest"
+    }
+  ],
+  "minecraft:exposed_copper_door": [
+    {
+      "output": "waxed_exposed_copper_door",
+      "recipe_id": "minecraft:waxing_exposed_copper_door"
+    }
+  ],
+  "minecraft:exposed_copper_golem_statue": [
+    {
+      "output": "waxed_exposed_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_exposed_copper_golem_statue"
+    }
+  ],
+  "minecraft:exposed_copper_grate": [
+    {
+      "output": "waxed_exposed_copper_grate",
+      "recipe_id": "minecraft:waxing_exposed_copper_grate"
+    }
+  ],
+  "minecraft:exposed_copper_lantern": [
+    {
+      "output": "waxed_exposed_copper_lantern",
+      "recipe_id": "minecraft:waxing_exposed_copper_lantern"
+    }
+  ],
+  "minecraft:exposed_copper_trapdoor": [
+    {
+      "output": "waxed_exposed_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_exposed_copper_trapdoor"
+    }
+  ],
+  "minecraft:exposed_cut_copper_slab": [
+    {
+      "output": "waxed_exposed_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_exposed_cut_copper_slab"
+    }
+  ],
+  "minecraft:exposed_cut_copper_stairs": [
+    {
+      "output": "waxed_exposed_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_exposed_cut_copper_stairs"
+    }
+  ],
+  "minecraft:exposed_lightning_rod": [
+    {
+      "output": "waxed_exposed_lightning_rod",
+      "recipe_id": "minecraft:waxing_exposed_lightning_rod"
+    }
+  ],
+  "minecraft:lightning_rod": [
+    {
+      "output": "waxed_lightning_rod",
+      "recipe_id": "minecraft:waxing_lightning_rod"
+    }
+  ],
+  "minecraft:waxed_oxidized_cut_copper": [
+    {
+      "output": "waxed_oxidized_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_cut_copper_to_waxed_oxidized_chiseled_copper"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:waxed_oxidized_copper": [
+    {
+      "output": "waxed_oxidized_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_copper_to_waxed_oxidized_chiseled_copper"
+    },
+    {
+      "output": "waxed_oxidized_copper_grate",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_copper_to_waxed_oxidized_copper_grate"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_oxidized_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:oxidized_chiseled_copper": [
+    {
+      "output": "waxed_oxidized_chiseled_copper",
+      "recipe_id": "minecraft:waxed_oxidized_chiseled_copper_from_honeycomb"
+    }
+  ],
+  "minecraft:oxidized_copper_bars": [
+    {
+      "output": "waxed_oxidized_copper_bars",
+      "recipe_id": "minecraft:waxing_oxidized_copper_bars"
+    }
+  ],
+  "minecraft:oxidized_copper_bulb": [
+    {
+      "output": "waxed_oxidized_copper_bulb",
+      "recipe_id": "minecraft:waxing_oxidized_copper_bulb"
+    }
+  ],
+  "minecraft:oxidized_copper_chain": [
+    {
+      "output": "waxed_oxidized_copper_chain",
+      "recipe_id": "minecraft:waxing_oxidized_copper_chain"
+    }
+  ],
+  "minecraft:oxidized_copper_chest": [
+    {
+      "output": "waxed_oxidized_copper_chest",
+      "recipe_id": "minecraft:waxing_oxidized_copper_chest"
+    }
+  ],
+  "minecraft:oxidized_copper_door": [
+    {
+      "output": "waxed_oxidized_copper_door",
+      "recipe_id": "minecraft:waxing_oxidized_copper_door"
+    }
+  ],
+  "minecraft:oxidized_copper_golem_statue": [
+    {
+      "output": "waxed_oxidized_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_oxidized_copper_golem_statue"
+    }
+  ],
+  "minecraft:oxidized_copper_grate": [
+    {
+      "output": "waxed_oxidized_copper_grate",
+      "recipe_id": "minecraft:waxing_oxidized_copper_grate"
+    }
+  ],
+  "minecraft:oxidized_copper_lantern": [
+    {
+      "output": "waxed_oxidized_copper_lantern",
+      "recipe_id": "minecraft:waxing_oxidized_copper_lantern"
+    }
+  ],
+  "minecraft:oxidized_copper_trapdoor": [
+    {
+      "output": "waxed_oxidized_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_oxidized_copper_trapdoor"
+    }
+  ],
+  "minecraft:oxidized_cut_copper_slab": [
+    {
+      "output": "waxed_oxidized_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_oxidized_cut_copper_slab"
+    }
+  ],
+  "minecraft:oxidized_cut_copper_stairs": [
+    {
+      "output": "waxed_oxidized_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_oxidized_cut_copper_stairs"
+    }
+  ],
+  "minecraft:oxidized_lightning_rod": [
+    {
+      "output": "waxed_oxidized_lightning_rod",
+      "recipe_id": "minecraft:waxing_oxidized_lightning_rod"
+    }
+  ],
+  "minecraft:waxed_weathered_cut_copper": [
+    {
+      "output": "waxed_weathered_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_cut_copper_to_waxed_weathered_chiseled_copper"
+    },
+    {
+      "output": "waxed_weathered_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_weathered_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:weathered_chiseled_copper": [
+    {
+      "output": "waxed_weathered_chiseled_copper",
+      "recipe_id": "minecraft:waxed_weathered_chiseled_copper_from_honeycomb"
+    }
+  ],
+  "minecraft:waxed_weathered_copper": [
+    {
+      "output": "waxed_weathered_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_copper_to_waxed_weathered_chiseled_copper"
+    },
+    {
+      "output": "waxed_weathered_copper_grate",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_copper_to_waxed_weathered_copper_grate"
+    },
+    {
+      "output": "waxed_weathered_cut_copper",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_copper_to_cut_copper"
+    },
+    {
+      "output": "waxed_weathered_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "waxed_weathered_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_waxed_weathered_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:weathered_copper": [
+    {
+      "output": "waxed_weathered_copper",
+      "recipe_id": "minecraft:waxing_weathered_copper"
+    },
+    {
+      "output": "weathered_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_weathered_copper_to_weathered_chiseled_copper"
+    },
+    {
+      "output": "weathered_copper_grate",
+      "recipe_id": "minecraft:stonecutter_weathered_copper_to_weathered_copper_grate"
+    },
+    {
+      "output": "weathered_cut_copper",
+      "recipe_id": "minecraft:stonecutter_weathered_copper_to_cut_copper"
+    },
+    {
+      "output": "weathered_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_weathered_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "weathered_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_weathered_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:weathered_copper_bars": [
+    {
+      "output": "waxed_weathered_copper_bars",
+      "recipe_id": "minecraft:waxing_weathered_copper_bars"
+    }
+  ],
+  "minecraft:weathered_copper_bulb": [
+    {
+      "output": "waxed_weathered_copper_bulb",
+      "recipe_id": "minecraft:waxing_weathered_copper_bulb"
+    }
+  ],
+  "minecraft:weathered_copper_chain": [
+    {
+      "output": "waxed_weathered_copper_chain",
+      "recipe_id": "minecraft:waxing_weathered_copper_chain"
+    }
+  ],
+  "minecraft:weathered_copper_chest": [
+    {
+      "output": "waxed_weathered_copper_chest",
+      "recipe_id": "minecraft:waxing_weathered_copper_chest"
+    }
+  ],
+  "minecraft:weathered_copper_door": [
+    {
+      "output": "waxed_weathered_copper_door",
+      "recipe_id": "minecraft:waxing_weathered_copper_door"
+    }
+  ],
+  "minecraft:weathered_copper_golem_statue": [
+    {
+      "output": "waxed_weathered_copper_golem_statue",
+      "recipe_id": "minecraft:waxing_weathered_copper_golem_statue"
+    }
+  ],
+  "minecraft:weathered_copper_grate": [
+    {
+      "output": "waxed_weathered_copper_grate",
+      "recipe_id": "minecraft:waxing_weathered_copper_grate"
+    }
+  ],
+  "minecraft:weathered_copper_lantern": [
+    {
+      "output": "waxed_weathered_copper_lantern",
+      "recipe_id": "minecraft:waxing_weathered_copper_lantern"
+    }
+  ],
+  "minecraft:weathered_copper_trapdoor": [
+    {
+      "output": "waxed_weathered_copper_trapdoor",
+      "recipe_id": "minecraft:waxing_weathered_copper_trapdoor"
+    }
+  ],
+  "minecraft:weathered_cut_copper": [
+    {
+      "output": "waxed_weathered_cut_copper",
+      "recipe_id": "minecraft:waxing_weathered_cut_copper"
+    },
+    {
+      "output": "weathered_chiseled_copper",
+      "recipe_id": "minecraft:stonecutter_weathered_cut_copper_to_weathered_chiseled_copper"
+    },
+    {
+      "output": "weathered_cut_copper_slab",
+      "recipe_id": "minecraft:stonecutter_weathered_cut_copper_to_cut_copper_slab"
+    },
+    {
+      "output": "weathered_cut_copper_stairs",
+      "recipe_id": "minecraft:stonecutter_weathered_cut_copper_to_cut_copper_stairs"
+    }
+  ],
+  "minecraft:weathered_cut_copper_slab": [
+    {
+      "output": "waxed_weathered_cut_copper_slab",
+      "recipe_id": "minecraft:waxing_weathered_cut_copper_slab"
+    }
+  ],
+  "minecraft:weathered_cut_copper_stairs": [
+    {
+      "output": "waxed_weathered_cut_copper_stairs",
+      "recipe_id": "minecraft:waxing_weathered_cut_copper_stairs"
+    }
+  ],
+  "minecraft:weathered_lightning_rod": [
+    {
+      "output": "waxed_weathered_lightning_rod",
+      "recipe_id": "minecraft:waxing_weathered_lightning_rod"
+    }
+  ],
+  "minecraft:bone_meal": [
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder_from_bonemeal"
+    }
+  ],
+  "minecraft:white_dye": [
+    {
+      "output": "white_concrete_powder",
+      "recipe_id": "minecraft:white_concrete_powder"
+    }
+  ],
+  "minecraft:white_concrete": [
+    {
+      "output": "white_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_white_concrete_slab_from_white_concrete"
+    },
+    {
+      "output": "white_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_white_concrete_stairs_from_white_concrete"
+    }
+  ],
+  "minecraft:breeze_rod": [
+    {
+      "output": "wind_charge",
+      "recipe_id": "minecraft:wind_charge"
+    }
+  ],
+  "minecraft:book": [
+    {
+      "output": "writable_book",
+      "recipe_id": "minecraft:writable_book"
+    }
+  ],
+  "minecraft:feather": [
+    {
+      "output": "writable_book",
+      "recipe_id": "minecraft:writable_book"
+    }
+  ],
+  "minecraft:yellow_dye": [
+    {
+      "output": "yellow_concrete_powder",
+      "recipe_id": "minecraft:yellow_concrete_powder"
+    }
+  ],
+  "minecraft:yellow_concrete": [
+    {
+      "output": "yellow_concrete_slab",
+      "recipe_id": "minecraft:stonecutter_yellow_concrete_slab_from_yellow_concrete"
+    },
+    {
+      "output": "yellow_concrete_stairs",
+      "recipe_id": "minecraft:stonecutter_yellow_concrete_stairs_from_yellow_concrete"
+    }
+  ],
+  "minecraft:wildflowers": [
+    {
+      "output": "yellow_dye",
+      "recipe_id": "minecraft:yellow_dye_from_wildflowers"
+    }
+  ],
+  "minecraft:sunflower": [
+    {
+      "output": "yellow_dye",
+      "recipe_id": "minecraft:yellow_dye_from_sunflower"
+    }
+  ]
+}

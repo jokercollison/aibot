@@ -1,0 +1,57 @@
+{
+  "reviewed_date": "2026-10-20",
+  "source": "minecraft.wiki",
+  "pages": [
+    {
+      "url": "https://minecraft.wiki/w/Tutorial:Best_enchantments_guide",
+      "notes": "Enchantment conflict list includes Java-specific exceptions. Extract only edition-confirmed conflicts."
+    },
+    {
+      "url": "https://minecraft.wiki/w/Protection",
+      "notes": "Protection-type enchantments mutually exclusive in normal play."
+    },
+    {
+      "url": "https://minecraft.wiki/w/Template:Brewing",
+      "notes": "Wiki brewing table schema uses ingredient/base/output and potion variants; schema insight only, not a recipe dataset."
+    }
+  ],
+  "bedrock_draft_enchantment_conflicts": [
+    [
+      "Protection",
+      "Fire Protection",
+      "Blast Protection",
+      "Projectile Protection"
+    ],
+    [
+      "Sharpness",
+      "Smite",
+      "Bane of Arthropods"
+    ],
+    [
+      "Silk Touch",
+      "Fortune"
+    ],
+    [
+      "Infinity",
+      "Mending"
+    ],
+    [
+      "Piercing",
+      "Multishot"
+    ],
+    [
+      "Depth Strider",
+      "Frost Walker"
+    ],
+    [
+      "Riptide",
+      "Loyalty"
+    ],
+    [
+      "Riptide",
+      "Channeling"
+    ]
+  ],
+  "verification_status": "secondary_wiki_references_not_individually_tested_on_1.26.50",
+  "important_exclusion": "Do not import Java NBT command exceptions, Java-only enchantments, or legacy snapshot behavior."
+}

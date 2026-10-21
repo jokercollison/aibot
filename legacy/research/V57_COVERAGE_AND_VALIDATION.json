@@ -1,0 +1,57 @@
+{
+  "version": 57,
+  "catalog_categories": {
+    "brewing": {
+      "records": 72,
+      "with_source": 72,
+      "verified_in_game": 0
+    },
+    "entity": {
+      "records": 128,
+      "with_source": 128,
+      "verified_in_game": 0,
+      "with_facts": 100
+    },
+    "recipe": {
+      "records": 918,
+      "with_source": 918,
+      "verified_in_game": 0,
+      "with_variants": 918
+    },
+    "enchantment": {
+      "records": 42,
+      "with_source": 42,
+      "verified_in_game": 0
+    },
+    "block": {
+      "records": 98,
+      "with_source": 98,
+      "verified_in_game": 0
+    },
+    "item": {
+      "records": 68,
+      "with_source": 68,
+      "verified_in_game": 0
+    },
+    "biome": {
+      "records": 89,
+      "with_source": 89,
+      "verified_in_game": 0
+    },
+    "loot_item": {
+      "records": 440,
+      "with_source": 440,
+      "verified_in_game": 0,
+      "possible_not_guaranteed": 440
+    }
+  },
+  "alias_terms": 4162,
+  "tests": "passed",
+  "limitations": [
+    "Not a complete vanilla block/item registry",
+    "Entity component evidence cannot establish every engine-level mechanic",
+    "Not tested inside Minecraft",
+    "Possible loot tables are not guaranteed drops",
+    "Search is deterministic and not a language model"
+  ]
+}

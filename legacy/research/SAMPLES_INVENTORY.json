@@ -1,0 +1,35 @@
+{
+  "archive": "bedrock-samples-v1.26.50.4-full(1).zip",
+  "total_entries": 22859,
+  "files_by_top_level": {
+    "behavior_pack": 2902,
+    "resource_pack": 18233,
+    "documentation": 21,
+    "metadata": 1095,
+    "README.md": 1,
+    "LICENSE.md": 1,
+    "CONTRIBUTING.md": 1
+  },
+  "json_schema_named_files": 970,
+  "manifests": [
+    {
+      "path": "behavior_pack/manifest.json",
+      "format_version": 2,
+      "min_engine_version": [
+        1,
+        26,
+        50
+      ]
+    },
+    {
+      "path": "resource_pack/manifest.json",
+      "format_version": 2,
+      "min_engine_version": [
+        1,
+        26,
+        50
+      ]
+    }
+  ],
+  "note": "Source archive is not bundled in deliverable; retain original upload."
+}

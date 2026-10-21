@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createResolver} from './canonical_resolver_v61.mjs';
+const bundle=JSON.parse(fs.readFileSync(new URL('./canonical_bundle_v61.json',import.meta.url)));
+const aliases=JSON.parse(fs.readFileSync(new URL('./canonical_aliases_v61.json',import.meta.url)));
+const api=createResolver(bundle,aliases);
+assert.equal(api.resolve('minecraft:creeper','entity').status,'found');
+assert.equal(api.resolve('hopper','item').status,'found');
+assert.equal(api.resolve('hopper').status,'ambiguous');
+assert.equal(api.resolve('something made up').status,'unknown');
+assert.ok(api.recipeFor('hopper','item').recipes.length>0);
+assert.equal(api.recipeFor('bedrock','block').craftable,false);
+console.log('6 canonical resolution assertions passed');

@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {ask,stats} from './knowledge_engine_v62.mjs';
+assert.equal(stats.records,4783);
+const h=ask('How do I craft a hopper?');assert.equal(h.status,'found');assert.equal(h.recipe_id,'recipe:hopper');
+assert.deepEqual(h.variants[0].ingredients.map(x=>[x.name,x.count]),[['chest',1],['iron ingot',5]]);
+const c=ask('What is a creeper?');assert.equal(c.kind,'entity');
+const e=ask('What is the maximum level of Sharpness enchantment?');assert.equal(e.maximum_level,5);
+const b=ask('How do I breed cows?');assert.equal(b.kind,'entity');
+const bad=ask('How do I craft an imaginary banana generator?');assert.equal(bad.status,'unknown');
+const missing=ask('How do I craft bedrock?');assert.equal(missing.status,'not_documented');
+const i=ask('What can I make with iron ingot?');assert.equal(i.kind,'item');assert.ok(i.uses.length>0);
+console.log('8 knowledge-engine integration assertions passed',stats);

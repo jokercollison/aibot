@@ -1,0 +1,283 @@
+{
+  "version": 55,
+  "focus": "source-aware indexed knowledge + Bedrock-safe runtime data packaging",
+  "entity_count": 128,
+  "catalog_records": 1160,
+  "entity_topic_evidence_counts": {
+    "breathing": 84,
+    "fire_lava": 99,
+    "fear": 56,
+    "combat": 59,
+    "interactions": 44,
+    "spawn": 85
+  },
+  "conditional_entities": 95,
+  "qa_evidence_routes": 342,
+  "relationship_types": {
+    "uses_ingredient": 1649,
+    "input": 72,
+    "reagent": 72,
+    "output": 72
+  },
+  "relationship_missing_endpoint_counts": {
+    "to": 1865
+  },
+  "relationship_unresolved_examples": [
+    {
+      "edge": {
+        "from": "recipe:acacia_boat",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_boat.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_door",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_door.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_fence",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_fence.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_fence",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_fence.json",
+        "to": "item:stick"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_fence_gate",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_fence_gate.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_fence_gate",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_fence_gate.json",
+        "to": "item:stick"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_hanging_sign",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_hanging_sign.json",
+        "to": "item:chain"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_hanging_sign",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_hanging_sign.json",
+        "to": "item:stripped_acacia_log"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_planks",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_planks_from_stripped.json",
+        "to": "item:stripped_acacia_log"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_planks",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_planks_from_stripped_wood.json",
+        "to": "item:stripped_acacia_wood"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_planks",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_planks_from_wood.json",
+        "to": "item:acacia_wood"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_planks",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_planks.json",
+        "to": "item:acacia_log"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_shelf",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_shelf_from_stripped_acacia_log.json",
+        "to": "item:stripped_acacia_log"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_sign",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/sign_acacia.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_sign",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/sign_acacia.json",
+        "to": "item:stick"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_slab",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_wooden_slab.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_stairs",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_stairs.json",
+        "to": "item:acacia_planks"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:acacia_wood",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/acacia_wood.json",
+        "to": "item:acacia_log"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:activator_rail",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/activator_rail.json",
+        "to": "item:iron_ingot"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:activator_rail",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/activator_rail.json",
+        "to": "item:redstone_torch"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:activator_rail",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/activator_rail.json",
+        "to": "item:stick"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:amethyst_block",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/amethyst_block.json",
+        "to": "item:amethyst_shard"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:andesite_stairs",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/andesite_stairs.json",
+        "to": "item:andesite"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:andesite_wall",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/andesite_wall.json",
+        "to": "item:andesite"
+      },
+      "unresolved": "to"
+    },
+    {
+      "edge": {
+        "from": "recipe:anvil",
+        "relation": "uses_ingredient",
+        "source": "behavior_pack/recipes/anvil.json",
+        "to": "item:iron_ingot"
+      },
+      "unresolved": "to"
+    }
+  ],
+  "additional_database_candidates": [
+    "database/vanilla/bedrock_1_26_50_biome_definitions_index.json",
+    "database/vanilla/bedrock_1_26_50_block_mechanics_full_v29.json",
+    "database/vanilla/bedrock_1_26_50_block_question_evidence_v30.json",
+    "database/vanilla/bedrock_1_26_50_block_texture_registry.json",
+    "database/vanilla/bedrock_1_26_50_blocks_structured.json",
+    "database/vanilla/bedrock_1_26_50_custom_blocks_parsed.json",
+    "database/vanilla/bedrock_1_26_50_entity_loot_references_v29.json",
+    "database/vanilla/bedrock_1_26_50_items_structured.json",
+    "database/vanilla/bedrock_1_26_50_loot_tables_detailed_v31.json",
+    "database/vanilla/bedrock_1_26_50_loot_tables_raw.json",
+    "database/vanilla/bedrock_1_26_50_reverse_loot_sources_v32.json",
+    "database/vanilla/bedrock_1_26_50_trading_candidates_structured.json",
+    "database/vanilla/bedrock_1_26_50_trading_raw.json",
+    "database/vanilla/bedrock_commands_index.json",
+    "database/wiki_bedrock_biome_metadata_qa_v23.json",
+    "database/wiki_bedrock_mobs_blocks_v27.json"
+  ],
+  "sharded_catalog_categories": {
+    "brewing": 72,
+    "enchantment": 42,
+    "entity": 128,
+    "recipe": 918
+  },
+  "caveats": [
+    "No direct in-game test performed",
+    "Sample components do not necessarily cover engine defaults",
+    "Conditional component filters must be interpreted before making yes/no claims",
+    "All category shards contain existing data, not new factual research",
+    "Potential edge endpoints are not necessarily catalog records: relation targets can be identifiers or unresolved references"
+  ]
+}

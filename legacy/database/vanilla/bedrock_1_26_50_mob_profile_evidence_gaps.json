@@ -1,0 +1,3441 @@
+[
+  {
+    "entity": "minecraft:snow_golem",
+    "source_file": "behavior_pack/entities/snow_golem.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:drowned",
+    "source_file": "behavior_pack/entities/drowned.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape",
+        "minecraft:target_nearby_sensor"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:pillager",
+    "source_file": "behavior_pack/entities/pillager.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.follow_target_captain",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:armadillo",
+    "source_file": "behavior_pack/entities/armadillo.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:fireball",
+    "source_file": "behavior_pack/entities/fireball.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:guardian",
+    "source_file": "behavior_pack/entities/guardian.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:target_nearby_sensor"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:husk",
+    "source_file": "behavior_pack/entities/husk.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ender_pearl",
+    "source_file": "behavior_pack/entities/ender_pearl.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:bat",
+    "source_file": "behavior_pack/entities/bat.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:cushion",
+    "source_file": "behavior_pack/entities/cushion.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:chicken",
+    "source_file": "behavior_pack/entities/chicken.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:endermite",
+    "source_file": "behavior_pack/entities/endermite.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:area_effect_cloud",
+    "source_file": "behavior_pack/entities/area_effect_cloud.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ender_dragon",
+    "source_file": "behavior_pack/entities/ender_dragon.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:dolphin",
+    "source_file": "behavior_pack/entities/dolphin.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:behavior.find_underwater_treasure",
+        "minecraft:behavior.swim_up_for_breath",
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:arrow",
+    "source_file": "behavior_pack/entities/arrow.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:sheep",
+    "source_file": "behavior_pack/entities/sheep.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:fireworks_rocket",
+    "source_file": "behavior_pack/entities/fireworks_rocket.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:skeleton",
+    "source_file": "behavior_pack/entities/skeleton.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:happy_ghast",
+    "source_file": "behavior_pack/entities/happy_ghast.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:is_tamed"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:player",
+    "source_file": "behavior_pack/entities/player.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "source_file": "behavior_pack/entities/zombie_horse.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:is_tamed",
+        "minecraft:tamemount"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zombie_villager",
+    "source_file": "behavior_pack/entities/zombie_villager.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:pufferfish",
+    "source_file": "behavior_pack/entities/pufferfish.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:shulker_bullet",
+    "source_file": "behavior_pack/entities/shulker_bullet.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:boat",
+    "source_file": "behavior_pack/entities/boat.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:small_fireball",
+    "source_file": "behavior_pack/entities/small_fireball.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:turtle",
+    "source_file": "behavior_pack/entities/turtle.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zombie_pigman",
+    "source_file": "behavior_pack/entities/zombie_pigman.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:villager",
+    "source_file": "behavior_pack/entities/villager.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:tripod_camera",
+    "source_file": "behavior_pack/entities/tripod_camera.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:armor_stand",
+    "source_file": "behavior_pack/entities/armor_stand.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:stray",
+    "source_file": "behavior_pack/entities/stray.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:sniffer",
+    "source_file": "behavior_pack/entities/sniffer.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:tropicalfish",
+    "source_file": "behavior_pack/entities/tropicalfish.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wither_skull_dangerous",
+    "source_file": "behavior_pack/entities/wither_skull_dangerous.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:fishing_hook",
+    "source_file": "behavior_pack/entities/fishing_hook.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:tnt",
+    "source_file": "behavior_pack/entities/tnt.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:magma_cube",
+    "source_file": "behavior_pack/entities/magma_cube.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:donkey",
+    "source_file": "behavior_pack/entities/donkey.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tamemount"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wither",
+    "source_file": "behavior_pack/entities/wither.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.look_at_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.wither_target_highest_damage"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:cave_spider",
+    "source_file": "behavior_pack/entities/cave_spider.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:strider",
+    "source_file": "behavior_pack/entities/strider.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune",
+        "minecraft:lava_movement"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:evocation_illager",
+    "source_file": "behavior_pack/entities/evocation_illager.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:lightning_bolt",
+    "source_file": "behavior_pack/entities/lightning_bolt.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ender_crystal",
+    "source_file": "behavior_pack/entities/ender_crystal.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:cat",
+    "source_file": "behavior_pack/entities/cat.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tameable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:trader_llama",
+    "source_file": "behavior_pack/entities/trader_llama.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tamemount"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:panda",
+    "source_file": "behavior_pack/entities/panda.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic",
+        "minecraft:behavior.scared"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:horse",
+    "source_file": "behavior_pack/entities/horse.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tamemount"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:elder_guardian",
+    "source_file": "behavior_pack/entities/elder_guardian.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:thrown_trident",
+    "source_file": "behavior_pack/entities/thrown_trident.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:glow_squid",
+    "source_file": "behavior_pack/entities/glow_squid.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.squid_flee"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:parrot",
+    "source_file": "behavior_pack/entities/parrot.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:is_tamed",
+        "minecraft:tameable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:bee",
+    "source_file": "behavior_pack/entities/bee.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:cod",
+    "source_file": "behavior_pack/entities/fish.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:pig",
+    "source_file": "behavior_pack/entities/pig.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:xp_orb",
+    "source_file": "behavior_pack/entities/xp_orb.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:skeleton_horse",
+    "source_file": "behavior_pack/entities/skeleton_horse.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:is_tamed"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:blaze",
+    "source_file": "behavior_pack/entities/blaze.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:target_nearby_sensor"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:vex",
+    "source_file": "behavior_pack/entities/vex.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:eye_of_ender_signal",
+    "source_file": "behavior_pack/entities/eye_of_ender_signal.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zoglin",
+    "source_file": "behavior_pack/entities/zoglin.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:enderman",
+    "source_file": "behavior_pack/entities/enderman.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:command_block_minecart",
+    "source_file": "behavior_pack/entities/command_block_minecart.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:hopper_minecart",
+    "source_file": "behavior_pack/entities/hopper_minecart.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:dragon_fireball",
+    "source_file": "behavior_pack/entities/dragon_fireball.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:parched",
+    "source_file": "behavior_pack/entities/parched.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:tnt_minecart",
+    "source_file": "behavior_pack/entities/tnt_minecart.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:fox",
+    "source_file": "behavior_pack/entities/fox.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.defend_trusted_target",
+        "minecraft:behavior.nearest_prioritized_attackable_target",
+        "minecraft:behavior.stalk_and_pounce_on_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:salmon",
+    "source_file": "behavior_pack/entities/salmon.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:phantom",
+    "source_file": "behavior_pack/entities/phantom.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wandering_trader",
+    "source_file": "behavior_pack/entities/wandering_trader.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wolf",
+    "source_file": "behavior_pack/entities/wolf.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tameable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.owner_hurt_by_target",
+        "minecraft:behavior.owner_hurt_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ominous_item_spawner",
+    "source_file": "behavior_pack/entities/ominous_item_spawner.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:creeper",
+    "source_file": "behavior_pack/entities/creeper.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_escape",
+        "minecraft:target_nearby_sensor"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:mule",
+    "source_file": "behavior_pack/entities/mule.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:is_tamed",
+        "minecraft:tamemount"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:shulker",
+    "source_file": "behavior_pack/entities/shulker.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:breeze",
+    "source_file": "behavior_pack/entities/breeze.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:behavior.fire_at_target",
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.fire_at_target",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.jump_around_target",
+        "minecraft:behavior.move_around_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:splash_potion",
+    "source_file": "behavior_pack/entities/splash_potion.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ghast",
+    "source_file": "behavior_pack/entities/ghast.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:witch",
+    "source_file": "behavior_pack/entities/witch.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_prioritized_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:nautilus",
+    "source_file": "behavior_pack/entities/nautilus.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_mount_breathing",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tameable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wither_skull",
+    "source_file": "behavior_pack/entities/wither_skull.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:allay",
+    "source_file": "behavior_pack/entities/allay.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:chest_boat",
+    "source_file": "behavior_pack/entities/chest_boat.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:camel_husk",
+    "source_file": "behavior_pack/entities/camel_husk.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:is_tamed"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:snowball",
+    "source_file": "behavior_pack/entities/snowball.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:piglin_brute",
+    "source_file": "behavior_pack/entities/piglin_brute.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.nearest_prioritized_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ocelot",
+    "source_file": "behavior_pack/entities/ocelot.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable",
+        "minecraft:is_tamed"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zombie_nautilus",
+    "source_file": "behavior_pack/entities/zombie_nautilus.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_mount_breathing",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:is_tamed",
+        "minecraft:tameable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:llama_spit",
+    "source_file": "behavior_pack/entities/llama_spit.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:npc",
+    "source_file": "behavior_pack/entities/npc.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zombie",
+    "source_file": "behavior_pack/entities/zombie.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:frog",
+    "source_file": "behavior_pack/entities/frog.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:llama",
+    "source_file": "behavior_pack/entities/llama.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable",
+        "minecraft:is_tamed",
+        "minecraft:tamemount"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:egg",
+    "source_file": "behavior_pack/entities/egg.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:cow",
+    "source_file": "behavior_pack/entities/cow.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:tadpole",
+    "source_file": "behavior_pack/entities/tadpole.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:piglin",
+    "source_file": "behavior_pack/entities/piglin.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_block",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:mooshroom",
+    "source_file": "behavior_pack/entities/mooshroom.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:rabbit",
+    "source_file": "behavior_pack/entities/rabbit.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:polar_bear",
+    "source_file": "behavior_pack/entities/polar_bear.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wind_charge_projectile",
+    "source_file": "behavior_pack/entities/wind_charge_projectile.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:creaking",
+    "source_file": "behavior_pack/entities/creaking.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor",
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:zombie_villager_v2",
+    "source_file": "behavior_pack/entities/zombie_villager_v2.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:villager_v2",
+    "source_file": "behavior_pack/entities/villager_v2.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:sulfur_cube",
+    "source_file": "behavior_pack/entities/sulfur_cube.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:bogged",
+    "source_file": "behavior_pack/entities/bogged.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.flee_sun"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:axolotl",
+    "source_file": "behavior_pack/entities/axolotl.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable",
+        "minecraft:underwater_movement"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:breeze_wind_charge_projectile",
+    "source_file": "behavior_pack/entities/breeze_wind_charge_projectile.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:silverfish",
+    "source_file": "behavior_pack/entities/silverfish.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:iron_golem",
+    "source_file": "behavior_pack/entities/iron_golem.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.defend_village_target",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.move_towards_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:behavior.target_when_pushed"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:vindicator",
+    "source_file": "behavior_pack/entities/vindicator.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.follow_target_captain",
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:hoglin",
+    "source_file": "behavior_pack/entities/hoglin.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_block",
+        "minecraft:behavior.avoid_mob_type",
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:lingering_potion",
+    "source_file": "behavior_pack/entities/lingering_potion.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:minecart",
+    "source_file": "behavior_pack/entities/minecart.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:warden",
+    "source_file": "behavior_pack/entities/warden.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:goat",
+    "source_file": "behavior_pack/entities/goat.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:breedable"
+      ],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:chest_minecart",
+    "source_file": "behavior_pack/entities/chest_minecart.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:squid",
+    "source_file": "behavior_pack/entities/squid.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.squid_flee"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:xp_bottle",
+    "source_file": "behavior_pack/entities/xp_bottle.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:spider",
+    "source_file": "behavior_pack/entities/spider.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.avoid_mob_type"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.leap_at_target",
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:wither_skeleton",
+    "source_file": "behavior_pack/entities/wither_skeleton.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:fire_immune"
+      ],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:copper_golem",
+    "source_file": "behavior_pack/entities/copper_golem.json",
+    "mechanics_evidence": {
+      "breathing_components": [],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:camel",
+    "source_file": "behavior_pack/entities/camel.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [
+        "minecraft:damage_sensor"
+      ],
+      "fears_or_avoidance_components": [
+        "minecraft:behavior.panic"
+      ],
+      "taming_breeding_components": [
+        "minecraft:behavior.breed",
+        "minecraft:behavior.player_ride_tamed",
+        "minecraft:breedable",
+        "minecraft:is_tamed"
+      ],
+      "targeting_components": []
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:slime",
+    "source_file": "behavior_pack/entities/slime.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.nearest_attackable_target",
+        "minecraft:on_target_acquired",
+        "minecraft:on_target_escape"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  },
+  {
+    "entity": "minecraft:ravager",
+    "source_file": "behavior_pack/entities/ravager.json",
+    "mechanics_evidence": {
+      "breathing_components": [
+        "minecraft:breathable"
+      ],
+      "fire_or_lava_components": [],
+      "fears_or_avoidance_components": [],
+      "taming_breeding_components": [],
+      "targeting_components": [
+        "minecraft:behavior.hurt_by_target",
+        "minecraft:behavior.nearest_attackable_target"
+      ]
+    },
+    "unknowns": [
+      "water_drowning",
+      "lava_survival",
+      "hostility_to_player",
+      "what_it_fears",
+      "biome_locations",
+      "taming_food",
+      "breeding_food",
+      "drops"
+    ]
+  }
+]

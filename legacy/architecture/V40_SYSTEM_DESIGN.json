@@ -1,0 +1,60 @@
+{
+  "pipeline": [
+    "raw official samples + permitted concise Wiki facts",
+    "normalize facts into typed records",
+    "validate edition, version, conditions and sources",
+    "compile inverted indexes by subject, predicate, aliases and ingredient",
+    "intent parser maps natural questions to predicate and subject",
+    "retrieval ranks verified facts, evaluates conditions, refuses unsupported conclusions",
+    "response composer selects concise family-friendly template",
+    "game integration handles UI, events, permissions and cooldowns"
+  ],
+  "modules": {
+    "content": "versioned JSON records, authoritative offline source",
+    "compiler": "offline build step produces compact sharded JavaScript/JSON indexes",
+    "runtime": "generic router, query resolver, answer composer; no category-specific hardcoded links",
+    "dialogue": "separate jokes, casual conversation, reactive lines",
+    "robot": "state machine, ownership, follow/defend/stay commands"
+  },
+  "query_contract": {
+    "input": {
+      "text": "How do I craft a hopper?",
+      "player_context": "optional game state"
+    },
+    "parsed": {
+      "intent": "recipe.lookup",
+      "subject_id": "minecraft:hopper",
+      "predicate": "crafting"
+    },
+    "result": {
+      "facts": "matching verified records",
+      "answer": "generated from fact templates",
+      "status": "answered | ambiguous | unknown | unsupported"
+    }
+  },
+  "example_record": {
+    "record_id": "entity:minecraft:cow:breeding:adult",
+    "category": "entity",
+    "subject_id": "minecraft:cow",
+    "predicate": "breeding",
+    "value": {
+      "food_item_ids": [
+        "minecraft:wheat"
+      ]
+    },
+    "conditions": [
+      "two eligible adult cows"
+    ],
+    "edition": "bedrock",
+    "source_refs": [
+      "behavior_pack/entities/cow.json"
+    ],
+    "verification": "needs_validation"
+  },
+  "design_decisions": [
+    "Schema and generic routing first; populate and validate facts before full game integration",
+    "All new content connected automatically through indexes rather than manually wiring files",
+    "Separate technical evidence from player-facing assertions",
+    "Maintain explicit unknown and conditional values"
+  ]
+}

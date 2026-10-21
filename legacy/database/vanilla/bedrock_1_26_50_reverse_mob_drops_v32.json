@@ -1,0 +1,2961 @@
+{
+  "minecraft:arrow": [
+    {
+      "entity": "minecraft:skeleton",
+      "loot_table": "loot_tables/entities/skeleton.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:stray",
+      "loot_table": "loot_tables/entities/stray.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:stray",
+      "loot_table": "loot_tables/entities/stray.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "limit": 1
+        },
+        {
+          "function": "minecraft:set_potion",
+          "id": "slowness"
+        }
+      ],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:parched",
+      "loot_table": "loot_tables/entities/parched.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:parched",
+      "loot_table": "loot_tables/entities/parched.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "limit": 1
+        },
+        {
+          "function": "minecraft:set_potion",
+          "id": "weakness"
+        }
+      ],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:bogged",
+      "loot_table": "loot_tables/entities/bogged.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:bogged",
+      "loot_table": "loot_tables/entities/bogged.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "limit": 1
+        },
+        {
+          "function": "minecraft:set_potion",
+          "id": "poison"
+        }
+      ],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:bamboo": [
+    {
+      "entity": "minecraft:panda",
+      "loot_table": "loot_tables/entities/panda.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:beef": [
+    {
+      "entity": "minecraft:cow",
+      "loot_table": "loot_tables/entities/cow.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:mooshroom",
+      "loot_table": "loot_tables/entities/mooshroom.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:blaze_rod": [
+    {
+      "entity": "minecraft:blaze",
+      "loot_table": "loot_tables/entities/blaze.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:bone": [
+    {
+      "entity": "minecraft:skeleton",
+      "loot_table": "loot_tables/entities/skeleton.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:pufferfish",
+      "loot_table": "loot_tables/entities/pufferfish.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:stray",
+      "loot_table": "loot_tables/entities/stray.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:tropicalfish",
+      "loot_table": "loot_tables/entities/tropicalfish.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:cod",
+      "loot_table": "loot_tables/entities/fish.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:skeleton_horse",
+      "loot_table": "loot_tables/entities/skeleton_horse.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:parched",
+      "loot_table": "loot_tables/entities/parched.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:salmon",
+      "loot_table": "loot_tables/entities/salmon_normal.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:bogged",
+      "loot_table": "loot_tables/entities/bogged.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:wither_skeleton",
+      "loot_table": "loot_tables/entities/wither_skeleton.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:breeze_rod": [
+    {
+      "entity": "minecraft:breeze",
+      "loot_table": "loot_tables/entities/breeze.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:carrot": [
+    {
+      "entity": "minecraft:husk",
+      "loot_table": "loot_tables/entities/husk_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie",
+      "loot_table": "loot_tables/entities/zombie_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager_v2",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[1]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:chicken": [
+    {
+      "entity": "minecraft:chicken",
+      "loot_table": "loot_tables/entities/chicken.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:clownfish": [
+    {
+      "entity": "minecraft:tropicalfish",
+      "loot_table": "loot_tables/entities/tropicalfish.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:coal": [
+    {
+      "entity": "minecraft:wither_skeleton",
+      "loot_table": "loot_tables/entities/wither_skeleton.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:copper_ingot": [
+    {
+      "entity": "minecraft:drowned",
+      "loot_table": "loot_tables/entities/drowned.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:copper_golem",
+      "loot_table": "loot_tables/entities/copper_golem.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:dye": [
+    {
+      "entity": "minecraft:squid",
+      "loot_table": "loot_tables/entities/squid.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "function": "set_data",
+          "data": 0
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:emerald": [
+    {
+      "entity": "minecraft:evocation_illager",
+      "loot_table": "loot_tables/entities/evocation_illager.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:ender_pearl": [
+    {
+      "entity": "minecraft:enderman",
+      "loot_table": "loot_tables/entities/enderman.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:feather": [
+    {
+      "entity": "minecraft:chicken",
+      "loot_table": "loot_tables/entities/chicken.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:parrot",
+      "loot_table": "loot_tables/entities/parrot.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:fish": [
+    {
+      "entity": "minecraft:guardian",
+      "loot_table": "loot_tables/entities/guardian.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:dolphin",
+      "loot_table": "loot_tables/entities/dolphin.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "loot_table": "loot_tables/entities/elder_guardian.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:cod",
+      "loot_table": "loot_tables/entities/fish.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:polar_bear",
+      "loot_table": "loot_tables/entities/polar_bear.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:ghast_tear": [
+    {
+      "entity": "minecraft:ghast",
+      "loot_table": "loot_tables/entities/ghast.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:glass_bottle": [
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[3]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:glow_ink_sac": [
+    {
+      "entity": "minecraft:glow_squid",
+      "loot_table": "loot_tables/entities/glow_squid.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "function": "set_data",
+          "data": 0
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:glowstone_dust": [
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:gold_ingot": [
+    {
+      "entity": "minecraft:zombie_pigman",
+      "loot_table": "loot_tables/entities/zombie_pigman.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:gold_nugget": [
+    {
+      "entity": "minecraft:zombie_pigman",
+      "loot_table": "loot_tables/entities/zombie_pigman.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:gunpowder": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:ghast",
+      "loot_table": "loot_tables/entities/ghast.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[4]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:iron_ingot": [
+    {
+      "entity": "minecraft:husk",
+      "loot_table": "loot_tables/entities/husk_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie",
+      "loot_table": "loot_tables/entities/zombie_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager_v2",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:iron_golem",
+      "loot_table": "loot_tables/entities/iron_golem.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 3,
+            "max": 5
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:leather": [
+    {
+      "entity": "minecraft:donkey",
+      "loot_table": "loot_tables/entities/horse.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:trader_llama",
+      "loot_table": "loot_tables/entities/llama.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:horse",
+      "loot_table": "loot_tables/entities/horse.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:mule",
+      "loot_table": "loot_tables/entities/horse.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:llama",
+      "loot_table": "loot_tables/entities/llama.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:cow",
+      "loot_table": "loot_tables/entities/cow.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:mooshroom",
+      "loot_table": "loot_tables/entities/mooshroom.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:hoglin",
+      "loot_table": "loot_tables/entities/hoglin.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:magma_cream": [
+    {
+      "entity": "minecraft:magma_cube",
+      "loot_table": "loot_tables/entities/magma_cube.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:music_disc_lava_chicken": [
+    {
+      "entity": "minecraft:husk",
+      "loot_table": "loot_tables/entities/husk_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager_v2",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:music_disc_tears": [
+    {
+      "entity": "minecraft:ghast",
+      "loot_table": "loot_tables/entities/ghast.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:muttonRaw": [
+    {
+      "entity": "minecraft:sheep",
+      "loot_table": "loot_tables/entities/sheep.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:nautilus_shell": [
+    {
+      "entity": "minecraft:nautilus",
+      "loot_table": "loot_tables/entities/nautilus.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:netherStar": [
+    {
+      "entity": "minecraft:wither",
+      "loot_table": "loot_tables/entities/wither_boss.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:phantom_membrane": [
+    {
+      "entity": "minecraft:phantom",
+      "loot_table": "loot_tables/entities/phantom.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:poppy": [
+    {
+      "entity": "minecraft:iron_golem",
+      "loot_table": "loot_tables/entities/iron_golem.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:copper_golem",
+      "loot_table": "loot_tables/entities/copper_golem.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:porkchop": [
+    {
+      "entity": "minecraft:pig",
+      "loot_table": "loot_tables/entities/pig_saddled.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:hoglin",
+      "loot_table": "loot_tables/entities/hoglin.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 2,
+            "max": 4
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:potato": [
+    {
+      "entity": "minecraft:husk",
+      "loot_table": "loot_tables/entities/husk_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie",
+      "loot_table": "loot_tables/entities/zombie_rider.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager_v2",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[2]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:prismarine_crystals": [
+    {
+      "entity": "minecraft:guardian",
+      "loot_table": "loot_tables/entities/guardian.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "loot_table": "loot_tables/entities/elder_guardian.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[1]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:prismarine_shard": [
+    {
+      "entity": "minecraft:guardian",
+      "loot_table": "loot_tables/entities/guardian.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "loot_table": "loot_tables/entities/elder_guardian.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:pufferfish": [
+    {
+      "entity": "minecraft:pufferfish",
+      "loot_table": "loot_tables/entities/pufferfish.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:rabbit": [
+    {
+      "entity": "minecraft:rabbit",
+      "loot_table": "loot_tables/entities/rabbit.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:rabbit_foot": [
+    {
+      "entity": "minecraft:husk",
+      "loot_table": "loot_tables/entities/husk_rider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:rabbit",
+      "loot_table": "loot_tables/entities/rabbit.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:rabbit_hide": [
+    {
+      "entity": "minecraft:rabbit",
+      "loot_table": "loot_tables/entities/rabbit.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_11": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[10]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[10]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[10]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[10]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_13": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_blocks": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[2]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_cat": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[1]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[1]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_chirp": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[3]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[3]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[3]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[3]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_far": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[4]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[4]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[4]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[4]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_mall": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[5]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[5]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[5]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[5]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_mellohi": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[6]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[6]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[6]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[6]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_stal": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[7]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[7]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[7]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[7]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_strad": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[8]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[8]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[8]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[8]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_wait": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[11]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[11]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[11]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[11]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:record_ward": [
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[1].entries[9]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[9]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[3].entries[9]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "loot_table": "loot_tables/entities/creeper.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[9]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:red_mushroom": [
+    {
+      "entity": "minecraft:zombie",
+      "loot_table": "loot_tables/entities/zombie_rider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:redstone": [
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 4,
+            "max": 8
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:rotten_flesh": [
+    {
+      "entity": "minecraft:drowned",
+      "loot_table": "loot_tables/entities/drowned.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:husk",
+      "loot_table": "loot_tables/entities/husk_rider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_horse",
+      "loot_table": "loot_tables/entities/zombie_horse.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_pigman",
+      "loot_table": "loot_tables/entities/zombie_pigman.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zoglin",
+      "loot_table": "loot_tables/entities/zoglin.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:camel_husk",
+      "loot_table": "loot_tables/entities/camel_husk.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_nautilus",
+      "loot_table": "loot_tables/entities/zombie_nautilus.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 3
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie",
+      "loot_table": "loot_tables/entities/zombie_rider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:zombie_villager_v2",
+      "loot_table": "loot_tables/entities/zombie.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:saddle": [
+    {
+      "entity": "minecraft:pig",
+      "loot_table": "loot_tables/entities/pig_saddled.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:ravager",
+      "loot_table": "loot_tables/entities/ravager.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:salmon": [
+    {
+      "entity": "minecraft:salmon",
+      "loot_table": "loot_tables/entities/salmon_normal.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:polar_bear",
+      "loot_table": "loot_tables/entities/polar_bear.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "furnace_smelt",
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "properties": {
+                "on_fire": true
+              }
+            }
+          ]
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:sculk_catalyst": [
+    {
+      "entity": "minecraft:warden",
+      "loot_table": "loot_tables/entities/warden.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:seagrass": [
+    {
+      "entity": "minecraft:turtle",
+      "loot_table": "loot_tables/entities/sea_turtle.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:shulker_shell": [
+    {
+      "entity": "minecraft:shulker",
+      "loot_table": "loot_tables/entities/shulker.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:skull": [
+    {
+      "entity": "minecraft:wither_skeleton",
+      "loot_table": "loot_tables/entities/wither_skeleton.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_data",
+          "data": 1
+        }
+      ],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:slime_ball": [
+    {
+      "entity": "minecraft:slime",
+      "loot_table": "loot_tables/entities/slime.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:snowball": [
+    {
+      "entity": "minecraft:snow_golem",
+      "loot_table": "loot_tables/entities/snowman.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 15
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:spider_eye": [
+    {
+      "entity": "minecraft:cave_spider",
+      "loot_table": "loot_tables/entities/spider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[2]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:spider",
+      "loot_table": "loot_tables/entities/spider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:stick": [
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[5]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:string": [
+    {
+      "entity": "minecraft:cave_spider",
+      "loot_table": "loot_tables/entities/spider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:strider",
+      "loot_table": "loot_tables/entities/strider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:cat",
+      "loot_table": "loot_tables/entities/cat.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    },
+    {
+      "entity": "minecraft:spider",
+      "loot_table": "loot_tables/entities/spider.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:sugar": [
+    {
+      "entity": "minecraft:witch",
+      "loot_table": "loot_tables/entities/witch.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "function": "looting_enchant",
+          "count": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[0].entries[1]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:tide_armor_trim_smithing_template": [
+    {
+      "entity": "minecraft:elder_guardian",
+      "loot_table": "loot_tables/entities/elder_guardian.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[4].entries[1]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:totem": [
+    {
+      "entity": "minecraft:evocation_illager",
+      "loot_table": "loot_tables/entities/evocation_illager.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "pool_path": "$.pools[1].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:wet_sponge": [
+    {
+      "entity": "minecraft:elder_guardian",
+      "loot_table": "loot_tables/entities/elder_guardian.json",
+      "conditions": [],
+      "functions": [],
+      "pool_path": "$.pools[2].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ],
+  "minecraft:wool": [
+    {
+      "entity": "minecraft:sheep",
+      "loot_table": "loot_tables/entities/sheep.json",
+      "conditions": [],
+      "functions": [
+        {
+          "function": "minecraft:set_data_from_color_index"
+        }
+      ],
+      "pool_path": "$.pools[0].entries[0]",
+      "status": "potential_not_guaranteed"
+    }
+  ]
+}

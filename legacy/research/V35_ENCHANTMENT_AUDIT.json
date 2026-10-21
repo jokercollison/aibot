@@ -1,0 +1,22 @@
+{
+  "registry_count": 42,
+  "max_levels_present": 41,
+  "unknown_max_levels": [
+    "minecraft:lunge"
+  ],
+  "scope": "All 42 sample enchantment identifiers now have a searchable effect summary and equipment family. Precise compatibility and current 1.26.50 runtime behavior remain to be tested.",
+  "runtime_verification": "Stable API EnchantmentTypes.getAll() and EnchantmentType.maxLevel can confirm available IDs and levels in-game.",
+  "sources": [
+    "https://learn.microsoft.com/en-us/minecraft/creator/documents/introtoenchantments?view=minecraft-bedrock-stable",
+    "https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/enchantmenttypes?view=minecraft-bedrock-stable",
+    "https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/enchantmenttype?view=minecraft-bedrock-stable",
+    "https://minecraft.wiki/w/Enchantment"
+  ],
+  "limitations": [
+    "Minecraft Wiki direct crawling blocked",
+    "Equipment families are broad guidance, not item-by-item validated compatibility",
+    "Conflicts are inferred group rules; some nuanced exceptions exist",
+    "Lunge level and effects require version-specific confirmation",
+    "Do not treat this as fully tested encyclopedia"
+  ]
+}

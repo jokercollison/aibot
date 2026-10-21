@@ -1,0 +1,1474 @@
+{
+  "allay": [
+    {
+      "question": "What mob families does the allay belong to?",
+      "answer": "The allay is tagged with these Bedrock families: allay, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "armadillo": [
+    {
+      "question": "What mob families does the armadillo belong to?",
+      "answer": "The armadillo is tagged with these Bedrock families: armadillo, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "armor_stand": [
+    {
+      "question": "What mob families does the armor stand belong to?",
+      "answer": "The armor stand is tagged with these Bedrock families: armor_stand, inanimate, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "arrow": [
+    {
+      "question": "What mob families does the arrow belong to?",
+      "answer": "The arrow is tagged with these Bedrock families: projectile, arrow.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "axolotl": [
+    {
+      "question": "What can the axolotl breathe?",
+      "answer": "The axolotl has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the axolotl belong to?",
+      "answer": "The axolotl is tagged with these Bedrock families: aquatic, axolotl, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "bat": [
+    {
+      "question": "What mob families does the bat belong to?",
+      "answer": "The bat is tagged with these Bedrock families: bat, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "bee": [
+    {
+      "question": "What mob families does the bee belong to?",
+      "answer": "The bee is tagged with these Bedrock families: bee, mob, arthropod.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "blaze": [
+    {
+      "question": "What mob families does the blaze belong to?",
+      "answer": "The blaze is tagged with these Bedrock families: blaze, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the blaze immune to fire?",
+      "answer": "The blaze has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "boat": [
+    {
+      "question": "What mob families does the boat belong to?",
+      "answer": "The boat is tagged with these Bedrock families: boat, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "bogged": [
+    {
+      "question": "What can the bogged breathe?",
+      "answer": "The bogged has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the bogged belong to?",
+      "answer": "The bogged is tagged with these Bedrock families: bogged, skeleton, monster, mob, undead.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the bogged burn in sunlight?",
+      "answer": "The bogged has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "breeze": [
+    {
+      "question": "What mob families does the breeze belong to?",
+      "answer": "The breeze is tagged with these Bedrock families: breeze, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "breeze_wind_charge_projectile": [
+    {
+      "question": "What mob families does the breeze wind charge projectile belong to?",
+      "answer": "The breeze wind charge projectile is tagged with these Bedrock families: projectile, wind_charge, wind_charge_projectile, breeze_wind_charge_projectile.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "camel": [
+    {
+      "question": "What mob families does the camel belong to?",
+      "answer": "The camel is tagged with these Bedrock families: camel, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "camel_husk": [
+    {
+      "question": "What can the camel husk breathe?",
+      "answer": "The camel husk has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the camel husk belong to?",
+      "answer": "The camel husk is tagged with these Bedrock families: camel_husk, mob, undead.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "cat": [
+    {
+      "question": "What mob families does the cat belong to?",
+      "answer": "The cat is tagged with these Bedrock families: cat, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "cave_spider": [
+    {
+      "question": "What mob families does the cave spider belong to?",
+      "answer": "The cave spider is tagged with these Bedrock families: cavespider, monster, arthropod, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "chest_boat": [
+    {
+      "question": "What mob families does the chest boat belong to?",
+      "answer": "The chest boat is tagged with these Bedrock families: boat, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "chest_minecart": [
+    {
+      "question": "What mob families does the chest minecart belong to?",
+      "answer": "The chest minecart is tagged with these Bedrock families: minecart, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "chicken": [
+    {
+      "question": "What mob families does the chicken belong to?",
+      "answer": "The chicken is tagged with these Bedrock families: chicken, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "cod": [
+    {
+      "question": "What can the cod breathe?",
+      "answer": "The cod has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the cod belong to?",
+      "answer": "The cod is tagged with these Bedrock families: aquatic, cod, fish.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "command_block_minecart": [
+    {
+      "question": "What mob families does the command block minecart belong to?",
+      "answer": "The command block minecart is tagged with these Bedrock families: minecart, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "copper_golem": [
+    {
+      "question": "What mob families does the copper golem belong to?",
+      "answer": "The copper golem is tagged with these Bedrock families: copper_golem, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "cow": [
+    {
+      "question": "What mob families does the cow belong to?",
+      "answer": "The cow is tagged with these Bedrock families: cow, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "creaking": [
+    {
+      "question": "What mob families does the creaking belong to?",
+      "answer": "The creaking is tagged with these Bedrock families: creaking, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "creeper": [
+    {
+      "question": "What mob families does the creeper belong to?",
+      "answer": "The creeper is tagged with these Bedrock families: creeper, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "cushion": [
+    {
+      "question": "What mob families does the cushion belong to?",
+      "answer": "The cushion is tagged with these Bedrock families: cushion, inanimate, actor.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "dolphin": [
+    {
+      "question": "What can the dolphin breathe?",
+      "answer": "The dolphin has these explicit breathing settings: air: yes (explicit); water: no (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the dolphin belong to?",
+      "answer": "The dolphin is tagged with these Bedrock families: aquatic, dolphin, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "donkey": [
+    {
+      "question": "What mob families does the donkey belong to?",
+      "answer": "The donkey is tagged with these Bedrock families: donkey, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "dragon_fireball": [
+    {
+      "question": "What mob families does the dragon fireball belong to?",
+      "answer": "The dragon fireball is tagged with these Bedrock families: projectile, dragon_fireball.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "drowned": [
+    {
+      "question": "What can the drowned breathe?",
+      "answer": "The drowned has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the drowned burn in sunlight?",
+      "answer": "The drowned has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "egg": [
+    {
+      "question": "What mob families does the egg belong to?",
+      "answer": "The egg is tagged with these Bedrock families: projectile, egg.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "elder_guardian": [
+    {
+      "question": "What can the elder guardian breathe?",
+      "answer": "The elder guardian has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the elder guardian belong to?",
+      "answer": "The elder guardian is tagged with these Bedrock families: aquatic, guardian_elder, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "ender_crystal": [
+    {
+      "question": "Is the ender crystal immune to fire?",
+      "answer": "The ender crystal has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "ender_dragon": [
+    {
+      "question": "What mob families does the ender dragon belong to?",
+      "answer": "The ender dragon is tagged with these Bedrock families: dragon, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the ender dragon immune to fire?",
+      "answer": "The ender dragon has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "ender_pearl": [
+    {
+      "question": "What mob families does the ender pearl belong to?",
+      "answer": "The ender pearl is tagged with these Bedrock families: projectile, ender_pearl.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "enderman": [
+    {
+      "question": "What mob families does the enderman belong to?",
+      "answer": "The enderman is tagged with these Bedrock families: enderman, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "endermite": [
+    {
+      "question": "What mob families does the endermite belong to?",
+      "answer": "The endermite is tagged with these Bedrock families: endermite, arthropod, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "evocation_illager": [
+    {
+      "question": "What mob families does the evocation illager belong to?",
+      "answer": "The evocation illager is tagged with these Bedrock families: evocation_illager, monster, illager, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "fireball": [
+    {
+      "question": "What mob families does the fireball belong to?",
+      "answer": "The fireball is tagged with these Bedrock families: projectile, fireball.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "fireworks_rocket": [
+    {
+      "question": "What mob families does the fireworks rocket belong to?",
+      "answer": "The fireworks rocket is tagged with these Bedrock families: projectile, fireworks_rocket.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "fishing_hook": [
+    {
+      "question": "What mob families does the fishing hook belong to?",
+      "answer": "The fishing hook is tagged with these Bedrock families: projectile, fishing_hook.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "fox": [
+    {
+      "question": "What mob families does the fox belong to?",
+      "answer": "The fox is tagged with these Bedrock families: fox, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "frog": [
+    {
+      "question": "What can the frog breathe?",
+      "answer": "The frog has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What do I feed frogs to breed them?",
+      "answer": "Bedrock lists these breeding items for the frog: slime_ball.",
+      "topic": "breeding",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the frog belong to?",
+      "answer": "The frog is tagged with these Bedrock families: frog, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "ghast": [
+    {
+      "question": "What mob families does the ghast belong to?",
+      "answer": "The ghast is tagged with these Bedrock families: ghast, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the ghast immune to fire?",
+      "answer": "The ghast has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "glow_squid": [
+    {
+      "question": "What can the glow squid breathe?",
+      "answer": "The glow squid has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the glow squid belong to?",
+      "answer": "The glow squid is tagged with these Bedrock families: aquatic, squid, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "goat": [
+    {
+      "question": "What mob families does the goat belong to?",
+      "answer": "The goat is tagged with these Bedrock families: goat, animal.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "guardian": [
+    {
+      "question": "What can the guardian breathe?",
+      "answer": "The guardian has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the guardian belong to?",
+      "answer": "The guardian is tagged with these Bedrock families: aquatic, guardian, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "happy_ghast": [
+    {
+      "question": "What mob families does the happy ghast belong to?",
+      "answer": "The happy ghast is tagged with these Bedrock families: happy_ghast, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "hopper_minecart": [
+    {
+      "question": "What mob families does the hopper minecart belong to?",
+      "answer": "The hopper minecart is tagged with these Bedrock families: minecart, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "horse": [
+    {
+      "question": "What mob families does the horse belong to?",
+      "answer": "The horse is tagged with these Bedrock families: horse, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "husk": [
+    {
+      "question": "What can the husk breathe?",
+      "answer": "The husk has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the husk belong to?",
+      "answer": "The husk is tagged with these Bedrock families: husk, zombie, undead, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "iron_golem": [
+    {
+      "question": "What mob families does the iron golem belong to?",
+      "answer": "The iron golem is tagged with these Bedrock families: irongolem, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "lightning_bolt": [
+    {
+      "question": "What mob families does the lightning bolt belong to?",
+      "answer": "The lightning bolt is tagged with these Bedrock families: lightning.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "lingering_potion": [
+    {
+      "question": "What mob families does the lingering potion belong to?",
+      "answer": "The lingering potion is tagged with these Bedrock families: projectile, lingering_potion.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "llama": [
+    {
+      "question": "What mob families does the llama belong to?",
+      "answer": "The llama is tagged with these Bedrock families: llama, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "llama_spit": [
+    {
+      "question": "What mob families does the llama spit belong to?",
+      "answer": "The llama spit is tagged with these Bedrock families: projectile, llama_spit.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "magma_cube": [
+    {
+      "question": "What can the magma cube breathe?",
+      "answer": "The magma cube has these explicit breathing settings: lava: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the magma cube belong to?",
+      "answer": "The magma cube is tagged with these Bedrock families: magmacube, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the magma cube immune to fire?",
+      "answer": "The magma cube has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the magma cube burn in sunlight?",
+      "answer": "The magma cube has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "minecart": [
+    {
+      "question": "What mob families does the minecart belong to?",
+      "answer": "The minecart is tagged with these Bedrock families: minecart, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "mooshroom": [
+    {
+      "question": "What mob families does the mooshroom belong to?",
+      "answer": "The mooshroom is tagged with these Bedrock families: mushroomcow, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "mule": [
+    {
+      "question": "What mob families does the mule belong to?",
+      "answer": "The mule is tagged with these Bedrock families: mule, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "nautilus": [
+    {
+      "question": "What can the nautilus breathe?",
+      "answer": "The nautilus has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the nautilus belong to?",
+      "answer": "The nautilus is tagged with these Bedrock families: aquatic, nautilus, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "npc": [
+    {
+      "question": "What mob families does the npc belong to?",
+      "answer": "The npc is tagged with these Bedrock families: npc, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the npc immune to fire?",
+      "answer": "The npc has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "ocelot": [
+    {
+      "question": "What mob families does the ocelot belong to?",
+      "answer": "The ocelot is tagged with these Bedrock families: ocelot, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "panda": [
+    {
+      "question": "What mob families does the panda belong to?",
+      "answer": "The panda is tagged with these Bedrock families: panda.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "parched": [
+    {
+      "question": "What can the parched breathe?",
+      "answer": "The parched has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the parched belong to?",
+      "answer": "The parched is tagged with these Bedrock families: parched, skeleton, monster, mob, undead.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "phantom": [
+    {
+      "question": "What can the phantom breathe?",
+      "answer": "The phantom has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the phantom belong to?",
+      "answer": "The phantom is tagged with these Bedrock families: phantom, undead, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the phantom burn in sunlight?",
+      "answer": "The phantom has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "pig": [
+    {
+      "question": "What mob families does the pig belong to?",
+      "answer": "The pig is tagged with these Bedrock families: pig, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "piglin_brute": [
+    {
+      "question": "What mob families does the piglin brute belong to?",
+      "answer": "The piglin brute is tagged with these Bedrock families: piglin, adult_piglin, piglin_brute, monster.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "pillager": [
+    {
+      "question": "What mob families does the pillager belong to?",
+      "answer": "The pillager is tagged with these Bedrock families: pillager, monster, illager, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "player": [
+    {
+      "question": "What mob families does the player belong to?",
+      "answer": "The player is tagged with these Bedrock families: player.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "polar_bear": [
+    {
+      "question": "What mob families does the polar bear belong to?",
+      "answer": "The polar bear is tagged with these Bedrock families: polarbear, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "pufferfish": [
+    {
+      "question": "What can the pufferfish breathe?",
+      "answer": "The pufferfish has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the pufferfish belong to?",
+      "answer": "The pufferfish is tagged with these Bedrock families: aquatic, pufferfish, fish.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "rabbit": [
+    {
+      "question": "What mob families does the rabbit belong to?",
+      "answer": "The rabbit is tagged with these Bedrock families: rabbit, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "ravager": [
+    {
+      "question": "What mob families does the ravager belong to?",
+      "answer": "The ravager is tagged with these Bedrock families: monster, ravager, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "salmon": [
+    {
+      "question": "What can the salmon breathe?",
+      "answer": "The salmon has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the salmon belong to?",
+      "answer": "The salmon is tagged with these Bedrock families: aquatic, salmon, fish.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "sheep": [
+    {
+      "question": "What mob families does the sheep belong to?",
+      "answer": "The sheep is tagged with these Bedrock families: sheep, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "shulker": [
+    {
+      "question": "What can the shulker breathe?",
+      "answer": "The shulker has these explicit breathing settings: water: no (explicit); lava: no (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the shulker belong to?",
+      "answer": "The shulker is tagged with these Bedrock families: shulker, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the shulker immune to fire?",
+      "answer": "The shulker has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "shulker_bullet": [
+    {
+      "question": "What mob families does the shulker bullet belong to?",
+      "answer": "The shulker bullet is tagged with these Bedrock families: projectile, shulker_bullet.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "silverfish": [
+    {
+      "question": "What mob families does the silverfish belong to?",
+      "answer": "The silverfish is tagged with these Bedrock families: silverfish, monster, mob, arthropod.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "skeleton": [
+    {
+      "question": "What can the skeleton breathe?",
+      "answer": "The skeleton has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the skeleton belong to?",
+      "answer": "The skeleton is tagged with these Bedrock families: skeleton, undead, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the skeleton burn in sunlight?",
+      "answer": "The skeleton has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "skeleton_horse": [
+    {
+      "question": "What can the skeleton horse breathe?",
+      "answer": "The skeleton horse has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the skeleton horse belong to?",
+      "answer": "The skeleton horse is tagged with these Bedrock families: skeletonhorse, undead, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "slime": [
+    {
+      "question": "What mob families does the slime belong to?",
+      "answer": "The slime is tagged with these Bedrock families: slime, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "small_fireball": [
+    {
+      "question": "What mob families does the small fireball belong to?",
+      "answer": "The small fireball is tagged with these Bedrock families: projectile, small_fireball.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "sniffer": [
+    {
+      "question": "What mob families does the sniffer belong to?",
+      "answer": "The sniffer is tagged with these Bedrock families: sniffer, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "snow_golem": [
+    {
+      "question": "What mob families does the snow golem belong to?",
+      "answer": "The snow golem is tagged with these Bedrock families: snowgolem, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "snowball": [
+    {
+      "question": "What mob families does the snowball belong to?",
+      "answer": "The snowball is tagged with these Bedrock families: projectile, snowball.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "spider": [
+    {
+      "question": "What mob families does the spider belong to?",
+      "answer": "The spider is tagged with these Bedrock families: spider, monster, mob, arthropod.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "splash_potion": [
+    {
+      "question": "What mob families does the splash potion belong to?",
+      "answer": "The splash potion is tagged with these Bedrock families: projectile, splash_potion.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "squid": [
+    {
+      "question": "What can the squid breathe?",
+      "answer": "The squid has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the squid belong to?",
+      "answer": "The squid is tagged with these Bedrock families: aquatic, squid, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "stray": [
+    {
+      "question": "What can the stray breathe?",
+      "answer": "The stray has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the stray belong to?",
+      "answer": "The stray is tagged with these Bedrock families: stray, skeleton, monster, mob, undead.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the stray burn in sunlight?",
+      "answer": "The stray has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "strider": [
+    {
+      "question": "What mob families does the strider belong to?",
+      "answer": "The strider is tagged with these Bedrock families: strider, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the strider immune to fire?",
+      "answer": "The strider has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "sulfur_cube": [
+    {
+      "question": "What mob families does the sulfur cube belong to?",
+      "answer": "The sulfur cube is tagged with these Bedrock families: sulfur_cube, animal, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "tadpole": [
+    {
+      "question": "What can the tadpole breathe?",
+      "answer": "The tadpole has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the tadpole belong to?",
+      "answer": "The tadpole is tagged with these Bedrock families: aquatic, tadpole, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "thrown_trident": [
+    {
+      "question": "What mob families does the thrown trident belong to?",
+      "answer": "The thrown trident is tagged with these Bedrock families: projectile, thrown_trident.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "tnt": [
+    {
+      "question": "What mob families does the tnt belong to?",
+      "answer": "The tnt is tagged with these Bedrock families: tnt, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "tnt_minecart": [
+    {
+      "question": "What mob families does the tnt minecart belong to?",
+      "answer": "The tnt minecart is tagged with these Bedrock families: minecart, inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "trader_llama": [
+    {
+      "question": "What mob families does the trader llama belong to?",
+      "answer": "The trader llama is tagged with these Bedrock families: trader_llama, llama, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "tripod_camera": [
+    {
+      "question": "What mob families does the tripod camera belong to?",
+      "answer": "The tripod camera is tagged with these Bedrock families: tripodcamera, inanimate, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "tropicalfish": [
+    {
+      "question": "What can the tropicalfish breathe?",
+      "answer": "The tropicalfish has these explicit breathing settings: air: no (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the tropicalfish belong to?",
+      "answer": "The tropicalfish is tagged with these Bedrock families: aquatic, tropicalfish, fish.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "turtle": [
+    {
+      "question": "What can the turtle breathe?",
+      "answer": "The turtle has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "vex": [
+    {
+      "question": "What mob families does the vex belong to?",
+      "answer": "The vex is tagged with these Bedrock families: vex, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the vex immune to fire?",
+      "answer": "The vex has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "villager": [
+    {
+      "question": "What mob families does the villager belong to?",
+      "answer": "The villager is tagged with these Bedrock families: villager, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "villager_v2": [
+    {
+      "question": "What mob families does the villager v2 belong to?",
+      "answer": "The villager v2 is tagged with these Bedrock families: villager, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "vindicator": [
+    {
+      "question": "What mob families does the vindicator belong to?",
+      "answer": "The vindicator is tagged with these Bedrock families: vindicator, monster, illager, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wandering_trader": [
+    {
+      "question": "What mob families does the wandering trader belong to?",
+      "answer": "The wandering trader is tagged with these Bedrock families: wandering_trader, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "warden": [
+    {
+      "question": "What mob families does the warden belong to?",
+      "answer": "The warden is tagged with these Bedrock families: warden, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the warden immune to fire?",
+      "answer": "The warden has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wind_charge_projectile": [
+    {
+      "question": "What mob families does the wind charge projectile belong to?",
+      "answer": "The wind charge projectile is tagged with these Bedrock families: projectile, wind_charge, wind_charge_projectile.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "witch": [
+    {
+      "question": "What mob families does the witch belong to?",
+      "answer": "The witch is tagged with these Bedrock families: witch, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wither": [
+    {
+      "question": "What can the wither breathe?",
+      "answer": "The wither has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the wither belong to?",
+      "answer": "The wither is tagged with these Bedrock families: wither, skeleton, monster, undead, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the wither immune to fire?",
+      "answer": "The wither has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wither_skeleton": [
+    {
+      "question": "What can the wither skeleton breathe?",
+      "answer": "The wither skeleton has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the wither skeleton belong to?",
+      "answer": "The wither skeleton is tagged with these Bedrock families: wither, monster, undead, skeleton, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the wither skeleton immune to fire?",
+      "answer": "The wither skeleton has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wither_skull": [
+    {
+      "question": "What mob families does the wither skull belong to?",
+      "answer": "The wither skull is tagged with these Bedrock families: projectile, wither_skull.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wither_skull_dangerous": [
+    {
+      "question": "What mob families does the wither skull dangerous belong to?",
+      "answer": "The wither skull dangerous is tagged with these Bedrock families: projectile, wither_skull_dangerous.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "wolf": [
+    {
+      "question": "What mob families does the wolf belong to?",
+      "answer": "The wolf is tagged with these Bedrock families: wolf, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "xp_bottle": [
+    {
+      "question": "What mob families does the xp bottle belong to?",
+      "answer": "The xp bottle is tagged with these Bedrock families: projectile, xp_bottle.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "xp_orb": [
+    {
+      "question": "What mob families does the xp orb belong to?",
+      "answer": "The xp orb is tagged with these Bedrock families: inanimate.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zoglin": [
+    {
+      "question": "What can the zoglin breathe?",
+      "answer": "The zoglin has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the zoglin immune to fire?",
+      "answer": "The zoglin has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zombie": [
+    {
+      "question": "What can the zombie breathe?",
+      "answer": "The zombie has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the zombie belong to?",
+      "answer": "The zombie is tagged with these Bedrock families: zombie, undead, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the zombie burn in sunlight?",
+      "answer": "The zombie has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zombie_horse": [
+    {
+      "question": "What can the zombie horse breathe?",
+      "answer": "The zombie horse has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the zombie horse belong to?",
+      "answer": "The zombie horse is tagged with these Bedrock families: zombiehorse, undead, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the zombie horse burn in sunlight?",
+      "answer": "The zombie horse has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zombie_nautilus": [
+    {
+      "question": "What can the zombie nautilus breathe?",
+      "answer": "The zombie nautilus has these explicit breathing settings: air: yes (explicit); water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "What mob families does the zombie nautilus belong to?",
+      "answer": "The zombie nautilus is tagged with these Bedrock families: aquatic, zombie_nautilus, undead, monster, mob.",
+      "topic": "families",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the zombie nautilus burn in sunlight?",
+      "answer": "The zombie nautilus has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zombie_pigman": [
+    {
+      "question": "What can the zombie pigman breathe?",
+      "answer": "The zombie pigman has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Is the zombie pigman immune to fire?",
+      "answer": "The zombie pigman has the fire-immune component in its base definition.",
+      "topic": "fire",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zombie_villager": [
+    {
+      "question": "What can the zombie villager breathe?",
+      "answer": "The zombie villager has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the zombie villager burn in sunlight?",
+      "answer": "The zombie villager has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "zombie_villager_v2": [
+    {
+      "question": "What can the zombie villager v2 breathe?",
+      "answer": "The zombie villager v2 has these explicit breathing settings: water: yes (explicit). Other breathing properties follow engine defaults.",
+      "topic": "breathing",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    },
+    {
+      "question": "Does the zombie villager v2 burn in sunlight?",
+      "answer": "The zombie villager v2 has the burns-in-daylight component in its base definition.",
+      "topic": "sunlight",
+      "caveat": "Conditional groups and engine defaults can modify this answer."
+    }
+  ],
+  "_wiki": [
+    {
+      "id": "wiki_v27_cow_breeding",
+      "question": "How do I breed cows?",
+      "answer": "Feed wheat to two adult cows that are close together. They can produce a calf.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Breeding",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_sheep_breeding",
+      "question": "How do I breed sheep?",
+      "answer": "Feed wheat to two adult sheep. You can also dye sheep and shear their wool.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Breeding",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_chicken_breeding",
+      "question": "How do I breed chickens?",
+      "answer": "Feed seeds to two adult chickens. They can produce a chick.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Breeding",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_wolf_breeding",
+      "question": "How do I breed wolves?",
+      "answer": "Tame two wolves, then feed each appropriate meat while both are at full health to breed them.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Wolf",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_cat_breeding",
+      "question": "How do I breed cats?",
+      "answer": "Tame two cats and feed each raw cod or raw salmon to breed them.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Cat",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_axolotl_breeding",
+      "question": "How do I breed axolotls?",
+      "answer": "Feed each of two adult axolotls a bucket of tropical fish. Ordinary tropical fish items will not work.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Axolotl",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_axolotl_blue",
+      "question": "How rare is a blue axolotl?",
+      "answer": "When breeding axolotls, a blue baby is very rare unless one parent is already blue. Check current Bedrock rates before giving exact odds.",
+      "category": "mob_variants",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Axolotl",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_parrot_breeding",
+      "question": "Can parrots be bred?",
+      "answer": "No. Parrots can be tamed with seeds, but they cannot be bred in normal Minecraft gameplay.",
+      "category": "mob_breeding",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Parrot",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_mob_spawning_light",
+      "question": "How do I stop hostile mobs spawning near my base?",
+      "answer": "Light up dark areas and use suitable spawn-proof surfaces, such as carpets or bottom slabs. Some mobs have special spawning rules.",
+      "category": "mob_spawning",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Tutorial:Spawn-proofing",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_spawn_bottom_slabs",
+      "question": "Can monsters spawn on bottom slabs?",
+      "answer": "Most ordinary ground-spawning hostile mobs cannot spawn on bottom slabs; other special spawn rules may apply.",
+      "category": "block_mechanics",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Tutorial:Spawn-proofing",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_spawn_carpet",
+      "question": "Can hostile mobs spawn on carpet?",
+      "answer": "Ordinary ground-spawning hostile mobs generally cannot spawn on carpet.",
+      "category": "block_mechanics",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Tutorial:Spawn-proofing",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_falling_blocks",
+      "question": "Which blocks fall when unsupported?",
+      "answer": "Sand, gravel, concrete powder, and anvils are examples of gravity-affected blocks. Many other blocks remain floating.",
+      "category": "block_mechanics",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Block",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_redstone_bud",
+      "question": "Do Java BUD switches work in Bedrock?",
+      "answer": "Many Java-style block update detector circuits do not work in Bedrock. Use Bedrock-tested observer-based designs instead.",
+      "category": "redstone",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Tutorial:Block_update_detector",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_flying_machine",
+      "question": "Can I make a flying machine in Bedrock?",
+      "answer": "Yes, but piston and observer designs must be built for Bedrock; Java Edition layouts may behave differently.",
+      "category": "redstone",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Tutorial:Flying_machines",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_bedrock_shield",
+      "question": "How do I use a shield in Bedrock?",
+      "answer": "Equip a shield in the offhand and crouch to raise it. It blocks many direct attacks, but not every kind of damage.",
+      "category": "combat",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Blocking",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    },
+    {
+      "id": "wiki_v27_bedrock_mob_switch",
+      "question": "Can I build a Java-style global mob switch in Bedrock?",
+      "answer": "Not in the same way. Bedrock spawning uses local limits; Java global mob-switch tutorials should not be copied directly.",
+      "category": "mob_spawning",
+      "edition": "bedrock",
+      "content_rating": "family_friendly",
+      "status": "source_supported_pending_current_version_check",
+      "source_url": "https://minecraft.wiki/w/Tutorial:Mob_switch",
+      "source_access": "search_indexed_excerpt_or_topic_reference"
+    }
+  ]
+}

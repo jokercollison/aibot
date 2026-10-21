@@ -1,0 +1,1223 @@
+{
+  "source": "Bedrock Samples v1.26.50.4",
+  "recipe_files": 1892,
+  "recipe_type_counts": {
+    "shaped": 1064,
+    "shapeless": 591,
+    "brewing_mix": 70,
+    "brewing_container": 2,
+    "furnace": 152,
+    "smithing_trim": 1,
+    "smithing_transform": 12
+  },
+  "station_tag_counts": {
+    "crafting_table": 1281,
+    "deprecated": 34,
+    "brewing_stand": 72,
+    "cartography_table": 2,
+    "stonecutter": 356,
+    "furnace": 134,
+    "blast_furnace": 62,
+    "smoker": 9,
+    "campfire": 9,
+    "soul_campfire": 9,
+    "smithing_table": 13
+  },
+  "existing_output_lookup_keys": 909,
+  "indexed_recipe_result_ids": 924,
+  "recipes_without_standard_result_field": [
+    {
+      "id": "minecraft:brew_awkward_blaze_powder",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_blaze_powder.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_breeze_rod",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_breeze_rod.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_ghast_tear",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_ghast_tear.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_golden_carrot",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_golden_carrot.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_magma_cream",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_magma_cream.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_phantom_membrane",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_phantom_membrane.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_poison",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_puffer_fish",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_puffer_fish.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_rabbit_foot",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_rabbit_foot.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_slime_block",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_slime_block.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_stone.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_sugar",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_sugar.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_turtle_helmet",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_turtle_helmet.json"
+    },
+    {
+      "id": "minecraft:brew_awkward_web",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_web.json"
+    },
+    {
+      "id": "minecraft:brew_fireresistance_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_fireresistance_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_harming_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_harming_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_healing_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_healing_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_healing_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_healing_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_invisibility_red_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_invisibility_red_stone.json"
+    },
+    {
+      "id": "minecraft:brew_leaping_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_leaping_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_leaping_glow_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_leaping_glow_stone.json"
+    },
+    {
+      "id": "minecraft:brew_leaping_red_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_leaping_red_stone.json"
+    },
+    {
+      "id": "minecraft:brew_longPoison_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_long_poison_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_long_mundane_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_long_mundane_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_long_strength_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_long_strength_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_longleaping_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_long_leaping_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_longnightvision_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_longnightvision_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_longswiftness_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_longswiftness_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_mundane_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_mundane_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_nightvision_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_nightvision_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_nightvision_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_nightvision_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_poison_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_poison_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_poison_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_poison_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_poison_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_poison_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_potion_sulphur",
+      "type": "brewing_container",
+      "source_file": "behavior_pack/recipes/brew_potion_sulphur.json"
+    },
+    {
+      "id": "minecraft:brew_regeneration_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_regeneration_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_regeneration_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_regeneration_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_slow_falling_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_slow_falling_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_slowness_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_slowness_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_slowness_red_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_slowness_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_splash_potion_dragon_breath",
+      "type": "brewing_container",
+      "source_file": "behavior_pack/recipes/brew_splash_potion_dragon_breath.json"
+    },
+    {
+      "id": "minecraft:brew_strength_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_strength_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_strength_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_strength_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_strength_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_strength_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_strongHealing_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_strong_healing_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_strong_poison_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_strong_poison_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_strong_strength_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_strong_strength_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_swiftness_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_swiftness_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_swiftness_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_swiftness_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_swiftness_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_swiftness_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_thick_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_thick_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_turtleMaster_glowstone_dust",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_turtle_master_glowstone_dust.json"
+    },
+    {
+      "id": "minecraft:brew_turtleMaster_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_turtle_master_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_water_blaze_powder",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_blaze_powder.json"
+    },
+    {
+      "id": "minecraft:brew_water_breathing_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_breathing_redstone.json"
+    },
+    {
+      "id": "minecraft:brew_water_breathing_speckled_melon",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_awkward_speckled_melon.json"
+    },
+    {
+      "id": "minecraft:brew_water_breeze_rod",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_breeze_rod.json"
+    },
+    {
+      "id": "minecraft:brew_water_fermented_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_fermented_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_water_ghast_tear",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_ghast_tear.json"
+    },
+    {
+      "id": "minecraft:brew_water_glow_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_glow_stone.json"
+    },
+    {
+      "id": "minecraft:brew_water_magma_cream",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_magma_cream.json"
+    },
+    {
+      "id": "minecraft:brew_water_nether_wart",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_nether_wart.json"
+    },
+    {
+      "id": "minecraft:brew_water_rabbit_foot",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_rabbit_foot.json"
+    },
+    {
+      "id": "minecraft:brew_water_red_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_red_stone.json"
+    },
+    {
+      "id": "minecraft:brew_water_slime_block",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_slime_block.json"
+    },
+    {
+      "id": "minecraft:brew_water_speckled_melon",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_speckled_melon.json"
+    },
+    {
+      "id": "minecraft:brew_water_spider_eye",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_spider_eye.json"
+    },
+    {
+      "id": "minecraft:brew_water_stone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_stone.json"
+    },
+    {
+      "id": "minecraft:brew_water_sugar",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_sugar.json"
+    },
+    {
+      "id": "minecraft:brew_water_web",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_water_web.json"
+    },
+    {
+      "id": "minecraft:brew_weakness_redstone",
+      "type": "brewing_mix",
+      "source_file": "behavior_pack/recipes/brew_weakness_redstone.json"
+    },
+    {
+      "id": "minecraft:cracked_deepslate_bricks_furnace",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/cracked_deepslate_bricks_furnace.json"
+    },
+    {
+      "id": "minecraft:cracked_deepslate_tiles_furnace",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/cracked_deepslate_tiles_furnace.json"
+    },
+    {
+      "id": "minecraft:deepslate_furnace",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/deepslate_furnace.json"
+    },
+    {
+      "id": "minecraft:furnace_acacia_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_acacia_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_acacia_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_acacia_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_ancient_debris",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_ancient_debris.json"
+    },
+    {
+      "id": "minecraft:furnace_azalea_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_azalea_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_beef",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_beef.json"
+    },
+    {
+      "id": "minecraft:furnace_birch_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_birch_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_birch_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_birch_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_cactus",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_cactus.json"
+    },
+    {
+      "id": "minecraft:furnace_chainmail_boots",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_chainmail_boots.json"
+    },
+    {
+      "id": "minecraft:furnace_chainmail_chestplate",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_chainmail_chestplate.json"
+    },
+    {
+      "id": "minecraft:furnace_chainmail_helmet",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_chainmail_helmet.json"
+    },
+    {
+      "id": "minecraft:furnace_chainmail_leggings",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_chainmail_leggings.json"
+    },
+    {
+      "id": "minecraft:furnace_cherry_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_cherry_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_chicken",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_chicken.json"
+    },
+    {
+      "id": "minecraft:furnace_chorus_fruit",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_chorus_fruit.json"
+    },
+    {
+      "id": "minecraft:furnace_clay",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_clay.json"
+    },
+    {
+      "id": "minecraft:furnace_clay_ball",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_clay_ball.json"
+    },
+    {
+      "id": "minecraft:furnace_coal_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_coal_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_cobblestone",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_cobblestone.json"
+    },
+    {
+      "id": "minecraft:furnace_copper",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_axe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_axe.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_boots",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_boots.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_chestplate",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_chestplate.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_helmet",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_helmet.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_hoe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_hoe.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_leggings",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_leggings.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_nautilus_armor",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_nautilus_armor.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_pickaxe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_pickaxe.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_shovel",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_shovel.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_spear",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_spear.json"
+    },
+    {
+      "id": "minecraft:furnace_copper_sword",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_copper_sword.json"
+    },
+    {
+      "id": "minecraft:furnace_cracked_nether_bricks",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_cracked_nether_bricks.json"
+    },
+    {
+      "id": "minecraft:furnace_cracked_polished_blackstone_bricks",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_cracked_polished_blackstone_bricks.json"
+    },
+    {
+      "id": "minecraft:furnace_dark_oak_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_dark_oak_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_dark_oak_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_dark_oak_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_coal_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_coal_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_copper_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_copper_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_diamond_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_diamond_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_emerald_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_emerald_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_gold_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_gold_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_iron_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_iron_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_lapis_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_lapis_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_deepslate_redstone_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_deepslate_redstone_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_diamond_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_diamond_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_emerald_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_emerald_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_fish",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_fish.json"
+    },
+    {
+      "id": "minecraft:furnace_flowering_azalea_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_flowering_azalea_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_gold",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_gold.json"
+    },
+    {
+      "id": "minecraft:furnace_gold_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_gold_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_axe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_axe.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_boots",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_boots.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_chestplate",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_chestplate.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_helmet",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_helmet.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_hoe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_hoe.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_leggings",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_leggings.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_nautilus_armor",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_nautilus_armor.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_pickaxe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_pickaxe.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_shovel",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_shovel.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_spear",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_spear.json"
+    },
+    {
+      "id": "minecraft:furnace_golden_sword",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_golden_sword.json"
+    },
+    {
+      "id": "minecraft:furnace_horse_armor_copper",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_horse_armor_copper.json"
+    },
+    {
+      "id": "minecraft:furnace_horse_armor_gold",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_horse_armor_gold.json"
+    },
+    {
+      "id": "minecraft:furnace_horse_armor_iron",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_horse_armor_iron.json"
+    },
+    {
+      "id": "minecraft:furnace_iron",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_axe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_axe.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_boots",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_boots.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_chestplate",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_chestplate.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_helmet",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_helmet.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_hoe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_hoe.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_leggings",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_leggings.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_nautilus_armor",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_nautilus_armor.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_pickaxe",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_pickaxe.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_shovel",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_shovel.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_spear",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_spear.json"
+    },
+    {
+      "id": "minecraft:furnace_iron_sword",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_iron_sword.json"
+    },
+    {
+      "id": "minecraft:furnace_jungle_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_jungle_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_jungle_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_jungle_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_kelp",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_kelp.json"
+    },
+    {
+      "id": "minecraft:furnace_lapis_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_lapis_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log.json"
+    },
+    {
+      "id": "minecraft:furnace_log2_acacia",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log2_acacia.json"
+    },
+    {
+      "id": "minecraft:furnace_log2_dark_oak",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log2_dark_oak.json"
+    },
+    {
+      "id": "minecraft:furnace_log_birch",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log_birch.json"
+    },
+    {
+      "id": "minecraft:furnace_log_jungle",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log_jungle.json"
+    },
+    {
+      "id": "minecraft:furnace_log_mangrove",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log_mangrove.json"
+    },
+    {
+      "id": "minecraft:furnace_log_oak",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log_oak.json"
+    },
+    {
+      "id": "minecraft:furnace_log_spruce",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_log_spruce.json"
+    },
+    {
+      "id": "minecraft:furnace_mangrove_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_mangrove_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_mangrove_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_mangrove_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_mutton_raw",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_mutton_raw.json"
+    },
+    {
+      "id": "minecraft:furnace_nether_gold_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_nether_gold_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_netherrack",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_netherrack.json"
+    },
+    {
+      "id": "minecraft:furnace_oak_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_oak_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_oak_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_oak_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_orange_poplar_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_orange_poplar_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_pale_oak_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_pale_oak_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_porkchop",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_porkchop.json"
+    },
+    {
+      "id": "minecraft:furnace_potato",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_potato.json"
+    },
+    {
+      "id": "minecraft:furnace_quartz_block",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_quartz_block.json"
+    },
+    {
+      "id": "minecraft:furnace_quartz_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_quartz_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_rabbit",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_rabbit.json"
+    },
+    {
+      "id": "minecraft:furnace_red_poplar_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_red_poplar_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_red_sand",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_red_sand.json"
+    },
+    {
+      "id": "minecraft:furnace_red_sandstone",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_red_sandstone.json"
+    },
+    {
+      "id": "minecraft:furnace_redstone_ore",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_redstone_ore.json"
+    },
+    {
+      "id": "minecraft:furnace_resin_brick",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_resin_brick.json"
+    },
+    {
+      "id": "minecraft:furnace_salmon",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_salmon.json"
+    },
+    {
+      "id": "minecraft:furnace_sand",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_sand.json"
+    },
+    {
+      "id": "minecraft:furnace_sandstone",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_sandstone.json"
+    },
+    {
+      "id": "minecraft:furnace_sea_pickle",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_sea_pickle.json"
+    },
+    {
+      "id": "minecraft:furnace_smooth_basalt",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_smooth_basalt.json"
+    },
+    {
+      "id": "minecraft:furnace_sponge",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_sponge.json"
+    },
+    {
+      "id": "minecraft:furnace_spruce_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_spruce_leaves.json"
+    },
+    {
+      "id": "minecraft:furnace_spruce_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_spruce_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay0",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay0.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay1",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay1.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay10",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay10.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay11",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay11.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay12",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay12.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay13",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay13.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay14",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay14.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay15",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay15.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay2",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay2.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay3",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay3.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay4",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay4.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay5",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay5.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay6",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay6.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay7",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay7.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay8",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay8.json"
+    },
+    {
+      "id": "minecraft:furnace_stained_hardened_clay9",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stained_hardened_clay9.json"
+    },
+    {
+      "id": "minecraft:furnace_stone",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stone.json"
+    },
+    {
+      "id": "minecraft:furnace_stone_brick",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stone_brick.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_acacia_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_acacia_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_acacia_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_acacia_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_birch_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_birch_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_birch_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_birch_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_dark_oak_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_dark_oak_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_dark_oak_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_dark_oak_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_jungle_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_jungle_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_jungle_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_jungle_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_mangrove_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_mangrove_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_mangrove_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_mangrove_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_oak_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_oak_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_oak_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_oak_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_spruce_log",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_spruce_log.json"
+    },
+    {
+      "id": "minecraft:furnace_stripped_spruce_wood",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_stripped_spruce_wood.json"
+    },
+    {
+      "id": "minecraft:furnace_yellow_poplar_leaves",
+      "type": "furnace",
+      "source_file": "behavior_pack/recipes/furnace_yellow_poplar_leaves.json"
+    },
+    {
+      "id": "minecraft:smithing_armor_trim",
+      "type": "smithing_trim",
+      "source_file": "behavior_pack/recipes/smithing_armor_trim.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_axe",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_axe.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_boots",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_boots.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_chestplate",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_chestplate.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_helmet",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_helmet.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_hoe",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_hoe.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_horse_armor",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_horse_armor.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_leggings",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_leggings.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_nautilus_armor",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_nautilus_armor.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_pickaxe",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_pickaxe.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_shovel",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_shovel.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_spear",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_spear.json"
+    },
+    {
+      "id": "minecraft:smithing_netherite_sword",
+      "type": "smithing_transform",
+      "source_file": "behavior_pack/recipes/smithing_netherite_sword.json"
+    }
+  ],
+  "limitations": [
+    "Recipe samples are not a complete list of obtainable items and blocks.",
+    "A missing recipe does not prove an item is unobtainable or uncraftable; recipe schema and game-version changes need validation.",
+    "Tag ingredients are interchangeable material groups; do not treat them as a specific item.",
+    "Some crafting outputs can also be obtained by mining, loot, trading, commands or other means.",
+    "In-game testing has not been completed."
+  ],
+  "ingredient_keys": 543
+}

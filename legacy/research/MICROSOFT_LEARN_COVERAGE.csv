@@ -1,0 +1,23 @@
+section,url,coverage_status,finding_or_next_check
+Portal / learning,https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable,reviewed landing page,"Entry point for tutorials, reference, tooling and release notes"
+Reference overview,https://learn.microsoft.com/en-us/minecraft/creator/reference/?view=minecraft-bedrock-stable,reviewed landing page,"Links to commands, APIs, Molang, behavior/resource pack and vanilla reference"
+Script API index,https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/?view=minecraft-bedrock-stable,indexed,Module and class reference; page hierarchy requires more work
+World class,https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/world?view=minecraft-bedrock-stable,reviewed excerpt,"World events, world properties, dimension and dynamic-property methods"
+Entity class,https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/entity?view=minecraft-bedrock-stable,reviewed excerpt,Entity.id documented as consistent across loads of world instance; dynamic properties and command execution
+World after events,https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/worldafterevents?view=minecraft-bedrock-stable,reviewed excerpt,Entity and player interaction signals; chatSend explicitly pre-release
+Scripting V2 overview,https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/v2-overview?view=minecraft-bedrock-stable,reviewed excerpt,worldInitialize replaced by worldLoad/startup; early execution restrictions
+Scripting events,https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/events?view=minecraft-bedrock-stable,reviewed excerpt,beforeEvents restricted execution; afterEvents read/write
+World and Dimension APIs,https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/world-apis?view=minecraft-bedrock-stable,reviewed excerpt,"Entity queries, blocks, biome and dimension operations"
+Command reference,https://learn.microsoft.com/en-us/minecraft/creator/commands/?view=minecraft-bedrock-stable,reviewed landing page,Command list; separate commands knowledge database later
+JSON schemas,https://learn.microsoft.com/en-us/minecraft/creator/reference/content/schemasreference/?view=minecraft-bedrock-stable,reviewed landing page,Versioned JSON schema list
+Vanilla JSON listings,https://learn.microsoft.com/en-us/minecraft/creator/reference/content/vanillalistingsreference/?view=minecraft-bedrock-stable,reviewed landing page,Block/entity/item IDs; sample archive gives full local files
+Recipe reference,https://learn.microsoft.com/en-us/minecraft/creator/reference/content/recipereference/?view=minecraft-bedrock-stable,reviewed landing page,"Shaped/shapeless, furnace, smithing and brewing"
+Features reference,https://learn.microsoft.com/en-us/minecraft/creator/reference/content/featuresreference/?view=minecraft-bedrock-stable,reviewed landing page,World-generation feature definitions
+Prior API 1.x,https://learn.microsoft.com/en-us/minecraft/creator/priorscriptapi/minecraft/server-1xx/world?view=minecraft-bedrock-stable,reviewed excerpt,Explicitly older API; do not use for fresh project
+Current UI forms,https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server-ui/modalformdata?view=minecraft-bedrock-stable,reviewed prior pass,Check current textField signature against runtime
+Server module,https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/minecraft-server?view=minecraft-bedrock-stable,reviewed prior pass,Module listing may be ahead of user runtime; pin only after testing
+Entity JSON,https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/?view=minecraft-bedrock-stable,indexed,"Entity components, goals, events and triggers"
+Molang,https://learn.microsoft.com/en-us/minecraft/creator/reference/content/molangreference/?view=minecraft-bedrock-stable,indexed,Animation/queries/expression syntax
+Resource pack reference,https://learn.microsoft.com/en-us/minecraft/creator/reference/?view=minecraft-bedrock-stable,indexed,"Animation, controllers, textures, particles, sounds"
+NPCs,https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable,indexed,NPC dialogues and interactions
+Release notes,https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable,indexed,Recheck stable release 1.26.50 and later changes

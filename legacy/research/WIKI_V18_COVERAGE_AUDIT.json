@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-20",
+  "version": 18,
+  "target": "Minecraft Bedrock 1.26.50",
+  "coverage": "Wiki category indexes + vanilla samples audit, not full article scrape",
+  "wiki_article_stubs": 223,
+  "categories": {
+    "enchantments": 42,
+    "biomes": 59,
+    "monster_mobs": 38,
+    "redstone_mechanisms": 52,
+    "passive_mobs": 32
+  },
+  "sample_data_counts": {
+    "trading": 27,
+    "biomes": 206,
+    "items": 933,
+    "spawn_rules": 60,
+    "entity_json": 252,
+    "blocks": 1395,
+    "recipes": 1892,
+    "loot_tables": 185
+  },
+  "sample_data_examples": {
+    "trading": [
+      "behavior_pack/trading/weapon_smith_trades.json",
+      "behavior_pack/trading/butcher_trades.json",
+      "behavior_pack/trading/fisherman_trades.json",
+      "behavior_pack/trading/fletcher_trades.json",
+      "behavior_pack/trading/stone_mason_trades.json"
+    ],
+    "biomes": [
+      "behavior_pack/biomes/snowy_slopes.biome.json",
+      "behavior_pack/biomes/mushroom_island_shore.biome.json",
+      "behavior_pack/biomes/legacy_frozen_ocean.biome.json",
+      "behavior_pack/biomes/frozen_ocean.biome.json",
+      "behavior_pack/biomes/mesa.biome.json"
+    ],
+    "items": [
+      "behavior_pack/items/black_bundle.json",
+      "behavior_pack/items/baked_potato.json",
+      "behavior_pack/items/wind_charge.json",
+      "behavior_pack/items/beetroot_soup.json",
+      "behavior_pack/items/spider_eye.json"
+    ],
+    "spawn_rules": [
+      "behavior_pack/spawn_rules/drowned.json",
+      "behavior_pack/spawn_rules/pillager.json",
+      "behavior_pack/spawn_rules/armadillo.json",
+      "behavior_pack/spawn_rules/guardian.json",
+      "behavior_pack/spawn_rules/husk.json"
+    ],
+    "entity_json": [
+      "behavior_pack/entities/snow_golem.json",
+      "behavior_pack/entities/drowned.json",
+      "behavior_pack/entities/pillager.json",
+      "behavior_pack/entities/armadillo.json",
+      "behavior_pack/entities/fireball.json"
+    ],
+    "blocks": [
+      "behavior_pack/blocks/yellow_wool_slab.block.json",
+      "behavior_pack/blocks/green_wool_stairs.block.json",
+      "behavior_pack/blocks/light_gray_wool_stairs.block.json",
+      "behavior_pack/blocks/black_concrete_slab.block.json",
+      "behavior_pack/blocks/magenta_concrete_slab.block.json"
+    ],
+    "recipes": [
+      "behavior_pack/recipes/waxing_oxidized_copper_block.json",
+      "behavior_pack/recipes/waxing_exposed_copper_golem_statue.json",
+      "behavior_pack/recipes/light_gray_concrete_powder.json",
+      "behavior_pack/recipes/wooden_axe_from_mangrove_planks.json",
+      "behavior_pack/recipes/stick_from_mangrove_planks.json"
+    ],
+    "loot_tables": [
+      "behavior_pack/loot_tables/chests/ruined_portal.json",
+      "behavior_pack/loot_tables/chests/village_blacksmith.json",
+      "behavior_pack/loot_tables/chests/abandoned_camp_common_chest.json",
+      "behavior_pack/loot_tables/chests/bastion_treasure.json",
+      "behavior_pack/loot_tables/chests/stronghold_crossing.json"
+    ]
+  },
+  "limitations": [
+    "Direct Minecraft Wiki article retrieval blocked by robots.txt",
+    "Search-index category pages are older and may omit new features",
+    "Article stubs are not verified factual answers",
+    "Wiki text not copied into product; original answers must be written",
+    "Java-only content is excluded from Bedrock gameplay",
+    "Dungeons and Story Mode treated as trivia only"
+  ],
+  "sources": [
+    "https://minecraft.wiki/w/Category:Enchantments",
+    "https://minecraft.wiki/w/Category:Biomes",
+    "https://minecraft.wiki/w/Category:Monster_mobs",
+    "https://minecraft.wiki/w/Category:Mechanisms",
+    "https://minecraft.wiki/w/Category:Entities",
+    "https://minecraft.wiki/w/Category:Minecraft",
+    "https://minecraft.wiki/w/Category:Gameplay"
+  ]
+}

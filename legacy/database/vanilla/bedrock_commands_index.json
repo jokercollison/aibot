@@ -1,0 +1,319 @@
+{
+  "source": "https://learn.microsoft.com/en-us/minecraft/creator/commands/commands?view=minecraft-bedrock-stable",
+  "secondary_source": "https://learn.microsoft.com/en-us/minecraft/creator/reference/content/commandsreference/examples/commandlist?view=minecraft-bedrock-stable",
+  "status": "index compiled from official documentation; individual syntax not yet extracted or tested",
+  "commands": [
+    {
+      "name": "/aimassist",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/allowlist",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/camera",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/camerashake",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/changesetting",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/clear",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/clearspawnpoint",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/clone",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/controlscheme",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/damage",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/daylock",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/deop",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/dialogue",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/difficulty",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/effect",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/enchant",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/event",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/execute",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/fill",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/fog",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/function",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/gamemode",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/gamerule",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/gametest",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/give",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/help",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/hud",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/inputpermission",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/kick",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/kill",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/list",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/locate",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/loot",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/me",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/mobevent",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/music",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/op",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/packstack",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/particle",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/permission",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/place",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/playanimation",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/playsound",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/project",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/recipe",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/reload",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/reloadconfig",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/reloadpacketlimitconfig",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/replaceitem",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/ride",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/save",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/say",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/schedule",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/scoreboard",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/script",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/scriptevent",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/sendshowstoreoffer",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/setblock",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/setmaxplayers",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/setworldspawn",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/spawnpoint",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/spreadplayers",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/stop",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/stopsound",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/structure",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/summon",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/tag",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/teleport",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/tell",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/tellraw",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/testfor",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/testforblock",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/testforblocks",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/tickingarea",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/time",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/title",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/titleraw",
+      "detail_status": "pending individual command review"
+    },
+    {
+      "name": "/weather",
+      "detail_status": "pending individual command review"
+    }
+  ]
+}

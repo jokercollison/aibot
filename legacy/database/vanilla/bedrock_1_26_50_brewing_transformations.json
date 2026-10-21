@@ -1,0 +1,578 @@
+[
+  {
+    "source_file": "behavior_pack/recipes/brew_nightvision_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_nightvision_redstone",
+    "input": "minecraft:potion_type:nightvision",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_nightvision"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_mundane_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_mundane_fermented_spider_eye",
+    "input": "minecraft:potion_type:mundane",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_leaping_glow_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_leaping_glow_stone",
+    "input": "minecraft:potion_type:leaping",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_leaping"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_rabbit_foot.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_rabbit_foot",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:rabbit_foot",
+    "output": "minecraft:potion_type:leaping"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_longnightvision_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_longnightvision_fermented_spider_eye",
+    "input": "minecraft:potion_type:long_nightvision",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:long_invisibility"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_turtle_master_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_turtleMaster_redstone",
+    "input": "minecraft:potion_type:turtle_master",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_turtle_master"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_ghast_tear.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_ghast_tear",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:ghast_tear",
+    "output": "minecraft:potion_type:regeneration"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_invisibility_red_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_invisibility_red_stone",
+    "input": "minecraft:potion_type:invisibility",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_invisibility"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_strength_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_strength_glowstone_dust",
+    "input": "minecraft:potion_type:strength",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_strength"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_turtle_master_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_turtleMaster_glowstone_dust",
+    "input": "minecraft:potion_type:turtle_master",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_turtle_master"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_phantom_membrane.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_phantom_membrane",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:phantom_membrane",
+    "output": "minecraft:potion_type:slow_falling"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_glow_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_glow_stone",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:Thick"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_spider_eye",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:spider_eye",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_strength_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_strength_fermented_spider_eye",
+    "input": "minecraft:potion_type:strength",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_leaping_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_leaping_fermented_spider_eye",
+    "input": "minecraft:potion_type:leaping",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:slowness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_swiftness_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_swiftness_glowstone_dust",
+    "input": "minecraft:potion_type:swiftness",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_swiftness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_slime_block.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_slime_block",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:slime",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_weakness_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_weakness_redstone",
+    "input": "minecraft:potion_type:weakness",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_rabbit_foot.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_rabbit_foot",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:rabbit_foot",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_slime_block.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_slime_block",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:slime",
+    "output": "minecraft:potion_type:oozing"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_fermented_spider_eye",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_web.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_web",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:web",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_swiftness_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_swiftness_redstone",
+    "input": "minecraft:potion_type:swiftness",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_swiftness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_nightvision_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_nightvision_fermented_spider_eye",
+    "input": "minecraft:potion_type:nightvision",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:invisibility"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_fermented_spider_eye",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_slow_falling_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_slow_falling_redstone",
+    "input": "minecraft:potion_type:slow_falling",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_slow_falling"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_magma_cream.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_magma_cream",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:magma_cream",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_speckled_melon.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_speckled_melon",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:speckled_melon",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_puffer_fish.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_puffer_fish",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:pufferfish",
+    "output": "minecraft:potion_type:water_breathing"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_speckled_melon.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_breathing_speckled_melon",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:speckled_melon",
+    "output": "minecraft:potion_type:healing"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_nether_wart.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_nether_wart",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:nether_wart",
+    "output": "minecraft:potion_type:Awkward"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_strong_healing_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_strongHealing_fermented_spider_eye",
+    "input": "minecraft:potion_type:strong_healing",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:strong_harming"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_strong_strength_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_strong_strength_fermented_spider_eye",
+    "input": "minecraft:potion_type:strong_strength",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_stone",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:stone",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_red_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_red_stone",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_slowness_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_slowness_red_stone",
+    "input": "minecraft:potion_type:slowness",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_slowness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_slowness_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_slowness_glowstone_dust",
+    "input": "minecraft:potion_type:slowness",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_slowness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_sugar.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_sugar",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:sugar",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_long_poison_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_longPoison_fermented_spider_eye",
+    "input": "minecraft:potion_type:long_poison",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:harming"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_poison_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_poison_fermented_spider_eye",
+    "input": "minecraft:potion_type:poison",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:harming"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_web.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_web",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:web",
+    "output": "minecraft:potion_type:weaving"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_harming_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_harming_glowstone_dust",
+    "input": "minecraft:potion_type:harming",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_harming"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_blaze_powder.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_blaze_powder",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:blaze_powder",
+    "output": "minecraft:potion_type:strength"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_breeze_rod.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_breeze_rod",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:breeze_rod",
+    "output": "minecraft:potion_type:wind_charged"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_poison",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:spider_eye",
+    "output": "minecraft:potion_type:poison"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_regeneration_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_regeneration_redstone",
+    "input": "minecraft:potion_type:regeneration",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_regeneration"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_sugar.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_sugar",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:sugar",
+    "output": "minecraft:potion_type:swiftness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_thick_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_thick_fermented_spider_eye",
+    "input": "minecraft:potion_type:thick",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_breeze_rod.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_breeze_rod",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:breeze_rod",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_long_strength_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_long_strength_fermented_spider_eye",
+    "input": "minecraft:potion_type:long_strength",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:long_weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_potion_sulphur.json",
+    "recipe_type": "minecraft:recipe_brewing_container",
+    "identifier": "minecraft:brew_potion_sulphur",
+    "input": "minecraft:potion",
+    "reagent": "minecraft:gunpowder",
+    "output": "minecraft:splash_potion"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_splash_potion_dragon_breath.json",
+    "recipe_type": "minecraft:recipe_brewing_container",
+    "identifier": "minecraft:brew_splash_potion_dragon_breath",
+    "input": "minecraft:splash_potion",
+    "reagent": "minecraft:dragon_breath",
+    "output": "minecraft:lingering_potion"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_poison_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_poison_redstone",
+    "input": "minecraft:potion_type:poison",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_poison"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_leaping_red_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_leaping_red_stone",
+    "input": "minecraft:potion_type:leaping",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_leaping"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_turtle_helmet.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_turtle_helmet",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:turtle_helmet",
+    "output": "minecraft:potion_type:turtle_master"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_blaze_powder.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_blaze_powder",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:blaze_powder",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_longswiftness_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_longswiftness_fermented_spider_eye",
+    "input": "minecraft:potion_type:long_swiftness",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:long_slowness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_poison_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_poison_glowstone_dust",
+    "input": "minecraft:potion_type:poison",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_poison"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_long_mundane_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_long_mundane_fermented_spider_eye",
+    "input": "minecraft:potion_type:long_mundane",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:long_weakness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_fireresistance_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_fireresistance_redstone",
+    "input": "minecraft:potion_type:fire_resistance",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_fire_resistance"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_strong_poison_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_strong_poison_fermented_spider_eye",
+    "input": "minecraft:potion_type:strong_poison",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:strong_harming"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_regeneration_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_regeneration_glowstone_dust",
+    "input": "minecraft:potion_type:regeneration",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_regeneration"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_stone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_stone",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:stone",
+    "output": "minecraft:potion_type:infested"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_magma_cream.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_magma_cream",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:magma_cream",
+    "output": "minecraft:potion_type:fire_resistance"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_awkward_golden_carrot.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_awkward_golden_carrot",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "minecraft:golden_carrot",
+    "output": "minecraft:potion_type:nightvision"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_breathing_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_breathing_redstone",
+    "input": "minecraft:potion_type:water_breathing",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_water_breathing"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_swiftness_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_swiftness_fermented_spider_eye",
+    "input": "minecraft:potion_type:swiftness",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:slowness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_healing_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_healing_fermented_spider_eye",
+    "input": "minecraft:potion_type:healing",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:harming"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_healing_glowstone_dust.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_healing_glowstone_dust",
+    "input": "minecraft:potion_type:healing",
+    "reagent": "minecraft:glowstone_dust",
+    "output": "minecraft:potion_type:strong_healing"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_water_ghast_tear.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_water_ghast_tear",
+    "input": "minecraft:potion_type:water",
+    "reagent": "minecraft:ghast_tear",
+    "output": "minecraft:potion_type:mundane"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_long_leaping_fermented_spider_eye.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_longleaping_fermented_spider_eye",
+    "input": "minecraft:potion_type:long_leaping",
+    "reagent": "minecraft:fermented_spider_eye",
+    "output": "minecraft:potion_type:long_slowness"
+  },
+  {
+    "source_file": "behavior_pack/recipes/brew_strength_redstone.json",
+    "recipe_type": "minecraft:recipe_brewing_mix",
+    "identifier": "minecraft:brew_strength_redstone",
+    "input": "minecraft:potion_type:strength",
+    "reagent": "minecraft:redstone",
+    "output": "minecraft:potion_type:long_strength"
+  }
+]
