@@ -1,0 +1,100 @@
+TIME TRAP ROBOT — TEST LIST — VERSION 0.1.1
+Your reported Minecraft version: Bedrock 1.26.52
+
+INSTALL THE UPDATE
+1. Download TimeTrapRobot-0.1.1.mcaddon and open it with Minecraft.
+2. Confirm BOTH packs import successfully.
+3. In your test world's settings, check that BOTH updated packs are active:
+   Behavior Packs: Time Trap Robot — Development, version 0.1.1
+   Resource Packs: Time Trap Robot — Resources, version 0.1.1
+   If old versions are active, deactivate those entries and activate the update.
+4. If Minecraft still reports a missing resource pack, separately download and
+   open TimeTrapRobot-Resources-0.1.1.mcpack, then
+   TimeTrapRobot-Behavior-0.1.1.mcpack. Check both are active again.
+   Keep your existing world; do not delete its files to fix a pack import.
+5. Reopen the test world. Interact with your robot. Select Things to try for help.
+   Spawn a NEW robot to test the first-meeting introduction; existing robots
+   remember their owners and will not repeat it.
+
+The original approved greeting and jokes are preserved.
+The introduction now calls the robot your AI companion.
+This update changes player text and appearance mapping; it does not add
+warnings for new mobs. Only creepers, nearby lava and low health are covered.
+
+QUESTIONS TO TYPE INTO ASK
+1. hello
+   Expect a greeting.
+2. Tell me a joke
+   Expect one of the existing approved jokes.
+3. How do I craft a hopper?
+   Expect 5 iron ingots and 1 chest, using a crafting table.
+4. What's the recipe for a hopper?
+   Expect the same ingredient list as question 3.
+5. How do I craft a stone pickaxe?
+   Expect 3 cobblestone and 2 sticks, using a crafting table.
+   It can also mention the blackstone/cobbled deepslate alternatives.
+6. How do I craft a stone pick axe?
+   Expect the same answer; the spaced spelling is accepted.
+7. How do I make bread?
+   Expect 3 wheat, using a crafting table.
+8. What is a hopper?
+   Expect a friendly offer to explain crafting, not a technical registry message.
+9. Immediately after 8: How do I craft it?
+   Expect the hopper recipe again.
+10. What is a creeper?
+    Expect suggested questions about fear or danger.
+11. Immediately after 10: What scares it?
+    Expect cats and ocelots.
+12. What scares creepers?
+    Expect cats and ocelots; plural wording should work.
+13. Are creepers dangerous?
+    Expect an explosion warning.
+14. How do I breed cows?
+    Expect wheat, two adult cows, and enough room to get close.
+15. What does Mending do?
+    Expect experience repairing an item, highest level 1, items with durability.
+16. What can I make with iron ingots?
+    Expect some examples of recipes using iron ingots, not a complete list.
+17. What can I make with iron?
+    Expect a clarification: ingots, raw iron, or blocks?
+18. Where can I find diamonds?
+    Not implemented yet. Expect a friendly admission that the robot is unsure.
+19. Can a cow survive lava?
+    Not implemented yet. It must not invent an answer.
+20. How do I craft a flibbertigibbet?
+    Expect an unsure reply, not an invented recipe.
+
+CHECK ALL ANSWERS
+- No crafting grid positions, rows, symbols or shape names.
+- No 'supplied data', 'registry', internal identifiers, or developer test notes.
+- No 'not yet checked in-game' disclaimer.
+- Ingredient quantities still need to be accurate. A stone pickaxe uses TWO sticks.
+- Unknown information should get an honest, friendly answer.
+
+ROBOT MENU AND GAMEPLAY
+- Things to try: opens an in-game list of example questions.
+- Settings: rename the robot; toggle warnings and owner defense.
+- Follow me: walk a short distance; it should follow on ordinary terrain.
+- Stay here: walk away; it should stop following. Physics can still move it.
+- Set home here: set a safe home, walk away, then Return home.
+  Home must be clear and loaded, and in the same dimension.
+- Owner permissions: a second player should not be able to change its settings.
+- Save/reload: confirm its name, owner and settings are remembered.
+- Appearance: same body shape, steel-colored body, distinct cyan eyes and chest
+  panel. Cyan should not wrap around the head as a diagonal band.
+
+WARNING TESTS (KEEP YOUR TEST WORLD SAFE)
+- Enable Nearby danger warnings in Settings.
+- Place a creeper within about 10 blocks. Expect a creeper warning.
+- Wait at least 60 seconds between warning tests; they share a cooldown.
+- Stand near lava at foot level: expect a lava warning. Detection is limited.
+- In Survival, with low health: expect a health warning.
+- Zombies, skeletons, spiders and other mobs do NOT have proximity warnings yet.
+- Owner defense is separate from spoken warnings. Test it using the settings
+  toggle and a hostile mob attacking the owner. Use Creative afterward as needed.
+  The Creative command is /gamemode creative (not /gamemode c).
+
+REPORT ANY PROBLEMS
+Write down the question or action, the exact reply/error, and whether both packs
+show version 0.1.1. For a pack-load error, copy the Creator Content Log message.
+Actual game behavior and this appearance update still need your in-game check.

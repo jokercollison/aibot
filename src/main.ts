@@ -1,5 +1,6 @@
 import {world, system, Entity, Player, EntityTameableComponent} from '@minecraft/server';
 import {ActionFormData, ModalFormData} from '@minecraft/server-ui';
+import {HELP} from './help.js';
 import {createConversation} from './knowledge.js';
 import banter from '../data/banter.json';
 import {owns, safeName, decodeHome, canWarn} from './state.js';
@@ -38,11 +39,11 @@ async function interact(player: Player, bot: Entity) {
       bot.setDynamicProperty(key('home'), JSON.stringify({...bot.location, dimension:bot.dimension.id}));
       bot.nameTag = 'TTR-1';
       mode(bot, false);
-      say(player, bot, `${banter.greeting[0]} I'm your offline Minecraft helper. Use Ask to type a question, or Settings to name me. I only answer what my database supports.`);
+      say(player, bot, `${banter.greeting[0]} I'm your AI companion! Use Ask to ask me a question, or Settings to give me a name.`);
     }
     assertOwner(player, bot);
-    const form = await new ActionFormData().title(bot.nameTag || 'TTR-1').body('Your offline Minecraft companion. All controls are owner-only.')
-      .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').show(player);
+    const form = await new ActionFormData().title(bot.nameTag || 'TTR-1').body('Your AI companion. Ask me a question or choose what we do next.')
+      .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').button('Things to try').show(player);
     if (form.canceled) return;
     assertOwner(player, bot);
     switch (form.selection) {
@@ -56,8 +57,8 @@ async function interact(player: Player, bot: Entity) {
         say(player, bot, conversations.get(sessionKey)!.ask(question).answer);
         break;
       }
-      case 1: mode(bot, true); say(player, bot, 'Following you. Navigation cannot cross dimensions.'); break;
-      case 2: mode(bot, false); say(player, bot, 'Staying here. Water, combat and pushing can still move me.'); break;
+      case 1: mode(bot, true); say(player, bot, "I'm right behind you!"); break;
+      case 2: mode(bot, false); say(player, bot, "I'll wait here for you."); break;
       case 3:
         bot.setDynamicProperty(key('home'), JSON.stringify({...bot.location, dimension:bot.dimension.id}));
         say(player, bot, 'Home position saved.'); break;
@@ -69,6 +70,10 @@ async function interact(player: Player, bot: Entity) {
         const arrived = bot.tryTeleport({x:home.x,y:home.y,z:home.z}, {checkForBlocks:true});
         if (arrived) mode(bot, false);
         say(player, bot, arrived ? 'Home sweet charging station.' : 'Home is blocked or unloaded. Move nearer or set a new home.');
+        break;
+      }
+      case 6: {
+        await new ActionFormData().title('Things to try').body(HELP).button('Got it!').show(player);
         break;
       }
       case 5: {

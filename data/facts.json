@@ -1,7 +1,7 @@
 {
   "minecraft:creeper": {
     "fear": {
-      "text": "Creepers avoid cats and ocelots. The sample behavior checks for them within 6 blocks; other active behaviors can affect the result.",
+      "text": "Creepers avoid cats and ocelots. Keep one nearby to help keep creepers away, but give an approaching creeper plenty of space.",
       "status": "conditional",
       "source": "behavior_pack/entities/creeper.json",
       "verification": "checked_against_samples_v1.26.50.4_not_in_game"

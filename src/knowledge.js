@@ -5,10 +5,9 @@ import official from '../data/official_recipes.json' with { type: 'json' };
 import banter from '../data/banter.json' with { type: 'json' };
 
 const records = bundle.records;
-const clean = s => String(s ?? '').toLowerCase().replace(/minecraft:/g, '').replace(/[_-]/g, ' ').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const clean = s => String(s ?? '').toLowerCase().replace(/minecraft:/g, '').replace(/[_-]/g, ' ').replace(/\bpick axe\b/g, 'pickaxe').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 const label = s => clean(s).replace(/\b\w/g, c => c.toUpperCase());
-const unknown = "I don't have enough verified information to answer that yet.";
-const evidenceNote = 'From the supplied sample data; not yet checked in-game.';
+const unknown = "I'm not sure about that yet. Try asking me how to craft something, or ask for a joke.";
 const aliasIndex = new Map(Object.entries(aliases));
 const maxAliasWords = Math.max(...Object.keys(aliases).map(a => a.split(' ').length));
 function subjects(text) {
@@ -26,7 +25,33 @@ function subjects(text) {
 const allRecipes = Object.values(official).flat();
 const byOutput = new Map();
 const uses = new Map();
-const ingredientName = i => typeof i === 'string' ? label(i) : i.item ? label(i.item) : i.tag ? `any item in the ${i.tag} tag` : 'unresolved ingredient';
+const ingredientLabels = {
+  'minecraft:stone_tool_materials': 'cobblestone',
+  'minecraft:stone_crafting_materials': 'cobblestone',
+  'minecraft:planks': 'wood planks',
+  'minecraft:wooden_slabs': 'wood slabs',
+  'minecraft:coals': 'coal or charcoal',
+  'minecraft:logs': 'logs',
+  'minecraft:wool': 'wool',
+  'minecraft:egg': 'eggs',
+  'minecraft:mushrooms_for_stew': 'mushrooms',
+  'minecraft:metal_nuggets': 'metal nugget',
+  'minecraft:soul_fire_base_blocks': 'soul sand or soul soil'
+};
+const ingredientName = i => typeof i === 'string' ? clean(i) : i.item ? clean(i.item) : i.tag ? ingredientLabels[i.tag] ?? clean(i.tag) : 'an ingredient I still need to check';
+const plural = (name, count) => {
+  if (count === 1 || /(?:s|wool|wheat|cobblestone|stone|deepslate|bread|sand|soil|coal|charcoal|quartz|glass|ice|sugar|paper|leather|beef|porkchop|mutton|chicken|fish|kelp|dye|redstone|copper|iron|gold|lapis lazuli)$/.test(name) || name.includes(' or ')) return name;
+  return name.endsWith('ch') ? name + 'es' : name + 's';
+};
+const joinList = entries => entries.length < 3 ? entries.join(' and ') : entries.slice(0,-1).join(', ') + ', and ' + entries.at(-1);
+function amounts(entries) {
+  const grouped = new Map();
+  for (const {ingredient, count} of entries) {
+    const name = ingredientName(ingredient);
+    grouped.set(name, (grouped.get(name) ?? 0) + count);
+  }
+  return joinList([...grouped].sort((a,b) => b[1]-a[1]).map(([name,count]) => `${count} ${plural(name,count)}`));
+}
 for (const r of allRecipes) {
   const d = r.definition;
   const output = d.result?.item ?? d.output;
@@ -44,26 +69,44 @@ for (const r of allRecipes) {
     uses.get(id).add(label(output ?? d.description?.identifier ?? 'unknown output'));
   }
 }
-function recipeText(record) {
+export function recipeText(record) {
   const recipes = byOutput.get(record.minecraft_id) ?? [];
-  if (!recipes.length) return {status:'unknown',answer:'I do not have a confirmed recipe for that. This does not mean it is unobtainable.'};
+  if (!recipes.length) return {status:'unknown',answer:`I'm not sure how to craft ${clean(record.name)} yet. You might be able to get it another way.`};
   const lines = recipes.slice(0,4).map(r => {
     const d = r.definition;
-    let text = `${record.name}: ${r.type.replace('minecraft:recipe_', '')}. Station: ${(d.tags ?? []).join(', ') || 'not specified'}.`;
-    if (d.pattern) {
-      const counts = {};
-      for (const row of d.pattern) for (const c of row) if (c !== ' ') counts[c] = (counts[c] ?? 0) + 1;
-      text += ' Ingredients: ' + Object.entries(d.key).map(([symbol,i]) => `${counts[symbol] ?? 0} × ${ingredientName(i)} (${symbol})`).join(', ') + '.';
-      text += ' Grid rows, top to bottom: ' + d.pattern.map(row => `[${row.replace(/ /g,'·')}]`).join(' / ') + '. · means empty.';
-    } else if (d.ingredients) text += ' Ingredients: ' + d.ingredients.map(i => `${i.count ?? 1} × ${ingredientName(i)}`).join(', ') + '.';
-    else if (d.input) text += ` Input: ${ingredientName(d.input)}.`;
-    else text += ' Exact ingredient instructions for this processing method are not implemented yet.';
-    const result = d.result ?? {item:d.output};
-    if (result && !Array.isArray(result)) text += ` Output: ${result.count ?? 1} × ${label(result.item ?? record.name)}.`;
-    if (d.unlock) text += ' Recipe-book unlock conditions may apply.';
+    const name = clean(record.name);
+    let text;
+    if (d.pattern || d.ingredients) {
+      let entries;
+      if (d.pattern) {
+        const counts = {};
+        for (const row of d.pattern) for (const c of row) if (c !== ' ') counts[c] = (counts[c] ?? 0) + 1;
+        entries = Object.entries(d.key).filter(([symbol]) => counts[symbol]).map(([symbol,i]) => ({ingredient:i,count:counts[symbol] * (i.count ?? 1)}));
+      } else entries = d.ingredients.map(i => ({ingredient:i,count:i.count ?? 1}));
+      text = `To craft ${name}, you'll need ${amounts(entries)}`;
+      if ((d.tags ?? []).includes('crafting_table')) text += ' at a crafting table';
+      else if ((d.tags ?? []).includes('stonecutter')) text += ' at a stonecutter';
+      text += '.';
+    } else if (d.input) {
+      const stations = (d.tags ?? []).map(t => ({furnace:'furnace',blast_furnace:'blast furnace',smoker:'smoker',campfire:'campfire',soul_campfire:'soul campfire'}[t])).filter(Boolean);
+      text = `To make ${name}, cook ${ingredientName(d.input)}${stations.length ? ' using a ' + stations.join(' or ') : ''}.`;
+    } else text = `I know a recipe for ${name}, but I still need to learn how to explain the steps.`;
+    const result = d.result;
+    if (result && !Array.isArray(result) && (result.count ?? 1) > 1) text += ` This makes ${result.count} ${plural(clean(result.item ?? name),result.count)}.`;
     return text;
   });
-  return {status:'conditional',answer:lines.join('\n') + '\n' + evidenceNote, sources:recipes.map(r=>r.source)};
+  return {status:'conditional',answer:[...new Set(lines)].join('\n'),sources:recipes.map(r=>r.source)};
+}
+function introduction(record) {
+  const name = clean(record.name);
+  const topics = facts[record.minecraft_id] ?? {};
+  const suggestions = [];
+  if (byOutput.has(record.minecraft_id)) suggestions.push('How do I craft it?');
+  if (topics.fear) suggestions.push('What scares it?');
+  if (topics.danger) suggestions.push('Is it dangerous?');
+  if (topics.breed) suggestions.push('How do I breed them?');
+  if (suggestions.length) return `I know a few things about ${name}! Try asking: ${suggestions.map(q => '"' + q + '"').join(' or ')}`;
+  return `I recognize ${name}, but I'm still learning about it. You can ask me how to craft something else, or ask for a joke.`;
 }
 export function createConversation() {
   let previous;
@@ -98,13 +141,16 @@ export function createConversation() {
       if (intent === 'recipe') return {...recipeText(r), subject: r.minecraft_id};
       if (intent === 'uses') {
         const results = [...(uses.get(r.minecraft_id) ?? [])];
-        return {status: results.length ? 'conditional' : 'unknown', answer: results.length ? `Some recipes using ${r.name}: ${results.slice(0,12).map(label).join(', ')}. This is a partial list. ${evidenceNote}` : unknown};
+        return {status: results.length ? 'conditional' : 'unknown', answer: results.length ? `Here are some things you can make with ${clean(r.name)}: ${results.slice(0,12).map(clean).join(', ')}.` : unknown};
       }
       const f = facts[r.minecraft_id]?.[intent];
-      if (f) return {status: f.status, answer: f.text + '\n' + evidenceNote, sources: [f.source]};
+      if (f) return {status: f.status, answer: f.text, sources: [f.source]};
       if (intent !== 'describe') return {status: 'unknown', answer: unknown};
-      if (r.kind === 'enchantment' && r.effect) return {status: 'conditional', answer: `${r.name}: ${r.effect}. Maximum level: ${r.maximum_level ?? 'not established'}. Equipment: ${(r.equipment ?? []).join(', ') || 'not established'}. ${evidenceNote}`, sources: [r.source]};
-      return {status: 'partial', answer: `${r.name} (${r.minecraft_id}) is listed as ${r.kind} in the supplied registry. I don't yet have a verified general explanation. Try a crafting question or a specific mob behavior.`, sources: [r.source]};
+      if (r.kind === 'enchantment' && r.effect) {
+        const equipment = (r.equipment ?? []).map(e => e === 'durable_equipment' ? 'items with durability' : clean(e));
+        return {status:'conditional',answer:`${r.name}: ${r.effect.replace(/[.!]+$/,'')}.${r.maximum_level ? ` Its highest level is ${r.maximum_level}.` : ''}${equipment.length ? ` It works on ${joinList(equipment)}.` : ''}`,sources:[r.source]};
+      }
+      return {status:'partial',answer:introduction(r),sources:[r.source]};
     }
   };
 }

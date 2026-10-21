@@ -1,21 +1,27 @@
-# Time Trap Robot — development build 0.1.0
+# Time Trap Robot — development build 0.1.1
 
 An offline Minecraft Bedrock robot companion for Time Trap Studios. This is an early development build for in-game testing, not a finished Marketplace product.
 
 ## Try the add-on
 
-**[Download the Minecraft test add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.1.0.mcaddon)**
+**[Download the Minecraft test add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.1.1.mcaddon)**
 
 On a device with Minecraft Bedrock installed, download the file above, then open it with Minecraft. This is a development build that still needs actual in-game testing.
 
-1. Download `dist/TimeTrapRobot-0.1.0.mcaddon` and open it with **Minecraft Bedrock**, not Java Edition.
+1. Download `dist/TimeTrapRobot-0.1.1.mcaddon` and open it with **Minecraft Bedrock**, not Java Edition.
 2. Create a **new test world**. Activate **Time Trap Robot — Development** under Behavior Packs and **Time Trap Robot — Resources** under Resource Packs. No experimental toggles are intended to be needed.
 3. Use Creative mode and find **Time Trap Robot** in the spawn eggs, or enable cheats in the test world and enter `/summon tts:robot`.
 4. Interact with the robot (right click on PC; use the interaction button on touch/controller). The first player to interact becomes its owner. The introduction appears in that player's chat.
 5. Interact again to open its menu: Ask a question, Follow me, Stay here, Set home here, Return home, or Settings. Settings lets the owner rename it and toggle defense and warnings.
-6. Ask `How do I craft a hopper?`, `What scares creepers?`, `How do I breed cows?`, or `What does Mending do?`. Questions use a text-entry form; the add-on does not intercept ordinary chat.
+6. Ask `How do I craft a hopper?`, `What scares creepers?`, `How do I breed cows?`, or `What does Mending do?`. Use **Things to try** in the robot menu for examples, or download [the plain-text test list](downloads/Robot_Test_Checklist-0.1.1.txt). Questions use a text-entry form; the add-on does not intercept ordinary chat.
 
 API compatibility floor: Bedrock 1.21.90 with stable `@minecraft/server` 2.0.0 and `@minecraft/server-ui` 2.0.0. Knowledge sources include samples v1.26.50.4 and may describe content absent from older game versions. Use a current compatible retail Bedrock version. Import, rendering, controls and native behavior still need actual game verification. See [the test checklist](docs/IN_GAME_TESTING.md).
+
+## Updating from 0.1.0
+
+Import **both** packs at version 0.1.1; the update preserves their UUIDs and existing robot data. Check that your world has the updated behavior pack **and** resource pack active. If an old entry remains active, deactivate it and select the updated entry. Reopen the world. A new robot is needed only to retest the first-meeting introduction.
+
+The `.mcaddon` now contains two separate, self-contained `.mcpack` files. If Minecraft imports only one, install the [resource pack](downloads/TimeTrapRobot-Resources-0.1.1.mcpack) first, followed by the [behavior pack](downloads/TimeTrapRobot-Behavior-0.1.1.mcpack), then activate both. The reported missing dependency `ad2a55c1-6e34-4f1c-b8fe-196307352760` is the resource pack. A version 0.1.0 dependency error means an old behavior-pack reference remains in use. Do not delete your world to fix this.
 
 ## What this build implements
 
@@ -24,7 +30,7 @@ API compatibility floor: Bedrock 1.21.90 with stable `@minecraft/server` 2.0.0 a
 - A saved home position and collision-checked same-dimension return teleport. Home must be loaded and clear. No cross-dimension recall or autonomous home pathfinding yet.
 - Nearby creeper, lava-at-foot-level and low-health warnings with a shared one-minute per-robot cooldown.
 - Deterministic offline questions using inherited records, aliases, plural normalization, recipe lookup, ingredient uses, limited factual answers and session-only follow-ups.
-- Official recipe grid layouts with symbol mappings; original research and approved banter preserved.
+- Ingredient-only recipe answers; original research and approved banter preserved.
 
 A registry of 4,783 inherited records is **not** 4,783 fully implemented answers. The active catalog excludes raw recipe/loot records; recipes are imported separately from 1,892 official source files. Unknown mechanics and location questions deliberately return an uncertainty response. See [remaining work](docs/STATUS.md).
 

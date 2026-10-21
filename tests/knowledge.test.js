@@ -1,13 +1,13 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {createConversation,knowledgeStats} from '../src/knowledge.js';
+import {createConversation,knowledgeStats,recipeText} from '../src/knowledge.js';
 import {owns,safeName,decodeHome,canWarn} from '../src/state.js';
 import {readFileSync} from 'node:fs';
 const ask=q=>createConversation().ask(q);
 test('substantial original knowledge is available',()=>assert.ok(knowledgeStats.records>4000));
-test('hopper ingredients and positions retain official symbol mapping',()=>{
+test('hopper recipe gives amounts without positions or technical notes',()=>{
  const r=ask('How do I make a hopper?');assert.equal(r.status,'conditional');
- assert.match(r.answer,/5 × Iron Ingot \(I\)/);assert.match(r.answer,/1 × Chest \(C\)/);assert.match(r.answer,/\[I I\]|\[I·I\]/);assert.match(r.answer,/\[ICI\]/);
+ assert.equal(r.answer,"To craft hopper, you'll need 5 iron ingots and 1 chest at a crafting table.");
  assert.ok(r.sources.includes('behavior_pack/recipes/hopper.json'));
 });
 test('different recipe phrasings retrieve same result',()=>assert.equal(ask("What's the recipe for a hopper?").answer,ask('How do I craft a hopper?').answer));
@@ -18,7 +18,7 @@ test('unknown questions do not fabricate',()=>assert.equal(ask('How do I craft a
 test('unknown mob mechanics do not become generic fact claims',()=>assert.equal(ask('Can a cow survive lava?').status,'unknown'));
 test('location questions do not return misleading registry descriptions',()=>assert.equal(ask('Where can I find diamonds?').status,'unknown'));
 test('enchantment returns effect',()=>assert.match(ask('What does Mending do?').answer,/Mending/));
-test('reverse ingredient queries',()=>assert.match(ask('What can I make with iron ingot?').answer,/Some recipes/));
+test('reverse ingredient queries',()=>assert.match(ask('What can I make with iron ingot?').answer,/some things you can make/));
 test('blank and excessive questions request clarification',()=>{assert.equal(ask('').status,'clarify');assert.equal(ask('x'.repeat(241)).status,'clarify');});
 test('banter is preserved byte for byte',()=>assert.deepEqual(readFileSync('data/banter.json'),readFileSync('legacy/robot_prototype/knowledge/banter.json')));
 test('owner permission fails closed',()=>{assert.equal(owns('one','two'),false);assert.equal(owns('one',undefined),false);assert.equal(owns('one','one'),true);});
@@ -27,3 +27,37 @@ test('home input validation rejects corrupted or invalid saved state',()=>{asser
 test('warning cooldown is enforced',()=>{assert.equal(canWarn(100,99),false);assert.equal(canWarn(1300,100),true);assert.equal(canWarn(0,undefined),true);});
 
 test('ambiguous material asks for clarification',()=>assert.equal(ask('What can I make with iron?').status,'ambiguous'));
+
+test('stone pickaxe uses three cobblestone and TWO sticks, including spaced spelling',()=>{
+ const expected="To craft stone pickaxe, you'll need 3 cobblestone and 2 sticks at a crafting table.";
+ assert.equal(ask('How do I craft a stone pickaxe?').answer.split('\n')[0],expected);
+ assert.equal(ask('How do I craft a stone pick axe?').answer.split('\n')[0],expected);
+});
+test('block recognition gives a supported follow-up and retains context',()=>{
+ const c=createConversation();const intro=c.ask('What is a hopper?');
+ assert.match(intro.answer,/I know a few things about hopper/);assert.match(intro.answer,/How do I craft it/);
+ assert.match(c.ask('How do I craft it?').answer,/5 iron ingots/);
+});
+test('mob recognition suggests supported follow-ups',()=>{
+ assert.match(ask('What is a creeper?').answer,/What scares it/);
+ assert.match(ask('What is a cow?').answer,/How do I breed them/);
+});
+test('recognizing an unsupported subject does not pretend to know facts',()=>assert.match(ask('What is a zombie?').answer,/still learning/));
+test('all crafting answers omit grid positions and technical source language',()=>{
+ const recipes=JSON.parse(readFileSync('data/official_recipes.json'));
+ const outputs=[...new Set(Object.values(recipes).flat().map(r=>r.definition.result?.item??r.definition.output).filter(v=>typeof v==='string'))];
+ let answered=0;
+ for(const name of outputs){
+  const id=name.includes(':')?name:'minecraft:'+name;
+  const r=recipeText({minecraft_id:id,name:name.replace('minecraft:','').replaceAll('_',' ')});
+  if(r.status==='conditional') answered++;
+  assert.doesNotMatch(r.answer,/Grid|Station:|shaped|shapeless|supplied|registry|minecraft:|in the .* tag|not yet checked|unlock|\([A-Z#]\)/i,name);
+ }
+ assert.equal(answered,outputs.length,'Every indexed output must produce a recipe answer');
+});
+test('player-facing factual and fallback answers keep development notes internal',()=>{
+ for(const q of ['What scares creepers?','How do I breed cows?','What does Mending do?','What is a hopper?','What is a zombie?','Where can I find diamonds?','What can I make with iron ingot?']){
+  assert.doesNotMatch(ask(q).answer,/supplied|registry|sample|verified|not.*checked|durable_equipment|minecraft:/i);
+ }
+ assert.match(ask('What does Mending do?').answer,/items with durability/);
+});
