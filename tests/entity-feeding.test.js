@@ -13,9 +13,9 @@ test('healing and breeding food are not interchangeable',()=>{
  const healing=ask('How do I heal a wolf with raw cod?');
  assert.equal(healing.subject,'minecraft:wolf');assert.match(healing.answer,/4 health points/);
  const breeding=ask('Can I breed wolves with raw cod?');
- assert.equal(breeding.status,'unknown');assert.match(breeding.answer,/raw chicken/);
+ assert.equal(breeding.status,'conditional');assert.match(breeding.answer,/^No\./);assert.match(breeding.answer,/raw chicken/);
  assert.doesNotMatch(breeding.answer,/For breeding: raw cod/);
- const taming=ask('Can I tame a wolf with beef?');assert.equal(taming.status,'unknown');assert.match(taming.answer,/bone/);
+ const taming=ask('Can I tame a wolf with beef?');assert.equal(taming.status,'conditional');assert.match(taming.answer,/^No\./);assert.match(taming.answer,/bone/);
 });
 test('harmful feeding interactions never become healing suggestions, including plural foods',()=>{
  for(const q of ['Can I feed a parrot a cookie?','Can I feed a parrot cookies?']) {
@@ -43,7 +43,7 @@ test('food data retains scopes, useful effects, conditions and excluded conflict
 test('pronoun feeding with a named food keeps the prior creature',()=>{
  const c=createConversation();c.ask('What is a wolf?');
  for(const q of ['Can I feed raw cod to it?','Can I feed it raw cod?','Can I heal it with raw cod?'])assert.equal(c.ask(q).subject,'minecraft:wolf');
- assert.equal(c.ask('Can I breed them with raw cod?').status,'unknown');
+ assert.match(c.ask('Can I breed them with raw cod?').answer,/^No\./);
 });
 test('wiki entity reconciliation accounts for every inventoried page without importing Java or future mobs',()=>{
  const r=JSON.parse(fs.readFileSync(new URL('../docs/ENTITY_WIKI_CLASSIFICATION.json',import.meta.url)));
@@ -61,4 +61,20 @@ test('conflicting source food stays out of affirmative feeding advice',()=>{
  const r=ask('Can I feed a wither rose to a bee?');
  assert.equal(r.subject,'minecraft:bee');assert.equal(r.status,'unknown');
  assert.match(r.answer,/dandelion or poppy/);
+});
+test('known incompatible taming and breeding foods give clear negative answers',()=>{
+ for(const q of ['Can I tame a wolf with beef?','tame wolves with beef','Can I tame a wolf with beef when it is in the plains?']) {
+  const r=ask(q);assert.equal(r.status,'conditional');assert.match(r.answer,/^No\./);assert.match(r.answer,/bones/);assert.doesNotMatch(r.answer,/not sure|don't have a supported/);
+ }
+ for(const [q,food] of [['Can I breed cows with raw cod?','wheat'],['Can I breed a llama with wheat?','hay']]) {
+  const r=ask(q);assert.match(r.answer,/^No\./);assert.match(r.answer,new RegExp(food));
+ }
+});
+test('food-named animals are not mistaken for their own requested food',()=>{
+ for(const q of ['What do chickens eat?','chickens eat','What should I feed a chicken?'])assert.match(ask(q).answer,/wheat seeds/);
+ for(const q of ['What do rabbits eat?','What should I feed a rabbit?'])assert.match(ask(q).answer,/carrot/);
+ assert.match(ask('Can a chicken eat raw cod?').answer,/don't have a supported/);
+});
+test('a known non-food item receives a direct negative taming answer',()=>{
+ for(const q of ['Can I tame a wolf with a diamond?','Can I tame a wolf with a diamond block?']) {const r=ask(q);assert.equal(r.status,'conditional');assert.match(r.answer,/^No\./);assert.match(r.answer,/bones/);}
 });

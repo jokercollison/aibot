@@ -1,0 +1,672 @@
+{
+  "schema_version": 1,
+  "scope": "Reviewed Bedrock wiki subjects absent as separate sample entities; encyclopedia references do not add native entities to the game.",
+  "subjects": {
+    "minecraft:painting": {
+      "id": "minecraft:painting",
+      "name": "Painting",
+      "category": "reference_entity",
+      "what": "A painting is a decorative entity hung on a wall.",
+      "does": "Its size and picture depend on the available space and placement choice.",
+      "wiki": {
+        "page_id": 1036,
+        "title": "Painting",
+        "revision_id": 3815177,
+        "revision_timestamp": "2026-10-02T21:46:35Z",
+        "sha256": "eb7116fa4d713c064299d20e138a8a9296245953f88dfd2e3b30875caae69901",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3815177"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Place a painting item against a suitable supporting wall. Paintings are decorations, not naturally spawning animals.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3815177"
+          ]
+        },
+        "drops": {
+          "answer": "A broken painting can return its painting item. Removing its support makes it pop off; it is not a source of animal loot.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3815177"
+          ]
+        },
+        "interactions": {
+          "answer": "Leave enough clear space for the painting size you want. Painting support and placement rules differ from placing a solid building block.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3815177"
+          ]
+        },
+        "identity": {
+          "answer": "A painting is a decorative entity hung on a wall. Its size and picture depend on the available space and placement choice.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3815177"
+          ]
+        },
+        "behavior": {
+          "answer": "A painting is a decorative entity hung on a wall. Its size and picture depend on the available space and placement choice.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3815177"
+          ]
+        }
+      },
+      "aliases": [
+        "painting"
+      ]
+    },
+    "minecraft:item": {
+      "id": "minecraft:item",
+      "name": "Dropped Item",
+      "category": "reference_entity",
+      "what": "A dropped item is the world entity representing an item outside an inventory.",
+      "does": "Players can pick it up, and compatible nearby item stacks can merge.",
+      "wiki": {
+        "page_id": 25049,
+        "title": "Item (entity)",
+        "revision_id": 3816775,
+        "revision_timestamp": "2026-10-03T15:23:14Z",
+        "sha256": "71ecb76e68fb1b949f036f47fc118376db75942a8e5e685c316d96b615dcb7cf",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3816775"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Dropped items appear when players drop inventory items, blocks break, containers spill or creatures produce loot.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3816775"
+          ]
+        },
+        "interactions": {
+          "answer": "Most dropped items despawn after five minutes while their area is ticking. Time pauses while the area is unloaded. Bedrock nether stars do not normally despawn.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3816775"
+          ]
+        },
+        "drops": {
+          "answer": "A dropped item already represents its item stack. Pick it up rather than trying to kill it for another loot drop.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3816775"
+          ]
+        },
+        "identity": {
+          "answer": "A dropped item is the world entity representing an item outside an inventory. Players can pick it up, and compatible nearby item stacks can merge.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3816775"
+          ]
+        },
+        "behavior": {
+          "answer": "A dropped item is the world entity representing an item outside an inventory. Players can pick it up, and compatible nearby item stacks can merge.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3816775"
+          ]
+        }
+      },
+      "aliases": [
+        "dropped item"
+      ]
+    },
+    "minecraft:falling_block": {
+      "id": "minecraft:falling_block",
+      "name": "Falling Block",
+      "category": "reference_entity",
+      "what": "A falling block is the moving entity form of a gravity-affected block.",
+      "does": "It can settle into a block when it lands, or break under unsuitable conditions.",
+      "wiki": {
+        "page_id": 119718,
+        "title": "Falling Block",
+        "revision_id": 3813544,
+        "revision_timestamp": "2026-10-02T10:37:37Z",
+        "sha256": "ea6b3f7563ebec248fefb0f397fa3e5cea36696ebe04807d3d52420054a95281",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3813544"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Gravity-affected blocks such as sand and gravel become falling-block entities when their support is removed.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813544"
+          ]
+        },
+        "drops": {
+          "answer": "The result depends on the falling block and its landing space. It may settle, break into an item, or be destroyed; not every falling block guarantees an item.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813544"
+          ]
+        },
+        "interactions": {
+          "answer": "Falling anvils and pointed dripstone can hurt entities below. Suspicious sand or gravel loses its archaeological contents when it falls and breaks, so support it before excavating.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813544"
+          ]
+        },
+        "identity": {
+          "answer": "A falling block is the moving entity form of a gravity-affected block. It can settle into a block when it lands, or break under unsuitable conditions.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813544"
+          ]
+        },
+        "behavior": {
+          "answer": "A falling block is the moving entity form of a gravity-affected block. It can settle into a block when it lands, or break under unsuitable conditions.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813544"
+          ]
+        }
+      },
+      "aliases": [
+        "falling block"
+      ]
+    },
+    "minecraft:elder_guardian_ghost": {
+      "id": "minecraft:elder_guardian_ghost",
+      "name": "Elder Guardian Ghost",
+      "category": "reference_entity",
+      "what": "An elder guardian ghost is a Bedrock technical entity associated with the elder-guardian screen effect.",
+      "does": "It is not a normal ocean-monument guardian to hunt.",
+      "wiki": {
+        "page_id": 136119,
+        "title": "Elder Guardian Ghost",
+        "revision_id": 3832338,
+        "revision_timestamp": "2026-10-10T11:34:18Z",
+        "sha256": "761a7895054b01d029251c45619e6a4f25b1ae0c4a6546428bdcea3f8687212c",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3832338"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Elder guardian ghosts can be summoned with commands. They do not naturally spawn as ordinary ocean-monument enemies.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3832338"
+          ]
+        },
+        "interactions": {
+          "answer": "This invisible technical entity can pass through blocks and has unusual movement. Summoning one can apply Mining Fatigue; it is different from an ordinary elder guardian.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3832338"
+          ]
+        },
+        "identity": {
+          "answer": "An elder guardian ghost is a Bedrock technical entity associated with the elder-guardian screen effect. It is not a normal ocean-monument guardian to hunt.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3832338"
+          ]
+        },
+        "behavior": {
+          "answer": "An elder guardian ghost is a Bedrock technical entity associated with the elder-guardian screen effect. It is not a normal ocean-monument guardian to hunt.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3832338"
+          ]
+        }
+      },
+      "aliases": [
+        "elder guardian ghost"
+      ]
+    },
+    "wiki:map_marker": {
+      "id": "wiki:map_marker",
+      "name": "Map Marker",
+      "category": "reference_entity",
+      "what": "A map marker is a technical entity used by Bedrock Editor.",
+      "does": "It is different from the icons drawn on an ordinary map item.",
+      "wiki": {
+        "page_id": 364534,
+        "title": "Map Marker",
+        "revision_id": 3840276,
+        "revision_timestamp": "2026-10-13T17:13:57Z",
+        "sha256": "7554ee4264d7f34453bfa89361e2d714e155c0dea746eb96e70870387ba361e0",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3840276"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "These map-marker entities belong to Bedrock Editor and do not spawn naturally in normal Survival.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3840276"
+          ]
+        },
+        "interactions": {
+          "answer": "Use Bedrock Editor tools for these markers. For an ordinary map icon, ask about maps or locator maps instead.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3840276"
+          ]
+        },
+        "identity": {
+          "answer": "A map marker is a technical entity used by Bedrock Editor. It is different from the icons drawn on an ordinary map item.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3840276"
+          ]
+        },
+        "behavior": {
+          "answer": "A map marker is a technical entity used by Bedrock Editor. It is different from the icons drawn on an ordinary map item.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3840276"
+          ]
+        }
+      },
+      "aliases": [
+        "map marker"
+      ]
+    },
+    "wiki:balloon": {
+      "id": "wiki:balloon",
+      "name": "Balloon",
+      "category": "reference_entity",
+      "what": "A balloon is an Education-feature entity that floats upward.",
+      "does": "It can be attached to certain objects or mobs; this is different from a normal Survival pet.",
+      "wiki": {
+        "page_id": 96154,
+        "title": "Balloon",
+        "revision_id": 3782837,
+        "revision_timestamp": "2026-09-18T08:24:09Z",
+        "sha256": "caf4b642cd18455bd300f41878af755dde15738022d16d5489d7db17618cb580",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3782837"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Balloons require the applicable Education features. They are not naturally spawning Survival mobs.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3782837"
+          ]
+        },
+        "interactions": {
+          "answer": "A balloon can lift an attached eligible creature. It is an Education mechanic, not a new tameable animal.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3782837"
+          ]
+        },
+        "identity": {
+          "answer": "A balloon is an Education-feature entity that floats upward. It can be attached to certain objects or mobs; this is different from a normal Survival pet.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3782837"
+          ]
+        },
+        "behavior": {
+          "answer": "A balloon is an Education-feature entity that floats upward. It can be attached to certain objects or mobs; this is different from a normal Survival pet.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3782837"
+          ]
+        }
+      },
+      "aliases": [
+        "balloon"
+      ]
+    },
+    "wiki:spider_jockey": {
+      "id": "wiki:spider_jockey",
+      "name": "Spider Jockey",
+      "category": "reference_entity",
+      "what": "A spider jockey is a skeleton-type rider mounted on a spider.",
+      "does": "In Bedrock, cave-spider mounts and several skeleton-type riders are also possible.",
+      "wiki": {
+        "page_id": 4306,
+        "title": "Spider Jockey",
+        "revision_id": 3831549,
+        "revision_timestamp": "2026-10-10T00:58:10Z",
+        "sha256": "a55472895aabcc402862f5b59991bb27fc6b096d7bb220f23db1b12b8375a601",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3831549"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Spider jockeys can occur when spiders spawn. Bedrock rider variants include skeletons, strays, bogged, parched and wither skeletons under their respective conditions.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831549"
+          ]
+        },
+        "drops": {
+          "answer": "The rider and spider have separate health and loot. Killing one does not automatically kill or collect the drops of the other. Ask about the spider or its specific rider for item quantities.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831549"
+          ]
+        },
+        "combat": {
+          "answer": "Prepare for both climbing melee attacks from the spider and ranged attacks from the rider. Removing one opponent can leave the other alive.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831549"
+          ]
+        },
+        "identity": {
+          "answer": "A spider jockey is a skeleton-type rider mounted on a spider. In Bedrock, cave-spider mounts and several skeleton-type riders are also possible.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831549"
+          ]
+        },
+        "behavior": {
+          "answer": "A spider jockey is a skeleton-type rider mounted on a spider. In Bedrock, cave-spider mounts and several skeleton-type riders are also possible.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831549"
+          ]
+        }
+      },
+      "aliases": [
+        "spider jockey"
+      ]
+    },
+    "wiki:chicken_jockey": {
+      "id": "wiki:chicken_jockey",
+      "name": "Chicken Jockey",
+      "category": "reference_entity",
+      "what": "A chicken jockey is a baby zombie-type rider mounted on a chicken.",
+      "does": "Bedrock baby zombie-type riders can also mount other creatures.",
+      "wiki": {
+        "page_id": 49327,
+        "title": "Chicken Jockey",
+        "revision_id": 3848587,
+        "revision_timestamp": "2026-10-18T00:28:07Z",
+        "sha256": "52ef4c5278a1d8b6c73eeff34aaf8ed7e7503ad3e9fe3b7ff8c1dddcc165c2e0",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3848587"
+      },
+      "topics": {
+        "drops": {
+          "answer": "The rider and chicken have separate loot. A baby zombie riding a chicken can provide the Lava Chicken music disc under the required player-or-tamed-wolf kill condition; not every baby zombie kill does.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848587"
+          ]
+        },
+        "combat": {
+          "answer": "Treat the mount and rider as separate opponents. Baby riders can remain dangerous after the mount dies.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848587"
+          ]
+        },
+        "identity": {
+          "answer": "A chicken jockey is a baby zombie-type rider mounted on a chicken. Bedrock baby zombie-type riders can also mount other creatures.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848587"
+          ]
+        },
+        "behavior": {
+          "answer": "A chicken jockey is a baby zombie-type rider mounted on a chicken. Bedrock baby zombie-type riders can also mount other creatures.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848587"
+          ]
+        }
+      },
+      "aliases": [
+        "chicken jockey"
+      ]
+    },
+    "wiki:strider_jockey": {
+      "id": "wiki:strider_jockey",
+      "name": "Strider Jockey",
+      "category": "reference_entity",
+      "what": "A strider jockey is a zombified piglin riding a strider.",
+      "does": "It combines a Nether-lava mount with a separate rider; it is not a separate species.",
+      "wiki": {
+        "page_id": 143956,
+        "title": "Strider Jockey",
+        "revision_id": 3831550,
+        "revision_timestamp": "2026-10-10T00:58:40Z",
+        "sha256": "9da30f78301f1737b583a5fad49a5be23b0e36c3d548823679e7cd72f9540507",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3831550"
+      },
+      "topics": {
+        "drops": {
+          "answer": "The strider and its zombified-piglin rider have separate drops. A saddled mount can also have a saddle; ask about each creature for its own loot conditions.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831550"
+          ]
+        },
+        "interactions": {
+          "answer": "The mount and rider can be separated. Bedrock natural rider spawning has version-specific issues, so do not assume Java spawning odds apply.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831550"
+          ]
+        },
+        "identity": {
+          "answer": "A strider jockey is a zombified piglin riding a strider. It combines a Nether-lava mount with a separate rider; it is not a separate species.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831550"
+          ]
+        },
+        "behavior": {
+          "answer": "A strider jockey is a zombified piglin riding a strider. It combines a Nether-lava mount with a separate rider; it is not a separate species.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3831550"
+          ]
+        }
+      },
+      "aliases": [
+        "strider jockey"
+      ]
+    },
+    "wiki:ravager_jockey": {
+      "id": "wiki:ravager_jockey",
+      "name": "Ravager Jockey",
+      "category": "reference_entity",
+      "what": "A ravager jockey is an illager riding a ravager.",
+      "does": "The mount and rider retain separate attacks, health and drops.",
+      "wiki": {
+        "page_id": 146169,
+        "title": "Ravager Jockey",
+        "revision_id": 3845831,
+        "revision_timestamp": "2026-10-16T06:43:54Z",
+        "sha256": "0a7dc41b4846100bc64289a261d4b7c4a46144763a5b1844e8cca27d620f5174",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3845831"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "Bedrock raids can include a pillager-ravager jockey in wave 5 and pillager or evoker riders when a raid reaches wave 7. Available waves depend on the raid and difficulty.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845831"
+          ]
+        },
+        "drops": {
+          "answer": "Defeat and loot the ravager and its illager rider separately. The mount’s saddle and the rider’s loot have different conditions.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845831"
+          ]
+        },
+        "combat": {
+          "answer": "A rider can keep attacking while the ravager is stunned. Prepare for the ravager’s close-range attack and the particular rider’s attack.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845831"
+          ]
+        },
+        "identity": {
+          "answer": "A ravager jockey is an illager riding a ravager. The mount and rider retain separate attacks, health and drops.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845831"
+          ]
+        },
+        "behavior": {
+          "answer": "A ravager jockey is an illager riding a ravager. The mount and rider retain separate attacks, health and drops.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845831"
+          ]
+        }
+      },
+      "aliases": [
+        "ravager jockey"
+      ]
+    },
+    "wiki:hoglin_jockey": {
+      "id": "wiki:hoglin_jockey",
+      "name": "Hoglin Jockey",
+      "category": "reference_entity",
+      "what": "A hoglin jockey is a baby piglin riding a baby hoglin.",
+      "does": "It is a combination of two existing Nether mobs, not a separate breedable animal.",
+      "wiki": {
+        "page_id": 219773,
+        "title": "Hoglin Jockey",
+        "revision_id": 3813436,
+        "revision_timestamp": "2026-10-02T09:04:13Z",
+        "sha256": "5653eea2a9f052332d4ebc20d33a0d3af75d0fb217ce0df06992196d2c002be8",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3813436"
+      },
+      "topics": {
+        "drops": {
+          "answer": "The baby piglin and baby hoglin have separate loot rules. Do not apply adult hoglin meat drops to every baby mount.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813436"
+          ]
+        },
+        "interactions": {
+          "answer": "Mount and rider remain separate creatures. Breeding hoglins is a different mechanic from finding a naturally mounted baby piglin.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813436"
+          ]
+        },
+        "identity": {
+          "answer": "A hoglin jockey is a baby piglin riding a baby hoglin. It is a combination of two existing Nether mobs, not a separate breedable animal.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813436"
+          ]
+        },
+        "behavior": {
+          "answer": "A hoglin jockey is a baby piglin riding a baby hoglin. It is a combination of two existing Nether mobs, not a separate breedable animal.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3813436"
+          ]
+        }
+      },
+      "aliases": [
+        "hoglin jockey"
+      ]
+    },
+    "wiki:baby_strider_jockey": {
+      "id": "wiki:baby_strider_jockey",
+      "name": "Baby Strider Jockey",
+      "category": "reference_entity",
+      "what": "A baby strider jockey is a baby strider riding an adult strider.",
+      "does": "This is different from the zombified-piglin strider jockey.",
+      "wiki": {
+        "page_id": 411489,
+        "title": "Baby Strider Jockey",
+        "revision_id": 3725666,
+        "revision_timestamp": "2026-08-17T20:42:08Z",
+        "sha256": "a0c494fd24f3f74f62d10a9335313d53dc7a2b357b6dce320a2edfdf29f19b59",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3725666"
+      },
+      "topics": {
+        "spawning": {
+          "answer": "These pairs can appear during natural strider spawning in the Nether.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3725666"
+          ]
+        },
+        "interactions": {
+          "answer": "The baby can remain mounted even after it grows up. The lower and upper striders remain separate entities.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3725666"
+          ]
+        },
+        "drops": {
+          "answer": "Each strider has its own age-dependent loot and equipment rules. Do not combine both into one guaranteed drop list.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3725666"
+          ]
+        },
+        "identity": {
+          "answer": "A baby strider jockey is a baby strider riding an adult strider. This is different from the zombified-piglin strider jockey.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3725666"
+          ]
+        },
+        "behavior": {
+          "answer": "A baby strider jockey is a baby strider riding an adult strider. This is different from the zombified-piglin strider jockey.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3725666"
+          ]
+        }
+      },
+      "aliases": [
+        "baby strider jockey"
+      ]
+    },
+    "wiki:raid_captain": {
+      "id": "wiki:raid_captain",
+      "name": "Raid Captain",
+      "category": "reference_entity",
+      "what": "A raid captain is an illager with the captain role and an ominous banner.",
+      "does": "It is a role, not a separate species from its underlying illager.",
+      "wiki": {
+        "page_id": 103803,
+        "title": "Raid captain",
+        "revision_id": 3843261,
+        "revision_timestamp": "2026-10-14T22:42:08Z",
+        "sha256": "fffd4668cdf1a569740d2c66689802a1d4eb8cfe1cb3984628ef3a31addeed19",
+        "url": "https://minecraft.wiki/w/Special:PermanentLink/3843261"
+      },
+      "topics": {
+        "drops": {
+          "answer": "An eligible captain killed by a player can drop an ominous bottle. The underlying illager’s normal loot has separate conditions.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843261"
+          ]
+        },
+        "interactions": {
+          "answer": "Drinking an ominous bottle applies Bad Omen. Entering a village with the effect can lead to Raid Omen and a raid; the captain’s death alone is not the same as drinking the bottle.",
+          "coverage": "reviewed_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843261"
+          ]
+        },
+        "identity": {
+          "answer": "A raid captain is an illager with the captain role and an ominous banner. It is a role, not a separate species from its underlying illager.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843261"
+          ]
+        },
+        "behavior": {
+          "answer": "A raid captain is an illager with the captain role and an ominous banner. It is a role, not a separate species from its underlying illager.",
+          "coverage": "editorial_basic_summary",
+          "reference_urls": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843261"
+          ]
+        }
+      },
+      "aliases": [
+        "raid captain"
+      ]
+    }
+  }
+}

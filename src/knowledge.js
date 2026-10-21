@@ -1,4 +1,4 @@
-import {entityAnswer, entityTopic, wolfVariant} from './entities.js';
+import {entityAnswer, entityTopic, wolfVariant, entityReferences} from './entities.js';
 import acquisitionIndex from '../data/acquisition_index.json' with {type:'json'};
 import entityKnowledge from '../data/entity_knowledge.json' with {type:'json'};
 import locationFacts from '../data/location_facts.json' with {type:'json'};
@@ -9,7 +9,13 @@ import facts from '../data/facts.json' with { type: 'json' };
 import recipeIndex from '../data/recipe_index.json' with { type: 'json' };
 import banter from '../data/banter.json' with { type: 'json' };
 
-const records = bundle.records;
+const records = {...bundle.records};
+for(const [id,ref] of Object.entries(entityReferences)) {
+ if(!Object.values(records).some(r=>r.minecraft_id===id)) {
+  const key='entity:'+id;records[key]={id:key,minecraft_id:id,kind:'entity',name:ref.name,aliases:ref.aliases};
+  descriptions[key]={what:ref.what,does:ref.does,coverage:'editorial_basic_summary'};
+ }
+}
 const clean = s => String(s ?? '').toLowerCase().replace(/minecraft:/g, '').replace(/[_-]/g, ' ').replace(/\bpick axe\b/g, 'pickaxe').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 const label = s => clean(s).replace(/\b\w/g, c => c.toUpperCase());
 const unknown = "I'm not sure about that yet. Try asking me how to craft something, or ask for a joke.";
@@ -21,7 +27,7 @@ for (const record of Object.values(records)) {
   byMinecraftId.get(id).push(record);
 }
 for (const record of Object.values(records)) {
-  for (const term of [clean(record.name),clean(record.minecraft_id)]) {
+  for (const term of [clean(record.name),clean(record.minecraft_id),...(record.aliases??[])]) {
     aliasIndex.set(term,[...new Set([...(aliasIndex.get(term) ?? []),record.id])]);
   }
 }
@@ -132,6 +138,7 @@ export function createConversation() {
   let previous;
   let pendingChoice;
   let previousVariant;
+  let previousEntityTopic;
   let pendingVariant;
   return {
     ask(input) {
@@ -146,6 +153,7 @@ export function createConversation() {
         }
         pendingVariant=undefined;
       }
+      if(previous?.kind==='entity' && previousEntityTopic==='drops' && /^(?:and )?(?:with(?:out)? looting\b|when (?:killed|slain|shot|burning|on fire|a .+ (?:kills|shoots))\b|while burning\b|for (?:a )?(?:baby|babies|adults|small|medium|large)\b|on (?:easy|normal|hard)\b)/.test(q)) return this.ask(`What does entity:${previous.minecraft_id} drop ${q}?`);
       const choice=q.match(/^(?:a |an |the )?(mob|entity|animal|creature|block|item)(?: please)?$/);
       if(pendingChoice && choice) {
         const kind=['mob','entity','animal','creature'].includes(choice[1])?'entity':choice[1];
@@ -167,6 +175,26 @@ export function createConversation() {
         /\b(drown|underwater|lava|fire|sunlight|eat|tame|kill|health|attack|damage)\b/.test(q) ? 'mechanic' : 'describe';
       if (intent === 'uses' && /\bwith iron$/.test(q)) return {status:'ambiguous',answer:'Do you mean iron ingots, raw iron, or iron blocks? Please include the material in your question.'};
       const matches = subjects(q).filter(x => intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
+      if(entityTopic(q)==='drops') {
+        const subjectClause=q.match(/\b(?:does|do|will|would|can)\s+(.+?)\s+(?:drop|drops|give|leave)\b/);
+        const killedObject=q.match(/\b(?:kills?|killed(?! by)|slays?|shoots?)\s+(?:a |an |the )?(.+?)(?=\s+(?:what|when|if|with|using|and|does|do)\b|$)/);
+        const fromClause=q.match(/\b(?:drops?|loot)\s+(?:from|of)\s+(.+?)(?=\s+(?:when|if|after|with)\b|$)/);
+        for(const span of [subjectClause?.[1],killedObject?.[1],fromClause?.[1]]) {
+          if(!span)continue;
+          const identified=subjects(span);
+          if(identified.length) {matches.splice(0,matches.length,...identified);break;}
+        }
+      }
+      if(['diet','healing','taming','breeding','transport','combat'].includes(entityTopic(q))) {
+        const actor=q.match(/\b(?:does|do|can|will|should)\s+(.+?)\s+(?:eat|eats|breed|heal|tame|ride|attack)\b/);
+        const object=q.match(/\b(?:tame|breed|heal|ride)\s+(?:a |an |the |my )?(.+?)(?=\s+(?:with|using|when|while|in|at|near)\b|$)/);
+        const shorthand=q.match(/^(.+?)\s+(?:eat|eats)\b/);
+        for(const span of [actor?.[1],object?.[1],shorthand?.[1]]) {
+          if(!span)continue;
+          const identified=subjects(span);
+          if(identified.length) {matches.splice(0,matches.length,...identified);break;}
+        }
+      }
       // In a feeding question, the food can have a longer catalog name than
       // the creature. Use the grammatical recipient before alias length.
       const feedTo=q.match(/\bfeed(?:ing)?\b.*?\bto\s+(.+)$/);
@@ -183,7 +211,7 @@ export function createConversation() {
       const exact = String(input).toLowerCase().match(/\b(?:(block|item|entity):)?(minecraft:(?:potion_type:)?[a-z0-9_]+)\b/);
       let candidates = matches.length ? matches.filter(m => m.size === matches[0].size && m.start === matches[0].start).map(m => m.record) : [];
       if (exact) candidates = (byMinecraftId.get(exact[2]) ?? []).filter(r => !exact[1] || r.kind === exact[1]);
-      if(/\b(drop|drops|loot|tame|taming|breed|breeding)\b/.test(q) && candidates.some(r=>r.kind==='entity')) candidates=candidates.filter(r=>r.kind==='entity');
+      if(/\b(drop|drops|loot|tame|taming|breed|breeding|health|hearts|dangerous|attack|attacks|eat|eats|feeding|healing|ride|riding)\b/.test(q) && candidates.some(r=>r.kind==='entity')) candidates=candidates.filter(r=>r.kind==='entity');
       const kindHint = /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
       if (!exact && kindHint && candidates.some(r=>r.kind===kindHint)) candidates=candidates.filter(r=>r.kind===kindHint);
       candidates = [...new Map(candidates.map(r => [r.id,r])).values()];
@@ -207,10 +235,11 @@ export function createConversation() {
       }
       previousVariant = matches.length ? wolfVariant(q) : r.minecraft_id === previous?.minecraft_id ? previousVariant : undefined;
       previous = r;
+      previousEntityTopic=r.kind==='entity'?entityTopic(q):undefined;
       pendingChoice=undefined;
-      if(r.kind==='entity' && !['fear','danger'].includes(intent)) {
-        const answer=entityAnswer(r.minecraft_id,q,previousVariant);
-        if(answer)return answer;
+      if((r.kind==='entity' || entityReferences[r.minecraft_id]) && intent!=='fear' && (r.kind==='entity' || !['identity','behavior'].includes(entityTopic(q)))) {
+        const answer=entityAnswer(r.minecraft_id,q,previousVariant,intent==='danger'?'combat':undefined);
+        if(answer)return ['identity','behavior'].includes(answer.topic)?{...answer,answer:answer.answer+followup(r)}:answer;
       }
       if (intent === 'recipe') return {...recipeText(r), subject: r.minecraft_id};
       if (intent === 'uses') {

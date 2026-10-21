@@ -1,3 +1,13 @@
+# User report: 0.2.7
+
+The user reports testing complete, with everything else good except the answer to
+“Can I tame a wolf with beef?” The response sounded uncertain despite giving the
+correct bones alternative. The development batch now gives a direct No and
+explains the appropriate taming food. The user also confirmed that “cows eat” and
+a longer cow-food question mentioning 200 years of age and plains gave the same
+correct food answer. These are single-player observations, not multiplayer results
+or evidence of complete entity knowledge. The installed 0.2.7 download is unchanged.
+
 # User report: 0.2.6
 
 The user reports testing all questions in the 0.2.6 checklist and receiving the

@@ -3,7 +3,7 @@ from pathlib import Path
 import json,collections
 ROOT=Path(__file__).resolve().parents[1]
 def load(name):return json.loads((ROOT/name).read_text())
-records=load('data/catalog.json')['records'];descriptions=load('data/description_catalog.json');recipes=load('data/recipe_index.json')['by_output'];loot=load('legacy/database/structured/v65/loot_sources_by_item.json');spawn=load('legacy/database/structured/v66/spawn_evidence_compact.json');locations=load('data/location_facts.json');facts=load('data/facts.json');entity_topics=load('data/entity_knowledge.json');acquisition=load('data/acquisition_index.json')
+records=load('data/catalog.json')['records'];descriptions=load('data/description_catalog.json');recipes=load('data/recipe_index.json')['by_output'];loot=load('legacy/database/structured/v65/loot_sources_by_item.json');spawn=load('legacy/database/structured/v66/spawn_evidence_compact.json');locations=load('data/location_facts.json');facts=load('data/facts.json');entity_topics=load('data/entity_knowledge.json');acquisition=load('data/acquisition_index.json');current_entities=load('data/entities/runtime.json');current_entities=load('data/entities/runtime.json')
 location_ids={id for key,row in locations.items() for id in [key]+row.get('related_ids',[])}
 topics={
  'block':['identity','uses','recipe_or_acquisition','location','biomes','mining_tool','drops','properties','redstone'],
@@ -30,8 +30,20 @@ for id,r in records.items():
    if topic in entity_topics.get(name,{}).get('facts',{}):row[topic]={'status':'component_derived_with_state_caveats','answer_connected':True}
   if name in acquisition['entities']:row['drops']={'status':'conditional_loot_profile','answer_connected':True}
   if 'breed' in facts.get(name,{}):row['breeding']={'status':'conditional_fact','answer_connected':True}
+  topic_map={'spawn_conditions':'spawning','attacks':'combat','environmental_reactions':'interactions','construction_or_summoning':'construction'}
+  for public_topic in row:
+   connected=current_entities.get(name,{}).get('topics',{}).get(topic_map.get(public_topic,public_topic))
+   if connected:row[public_topic]={'status':connected['coverage'],'answer_connected':True,'exhaustive':False}
+  if row.get('biomes',{}).get('answer_connected') is False and current_entities.get(name,{}).get('topics',{}).get('spawning'):
+   row['biomes']={'status':'spawning_summary_partial_biome_guidance','answer_connected':True,'exhaustive':False}
+  topic_map={'spawn_conditions':'spawning','attacks':'combat','environmental_reactions':'interactions','construction_or_summoning':'construction'}
+  for public_topic in row:
+   connected=current_entities.get(name,{}).get('topics',{}).get(topic_map.get(public_topic,public_topic))
+   if connected:row[public_topic]={'status':connected['coverage'],'answer_connected':True,'exhaustive':False}
+  if row.get('biomes',{}).get('answer_connected') is False and current_entities.get(name,{}).get('topics',{}).get('spawning'):
+   row['biomes']={'status':'spawning_summary_partial_biome_guidance','answer_connected':True,'exhaustive':False}
  for topic,value in row.items():counts[topic+':'+value['status']]+=1
  result[id]={'kind':kind,'topics':row,'complete':False}
-report={'purpose':'Full gameplay-topic coverage per subject. A basic description does not establish complete knowledge.','subject_count':len(result),'complete_subject_count':0,'live_wiki_access':'article_api_accessible; Kiwix downloads blocked on last check','topic_counts':dict(counts),'subjects':result,'completion_rule':'Each topic needs source-backed connected answers or an explicit source-backed not-applicable result; missing data is never silently not-applicable.'}
+report={'purpose':'Full gameplay-topic coverage per subject. A basic description does not establish complete knowledge.','subject_count':len(result),'complete_subject_count':0,'reference_source':'Preserved offline wiki text databases; archive availability is distinct from runtime topic completeness','topic_counts':dict(counts),'subjects':result,'completion_rule':'Each topic needs source-backed connected answers or an explicit source-backed not-applicable result; missing data is never silently not-applicable.'}
 (ROOT/'docs/GAMEPLAY_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
 print('Full gameplay audit:',len(result),'subjects; zero claimed complete; missing topics tracked explicitly.')

@@ -1,3 +1,4 @@
+import catalog from '../data/catalog.json' with {type:'json'};
 import database from '../data/entities/runtime.json' with {type:'json'};
 const normalize=s=>s.toLowerCase().replace(/minecraft:/g,'').replace(/[_:]/g,' ').replace(/\s+/g,' ').trim();
 const contains=(q,s)=>{
@@ -8,12 +9,28 @@ const foodNames=new Map();
 for(const row of Object.values(database))for(const entries of [...Object.values(row.feeding?.roles??{}),row.feeding?.hazards??[],row.feeding?.withheld??[]])for(const item of entries) {
   foodNames.set(item.id,item.name);
 }
+for(const item of Object.values(catalog.records))if(item.kind==='item'&&!foodNames.has(item.minecraft_id))foodNames.set(item.minecraft_id,item.name.toLowerCase());
 const aliases={
  'minecraft:fish':['cod','raw cod'], 'minecraft:salmon':['salmon','raw salmon'],
  'minecraft:clownfish':['tropical fish'], 'minecraft:muttonRaw':['raw mutton'],
  'minecraft:muttonCooked':['cooked mutton'], 'minecraft:appleEnchanted':['enchanted golden apple'],
  'minecraft:hay_block':['hay bale'], 'minecraft:slime_ball':['slimeball']
 };
+function ingredientText(id,q) {
+ const limited=text=>text.split(/\b(?:when|while|because|near|around)\b/)[0].trim();
+ const withItem=q.match(/\b(?:with|using)\s+(.+)$/);if(withItem)return limited(withItem[1]);
+ const feedTo=q.match(/\bfeed(?:ing)?\s+(.+?)\s+to\s+/);if(feedTo)return limited(feedTo[1]);
+ const eating=q.match(/\b(?:eat|eats)\s+(.+)$/);if(eating)return /^(?:when|if|while|in |at )/.test(eating[1])?'':limited(eating[1]);
+ const feed=q.match(/\bfeed(?:ing)?\s+(.+)$/);
+ if(feed) {
+  const name=normalize(id).replace(/\bv2\b/g,'').trim();
+  const names=[name,name+'s',name==='wolf'?'wolves':name];
+  let rest=feed[1].replace(/^(?:a |an |the |my )/,'');
+  for(const n of names.sort((a,b)=>b.length-a.length))if(rest===n||rest.startsWith(n+' '))return rest.slice(n.length).trim();
+  return rest.replace(/^(?:it|them)\b/,'').trim();
+ }
+ return '';
+}
 function requestedFood(q) {
   const found=[];
   for(const [id,name] of foodNames)for(const alias of [name,normalize(id),...(aliases[id]??[])])if(contains(q,alias))found.push({id,size:alias.length});
@@ -24,7 +41,7 @@ const titles={breeding:'For breeding',taming:'For taming',healing:'For healing',
 export function feedingAnswer(id,q,topic) {
  const row=database[id],food=row?.feeding;
  if(!food || (!Object.keys(food.roles).length&&!food.hazards.length))return null;
- const requested=requestedFood(q),hazard=food.hazards.find(i=>i.id===requested);
+ const requested=requestedFood(ingredientText(id,q)),hazard=food.hazards.find(i=>i.id===requested);
  const withheld=food.withheld?.find(i=>i.id===requested);
  if(withheld)return {status:'unknown',answer:withheld.answer,subject:id,topic:'diet',sources:food.sources};
  if(hazard)return {status:'conditional',answer:`Do not feed it ${hazard.name}; that interaction applies a harmful effect rather than healing it.`,subject:id,topic:'diet',sources:food.sources};
@@ -45,6 +62,12 @@ export function feedingAnswer(id,q,topic) {
  }
  if(!lines.length) {
   const alternatives=[...new Set(selected.flatMap(([,items])=>items.map(i=>i.name)))];
+  if(role && ['taming','breeding','growth'].includes(role)) {
+   const detail=row.topics[role]?.answer;
+   const advice=detail??`For ${role}, use ${alternatives.join(', ')}.`;
+   const wolfNote=id==='minecraft:wolf'?' Other foods can feed or heal a wolf after it is tamed.':'';
+   return {status:'conditional',answer:`No. ${foodNames.get(requested).replace(/^./,c=>c.toUpperCase())} cannot be used for ${role}. ${advice}${wolfNote}`,subject:id,topic:role,sources:food.sources};
+  }
   return {status:'unknown',answer:`I don't have a supported ${role??'feeding'} use for ${foodNames.get(requested)} with this creature. ${alternatives.length?'For that purpose, use '+alternatives.join(', ')+'.':'Ask about another feeding purpose.'}`,subject:id,topic:role??'diet',sources:food.sources};
  }
  const detail=role&&row.topics[role]?.answer;

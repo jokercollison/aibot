@@ -32,7 +32,7 @@ test('constructed entities are resolved before item recipe lookup',()=>{
 });
 test('coverage records all catalog entities without claiming exhaustive knowledge',()=>{
  const report=JSON.parse(fs.readFileSync(new URL('../docs/ENTITY_KNOWLEDGE_COVERAGE.json',import.meta.url)));
- assert.equal(report.entities,129);assert.equal(report.complete,false);
+ assert.equal(report.catalog_entities,129);assert.equal(report.additional_reference_subjects,13);assert.equal(report.entities,142);assert.equal(report.complete,false);
  assert.ok(Object.values(report.subjects).some(r=>Object.values(r.topics).includes('pending_review')));
  assert.ok(Object.values(report.subjects).every(r=>r.complete===false));
 });

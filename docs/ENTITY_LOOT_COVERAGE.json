@@ -1,0 +1,128 @@
+{
+  "sample_entities": 128,
+  "entities_with_death_tables": 78,
+  "preserved_tables": 91,
+  "pools": 152,
+  "entry_types": {
+    "item": 247,
+    "empty": 3,
+    "loot_table": 12
+  },
+  "condition_types": {
+    "killed_by_player_or_pets": 10,
+    "entity_properties": 15,
+    "bool_property": 1,
+    "killed_by_entity": 5,
+    "random_chance_with_looting": 15,
+    "killed_by_player": 14,
+    "damaged_by_entity": 1,
+    "passenger_of_entity": 2,
+    "is_baby": 2,
+    "random_difficulty_chance": 1,
+    "has_mark_variant": 14
+  },
+  "function_types": {
+    "set_count": 98,
+    "looting_enchant": 87,
+    "minecraft:set_potion": 3,
+    "minecraft:set_data_from_color_index": 6,
+    "furnace_smelt": 15,
+    "set_data": 19,
+    "set_ominous_bottle_amplifier": 1,
+    "enchant_with_levels": 4,
+    "enchant_random_gear": 8,
+    "set_damage": 14,
+    "minecraft:set_count": 1
+  },
+  "missing_table_references": [
+    "loot_tables/entities/fox.json",
+    "loot_tables/entities/piglin.json"
+  ],
+  "unsupported_or_unparsed_rules": [
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    },
+    {
+      "table": "loot_tables/gameplay/entities/mooshroom_milking.json",
+      "kind": "condition",
+      "value": "has_mark_variant"
+    }
+  ],
+  "withheld_source_conflicts": [
+    {
+      "subject": "minecraft:creeper",
+      "killer": "minecraft:parched",
+      "topic": "drops",
+      "reason": "Pinned table includes parched as a disc killer; reviewed archived creeper article lists skeleton, stray and bogged. Specific answer withheld pending version review."
+    }
+  ],
+  "complete_gameplay_knowledge": false,
+  "limits": [
+    "Table selection follows component scope; unspecified state remains conditional.",
+    "Dynamic equipment, experience, special engine drops and harvesting are separate mechanics.",
+    "Random functions and weighted pools retain possible outcomes; no guarantees inferred from a union.",
+    "Fishing luck/enchantments and unsupported functions are not evaluated as exact probabilities."
+  ]
+}
