@@ -5068,6 +5068,60 @@
         }
       },
       "variants": []
+    },
+    "minecraft:tripod_camera": {
+      "topics": {
+        "spawning": {
+          "answer": "The tripod camera is an Education feature, not a naturally spawning Survival creature. It is not normally obtainable in standard Bedrock Survival.",
+          "coverage": "reviewed_summary",
+          "source_kind": "archived_wiki",
+          "source_sections": [
+            "Introduction",
+            "Usage",
+            "Obtaining",
+            "History"
+          ]
+        },
+        "interactions": {
+          "answer": "In Minecraft Education, cameras work with portfolios to collect photos. This tripod entity is different from the camera command used by world creators.",
+          "coverage": "reviewed_summary",
+          "source_kind": "archived_wiki",
+          "source_sections": [
+            "Introduction",
+            "Usage",
+            "Obtaining",
+            "History"
+          ]
+        }
+      },
+      "variants": []
+    },
+    "minecraft:cushion": {
+      "topics": {
+        "interactions": {
+          "answer": "Cushions are placeable seats. Use one to sit on it. They need a supporting surface and can break when that support is removed.",
+          "coverage": "reviewed_summary",
+          "source_kind": "archived_wiki",
+          "source_sections": [
+            "Introduction",
+            "Usage",
+            "Obtaining",
+            "History"
+          ]
+        },
+        "drops": {
+          "answer": "A cushion drops its own item when broken. It is a placeable seat, not a creature that provides animal loot.",
+          "coverage": "reviewed_summary",
+          "source_kind": "archived_wiki",
+          "source_sections": [
+            "Introduction",
+            "Usage",
+            "Obtaining",
+            "History"
+          ]
+        }
+      },
+      "variants": []
     }
   }
 }

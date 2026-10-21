@@ -1,4 +1,4 @@
-# Entity knowledge work — test release 0.2.6
+# Entity knowledge work — development after 0.2.6
 
 Work order: entities, blocks, items. Minecraft knowledge comes before additional
 personality or casual conversation. Release 0.2.6 preserves this first pass as a separately installable test build.
@@ -29,19 +29,24 @@ Examples: creeper + drops; snowy wolf + spawning; wither + health.
 ## Actual coverage and remaining work
 
 `ENTITY_KNOWLEDGE_COVERAGE.json` is the machine-readable per-subject topic audit.
-There are currently 494 curated summaries across 127 catalog entities. These are
-summaries, not exhaustive mechanic coverage. Every subject remains marked
-incomplete. Camera and cushion availability needs explicit target-version review.
+The published 0.2.6 build contains 494 curated summaries across 127 catalog entities.
+Current unreleased source has 498 curated summaries across all 129 catalog entities,
+plus 95 component-backed health/feeding topic summaries. These are summaries, not
+exhaustive mechanic coverage. Every subject remains marked incomplete. Camera
+advice now distinguishes Education from normal Survival; cushion notes are linked
+to its archived placement/breaking rules and Bedrock history.
 The evidence inventory contains pointers for all 129 catalog subjects.
 
 `WIKI_ENTITY_RECONCILIATION.json` also inventories wiki entity pages absent from
-that catalog. These require classification as Bedrock, Java-only, Education,
-future, removed, variant/jockey, or another game before they become answers.
+that catalog. The classified [wiki inventory](ENTITY_WIKI_CLASSIFICATION.json) accounts for all
+208 listed pages: mapped catalog subjects, four Bedrock reference gaps, composite
+roles/jockeys, and excluded or restricted editions/features. Classification is
+not answer coverage; the four missing Bedrock subjects still need runtime topics.
 Do not assume the samples exhaust the wiki, or that later wiki mechanics apply to
 1.26.52. Do not close this task based on article counts or passing routing tests.
 
 Remaining work includes full topic interpretation, precise conditional loot
-queries, unsupported diet/mechanic questions, wiki-only entity classification,
+queries, additional diet/mechanic questions, connecting classified Bedrock gaps,
 and explicit source conflicts. For example, the archived creeper article and the
 pinned loot table differ on the parched-related disc condition. That condition
 has not been promoted into an answer. No complete-knowledge claim is justified.
@@ -57,3 +62,36 @@ new or changed player checks; move completed checks to testing history. Keep the
 conversation chronological with newest answer beside the input. Native stable
 server-ui currently exposes no scroll-position API; automatic bottom scrolling
 remains unresolved and must not be advertised as fixed. Multiplayer is untested.
+
+## Unreleased feeding and health work
+
+`tools/entity_topics.py` preserves the food's purpose and component scope: breeding,
+taming, healing and baby growth are distinct. Healing amounts, replacement buckets,
+filters and harmful effects remain structured data. Cookies carrying fatal poison
+are a parrot warning, never a healing suggestion. The conflicting wither-rose/bee
+interaction is withheld and recorded in the coverage report.
+
+`src/entity-feeding.js` answers specific food questions and keeps pronoun follow-ups
+with the creature. In “feed tropical fish to an axolotl”, the fish is food rather
+than the subject. Loose fish is distinguished from a bucket of fish. A named food
+for an unsupported purpose does not silently produce generic affirmative advice.
+
+Fixed health summaries use the pinned v1.26.50.4 sample revision. Variable or special
+health is not flattened: wolves, difficulty-dependent withers and curated state
+answers retain their separate explanations. Creakings, End crystals, experience
+orbs and unreachable legacy ocelot state groups are excluded from that inference.
+
+Regenerate without touching published packs:
+
+```sh
+python tools/entity_reconciliation.py
+python tools/entity_database.py
+npm run check
+npm test
+```
+
+The wiki classification command uses the restored development-only SQLite archive;
+ordinary compilation and tests use committed evidence and need no wiki connection.
+88 automated tests and a temporary esbuild compilation passed for this source
+snapshot. No new .mcaddon was built or uploaded; 0.2.6 downloads are unchanged.
+Prepare fresh release identities before distributing these further changes.

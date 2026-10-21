@@ -167,6 +167,19 @@ export function createConversation() {
         /\b(drown|underwater|lava|fire|sunlight|eat|tame|kill|health|attack|damage)\b/.test(q) ? 'mechanic' : 'describe';
       if (intent === 'uses' && /\bwith iron$/.test(q)) return {status:'ambiguous',answer:'Do you mean iron ingots, raw iron, or iron blocks? Please include the material in your question.'};
       const matches = subjects(q).filter(x => intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
+      // In a feeding question, the food can have a longer catalog name than
+      // the creature. Use the grammatical recipient before alias length.
+      const feedTo=q.match(/\bfeed(?:ing)?\b.*?\bto\s+(.+)$/);
+      const feedFirst=q.match(/\bfeed(?:ing)?\s+(?:a |an |the |my )?(.+)$/);
+      const foodSubject=feedTo?.[1] ?? feedFirst?.[1];
+      if(foodSubject) {
+        const recipients=subjects(foodSubject).filter(x=>x.record.kind==='entity');
+        if(recipients.length) {
+          const first=recipients.reduce((a,b)=>a.start<b.start?a:b);
+          matches.splice(0,matches.length,...recipients.filter(x=>x.start===first.start));
+        }
+      }
+      if(previous && (/\b(?:feed|heal|breed|tame)\s+(?:it|them)\b/.test(q) || feedTo && /^(?:it|them)\b/.test(feedTo[1]))) matches.splice(0,matches.length);
       const exact = String(input).toLowerCase().match(/\b(?:(block|item|entity):)?(minecraft:(?:potion_type:)?[a-z0-9_]+)\b/);
       let candidates = matches.length ? matches.filter(m => m.size === matches[0].size && m.start === matches[0].start).map(m => m.record) : [];
       if (exact) candidates = (byMinecraftId.get(exact[2]) ?? []).filter(r => !exact[1] || r.kind === exact[1]);

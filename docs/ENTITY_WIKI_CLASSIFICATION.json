@@ -1,0 +1,2553 @@
+{
+  "scope": "All preserved main-namespace entity-infobox pages in the reconciliation inventory; not a claim that all wiki gameplay subjects use infoboxes.",
+  "target_game_version": "1.26.52",
+  "counts": {
+    "mapped_catalog": 119,
+    "removed_or_unreleased_legacy": 6,
+    "bedrock_reference_gap": 4,
+    "java_only": 9,
+    "composite_or_role": 7,
+    "related_item_or_block_page": 5,
+    "joke_snapshot": 36,
+    "education_feature": 1,
+    "china_edition": 1,
+    "proposed_or_scrapped": 15,
+    "future_not_target_version": 3,
+    "marketplace_custom_content": 1,
+    "bedrock_editor_only": 1
+  },
+  "pages": [
+    {
+      "title": "Zombie",
+      "page_id": 626,
+      "revision_id": 3851907,
+      "sha256": "a09aad980011a31e335cbe861e87d135f3c0b2eae9123d70a43f510dd50860a9",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851907",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:zombie"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Creeper",
+      "page_id": 628,
+      "revision_id": 3848379,
+      "sha256": "44a13d77c1b80ff2a0572d8aec8d255b4fa5bf1bc6b2f16641aac1d4879f8e4a",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:creeper"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Skeleton",
+      "page_id": 632,
+      "revision_id": 3846446,
+      "sha256": "8b2b3c077491f8417c74cfbb8c79459bec1cf3371d418199bf4c52fcc69cb915",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:skeleton"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Mob (entity)",
+      "page_id": 647,
+      "revision_id": 3849398,
+      "sha256": "afc5976fbf43a4847b9656ae6547a5359e24aaf861aa92a88a454f39f27e2c59",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849398",
+      "classification": "removed_or_unreleased_legacy",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Sheep",
+      "page_id": 767,
+      "revision_id": 3848879,
+      "sha256": "0510096b093b9a16abe87b903681f0661a074c196fd1db291ae0ce47abea9bca",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:sheep"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Painting",
+      "page_id": 1036,
+      "revision_id": 3815177,
+      "sha256": "eb7116fa4d713c064299d20e138a8a9296245953f88dfd2e3b30875caae69901",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3815177",
+      "classification": "bedrock_reference_gap",
+      "catalog_ids": [],
+      "note": "Not a separately mapped catalog subject; add reviewed gameplay topics or explicit technical-subject handling.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart",
+      "page_id": 1475,
+      "revision_id": 3852298,
+      "sha256": "19b78386d69db3cf9f861364a1467ce21220ccdf6a5d3618a276a4f9e870c74e",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3852298",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:minecart"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Spider",
+      "page_id": 1497,
+      "revision_id": 3844683,
+      "sha256": "570351db111bb550cb9f97c27c0fd1b72ed945a27c3949294c7d535bf7a1e999",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:spider"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Arrow",
+      "page_id": 1508,
+      "revision_id": 3851631,
+      "sha256": "bfbe56229924bc4e7868ccc2b664215be121127145bb8d2d878b7ae3032abffd",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851631",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:arrow"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Snowball",
+      "page_id": 1939,
+      "revision_id": 3843674,
+      "sha256": "92b173c5e4ce2600a968707a5e1797e4544dba0960a42ba7e57b5f9af4075f1a",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843674",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:snowball"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Cow",
+      "page_id": 2062,
+      "revision_id": 3851210,
+      "sha256": "3f0b4febbc9c94cd6b130416afc7877830dcc84086fe931d1be638358334b949",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:cow"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart with Furnace",
+      "page_id": 2305,
+      "revision_id": 3851326,
+      "sha256": "113d7549f3e08be49245a98462d7429f5058a0adaf567524b183039a3f2e8ca5",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851326",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart with Chest",
+      "page_id": 2306,
+      "revision_id": 3851318,
+      "sha256": "f1ecc3a7301cc1f2b3145bcbca3dd03d6a80d3872cb66a1a0c8adf0c28df0ef8",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851318",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:chest_minecart"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Chicken",
+      "page_id": 2313,
+      "revision_id": 3850656,
+      "sha256": "f63f4a56a7552145ccdc74700eef465c8bca094756b019d99222a1b9ead4c648",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:chicken"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Egg",
+      "page_id": 2318,
+      "revision_id": 3823025,
+      "sha256": "12c1a09fe19460e221c9fcd13b1a0d5d07a3769d13ffe22957621acd24372695",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3823025",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:egg"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Slime",
+      "page_id": 2339,
+      "revision_id": 3849919,
+      "sha256": "802eb3bdb9c780c8c484c758f52984d7d00cd30301fb8a367876f0dedc560535",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:slime"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Fishing Rod",
+      "page_id": 2756,
+      "revision_id": 3820476,
+      "sha256": "d2162b536512a5bfa981d7a03fed81e71667f04fbaf1adcf042b9b4ca845de78",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3820476",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:fishing_hook"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ghast",
+      "page_id": 3428,
+      "revision_id": 3830625,
+      "sha256": "cdf30e10c6801e0aa5ca5c403fbc0d29f7343d824d25cd624f5395ce6ed48c1e",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:ghast"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Zombified Piglin",
+      "page_id": 4055,
+      "revision_id": 3851912,
+      "sha256": "70c8f73e21bd9cb27320cd918079dd1dbcaa4f10548e6f325032f43d6d460662",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851912",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:zombie_pigman"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Spider Jockey",
+      "page_id": 4306,
+      "revision_id": 3831549,
+      "sha256": "a55472895aabcc402862f5b59991bb27fc6b096d7bb220f23db1b12b8375a601",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3831549",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Squid",
+      "page_id": 5821,
+      "revision_id": 3844578,
+      "sha256": "8ed0c5b83d0e50887a823bb9d8d5466e8e1da09499eb3a12b0d6385847d39849",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:squid"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Wolf",
+      "page_id": 9401,
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:wolf"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Cat",
+      "page_id": 9457,
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:cat"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Thunderstorm",
+      "page_id": 11876,
+      "revision_id": 3806763,
+      "sha256": "ba3a342e1eb901853b8d2d090f05697dabb9d753e2f27e1af28192efe176fae0",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3806763",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:lightning_bolt"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Player",
+      "page_id": 12950,
+      "revision_id": 3848965,
+      "sha256": "44fbc3744c7e93bf2335bc10b36c08e9ae0d112d45488cf1b3c93f4cdda754ad",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848965",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:player"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Silverfish",
+      "page_id": 14002,
+      "revision_id": 3843709,
+      "sha256": "ebcc09c8f3749393963f45c426c95de23f9a842195ca2e241e9d7447890eec60",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:silverfish"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Giant",
+      "page_id": 14393,
+      "revision_id": 3828411,
+      "sha256": "3ed4c87cc285a77ab8b2eb88f8da6c0c85f0f899ea42afb6dc04c2868c2a6d28",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3828411",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Enderman",
+      "page_id": 15310,
+      "revision_id": 3850886,
+      "sha256": "7b9495708e29fe4da3fd1f3778a23c2da97247420cf324aa16b67362e21ce724",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:enderman"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Camera",
+      "page_id": 16042,
+      "revision_id": 3801335,
+      "sha256": "608c5e7eeb27bafc03b885e855c07e230c428c2750e941152c72a3d497a9c08d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3801335",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:tripod_camera"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Experience",
+      "page_id": 16311,
+      "revision_id": 3848638,
+      "sha256": "75744d6f7efb43ab5d1c34409460c4f92d61d4c47d4b2e741ac5ef869c86c564",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848638",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:xp_orb"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Cave Spider",
+      "page_id": 16607,
+      "revision_id": 3851778,
+      "sha256": "2ac8a5598a1461ad7ce3436c7bb9bc3c133103e6aae2cc5c49ea25a5b6e6c38f",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:cave_spider"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ender Pearl",
+      "page_id": 17082,
+      "revision_id": 3840320,
+      "sha256": "59e5399ade13b309045fd6a0dd40748b097dde1a636044d32e751b200f2eb441",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3840320",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:ender_pearl"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Mooshroom",
+      "page_id": 17700,
+      "revision_id": 3844535,
+      "sha256": "5641a0c9e3944241e0882871a3e18e057f45a707cc36826236b0bef92f740add",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:mooshroom"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Snow Golem",
+      "page_id": 17972,
+      "revision_id": 3851744,
+      "sha256": "d7303646887143ef12c56c735dd9e074b4cf32744178a07d5d884e9241c657dd",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:snow_golem"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Blaze",
+      "page_id": 18045,
+      "revision_id": 3852956,
+      "sha256": "db7c9e072a2261f1de1bc6c4d3813e0c9db81b767ffb8798206fbe9db602640e",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:blaze"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Magma Cube",
+      "page_id": 18046,
+      "revision_id": 3849057,
+      "sha256": "1ae74e5ab1738a8036f5b8f7d45d70e6726b292b07e7e6aba59f9d8c2c16ad28",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:magma_cube"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Villager",
+      "page_id": 18048,
+      "revision_id": 3849427,
+      "sha256": "84e96339f1a286cf12398f20bdca38f9b3341475f2d34dc308229829bfdccf72",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:villager",
+        "minecraft:villager_v2"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "NPC",
+      "page_id": 18823,
+      "revision_id": 3849562,
+      "sha256": "09c6ef332aefb866962cbfda2950e94bd65b27125601c14d379f4b69e14ea500",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849562",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:npc"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Eye of Ender",
+      "page_id": 18983,
+      "revision_id": 3835744,
+      "sha256": "c5756dfe51dff4f4649ca404caebf32f70439a9647dc98c558c1334bb2763169",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3835744",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:eye_of_ender_signal"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ender Dragon",
+      "page_id": 19061,
+      "revision_id": 3851987,
+      "sha256": "35cbcc55b0d177cb7f5389d80a6dad87b1846d9b4db421e118562f49aa9cb277",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:dragon_fireball",
+        "minecraft:ender_dragon"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "End Crystal",
+      "page_id": 20972,
+      "revision_id": 3837768,
+      "sha256": "0eef17ed67657ac3c4b801817035d98bbb56219e891c88af070c4bc278fec86b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3837768",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:ender_crystal"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ocelot",
+      "page_id": 23815,
+      "revision_id": 3851711,
+      "sha256": "1fe59c7626abc811c7b06f63805435bef605a8bd666dbbd01e422908ccb2f6ce",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:ocelot"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Bottle o' Enchanting",
+      "page_id": 23818,
+      "revision_id": 3827316,
+      "sha256": "fda50bfbd2d147835ca127172f9fe1497f8dd9e1010cea7fd0b7cb85115c3bb3",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3827316",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:xp_bottle"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Fire Charge",
+      "page_id": 23821,
+      "revision_id": 3779438,
+      "sha256": "f95587b56a738618f918862c9278a39874e267511eec6af893b979feda9cb2ac",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3779438",
+      "classification": "related_item_or_block_page",
+      "catalog_ids": [],
+      "note": "Overlaps a block/item or projectile topic; presence of an entity infobox is not a new mob.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Item (entity)",
+      "page_id": 25049,
+      "revision_id": 3816775,
+      "sha256": "71ecb76e68fb1b949f036f47fc118376db75942a8e5e685c316d96b615dcb7cf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3816775",
+      "classification": "bedrock_reference_gap",
+      "catalog_ids": [],
+      "note": "Not a separately mapped catalog subject; add reviewed gameplay topics or explicit technical-subject handling.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Iron Golem",
+      "page_id": 25236,
+      "revision_id": 3851102,
+      "sha256": "29260cec4722be4eb073a76f0d40254c924fb87550137173aab6259b4337123b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:iron_golem"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Zombie Villager",
+      "page_id": 31950,
+      "revision_id": 3851910,
+      "sha256": "3053b3baaeaf5f67f94b9d6b4936c59de66765b0d915a64dcfaf3cc903881e2b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:zombie_villager",
+        "minecraft:zombie_villager_v2"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Wither",
+      "page_id": 32514,
+      "revision_id": 3846728,
+      "sha256": "1b2c7688549032715caa147b97704cf8e34f3a0987454339005448594e9d721c",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:wither"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Dragon Egg",
+      "page_id": 32579,
+      "revision_id": 3842592,
+      "sha256": "185e9a0846513a0870246fca92e6065844d31de323bb72862296639c0a0b7baf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3842592",
+      "classification": "related_item_or_block_page",
+      "catalog_ids": [],
+      "note": "Overlaps a block/item or projectile topic; presence of an entity infobox is not a new mob.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Wither Skeleton",
+      "page_id": 33239,
+      "revision_id": 3853122,
+      "sha256": "60a6a2eee743030be789fa9e853b3f47e386846eda7b35305b844cd3dcd84f7d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:wither_skeleton"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Witch",
+      "page_id": 33551,
+      "revision_id": 3850494,
+      "sha256": "f99d2a3fe5960f1373bf90851f67ce4dc4ba4127d06461331da4c100ec2e1026",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:witch"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Bat",
+      "page_id": 33601,
+      "revision_id": 3844624,
+      "sha256": "e44d358930ee14906d528f85ce537a3f3ca6b0e1ab7e67e6fa46b5743a434169",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:bat"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Firework Rocket",
+      "page_id": 35624,
+      "revision_id": 3815139,
+      "sha256": "4fcffae7060316312bed3827a7cbc36c38327014c91d97ee410a3904e69683e3",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3815139",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:fireworks_rocket"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart with TNT",
+      "page_id": 36785,
+      "revision_id": 3851323,
+      "sha256": "5932f7d697876664ce305b4f6ea1fca3c1010101cd8b4945c20fe35a1cb72298",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851323",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:tnt_minecart"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart with Monster Spawner",
+      "page_id": 36790,
+      "revision_id": 3851329,
+      "sha256": "2d359555ffd7af30490b5a9b68f6a16b39dd9d585343b5697200def2b35f4a63",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851329",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart with Hopper",
+      "page_id": 37210,
+      "revision_id": 3851320,
+      "sha256": "c5a5a4b5b5b015d8ace98c9050ecd37361cee4499772920d9e9d734b19eee8a2",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851320",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:hopper_minecart"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pig",
+      "page_id": 37514,
+      "revision_id": 3847785,
+      "sha256": "41b0bff50a942df1b1335e949f5cfc025dcfadc71c876a012172ecb09261c968",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:pig"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Horse",
+      "page_id": 39488,
+      "revision_id": 3850329,
+      "sha256": "4d7e566bd6c56ef335e2b0df6a46255558e6b00d3ee4c858583e1f4721abe147",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:horse"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Lead",
+      "page_id": 39902,
+      "revision_id": 3823154,
+      "sha256": "72c6b5bb160c0f7c3f44b1dce02664bd2c58c2f15f97c4dba9e439da3c42b610",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+      "classification": "related_item_or_block_page",
+      "catalog_ids": [],
+      "note": "Overlaps a block/item or projectile topic; presence of an entity infobox is not a new mob.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Zombie Horse",
+      "page_id": 40095,
+      "revision_id": 3854012,
+      "sha256": "0b0c7debf2e279a9ba887885a6447dee2377ddd4066b7e78243cd88b2eac11ee",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:zombie_horse"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Splash Potion",
+      "page_id": 40389,
+      "revision_id": 3836205,
+      "sha256": "e50eee70e968dc5719087b0a45a737ac12656a94126a40725dce7154f246852d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3836205",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:splash_potion"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "TNT",
+      "page_id": 40534,
+      "revision_id": 3822891,
+      "sha256": "ab7fa0e1e79eecdb476a43ddbe9f6a2f83b8b1d73e585006b8b31bee8f31498a",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3822891",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:tnt"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Anvil",
+      "page_id": 41121,
+      "revision_id": 3841165,
+      "sha256": "9a67324f2546d5dcfdf22951834def1467cd0405d443bb3425ff8f72a872da4f",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3841165",
+      "classification": "related_item_or_block_page",
+      "catalog_ids": [],
+      "note": "Overlaps a block/item or projectile topic; presence of an entity infobox is not a new mob.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Boat",
+      "page_id": 41563,
+      "revision_id": 3851308,
+      "sha256": "a60cfe038f3f5f32d73b3f5d5f936d64baec71403f89495a01a444fee90de37d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851308",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:boat"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pufferfish",
+      "page_id": 44089,
+      "revision_id": 3844681,
+      "sha256": "d666017b6a0e508158626c768cfaa90cb6e4d7a67213902a89734cb9e61d9c72",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844681",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:pufferfish"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Salmon",
+      "page_id": 44240,
+      "revision_id": 3844555,
+      "sha256": "93fbf57ed77d35b932df407e0117b73f395545bf06a284ef5aab4c7b6fbafda9",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:salmon"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Minecart with Command Block",
+      "page_id": 45359,
+      "revision_id": 3851328,
+      "sha256": "f3dc046e59a7be880c36e45d372a178c7b22ddbb60da755daa9b16e9932d4674",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851328",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:command_block_minecart"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Chicken Jockey",
+      "page_id": 49327,
+      "revision_id": 3848587,
+      "sha256": "52ef4c5278a1d8b6c73eeff34aaf8ed7e7503ad3e9fe3b7ff8c1dddcc165c2e0",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848587",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Endermite",
+      "page_id": 54382,
+      "revision_id": 3843703,
+      "sha256": "725d08bd3d3e09c85350574e15b165a66740a9cdd09579c736cee6bea8c5aa3f",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843703",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:endermite"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Rabbit",
+      "page_id": 56440,
+      "revision_id": 3844604,
+      "sha256": "9d36ef20fb7e1a508371a93ec44352fbcbe9d2177b93f621a5f91cf51132e67f",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:rabbit"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Guardian",
+      "page_id": 56675,
+      "revision_id": 3853189,
+      "sha256": "130443d2c851ed653bc1f2dccac699a4fd654473642961957a11049d6d3a3e34",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:guardian"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Elder Guardian",
+      "page_id": 57149,
+      "revision_id": 3853190,
+      "sha256": "ca80c9a285846b0ac3fb48a6e5d6b9c7b8ef8d52a062668c248593d270ee4cf2",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853190",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:elder_guardian"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Armor Stand",
+      "page_id": 59070,
+      "revision_id": 3826742,
+      "sha256": "4c193e4d6d9fdb0963985cf328c48cc76dc3e283630d2cea428c2626440c5977",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3826742",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:armor_stand"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pink Wither",
+      "page_id": 64438,
+      "revision_id": 3829118,
+      "sha256": "4dfb95a8f45f7c4b664c74f693ab1e7c5794261a93ad7b9996fedb32ff8e9e81",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3829118",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Spectral Arrow",
+      "page_id": 72948,
+      "revision_id": 3832140,
+      "sha256": "0dd60193c72e8b73efb0ddf423f960972ef9e7f3cb346f8b52ea811501b247f1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3832140",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Shulker",
+      "page_id": 74375,
+      "revision_id": 3843708,
+      "sha256": "9799c73e5648d1c09c14f1ba7fb75fc1818b7da1b56d8f220d50d7407798799a",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843708",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:shulker",
+        "minecraft:shulker_bullet"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Tipped Arrow",
+      "page_id": 74470,
+      "revision_id": 3840356,
+      "sha256": "00de5f746e5444d6c197574afa9eb819de8e02f3e4fbb1c1cba7493d6f2fe4e6",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3840356",
+      "classification": "related_item_or_block_page",
+      "catalog_ids": [],
+      "note": "Overlaps a block/item or projectile topic; presence of an entity infobox is not a new mob.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Obsidian Boat",
+      "page_id": 75021,
+      "revision_id": 3811171,
+      "sha256": "6786138fa1108ab7b2c7eaf748f3136a038718e0cc9562c7a1a11fd62f4b8572",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3811171",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Lingering Potion",
+      "page_id": 75346,
+      "revision_id": 3837570,
+      "sha256": "d416c0f2c9e84213d091d2d0ee9b504636c75fa97993647ab5d2101b1b5d7941",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3837570",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:area_effect_cloud",
+        "minecraft:lingering_potion"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Polar Bear",
+      "page_id": 80564,
+      "revision_id": 3853198,
+      "sha256": "572119f172a030c7ce0126166835838b3426c7f14ffd1d4f68b6867f367df405",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:polar_bear"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Husk",
+      "page_id": 81101,
+      "revision_id": 3851908,
+      "sha256": "e600ebc5b5c2d12a6b77168d4a8fbf200bff6d96e7a7d59149a41a76d3632c44",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851908",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:husk"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Stray",
+      "page_id": 81103,
+      "revision_id": 3844780,
+      "sha256": "0a9d98975220c81acaebcf834e3cdaaaef235e12d8665bd307770e0ccbfbbf34",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:stray"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Evoker",
+      "page_id": 83398,
+      "revision_id": 3853175,
+      "sha256": "e74c10d67daa7e526b18174ebfe7ad902534d611ed2bcae58ca22fab98600897",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:evocation_illager"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Vindicator",
+      "page_id": 83400,
+      "revision_id": 3848438,
+      "sha256": "5dd9eebfebd1b212597ae1b96e4100241c7c101e6a02de9fe21944d082b0f81d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:vindicator"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Vex",
+      "page_id": 83402,
+      "revision_id": 3845919,
+      "sha256": "65287f86c8ba8a2af43a1039a66527ba38a7aaed15234ad145d9f2fb187dc2c7",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3845919",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:vex"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Llama",
+      "page_id": 83405,
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:llama"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Agent",
+      "page_id": 87149,
+      "revision_id": 3831659,
+      "sha256": "948cfe7966aa8a60a396d2d750d452107ccdabd181e546082da818c79fed32f3",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3831659",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:agent"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Parrot",
+      "page_id": 87238,
+      "revision_id": 3849952,
+      "sha256": "f547aaf994d25e0c0fbd949e5b5fa94df1e6709375c255be35111564417dfcb4",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:parrot"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Illusioner",
+      "page_id": 88155,
+      "revision_id": 3854904,
+      "sha256": "c968a5a3ce88a07e25c3f55e259e86d62afd7161e1c1107ed0d84a13646bcd69",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3854904",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Dolphin",
+      "page_id": 93671,
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:dolphin"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Turtle",
+      "page_id": 94023,
+      "revision_id": 3846426,
+      "sha256": "a07edbbfee13affef2be3f02e4b394373222e9dc6d8f68c4552f4ae30e17721a",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:turtle"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Phantom",
+      "page_id": 94246,
+      "revision_id": 3851156,
+      "sha256": "748adc0675f2854719249702c275cb1fb8bdee995019d64b2cf6f92d6bdf5372",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:phantom"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Cod",
+      "page_id": 94814,
+      "revision_id": 3844471,
+      "sha256": "ccd000908f80414a8807ac46c18a818fd26ee20574ec9ac92e2b9e790762f023",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:cod"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Tropical Fish",
+      "page_id": 94998,
+      "revision_id": 3844607,
+      "sha256": "9202120d1495824b1d89b4f87442517dfe117ab308cc5cfa1b25dbb2bdee5dc1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:tropicalfish"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Drowned",
+      "page_id": 95103,
+      "revision_id": 3851909,
+      "sha256": "cbdd5a06530ac56754002e954e2b306550b4cc1737a13779011bf90055f87973",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:drowned"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Nautilus",
+      "page_id": 95550,
+      "revision_id": 3844669,
+      "sha256": "25558e8f7681fef8556d4221e5ee17551133da4db086bf23ccecad0153faea35",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:nautilus"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Balloon",
+      "page_id": 96154,
+      "revision_id": 3782837,
+      "sha256": "caf4b642cd18455bd300f41878af755dde15738022d16d5489d7db17618cb580",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3782837",
+      "classification": "education_feature",
+      "catalog_ids": [],
+      "note": "Requires Education-related features; do not present as ordinary Survival content.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet (China Edition)",
+      "page_id": 96195,
+      "revision_id": 3842302,
+      "sha256": "5da3c06d7326c302c8b35687ff98dda95243816f744a44b8e0745efaa59b1db1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3842302",
+      "classification": "china_edition",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Llama Spit",
+      "page_id": 100797,
+      "revision_id": 3728004,
+      "sha256": "1bee83236a3d6cf6641ff5d47ab4ea2d92586ab26b55caf6cf782a58a983a874",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3728004",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:llama_spit"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Panda",
+      "page_id": 101090,
+      "revision_id": 3846509,
+      "sha256": "527b3a4b259cf897373e5ba57c401ac973a6233aeea000d1653d4ae1c97a9962",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:panda"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ravager",
+      "page_id": 101112,
+      "revision_id": 3843713,
+      "sha256": "be80460b2e3b47cd1bc907e33d67aff0643b2db84534a69a0c94873c8a0faa35",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:ravager"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pillager",
+      "page_id": 101122,
+      "revision_id": 3843714,
+      "sha256": "8d5480e4b607a3a7bf85765e3fa70efc20b7009e8762342001111f1ff620630c",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:pillager"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Fox",
+      "page_id": 101126,
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:fox"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Axolotl",
+      "page_id": 103505,
+      "revision_id": 3844455,
+      "sha256": "53d5d3d09e872220bebdd4f7f7127145ceaefdbaf6ab01c7ef012635e678e057",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:axolotl"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Raid captain",
+      "page_id": 103803,
+      "revision_id": 3843261,
+      "sha256": "fffd4668cdf1a569740d2c66689802a1d4eb8cfe1cb3984628ef3a31addeed19",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843261",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Mule",
+      "page_id": 103831,
+      "revision_id": 3850352,
+      "sha256": "596632d61aa0bf365e43468ff48c94735964987d375be25cead17727adc2abd4",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:mule"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Donkey",
+      "page_id": 103833,
+      "revision_id": 3850357,
+      "sha256": "fae56e9d56f614afbc3aa8b8d5c82d1f996c602dac1f78b4c64e2b7c2a2a8b9c",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:donkey"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Skeleton Horse",
+      "page_id": 103835,
+      "revision_id": 3849906,
+      "sha256": "962395157889caa503483ffeb0b637a5fabb9001d0cd191f567ec44597c71dd3",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:skeleton_horse"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Wandering Trader",
+      "page_id": 104106,
+      "revision_id": 3846633,
+      "sha256": "066104b0b24ccb4816eebc36f0691786e2548c65173d873a0f7d93a20879eabe",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:wandering_trader"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Trader Llama",
+      "page_id": 104129,
+      "revision_id": 3849739,
+      "sha256": "37df095b0f11351fcc086eca588fc7ae22f14a4d6c8056b8a1a7fb802be484fd",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:trader_llama"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Villager (old)",
+      "page_id": 110040,
+      "revision_id": 3849415,
+      "sha256": "1fc29270874cda560cf96692ae4d4818d06a301e42187784e3974c87fc44c8f5",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849415",
+      "classification": "removed_or_unreleased_legacy",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Bee",
+      "page_id": 113160,
+      "revision_id": 3844630,
+      "sha256": "4a8f5fda0fd26e0aa03abd7ec0f93e3412f65b2ecdb347b2380cbbec21c9d3b9",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:bee"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Vulture",
+      "page_id": 114588,
+      "revision_id": 3843426,
+      "sha256": "b99e760655a02df9f9a1b9e0882ee7cf4e2edb8de8319393c26010615f344410",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843426",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Frog",
+      "page_id": 114626,
+      "revision_id": 3844499,
+      "sha256": "aa870d59ebc36139afd37b6637ab4d4c836a521bdf46c0b06f58cdb0e5c45979",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:frog"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Goat",
+      "page_id": 114658,
+      "revision_id": 3844651,
+      "sha256": "698c6e1b5f9787eceb1e68a4beb2b36ee1cefacfe7659dd831e43b4def8dad1f",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:goat"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Piglin",
+      "page_id": 114697,
+      "revision_id": 3851223,
+      "sha256": "86ebd4c09320abe00c2773b905ee40aea87827758a246175e8d221f270b866bf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:piglin"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Hoglin",
+      "page_id": 115673,
+      "revision_id": 3843704,
+      "sha256": "a5d23adb55e8866b5d4c300f4d296cca138ba7f58ee1e56fe6eb9d16afe1e809",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:hoglin"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Falling Block",
+      "page_id": 119718,
+      "revision_id": 3813544,
+      "sha256": "ea6b3f7563ebec248fefb0f397fa3e5cea36696ebe04807d3d52420054a95281",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3813544",
+      "classification": "bedrock_reference_gap",
+      "catalog_ids": [],
+      "note": "Not a separately mapped catalog subject; add reviewed gameplay topics or explicit technical-subject handling.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Diamond Chicken",
+      "page_id": 123043,
+      "revision_id": 3815515,
+      "sha256": "15557d4b127f74dbd309113e5c5be2afda7f0a11df266067a1453f9771a18bea",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3815515",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Strider",
+      "page_id": 123234,
+      "revision_id": 3844584,
+      "sha256": "415c3ec00da3a60f44e77e04e80da27df294515ebd67f2ad5c14204f74e951d5",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:strider"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Zoglin",
+      "page_id": 124040,
+      "revision_id": 3844793,
+      "sha256": "5ebb789feefcfca8d80f33623ee0eb0de3fac84ce2725414f10d683b66972f27",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:zoglin"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Glow Squid",
+      "page_id": 124199,
+      "revision_id": 3844507,
+      "sha256": "902c9228a1563c46da21a52f66ca9f3cb34117938bec23d22d452ddc77fb81ea",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:glow_squid"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Moobloom",
+      "page_id": 124220,
+      "revision_id": 3800325,
+      "sha256": "79fd6bf340d42b06ffe0ff5970f2489983a5854984875844089195c75a7319d5",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3800325",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Redstone Bug",
+      "page_id": 128219,
+      "revision_id": 3851302,
+      "sha256": "d354a3f3a6d17f4851900f23359b9c8047349fdf5b04f0e71cc8703499baa8cf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851302",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Frostbite",
+      "page_id": 130681,
+      "revision_id": 3853900,
+      "sha256": "5d83994e9c6646bb51e017b3549b31a01047e7f4459ee82a1c2570313bc7c0f1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853900",
+      "classification": "future_not_target_version",
+      "catalog_ids": [],
+      "note": "Archived page marks planned or in-development content. Do not offer future spawning rules as current 1.26.52 advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Piglin Brute",
+      "page_id": 131916,
+      "revision_id": 3848820,
+      "sha256": "41f41186fdd1478cd07ccbfe4c2b6fc89adcf9f48d37de09f9db637f5114f836",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848820",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:piglin_brute"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Elder Guardian Ghost",
+      "page_id": 136119,
+      "revision_id": 3832338,
+      "sha256": "761a7895054b01d029251c45619e6a4f25b1ae0c4a6546428bdcea3f8687212c",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3832338",
+      "classification": "bedrock_reference_gap",
+      "catalog_ids": [],
+      "note": "Not a separately mapped catalog subject; add reviewed gameplay topics or explicit technical-subject handling.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Iceologer",
+      "page_id": 138514,
+      "revision_id": 3795065,
+      "sha256": "4aae1e30decf8bc43499ee424c62130c5c84ad6f7f70e7c190d4f017299a001b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3795065",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Warden",
+      "page_id": 141875,
+      "revision_id": 3851707,
+      "sha256": "fd347768ba8230a7864d62780e6ce686f79ea12503ac923f64c35bfcd7a5e6a0",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851707",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:warden"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Nerd Creeper",
+      "page_id": 142767,
+      "revision_id": 3776302,
+      "sha256": "65600261306e3029d4c1fecc329af5de9a1f67a0840971ab04fd67e5c4540755",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776302",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Strider Jockey",
+      "page_id": 143956,
+      "revision_id": 3831550,
+      "sha256": "9da30f78301f1737b583a5fad49a5be23b0e36c3d548823679e7cd72f9540507",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3831550",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ravager Jockey",
+      "page_id": 146169,
+      "revision_id": 3845831,
+      "sha256": "0a7dc41b4846100bc64289a261d4b7c4a46144763a5b1844e8cca27d620f5174",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3845831",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Termite",
+      "page_id": 161170,
+      "revision_id": 3725350,
+      "sha256": "68d172fcf5bbe233d4b9ef42e4860814748ff4919cf9fee823cab2ca9b3a3db8",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3725350",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Marker",
+      "page_id": 163427,
+      "revision_id": 3517251,
+      "sha256": "9d78f88af5d77433a1b76dd8d6b52b4866a40bb0c1172d6be32f61b6fa1e7570",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3517251",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ostrich",
+      "page_id": 170348,
+      "revision_id": 3826187,
+      "sha256": "b8b879c117fe5190ce6af54fc40b755e2cfbe99b08d4e1f4b0a0387dd16ba2ec",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3826187",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Meerkat",
+      "page_id": 170349,
+      "revision_id": 3724400,
+      "sha256": "7eb61b6a357eade250b664932de9d9017baff8bec5745f637555e1e9cdbea1bd",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3724400",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Wildfire",
+      "page_id": 170350,
+      "revision_id": 3699900,
+      "sha256": "7c595a1caf9f84a27f0d4bda55637f863efbf1c020110f404b0f4e8ea5ee1021",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3699900",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Barnacle",
+      "page_id": 170351,
+      "revision_id": 3655703,
+      "sha256": "ec2647ecdf8e4d2b2f8e214a872a5ec4d8690ae5cdb384c66b9e499775a16fdf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3655703",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Zombie Villager (old)",
+      "page_id": 170353,
+      "revision_id": 3753767,
+      "sha256": "03fa91e8c1855c8a2ec2904b9f8f956bb071a7e01b1730fd15b5b0c096583db9",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3753767",
+      "classification": "removed_or_unreleased_legacy",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "The Great Hunger",
+      "page_id": 171129,
+      "revision_id": 3849874,
+      "sha256": "2dbe697806e0d6c373a723fcbe4732c0b1cbd00d82ac3c08c695b64c102a4cc7",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849874",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Love Golem",
+      "page_id": 171729,
+      "revision_id": 3818689,
+      "sha256": "346e6c8e621b7f4c748d932596c04d7969c6fdcaaa22687a758ec7bc64b738f7",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3818689",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Smiling Creeper",
+      "page_id": 171730,
+      "revision_id": 3776256,
+      "sha256": "5480196cda75e5f9abb1760bda6c10f631a688c59d1021101e8cd5d89fe9ab3b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776256",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Glare",
+      "page_id": 177237,
+      "revision_id": 3724390,
+      "sha256": "39c632c6061d90e4a75b3b7fb3d41b1b064243f06bd5d882623a83e05cc33da1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3724390",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Allay",
+      "page_id": 177270,
+      "revision_id": 3852359,
+      "sha256": "486b7c8dc84db4d3b660183829a4d82166a1f0d559f3d161c33f79e946c227c1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:allay"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Copper Golem",
+      "page_id": 177323,
+      "revision_id": 3845018,
+      "sha256": "68735bc25a37528f1a0abb0f73c3af27d9393293caa5c33387814f459ff464c4",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:copper_golem"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Boat with Chest",
+      "page_id": 177598,
+      "revision_id": 3818475,
+      "sha256": "28480bd000fe54c6045257450b826cc11f9116d713b1d767481e62bd251ae575",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3818475",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:chest_boat"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Firefly (mob)",
+      "page_id": 177637,
+      "revision_id": 3652883,
+      "sha256": "18b0db6df462cb7605a0406549bb2e1ab2b12e456778bee85317211e8ca10e92",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3652883",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Tadpole",
+      "page_id": 177701,
+      "revision_id": 3849184,
+      "sha256": "9a9aa222c9d1b87debe5ff7cdea32c419ab3f2299b3a8da9de91856f7bcd6655",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:tadpole"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Fireball",
+      "page_id": 185587,
+      "revision_id": 3822892,
+      "sha256": "99d570b97bbd250339b3560edb5bd565e89db086a54b3852e12362e4dc9c98c6",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3822892",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:fireball"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Small Fireball",
+      "page_id": 185589,
+      "revision_id": 3848368,
+      "sha256": "6c1783500731fa23fd2b7b48a405441b7e16aa04c3f37778a1ca19722f8e31ce",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3848368",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:small_fireball"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Sniffer",
+      "page_id": 194271,
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:sniffer"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Rascal",
+      "page_id": 194317,
+      "revision_id": 3752185,
+      "sha256": "b23ebcf4c304ad196078484af0791e1baecdad633ba3a398176e63892dd1f578",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3752185",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Tuff Golem",
+      "page_id": 194396,
+      "revision_id": 3790922,
+      "sha256": "6f5cddbf21aea5d38c5460f9f1642c2cfbae5079cac0cabccceea5c8f758ba04",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3790922",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Camel",
+      "page_id": 194837,
+      "revision_id": 3853630,
+      "sha256": "570d45627ef5a9c2743c8804ac20c8c121f45eee2ebf341b445be745ffdd3d9e",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:camel"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Display",
+      "page_id": 200270,
+      "revision_id": 3826054,
+      "sha256": "5ae3f660ec1b9064b92e43321d21021da8e6e10d3ee16a0f34885ab9b395b396",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3826054",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Interaction",
+      "page_id": 200759,
+      "revision_id": 3719373,
+      "sha256": "8127045a587d11591ad8dda0a6dcfff921f547d6437c965719fac4fb6453b61d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3719373",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Moon Cow",
+      "page_id": 203087,
+      "revision_id": 3723538,
+      "sha256": "417ebb0f0821a206699d5d201b333342b23e203d44f2259e3bcdcec396edc901",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3723538",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ray Tracing (mob)",
+      "page_id": 203483,
+      "revision_id": 3685531,
+      "sha256": "e0eeacb7a78ac7352efb49296f33999c192f324c75888317438982479582cedf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3685531",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Hoglin Jockey",
+      "page_id": 219773,
+      "revision_id": 3813436,
+      "sha256": "5653eea2a9f052332d4ebc20d33a0d3af75d0fb217ce0df06992196d2c002be8",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3813436",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Monster (entity)",
+      "page_id": 220660,
+      "revision_id": 3807072,
+      "sha256": "136c06a440a7f6be92fbfb84b67840be2220ae9c09aab5266859804dd71a30a6",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3807072",
+      "classification": "removed_or_unreleased_legacy",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Crab",
+      "page_id": 228688,
+      "revision_id": 3772817,
+      "sha256": "34bd09395c3a46ad45a84d99b2db1c8b0a0723ab7f0a22ae44a3f775014856eb",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3772817",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Armadillo",
+      "page_id": 228813,
+      "revision_id": 3844454,
+      "sha256": "5edcd142ae9849ce74698289716a904e597c4a5a487d8a4c9fe45ddffd012713",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:armadillo"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Penguin",
+      "page_id": 228908,
+      "revision_id": 3824867,
+      "sha256": "2412ea4ce9d2e794cf0a9ada97520d9e168df9ab34151f5b022693b9e61e431d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3824867",
+      "classification": "proposed_or_scrapped",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Breeze",
+      "page_id": 238876,
+      "revision_id": 3822417,
+      "sha256": "2e0105cc35bfc214c2cbcd75b9b74cdbea990f2da02000cdc0a6cdb26b8b0cc8",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:breeze"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Mannequin",
+      "page_id": 248176,
+      "revision_id": 3825023,
+      "sha256": "691927d2aacf4c02bfa695af42b96f30673f832c46b0989f21b9a165e3799bee",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3825023",
+      "classification": "java_only",
+      "catalog_ids": [],
+      "note": "Not an ordinary Bedrock entity; retain reference so Java behavior is not imported as Bedrock advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Bogged",
+      "page_id": 254511,
+      "revision_id": 3851713,
+      "sha256": "87efaed99b90f9dffc1899167afe21deb6c22529cd341b53057173f842fc350d",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:bogged"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ominous Item Spawner",
+      "page_id": 257465,
+      "revision_id": 3820479,
+      "sha256": "10235ab94fcc3ae75f81eba7f3b2072dee15fc39d2d1c063376b4655b9aec990",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3820479",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:ominous_item_spawner"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Batato",
+      "page_id": 258414,
+      "revision_id": 3740141,
+      "sha256": "0ba43490062ec4a2042f3d0ca5d014df033ef0b0d04a9a59bd82303b90026d24",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3740141",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Toxifin Slab",
+      "page_id": 258438,
+      "revision_id": 3842184,
+      "sha256": "bc864ed0c1a02ee9aaa664ca674c0679f041182397c033e17bf2ff12ab81f57b",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3842184",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Plaguewhale Slab",
+      "page_id": 258448,
+      "revision_id": 3842185,
+      "sha256": "2472b58ff8da5f480ca022a9803b13d43fbc1f8f6595d1aa493a51f1dd4e34e4",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3842185",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Mega Spud",
+      "page_id": 258458,
+      "revision_id": 3843389,
+      "sha256": "4bb72b8a786665b0608d65540ed864cb7840b1bbdaf3cbe25ed6819853bc86bf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3843389",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Poisonous Potato Zombie",
+      "page_id": 258575,
+      "revision_id": 3776144,
+      "sha256": "e5cc884c596751f5ef10b15461f888517f2b27dae65a72870d8b23632847a293",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776144",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Builder",
+      "page_id": 270481,
+      "revision_id": 3790805,
+      "sha256": "d310807099cda72007adad27f6d813d478aea4eddade43bc4751d1484ea16ce2",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3790805",
+      "classification": "removed_or_unreleased_legacy",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ben 10",
+      "page_id": 270622,
+      "revision_id": 3791474,
+      "sha256": "dc02ab4046a7f35d05ac047b45ad5f03758ace7986c9957907727f52a871bc29",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3791474",
+      "classification": "marketplace_custom_content",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Creaking",
+      "page_id": 281339,
+      "revision_id": 3852706,
+      "sha256": "00e066c59993117d89588e612275adaf9dfffe75dbedce51e03be44e8b4479bf",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3852706",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:creaking"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Happy Ghast",
+      "page_id": 311434,
+      "revision_id": 3853633,
+      "sha256": "e8314d1d4eb1dc39bf0de0541c3ed93c71925fd296c95c93a24945ba7d879ae9",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:happy_ghast"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Angry Ghast",
+      "page_id": 314105,
+      "revision_id": 3787464,
+      "sha256": "1e7f03dc2d7cea5b7e81caca8c7e123264e782e26f828e938fe873d550d43147",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3787464",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Creeper",
+      "page_id": 314520,
+      "revision_id": 3822886,
+      "sha256": "ba3d2d48226f0af2865cc248c3d631617f693185f8feb04d5e401f682d95dbda",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3822886",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Armadillo",
+      "page_id": 314521,
+      "revision_id": 3776216,
+      "sha256": "86df4171a5134249dfcaca9f961b43682abd40d2143c56151ffa962905514626",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776216",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Frog",
+      "page_id": 314522,
+      "revision_id": 3776235,
+      "sha256": "7f23255a930d263ae7c26aa3c2d60a94cd0a8e57ef6729784fe7865dae417397",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776235",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Axolotl",
+      "page_id": 314523,
+      "revision_id": 3776218,
+      "sha256": "45df7d0e0f36b6f2b20f0712860a4c8ed40a833d847a85e9558d977f614d65aa",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776218",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Bee",
+      "page_id": 314524,
+      "revision_id": 3776220,
+      "sha256": "05668cc7e991a3016b32d9be09d511471ab69b5a680c7182fa14c567f51b8813",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776220",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Wolf",
+      "page_id": 314525,
+      "revision_id": 3844208,
+      "sha256": "60c6aa23c16ba6bdc581822ff20b3b230f26b8573d15325fe004515f24fe45a9",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3844208",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Turtle",
+      "page_id": 314526,
+      "revision_id": 3776242,
+      "sha256": "e4fae6b62565320559da50ede8bad387e83055cf9772fef783464468c9ec63b4",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776242",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Slime",
+      "page_id": 314527,
+      "revision_id": 3776241,
+      "sha256": "04ef9b46dff51aa018f08e14ab21c38c5b9894f889f3a8cf6786fb1476da1f3e",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776241",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Polar Bear",
+      "page_id": 314528,
+      "revision_id": 3776239,
+      "sha256": "75a560a1cd7f8fef20f670d8fb58ced6c2c9db80af1325da80daa8691cb8d8d6",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776239",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Mooshroom",
+      "page_id": 314529,
+      "revision_id": 3776237,
+      "sha256": "f65c535d6ad0c61aee451a80eca99d3ef3c96633721357eb3daffaea7bdf0e48",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776237",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Cow",
+      "page_id": 314530,
+      "revision_id": 3776227,
+      "sha256": "89393a90507f0210bd64d1a733b245d711937c1b93c6bcd1de2d24b795bbca02",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776227",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Cat",
+      "page_id": 314531,
+      "revision_id": 3776222,
+      "sha256": "f1673c9f2043d9ceca909ba2e7b67e6d08c56f8a4082143d46a1ef9579af0995",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776222",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Chicken",
+      "page_id": 314532,
+      "revision_id": 3776225,
+      "sha256": "02cbec9432290abda278cb6586bb097510177ed0ddf3db6039cde02e1dfe5472",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776225",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Pet Fox",
+      "page_id": 314533,
+      "revision_id": 3776232,
+      "sha256": "93723d436c258aafdc8f62478560f60ac64f64211d6ec88f3bf2da9e8801df7f",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776232",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Spectator Villager",
+      "page_id": 314534,
+      "revision_id": 3722812,
+      "sha256": "c797befd0321272dfe091d8ff8bfb212537be48bc373fc594eac85d818d35997",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3722812",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "MD3 Test Mob",
+      "page_id": 331216,
+      "revision_id": 3837087,
+      "sha256": "cf5b112b41a0b72c1a83f15d6fb1ebb43751691b134b3e6717c2e60e076376fe",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3837087",
+      "classification": "removed_or_unreleased_legacy",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Warden (April Fools' joke)",
+      "page_id": 332288,
+      "revision_id": 3831610,
+      "sha256": "27cf4fd544ba5777256624a390f2062e34b29157f9f3214147894ebd50cf57de",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3831610",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Spectator Witch",
+      "page_id": 332636,
+      "revision_id": 3776247,
+      "sha256": "7f5159a1f24a0e4eace1b11add0fdd1b93d3652326366942b64f60fef3345db5",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776247",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Zombie Nautilus",
+      "page_id": 346971,
+      "revision_id": 3845839,
+      "sha256": "b9646d3d48fe19f907e8966c30e7f94e1ec0dd403a4ae76fbeed5f118a2805f0",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:zombie_nautilus"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Parched",
+      "page_id": 353066,
+      "revision_id": 3845817,
+      "sha256": "8032945073c2e31cb67316035f8cf96ccddd1b6b46954576dc43851a0c7114aa",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:parched"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Camel Husk",
+      "page_id": 353067,
+      "revision_id": 3845813,
+      "sha256": "cfbb399e7ca99b16b7baa7ea9cbb58fda2b126f38281254d2cabf29d333e6d40",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:camel_husk"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Stencil Display",
+      "page_id": 363175,
+      "revision_id": 3839886,
+      "sha256": "7d7b8a3a4025f8a378054678154e005c817bb725e245c70a15c4b665bf004243",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3839886",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Map Marker",
+      "page_id": 364534,
+      "revision_id": 3840276,
+      "sha256": "7554ee4264d7f34453bfa89361e2d714e155c0dea746eb96e70870387ba361e0",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3840276",
+      "classification": "bedrock_editor_only",
+      "catalog_ids": [],
+      "note": "Only available through Bedrock Editor, not ordinary Survival spawning.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Sulfur Cube",
+      "page_id": 380723,
+      "revision_id": 3853726,
+      "sha256": "31c7803b75cf0517a3664f52e194077b3838a45060323cfbc39e693fe91fb756",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:sulfur_cube"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Crafting Grid",
+      "page_id": 384959,
+      "revision_id": 3723377,
+      "sha256": "11bab145a5518f8378e7b1a93f2fda088e9a99c1f18e2a553fdc520b62a1aa21",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3723377",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Hovering Item",
+      "page_id": 384960,
+      "revision_id": 3723379,
+      "sha256": "ed8b36c8e837c84229f3f1de1495f79a392924669b96bc1be9b92ce8338fdf91",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3723379",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Living Block",
+      "page_id": 384961,
+      "revision_id": 3776260,
+      "sha256": "07314a8e0f3280f123cb143440817071fa05d0a4ce9829f4f0c6bfbb2a088618",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3776260",
+      "classification": "joke_snapshot",
+      "catalog_ids": [],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Blub",
+      "page_id": 393734,
+      "revision_id": 3854747,
+      "sha256": "56316ac2353dbc3c655a041a52e714981b1c1a59666456f80a65e74e85b5accc",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3854747",
+      "classification": "future_not_target_version",
+      "catalog_ids": [],
+      "note": "Archived page marks planned or in-development content. Do not offer future spawning rules as current 1.26.52 advice.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Cushion",
+      "page_id": 407483,
+      "revision_id": 3850059,
+      "sha256": "30d957d8f42e6cd4d47e15f5542a44519e6430782fc93b9b8d2f3453a70ee316",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3850059",
+      "classification": "mapped_catalog",
+      "catalog_ids": [
+        "minecraft:cushion"
+      ],
+      "note": "Reference retained; classification does not establish complete topic coverage.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Baby Strider Jockey",
+      "page_id": 411489,
+      "revision_id": 3725666,
+      "sha256": "a0c494fd24f3f74f62d10a9335313d53dc7a2b357b6dce320a2edfdf29f19b59",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3725666",
+      "classification": "composite_or_role",
+      "catalog_ids": [],
+      "note": "Combination or role of existing entities, not a new species. Rider and mount have separate health and loot. Bedrock/version rules need per-topic checks.",
+      "gameplay_complete": false
+    },
+    {
+      "title": "Ice Ball",
+      "page_id": 426840,
+      "revision_id": 3853315,
+      "sha256": "a98a10aab81bd31a25e4dcbc7973c3722917b34e1118a17215cfa6ace66695d1",
+      "source": "https://minecraft.wiki/w/Special:PermanentLink/3853315",
+      "classification": "future_not_target_version",
+      "catalog_ids": [],
+      "note": "Archived page marks planned or in-development content. Do not offer future spawning rules as current 1.26.52 advice.",
+      "gameplay_complete": false
+    }
+  ],
+  "complete_gameplay_knowledge": false
+}

@@ -16,6 +16,10 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": []
+    },
     "variants": []
   },
   "minecraft:allay": {
@@ -54,7 +58,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3852359"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/allay.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/allay.json"
+      ]
     },
     "variants": []
   },
@@ -74,6 +98,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/area_effect_cloud.json"
+      ]
     },
     "variants": []
   },
@@ -113,7 +144,60 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844454"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 12 health points (6 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 12
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:spider_eye",
+            "name": "spider eye",
+            "scope": "minecraft:baby",
+            "interact_filters": {
+              "test": "enum_property",
+              "domain": "minecraft:armadillo_state",
+              "value": "unrolled"
+            }
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:spider_eye",
+            "name": "spider eye",
+            "scope": "minecraft:adult",
+            "require_tame": false,
+            "love_filters": {
+              "test": "enum_property",
+              "domain": "minecraft:armadillo_state",
+              "value": "unrolled"
+            }
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+      ]
     },
     "variants": []
   },
@@ -141,6 +225,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armor_stand.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:arrow": {
@@ -166,6 +257,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/arrow.json"
+      ]
     },
     "variants": []
   },
@@ -212,7 +310,52 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844455"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 14 health points (7 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 14
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:tropical_fish_bucket",
+            "name": "bucket of tropical fish",
+            "scope": "axolotl_baby",
+            "result_item": "water_bucket:0"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:tropical_fish_bucket",
+            "name": "bucket of tropical fish",
+            "scope": "axolotl_adult",
+            "result_item": "water_bucket:0",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
+      ]
     },
     "variants": []
   },
@@ -252,7 +395,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844624"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 6 health points (3 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bat.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bat.json"
+      ]
     },
     "variants": []
   },
@@ -292,7 +455,343 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844630"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:poppy",
+            "name": "poppy",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:blue_orchid",
+            "name": "blue orchid",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:allium",
+            "name": "allium",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:azure_bluet",
+            "name": "azure bluet",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:red_tulip",
+            "name": "red tulip",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:orange_tulip",
+            "name": "orange tulip",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:white_tulip",
+            "name": "white tulip",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:pink_tulip",
+            "name": "pink tulip",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:oxeye_daisy",
+            "name": "oxeye daisy",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:cornflower",
+            "name": "cornflower",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:lily_of_the_valley",
+            "name": "lily of the valley",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:dandelion",
+            "name": "dandelion",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:sunflower",
+            "name": "sunflower",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:lilac",
+            "name": "lilac",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:rose_bush",
+            "name": "rose bush",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:peony",
+            "name": "peony",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:flowering_azalea",
+            "name": "flowering azalea",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:azalea_leaves_flowered",
+            "name": "azalea leaves flowered",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:mangrove_propagule",
+            "name": "mangrove propagule",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:pitcher_plant",
+            "name": "pitcher plant",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:torchflower",
+            "name": "torchflower",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:cherry_leaves",
+            "name": "cherry leaves",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:pink_petals",
+            "name": "pink petals",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:wildflowers",
+            "name": "wildflowers",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:cactus_flower",
+            "name": "cactus flower",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:chorus_flower",
+            "name": "chorus flower",
+            "scope": "bee_baby"
+          },
+          {
+            "id": "minecraft:spore_blossom",
+            "name": "spore blossom",
+            "scope": "bee_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:poppy",
+            "name": "poppy",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:blue_orchid",
+            "name": "blue orchid",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:allium",
+            "name": "allium",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:azure_bluet",
+            "name": "azure bluet",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:red_tulip",
+            "name": "red tulip",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:orange_tulip",
+            "name": "orange tulip",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:white_tulip",
+            "name": "white tulip",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:pink_tulip",
+            "name": "pink tulip",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:oxeye_daisy",
+            "name": "oxeye daisy",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:cornflower",
+            "name": "cornflower",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:lily_of_the_valley",
+            "name": "lily of the valley",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:dandelion",
+            "name": "dandelion",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:sunflower",
+            "name": "sunflower",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:lilac",
+            "name": "lilac",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:rose_bush",
+            "name": "rose bush",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:peony",
+            "name": "peony",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:flowering_azalea",
+            "name": "flowering azalea",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:azalea_leaves_flowered",
+            "name": "azalea leaves flowered",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:mangrove_propagule",
+            "name": "mangrove propagule",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:pitcher_plant",
+            "name": "pitcher plant",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:torchflower",
+            "name": "torchflower",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:cherry_leaves",
+            "name": "cherry leaves",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:pink_petals",
+            "name": "pink petals",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:wildflowers",
+            "name": "wildflowers",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:cactus_flower",
+            "name": "cactus flower",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:chorus_flower",
+            "name": "chorus flower",
+            "scope": "bee_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:spore_blossom",
+            "name": "spore blossom",
+            "scope": "bee_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+      ],
+      "withheld": [
+        {
+          "id": "minecraft:wither_rose",
+          "name": "wither rose",
+          "answer": "I'm not sure whether wither roses are suitable for bees. Use a flower such as a dandelion or poppy instead."
+        }
+      ]
     },
     "variants": []
   },
@@ -318,7 +817,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3852956"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/blaze.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/blaze.json"
+      ]
     },
     "variants": []
   },
@@ -346,6 +865,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/boat.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:bogged": {
@@ -370,7 +896,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851713"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 16 health points (8 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bogged.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bogged.json"
+      ]
     },
     "variants": []
   },
@@ -396,7 +942,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3822417"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 30 health points (15 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/breeze.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/breeze.json"
+      ]
     },
     "variants": []
   },
@@ -416,6 +982,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/breeze_wind_charge_projectile.json"
+      ]
     },
     "variants": []
   },
@@ -455,7 +1028,58 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853630"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 32 health points (16 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 32
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:cactus",
+            "name": "cactus",
+            "scope": "base",
+            "heal_amount": 2
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:cactus",
+            "name": "cactus",
+            "scope": "minecraft:camel_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:cactus",
+            "name": "cactus",
+            "scope": "minecraft:camel_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+      ]
     },
     "variants": []
   },
@@ -488,7 +1112,43 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3845813"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 32 health points (16 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 32
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:rabbit_foot",
+            "name": "rabbit foot",
+            "scope": "base",
+            "heal_amount": 2
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
+      ]
     },
     "variants": []
   },
@@ -535,7 +1195,74 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853626"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "base",
+            "heal_amount": 2
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:cat_baby"
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:cat_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:cat_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:cat_adult",
+            "require_tame": true
+          }
+        ],
+        "taming": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:cat_wild"
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:cat_wild"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
+      ]
     },
     "variants": []
   },
@@ -561,7 +1288,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851778"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 12 health points (6 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 12
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cave_spider.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cave_spider.json"
+      ]
     },
     "variants": []
   },
@@ -589,6 +1336,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chest_boat.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:chest_minecart": {
@@ -614,6 +1368,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chest_minecart.json"
+      ]
     },
     "variants": []
   },
@@ -646,7 +1407,105 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3850656"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 4 health points (2 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 4
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:wheat_seeds",
+            "name": "wheat seeds",
+            "scope": "minecraft:chicken_baby"
+          },
+          {
+            "id": "minecraft:beetroot_seeds",
+            "name": "beetroot seeds",
+            "scope": "minecraft:chicken_baby"
+          },
+          {
+            "id": "minecraft:melon_seeds",
+            "name": "melon seeds",
+            "scope": "minecraft:chicken_baby"
+          },
+          {
+            "id": "minecraft:pumpkin_seeds",
+            "name": "pumpkin seeds",
+            "scope": "minecraft:chicken_baby"
+          },
+          {
+            "id": "minecraft:pitcher_pod",
+            "name": "pitcher pod",
+            "scope": "minecraft:chicken_baby"
+          },
+          {
+            "id": "minecraft:torchflower_seeds",
+            "name": "torchflower seeds",
+            "scope": "minecraft:chicken_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:wheat_seeds",
+            "name": "wheat seeds",
+            "scope": "minecraft:chicken_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:beetroot_seeds",
+            "name": "beetroot seeds",
+            "scope": "minecraft:chicken_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:melon_seeds",
+            "name": "melon seeds",
+            "scope": "minecraft:chicken_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:pumpkin_seeds",
+            "name": "pumpkin seeds",
+            "scope": "minecraft:chicken_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:pitcher_pod",
+            "name": "pitcher pod",
+            "scope": "minecraft:chicken_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:torchflower_seeds",
+            "name": "torchflower seeds",
+            "scope": "minecraft:chicken_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+      ]
     },
     "variants": []
   },
@@ -679,7 +1538,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844471"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 3 health points (1.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fish.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fish.json"
+      ]
     },
     "variants": []
   },
@@ -706,6 +1585,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/command_block_minecart.json"
+      ]
     },
     "variants": []
   },
@@ -738,7 +1624,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3845018"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 12 health points (6 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 12
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/copper_golem.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/copper_golem.json"
+      ]
     },
     "variants": []
   },
@@ -778,7 +1684,50 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851210"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:cow_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:cow_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+      ]
     },
     "variants": []
   },
@@ -812,6 +1761,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/creaking.json"
+      ]
     },
     "variants": []
   },
@@ -851,12 +1807,54 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3848379"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/creeper.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/creeper.json"
+      ]
     },
     "variants": []
   },
   "minecraft:cushion": {
-    "topics": {},
+    "topics": {
+      "interactions": {
+        "answer": "Cushions are placeable seats. Use one to sit on it. They need a supporting surface and can break when that support is removed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850059"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A cushion drops its own item when broken. It is a placeable seat, not a creature that provides animal loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850059"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cushion.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:dolphin": {
@@ -895,7 +1893,47 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844640"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "dolphin_baby"
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "dolphin_baby"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
+      ]
     },
     "variants": []
   },
@@ -942,7 +1980,142 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3850357"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:sugar",
+            "name": "sugar",
+            "scope": "base",
+            "heal_amount": 1
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "base",
+            "heal_amount": 20
+          },
+          {
+            "id": "minecraft:apple",
+            "name": "apple",
+            "scope": "base",
+            "heal_amount": 3
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "base",
+            "heal_amount": 3
+          },
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "base",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "base",
+            "heal_amount": 10
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.016667
+          },
+          {
+            "id": "minecraft:sugar",
+            "name": "sugar",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.025
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.15
+          },
+          {
+            "id": "minecraft:apple",
+            "name": "apple",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.2
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "minecraft:donkey_baby",
+            "growth": 0.2
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "minecraft:donkey_tamed",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "minecraft:donkey_tamed",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "minecraft:donkey_tamed",
+            "require_tame": true
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
+      ]
     },
     "variants": []
   },
@@ -969,6 +2142,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dragon_fireball.json"
+      ]
     },
     "variants": []
   },
@@ -1001,7 +2181,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/drowned.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/drowned.json"
+      ]
     },
     "variants": []
   },
@@ -1021,6 +2221,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/egg.json"
+      ]
     },
     "variants": []
   },
@@ -1046,7 +2253,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853190"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 80 health points (40 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 80
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/elder_guardian.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/elder_guardian.json"
+      ]
     },
     "variants": []
   },
@@ -1073,6 +2300,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_crystal.json"
+      ]
     },
     "variants": []
   },
@@ -1105,7 +2339,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851987"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 200 health points (100 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 200
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_dragon.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_dragon.json"
+      ]
     },
     "variants": []
   },
@@ -1125,6 +2379,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_pearl.json"
+      ]
     },
     "variants": []
   },
@@ -1157,7 +2418,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3850886"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 40 health points (20 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 40
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/enderman.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/enderman.json"
+      ]
     },
     "variants": []
   },
@@ -1183,7 +2464,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3843703"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 8 health points (4 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/endermite.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/endermite.json"
+      ]
     },
     "variants": []
   },
@@ -1216,7 +2517,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853175"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 24 health points (12 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 24
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/evocation_illager.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/evocation_illager.json"
+      ]
     },
     "variants": []
   },
@@ -1237,6 +2558,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/eye_of_ender_signal.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:fireball": {
@@ -1255,6 +2583,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fireball.json"
+      ]
     },
     "variants": []
   },
@@ -1275,6 +2610,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fireworks_rocket.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:fishing_hook": {
@@ -1293,6 +2635,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fishing_hook.json"
+      ]
     },
     "variants": []
   },
@@ -1339,7 +2688,61 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851723"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:sweet_berries",
+            "name": "sweet berries",
+            "scope": "minecraft:fox_baby"
+          },
+          {
+            "id": "minecraft:glow_berries",
+            "name": "glow berries",
+            "scope": "minecraft:fox_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:sweet_berries",
+            "name": "sweet berries",
+            "scope": "minecraft:fox_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:glow_berries",
+            "name": "glow berries",
+            "scope": "minecraft:fox_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+      ]
     },
     "variants": []
   },
@@ -1379,7 +2782,43 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844499"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "breeding": [
+          {
+            "id": "minecraft:slime_ball",
+            "name": "slimeball",
+            "scope": "base",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+      ]
     },
     "variants": []
   },
@@ -1405,7 +2844,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3830625"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ghast.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ghast.json"
+      ]
     },
     "variants": []
   },
@@ -1438,7 +2897,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844507"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+      ]
     },
     "variants": []
   },
@@ -1478,7 +2957,50 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844651"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "goat_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "goat_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
+      ]
     },
     "variants": []
   },
@@ -1504,7 +3026,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853189"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 30 health points (15 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/guardian.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/guardian.json"
+      ]
     },
     "variants": []
   },
@@ -1551,7 +3093,46 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853633"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "minecraft:baby",
+            "maximum": 20
+          },
+          {
+            "scope": "minecraft:adult",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:snowball",
+            "name": "snowball",
+            "scope": "minecraft:baby"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+      ]
     },
     "variants": []
   },
@@ -1591,7 +3172,56 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3843704"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 40 health points (20 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 40
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:crimson_fungus",
+            "name": "crimson fungus",
+            "scope": "minecraft:hoglin_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:crimson_fungus",
+            "name": "crimson fungus",
+            "scope": "minecraft:hoglin_adult",
+            "require_tame": false,
+            "love_filters": {
+              "test": "has_component",
+              "subject": "self",
+              "operator": "not",
+              "value": "minecraft:attack_cooldown"
+            }
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+      ]
     },
     "variants": []
   },
@@ -1618,6 +3248,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hopper_minecart.json"
+      ]
     },
     "variants": []
   },
@@ -1664,7 +3301,142 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3850329"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:sugar",
+            "name": "sugar",
+            "scope": "base",
+            "heal_amount": 1
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "base",
+            "heal_amount": 20
+          },
+          {
+            "id": "minecraft:apple",
+            "name": "apple",
+            "scope": "base",
+            "heal_amount": 3
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "base",
+            "heal_amount": 3
+          },
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "base",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "base",
+            "heal_amount": 10
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.016667
+          },
+          {
+            "id": "minecraft:sugar",
+            "name": "sugar",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.025
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.15
+          },
+          {
+            "id": "minecraft:apple",
+            "name": "apple",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.2
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "minecraft:horse_baby",
+            "growth": 0.2
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "minecraft:horse_tamed",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "minecraft:horse_tamed",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "minecraft:horse_tamed",
+            "require_tame": true
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+      ]
     },
     "variants": []
   },
@@ -1697,7 +3469,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851908"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/husk.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/husk.json"
+      ]
     },
     "variants": []
   },
@@ -1739,6 +3531,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/iron_golem.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:lightning_bolt": {
@@ -1758,6 +3557,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/lightning_bolt.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:lingering_potion": {
@@ -1776,6 +3582,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/lingering_potion.json"
+      ]
     },
     "variants": []
   },
@@ -1822,7 +3635,58 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844667"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "base",
+            "heal_amount": 10
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:llama_baby",
+            "growth": 0.1
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:llama_baby",
+            "growth": 0.9
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:llama_adult",
+            "require_tame": true
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
+      ]
     },
     "variants": []
   },
@@ -1842,6 +3706,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama_spit.json"
+      ]
     },
     "variants": []
   },
@@ -1876,6 +3747,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/magma_cube.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:minecart": {
@@ -1901,6 +3779,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/minecart.json"
+      ]
     },
     "variants": []
   },
@@ -1940,7 +3825,50 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844535"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:cow_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:cow_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+      ]
     },
     "variants": []
   },
@@ -1987,7 +3915,122 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3850352"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:sugar",
+            "name": "sugar",
+            "scope": "base",
+            "heal_amount": 1
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "base",
+            "heal_amount": 20
+          },
+          {
+            "id": "minecraft:apple",
+            "name": "apple",
+            "scope": "base",
+            "heal_amount": 3
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "base",
+            "heal_amount": 3
+          },
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "base",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "base",
+            "heal_amount": 10
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.016667
+          },
+          {
+            "id": "minecraft:sugar",
+            "name": "sugar",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.025
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.15
+          },
+          {
+            "id": "minecraft:apple",
+            "name": "apple",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.05
+          },
+          {
+            "id": "minecraft:golden_apple",
+            "name": "golden apple",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.2
+          },
+          {
+            "id": "minecraft:appleEnchanted",
+            "name": "enchanted golden apple",
+            "scope": "minecraft:mule_baby",
+            "growth": 0.2
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
+      ]
     },
     "variants": []
   },
@@ -2027,7 +4070,236 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844669"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 15 health points (7.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 15
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:pufferfish_bucket",
+            "name": "bucket of pufferfish",
+            "scope": "minecraft:nautilus_baby",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:cod_bucket",
+            "name": "bucket of cod",
+            "scope": "minecraft:nautilus_baby",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:salmon_bucket",
+            "name": "bucket of salmon",
+            "scope": "minecraft:nautilus_baby",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:tropical_fish_bucket",
+            "name": "bucket of tropical fish",
+            "scope": "minecraft:nautilus_baby",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "minecraft:nautilus_baby"
+          },
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:nautilus_baby"
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:nautilus_baby"
+          },
+          {
+            "id": "minecraft:clownfish",
+            "name": "tropical fish",
+            "scope": "minecraft:nautilus_baby"
+          },
+          {
+            "id": "minecraft:cooked_fish",
+            "name": "cooked cod",
+            "scope": "minecraft:nautilus_baby"
+          },
+          {
+            "id": "minecraft:cooked_salmon",
+            "name": "cooked salmon",
+            "scope": "minecraft:nautilus_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:pufferfish_bucket",
+            "name": "bucket of pufferfish",
+            "scope": "minecraft:nautilus_adult",
+            "result_item": "water_bucket:0",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cod_bucket",
+            "name": "bucket of cod",
+            "scope": "minecraft:nautilus_adult",
+            "result_item": "water_bucket:0",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:salmon_bucket",
+            "name": "bucket of salmon",
+            "scope": "minecraft:nautilus_adult",
+            "result_item": "water_bucket:0",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:tropical_fish_bucket",
+            "name": "bucket of tropical fish",
+            "scope": "minecraft:nautilus_adult",
+            "result_item": "water_bucket:0",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "minecraft:nautilus_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:nautilus_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:nautilus_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:clownfish",
+            "name": "tropical fish",
+            "scope": "minecraft:nautilus_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cooked_fish",
+            "name": "cooked cod",
+            "scope": "minecraft:nautilus_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cooked_salmon",
+            "name": "cooked salmon",
+            "scope": "minecraft:nautilus_adult",
+            "require_tame": true
+          }
+        ],
+        "taming": [
+          {
+            "id": "minecraft:pufferfish_bucket",
+            "name": "bucket of pufferfish",
+            "scope": "minecraft:nautilus_wild_adult_calm",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "minecraft:nautilus_wild_adult_calm"
+          }
+        ],
+        "healing": [
+          {
+            "id": "minecraft:pufferfish_bucket",
+            "name": "bucket of pufferfish",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 2,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:cod_bucket",
+            "name": "bucket of cod",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 4,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:salmon_bucket",
+            "name": "bucket of salmon",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 4,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:tropical_fish_bucket",
+            "name": "bucket of tropical fish",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 2,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:clownfish",
+            "name": "tropical fish",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:cooked_fish",
+            "name": "cooked cod",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:cooked_salmon",
+            "name": "cooked salmon",
+            "scope": "minecraft:nautilus_tame",
+            "heal_amount": 12
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+      ]
     },
     "variants": []
   },
@@ -2047,6 +4319,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/npc.json"
+      ]
     },
     "variants": []
   },
@@ -2086,7 +4365,48 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851711"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:ocelot_baby"
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:ocelot_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:ocelot_trusting",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:ocelot_trusting",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
+      ]
     },
     "variants": []
   },
@@ -2106,6 +4426,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ominous_item_spawner.json"
+      ]
     },
     "variants": []
   },
@@ -2152,7 +4479,37 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3846509"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:bamboo",
+            "name": "bamboo",
+            "scope": "minecraft:panda_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:bamboo",
+            "name": "bamboo",
+            "scope": "minecraft:panda_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+      ]
     },
     "variants": []
   },
@@ -2178,7 +4535,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3845817"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 16 health points (8 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parched.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parched.json"
+      ]
     },
     "variants": []
   },
@@ -2218,7 +4595,82 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3849952"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 6 health points (3 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "taming": [
+          {
+            "id": "minecraft:wheat_seeds",
+            "name": "wheat seeds",
+            "scope": "minecraft:parrot_wild"
+          },
+          {
+            "id": "minecraft:pumpkin_seeds",
+            "name": "pumpkin seeds",
+            "scope": "minecraft:parrot_wild"
+          },
+          {
+            "id": "minecraft:melon_seeds",
+            "name": "melon seeds",
+            "scope": "minecraft:parrot_wild"
+          },
+          {
+            "id": "minecraft:beetroot_seeds",
+            "name": "beetroot seeds",
+            "scope": "minecraft:parrot_wild"
+          },
+          {
+            "id": "minecraft:pitcher_pod",
+            "name": "pitcher pod",
+            "scope": "minecraft:parrot_wild"
+          },
+          {
+            "id": "minecraft:torchflower_seeds",
+            "name": "torchflower seeds",
+            "scope": "minecraft:parrot_wild"
+          }
+        ]
+      },
+      "hazards": [
+        {
+          "id": "minecraft:cookie",
+          "name": "cookie",
+          "scope": "base",
+          "heal_amount": 0,
+          "effects": [
+            {
+              "amplifier": 0,
+              "chance": 1.0,
+              "duration": 1000,
+              "name": "fatal_poison"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
+      ]
     },
     "variants": []
   },
@@ -2251,7 +4703,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/phantom.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/phantom.json"
+      ]
     },
     "variants": []
   },
@@ -2298,7 +4770,72 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3847785"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "minecraft:pig_baby"
+          },
+          {
+            "id": "minecraft:beetroot",
+            "name": "beetroot",
+            "scope": "minecraft:pig_baby"
+          },
+          {
+            "id": "minecraft:potato",
+            "name": "potato",
+            "scope": "minecraft:pig_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "minecraft:pig_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:beetroot",
+            "name": "beetroot",
+            "scope": "minecraft:pig_adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:potato",
+            "name": "potato",
+            "scope": "minecraft:pig_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+      ]
     },
     "variants": []
   },
@@ -2338,7 +4875,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851223"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 16 health points (8 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin.json"
+      ]
     },
     "variants": []
   },
@@ -2371,7 +4928,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3848820"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 50 health points (25 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 50
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin_brute.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin_brute.json"
+      ]
     },
     "variants": []
   },
@@ -2404,7 +4981,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3843714"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 24 health points (12 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 24
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pillager.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pillager.json"
+      ]
     },
     "variants": []
   },
@@ -2431,6 +5028,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/player.json"
+      ]
     },
     "variants": []
   },
@@ -2470,7 +5074,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853198"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 30 health points (15 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
+      ]
     },
     "variants": []
   },
@@ -2510,7 +5134,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 3 health points (1.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pufferfish.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pufferfish.json"
+      ]
     },
     "variants": []
   },
@@ -2550,7 +5194,72 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844604"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 3 health points (1.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "baby"
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "baby"
+          },
+          {
+            "id": "minecraft:dandelion",
+            "name": "dandelion",
+            "scope": "baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:golden_carrot",
+            "name": "golden carrot",
+            "scope": "adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:carrot",
+            "name": "carrot",
+            "scope": "adult",
+            "require_tame": false
+          },
+          {
+            "id": "minecraft:dandelion",
+            "name": "dandelion",
+            "scope": "adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+      ]
     },
     "variants": []
   },
@@ -2583,7 +5292,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3843713"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 100 health points (50 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 100
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ravager.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ravager.json"
+      ]
     },
     "variants": []
   },
@@ -2623,7 +5352,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844555"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 3 health points (1.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/salmon.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/salmon.json"
+      ]
     },
     "variants": []
   },
@@ -2656,7 +5405,50 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3848879"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 8 health points (4 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:sheep_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:sheep_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+      ]
     },
     "variants": []
   },
@@ -2696,7 +5488,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3843708"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 30 health points (15 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/shulker.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/shulker.json"
+      ]
     },
     "variants": []
   },
@@ -2716,6 +5528,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/shulker_bullet.json"
+      ]
     },
     "variants": []
   },
@@ -2748,7 +5567,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3843709"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 8 health points (4 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/silverfish.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/silverfish.json"
+      ]
     },
     "variants": []
   },
@@ -2781,7 +5620,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3846446"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton.json"
+      ]
     },
     "variants": []
   },
@@ -2821,7 +5680,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3849906"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 15 health points (7.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 15
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton_horse.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton_horse.json"
+      ]
     },
     "variants": []
   },
@@ -2856,6 +5735,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/slime.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:small_fireball": {
@@ -2874,6 +5760,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/small_fireball.json"
+      ]
     },
     "variants": []
   },
@@ -2906,7 +5799,58 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3847160"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 14 health points (7 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 14
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:torchflower_seeds",
+            "name": "torchflower seeds",
+            "scope": "base",
+            "heal_amount": 2
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:torchflower_seeds",
+            "name": "torchflower seeds",
+            "scope": "sniffer_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:torchflower_seeds",
+            "name": "torchflower seeds",
+            "scope": "sniffer_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+      ]
     },
     "variants": []
   },
@@ -2946,7 +5890,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3851744"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 4 health points (2 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 4
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/snow_golem.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/snow_golem.json"
+      ]
     },
     "variants": []
   },
@@ -2966,6 +5930,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/snowball.json"
+      ]
     },
     "variants": []
   },
@@ -2991,7 +5962,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844683"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 16 health points (8 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/spider.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/spider.json"
+      ]
     },
     "variants": []
   },
@@ -3011,6 +6002,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/splash_potion.json"
+      ]
     },
     "variants": []
   },
@@ -3043,7 +6041,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844578"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 10 health points (5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/squid.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/squid.json"
+      ]
     },
     "variants": []
   },
@@ -3076,7 +6094,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844780"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/stray.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/stray.json"
+      ]
     },
     "variants": []
   },
@@ -3116,7 +6154,50 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844584"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 20 health points (10 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:warped_fungus",
+            "name": "warped fungus",
+            "scope": "minecraft:strider_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:warped_fungus",
+            "name": "warped fungus",
+            "scope": "minecraft:strider_adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+      ]
     },
     "variants": []
   },
@@ -3149,7 +6230,29 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3853726"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sulfur_cube.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:slime_ball",
+            "name": "slimeball",
+            "scope": "minecraft:sulfur_cube_small"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sulfur_cube.json"
+      ]
     },
     "variants": []
   },
@@ -3182,7 +6285,42 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3849184"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 6 health points (3 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:slime_ball",
+            "name": "slimeball",
+            "scope": "base"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
+      ]
     },
     "variants": []
   },
@@ -3203,6 +6341,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/thrown_trident.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:tnt": {
@@ -3221,6 +6366,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tnt.json"
+      ]
     },
     "variants": []
   },
@@ -3247,6 +6399,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tnt_minecart.json"
+      ]
     },
     "variants": []
   },
@@ -3286,12 +6445,85 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3849739"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "base",
+            "heal_amount": 10
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:wheat",
+            "name": "wheat",
+            "scope": "minecraft:llama_baby",
+            "growth": 0.1
+          },
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:llama_baby",
+            "growth": 0.9
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:hay_block",
+            "name": "hay bale",
+            "scope": "minecraft:llama_adult",
+            "require_tame": true
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
+      ]
     },
     "variants": []
   },
   "minecraft:tripod_camera": {
-    "topics": {},
+    "topics": {
+      "spawning": {
+        "answer": "The tripod camera is an Education feature, not a naturally spawning Survival creature. It is not normally obtainable in standard Bedrock Survival.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3801335"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "In Minecraft Education, cameras work with portfolios to collect photos. This tripod entity is different from the camera command used by world creators.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3801335"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tripod_camera.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:tropicalfish": {
@@ -3330,7 +6562,27 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844607"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 3 health points (1.5 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tropicalfish.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tropicalfish.json"
+      ]
     },
     "variants": []
   },
@@ -3363,7 +6615,50 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3846426"
         ],
         "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Its normal maximum health is 30 health points (15 hearts). Effects can change its health during play.",
+        "coverage": "sample_component_summary",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ],
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+        ]
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "growth": [
+          {
+            "id": "minecraft:seagrass",
+            "name": "seagrass",
+            "scope": "minecraft:baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:seagrass",
+            "name": "seagrass",
+            "scope": "minecraft:adult",
+            "require_tame": false
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+      ]
     },
     "variants": []
   },
@@ -3397,6 +6692,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/vex.json"
+      ]
     },
     "variants": []
   },
@@ -3438,6 +6740,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:villager_v2": {
@@ -3478,6 +6787,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager_v2.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:vindicator": {
@@ -3510,6 +6826,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/vindicator.json"
+      ]
     },
     "variants": []
   },
@@ -3551,6 +6874,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wandering_trader.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:warden": {
@@ -3584,6 +6914,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/warden.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:wind_charge_projectile": {
@@ -3602,6 +6939,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wind_charge_projectile.json"
+      ]
     },
     "variants": []
   },
@@ -3635,6 +6979,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/witch.json"
+      ]
     },
     "variants": []
   },
@@ -3676,6 +7027,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:wither_skeleton": {
@@ -3709,6 +7067,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skeleton.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:wither_skull": {
@@ -3728,6 +7093,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skull.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:wither_skull_dangerous": {
@@ -3746,6 +7118,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skull_dangerous.json"
+      ]
     },
     "variants": []
   },
@@ -3799,7 +7178,264 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:porkchop",
+            "name": "raw porkchop",
+            "scope": "base",
+            "heal_amount": 6
+          },
+          {
+            "id": "minecraft:cooked_porkchop",
+            "name": "cooked porkchop",
+            "scope": "base",
+            "heal_amount": 16
+          },
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:clownfish",
+            "name": "tropical fish",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "base",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:cooked_fish",
+            "name": "cooked cod",
+            "scope": "base",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:cooked_salmon",
+            "name": "cooked salmon",
+            "scope": "base",
+            "heal_amount": 12
+          },
+          {
+            "id": "minecraft:beef",
+            "name": "raw beef",
+            "scope": "base",
+            "heal_amount": 6
+          },
+          {
+            "id": "minecraft:cooked_beef",
+            "name": "cooked beef",
+            "scope": "base",
+            "heal_amount": 16
+          },
+          {
+            "id": "minecraft:chicken",
+            "name": "raw chicken",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:cooked_chicken",
+            "name": "cooked chicken",
+            "scope": "base",
+            "heal_amount": 12
+          },
+          {
+            "id": "minecraft:muttonRaw",
+            "name": "raw mutton",
+            "scope": "base",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:muttonCooked",
+            "name": "cooked mutton",
+            "scope": "base",
+            "heal_amount": 12
+          },
+          {
+            "id": "minecraft:rotten_flesh",
+            "name": "rotten flesh",
+            "scope": "base",
+            "heal_amount": 8
+          },
+          {
+            "id": "minecraft:rabbit",
+            "name": "raw rabbit",
+            "scope": "base",
+            "heal_amount": 6
+          },
+          {
+            "id": "minecraft:cooked_rabbit",
+            "name": "cooked rabbit",
+            "scope": "base",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:rabbit_stew",
+            "name": "rabbit stew",
+            "scope": "base",
+            "heal_amount": 20
+          }
+        ],
+        "growth": [
+          {
+            "id": "minecraft:chicken",
+            "name": "raw chicken",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:cooked_chicken",
+            "name": "cooked chicken",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:beef",
+            "name": "raw beef",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:cooked_beef",
+            "name": "cooked beef",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:muttonRaw",
+            "name": "raw mutton",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:muttonCooked",
+            "name": "cooked mutton",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:porkchop",
+            "name": "raw porkchop",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:cooked_porkchop",
+            "name": "cooked porkchop",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:rabbit",
+            "name": "raw rabbit",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:cooked_rabbit",
+            "name": "cooked rabbit",
+            "scope": "minecraft:wolf_baby"
+          },
+          {
+            "id": "minecraft:rotten_flesh",
+            "name": "rotten flesh",
+            "scope": "minecraft:wolf_baby"
+          }
+        ],
+        "breeding": [
+          {
+            "id": "minecraft:chicken",
+            "name": "raw chicken",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cooked_chicken",
+            "name": "cooked chicken",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:beef",
+            "name": "raw beef",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cooked_beef",
+            "name": "cooked beef",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:muttonRaw",
+            "name": "raw mutton",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:muttonCooked",
+            "name": "cooked mutton",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:porkchop",
+            "name": "raw porkchop",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cooked_porkchop",
+            "name": "cooked porkchop",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:rabbit",
+            "name": "raw rabbit",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:cooked_rabbit",
+            "name": "cooked rabbit",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          },
+          {
+            "id": "minecraft:rotten_flesh",
+            "name": "rotten flesh",
+            "scope": "minecraft:wolf_adult",
+            "require_tame": true
+          }
+        ],
+        "taming": [
+          {
+            "id": "minecraft:bone",
+            "name": "bone",
+            "scope": "minecraft:wolf_wild"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
+      ]
     },
     "variants": [
       {
@@ -3974,6 +7610,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/xp_bottle.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:xp_orb": {
@@ -3992,6 +7635,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/xp_orb.json"
+      ]
     },
     "variants": []
   },
@@ -4040,6 +7690,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zoglin.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:zombie": {
@@ -4072,6 +7729,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie.json"
+      ]
     },
     "variants": []
   },
@@ -4111,7 +7775,30 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3854012"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_horse.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:red_mushroom",
+            "name": "red mushroom",
+            "scope": "base",
+            "heal_amount": 3
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_horse.json"
+      ]
     },
     "variants": []
   },
@@ -4151,7 +7838,101 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3845839"
         ],
         "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Food has different uses for breeding, taming, healing and growth.",
+        "coverage": "scoped_sample_interactions",
+        "sources": [
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_nautilus.json"
+        ]
       }
+    },
+    "feeding": {
+      "roles": {
+        "healing": [
+          {
+            "id": "minecraft:pufferfish_bucket",
+            "name": "bucket of pufferfish",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 2,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:cod_bucket",
+            "name": "bucket of cod",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 4,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:salmon_bucket",
+            "name": "bucket of salmon",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 4,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:tropical_fish_bucket",
+            "name": "bucket of tropical fish",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 2,
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:fish",
+            "name": "raw cod",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:salmon",
+            "name": "raw salmon",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 4
+          },
+          {
+            "id": "minecraft:clownfish",
+            "name": "tropical fish",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 2
+          },
+          {
+            "id": "minecraft:cooked_fish",
+            "name": "cooked cod",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 10
+          },
+          {
+            "id": "minecraft:cooked_salmon",
+            "name": "cooked salmon",
+            "scope": "minecraft:zombie_nautilus_tame",
+            "heal_amount": 12
+          }
+        ],
+        "taming": [
+          {
+            "id": "minecraft:pufferfish_bucket",
+            "name": "bucket of pufferfish",
+            "scope": "minecraft:zombie_nautilus_tameable",
+            "result_item": "water_bucket:0"
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "name": "pufferfish",
+            "scope": "minecraft:zombie_nautilus_tameable"
+          }
+        ]
+      },
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_nautilus.json"
+      ]
     },
     "variants": []
   },
@@ -4186,6 +7967,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_pigman.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:zombie_villager": {
@@ -4219,6 +8007,13 @@
         "coverage": "reviewed_summary"
       }
     },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_villager.json"
+      ]
+    },
     "variants": []
   },
   "minecraft:zombie_villager_v2": {
@@ -4251,6 +8046,13 @@
         ],
         "coverage": "reviewed_summary"
       }
+    },
+    "feeding": {
+      "roles": {},
+      "hazards": [],
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_villager_v2.json"
+      ]
     },
     "variants": []
   }
