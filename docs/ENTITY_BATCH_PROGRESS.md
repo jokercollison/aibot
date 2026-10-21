@@ -1,3 +1,19 @@
+# Further entity review after 0.2.8
+
+Added 67 form/state summaries, bringing all 90 catalog mobs to a sourced answer
+for variant questions. These distinguish ages, equipment, encounter roles and
+changing behavior from separate species or named coats. A summary is not a claim
+that all variant mechanics are covered.
+
+Additional reviewed topics cover slime/magma-cube drowning, Creative-only shulker
+dyeing in Bedrock, baby squid growth, and the limited lifetime of evoker-summoned
+vexes versus command/spawn-egg vexes. Plural subject matching now recognizes
+“vexes” and “foxes”. The compiled database has 1,080 reviewed topic summaries.
+
+126 automated tests pass. Published 0.2.8 archives remain unchanged. Next gaps:
+precise spawn conditions, further special interactions, and unresolved conditional
+loot evidence. No entity is marked complete.
+
 # Entity expansion after 0.2.8 — source development
 
 This work is saved separately from the published 0.2.8 test build. No new game

@@ -42,7 +42,7 @@ function subjects(text) {
     for (let size = Math.min(maxAliasWords, words.length - i); size > 0; size--) {
       const term = words.slice(i, i + size).join(' ');
       const singular = term.endsWith('ies') ? term.slice(0, -3) + 'y' : term.endsWith('s') ? term.slice(0, -1) : term;
-      const irregular = {wolves:'wolf'};
+      const irregular = {wolves:'wolf',vexes:'vex',foxes:'fox'};
       const ids = aliasIndex.get(term) ?? aliasIndex.get(irregular[term] ?? singular) ?? aliasIndex.get(term + 's') ?? [];
       for (const id of ids) if (records[id]) found.push({record: records[id], size, start: i});
     }

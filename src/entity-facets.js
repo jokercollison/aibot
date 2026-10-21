@@ -2,6 +2,7 @@ import database from '../data/entities/runtime.json' with {type:'json'};
 const flowers=database['minecraft:mooshroom'].flower_effects;
 // These predicates identify a question's requested mechanic, not every noun it mentions.
 export function entityFacet(q) {
+ if(/\b(?:despawn|despawning|lifetime|live forever|last forever|disappear)\b/.test(q))return 'lifetime';
  if(/\bfroglights?\b/.test(q))return 'froglights';
  if(/\b(?:milking|milk|stew|stews)\b/.test(q))return 'milking';
  if(/\b(?:shear|shearing|sheared)\b/.test(q)&&!(/\b(?:drop|drops|loot)\b/.test(q)))return 'shearing';

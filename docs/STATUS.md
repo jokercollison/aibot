@@ -1,3 +1,9 @@
+# Latest entity source update
+
+All 90 catalog mobs now have sourced form/state summaries. The source contains
+1,080 reviewed topic summaries; 126 automated tests pass. This is development work
+following 0.2.8, not a new packaged test release. Detailed entity gaps remain.
+
 # Development source after 0.2.8
 
 Large entity variant/environment/interaction expansion is connected and covered

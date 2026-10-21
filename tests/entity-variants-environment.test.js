@@ -100,3 +100,30 @@ test('new facet words do not hide food questions with incidental scene descripti
  assert.equal(ask('Can a cow teleport?').status,'unknown');
  assert.equal(ask('Why does a cow know quantum physics?').status,'unknown');
 });
+test('mob form questions separate ages, roles, equipment and changing states',()=>{
+ const cases=[['allay',/rather than producing a baby/],['piglin brute',/no baby/],['iron golem',/cracks/i],['strider',/temperature/],['pufferfish',/inflated/],['vex',/red/],['skeleton',/distinct/],['mule',/cannot breed/],['dolphin',/does not breed/]];
+ for(const [name,expected] of cases) {
+  const r=ask(`What variants does a ${name} have?`);assert.equal(r.topic,'variants',name);assert.match(r.answer,expected,name);
+ }
+});
+test('shulker coloring retains Bedrock Creative restriction',()=>{
+ assert.match(ask('What variants does a shulker have?').answer,/Creative mode/);
+ assert.match(ask('What equipment can a shulker use?').answer,/not a Survival dye interaction/);
+});
+test('cube drowning is distinct from fire immunity and vex lifetime is scoped',()=>{
+ assert.match(ask('Can a magma cube drown underwater?').answer,/15 seconds/);
+ assert.match(ask('Can a slime drown underwater?').answer,/can drown/);
+ const c=createConversation();assert.match(c.ask('Do vexes live forever?').answer,/30 to 119 seconds/);
+ assert.match(c.ask('Do they disappear?').answer,/spawn eggs or commands/);
+});
+test('every catalog mob now has a sourced form/state summary without claiming completeness',()=>{
+ const subjects=JSON.parse(fs.readFileSync('data/entities/subjects.json')).subjects;
+ const coverage=JSON.parse(fs.readFileSync('docs/ENTITY_KNOWLEDGE_COVERAGE.json'));
+ const mobs=Object.entries(subjects).filter(([,s])=>s.category==='mob');
+ assert.equal(mobs.length,90);
+ for(const [id] of mobs) {
+  assert.ok(db[id].topics.variants?.answer,id);
+  assert.ok(db[id].topics.variants.sources.length,id);
+  assert.equal(coverage.subjects[id].complete,false,id);
+ }
+});
