@@ -11,6 +11,7 @@ execFileSync('python',['tools/recipes.py'],{stdio:'inherit'});
 execFileSync('python',['tools/entity_knowledge.py'],{stdio:'inherit'});
 execFileSync('python',['tools/acquisition.py'],{stdio:'inherit'});
 execFileSync('python',['tools/topics.py'],{stdio:'inherit'});
+execFileSync('python',['tools/entity_database.py'],{stdio:'inherit'});
 execFileSync('python',['tools/descriptions.py'],{stdio:'inherit'});
 await rm('build',{recursive:true,force:true});
 await mkdir('build',{recursive:true});

@@ -1,3 +1,4 @@
+import {entityAnswer, entityTopic, wolfVariant} from './entities.js';
 import acquisitionIndex from '../data/acquisition_index.json' with {type:'json'};
 import entityKnowledge from '../data/entity_knowledge.json' with {type:'json'};
 import locationFacts from '../data/location_facts.json' with {type:'json'};
@@ -130,11 +131,21 @@ function followup(record) {
 export function createConversation() {
   let previous;
   let pendingChoice;
+  let previousVariant;
+  let pendingVariant;
   return {
     ask(input) {
       const q = clean(input);
       if (!q) return {status: 'clarify', answer: 'What would you like to know about Minecraft?'};
       if (q.length > 240) return {status: 'clarify', answer: 'Please ask a shorter question (up to 240 characters).'};
+      if(pendingVariant) {
+        const picked=pendingVariant.options.find(v=>q===v || q===v+' wolf' || q==='the '+v+' one');
+        if(picked) {
+          const question=pendingVariant.question;pendingVariant=undefined;
+          return this.ask(question.replace(/\b(?:white|brown) (?:wolf|wolves)\b/,picked+' wolf'));
+        }
+        pendingVariant=undefined;
+      }
       const choice=q.match(/^(?:a |an |the )?(mob|entity|animal|creature|block|item)(?: please)?$/);
       if(pendingChoice && choice) {
         const kind=['mob','entity','animal','creature'].includes(choice[1])?'entity':choice[1];
@@ -155,10 +166,11 @@ export function createConversation() {
         /\b(what is|what are|tell me about|describe|what does|what do|used for|uses for|how does|how do i use)\b/.test(q) ? 'describe' :
         /\b(drown|underwater|lava|fire|sunlight|eat|tame|kill|health|attack|damage)\b/.test(q) ? 'mechanic' : 'describe';
       if (intent === 'uses' && /\bwith iron$/.test(q)) return {status:'ambiguous',answer:'Do you mean iron ingots, raw iron, or iron blocks? Please include the material in your question.'};
-      const matches = subjects(q).filter(x => intent === 'recipe' || intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
+      const matches = subjects(q).filter(x => intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
       const exact = String(input).toLowerCase().match(/\b(?:(block|item|entity):)?(minecraft:(?:potion_type:)?[a-z0-9_]+)\b/);
       let candidates = matches.length ? matches.filter(m => m.size === matches[0].size && m.start === matches[0].start).map(m => m.record) : [];
       if (exact) candidates = (byMinecraftId.get(exact[2]) ?? []).filter(r => !exact[1] || r.kind === exact[1]);
+      if(/\b(drop|drops|loot|tame|taming|breed|breeding)\b/.test(q) && candidates.some(r=>r.kind==='entity')) candidates=candidates.filter(r=>r.kind==='entity');
       const kindHint = /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
       if (!exact && kindHint && candidates.some(r=>r.kind===kindHint)) candidates=candidates.filter(r=>r.kind===kindHint);
       candidates = [...new Map(candidates.map(r => [r.id,r])).values()];
@@ -175,8 +187,18 @@ export function createConversation() {
         return {status:'ambiguous',answer:'Do you mean the mob, or the block/item with that name? Please include which one in your question.'};
       }
       const r = candidates.find(r => r.recipes?.length) ?? candidates[0];
+      if(r.minecraft_id==='minecraft:wolf' && /\b(?:white|brown) (?:wolf|wolves)\b/.test(q)) {
+        const options=/\bwhite\b/.test(q)?['snowy','pale']:['chestnut','woods','rusty'];
+        pendingVariant={question:q,options};
+        return {status:'ambiguous',answer:'Do you mean the '+options.join(', or ')+' wolf?'};
+      }
+      previousVariant = matches.length ? wolfVariant(q) : r.minecraft_id === previous?.minecraft_id ? previousVariant : undefined;
       previous = r;
       pendingChoice=undefined;
+      if(r.kind==='entity' && !['fear','danger'].includes(intent)) {
+        const answer=entityAnswer(r.minecraft_id,q,previousVariant);
+        if(answer)return answer;
+      }
       if (intent === 'recipe') return {...recipeText(r), subject: r.minecraft_id};
       if (intent === 'uses') {
         const results = [...(uses.get(r.minecraft_id) ?? [])];
@@ -201,6 +223,7 @@ export function createConversation() {
       if(r.kind==='entity'&&technical)return {status:'conditional',answer:technical.answer,sources:[entityKnowledge[r.minecraft_id].source]};
       const f = facts[r.minecraft_id]?.[intent];
       if (f) return {status: f.status, answer: f.text, sources: [f.source]};
+      if(r.kind==='entity' && entityTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:entityTopic(q),answer:`I'm still learning about ${clean(r.name)} ${entityTopic(q)}. Could you ask me about another part of it?`};
       if (intent !== 'describe') return {status: 'unknown', answer: unknown};
       if (r.kind === 'enchantment' && r.effect) {
         const equipment = (r.equipment ?? []).map(e => e === 'durable_equipment' ? 'items with durability' : clean(e));

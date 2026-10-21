@@ -1,0 +1,4257 @@
+{
+  "minecraft:agent": {
+    "topics": {
+      "spawning": {
+        "answer": "The Agent is associated with Education coding features rather than normal Survival mob spawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3831659"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Supported coding tools can instruct an Agent to move and work with blocks. It is not a naturally tameable Survival companion.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3831659"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:allay": {
+    "topics": {
+      "spawning": {
+        "answer": "Look in cages at pillager outposts and jail cells in woodland mansions. Allays appear with those structures during world generation; they do not normally appear everywhere at random.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "An allay drops the item it was holding when it dies, but has no other normal item or experience drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Allays duplicate rather than breed as a pair. Play a music disc in a nearby jukebox, then give a dancing allay an amethyst shard. Both allays then have a five-minute duplication cooldown; there is no baby allay.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Allays are not tamed like wolves. Give one an item to have it follow you and collect matching dropped items; take that item back to release it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "An allay collects dropped copies of the item it holds. It can deliver to you or to a note block it recently heard. It does not mine blocks or take items out of containers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:area_effect_cloud": {
+    "topics": {
+      "spawning": {
+        "answer": "Lingering potions and certain special attacks create temporary effect clouds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "An area-effect cloud applies its configured effect to eligible nearby entities and disappears over time. Stay out of harmful clouds; their effects depend on their source.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:armadillo": {
+    "topics": {
+      "spawning": {
+        "answer": "Armadillos naturally spawn in savannas and badlands, including their matching plateau, windswept, wooded and eroded variants.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Killing an armadillo does not provide armadillo scutes. Living armadillos shed scutes periodically, and brushing one gives a scute. Adults can give experience when killed; babies give neither items nor experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed spider eyes to two nearby adult armadillos. If an armadillo rolls up before reaching its mate, it needs to be fed again.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Armadillos cannot be tamed. You can breed them with spider eyes and move them with a lead.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use a brush to collect scutes without killing it. Sprinting players, mounted players, damage and nearby undead can make it roll up; spiders and cave spiders avoid armadillos.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:armor_stand": {
+    "topics": {
+      "health": {
+        "answer": "Bedrock armor stands have 6 health points (3 hearts). They are display entities, not living animals.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3826742"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Armor stands display equipment. In Bedrock you can change their pose and give them held items. Breaking one can drop the stand and its displayed equipment.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3826742"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking an armor stand can drop the stand item and equipment it displays. Destructive damage such as an explosion can have different results.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3826742"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:arrow": {
+    "topics": {
+      "spawning": {
+        "answer": "Arrows become projectile entities when fired from a bow, crossbow or dispenser. Skeleton-like mobs also shoot them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851631"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Arrows damage targets they hit. Tipped arrows can also apply their effect; shields and cover can protect against many arrow attacks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851631"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Some arrows stuck in blocks can be picked up, but arrows shot by mobs and other restricted projectiles are not all recoverable.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851631"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:axolotl": {
+    "topics": {
+      "spawning": {
+        "answer": "Look underwater in lush caves, with clay close beneath the spawning space.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Axolotls have no normal item drops. A player or tamed wolf kill can give experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed buckets of tropical fish to two adult axolotls. Loose tropical fish items do not work. A baby has a 1 in 1,200 chance to be blue; otherwise it inherits a parent’s color. In Bedrock, the breeding cooldown is one minute.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Axolotls are not tamed. Use a water bucket to collect one and relocate it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Axolotls can be pink, brown, gold, cyan or blue. Blue axolotls come from the rare breeding outcome rather than ordinary natural spawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Axolotls attack many aquatic mobs, can play dead when hurt, and can help a player fighting a shared aquatic target. Keep them wet; being out of water too long is dangerous.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:bat": {
+    "topics": {
+      "spawning": {
+        "answer": "Bats appear in sheltered, dark Overworld spaces. In Bedrock they need light level 4 or less, a suitable rock surface, and no direct sky exposure; they do not naturally spawn in the deep dark.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Bats drop no items or experience when killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Bats cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Bats cannot be tamed or trained to follow a player.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Bats are ambient animals. They fly around and hang from blocks, but are not a source of useful loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:bee": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for naturally generated bee nests on suitable trees. Bees live in nests or beehives and can also be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Bees do not normally drop items on death. Adults can give experience. Honey bottles and honeycomb are harvested from a full nest or hive, not from killing bees.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed suitable flowers to two adult bees. Do not use wither roses or eyeblossoms for breeding. Bees have a breeding cooldown, and time spent working inside a hive pauses their growth and breeding timers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Bees cannot be tamed. Flowers attract them, and a suitable nest or hive provides a home.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Bees pollinate flowers and return to their home to make honey. Harvest a full hive with bottles for honey or shears for honeycomb. A correctly placed campfire can calm the hive while harvesting. Attacking bees or disturbing an unprotected hive can provoke them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:blaze": {
+    "topics": {
+      "spawning": {
+        "answer": "Find blazes in Nether fortresses, including around blaze spawners. Their spawning requires a light level of 11 or less.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A blaze can drop 0–1 blaze rods when killed by a player or tamed wolf; Looting can increase the amount. Environmental kills do not provide the normal blaze-rod drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Blazes shoot bursts of fireballs and can attack up close. They resist fire and lava, but water and snowballs hurt them. Fire resistance helps against burning, not every kind of damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:boat": {
+    "topics": {
+      "spawning": {
+        "answer": "Place a boat item on suitable water or ground to create the boat entity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851308"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Use a boat to travel over water and carry up to two passengers. Ice also allows fast boat travel. Boats are not tamed or bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851308"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A normally broken boat drops its boat item. Destruction by fire or other hazards can have different results.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851308"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:bogged": {
+    "topics": {
+      "spawning": {
+        "answer": "Bogged spawn on the surface in swamps and mangrove swamps, and from suitable trial spawners in trial chambers. In Bedrock their natural surface spawning can occur at light levels 0–7; do not use Java’s underground-spawning rule.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Bogged can drop bones, arrows and, under player or tamed-wolf kill conditions, an arrow of poison. Equipment has separate drop conditions. Shearing a bogged gives two mushrooms once; those are not its ordinary death drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use shears to remove its mushrooms once. Bogged shoot poison arrows, so keep cover between you and them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:breeze": {
+    "topics": {
+      "spawning": {
+        "answer": "Breezes come from special trial spawners in trial-chamber combat rooms. They do not normally spawn across ordinary Overworld terrain.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A breeze killed by a player or tamed wolf drops 1–2 breeze rods; Looting can increase the amount.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "A breeze jumps around and fires wind charges that push targets and activate some mechanisms. It deflects many projectiles, so do not assume arrows are a reliable counter. Watch your landing after a wind burst.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:breeze_wind_charge_projectile": {
+    "topics": {
+      "spawning": {
+        "answer": "Wind-charge projectiles come from breezes or from using a wind charge item, depending on the projectile type.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Wind charges burst on impact, pushing entities and interacting with some buttons, doors and other mechanisms. Player wind charges and breeze projectiles do not have identical rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:camel": {
+    "topics": {
+      "spawning": {
+        "answer": "Look in deserts and desert villages. A camel can be generated in the center of a non-abandoned desert village.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Camels do not have a normal meat or leather drop. An equipped saddle can drop when the camel dies; adults can give experience in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed cactus to two adult camels. The baby grows over time and cactus can help it grow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Camels do not require taming. Equip an adult with a saddle to control it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A saddled adult camel can carry two players and dash forward. Its height puts riders above the reach of some short melee attackers, but does not make riders safe from every attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:camel_husk": {
+    "topics": {
+      "spawning": {
+        "answer": "Camel husks appear in deserts as jockeys with hostile passengers. In Bedrock these jockeys can appear at night or during thunderstorms; their passengers and mount are separate entities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A camel husk normally drops 2–3 rotten flesh, plus applicable equipped items. Killing its passengers and killing the mount are separate events with separate loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Camel husks cannot be bred like living camels.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "The mount does not attack like its hostile passengers. Deal with each rider separately; removing a rider does not automatically kill the camel husk.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:cat": {
+    "topics": {
+      "spawning": {
+        "answer": "Look in villages with suitable owned beds. Black cats can also generate at swamp huts. Village cat spawning uses its own bed-related rules rather than ordinary animal spawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult cats can drop 0–2 string. Babies have no normal item or experience drops. Gifts brought by a tamed cat after you sleep are a separate mechanic.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed raw cod or raw salmon to two tamed adult cats. Two sitting cats cannot breed; let at least one move toward the other.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Approach an untamed cat carefully and feed raw cod or raw salmon. It may take multiple fish. Once tamed it can follow you or be told to sit.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "In Bedrock, wild cats have 10 health points (5 hearts), while tamed cats have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Cats scare creepers and phantoms. You can dye a tamed cat’s collar and tell it to sit or follow. A tamed cat may bring a gift after sleeping near its owner.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:cave_spider": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for cave-spider spawners in cobweb-filled mineshaft corridors and suitable trial spawners. The archived newer rules also include sulfur-cave spawning; that depends on the features present in your game version.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Cave spiders can drop 0–2 string. A player kill can also produce a spider eye, with Looting affecting applicable drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Cave spiders are small climbers and their bites can poison you on applicable difficulties. They fit through openings that stop larger mobs, so use a secure barrier rather than a narrow gap.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:chest_boat": {
+    "topics": {
+      "spawning": {
+        "answer": "Place a boat-with-chest item to create a storage boat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3818475"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A boat with a chest carries one passenger and a storage inventory. Use it to move supplies over water.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3818475"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking a boat with a chest drops its item and stored contents.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3818475"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:chest_minecart": {
+    "topics": {
+      "spawning": {
+        "answer": "Loot-filled chest minecarts generate in mineshafts. You can also place a crafted chest minecart on rails.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851318"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A chest minecart carries a storage inventory along rails. It does not carry a player in its chest space.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851318"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking a chest minecart normally drops the chest-minecart item and its stored contents.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851318"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:chicken": {
+    "topics": {
+      "spawning": {
+        "answer": "Chickens appear on grass in many Overworld biomes. They can also hatch from thrown eggs or come from breeding. The variant of a naturally spawned chicken depends on the biome’s climate.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult chickens can drop feathers and raw chicken, or cooked chicken if killed while burning. Laying eggs is a separate periodic activity of living adult chickens.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed suitable seeds to two adult chickens, such as wheat, beetroot, melon, pumpkin or torchflower seeds. Pitcher pods also work. A chick inherits a parent’s variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Living adult chickens periodically lay eggs. Throwing an egg can hatch chicks, but does not guarantee one. Chickens fall slowly rather than taking normal fall damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:cod": {
+    "topics": {
+      "spawning": {
+        "answer": "Cod swim in many ocean types, including cold, ordinary and lukewarm oceans and their deep variants. Bedrock also allows them in frozen-ocean variants.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Cod drop raw cod, or cooked cod when killed while burning. In Bedrock a cod can also drop bones; do not substitute Java’s bone-meal drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Cod cannot be bred with food.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Cod cannot be tamed. Collect one with a water bucket to keep or transport it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:command_block_minecart": {
+    "topics": {
+      "spawning": {
+        "answer": "Command-block minecarts require commands; they have no Survival crafting recipe and do not appear in the normal Bedrock Creative inventory.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851328"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A powered activator rail makes a command-block minecart execute its configured command. This is an operator tool, not ordinary Survival transport.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851328"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking one drops a minecart, not a recoverable command block.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851328"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:copper_golem": {
+    "topics": {
+      "spawning": {
+        "answer": "Copper golems are created by players rather than ordinary animal spawning. A suitable copper golem statue can also be restored to an active golem.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "construction": {
+        "answer": "Place a carved pumpkin or jack o’lantern on a copper block to create a copper golem. Use the matching construction supported by your game version.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A copper golem can drop 1–3 copper ingots. Bedrock does not apply Java’s extra Looting increase to this drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Copper golems move items from copper chests to suitable nearby wooden or trapped chests. Unwaxed golems oxidize over time and can become statues; honeycomb waxes them and an axe can remove wax or oxidation.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:cow": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for cows on well-lit grass in many Overworld biomes and in some village animal pens. Shearing a mooshroom also turns it into a cow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult cows can drop leather and raw beef, or steak if killed while burning. Milk is obtained from a living cow with a bucket; it is not a death drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed wheat to two nearby adult cows. The calf inherits one parent’s variant rather than changing to match the breeding location.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Cows cannot be tamed like wolves. Wheat attracts them, and a lead or enclosure can help move or keep them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use an empty bucket on a living adult cow to collect milk. Milk removes status effects when drunk, including beneficial ones.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:creaking": {
+    "topics": {
+      "spawning": {
+        "answer": "Creakings are produced at night by active creaking hearts in the Overworld. The heart must be correctly placed between matching pale-oak blocks along the same axis.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Creakings do not drop items or experience on death. Hitting a heart-linked creaking can cause resin clumps to appear on nearby pale-oak logs; resin is not ordinary kill loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "A heart-linked creaking is protected by its heart. Look at it to stop its movement, then locate and break the linked creaking heart. Simply attacking the protected mob does not defeat it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A creaking cannot move while an eligible player is looking at it. Hitting it can reveal its linked heart through particles and generate resin near that heart.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:creeper": {
+    "topics": {
+      "spawning": {
+        "answer": "Creepers appear in suitable dark Overworld areas. In Bedrock their natural spawning excludes mushroom fields, deep dark, rivers, frozen rivers and snowy plains.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A normal creeper can drop 0–2 gunpowder when it dies; Looting can increase that amount. If a skeleton, stray or bogged kills it, it can drop a music disc. If another charged creeper kills it, it can drop a creeper head.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Creepers approach players and explode at close range. Back away before the fuse finishes and use distance or solid cover. Charged creepers have stronger explosions; damage depends on distance, difficulty and protection.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Lightning can turn a normal creeper into a charged creeper. A Channeling trident can help create the required lightning under suitable weather conditions. Cats and ocelots scare creepers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Creepers have ordinary and charged forms. Lightning creates the charged form; its stronger explosion can enable mob-head drops from eligible victims.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:cushion": {
+    "topics": {},
+    "variants": []
+  },
+  "minecraft:dolphin": {
+    "topics": {
+      "spawning": {
+        "answer": "Dolphins swim near sea level in ordinary, lukewarm and warm oceans, including suitable deep variants. They do not naturally spawn in cold or frozen oceans.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult dolphins can drop raw cod, or cooked cod if killed while burning. Baby dolphins do not give item or experience drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Dolphins cannot be bred by players; baby dolphins come from natural spawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Dolphins cannot be tamed. Feeding fish is a treasure-guidance interaction, not ownership.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Feed raw cod or salmon to have a dolphin guide you toward suitable underwater treasure structures. Dolphins need access to air and water; sealing one underwater or leaving it dry can kill it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:donkey": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for donkeys in plains, meadows and savannas.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "A donkey’s maximum health can range from 15 to 30 health points; individual animals have different attributes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult donkeys can drop leather. Any equipped saddle, attached chest and chest contents also drop. Babies have no normal item or experience drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Repeatedly mount an adult donkey until it accepts you and shows hearts. Once tamed, equip a saddle to control it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed golden apples or golden carrots to two tamed adult donkeys. A tamed donkey and tamed horse can instead produce a mule; mules cannot breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A tamed, saddled donkey can be ridden. Attach a chest to give it storage. It does not use horse armor.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:dragon_fireball": {
+    "topics": {
+      "spawning": {
+        "answer": "The Ender Dragon fires dragon fireballs during its attacks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "A dragon fireball creates a damaging area on impact. Move out of the lingering breath cloud rather than standing in it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use glass bottles on the dragon’s breath cloud to collect dragon’s breath.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:drowned": {
+    "topics": {
+      "spawning": {
+        "answer": "Drowned appear underwater in rivers, ocean biomes and suitable dripstone-cave waters. Some generate with ocean ruins. A submerged zombie can also convert into a drowned.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Drowned can drop rotten flesh and, under the appropriate player-kill conditions, a copper ingot. A drowned carrying a trident or fishing rod has a separate chance to drop that item; one carrying a nautilus shell drops the shell. Not every drowned carries a trident.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Some drowned throw tridents, while others attack up close. They are undead, so Smite is useful. Water and daylight affect their behavior; do not assume every drowned will pursue you onto dry land.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Ordinary zombies can convert to drowned after remaining submerged. Drowned can spawn holding different equipment, which changes both their attacks and their possible drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:egg": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw an egg item or dispense it to create an egg projectile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3823025"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A thrown egg can hatch chicks on impact, but hatching is not guaranteed. It is different from placing a turtle or sniffer egg block.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3823025"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:elder_guardian": {
+    "topics": {
+      "spawning": {
+        "answer": "Three elder guardians generate with each ocean monument: one near the top and one in each wing. They do not naturally respawn after being killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Elder guardians can drop prismarine materials, wet sponge under the required kill conditions, and a chance of a Tide armor trim smithing template. Their drops are separate from regular guardians.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Elder guardians use a charging beam and inflict Mining Fatigue on nearby players. Bring underwater breathing and a plan for Mining Fatigue; breaking line of sight can interrupt beam attacks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ender_crystal": {
+    "topics": {
+      "spawning": {
+        "answer": "End crystals generate on the End’s obsidian pillars. Players can also place crystal items on obsidian or bedrock under suitable space conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837768"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "End crystals heal the Ender Dragon and explode when destroyed. Four correctly placed around the exit portal can restart the dragon fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837768"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Keep your distance when destroying an End crystal: its explosion can cause severe damage and destroy nearby blocks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837768"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ender_dragon": {
+    "topics": {
+      "spawning": {
+        "answer": "The ender dragon is the boss on the End’s central island. It appears with the initial dragon fight and can later be resummoned.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "construction": {
+        "answer": "To resummon the dragon, place four End crystals around the End exit portal, one centered on each side. Stand clear during the crystal and tower-regeneration sequence.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "The first dragon defeat gives a large amount of experience, opens the exit portal and produces the dragon egg at the portal. Later defeats give less experience. Dragon breath is collected with glass bottles during the fight, not from its death loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Destroy the healing End crystals, avoid the breath clouds and attack the dragon’s vulnerable head when an opening appears. Beds and other explosions are dangerous tactics and can kill you too.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ender_pearl": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw an ender pearl or launch one from a dispenser to create its projectile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3840320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A player-thrown ender pearl teleports its thrower when it lands and normally causes teleportation damage. It can also create an endermite. Avoid throwing into unsafe terrain.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3840320"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:enderman": {
+    "topics": {
+      "spawning": {
+        "answer": "Endermen appear in the Overworld, Nether and End. Warped forests are a useful Nether location, while the End has many endermen. They need enough vertical space for their tall bodies.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "An enderman can drop 0–1 ender pearls, with Looting increasing applicable drops. It also drops the block it was carrying.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Looking directly at an enderman or attacking it can provoke it. It teleports and avoids many projectiles. Water hurts it, and a low shelter can help keep its tall body away.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A carved pumpkin worn on your head prevents normal eye-contact provocation. Endermen can pick up and place certain blocks; they cannot move every block type.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:endermite": {
+    "topics": {
+      "spawning": {
+        "answer": "A player-thrown ender pearl has a 5% chance to create an endermite. In Bedrock it appears at the pearl’s landing site.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Endermites do not have a normal item drop; a player or tamed-wolf kill gives experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Endermites normally disappear after about two minutes even inside vehicles. A name tag can prevent that timed disappearance.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:evocation_illager": {
+    "topics": {
+      "spawning": {
+        "answer": "Evokers generate in particular woodland-mansion rooms and appear during suitable raid waves. Mansion evokers do not respawn naturally.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "An evoker drops a totem of undying and can drop emeralds. Raid-captain equipment and ominous bottles have their own conditions. In Bedrock, an evoker gives experience regardless of how it dies.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Evokers summon vexes and fang attacks. Their spells can threaten you from beyond ordinary melee reach; interrupt the fight quickly and watch for summoned vexes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "An evoker can change a nearby blue sheep to red under the applicable mob-griefing conditions. A totem it drops works only when held in a hand when lethal damage occurs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:eye_of_ender_signal": {
+    "topics": {
+      "spawning": {
+        "answer": "Using an eye of ender in the Overworld launches the flying eye entity toward a stronghold.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Follow the eye’s direction to locate a stronghold. It can drop back as an item or shatter, so carry spare eyes. This is separate from putting eyes into End portal frames.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835744"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:fireball": {
+    "topics": {
+      "spawning": {
+        "answer": "Ghasts fire large fireballs. Fire charges launched by dispensers instead create small fireballs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822892"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "A ghast fireball explodes on impact and can be deflected back by a well-timed attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822892"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:fireworks_rocket": {
+    "topics": {
+      "spawning": {
+        "answer": "Using a firework rocket launches its entity. Rockets can also be launched from dispensers or crossbows.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3815139"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Firework rockets can boost a player gliding with elytra. Rockets containing firework stars explode and can hurt the user; use rockets without stars for safer boosting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3815139"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:fishing_hook": {
+    "topics": {
+      "spawning": {
+        "answer": "Casting a fishing rod creates a fishing bobber connected to its user.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820476"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Wait for a bite, then reel in to catch fishing loot. Reeling can also pull hooked entities; treasure fishing has additional open-water conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820476"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:fox": {
+    "topics": {
+      "spawning": {
+        "answer": "Red foxes appear in taiga and old-growth taiga biomes; snowy foxes appear in snowy taigas and groves. Foxes can also come from breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Foxes drop items they are still carrying. They do not drop a fox-specific hide or fur item; adults can give experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed sweet berries or glow berries to two adult foxes. The resulting baby trusts the breeding player, but can still follow adult foxes, so a lead helps move it away.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Foxes do not tame like wolves. Breed two foxes to produce a baby that trusts you; giving food to an unrelated wild fox is not the same as taming it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Foxes have red and snowy variants. Their natural spawning biome determines the variant, and breeding can inherit a parent’s appearance.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Foxes can hold items in their mouths and pick up food. A trusting fox may defend a player, but it does not behave exactly like an owned wolf.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:frog": {
+    "topics": {
+      "spawning": {
+        "answer": "Frogs appear in swamps and mangrove swamps, and are produced when tadpoles grow up. The biome where a tadpole matures determines the frog’s variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Frogs have no normal item drops on death. A frog eating a small magma cube produces a froglight; killing the frog does not.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed slimeballs to two adult frogs. One lays frogspawn in suitable water; it hatches into tadpoles. The tadpoles’ growing location determines their eventual frog variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Frogs have temperate, warm and cold variants. Temperate frogs are orange, warm frogs are white and cold frogs are green. The variant determines which froglight it produces.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Frogs eat small slimes and small magma cubes. Small slimes give slimeballs; small magma cubes give froglights whose color depends on the frog variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ghast": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for ghasts in Nether wastes, soul sand valleys and basalt deltas with enough open space for their large bodies.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Ghasts can drop ghast tears and gunpowder. A ghast killed with a player-reflected fireball can also drop the Tears music disc.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Ghasts launch explosive fireballs. You can hit a fireball back toward the ghast. Use cover and avoid fighting at an exposed edge above lava.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:glow_squid": {
+    "topics": {
+      "spawning": {
+        "answer": "In Bedrock, look for glow squid in completely dark underground water from Y=-64 to Y=30, below a solid roof. They do not naturally spawn in the deep dark.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Glow squid can drop 1–3 glow ink sacs, with Looting increasing applicable amounts. Glow ink sacs are different from ordinary squid ink.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Glow squid cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Glow squid cannot be tamed. Transporting one does not make it an owned animal.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:goat": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for goats on snowy slopes, jagged peaks and frozen peaks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Goats do not have a normal meat or horn death drop. A goat drops a horn when it rams a suitable solid block, not simply when killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed wheat to two adult goats. There is also a rare screaming or screamer variant, and breeding can pass that trait on.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Goats have normal and rare screamer forms. They look similar, but screamers make different sounds and ram more often; their horns can produce different sounds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A goat can lose a horn by ramming a suitable block. Avoid killing it if you want horns. An empty bucket can collect milk from an adult goat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:guardian": {
+    "topics": {
+      "spawning": {
+        "answer": "Find guardians in and around ocean monuments. In Bedrock their structure spawning uses 25 fixed spawning columns in water; removing the visible monument does not by itself remove those spawn locations.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Guardians can drop prismarine shards, prismarine crystals or cod under their loot conditions. Bedrock does not use Java’s extra random-fish drop in the same way.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Guardians charge a damaging beam and can hurt attackers with their spikes. Break line of sight to interrupt the beam and use good underwater equipment.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:happy_ghast": {
+    "topics": {
+      "spawning": {
+        "answer": "A happy ghast starts as a ghastling after a dried ghast is kept waterlogged for about twenty minutes. The ghastling must grow before it can be ridden.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A happy ghast drops its equipped harness if it has one. Adult player or tamed-wolf kills can give experience; ghastlings do not give experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Happy ghasts cannot be bred. Make more by rehydrating more dried ghasts.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Happy ghasts do not need wolf-style taming. Grow a ghastling, then equip a harness on the adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A harnessed adult happy ghast can carry up to four players. The controlling rider steers it; a ghastling cannot be harnessed or ridden.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Snowballs accelerate a ghastling’s growth. Use shears to remove an adult’s harness when the interaction is available.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:hoglin": {
+    "topics": {
+      "spawning": {
+        "answer": "Find hoglins in crimson forests and some bastion remnants in the Nether.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult hoglins can drop porkchops and leather. Burning changes porkchops to cooked porkchops. Baby hoglins do not give the adult item loot, although they can give experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed crimson fungi to two adult hoglins. They cannot breed while fleeing from warped fungi, respawn anchors or Nether portals.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Hoglins attack and knock targets back. Warped fungi can repel them. Even babies can be aggressive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Outside the Nether, a hoglin can convert into a zoglin. A zoglin cannot be bred with crimson fungus like a living hoglin.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:hopper_minecart": {
+    "topics": {
+      "spawning": {
+        "answer": "Place a crafted hopper minecart on rails.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A hopper minecart collects items and can pull items from a container above it. An activator rail can disable or enable its collection; it does not work exactly like a stationary hopper.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking a hopper minecart normally drops its item and stored contents.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851320"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:horse": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for horses in plains and savannas, including some village stables and animal pens.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "A horse’s maximum health can range from 15 to 30 health points. Health, speed and jumping ability vary between individuals.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult horses can drop leather plus equipped saddle and horse armor. Foals have no normal item or experience drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Repeatedly mount an adult horse until it accepts you and shows hearts. A saddle is needed to control the tamed horse; putting a saddle on another animal does not tame it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed golden carrots or golden apples to two tamed adult horses. Breeding a horse with a tamed donkey produces a mule, which cannot breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A tamed horse can be controlled with a saddle and equipped with horse armor. Horses cannot carry chests; use a donkey or mule for storage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:husk": {
+    "topics": {
+      "spawning": {
+        "answer": "Husks are desert zombie variants that normally appear on the surface, and can also come from suitable trial spawners.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Husks can drop rotten flesh, with rare player-kill drops such as iron ingots, carrots or potatoes. Equipment and jockey-related drops have separate conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Husks attack up close and can give Hunger. Unlike ordinary zombies, they do not burn in sunlight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A husk kept submerged can become a regular zombie; a regular zombie can then convert into drowned. Riders and mounts are separate entities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:iron_golem": {
+    "topics": {
+      "spawning": {
+        "answer": "Iron golems can be summoned by qualifying villages, generate in some villages or pillager-outpost cages, and be constructed by players. Bedrock village spawning has its own bed, villager and work requirements; Java farm layouts are not interchangeable.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "construction": {
+        "answer": "Build a T shape with four iron blocks and place a carved pumpkin or jack o’lantern on top last, leaving space for the arms and body.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "An iron golem drops 3–5 iron ingots and 0–2 poppies. Looting does not increase those amounts.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "An iron golem has 100 health points (50 hearts) at full health. Cracks indicate damage levels, not separate maximum-health variants.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use iron ingots to repair an iron golem. Naturally spawned golems can become hostile if you attack villagers or damage village standing; a player-built golem has different targeting behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:lightning_bolt": {
+    "topics": {
+      "spawning": {
+        "answer": "Lightning occurs during thunderstorms. A suitable Channeling trident hit can also produce lightning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3806763"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Lightning can start fires, damage creatures and transform certain mobs: pigs into zombified piglins, villagers into witches, creepers into charged creepers, and red or brown mooshrooms into the other color.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3806763"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:lingering_potion": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw a lingering potion to create its projectile, which makes an area-effect cloud when it breaks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Lingering potions leave a temporary cloud that applies the potion’s effect to eligible entities in its area.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:llama": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for llamas in windswept hill biomes and savanna plateaus. Bedrock also allows them in ordinary and windswept savannas.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "A llama can have 15–30 maximum health points. Storage strength and health vary between individuals.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult llamas can drop leather, plus attached chest contents and equipped carpet where applicable. Babies do not have the normal adult item drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Repeatedly mount an adult llama until it accepts you and displays hearts. A tamed llama is not steered with a saddle like a horse.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed hay bales to two tamed adult llamas. Wheat can feed a llama but is not the breeding item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Llamas can carry chests with storage determined by their strength. Lead one to form a caravan. A carpet decorates a llama; it is not a steering saddle.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:llama_spit": {
+    "topics": {
+      "spawning": {
+        "answer": "Llamas and trader llamas spit when attacking or defending themselves.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3728004"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Llama spit is a ranged attack, not an item you can collect. A provoked llama or a trader llama defending its trader can spit at a target.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3728004"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:magma_cube": {
+    "topics": {
+      "spawning": {
+        "answer": "Magma cubes appear in Nether wastes, basalt deltas and Nether fortresses. A treasure-room bastion can contain a magma-cube spawner.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Large magma cubes have 16 health points, medium cubes have 4 and small cubes have 1. Killing a larger cube can split it into smaller cubes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Medium and large magma cubes can drop magma cream; the small size does not normally drop it. If a frog eats a small magma cube, the result is a froglight whose color depends on the frog.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Magma cubes damage targets on contact and can split into smaller attackers. They are resistant to fire and lava; the smallest size can still hurt you.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:minecart": {
+    "topics": {
+      "spawning": {
+        "answer": "Place a minecart item on rails.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Minecarts move along rails and can carry a rider. Powered rails provide propulsion when powered; ordinary rails do not supply continuous power.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking a minecart normally drops its minecart item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:mooshroom": {
+    "topics": {
+      "spawning": {
+        "answer": "Red mooshrooms naturally spawn on mycelium in mushroom fields. Brown mooshrooms come from special transformations or rare breeding outcomes rather than ordinary natural spawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult mooshrooms have cow-like leather and beef drops. Shearing is different: it gives mushrooms and turns the mooshroom into a cow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed wheat to two adult mooshrooms. They cannot breed with ordinary cows. Same-color parents have a rare chance to produce the opposite-color variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Mooshrooms have red and brown forms. Lightning changes one color to the other. Brown mooshrooms can provide suspicious stew after being fed a suitable flower.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use a bucket for milk or a bowl for mushroom stew. A brown mooshroom fed a suitable flower gives suspicious stew on the next bowl interaction. Shearing permanently converts it into a cow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:mule": {
+    "topics": {
+      "spawning": {
+        "answer": "Mules are produced by breeding a tamed horse with a tamed donkey. They do not naturally spawn in ordinary terrain.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "A mule’s maximum health can range from 15 to 30 health points.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult mules can drop leather, plus an equipped saddle, attached chest and stored contents. Babies have no normal item or experience drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Repeatedly mount an adult mule until it accepts you and shows hearts. Equip a saddle to control it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Mules cannot breed. Produce another mule by breeding a tamed horse and a tamed donkey with golden carrots or golden apples.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "A tamed, saddled mule can carry a chest. It cannot wear horse armor.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:nautilus": {
+    "topics": {
+      "spawning": {
+        "answer": "Nautiluses appear in ocean biomes, generally between Y=38 and Y=58.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A nautilus can rarely drop a nautilus shell under the appropriate player or tamed-wolf kill conditions. Equipped saddle and nautilus armor also drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Feed pufferfish or a bucket of pufferfish to a nautilus. Each feeding may tame it, so bring more than one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "At full health, suitable adult nautiluses can breed when fed fish or buckets of fish. Feeding a hurt one heals it first.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Equip a tamed adult nautilus with a saddle to ride it underwater. Nautilus armor provides additional protection; a ridden nautilus has its own underwater-breathing interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:npc": {
+    "topics": {
+      "spawning": {
+        "answer": "NPCs are creator-controlled characters obtained through supported commands or world-authoring features, not normal natural mob spawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849562"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "World creators configure NPC dialogue and actions. They are different from villagers and do not use normal villager trading or breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849562"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ocelot": {
+    "topics": {
+      "spawning": {
+        "answer": "In Bedrock, look for ocelots in jungle, bamboo jungle and sparse jungle biomes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Ocelots have no normal item drop. Adults can give experience when killed by a player or tamed wolf.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed raw cod or raw salmon to two trusting adult ocelots. In Bedrock the baby trusts the player.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Ocelots gain trust from raw cod or raw salmon, but no longer turn into pet cats. Trust is not the same as owning a tamed cat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Approach slowly with raw fish. A trusting ocelot stops fleeing from you, and ocelots help scare creepers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ominous_item_spawner": {
+    "topics": {
+      "spawning": {
+        "answer": "Ominous trial spawners create these temporary entities above players or trial mobs during an ominous trial.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820479"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "An ominous item spawner displays an item, then releases a projectile or potion. Watch overhead during ominous trials; this is a hazard mechanism, not an ordinary loot chest.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820479"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:panda": {
+    "topics": {
+      "spawning": {
+        "answer": "Pandas appear in jungle biomes, especially bamboo jungles. Their personalities and appearance depend on genetics, not just where they stand.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Most pandas have 20 health points (10 hearts); weak pandas have 10 health points (5 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult pandas can drop bamboo. Baby pandas can sometimes produce slimeballs when sneezing; that is not a normal death drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "In Bedrock, place at least eight bamboo plants within a five-block radius of each panda, then feed bamboo to two adults. Cake does not breed pandas. Without enough nearby bamboo they may just sit and eat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Panda traits include normal, lazy, worried, playful, aggressive, weak and brown. Brown and weak traits involve recessive genes, so appearance alone does not reveal every inherited gene.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Pandas eat bamboo and cake. Baby pandas can sneeze, sometimes producing slimeballs. Different personalities change behavior; do not treat every panda as the same temperament.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:parched": {
+    "topics": {
+      "spawning": {
+        "answer": "Parched are desert skeleton variants that appear on the surface and can ride as passengers in camel-husk jockeys.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Parched can drop bones, arrows and, under suitable kill conditions, an arrow of weakness. Their carried equipment has separate drop rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Parched shoot arrows that can inflict Weakness. Unlike ordinary skeletons, they tolerate desert sunlight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:parrot": {
+    "topics": {
+      "spawning": {
+        "answer": "Parrots appear in jungle, bamboo jungle and, in Bedrock, sparse jungle biomes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "In Bedrock, parrots drop 1–2 feathers when killed. Java’s Looting increase should not be applied to this Bedrock drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Parrots cannot be bred, and do not have a normal baby variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Feed suitable seeds to a parrot, such as wheat, melon, pumpkin, beetroot or torchflower seeds. Cookies are poisonous and can kill it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Tamed parrots can sit on your shoulders, imitate nearby mob sounds and dance near a playing jukebox. Never feed them cookies.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:phantom": {
+    "topics": {
+      "spawning": {
+        "answer": "Phantoms appear around players who have gone several in-game days without resting. Bedrock spawning also depends on local darkness and monster-spawning rules; resting resets the relevant timer.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A player-killed phantom can drop 0–1 phantom membranes, with Looting increasing applicable amounts.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Phantoms swoop down from the sky and burn in daylight. Shelter can stop their attacks, and cats repel them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Entering a bed resets the rest timer associated with phantom spawning. The doInsomnia game rule also affects whether they can spawn in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:pig": {
+    "topics": {
+      "spawning": {
+        "answer": "Pigs appear on grass in many Overworld biomes and some village animal pens. Natural climate variants depend on their spawning biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult pigs can drop raw porkchops, or cooked porkchops when killed while burning. An equipped saddle also drops; babies do not have normal adult loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed carrots, potatoes or beetroot to two adult pigs. The baby inherits one parent’s variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Pigs are not tamed like wolves. Food attracts them, and a saddle allows riding rather than ownership.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Equip a pig with a saddle and hold a carrot on a stick to steer it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Lightning can transform a pig into a zombified piglin. A saddle is equipment, not a breeding or taming item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:piglin": {
+    "topics": {
+      "spawning": {
+        "answer": "Piglins appear in Nether wastes, crimson forests and bastion remnants. They do not naturally populate every Nether biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Piglin loot depends on equipment and what it was carrying. A charged-creeper kill can produce a piglin head. Bartering returns are a separate mechanic, not ordinary death loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "trading": {
+        "answer": "Give an adult piglin a gold ingot to barter. Gold nuggets and other gold items are not substitutes for the ingot. Babies do not perform normal adult bartering, and piglin brutes do not barter.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Wearing a piece of gold armor can prevent ordinary piglin hostility, but attacking piglins or disturbing protected containers or gold blocks can still anger them. Gold armor does not pacify piglin brutes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Outside the Nether, piglins can become zombified piglins. Adult bartering and baby item-pickup behavior are different.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:piglin_brute": {
+    "topics": {
+      "spawning": {
+        "answer": "Piglin brutes generate in bastion remnants. They do not naturally respawn after being killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Piglin brutes have a chance to drop their golden axe under suitable kill conditions, and give experience. They do not provide ordinary piglin barter loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "trading": {
+        "answer": "Piglin brutes do not barter and are not distracted or pacified by gold ingots.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Piglin brutes are always hostile to players and are not pacified by gold armor. They have much more health than ordinary piglins.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:pillager": {
+    "topics": {
+      "spawning": {
+        "answer": "Pillagers appear at pillager outposts, in patrols and during raids. Outpost spawning and patrol spawning are separate systems.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "In Bedrock, pillagers can drop arrows and have a separate chance to drop their crossbow. Raid loot can include other items, and an eligible captain can drop an ominous bottle and banner.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Pillagers use crossbows and attack from range. Shielding, solid cover and separating a group can help. Do not assume Java-only disarmed-pillager tricks work in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "An ominous bottle can start the Bad Omen and Raid Omen sequence when used under the relevant conditions; killing a captain is not the same as directly starting every raid.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:player": {
+    "topics": {
+      "spawning": {
+        "answer": "Players enter at the world spawn or a valid personal respawn location. Beds and respawn anchors have dimension-specific rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848965"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "With keepInventory off, a dying Survival player normally drops carried inventory and some experience. Creative mode and world rules change the outcome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848965"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "A player normally has 20 health points (10 hearts). Effects and game settings can change survivability.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848965"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:polar_bear": {
+    "topics": {
+      "spawning": {
+        "answer": "Look in snowy plains, ice spikes, frozen oceans and deep frozen oceans. Bedrock also has polar-bear spawning in some frozen rivers and snowy mountain biomes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Polar bears can drop cod and salmon under their loot conditions. They do not drop fur or a hide item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Polar bears cannot be bred by players.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Polar bears cannot be tamed. Feeding them fish does not make them pets.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Adults can become hostile when a cub is nearby or when attacked. Give groups with cubs plenty of room.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:pufferfish": {
+    "topics": {
+      "spawning": {
+        "answer": "In Bedrock, look for pufferfish in warm oceans near suitable surface spawning water; do not apply Java’s wider ocean-biome list.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Pufferfish drop the pufferfish item and can also drop bones in Bedrock. Java’s bone-meal drop is a different edition rule.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Pufferfish cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Pufferfish cannot be tamed. Use a water bucket to capture one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Pufferfish inflate near threats and can poison nearby players. The item is also poisonous to eat; do not confuse safely collecting one with safely eating it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:rabbit": {
+    "topics": {
+      "spawning": {
+        "answer": "Rabbits appear in deserts, meadows, flower forests, taigas and several snowy biomes. Their natural fur colors depend on the biome; gold rabbits are associated with deserts and white variants with snowy areas.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult rabbits can drop rabbit hide and raw rabbit, or cooked rabbit when killed while burning. A rabbit’s foot is a separate rare player-kill drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed carrots, golden carrots or dandelions to two adult rabbits. Babies usually inherit a parent’s fur, with a small chance to match the local biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Rabbits cannot be tamed as owned pets. Suitable food attracts them and can be used for breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Normal rabbits have several biome-linked fur colors. The hostile killer bunny is a Java-only feature, not an ordinary Bedrock rabbit variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:ravager": {
+    "topics": {
+      "spawning": {
+        "answer": "Ravagers appear as part of raids, sometimes with an illager rider. They are not ordinary naturally spawning plains animals.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "In Bedrock, a player-killed ravager drops a saddle. Its rider has separate loot; killing the mount does not mean every rider has died.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Ravagers have powerful melee attacks and a roar. A shield can help against their attack, but stay alert for the follow-up roar and any rider.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Ravagers cannot be tamed or ridden by a player in normal Survival.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:salmon": {
+    "topics": {
+      "spawning": {
+        "answer": "Salmon swim in rivers and frozen rivers, plus several ocean types. Bedrock includes ordinary and lukewarm ocean variants as well as cold and frozen oceans.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Salmon drop raw salmon, or cooked salmon when killed while burning. In Bedrock they can also drop bones, with the bone amount affected by the fish’s size and applicable loot conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Salmon cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Salmon cannot be tamed. Capture one with a water bucket to transport it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Salmon have small, medium and large sizes. Their size is separate from their raw-salmon item drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:sheep": {
+    "topics": {
+      "spawning": {
+        "answer": "Sheep appear on suitable grass in many Overworld biomes and some villages. Their natural wool-color distribution depends on the climate of the spawning biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult sheep can drop mutton and, if not already sheared, wool matching their color. Burning changes mutton to cooked mutton. Shearing a living adult gives wool without killing it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed wheat to two adult sheep. Compatible parental wool colors can mix in the baby; otherwise it inherits a parent’s color.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use shears to harvest wool and dye to change its color. Sheep regrow wool by eating grass. The jeb_ name effect changes appearance, not the underlying harvested wool color.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:shulker": {
+    "topics": {
+      "spawning": {
+        "answer": "Shulkers generate in End cities on the outer End islands. Their reproduction involves shulker-bullet interactions, not food-based animal breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "In Bedrock, shulkers can drop shulker shells with a quantity-based Looting increase. Do not substitute Java’s shell drop-chance formula.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Shulkers do not breed with food. They can duplicate through suitable shulker-bullet interactions, including a special Bedrock behavior when a shulker bullet kills one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Their homing bullets inflict Levitation, making the eventual fall dangerous. A closed shell provides protection, and shulkers can teleport away when hurt.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Shulkers can be dyed in Bedrock. Their shell color is separate from the shell item they drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:shulker_bullet": {
+    "topics": {
+      "spawning": {
+        "answer": "Shulkers fire homing bullets at targets.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "A shulker bullet can cause Levitation. Destroy or avoid it and prepare for the fall if hit. These are not collectible ammunition items.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:silverfish": {
+    "topics": {
+      "spawning": {
+        "answer": "Silverfish emerge from infested blocks and from the spawner in a stronghold’s End portal room. Other sources include suitable trial spawners and the Infested effect.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Silverfish have no normal item drops; a player or tamed-wolf kill gives experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Damaging one can wake nearby silverfish hidden in infested blocks. Avoid carelessly mining through an infested cluster during a fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Breaking an infested block normally releases a silverfish, but Silk Touch can prevent that release. Silverfish and endermites are different mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:skeleton": {
+    "topics": {
+      "spawning": {
+        "answer": "Skeletons appear in suitable dark Overworld locations and from certain monster or trial spawners. Nether sources include soul sand valleys and Nether fortresses.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Skeletons can drop bones and arrows, with separate chances for naturally equipped gear. Picked-up equipment has different rules. A charged-creeper kill can produce a skeleton skull.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Skeletons fire arrows and generally burn in daylight unless protected. Use a shield or solid cover and close the distance carefully.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Keeping an ordinary skeleton in powder snow can convert it into a stray. That does not mean every skeleton-like mob converts the same way.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:skeleton_horse": {
+    "topics": {
+      "spawning": {
+        "answer": "Skeleton horses can appear as skeleton traps associated with natural thunderstorms. Approaching a trap can produce several mounted skeleton horsemen; Channeling lightning does not create that natural trap.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A skeleton horse can drop bones under the applicable death conditions. In Bedrock, an untriggered trap horse has no item or experience drops. The skeleton rider has its own separate loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "In Bedrock, skeleton horses are already tamed. You do not tame them by repeatedly feeding or riding them like an ordinary horse.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Skeleton horses cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "In Bedrock, skeleton horses can be ridden and controlled without a saddle. Java’s saddle requirement is not the Bedrock rule.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:slime": {
+    "topics": {
+      "spawning": {
+        "answer": "Look for slimes in swamps or mangrove swamps between Y=51 and Y=69 in dim light; full moons are better and new moons do not produce swamp slimes. They also spawn below Y=40 in special slime chunks regardless of light. In Bedrock, slime-chunk positions are the same across world seeds. Suitable trial spawners and the Oozing effect are other sources.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "The smallest slimes can drop slimeballs. Larger slimes split into smaller ones, so finish the smaller sizes to collect their slimeball drops. The total yield depends on how many children appear and the loot conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Normal large slimes have 16 health points, medium slimes have 4 and small slimes have 1. Special sizes can have different values.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Larger slimes hurt you by contact and split when killed. Small slimes do not deal normal contact damage, but can still push or distract you.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:small_fireball": {
+    "topics": {
+      "spawning": {
+        "answer": "Blazes shoot small fireballs, and dispensers launch them from fire charges.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848368"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Small fireballs can ignite targets and blocks. They are not the same explosive, deflectable projectile as a ghast fireball.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848368"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:sniffer": {
+    "topics": {
+      "spawning": {
+        "answer": "Sniffers hatch from sniffer eggs. Search suspicious sand in warm ocean ruins for eggs, or obtain an egg by breeding two sniffers; they do not simply spawn across ordinary terrain.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Sniffers have no normal item drops on death. Torchflower seeds and pitcher pods are dug up by living adults; sniffer eggs come from breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "In Bedrock, bring two adult sniffers to full health and feed them torchflower seeds. They produce a sniffer egg rather than a live baby. A placed egg hatches faster on a moss block.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Adult sniffers dig torchflower seeds and pitcher pods from suitable ground after a cooldown. They cannot dig every block; mycelium does not work.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:snow_golem": {
+    "topics": {
+      "spawning": {
+        "answer": "Snow golems are constructed rather than naturally spawning as ordinary wildlife.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "construction": {
+        "answer": "Stack two snow blocks and place a carved pumpkin or jack o’lantern on top last. Leave enough room for the resulting snow golem.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Snow golems can drop snowballs on death. Shearing a living golem removes its carved pumpkin; that is a separate interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Snow golems throw snowballs at hostile targets, but most mobs do not take direct damage from ordinary snowballs. Blazes are an important exception.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Snow golems can leave a snow trail where the environment allows it. Rain, water and hot surroundings can harm them. Shears remove the pumpkin head.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:snowball": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw a snowball or fire one from a dispenser. Snow golems also throw snowballs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843674"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Snowballs push or provoke many targets without normal weapon damage, but they can damage blazes. They are not a substitute for a weapon against every hostile mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843674"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:spider": {
+    "topics": {
+      "spawning": {
+        "answer": "Spiders appear in suitable dark Overworld locations, and from certain monster or trial spawners. They need more horizontal room than many humanoid mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Spiders can drop string, and a player kill can also produce a spider eye. Looting affects the applicable drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Spiders climb walls and can become hostile in darkness or after being attacked. Bright light affects their normal aggression. Cave spiders are smaller and have different poison behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:splash_potion": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw a splash potion or launch it with a dispenser to create the projectile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3836205"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A splash potion breaks on impact and applies its effect nearby. The effect depends on the potion, and distance can affect its strength or duration.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3836205"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:squid": {
+    "topics": {
+      "spawning": {
+        "answer": "Squid appear in suitable surface waters in oceans and rivers. Bedrock surface-spawn rules differ from the underground spawning of glow squid.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Squid can drop 1–3 ink sacs, with Looting increasing applicable amounts. Ordinary squid do not drop glow ink sacs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Squid cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Squid cannot be tamed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:stray": {
+    "topics": {
+      "spawning": {
+        "answer": "Strays replace some skeleton spawns in snowy biomes. Bedrock includes frozen rivers, frozen oceans and certain snowy mountain biomes. Ordinary skeletons can also become strays after remaining in powder snow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Strays can drop bones, arrows and, under suitable player-kill conditions, an arrow of Slowness. Carried equipment has separate rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Strays shoot arrows that inflict Slowness. They are undead ranged attackers, so cover and a shield are useful.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Powder snow can convert an ordinary skeleton into a stray. Bogged and parched do not use that same conversion rule.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:strider": {
+    "topics": {
+      "spawning": {
+        "answer": "Striders naturally appear on lava in every Nether biome where their spawning conditions are met.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult striders drop 2–5 string and any equipped saddle. In Bedrock, their string drop is not increased by Looting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed warped fungus to two adult striders.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Striders do not require taming. Equip a saddle to ride one, then use a warped fungus on a stick to steer.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Ride a saddled strider across lava using a warped fungus on a stick. It slows down when cold and out of lava; water is dangerous to it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:sulfur_cube": {
+    "topics": {
+      "spawning": {
+        "answer": "Sulfur cubes appear in sulfur caves in game versions that include that feature. Large cubes can split into small cubes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "health": {
+        "answer": "Large sulfur cubes have 8 health points and small sulfur cubes have 4.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A large sulfur cube drops the block it absorbed when it dies. Small cubes do not provide the same experience drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Sulfur cubes can absorb supported blocks, changing their properties. Use shears to remove an absorbed block. A dangerous absorbed block, such as TNT or magma, can make an otherwise passive cube hazardous.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:tadpole": {
+    "topics": {
+      "spawning": {
+        "answer": "Tadpoles hatch from frogspawn laid by breeding frogs. They are the growing stage that becomes a frog.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Tadpoles do not drop items or experience when killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Tadpoles cannot breed; grow them into adult frogs first, then breed the frogs with slimeballs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Use a water bucket to move a tadpole and slimeballs to accelerate its growth. The biome where it matures determines the frog variant; its parents’ colors do not force the result.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:thrown_trident": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw a trident to create its projectile; some drowned also throw tridents.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847567"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A player’s thrown trident can be recovered, and Loyalty can return it. Channeling and Riptide have their own weather or water requirements. A drowned’s thrown projectile is not a freely recoverable player trident.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847567"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:tnt": {
+    "topics": {
+      "spawning": {
+        "answer": "Igniting TNT creates the primed TNT entity. Redstone, fire and other explosion-related triggers can ignite it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822891"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Primed TNT counts down and explodes, damaging nearby entities and breaking blocks. Water can protect blocks from much explosion damage without making nearby entities safe.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822891"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:tnt_minecart": {
+    "topics": {
+      "spawning": {
+        "answer": "Place a crafted TNT minecart on rails.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851323"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A powered activator rail can prime a TNT minecart. Other violent impacts or damage conditions can also trigger it, so keep it away from valuable builds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851323"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Breaking an unprimed TNT minecart normally returns its item. An exploding TNT minecart is not a safe way to recover the cart.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851323"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:trader_llama": {
+    "topics": {
+      "spawning": {
+        "answer": "Trader llamas arrive with wandering traders. They can also be produced by breeding suitable tamed trader llamas.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "A trader llama still leashed to its wandering trader cannot be ridden normally. In Bedrock, detaching it from that trader makes it tamed and prevents normal trader-llama despawning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed hay bales to two tamed adult trader llamas. Their baby retains the trader-llama type and special rug.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "transport": {
+        "answer": "Trader llamas can carry storage and form caravans. A rug is not a steering saddle; they are not controlled like horses.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult trader llamas can drop leather plus their applicable equipment and stored contents. Their lead is a separate item when detached.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:tripod_camera": {
+    "topics": {},
+    "variants": []
+  },
+  "minecraft:tropicalfish": {
+    "topics": {
+      "spawning": {
+        "answer": "In Bedrock, tropical fish appear in warm and lukewarm ocean variants, suitable lush-cave waters and applicable mangrove-swamp waters. They have many combinations of pattern and color.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Tropical fish drop the tropical-fish item and can also drop bones in Bedrock. A living bucket of tropical fish is obtained by capturing one, not by killing it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Tropical fish cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Tropical fish cannot be tamed. Capture one with a water bucket to preserve a living fish and its appearance.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Tropical fish have many color and pattern combinations. A bucket can preserve the captured fish’s appearance; the loose tropical-fish food item does not represent a living patterned fish.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:turtle": {
+    "topics": {
+      "spawning": {
+        "answer": "Turtles naturally appear on sandy beaches, not snowy beaches or stony shores. In Bedrock their natural beach spawning is around Y=60–67. Turtle eggs are another source.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Adult turtles can drop seagrass. A lightning kill has a separate bowl-drop rule. Turtle scutes are produced when babies grow into adults, not by killing adults.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed seagrass to two adult turtles. The pregnant turtle returns to its home beach to lay eggs on suitable sand; protect the eggs from trampling and hostile mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "A baby turtle drops a scute when it becomes an adult. Move eggs with Silk Touch if needed; relocated eggs do not keep their previous cracking progress.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:vex": {
+    "topics": {
+      "health": {
+        "answer": "Vexes have 14 health points (7 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Evokers summon vexes during combat. They do not normally spawn throughout the landscape.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Vexes do not drop their iron swords, even with Looting. A player or tamed-wolf kill can give experience.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Vexes fly through blocks and attack with swords. Walls alone will not stop them; deal with the evoker that summons them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:villager": {
+    "topics": {
+      "health": {
+        "answer": "Villagers have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Villagers generate in villages, and can also come from breeding or curing zombie villagers. Bedrock villages occur in plains, deserts, savannas, snowy plains, taigas and snowy taigas.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Ordinary Bedrock villagers do not provide normal item or experience drops when killed. Obtain their goods by trading.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Two adult villagers need enough food and an available bed for a baby. Each needs 3 bread or 12 carrots, potatoes or beetroots. Keep suitable beds available and allow the villagers to reach one another.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "trading": {
+        "answer": "Adult villagers use job-site blocks to take professions and restock trades. Trading uses emeralds and goods. Babies and nitwits do not trade; trading with a villager locks its profession and existing offers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:villager_v2": {
+    "topics": {
+      "health": {
+        "answer": "Villagers have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Villagers generate in villages, and can also come from breeding or curing zombie villagers. Bedrock villages occur in plains, deserts, savannas, snowy plains, taigas and snowy taigas.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Ordinary Bedrock villagers do not provide normal item or experience drops when killed. Obtain their goods by trading.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Two adult villagers need enough food and an available bed for a baby. Each needs 3 bread or 12 carrots, potatoes or beetroots. Keep suitable beds available and allow the villagers to reach one another.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "trading": {
+        "answer": "Adult villagers use job-site blocks to take professions and restock trades. Trading uses emeralds and goods. Babies and nitwits do not trade; trading with a villager locks its profession and existing offers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:vindicator": {
+    "topics": {
+      "health": {
+        "answer": "Vindicators have 24 health points (12 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Vindicators generate in woodland mansions and appear in raids. Mansion vindicators do not continually respawn.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Vindicators can drop emeralds and have separate equipment-drop chances. Bedrock raid loot has additional conditions; not every possible item drops from each kill.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Vindicators attack at close range with axes. Keep distance and use solid barriers rather than letting several surround you.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wandering_trader": {
+    "topics": {
+      "health": {
+        "answer": "Wandering traders have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Wandering traders can appear near players in the Overworld with two trader llamas. They are temporary visitors and can despawn even if named.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Killing a wandering trader does not give its trading inventory. A held drinking or displayed item has separate Bedrock drop chances.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Wandering traders cannot breed or become ordinary village residents.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "trading": {
+        "answer": "Use emeralds to buy the trader’s offered goods. Its offers and stock are limited; it does not take a village profession or restock like a normal villager.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:warden": {
+    "topics": {
+      "health": {
+        "answer": "Wardens have 500 health points (250 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Naturally generated sculk shriekers in the deep dark can summon a warden after repeated player warnings. A shrieker placed by a player cannot normally summon one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "A warden drops one sculk catalyst and a small amount of experience. Its loot is not a reward worth the danger of fighting it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Wardens are blind but detect vibrations and smell nearby targets. Sneaking and wool can help manage vibrations. Their powerful melee attacks and ranged sonic boom make avoiding them safer than fighting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wind_charge_projectile": {
+    "topics": {
+      "spawning": {
+        "answer": "Wind-charge projectiles come from breezes or from using a wind charge item, depending on the projectile type.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Wind charges burst on impact, pushing entities and interacting with some buttons, doors and other mechanisms. Player wind charges and breeze projectiles do not have identical rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:witch": {
+    "topics": {
+      "health": {
+        "answer": "Witches have 26 health points (13 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Witches appear in suitable dark Overworld areas, swamp huts and raids. Lightning striking a villager can also create a witch.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Witches can drop redstone and items from pools including sticks, bottles, glowstone dust, gunpowder, spider eyes and sugar. A potion being drunk has a separate drop chance; these are not all guaranteed from every witch.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Witches throw harmful splash potions and drink potions to heal or protect themselves. Keep your distance and avoid staying inside their throwing range.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wither": {
+    "topics": {
+      "health": {
+        "answer": "In Bedrock, the wither has 300 health points on Easy, 450 on Normal and 600 on Hard.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "construction": {
+        "answer": "Build a T from four soul sand or soul soil blocks, then put three wither skeleton skulls across its top. Place the last skull last and leave the required space clear. It cannot be summoned on Peaceful.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Players summon the wither using soul sand or soul soil and three wither skeleton skulls; it does not naturally wander into the world.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Defeating the wither drops a nether star. Bedrock also awards 50 experience, and the dropped nether star does not normally despawn.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "The Bedrock wither fires explosive skulls and becomes more dangerous during its later phase. Prepare a secure fighting area and healing; its behavior and health differ from Java.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wither_skeleton": {
+    "topics": {
+      "health": {
+        "answer": "Wither skeletons have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Look in Nether fortresses at light level 7 or less. Bedrock wither fights can also produce wither skeletons during the later phase.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Wither skeletons can drop coal and bones. A player or tamed-wolf kill has a 2.5% skull chance; in Bedrock each Looting level adds 2 percentage points, reaching 8.5% with Looting III. A charged-creeper kill can also produce a skull. Equipment has separate chances.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Their melee attacks inflict Wither. Keep distance or use a barrier that takes advantage of their height.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wither_skull": {
+    "topics": {
+      "spawning": {
+        "answer": "The wither launches wither-skull projectiles during combat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Wither skulls explode on impact and can apply Wither. The slower blue skull has stronger block-breaking properties than an ordinary black skull.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wither_skull_dangerous": {
+    "topics": {
+      "spawning": {
+        "answer": "The wither launches wither-skull projectiles during combat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Wither skulls explode on impact and can apply Wither. The slower blue skull has stronger block-breaking properties than an ordinary black skull.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:wolf": {
+    "topics": {
+      "health": {
+        "answer": "Wild Bedrock wolves have 8 health points (4 hearts); tamed wolves have 40 health points (20 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Wolf variants live in different biomes: pale in taiga; woods in forest; ashen in snowy taiga; black in old growth pine taiga; chestnut in old growth spruce taiga; rusty in sparse jungle; spotted in savanna plateau; striped in wooded badlands; snowy in grove.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "There are nine wolf variants: pale, woods, ashen, black, chestnut, rusty, spotted, striped and snowy. Their home biomes differ. A baby inherits a parent’s variant rather than changing to match the breeding biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Wolves have no ordinary meat or fur drop. Equipped wolf armor drops separately. Experience depends on age and the kill conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Feed bones to a wild, non-angry wolf. Each bone has a one-in-three chance to tame it. A wolf already owned by another player cannot be tamed again.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Feed meat to two standing, tamed adult wolves at full health. Rotten flesh and raw chicken work. Bedrock has a one-minute breeding cooldown; do not use Java-only fish breeding rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Tamed wolves follow their owner or can sit. Meat heals them, dyes change their collars, and wolf armor provides protection.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": [
+      {
+        "name": "pale",
+        "aliases": [
+          "pale wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for pale wolves in the taiga biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "woods",
+        "aliases": [
+          "woods wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for woods wolves in the forest biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "ashen",
+        "aliases": [
+          "ashen wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for ashen wolves in the snowy taiga biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "black",
+        "aliases": [
+          "black wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for black wolves in the old growth pine taiga biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "chestnut",
+        "aliases": [
+          "chestnut wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for chestnut wolves in the old growth spruce taiga biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "rusty",
+        "aliases": [
+          "rusty wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for rusty wolves in the sparse jungle biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "spotted",
+        "aliases": [
+          "spotted wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for spotted wolves in the savanna plateau biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "striped",
+        "aliases": [
+          "striped wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for striped wolves in the wooded badlands biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      },
+      {
+        "name": "snowy",
+        "aliases": [
+          "snowy wolf"
+        ],
+        "topics": {
+          "spawning": {
+            "answer": "Look for snowy wolves in the grove biome.",
+            "coverage": "reviewed_summary",
+            "source_kind": "archived_wiki",
+            "source_sections": [
+              "Variants",
+              "Spawning"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "minecraft:xp_bottle": {
+    "topics": {
+      "spawning": {
+        "answer": "Throw a bottle o’ enchanting or dispense it to create the projectile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3827316"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "The bottle breaks on impact and releases experience orbs. It does not directly apply an enchantment to an item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3827316"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:xp_orb": {
+    "topics": {
+      "spawning": {
+        "answer": "Experience orbs come from activities such as suitable mob kills, mining certain ores, smelting, breeding and trading.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Nearby experience orbs move toward players and are collected for experience. Mending can use collected experience to repair eligible equipment.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zoglin": {
+    "topics": {
+      "health": {
+        "answer": "Zoglins have 40 health points (20 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "A hoglin outside the Nether becomes a zoglin after about 15 seconds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Zoglins can drop 1–3 rotten flesh, including babies, with applicable Looting increases.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Zoglins cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Zoglins cannot be tamed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "combat": {
+        "answer": "Zoglins attack many nearby creatures, including players. Do not treat one as a living hoglin that can be controlled with fungi.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zombie": {
+    "topics": {
+      "health": {
+        "answer": "Bedrock zombies have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Zombies appear in suitable dark Overworld areas and from monster or trial spawners. Deserts often produce husks instead.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Zombies can drop 0–2 rotten flesh, with rare iron ingot, carrot or potato drops under player-kill conditions. Equipment has separate rules. A charged-creeper kill can produce a zombie head.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Zombies burn in daylight unless protected. They can infect villagers: the conversion chance is 0% on Easy, 50% on Normal and 100% on Hard. A submerged zombie can become a drowned.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zombie_horse": {
+    "topics": {
+      "health": {
+        "answer": "Zombie horses have 25 health points.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Zombie horsemen can appear at night or during thunderstorms in suitable plains and savanna biomes and snowy plains; Bedrock also includes ice spikes. The mounted zombie is a separate entity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Zombie horses can drop 2–3 rotten flesh plus applicable equipped items. The rider has separate loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Repeatedly ride a zombie horse until it accepts you, then use suitable equipment to control it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding": {
+        "answer": "Zombie horses cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zombie_nautilus": {
+    "topics": {
+      "health": {
+        "answer": "Zombie nautiluses have 15 health points.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Some trident-wielding drowned can spawn riding zombie nautiluses outside rivers and frozen rivers. Warm-ocean spawning can produce the coral variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Zombie nautiluses can drop rotten flesh and applicable equipped items. A drowned rider has its own separate loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "taming": {
+        "answer": "Feed pufferfish or a bucket of pufferfish to a zombie nautilus. Each feeding has a one-in-three taming chance.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "variants": {
+        "answer": "Zombie nautiluses have ordinary and coral forms; the coral form is associated with warm oceans.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zombie_pigman": {
+    "topics": {
+      "health": {
+        "answer": "Bedrock zombified piglins have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Zombified piglins appear in suitable Nether areas, near active Overworld Nether portals, from pigs struck by lightning, or when piglins remain outside the Nether.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "They can drop rotten flesh and gold nuggets, with rare gold ingots under player-kill conditions. Equipped weapons have separate chances.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Zombified piglins are usually neutral until provoked, then nearby members can become angry. They do not barter with gold and cannot be cured back into piglins.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zombie_villager": {
+    "topics": {
+      "health": {
+        "answer": "Bedrock zombie villagers have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Zombie villagers can spawn with zombies, generate in abandoned villages and igloo basements, or result from villagers being killed by zombies. Infection depends on difficulty.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Zombie villagers can drop rotten flesh, rare iron ingots, carrots or potatoes, and applicable equipment under their own loot conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Apply Weakness, then feed a normal golden apple to start curing a zombie villager. Protect it while it converts. An enchanted golden apple is not the curing ingredient.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  },
+  "minecraft:zombie_villager_v2": {
+    "topics": {
+      "health": {
+        "answer": "Bedrock zombie villagers have 20 health points (10 hearts).",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawning": {
+        "answer": "Zombie villagers can spawn with zombies, generate in abandoned villages and igloo basements, or result from villagers being killed by zombies. Infection depends on difficulty.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops": {
+        "answer": "Zombie villagers can drop rotten flesh, rare iron ingots, carrots or potatoes, and applicable equipment under their own loot conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "interactions": {
+        "answer": "Apply Weakness, then feed a normal golden apple to start curing a zombie villager. Protect it while it converts. An enchanted golden apple is not the curing ingredient.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      }
+    },
+    "variants": []
+  }
+}

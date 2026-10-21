@@ -1,3 +1,7 @@
+# Current release checks
+
+For 0.2.6, use only the [short changed-feature checklist](../downloads/Robot_Test_Checklist-0.2.6.txt). The list below is retained as a historical full-system reference, not a request to repeat completed checks. Multiplayer remains untested.
+
 # Actual Minecraft test checklist — not run in cloud
 
 Use a disposable Creative world, current retail Bedrock, both packs enabled and all experimental toggles off. Enable the Creator Content Log in Minecraft settings and record the exact game version, platform and log output.

@@ -1,0 +1,52 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.6
+ENTITY KNOWLEDGE FIRST PASS — NEW/CHANGED CHECKS ONLY
+
+INSTALL
+Open TimeTrapRobot-0.2.6.mcaddon with Minecraft Bedrock.
+Create a fresh test world and activate ONLY this matching pair:
+  Time Trap Studios AI Bot — Behavior 0.2.6
+  Time Trap Studios AI Bot — Resources 0.2.6
+Both descriptions say TEST VERSION 0.2.6. Spawn a NEW robot.
+Menu must show v0.2.6. Optional summon: /summon tts_ai_bot_v0_2_6:robot
+All header/module UUIDs and custom content names are distinct from older releases.
+Do not enable older versions in this test world. Keep older worlds for comparison.
+
+NEW QUESTION ROUTING
+Choose Talk to me once and try these in the continuing conversation:
+1. What does a creeper drop?
+   Then: Hey what does a creeper drop when it is out in the middle of a field?
+   Both should explain gunpowder and conditional disc/head drops.
+   Being in a field must not invent a special drop rule.
+2. Where can I find a snowy wolf?
+   Expect: grove.
+   Then: Where does it spawn?
+   Expect: still snowy wolf, grove.
+3. Where can I find a white wolf?
+   Expect: asks whether snowy or pale.
+   Reply: snowy
+   Expect: grove, without repeating your original question.
+4. Where can I find a black wolf?
+   Expect: old growth pine taiga.
+   Then: Where do wolves spawn?
+   Expect: general wolf variants/biomes rather than only black wolves.
+5. How much health does a wither have?
+   Expect Bedrock difficulty values: Easy 300, Normal 450, Hard 600.
+6. How do I tame a skeleton horse?
+   Expect: already tamed in Bedrock.
+   Then: How do I ride it?
+   Expect: Bedrock can control it without a saddle.
+7. What is a slime?
+   If asked to choose: a mob
+   Then: Where does it spawn?
+   Then: What does it drop?
+   Expect the slime mob subject to survive those follow-ups.
+
+SCOPE
+494 curated topic summaries across 127 catalog entities. This is NOT complete
+knowledge of every entity or mechanic. Wiki-only entities, version availability,
+precise conditional questions and missing topics still need development review.
+Blocks/items knowledge expansion follows entity work.
+Normal crafting still gives ingredient counts only. Things to try remains.
+Continuous conversation remains chronological; automatic bottom scrolling is NOT
+fixed in this release. Multiplayer is still untested. Earlier completed checks
+are retained in historical version checklists rather than repeated here.

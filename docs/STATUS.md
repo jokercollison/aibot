@@ -1,3 +1,13 @@
+# Current test release: 0.2.6 — entity knowledge first pass
+
+494 entity topic summaries across 127 catalog entities, with subject/topic routing
+and wolf-variant follow-ups. Entity knowledge remains incomplete. See
+[release notes](RELEASE_0.2.6.md), [coverage](ENTITY_DATABASE.md) and
+[changed checks](../downloads/Robot_Test_Checklist-0.2.6.txt).
+Actual-game validation of 0.2.6 and multiplayer remain pending.
+
+## Previous release record
+
 # Current test release: 0.2.5 — continuous conversation
 
 Talk to me now continues automatically after Send, showing recent private turns
