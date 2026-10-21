@@ -8,6 +8,7 @@ location_ids={id for key,row in locations.items() for id in [key]+row.get('relat
 topics={
  'block':['identity','uses','recipe_or_acquisition','location','biomes','mining_tool','drops','properties','redstone'],
  'item':['identity','uses','recipe_or_acquisition','location','biomes','equipment_properties','special_interactions'],
+ 'biome':['identity','location','terrain','climate','blocks','mobs','structures','resources'],
  'entity':['identity','behavior','spawn_conditions','biomes','health','attacks','drops','diet','taming','breeding','environmental_reactions','construction_or_summoning']}
 result={};counts=collections.Counter()
 for id,r in records.items():
@@ -16,12 +17,12 @@ for id,r in records.items():
  row={topic:{'status':'unresolved','answer_connected':False} for topic in topics[kind]}
  if id in descriptions:
   row['identity']={'status':'editorial_basic_summary','answer_connected':True}
-  row['uses' if kind!='entity' else 'behavior']={'status':'editorial_basic_summary','answer_connected':True}
+  if kind in ('block','item','entity'):row['uses' if kind!='entity' else 'behavior']={'status':'editorial_basic_summary','answer_connected':True}
  name=r['minecraft_id']
- if kind!='entity':
+ if kind in ('block','item'):
   if name.lower() in recipes:row['recipe_or_acquisition']={'status':'sample_recipe_indexed','answer_connected':True}
   elif name in loot:row['recipe_or_acquisition']={'status':'conditional_loot_category_answer','answer_connected':True}
- if name in location_ids:row['location']={'status':'provisional_general_bedrock_summary','answer_connected':True}
+ if name in location_ids:row['location']={'status':'live_article_reviewed_not_in_game_verified','answer_connected':True}
  if kind=='entity':
   if name in spawn:row['spawn_conditions']={'status':'conditional_sample_evidence_not_yet_interpreted','answer_connected':False}
   if name in loot:row['drops']={'status':'conditional_source_evidence','answer_connected':False}
@@ -31,6 +32,6 @@ for id,r in records.items():
   if 'breed' in facts.get(name,{}):row['breeding']={'status':'conditional_fact','answer_connected':True}
  for topic,value in row.items():counts[topic+':'+value['status']]+=1
  result[id]={'kind':kind,'topics':row,'complete':False}
-report={'purpose':'Full gameplay-topic coverage per subject. A basic description does not establish complete knowledge.','subject_count':len(result),'complete_subject_count':0,'live_wiki_access':'blocked_by_proxy_403','topic_counts':dict(counts),'subjects':result,'completion_rule':'Each topic needs source-backed connected answers or an explicit source-backed not-applicable result; missing data is never silently not-applicable.'}
+report={'purpose':'Full gameplay-topic coverage per subject. A basic description does not establish complete knowledge.','subject_count':len(result),'complete_subject_count':0,'live_wiki_access':'article_api_accessible; Kiwix downloads blocked on last check','topic_counts':dict(counts),'subjects':result,'completion_rule':'Each topic needs source-backed connected answers or an explicit source-backed not-applicable result; missing data is never silently not-applicable.'}
 (ROOT/'docs/GAMEPLAY_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
 print('Full gameplay audit:',len(result),'subjects; zero claimed complete; missing topics tracked explicitly.')

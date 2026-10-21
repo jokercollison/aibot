@@ -2,3 +2,8 @@ node_modules/
 build/
 dist/
 *.log
+
+# Development-only wiki reference caches (never ship raw articles)
+__pycache__/
+*.sqlite
+*.sqlite-journal

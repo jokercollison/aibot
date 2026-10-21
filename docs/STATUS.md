@@ -1,3 +1,7 @@
+# Source work: unreleased 0.2.4; published test download: 0.2.3
+
+Live wiki article/API access is working. A catalog-driven local reference database and individual mapping report now exist; raw articles are excluded from game builds. Nine ore/resource location groups and Bedrock Slime spawning have reviewed revision sources. Most wiki mechanics are not yet interpreted/connected. The gameplay-topic audit includes 89 biomes. See WIKI_DATABASE.md.
+
 # Current test release: 0.2.3
 
 Published after the user completed 0.2.2 single-player testing and reported everything else looked good. Multiplayer remains untested. Version 0.2.3 passes type checking, 63 automated tests, and packaged identity/layout/asset validation; it has not been run in Minecraft here.

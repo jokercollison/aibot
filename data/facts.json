@@ -20,5 +20,13 @@
       "source": "behavior_pack/entities/cow.json",
       "verification": "checked_against_samples_v1.26.50.4_not_in_game"
     }
+  },
+  "minecraft:slime": {
+    "acquisition": {
+      "text": "Look for slimes in swamps or mangrove swamps between Y=51 and Y=69 in dim light. Full moons are better; swamp slimes do not spawn on a new moon. Slimes also spawn below Y=40 in special slime chunks, regardless of light. In Bedrock, slime-chunk positions are the same across world seeds. They still need suitable spawning space.",
+      "status": "conditional",
+      "source": "https://minecraft.wiki/w/Slime?oldid=3849919",
+      "verification": "live_article_spawning_reviewed_bedrock_not_in_game"
+    }
   }
 }

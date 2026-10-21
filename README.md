@@ -4,7 +4,7 @@ An offline Minecraft Bedrock robot companion. This is a development build, not a
 
 **[Download the latest add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.2.3.mcaddon)** · **[Download the testing list](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/Robot_Test_Checklist-0.2.3.txt)**
 
-**Knowledge expansion in progress:** 0.2.3 includes the queued recipe and follow-up fixes. The recipe/topic audit and fixes are documented in [pending knowledge work](docs/KNOWLEDGE_EXPANSION_PENDING.md). Basic identifier/description coverage is not complete gameplay knowledge.
+**Knowledge expansion in progress:** source 0.2.4 adds the [local wiki reference database](docs/WIKI_DATABASE.md) and reviewed mining/Slime guidance. The published download remains 0.2.3. Full gameplay knowledge is not complete.
 
 ## Install this separate test version
 

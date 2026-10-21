@@ -1,3 +1,7 @@
+## New source work after 0.2.3
+
+Live article/API access is now working (the earlier blocked status below is historical). WIKI_DATABASE.md describes the catalog-driven local cache and separately reviewed runtime facts. Current source is unreleased 0.2.4; the 0.2.3 download remains unchanged.
+
 # Knowledge expansion included in 0.2.3; remaining gaps
 
 The user requires broad Minecraft gameplay knowledge for each block, item and

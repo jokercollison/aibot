@@ -1,19 +1,343 @@
 {
   "minecraft:diamond": {
     "answer": "Look for diamond ore deep underground in the Overworld, below Y=16. It becomes more common toward the bottom of the world; around Y=-59 is a useful mining level, but watch for lava. Use an iron pickaxe or better to collect diamonds. They are not restricted to one Overworld biome.",
-    "related_ids": ["minecraft:diamond_ore", "minecraft:deepslate_diamond_ore"],
-    "reference_urls": ["https://minecraft.wiki/w/Diamond_Ore", "https://minecraft.wiki/w/Tutorial:Mining"],
-    "inherited_research": ["legacy/database/wiki_bedrock_mechanics_draft_13.json:wiki13_diamond_depth", "legacy/database/wiki_bedrock_qa_v20.json:wiki20_mining_fortune"],
-    "status": "general_modern_bedrock_summary_target_version_verification_pending",
-    "conditions": ["Overworld terrain generation", "Not a guaranteed ore location", "Existing chunks reflect the version in which they generated"],
-    "live_wiki_checked": false
+    "related_ids": [
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Diamond_Ore?oldid=3786784"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147732+00:00",
+    "source_revision": 3786784,
+    "source_revision_timestamp": "2026-09-21T00:24:56Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -63,
+        16
+      ],
+      "minimum_pickaxe_material": "iron",
+      "biome_notes": []
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
   },
   "minecraft:coal": {
-    "answer": "Look for coal ore above Y=0 in the Overworld, especially exposed rock in hills, cliffs, and mountains. Higher ground is a better place to search than the deep negative-Y layers. Use a wooden pickaxe or better to collect it. If you are deep underground without coal, you can make charcoal by smelting suitable logs instead.",
-    "related_ids": ["minecraft:coal_ore", "minecraft:deepslate_coal_ore"],
-    "reference_urls": ["https://minecraft.wiki/w/Coal_Ore", "https://minecraft.wiki/w/Ore"],
-    "status": "general_modern_bedrock_summary_target_version_verification_pending",
-    "conditions": ["Normal modern Overworld generation", "Not a guaranteed ore location", "Deepslate coal at the boundary is a rare special case"],
-    "live_wiki_checked": false
+    "answer": "Look for coal ore above Y=0 in the Overworld. It generates up to Y=320, with an underground concentration around Y=96; exposed hills and mountains are useful places to search. Bedrock also has an extra mountain batch from Y=128 to Y=256. Use a wooden pickaxe or better. For fuel, smelting logs into charcoal is another option.",
+    "related_ids": [
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Coal_Ore?oldid=3786721"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147752+00:00",
+    "source_revision": 3786721,
+    "source_revision_timestamp": "2026-09-20T23:48:43Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        0,
+        320
+      ],
+      "minimum_pickaxe_material": "wooden",
+      "biome_notes": [
+        "mountains"
+      ]
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:raw_iron": {
+    "answer": "Look for iron ore in the Overworld. Around Y=16 is a useful underground level; tall mountains are another good place, with a high-altitude concentration around Y=232 where terrain exists. Large underground iron veins can occur in deepslate. Use a stone pickaxe or better, then smelt the raw iron into ingots.",
+    "related_ids": [
+      "minecraft:iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:iron_ingot"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Iron_Ore?oldid=3786781"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147760+00:00",
+    "source_revision": 3786781,
+    "source_revision_timestamp": "2026-09-21T00:22:40Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -64,
+        384
+      ],
+      "minimum_pickaxe_material": "stone",
+      "biome_notes": []
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:raw_copper": {
+    "answer": "Copper ore generates in the Overworld from Y=-16 to Y=112, most often around Y=47 or Y=48. Dripstone caves have larger copper deposits. Use a stone pickaxe or better and smelt the raw copper into ingots.",
+    "related_ids": [
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:copper_ingot"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Copper_Ore?oldid=3786741"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147766+00:00",
+    "source_revision": 3786741,
+    "source_revision_timestamp": "2026-09-21T00:04:56Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -16,
+        112
+      ],
+      "minimum_pickaxe_material": "stone",
+      "biome_notes": [
+        "dripstone caves"
+      ]
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:raw_gold": {
+    "answer": "For Overworld gold ore, search underground around Y=-16 using an iron pickaxe or better, then smelt the raw gold. Normal underground batches extend from Y=-64 to Y=32. Badlands have an extra gold batch from Y=32 to Y=256. Nether gold ore is a separate source with different mining requirements.",
+    "related_ids": [
+      "minecraft:gold_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:gold_ingot"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Gold_Ore?oldid=3786782"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147775+00:00",
+    "source_revision": 3786782,
+    "source_revision_timestamp": "2026-09-21T00:23:31Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -64,
+        32
+      ],
+      "minimum_pickaxe_material": "iron",
+      "biome_notes": [
+        "badlands"
+      ]
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:redstone": {
+    "answer": "Redstone ore generates in the Overworld from Y=-64 to Y=15. An extra deep batch makes the lower layers a good place to search. Mine it with an iron pickaxe or better to collect redstone dust. Watch for lava near the bottom of the world.",
+    "related_ids": [
+      "minecraft:redstone_ore",
+      "minecraft:deepslate_redstone_ore"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Redstone_Ore?oldid=3844052"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147780+00:00",
+    "source_revision": 3844052,
+    "source_revision_timestamp": "2026-10-15T09:57:50Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -64,
+        15
+      ],
+      "minimum_pickaxe_material": "iron",
+      "biome_notes": []
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:lapis_lazuli": {
+    "answer": "Search for lapis lazuli ore in the Overworld around Y=0. It generates from Y=-64 to Y=64; one batch is concentrated around Y=0 and another does not generate exposed to air, so searching inside rock helps. Use a stone pickaxe or better.",
+    "related_ids": [
+      "minecraft:lapis_ore",
+      "minecraft:deepslate_lapis_ore"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lapis_Lazuli_Ore?oldid=3801216"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147784+00:00",
+    "source_revision": 3801216,
+    "source_revision_timestamp": "2026-09-28T16:02:00Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -64,
+        64
+      ],
+      "minimum_pickaxe_material": "stone",
+      "biome_notes": []
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:emerald": {
+    "answer": "Emerald ore generates in mountain and windswept hill biomes, including meadows, cherry groves, groves, snowy slopes and the mountain peaks. Its range is Y=-16 to Y=320. Higher mountain rock is worth searching; the generation distribution peaks around Y=232, but there must be terrain there. Use an iron pickaxe or better. Trading with villagers is another way to obtain emeralds.",
+    "related_ids": [
+      "minecraft:emerald_ore",
+      "minecraft:deepslate_emerald_ore"
+    ],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Emerald_Ore?oldid=3800937"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147788+00:00",
+    "source_revision": 3800937,
+    "source_revision_timestamp": "2026-09-28T13:09:13Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "overworld",
+      "generation_y_range": [
+        -16,
+        320
+      ],
+      "minimum_pickaxe_material": "iron",
+      "biome_notes": [
+        "meadow",
+        "cherry grove",
+        "grove",
+        "snowy slopes",
+        "jagged peaks",
+        "frozen peaks",
+        "stony peaks",
+        "windswept hills",
+        "windswept gravelly hills",
+        "windswept forest"
+      ]
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
+  },
+  "minecraft:ancient_debris": {
+    "answer": "Ancient debris is found in the Nether. Search inside netherrack around Y=16 and use a diamond or netherite pickaxe. Bedrock has generation batches from Y=8 to Y=23 and from Y=8 to Y=119. It normally generates buried rather than open to air. Watch for lava; smelt ancient debris into netherite scrap.",
+    "related_ids": [],
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ancient_Debris?oldid=3773886"
+    ],
+    "status": "live_article_reviewed_bedrock_summary_not_in_game_verified",
+    "live_wiki_checked": true,
+    "reviewed_at": "2026-10-21T17:57:25.147792+00:00",
+    "source_revision": 3773886,
+    "source_revision_timestamp": "2026-09-13T15:43:50Z",
+    "edition": "bedrock",
+    "target_game_version": "1.26.52",
+    "target_version_runtime_verified": false,
+    "reviewed_sections": [
+      "Obtaining/Breaking",
+      "Obtaining/Natural generation"
+    ],
+    "facts": {
+      "dimension": "nether",
+      "generation_y_range": [
+        8,
+        119
+      ],
+      "minimum_pickaxe_material": "diamond",
+      "biome_notes": []
+    },
+    "conditions": [
+      "Normal modern terrain generation; previously generated chunks may differ.",
+      "Ore distribution is not a guaranteed position.",
+      "Silk Touch is required to collect the ore block itself; resource drops and intact ore are different."
+    ]
   }
 }

@@ -1,0 +1,1369 @@
+{
+  "generated_at": "2026-10-21T17:58:42.144892+00:00",
+  "source": "https://minecraft.wiki/api.php",
+  "scope": "Development reference only. Articles contain mixed editions, historical and future information. Page retrieval does not certify any gameplay topic.",
+  "license_notice": "Wiki currently lists CC BY-NC-SA 3.0; retain source metadata. No article text is included in this report or the game bundle.",
+  "subject_count": 3353,
+  "subject_kinds": {
+    "biome": 89,
+    "block": 1463,
+    "enchantment": 42,
+    "entity": 129,
+    "item": 1630
+  },
+  "unique_pages": 1120,
+  "requested_title_statuses": {
+    "fetched": 1974,
+    "missing": 298
+  },
+  "mapped_subject_count": 3084,
+  "reviewed_gameplay_facts": 0,
+  "review_note": "This cache does not auto-approve facts; separately reviewed runtime answers live in data/location_facts.json and data/facts.json.",
+  "unresolved_subjects": [
+    {
+      "subject_id": "biome:minecraft:birch_forest_hills_mutated",
+      "title": "Birch Forest Hills Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:birch_forest_mutated",
+      "title": "Birch Forest Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:cold_taiga_mutated",
+      "title": "Cold Taiga Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:extreme_hills_mutated",
+      "title": "Extreme Hills Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:extreme_hills_plus_trees",
+      "title": "Extreme Hills Plus Trees",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:extreme_hills_plus_trees_mutated",
+      "title": "Extreme Hills Plus Trees Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:jungle_edge_mutated",
+      "title": "Jungle Edge Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:jungle_mutated",
+      "title": "Jungle Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:mesa_plateau_mutated",
+      "title": "Mesa Plateau Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:mesa_plateau_stone",
+      "title": "Mesa Plateau Stone",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:mesa_plateau_stone_mutated",
+      "title": "Mesa Plateau Stone Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:redwood_taiga_hills_mutated",
+      "title": "Redwood Taiga Hills Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:redwood_taiga_mutated",
+      "title": "Redwood Taiga Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:roofed_forest_mutated",
+      "title": "Roofed Forest Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:savanna_mutated",
+      "title": "Savanna Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:savanna_plateau_mutated",
+      "title": "Savanna Plateau Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:swampland_mutated",
+      "title": "Swampland Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "biome:minecraft:taiga_mutated",
+      "title": "Taiga Mutated",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:acacia_double_slab",
+      "title": "Acacia Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:andesite_double_slab",
+      "title": "Andesite Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:bamboo_double_slab",
+      "title": "Bamboo Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:bamboo_mosaic_double_slab",
+      "title": "Bamboo Mosaic Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:birch_double_slab",
+      "title": "Birch Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:black_concrete_double_slab",
+      "title": "Black Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:black_wool_double_slab",
+      "title": "Black Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:blue_concrete_double_slab",
+      "title": "Blue Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:blue_wool_double_slab",
+      "title": "Blue Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:brick_double_slab",
+      "title": "Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:brown_concrete_double_slab",
+      "title": "Brown Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:brown_wool_double_slab",
+      "title": "Brown Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:chemical_heat",
+      "title": "Chemical Heat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cherry_double_slab",
+      "title": "Cherry Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cinnabar_brick_double_slab",
+      "title": "Cinnabar Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cinnabar_double_slab",
+      "title": "Cinnabar Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cobblestone_double_slab",
+      "title": "Cobblestone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:colored_torch_blue",
+      "title": "Colored Torch Blue",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:colored_torch_green",
+      "title": "Colored Torch Green",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:colored_torch_purple",
+      "title": "Colored Torch Purple",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:colored_torch_red",
+      "title": "Colored Torch Red",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cut_red_sandstone_double_slab",
+      "title": "Cut Red Sandstone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cut_sandstone_double_slab",
+      "title": "Cut Sandstone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cyan_concrete_double_slab",
+      "title": "Cyan Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:cyan_wool_double_slab",
+      "title": "Cyan Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:dark_oak_double_slab",
+      "title": "Dark Oak Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:dark_prismarine_double_slab",
+      "title": "Dark Prismarine Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:diorite_double_slab",
+      "title": "Diorite Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_0",
+      "title": "Element 0",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_1",
+      "title": "Element 1",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_10",
+      "title": "Element 10",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_100",
+      "title": "Element 100",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_101",
+      "title": "Element 101",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_102",
+      "title": "Element 102",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_103",
+      "title": "Element 103",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_104",
+      "title": "Element 104",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_105",
+      "title": "Element 105",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_106",
+      "title": "Element 106",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_107",
+      "title": "Element 107",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_108",
+      "title": "Element 108",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_109",
+      "title": "Element 109",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_11",
+      "title": "Element 11",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_110",
+      "title": "Element 110",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_111",
+      "title": "Element 111",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_112",
+      "title": "Element 112",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_113",
+      "title": "Element 113",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_114",
+      "title": "Element 114",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_115",
+      "title": "Element 115",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_116",
+      "title": "Element 116",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_117",
+      "title": "Element 117",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_118",
+      "title": "Element 118",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_12",
+      "title": "Element 12",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_13",
+      "title": "Element 13",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_14",
+      "title": "Element 14",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_15",
+      "title": "Element 15",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_16",
+      "title": "Element 16",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_17",
+      "title": "Element 17",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_18",
+      "title": "Element 18",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_19",
+      "title": "Element 19",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_2",
+      "title": "Element 2",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_20",
+      "title": "Element 20",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_21",
+      "title": "Element 21",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_22",
+      "title": "Element 22",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_23",
+      "title": "Element 23",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_24",
+      "title": "Element 24",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_25",
+      "title": "Element 25",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_26",
+      "title": "Element 26",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_27",
+      "title": "Element 27",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_28",
+      "title": "Element 28",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_29",
+      "title": "Element 29",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_3",
+      "title": "Element 3",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_30",
+      "title": "Element 30",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_31",
+      "title": "Element 31",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_32",
+      "title": "Element 32",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_33",
+      "title": "Element 33",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_34",
+      "title": "Element 34",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_35",
+      "title": "Element 35",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_36",
+      "title": "Element 36",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_37",
+      "title": "Element 37",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_38",
+      "title": "Element 38",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_39",
+      "title": "Element 39",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_4",
+      "title": "Element 4",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_40",
+      "title": "Element 40",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_41",
+      "title": "Element 41",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_42",
+      "title": "Element 42",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_43",
+      "title": "Element 43",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_44",
+      "title": "Element 44",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_45",
+      "title": "Element 45",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_46",
+      "title": "Element 46",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_47",
+      "title": "Element 47",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_48",
+      "title": "Element 48",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_49",
+      "title": "Element 49",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_5",
+      "title": "Element 5",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_50",
+      "title": "Element 50",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_51",
+      "title": "Element 51",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_52",
+      "title": "Element 52",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_53",
+      "title": "Element 53",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_54",
+      "title": "Element 54",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_55",
+      "title": "Element 55",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_56",
+      "title": "Element 56",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_57",
+      "title": "Element 57",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_58",
+      "title": "Element 58",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_59",
+      "title": "Element 59",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_6",
+      "title": "Element 6",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_60",
+      "title": "Element 60",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_61",
+      "title": "Element 61",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_62",
+      "title": "Element 62",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_63",
+      "title": "Element 63",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_64",
+      "title": "Element 64",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_65",
+      "title": "Element 65",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_66",
+      "title": "Element 66",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_67",
+      "title": "Element 67",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_68",
+      "title": "Element 68",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_69",
+      "title": "Element 69",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_7",
+      "title": "Element 7",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_70",
+      "title": "Element 70",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_71",
+      "title": "Element 71",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_72",
+      "title": "Element 72",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_73",
+      "title": "Element 73",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_74",
+      "title": "Element 74",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_75",
+      "title": "Element 75",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_76",
+      "title": "Element 76",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_77",
+      "title": "Element 77",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_78",
+      "title": "Element 78",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_79",
+      "title": "Element 79",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_8",
+      "title": "Element 8",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_80",
+      "title": "Element 80",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_81",
+      "title": "Element 81",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_82",
+      "title": "Element 82",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_83",
+      "title": "Element 83",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_84",
+      "title": "Element 84",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_85",
+      "title": "Element 85",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_86",
+      "title": "Element 86",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_87",
+      "title": "Element 87",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_88",
+      "title": "Element 88",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_89",
+      "title": "Element 89",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_9",
+      "title": "Element 9",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_90",
+      "title": "Element 90",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_91",
+      "title": "Element 91",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_92",
+      "title": "Element 92",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_93",
+      "title": "Element 93",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_94",
+      "title": "Element 94",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_95",
+      "title": "Element 95",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_96",
+      "title": "Element 96",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_97",
+      "title": "Element 97",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_98",
+      "title": "Element 98",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:element_99",
+      "title": "Element 99",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:granite_double_slab",
+      "title": "Granite Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:gray_concrete_double_slab",
+      "title": "Gray Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:gray_wool_double_slab",
+      "title": "Gray Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:green_concrete_double_slab",
+      "title": "Green Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:green_wool_double_slab",
+      "title": "Green Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_black_stained_glass",
+      "title": "Hard Black Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_black_stained_glass_pane",
+      "title": "Hard Black Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_blue_stained_glass",
+      "title": "Hard Blue Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_blue_stained_glass_pane",
+      "title": "Hard Blue Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_brown_stained_glass",
+      "title": "Hard Brown Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_brown_stained_glass_pane",
+      "title": "Hard Brown Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_cyan_stained_glass",
+      "title": "Hard Cyan Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_cyan_stained_glass_pane",
+      "title": "Hard Cyan Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_glass",
+      "title": "Hard Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_glass_pane",
+      "title": "Hard Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_gray_stained_glass",
+      "title": "Hard Gray Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_gray_stained_glass_pane",
+      "title": "Hard Gray Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_green_stained_glass",
+      "title": "Hard Green Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_green_stained_glass_pane",
+      "title": "Hard Green Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_light_blue_stained_glass",
+      "title": "Hard Light Blue Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_light_blue_stained_glass_pane",
+      "title": "Hard Light Blue Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_light_gray_stained_glass",
+      "title": "Hard Light Gray Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_light_gray_stained_glass_pane",
+      "title": "Hard Light Gray Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_lime_stained_glass",
+      "title": "Hard Lime Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_lime_stained_glass_pane",
+      "title": "Hard Lime Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_magenta_stained_glass",
+      "title": "Hard Magenta Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_magenta_stained_glass_pane",
+      "title": "Hard Magenta Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_orange_stained_glass",
+      "title": "Hard Orange Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_orange_stained_glass_pane",
+      "title": "Hard Orange Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_pink_stained_glass",
+      "title": "Hard Pink Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_pink_stained_glass_pane",
+      "title": "Hard Pink Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_purple_stained_glass",
+      "title": "Hard Purple Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_purple_stained_glass_pane",
+      "title": "Hard Purple Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_red_stained_glass",
+      "title": "Hard Red Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_red_stained_glass_pane",
+      "title": "Hard Red Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_white_stained_glass",
+      "title": "Hard White Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_white_stained_glass_pane",
+      "title": "Hard White Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_yellow_stained_glass",
+      "title": "Hard Yellow Stained Glass",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:hard_yellow_stained_glass_pane",
+      "title": "Hard Yellow Stained Glass Pane",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:jungle_double_slab",
+      "title": "Jungle Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:light_blue_concrete_double_slab",
+      "title": "Light Blue Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:light_blue_wool_double_slab",
+      "title": "Light Blue Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:light_gray_concrete_double_slab",
+      "title": "Light Gray Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:light_gray_wool_double_slab",
+      "title": "Light Gray Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:lime_concrete_double_slab",
+      "title": "Lime Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:lime_wool_double_slab",
+      "title": "Lime Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:magenta_concrete_double_slab",
+      "title": "Magenta Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:magenta_wool_double_slab",
+      "title": "Magenta Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:mangrove_double_slab",
+      "title": "Mangrove Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:mossy_cobblestone_double_slab",
+      "title": "Mossy Cobblestone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:mud_brick_double_slab",
+      "title": "Mud Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:nether_brick_double_slab",
+      "title": "Nether Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:normal_stone_double_slab",
+      "title": "Normal Stone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:oak_double_slab",
+      "title": "Oak Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:orange_concrete_double_slab",
+      "title": "Orange Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:orange_wool_double_slab",
+      "title": "Orange Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:pale_oak_double_slab",
+      "title": "Pale Oak Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:petrified_oak_double_slab",
+      "title": "Petrified Oak Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:pink_concrete_double_slab",
+      "title": "Pink Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:pink_wool_double_slab",
+      "title": "Pink Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:polished_andesite_double_slab",
+      "title": "Polished Andesite Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:polished_cinnabar_double_slab",
+      "title": "Polished Cinnabar Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:polished_diorite_double_slab",
+      "title": "Polished Diorite Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:polished_granite_double_slab",
+      "title": "Polished Granite Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:polished_sulfur_double_slab",
+      "title": "Polished Sulfur Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:polished_tuff_double_slab",
+      "title": "Polished Tuff Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:poplar_double_slab",
+      "title": "Poplar Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:prismarine_brick_double_slab",
+      "title": "Prismarine Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:prismarine_double_slab",
+      "title": "Prismarine Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:purple_concrete_double_slab",
+      "title": "Purple Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:purple_wool_double_slab",
+      "title": "Purple Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:purpur_double_slab",
+      "title": "Purpur Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:quartz_double_slab",
+      "title": "Quartz Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:red_concrete_double_slab",
+      "title": "Red Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:red_nether_brick_double_slab",
+      "title": "Red Nether Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:red_sandstone_double_slab",
+      "title": "Red Sandstone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:red_wool_double_slab",
+      "title": "Red Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:resin_brick_double_slab",
+      "title": "Resin Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:sandstone_double_slab",
+      "title": "Sandstone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:smooth_quartz_double_slab",
+      "title": "Smooth Quartz Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:smooth_red_sandstone_double_slab",
+      "title": "Smooth Red Sandstone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:smooth_sandstone_double_slab",
+      "title": "Smooth Sandstone Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:spruce_double_slab",
+      "title": "Spruce Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:stone_brick_double_slab",
+      "title": "Stone Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:sulfur_brick_double_slab",
+      "title": "Sulfur Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:sulfur_double_slab",
+      "title": "Sulfur Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:tuff_brick_double_slab",
+      "title": "Tuff Brick Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:tuff_double_slab",
+      "title": "Tuff Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:white_concrete_double_slab",
+      "title": "White Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:white_wool_double_slab",
+      "title": "White Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:yellow_concrete_double_slab",
+      "title": "Yellow Concrete Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "block:minecraft:yellow_wool_double_slab",
+      "title": "Yellow Wool Double Slab",
+      "status": "missing"
+    },
+    {
+      "subject_id": "entity:minecraft:breeze_wind_charge_projectile",
+      "title": "Breeze Wind Charge Projectile",
+      "status": "missing"
+    },
+    {
+      "subject_id": "entity:minecraft:wither_skull_dangerous",
+      "title": "Wither Skull Dangerous",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:acacia_chest_boat",
+      "title": "Acacia Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:bamboo_chest_raft",
+      "title": "Bamboo Chest Raft",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:birch_chest_boat",
+      "title": "Birch Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:cherry_chest_boat",
+      "title": "Cherry Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:dark_oak_chest_boat",
+      "title": "Dark Oak Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:jungle_chest_boat",
+      "title": "Jungle Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:mangrove_chest_boat",
+      "title": "Mangrove Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:oak_chest_boat",
+      "title": "Oak Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:poplar_chest_boat",
+      "title": "Poplar Chest Boat",
+      "status": "missing"
+    },
+    {
+      "subject_id": "item:minecraft:spruce_chest_boat",
+      "title": "Spruce Chest Boat",
+      "status": "missing"
+    }
+  ]
+}

@@ -1,13 +1,20 @@
 {
   "purpose": "Full gameplay-topic coverage per subject. A basic description does not establish complete knowledge.",
-  "subject_count": 3222,
+  "subject_count": 3311,
   "complete_subject_count": 0,
-  "live_wiki_access": "blocked_by_proxy_403",
+  "live_wiki_access": "article_api_accessible; Kiwix downloads blocked on last check",
   "topic_counts": {
+    "identity:unresolved": 89,
+    "location:unresolved": 3137,
+    "terrain:unresolved": 89,
+    "climate:unresolved": 89,
+    "blocks:unresolved": 89,
+    "mobs:unresolved": 89,
+    "structures:unresolved": 89,
+    "resources:unresolved": 89,
     "identity:editorial_basic_summary": 3222,
     "uses:editorial_basic_summary": 3093,
     "recipe_or_acquisition:unresolved": 1154,
-    "location:unresolved": 3083,
     "biomes:unresolved": 3222,
     "mining_tool:unresolved": 1463,
     "drops:unresolved": 1519,
@@ -15,7 +22,7 @@
     "redstone:unresolved": 1463,
     "recipe_or_acquisition:sample_recipe_indexed": 1717,
     "recipe_or_acquisition:conditional_loot_category_answer": 222,
-    "location:provisional_general_bedrock_summary": 10,
+    "location:live_article_reviewed_not_in_game_verified": 45,
     "behavior:editorial_basic_summary": 129,
     "spawn_conditions:unresolved": 74,
     "health:unresolved": 40,
@@ -36,6 +43,3388 @@
     "special_interactions:unresolved": 1630
   },
   "subjects": {
+    "biome:minecraft:bamboo_jungle": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:bamboo_jungle_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:basalt_deltas": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:beach": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:birch_forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:birch_forest_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:birch_forest_hills_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:birch_forest_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:cherry_grove": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:cold_beach": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:cold_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:cold_taiga": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:cold_taiga_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:cold_taiga_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:crimson_forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:dappled_forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:deep_cold_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:deep_dark": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:deep_frozen_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:deep_lukewarm_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:deep_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:deep_warm_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:desert": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:desert_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:desert_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:dripstone_caves": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:extreme_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:extreme_hills_edge": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:extreme_hills_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:extreme_hills_plus_trees": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:extreme_hills_plus_trees_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:flower_forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:forest_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:frozen_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:frozen_peaks": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:frozen_river": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:grove": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:hell": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:ice_mountains": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:ice_plains": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:ice_plains_spikes": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:jagged_peaks": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:jungle": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:jungle_edge": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:jungle_edge_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:jungle_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:jungle_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:legacy_frozen_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:lukewarm_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:lush_caves": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mangrove_swamp": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:meadow": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mega_taiga": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mega_taiga_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mesa": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mesa_bryce": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mesa_plateau": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mesa_plateau_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mesa_plateau_stone": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mesa_plateau_stone_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mushroom_island": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:mushroom_island_shore": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:pale_garden": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:plains": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:redwood_taiga_hills_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:redwood_taiga_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:river": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:roofed_forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:roofed_forest_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:savanna": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:savanna_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:savanna_plateau": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:savanna_plateau_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:snowy_slopes": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:soulsand_valley": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:stone_beach": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:stony_peaks": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:sulfur_caves": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:sunflower_plains": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:swampland": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:swampland_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:taiga": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:taiga_hills": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:taiga_mutated": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:the_end": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:warm_ocean": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
+    "biome:minecraft:warped_forest": {
+      "kind": "biome",
+      "topics": {
+        "identity": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "location": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "terrain": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "climate": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "blocks": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "mobs": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "structures": {
+          "status": "unresolved",
+          "answer_connected": false
+        },
+        "resources": {
+          "status": "unresolved",
+          "answer_connected": false
+        }
+      },
+      "complete": false
+    },
     "block:minecraft:acacia_button": {
       "kind": "block",
       "topics": {
@@ -1060,8 +4449,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -9838,7 +13227,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -11056,8 +14445,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -15802,7 +19191,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -15844,8 +19233,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -15886,7 +19275,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -15928,8 +19317,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -15970,8 +19359,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -16012,8 +19401,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -16054,8 +19443,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -16096,8 +19485,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -16474,7 +19863,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -22228,8 +25617,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -24454,8 +27843,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -28822,8 +32211,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -29956,8 +33345,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -47512,8 +50901,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -69314,8 +72703,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -77916,7 +81305,7 @@
           "answer_connected": true
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -77984,7 +81373,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -79480,8 +82869,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -79650,8 +83039,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83458,7 +86847,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -83492,8 +86881,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83526,7 +86915,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -83560,8 +86949,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83594,8 +86983,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83628,8 +87017,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83662,8 +87051,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83696,8 +87085,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -83934,7 +87323,7 @@
           "answer_connected": true
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -84274,7 +87663,7 @@
           "answer_connected": false
         },
         "location": {
-          "status": "provisional_general_bedrock_summary",
+          "status": "live_article_reviewed_not_in_game_verified",
           "answer_connected": true
         },
         "biomes": {
@@ -85260,8 +88649,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -85328,8 +88717,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -88320,8 +91709,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -88388,8 +91777,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -92060,8 +95449,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -92196,8 +95585,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -93216,8 +96605,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -93250,8 +96639,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -108958,8 +112347,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -109026,8 +112415,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -109094,8 +112483,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -110284,8 +113673,8 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
@@ -110386,8 +113775,8 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "live_article_reviewed_not_in_game_verified",
+          "answer_connected": true
         },
         "biomes": {
           "status": "unresolved",
