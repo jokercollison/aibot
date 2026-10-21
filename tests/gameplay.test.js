@@ -131,3 +131,10 @@ test('recent on-screen history is bounded and kept separate for different robots
  assert.doesNotMatch(fixture.labels[next],/What is a creeper/);
  fixture.forms=[{selection:0},{canceled:true}];await click(player,bot);assert.match(fixture.labels.at(-1),/What is a creeper/);
 });
+test('conversation colors distinguish speakers and reset before each following turn',async()=>{
+ const {player,bot,properties}=setup();properties.set(`${SCOPE}:owner`,player.id);bot.nameTag='Jarvis';
+ fixture.forms=[{selection:0},{formValues:['§cWhat is a hopper?']},{canceled:true}];await click(player,bot);
+ const transcript=fixture.labels.at(-1);
+ assert.match(transcript,/^§bYou: What is a hopper\?§r\n§eJarvis: /);
+ assert.ok(transcript.endsWith('§r'));assert.doesNotMatch(transcript,/§c/);
+});

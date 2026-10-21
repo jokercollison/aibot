@@ -1,3 +1,14 @@
+# Current test release: 0.2.7 — speaker colors and entity feeding
+
+Player messages are aqua; bot replies are yellow, with speaker labels retained.
+New robots have 500 health points (250 hearts), matching a warden.
+Adds scoped feeding and fixed-health topics developed after 0.2.6. Entity knowledge
+is still incomplete. The user reports all 0.2.6 checklist questions answered correctly.
+See RELEASE_0.2.7.md and downloads/Robot_Test_Checklist-0.2.7.txt.
+Actual-game 0.2.7 testing and multiplayer remain pending.
+
+## Previous status records
+
 # Current test release: 0.2.6 — entity knowledge first pass
 
 494 entity topic summaries across 127 catalog entities, with subject/topic routing

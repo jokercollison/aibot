@@ -1,0 +1,47 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.7
+NEW/CHANGED CHECKS ONLY
+
+INSTALL
+Open TimeTrapRobot-0.2.7.mcaddon. Use a fresh world and NEW robot.
+Activate ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.7
+  Time Trap Studios AI Bot — Resources 0.2.7
+Confirm both descriptions and the robot menu show 0.2.7.
+Optional summon: /summon tts_ai_bot_v0_2_7:robot
+This release has fresh header/module UUIDs and version-specific content identifiers.
+
+CONVERSATION COLORS
+Choose Talk to me once. Ask any question, then a follow-up.
+Your messages should be aqua/light blue; bot replies should be yellow.
+Both retain speaker names. The input should keep its normal readable appearance.
+Confirm the difference is clear on your screen, including long replies.
+
+ROBOT DURABILITY
+Spawn a new robot. It now starts with 500 health points (250 hearts), like a
+warden, rather than 40. Check that ordinary mob hits do not kill it quickly.
+It can still die from sufficient damage; avoid destructive testing in valued worlds.
+
+FOOD AND HEALTH
+1. What do cows eat?
+   Expect wheat, with breeding and baby growth distinguished.
+2. Can I feed tropical fish to an axolotl?
+   Expect a bucket of tropical fish as the supported choice, not loose fish.
+3. Can I feed a parrot cookies?
+   Expect a warning, not a healing/food recommendation.
+4. What is a wolf?
+   Then: Can I heal it with raw cod?
+   Expect 4 health points (2 hearts) for the supported healing interaction.
+   Then: Can I breed them with raw cod?
+   Expect breeding meat choices rather than treating healing fish as breeding food.
+5. Can I tame a wolf with beef?
+   Expect bones for taming, not beef.
+6. How many hearts does an allay have?
+   Expect normal maximum 20 health points (10 hearts).
+7. What do bees eat?
+   Expect suitable flower choices, not wither roses as supported food.
+
+Earlier 0.2.6 questions passed according to your report; no need to repeat that
+whole checklist. Existing controls, Things to try, texture and continuous conversation
+are retained. Automatic bottom scrolling is not fixed; multiplayer is untested.
+Entity knowledge is still incomplete. These are focused checks, not a request to
+find every missing fact. Full conditional loot and remaining Bedrock gaps are pending.

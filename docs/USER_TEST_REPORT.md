@@ -1,3 +1,10 @@
+# User report: 0.2.6
+
+The user reports testing all questions in the 0.2.6 checklist and receiving the
+correct answers. They requested distinct conversation text colors because it was
+hard to distinguish their messages from the bot. This is single-player feedback;
+it does not establish multiplayer results or complete entity knowledge.
+
 # User-reported testing — October 21, 2026
 
 Target version reported by the user: **Minecraft Bedrock 1.26.52**.

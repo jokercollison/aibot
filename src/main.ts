@@ -43,7 +43,7 @@ async function talk(player: Player, bot: Entity) {
   let prompt = '';
   while (player.isValid && bot.isValid) {
     assertOwner(player, bot);
-    const transcript = session.turns.map(turn => `You: ${turn.question}\n${safeName(bot.nameTag)}: ${turn.answer}`).join('\n\n');
+    const transcript = session.turns.map(turn => `§bYou: ${turn.question.replace(/§./g,'')}§r\n§e${safeName(bot.nameTag)}: ${turn.answer.replace(/§./g,'')}§r`).join('\n\n');
     const response = await new ModalFormData().title(`${safeName(bot.nameTag)} — v${VERSION}`)
       .label(transcript || 'Ask me about Minecraft. You can keep asking follow-up questions here. Close this window whenever you are done.')
       .textField(prompt || 'Your message', session.turns.length ? 'Ask a follow-up or a new question' : 'What is a hopper?')

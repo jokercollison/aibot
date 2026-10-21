@@ -30,7 +30,7 @@ Examples: creeper + drops; snowy wolf + spawning; wither + health.
 
 `ENTITY_KNOWLEDGE_COVERAGE.json` is the machine-readable per-subject topic audit.
 The published 0.2.6 build contains 494 curated summaries across 127 catalog entities.
-Current unreleased source has 498 curated summaries across all 129 catalog entities,
+Release 0.2.7 has 498 curated summaries across all 129 catalog entities,
 plus 95 component-backed health/feeding topic summaries. These are summaries, not
 exhaustive mechanic coverage. Every subject remains marked incomplete. Camera
 advice now distinguishes Education from normal Survival; cushion notes are linked
@@ -63,7 +63,7 @@ conversation chronological with newest answer beside the input. Native stable
 server-ui currently exposes no scroll-position API; automatic bottom scrolling
 remains unresolved and must not be advertised as fixed. Multiplayer is untested.
 
-## Unreleased feeding and health work
+## Feeding and health work included in 0.2.7
 
 `tools/entity_topics.py` preserves the food's purpose and component scope: breeding,
 taming, healing and baby growth are distinct. Healing amounts, replacement buckets,
@@ -92,6 +92,6 @@ npm test
 
 The wiki classification command uses the restored development-only SQLite archive;
 ordinary compilation and tests use committed evidence and need no wiki connection.
-88 automated tests and a temporary esbuild compilation passed for this source
-snapshot. No new .mcaddon was built or uploaded; 0.2.6 downloads are unchanged.
-Prepare fresh release identities before distributing these further changes.
+Release 0.2.7 packages these additions with distinct conversation colors and
+500-health robots. The prior 0.2.6 download remains available unchanged.
+Full validation includes 89 automated tests; actual-game validation is pending.
