@@ -1,4 +1,4 @@
-export const HELP = `Ask me a question:
+export const HELP = `Choose Talk to me, then keep sending questions in the same conversation window. Close it when you are done.\n\nAsk me a question:
 • How do I craft a hopper?
 • How do I craft a stone pickaxe?
 • How do I make bread?

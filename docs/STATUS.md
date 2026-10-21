@@ -1,3 +1,13 @@
+# Current test release: 0.2.5 — continuous conversation
+
+Talk to me now continues automatically after Send, showing recent private turns
+above the next input instead of forcing a robot/menu re-click. Close ends the loop.
+API type checking, 72 automated tests and package checks passed. Actual Minecraft
+form timing, mobile/keyboard/controller behavior and multiplayer remain untested.
+See RELEASE_0.2.5.md and downloads/Robot_Test_Checklist-0.2.5.txt.
+
+## Earlier archive and development records
+
 # Offline reference preservation
 
 The full namespace inventory/archive has 79,308 saved current revisions across

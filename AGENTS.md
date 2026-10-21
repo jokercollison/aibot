@@ -61,3 +61,9 @@ These preferences were explicitly requested by the user during in-game testing.
 - Snapshot completeness is measured against enumerated namespaces/pages and
   dependencies, not topic completeness or an assertion of all media/history.
   Preserve and report deleted/unavailable entries instead of hiding them.
+
+- Conversation UX: after choosing Talk to me once, keep answers and the next
+  message input inside an automatically continued private form session. Do not
+  force another robot/menu click per question or send normal answers only to chat.
+  Close/Back/Escape must stop the loop. Keep Things to try, follow-up context,
+  bounded recent history, per-player/robot isolation, and per-turn access checks.

@@ -1,5 +1,5 @@
 import {world, system, Entity, Player, EntityTameableComponent} from '@minecraft/server';
-import {ActionFormData, ModalFormData} from '@minecraft/server-ui';
+import {ActionFormData, ModalFormData, FormCancelationReason} from '@minecraft/server-ui';
 import {VERSION,SCOPE,ROBOT_ID,SOUND_ID} from './build-info.js';
 import {HELP} from './help.js';
 import {createConversation} from './knowledge.js';
@@ -10,7 +10,8 @@ const ROBOT_TYPES = new Set([ROBOT]);
 let soundFailureLogged = false;
 const key = (k: string) => `${SCOPE}:${k}`;
 const owner = (bot: Entity) => bot.getDynamicProperty(key('owner')) as string | undefined;
-const conversations = new Map<string, ReturnType<typeof createConversation>>();
+type ConversationSession = {engine: ReturnType<typeof createConversation>; turns: {question:string;answer:string}[]};
+const conversations = new Map<string, ConversationSession>();
 const busy = new Set<string>();
 const lastWarning = new Map<string, number>();
 function assertOwner(player: Player, bot: Entity) {
@@ -32,6 +33,43 @@ function mode(bot: Entity, following: boolean) {
   bot.triggerEvent(`${SCOPE}:follow_${following?'on':'off'}`);
   bot.setDynamicProperty(key('mode'), following ? 'follow' : 'stay');
 }
+// Forms submit once, so present the next turn automatically after the UI closes.
+const nextTick = () => new Promise<void>(resolve => system.run(resolve));
+async function talk(player: Player, bot: Entity) {
+  const sessionKey = `${player.id}:${bot.id}`;
+  if (!conversations.has(sessionKey)) conversations.set(sessionKey, {engine:createConversation(),turns:[]});
+  const session = conversations.get(sessionKey)!;
+  let busyRetries = 0;
+  let prompt = '';
+  while (player.isValid && bot.isValid) {
+    assertOwner(player, bot);
+    const transcript = session.turns.map(turn => `You: ${turn.question}\n${safeName(bot.nameTag)}: ${turn.answer}`).join('\n\n');
+    const response = await new ModalFormData().title(`${safeName(bot.nameTag)} — v${VERSION}`)
+      .label(transcript || 'Ask me about Minecraft. You can keep asking follow-up questions here. Close this window whenever you are done.')
+      .textField(prompt || 'Your message', session.turns.length ? 'Ask a follow-up or a new question' : 'What is a hopper?')
+      .submitButton('Send').show(player);
+    // Explicit close/Back/Escape ends the loop. Only retry a temporary UI conflict.
+    if (response.canceled) {
+      if (response.cancelationReason === FormCancelationReason.UserBusy && busyRetries++ < 3) {await nextTick();continue;}
+      return;
+    }
+    busyRetries = 0;
+    assertOwner(player, bot);
+    // Static labels can be represented differently across clients; only one text input exists.
+    const question = String(response.formValues?.find(value => typeof value === 'string') ?? '').trim();
+    if (!question || question.length > 240) {
+      prompt = question ? 'Please keep your message to 240 characters or fewer.' : 'Type a question, or close the window to finish.';
+      await nextTick();continue;
+    }
+    prompt = '';
+    const answer = session.engine.ask(question).answer;
+    session.turns.push({question,answer});
+    // Bound recent history while always keeping the entire latest answer visible.
+    while (session.turns.length > 4 || (session.turns.length > 1 && session.turns.reduce((n,t) => n+t.question.length+t.answer.length,0) > 6000)) session.turns.shift();
+    playChirp(player);
+    await nextTick();
+  }
+}
 async function interact(player: Player, bot: Entity) {
   if (busy.has(player.id)) return;
   busy.add(player.id);
@@ -48,24 +86,15 @@ async function interact(player: Player, bot: Entity) {
       bot.setDynamicProperty(key('home'), JSON.stringify({...bot.location, dimension:bot.dimension.id}));
       bot.nameTag = 'TTR-1';
       mode(bot, false);
-      say(player, bot, `${banter.greeting[0]} I'm your AI companion! Use Ask for questions, Things to try for examples, or Settings to give me a name.`);
+      say(player, bot, `${banter.greeting[0]} I'm your AI companion! Use Talk to me for questions, Things to try for examples, or Settings to give me a name.`);
     }
     assertOwner(player, bot);
     const form = await new ActionFormData().title(`${bot.nameTag || 'TTR-1'} — v${VERSION}`).body('Your AI companion. Ask me a question or choose what we do next.')
-      .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').button('Things to try').button('Test robot sound').show(player);
+      .button('Talk to me').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').button('Things to try').button('Test robot sound').show(player);
     if (form.canceled) return;
     assertOwner(player, bot);
     switch (form.selection) {
-      case 0: {
-        const answer = await new ModalFormData().title('Ask your robot').textField('Minecraft question', 'How do I craft a hopper?').show(player);
-        if (answer.canceled) break;
-        assertOwner(player, bot);
-        const question = String(answer.formValues?.[0] ?? '').slice(0, 240);
-        const sessionKey = `${player.id}:${bot.id}`;
-        if (!conversations.has(sessionKey)) conversations.set(sessionKey, createConversation());
-        say(player, bot, conversations.get(sessionKey)!.ask(question).answer);
-        break;
-      }
+      case 0: await talk(player, bot); break;
       case 1: mode(bot, true); say(player, bot, "I'm right behind you!"); break;
       case 2: mode(bot, false); say(player, bot, "I'll wait here for you."); break;
       case 3:
