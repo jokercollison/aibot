@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import {readFile,access} from 'node:fs/promises';
+import {SCOPE,ROBOT_ID,SOUND_ID,VERSION} from '../src/build-info.js';
+const json=async p=>JSON.parse(await readFile(p,'utf8'));
+const bpRoot='build/TimeTrapRobot_BP',rpRoot='build/TimeTrapRobot_RP';
+const bp=await json(bpRoot+'/manifest.json'),rp=await json(rpRoot+'/manifest.json');
+const recorded=await json('tools/pack_identities.json');
+const identities=recorded[VERSION];
+assert.equal(bp.header.uuid,identities.behavior.header);assert.equal(rp.header.uuid,identities.resources.header);
+const all=Object.values(recorded).flatMap(r=>[...Object.values(r.behavior),...Object.values(r.resources)]);
+assert.equal(new Set(all).size,all.length,'Release UUIDs must not overlap');
+for(const pack of [bp,rp]) {assert.ok(pack.header.name.includes(VERSION));assert.ok(pack.header.description.includes(VERSION));}
+const segment='v'+VERSION.replaceAll('.','_');
+const entity=await json(`${bpRoot}/entities/tts/ai_bot/${segment}/robot.json`);
+assert.equal(entity['minecraft:entity'].description.identifier,ROBOT_ID);
+assert.deepEqual(entity['minecraft:entity'].components['minecraft:type_family'].family,[SCOPE,'mob']);
+const client=(await json(`${rpRoot}/entity/tts/ai_bot/${segment}/robot.entity.json`))['minecraft:client_entity'].description;
+assert.equal(client.identifier,ROBOT_ID);assert.equal(client.geometry.default,`geometry.${SCOPE}.robot`);
+await access(`${rpRoot}/${client.textures.default}.png`);
+assert.match(client.textures.default,new RegExp(`^textures/tts/ai_bot/${segment}/`));
+const sound=(await json(`${rpRoot}/sounds/sound_definitions.json`)).sound_definitions[SOUND_ID];
+assert.ok(sound,'Version-specific sound must be registered');await access(`${rpRoot}/${sound.sounds[0].name}.ogg`);
+const entry=bp.modules.find(m=>m.type==='script').entry;
+assert.equal(entry,`scripts/tts/ai_bot/${segment}/main.js`);
+const script=await readFile(`${bpRoot}/${entry}`,'utf8');
+assert.ok(script.includes('Things to try'));assert.ok(script.includes('AI companion'));
+assert.ok(!script.includes('Grid rows'));assert.ok(!script.includes('offline Minecraft helper'));
+console.log(`Verified isolated ${VERSION} UUIDs, namespace, entrypoint, texture and sound references.`);

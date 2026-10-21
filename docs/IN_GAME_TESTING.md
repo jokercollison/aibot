@@ -3,7 +3,7 @@
 Use a disposable Creative world, current retail Bedrock, both packs enabled and all experimental toggles off. Enable the Creator Content Log in Minecraft settings and record the exact game version, platform and log output.
 
 1. Import the `.mcaddon`. Confirm two packs, no missing dependencies, no JSON/component/script errors and no experimental requirements.
-2. Spawn `tts_ai_bot:robot`. Check its texture, geometry, walking animation, visible name, interaction prompt and audible original chirp. Confirm it neither burns in daylight nor attacks players on spawn.
+2. Spawn `tts_ai_bot_v0_2_1:robot`. Check its texture, geometry, walking animation, visible name, interaction prompt and audible original chirp. Confirm it neither burns in daylight nor attacks players on spawn.
 3. First player interacts: confirm a single introduction, successful ownership and menu. Close and reopen forms. Try with full inventory, controller and touchscreen as available. Close chat before opening forms if Minecraft reports the player is busy.
 4. Second player interacts: confirm owner-only rejection and no rename, control or transfer. Test simultaneous first claims on a fresh robot. Attempt interaction while the owner has a settings form open.
 5. Follow owner on ordinary terrain. Check stop distance, walls, slopes, water and loaded-chunk edges. Stay should disable following; gravity, pushing and enabled combat can still move the robot. There is no cross-dimension recall or long-distance unloaded-chunk recovery.
@@ -17,3 +17,5 @@ Use a disposable Creative world, current retail Bedrock, both packs enabled and 
 Record pass/fail and logs for each item before calling the build playable or Marketplace-ready. Automated Node and simulated-API tests do not establish any of these engine outcomes.
 
 For 0.2.0 also verify existing saved tts:robot companions, the new tts_ai_bot:robot spawn egg, both versioned pack entries, Test robot sound, and hopper what/does/crafting follow-ups. The user reports earlier single-player checks; new release and multiplayer checks remain distinct.
+
+From 0.2.1 onward, use a fresh world and matching versioned pair. Confirm v0.2.1 in the menu, Things to try, the exact diamond sword ingredient answer, and the unchanged 0.1.1 body mapping. Old robot compatibility instructions above apply only to historical 0.2.0; isolated versions deliberately do not manage earlier robots.

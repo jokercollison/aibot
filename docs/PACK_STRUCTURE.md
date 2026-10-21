@@ -7,7 +7,6 @@ Content/
   behavior_packs/AI_Bot/
     manifest.json
     entities/tts/ai_bot/robot.json
-    entities/tts/ai_bot/legacy_robot.json
     texts/en_US.lang
   resource_packs/AI_Bot/
     manifest.json
@@ -25,18 +24,17 @@ Build output adds `scripts/tts/ai_bot/main.js` to the behavior pack. Engine-defi
 entrypoints such as `manifest.json`, text registration and sound definitions stay
 at their required locations; custom asset payloads live under project paths.
 
-New entity: `tts_ai_bot:robot`. New geometry, animation, render and sound IDs also
-include `tts_ai_bot`. Both packs retain their existing unique header UUIDs and
-receive matching version updates, preserving Minecraft's update identity. The BP
-requires the exact matching resource-pack UUID/version. We did not copy the
-Factions UUIDs or add reciprocal dependencies just to imitate every detail.
+Starting with 0.2.1, releases are isolated as explicitly requested by the user.
+`tools/new_release.py` assigns new header/module UUIDs for each new version and
+links the matching BP/RP pair. Source templates are specialized during build:
+0.2.1 emits `tts_ai_bot_v0_2_1:robot`, project IDs using that prefix, and paths
+under `tts/ai_bot/v0_2_1/`. Manifest and root registration files retain the
+engine-prescribed locations. Both visible names/descriptions include the version.
 
-A hidden-spawn-egg compatibility definition still recognizes previously spawned
-`tts:robot` entities. Old dynamic-property keys remain on those entities so owner,
-name, home and settings are preserved. They are scoped to each robot, not global
-world data. This compatibility exception is intentional; new robots use the new
-project-specific ID. Test existing robots after import to verify native save
-behavior in Minecraft, not only in simulated tests.
+Legacy shared aliases are no longer emitted. Each test release requires a fresh
+robot/world; old ownership/settings do not transfer between different BP identities.
+See TEST_RELEASE_POLICY.md for the release workflow. Historical 0.2.0 packaging
+retained UUIDs and aliases; that behavior was replaced by the user's new policy.
 
 `npm run build` produces both the importable `.mcaddon`/separate `.mcpack` files
 and a **Content-layout development ZIP** matching the reference's content roots.

@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "tts:follow": {
+      "tts_ai_bot:follow": {
         "minecraft:behavior.follow_owner": {
           "priority": 4,
           "speed_multiplier": 1.1,
@@ -16,7 +16,7 @@
           "stop_distance": 2
         }
       },
-      "tts:defend": {
+      "tts_ai_bot:defend": {
         "minecraft:behavior.owner_hurt_by_target": {
           "priority": 1
         },
@@ -31,7 +31,6 @@
       "minecraft:type_family": {
         "family": [
           "tts_ai_bot",
-          "tts_robot",
           "mob"
         ]
       },
@@ -85,9 +84,9 @@
       "minecraft:interact": {
         "interactions": [
           {
-            "interact_text": "action.interact.tts_robot",
+            "interact_text": "action.interact.tts_ai_bot",
             "on_interact": {
-              "event": "tts:interact",
+              "event": "tts_ai_bot:interact",
               "target": "self"
             },
             "swing": true
@@ -96,35 +95,35 @@
       }
     },
     "events": {
-      "tts:follow_on": {
+      "tts_ai_bot:follow_on": {
         "add": {
           "component_groups": [
-            "tts:follow"
+            "tts_ai_bot:follow"
           ]
         }
       },
-      "tts:follow_off": {
+      "tts_ai_bot:follow_off": {
         "remove": {
           "component_groups": [
-            "tts:follow"
+            "tts_ai_bot:follow"
           ]
         }
       },
-      "tts:defend_on": {
+      "tts_ai_bot:defend_on": {
         "add": {
           "component_groups": [
-            "tts:defend"
+            "tts_ai_bot:defend"
           ]
         }
       },
-      "tts:defend_off": {
+      "tts_ai_bot:defend_off": {
         "remove": {
           "component_groups": [
-            "tts:defend"
+            "tts_ai_bot:defend"
           ]
         }
       },
-      "tts:interact": {}
+      "tts_ai_bot:interact": {}
     }
   }
 }

@@ -7,7 +7,7 @@ const ask=q=>createConversation().ask(q);
 test('substantial original knowledge is available',()=>assert.ok(knowledgeStats.records>4000));
 test('hopper recipe gives amounts without positions or technical notes',()=>{
  const r=ask('How do I make a hopper?');assert.equal(r.status,'conditional');
- assert.equal(r.answer,"To craft hopper, you'll need 5 iron ingots and 1 chest at a crafting table.");
+ assert.equal(r.answer,"To craft hopper, you'll need 5 iron ingots and 1 chest.");
  assert.ok(r.sources.includes('behavior_pack/recipes/hopper.json'));
 });
 test('different recipe phrasings retrieve same result',()=>assert.equal(ask("What's the recipe for a hopper?").answer,ask('How do I craft a hopper?').answer));
@@ -29,7 +29,7 @@ test('warning cooldown is enforced',()=>{assert.equal(canWarn(100,99),false);ass
 test('ambiguous material asks for clarification',()=>assert.equal(ask('What can I make with iron?').status,'ambiguous'));
 
 test('stone pickaxe uses three cobblestone and TWO sticks, including spaced spelling',()=>{
- const expected="To craft stone pickaxe, you'll need 3 cobblestone and 2 sticks at a crafting table.";
+ const expected="To craft stone pickaxe, you'll need 3 cobblestone and 2 sticks.";
  assert.equal(ask('How do I craft a stone pickaxe?').answer.split('\n')[0],expected);
  assert.equal(ask('How do I craft a stone pick axe?').answer.split('\n')[0],expected);
 });
@@ -60,4 +60,8 @@ test('player-facing factual and fallback answers keep development notes internal
   assert.doesNotMatch(ask(q).answer,/supplied|registry|sample|verified|not.*checked|durable_equipment|minecraft:/i);
  }
  assert.match(ask('What does Mending do?').answer,/items with durability/);
+});
+
+test('diamond sword answer is exactly ingredient quantities, without station or grid prose',()=>{
+ assert.equal(ask('How do I craft a diamond sword?').answer,"To craft diamond sword, you'll need 2 diamonds and 1 stick.");
 });

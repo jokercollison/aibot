@@ -1,14 +1,23 @@
-# Latest test build: 0.2.0
+# Latest separate test build: 0.2.1
 
-- [Download the complete add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.2.0.mcaddon)
-- [Download the plain-text testing list](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/Robot_Test_Checklist-0.2.0.txt)
-- [Download the Content-layout development ZIP](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-Content-0.2.0.zip) (for inspecting submission-style folders, not importing into Minecraft)
+**[Download AI Bot 0.2.1](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.2.1.mcaddon)**
 
-If either pack fails to import, download and open these separately in Minecraft:
+- [Plain-text testing checklist](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/Robot_Test_Checklist-0.2.1.txt)
+- [Resource pack 0.2.1](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-Resources-0.2.1.mcpack)
+- [Behavior pack 0.2.1](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-Behavior-0.2.1.mcpack)
+- [Content-layout development ZIP](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-Content-0.2.1.zip)
 
-1. [Resource pack 0.2.0](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-Resources-0.2.0.mcpack)
-2. [Behavior pack 0.2.0](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-Behavior-0.2.0.mcpack)
+Use a **fresh Creative test world**, activate ONLY the Behavior **0.2.1** and
+Resources **0.2.1** pair, and spawn a new robot. Both pack names and descriptions
+show 0.2.1; the robot menu must show **v0.2.1**. Summon ID:
+`tts_ai_bot_v0_2_1:robot`.
 
-Activate both updated packs in the test world's settings, then reopen the world. Names now begin **Time Trap Studios AI Bot**. Old robots have compatibility support; the new summon ID is `tts_ai_bot:robot`. Try the new **Test robot sound** menu button.
+This release has fresh UUIDs for every pack header/module and version-specific
+custom content names/paths. Old worlds and robots remain separate. Things to try
+is retained, and crafting answers give ingredient amounts only. The working 0.1.1
+texture and cube mapping are preserved in the actual packaged resources.
 
-This release adds basic what/does explanations and retains follow-up questions. The underlying catalog includes legacy/Education identifiers and is not a guarantee of every special gameplay mechanic or target-version factual verification. New audio and update behavior need actual Minecraft testing. Older files here are historical releases.
+Earlier version files here are historical builds. Do not use them for this test.
+Actual Minecraft appearance, sound, loading and multiplayer still require testing.
+
+The 0.2.1 .mcaddon contains normal Content pack folders, exactly as requested. The standalone .mcpack links above are optional separate imports; they are NOT inside the addon.

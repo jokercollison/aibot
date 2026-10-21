@@ -97,15 +97,11 @@ export function recipeText(record) {
         entries = Object.entries(d.key).filter(([symbol]) => counts[symbol]).map(([symbol,i]) => ({ingredient:i,count:counts[symbol] * (i.count ?? 1)}));
       } else entries = d.ingredients.map(i => ({ingredient:i,count:i.count ?? 1}));
       text = `To craft ${name}, you'll need ${amounts(entries)}`;
-      if ((d.tags ?? []).includes('crafting_table')) text += ' at a crafting table';
-      else if ((d.tags ?? []).includes('stonecutter')) text += ' at a stonecutter';
       text += '.';
     } else if (d.input) {
       const stations = (d.tags ?? []).map(t => ({furnace:'furnace',blast_furnace:'blast furnace',smoker:'smoker',campfire:'campfire',soul_campfire:'soul campfire'}[t])).filter(Boolean);
       text = `To make ${name}, cook ${ingredientName(d.input)}${stations.length ? ' using a ' + stations.join(' or ') : ''}.`;
     } else text = `I know a recipe for ${name}, but I still need to learn how to explain the steps.`;
-    const result = d.result;
-    if (result && !Array.isArray(result) && (result.count ?? 1) > 1) text += ` This makes ${result.count} ${plural(clean(result.item ?? name),result.count)}.`;
     return text;
   });
   return {status:'conditional',answer:[...new Set(lines)].join('\n'),sources:recipes.map(r=>r.source)};

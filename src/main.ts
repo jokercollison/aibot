@@ -1,13 +1,14 @@
 import {world, system, Entity, Player, EntityTameableComponent} from '@minecraft/server';
 import {ActionFormData, ModalFormData} from '@minecraft/server-ui';
+import {VERSION,SCOPE,ROBOT_ID,SOUND_ID} from './build-info.js';
 import {HELP} from './help.js';
 import {createConversation} from './knowledge.js';
 import banter from '../data/banter.json';
 import {owns, safeName, decodeHome, canWarn} from './state.js';
-const ROBOT = 'tts_ai_bot:robot';
-const ROBOT_TYPES = new Set([ROBOT,'tts:robot']);
+const ROBOT = ROBOT_ID;
+const ROBOT_TYPES = new Set([ROBOT]);
 let soundFailureLogged = false;
-const key = (k: string) => `tts:${k}`;
+const key = (k: string) => `${SCOPE}:${k}`;
 const owner = (bot: Entity) => bot.getDynamicProperty(key('owner')) as string | undefined;
 const conversations = new Map<string, ReturnType<typeof createConversation>>();
 const busy = new Set<string>();
@@ -22,13 +23,13 @@ function say(player: Player, bot: Entity, text: string) {
   playChirp(player);
 }
 function playChirp(player: Player) {
-  try {player.playSound('tts_ai_bot.robot.chirp', {volume: 0.7, pitch: 1});}
+  try {player.playSound(SOUND_ID, {volume: 0.7, pitch: 1});}
   catch (error) {
     if (!soundFailureLogged) {console.warn(`AI Bot sound playback failed: ${String(error)}`);soundFailureLogged=true;}
   }
 }
 function mode(bot: Entity, following: boolean) {
-  bot.triggerEvent(`tts:follow_${following?'on':'off'}`);
+  bot.triggerEvent(`${SCOPE}:follow_${following?'on':'off'}`);
   bot.setDynamicProperty(key('mode'), following ? 'follow' : 'stay');
 }
 async function interact(player: Player, bot: Entity) {
@@ -47,10 +48,10 @@ async function interact(player: Player, bot: Entity) {
       bot.setDynamicProperty(key('home'), JSON.stringify({...bot.location, dimension:bot.dimension.id}));
       bot.nameTag = 'TTR-1';
       mode(bot, false);
-      say(player, bot, `${banter.greeting[0]} I'm your AI companion! Use Ask to ask me a question, or Settings to give me a name.`);
+      say(player, bot, `${banter.greeting[0]} I'm your AI companion! Use Ask for questions, Things to try for examples, or Settings to give me a name.`);
     }
     assertOwner(player, bot);
-    const form = await new ActionFormData().title(bot.nameTag || 'TTR-1').body('Your AI companion. Ask me a question or choose what we do next.')
+    const form = await new ActionFormData().title(`${bot.nameTag || 'TTR-1'} — v${VERSION}`).body('Your AI companion. Ask me a question or choose what we do next.')
       .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').button('Things to try').button('Test robot sound').show(player);
     if (form.canceled) return;
     assertOwner(player, bot);
@@ -99,7 +100,7 @@ async function interact(player: Player, bot: Entity) {
         const name = safeName(settings.formValues?.[0]);
         bot.setDynamicProperty(key('name'),name);bot.nameTag=name;
         const defend = settings.formValues?.[1] === true;
-        bot.triggerEvent(`tts:defend_${defend?'on':'off'}`);
+        bot.triggerEvent(`${SCOPE}:defend_${defend?'on':'off'}`);
         bot.setDynamicProperty(key('defend'),defend);
         bot.setDynamicProperty(key('warnings'),settings.formValues?.[2] === true);
         say(player,bot,'Settings saved.'); break;
@@ -122,7 +123,7 @@ world.afterEvents.playerLeave.subscribe(event => {
 system.runInterval(() => {
   const seen = new Set<string>();
   for (const player of world.getAllPlayers()) {
-    for (const bot of player.dimension.getEntities({families:['tts_ai_bot'], location:player.location, maxDistance:24, closest:8})) {
+    for (const bot of player.dimension.getEntities({families:[SCOPE], location:player.location, maxDistance:24, closest:8})) {
       if (!ROBOT_TYPES.has(bot.typeId) || seen.has(bot.id) || !owns(player.id,owner(bot))) continue;
       seen.add(bot.id);
       try {
