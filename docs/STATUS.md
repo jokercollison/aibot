@@ -1,3 +1,10 @@
+# Source development after 0.2.9: spawning and location
+
+Spawning-troubleshooting summaries cover all 90 catalog mobs, with 48 expanded
+location answers and 60 preserved sample rule files. All 134 automated tests pass.
+See ENTITY_SPAWNING.md. This is not a new downloadable release; 0.2.9 is still the
+latest test archive. Summaries do not establish exhaustive spawning mechanics.
+
 # Current test release: 0.2.9 — entity variants and interactions
 
 Packages the two entity source batches after 0.2.8, with 178 named variants,

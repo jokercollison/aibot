@@ -191,6 +191,17 @@ export function createConversation() {
       if (intent === 'uses' && /\bwith iron$/.test(q)) return {status:'ambiguous',answer:'Do you mean iron ingots, raw iron, or iron blocks? Please include the material in your question.'};
       const matches = subjects(q).filter(x => intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
       let inheritedSubject=false;
+      let scopedSpawnSubject=false;
+      if(['spawning','spawn_conditions'].includes(entityTopic(q))) {
+        const clause=q.match(/\b(?:won t|can t|doesn t|don t|does|do|can|will|would)\s+(.+?)\s+(?:(?:not|naturally|never|still|ever)\s+)*spawn\b/);
+        if(clause) {
+          if(previous&&/^(?:it|they|them)$/.test(clause[1].trim())) {matches.splice(0,matches.length);inheritedSubject=true;}
+          else {
+            const entities=subjects(clause[1]).filter(x=>x.record.kind==='entity');
+            if(entities.length){matches.splice(0,matches.length,...entities);scopedSpawnSubject=true;}
+          }
+        }
+      }
       if(entityTopic(q)==='drops') {
         const subjectClause=q.match(/\b(?:does|do|will|would|can)\s+(.+?)\s+(?:drop|drops|give|leave)\b/);
         const killedObject=q.match(/\b(?:kills?|killed(?! by)|slays?|shoots?)\s+(?:a |an |the )?(.+?)(?=\s+(?:what|when|if|with|using|and|does|do)\b|$)/);
@@ -202,8 +213,8 @@ export function createConversation() {
           if(identified.length) {matches.splice(0,matches.length,...identified);break;}
         }
       }
-      if(['diet','healing','taming','breeding','transport','combat','fire','water','land','sunlight','rain','powder_snow','conversion','temperature','growth','age_lock','hatching','music','oxidation','naming','harvesting','storage','equipment','repair','milking','shearing','brushing'].includes(entityTopic(q))) {
-        const actor=q.match(/\b(?:does|do|can|will|would|should|could|is|are)\s+(.+?)\s+(?:eat|eats|breed|heal|tame|ride|attack|survive|burn|burns|drown|freeze|breathe|live|grow|melt|immune|convert|converts|turn|transform)\b/);
+      if(['spawn_conditions','diet','healing','taming','breeding','transport','combat','fire','water','land','sunlight','rain','powder_snow','conversion','temperature','growth','age_lock','hatching','music','oxidation','naming','harvesting','storage','equipment','repair','milking','shearing','brushing'].includes(entityTopic(q))) {
+        const actor=q.match(/\b(?:does|do|can|will|would|should|could|is|are)\s+(.+?)\s+(?:eat|eats|breed|heal|tame|ride|attack|survive|burn|burns|drown|freeze|breathe|live|grow|melt|immune|convert|converts|turn|transform|spawn)\b/);
         const object=q.match(/\b(?:tame|breed|heal|ride|brush|shear|repair|milk|equip|name|stop)\s+(?:a |an |the |my )?(.+?)(?=\s+(?:with|using|when|while|in|at|near)\b|$)/);
         const shorthand=q.match(/^(.+?)\s+(?:eat|eats)\b/);
         for(const span of [actor?.[1],object?.[1],shorthand?.[1]]) {
@@ -230,8 +241,8 @@ export function createConversation() {
       const exact = String(input).toLowerCase().match(/\b(?:(block|item|entity):)?(minecraft:(?:potion_type:)?[a-z0-9_]+)\b/);
       let candidates = matches.length ? matches.filter(m => m.size === matches[0].size && m.start === matches[0].start).map(m => m.record) : [];
       if (exact) candidates = (byMinecraftId.get(exact[2]) ?? []).filter(r => !exact[1] || r.kind === exact[1]);
-      const kindHint = /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
-      if(!['block','item'].includes(kindHint) && (/\b(drop|drops|loot|dangerous)\b/.test(q) || ['health','variants','breeding','taming','diet','healing','transport','combat','brushing','shearing','age_lock','growth','fire','water','sunlight','rain','powder_snow','conversion','fall_damage','land'].includes(entityTopic(q))) && candidates.some(r=>r.kind==='entity'))candidates=candidates.filter(r=>r.kind==='entity');
+      const kindHint = scopedSpawnSubject ? 'entity' : /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
+      if(!['block','item'].includes(kindHint) && (/\b(drop|drops|loot|dangerous)\b/.test(q) || ['spawn_conditions','health','variants','breeding','taming','diet','healing','transport','combat','brushing','shearing','age_lock','growth','fire','water','sunlight','rain','powder_snow','conversion','fall_damage','land'].includes(entityTopic(q))) && candidates.some(r=>r.kind==='entity'))candidates=candidates.filter(r=>r.kind==='entity');
       if (!exact && kindHint && candidates.some(r=>r.kind===kindHint)) candidates=candidates.filter(r=>r.kind===kindHint);
       candidates = [...new Map(candidates.map(r => [r.id,r])).values()];
       if (!candidates.length && /\b(it|they|them|its)\b/.test(q) && previous) candidates = [previous];

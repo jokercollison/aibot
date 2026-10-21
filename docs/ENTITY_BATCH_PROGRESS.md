@@ -1,3 +1,11 @@
+# Spawning/location source batch after 0.2.9
+
+90 catalog mobs now have spawning-troubleshooting summaries, and 48 location
+answers were expanded. All 60 pinned spawn-rule files are preserved as developer
+evidence. 1,170 reviewed topic summaries are connected overall; 134 automated
+tests pass. See ENTITY_SPAWNING.md for evidence limits and remaining work.
+Published 0.2.9 downloads remain unchanged; this source batch is not packaged yet.
+
 # Further entity review after 0.2.8
 
 Added 67 form/state summaries, bringing all 90 catalog mobs to a sourced answer

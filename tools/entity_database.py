@@ -2,10 +2,12 @@
 import json
 from entity_topics import feeding, health, sample_url
 from entity_environment import compile as compile_environment
+from entity_spawning import compile as compile_spawning
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def build():
  compile_environment()
+ compile_spawning()
  evidence=json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects']
  catalog_entities=len(evidence)
  references=json.loads((ROOT/'data/entities/reference_editorial.json').read_text())['subjects']
@@ -17,6 +19,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ spawn_data=json.loads((ROOT/'data/entities/spawn_editorial.json').read_text())['subjects']
  environment_data=json.loads((ROOT/'data/entities/environment_components.json').read_text())
  runtime={};audit={};conflicts=[]
  for key,subject in evidence.items():
@@ -24,7 +27,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)

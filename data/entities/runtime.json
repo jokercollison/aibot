@@ -39,7 +39,7 @@
   "minecraft:allay": {
     "topics": {
       "spawning": {
-        "answer": "Look in cages at pillager outposts and jail cells in woodland mansions. Allays appear with those structures during world generation; they do not normally appear everywhere at random.",
+        "answer": "Look in cages at pillager outposts and jail cells in woodland mansions. The original allays generate with those structures; not every cage or cell contains them.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3852359"
         ],
@@ -103,6 +103,13 @@
       },
       "variants": {
         "answer": "Allays duplicate into another full-sized allay rather than producing a baby. The new allay does not inherit the original custom name.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Allays do not refill a cleared structure through ordinary natural spawning. Search another eligible structure or duplicate an existing allay with an amethyst shard while it dances to a jukebox.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3852359"
         ],
@@ -195,7 +202,7 @@
   "minecraft:armadillo": {
     "topics": {
       "spawning": {
-        "answer": "Armadillos naturally spawn in savannas and badlands, including their matching plateau, windswept, wooded and eroded variants.",
+        "answer": "Look in savanna, savanna plateau, windswept savanna, badlands, wooded badlands and eroded badlands.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844454"
         ],
@@ -267,6 +274,13 @@
       },
       "variants": {
         "answer": "Armadillos have baby and adult stages. Rolling into a ball is a defensive state, not a separate breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock armadillos need light level 7 or more in their eligible savanna or badlands habitats. A warm climate alone does not make every desert a valid armadillo biome.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844454"
         ],
@@ -453,7 +467,7 @@
   "minecraft:axolotl": {
     "topics": {
       "spawning": {
-        "answer": "Look underwater in lush caves, with clay close beneath the spawning space.",
+        "answer": "Look underwater in lush caves with clay less than five blocks below the spawning space. Blue axolotls come from breeding rather than natural spawning.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844455"
         ],
@@ -527,6 +541,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844455",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check for a lush-caves biome, water and nearby clay below the spawning space. A pond in another biome is not enough. Blue axolotls do not naturally spawn.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
         ],
         "coverage": "reviewed_summary"
       },
@@ -759,7 +780,7 @@
   "minecraft:bat": {
     "topics": {
       "spawning": {
-        "answer": "Bats appear in sheltered, dark Overworld spaces. In Bedrock they need light level 4 or less, a suitable rock surface, and no direct sky exposure; they do not naturally spawn in the deep dark.",
+        "answer": "Look in roofed dark Overworld spaces, except the deep dark. In Bedrock, bats can spawn at any height on suitable stone-type blocks with light level 4 or less.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844624"
         ],
@@ -821,6 +842,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Check light level 4 or less, no direct sky exposure, enough air space, and stone, granite, diorite, andesite, tuff or deepslate below. Bats have an ambient population cap; a low cave height alone is not the deciding condition.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A bat is a small passive flying cave animal. It adds atmosphere to dark areas and is not a tameable companion or a useful loot source.",
         "sources": [
@@ -875,7 +903,7 @@
   "minecraft:bee": {
     "topics": {
       "spawning": {
-        "answer": "Look for naturally generated bee nests on suitable trees. Bees live in nests or beehives and can also be bred.",
+        "answer": "Find bees inside naturally generated bee nests on trees. Flower-rich biomes such as meadows are useful places to search. Growing suitable trees can also produce nests with bees.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844630"
         ],
@@ -954,6 +982,13 @@
       },
       "variants": {
         "answer": "Bees have baby and adult stages. Anger and carrying nectar or pollen are changing states, not different breeds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bees come with generated nests rather than randomly appearing around a crafted empty beehive. Growing oak, birch or cherry saplings within two blocks of suitable flowers has a chance to produce a populated nest; a single tree is not guaranteed to do so.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844630"
         ],
@@ -1336,7 +1371,7 @@
   "minecraft:blaze": {
     "topics": {
       "spawning": {
-        "answer": "Find blazes in Nether fortresses, including around blaze spawners. Their spawning requires a light level of 11 or less.",
+        "answer": "Look in Nether fortresses, especially at blaze-spawner platforms. Blazes can also spawn naturally within fortress spawning areas.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3852956"
         ],
@@ -1395,6 +1430,13 @@
       },
       "variants": {
         "answer": "A blaze that is preparing to shoot is in an attack state. A breeze is a different mob, not another blaze color.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Blazes require light level 11 or less. Natural fortress spawning depends on the fortress piece or overall fortress bounds; in the larger fortress bounds, Nether bricks are required. Spawner spawning is a separate route, so an ordinary Nether-brick platform outside a fortress is not enough.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3852956"
         ],
@@ -1508,7 +1550,7 @@
   "minecraft:bogged": {
     "topics": {
       "spawning": {
-        "answer": "Bogged spawn on the surface in swamps and mangrove swamps, and from suitable trial spawners in trial chambers. In Bedrock their natural surface spawning can occur at light levels 0–7; do not use Java’s underground-spawning rule.",
+        "answer": "Find bogged on the surface in swamps and mangrove swamps, or from certain trial-chamber spawners.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851713"
         ],
@@ -1560,6 +1602,13 @@
       },
       "variants": {
         "answer": "Bogged can have mushrooms or be sheared. They are a separate skeleton-type mob rather than a baby skeleton.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock natural bogged spawning is surface-only, at light levels 0–7 in swamps or mangrove swamps. A dark underground swamp cave is not the same route. Trial spawners are separate and must have bogged selected as their mob.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851713"
         ],
@@ -1626,7 +1675,7 @@
   "minecraft:breeze": {
     "topics": {
       "spawning": {
-        "answer": "Breezes come from special trial spawners in trial-chamber combat rooms. They do not normally spawn across ordinary Overworld terrain.",
+        "answer": "Look for breeze trial spawners in trial-chamber combat rooms, commonly surrounded by chiseled tuff. Breezes do not naturally wander around ordinary caves.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3822417"
         ],
@@ -1678,6 +1727,13 @@
       },
       "variants": {
         "answer": "Breezes and blazes are different mobs. A breeze changing its pose while jumping or attacking is not changing species.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Use a breeze-configured trial spawner in a trial-chamber combat room. It needs a valid spawn position with line of sight to the spawner. A normal dark platform or an unrelated trial spawner does not produce breezes.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3822417"
         ],
@@ -1861,6 +1917,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Camels can appear in deserts, including the original camel generated in a non-abandoned desert village. Clearing or rebuilding a village does not regenerate that original camel. Ordinary natural spawning and the village-generated camel are separate sources.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel is a tall rideable desert animal. Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
         "sources": [
@@ -2009,6 +2072,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Bedrock camel husks use desert monster spawning and appear with riders, not as ordinary passive desert camels. They do not naturally spawn in Peaceful. Do not apply Java’s exact husk-pack chance to Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel husk is an undead camel variant. It can carry riders, including hostile ones under suitable conditions. Its undead behavior differs from an ordinary camel.",
         "sources": [
@@ -2072,7 +2142,7 @@
   "minecraft:cat": {
     "topics": {
       "spawning": {
-        "answer": "Look in villages with suitable owned beds. Black cats can also generate at swamp huts. Village cat spawning uses its own bed-related rules rather than ordinary animal spawning.",
+        "answer": "Find cats in villages and a black cat at a swamp hut. Bedrock village cats depend on claimed beds and the number of cats already in the village.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853626"
         ],
@@ -2167,6 +2237,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853626",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock villages try to fill a quota of one cat per four claimed beds, up to five cats at 20 or more claimed beds. Existing cats, including babies and tamed visitors, count toward the quota. Provide a valid spawning space near the village center; merely placing unclaimed beds is not enough.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
         ],
         "coverage": "reviewed_summary"
       },
@@ -2658,6 +2735,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Mineshaft cave-spider spawners require darkness and usable spawning space. Certain trial spawners can also select cave spiders. Natural cave spiders replace ordinary spiders in sulfur caves; an ordinary dark cave in another biome is not the same route.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cave spider is a small hostile spider associated with abandoned mineshafts. Its attacks can poison players under suitable difficulty settings. Keep distance and watch for webs.",
         "sources": [
@@ -2875,6 +2959,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850656",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock natural chickens need grass blocks and light level 7 or more in an eligible biome. Snowy plains, meadows, cherry groves, mangrove swamps and pale gardens are excluded. Egg hatching and breeding are separate ways to obtain chickens.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656"
         ],
         "coverage": "reviewed_summary"
       },
@@ -3146,6 +3237,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Bedrock cod use surface water in normal, cold, frozen and lukewarm oceans and their deep variants, around 12–32 blocks from the player. A roof or spawnable layer above can block the surface spawning check; a river is not their ordinary natural habitat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cod is a small aquatic fish. Catch it for food or collect the live fish in a water bucket for transport.",
         "sources": [
@@ -3332,6 +3430,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Create a copper golem with a copper block and a carved pumpkin or jack o’lantern, placing the pumpkin last. Oxidation and wax states of the starting block have their own effects. A dark platform or ordinary copper ore does not naturally generate one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A copper golem is a helper mob associated with copper storage. It sorts items by moving them from copper chests into suitable chests, making it useful in storage rooms. Its copper body oxidizes over time.",
         "sources": [
@@ -3502,6 +3607,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Natural cows need a well-lit grass block, two blocks of space above and an eligible grassy biome. Snowy plains, meadows, cherry groves, mangrove swamps and pale gardens are excluded. Village-generated animals, breeding and shearing a mooshroom are separate routes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cow is a passive farm animal. Milk it with a bucket, breed adults with wheat, and raise cows as a source of leather and beef.",
         "sources": [
@@ -3667,7 +3779,7 @@
   "minecraft:creaking": {
     "topics": {
       "spawning": {
-        "answer": "Creakings are produced at night by active creaking hearts in the Overworld. The heart must be correctly placed between matching pale-oak blocks along the same axis.",
+        "answer": "Look around active creaking hearts in pale gardens at night. A heart can also be activated outside that biome in the Overworld with correctly aligned pale oak blocks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3852706"
         ],
@@ -3745,6 +3857,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "At night in the Overworld, an activated creaking heart needs pale oak blocks on opposite sides along its own axis and a valid nearby spawning space. The heart-linked creaking differs from a command-created one; an ordinary dark platform alone does not produce it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A creaking is a hostile tree-like mob linked to a creaking heart. It moves when players are not looking at it. Deal with the linked heart rather than relying on ordinary attacks against the mob.",
         "sources": [
@@ -3772,7 +3891,7 @@
   "minecraft:creeper": {
     "topics": {
       "spawning": {
-        "answer": "Creepers appear in suitable dark Overworld areas. In Bedrock their natural spawning excludes mushroom fields, deep dark, rivers, frozen rivers and snowy plains.",
+        "answer": "Creepers naturally spawn in dark Overworld areas, excluding mushroom fields, deep dark, rivers, frozen rivers and snowy plains in Bedrock.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848379"
         ],
@@ -3845,6 +3964,13 @@
       },
       "fire": {
         "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "For ordinary natural spawning, check darkness, a suitable solid surface, space, enabled mob spawning and a difficulty above Peaceful. Bedrock excludes mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Lighting can prevent spawning; it does not remove an existing creeper.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848379"
         ],
@@ -3960,7 +4086,7 @@
   "minecraft:dolphin": {
     "topics": {
       "spawning": {
-        "answer": "Dolphins swim near sea level in ordinary, lukewarm and warm oceans, including suitable deep variants. They do not naturally spawn in cold or frozen oceans.",
+        "answer": "Look in ocean water between Y=50 and Y=64, excluding cold and frozen oceans.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844640"
         ],
@@ -4039,6 +4165,13 @@
       },
       "variants": {
         "answer": "Dolphins have baby and adult stages. Babies can spawn naturally; feeding two dolphins does not breed a baby.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural dolphins need an eligible ocean biome and Y=50–64. A river, cold ocean or frozen ocean is not the same habitat. Breeding dolphins with fish does not create new dolphins.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844640"
         ],
@@ -4211,6 +4344,13 @@
       },
       "variants": {
         "answer": "Donkeys have baby and adult stages. A mule is the offspring of a horse and a donkey, not a donkey coat variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural Bedrock donkeys occur in plains, meadows and savannas. A meadow is valid even though it is not an ordinary cow habitat. Breeding requires existing compatible animals; it is separate from waiting for wild donkeys.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850357"
         ],
@@ -4432,7 +4572,7 @@
   "minecraft:drowned": {
     "topics": {
       "spawning": {
-        "answer": "Drowned appear underwater in rivers, ocean biomes and suitable dripstone-cave waters. Some generate with ocean ruins. A submerged zombie can also convert into a drowned.",
+        "answer": "Look in oceans, rivers and dripstone-cave water. Some ocean ruins generate drowned. Ordinary zombies can also convert after prolonged submersion.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
         ],
@@ -4491,6 +4631,13 @@
       },
       "variants": {
         "answer": "Drowned can be babies or adults, and their held equipment can differ. A trident is equipment, not a separate species.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural spawning needs water with no emitted block light and sky light 7 or less. Bedrock uses surface spawning checks, not Java’s universal below-Y=58 rule. Rivers and dripstone caves have higher rates than oceans. Zombie conversion and ocean-ruin generation are separate sources.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
         ],
@@ -4597,7 +4744,7 @@
   "minecraft:elder_guardian": {
     "topics": {
       "spawning": {
-        "answer": "Three elder guardians generate with each ocean monument: one near the top and one in each wing. They do not naturally respawn after being killed.",
+        "answer": "Each ocean monument generates three elder guardians: one in the top room and one in each wing. They do not naturally respawn.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853190"
         ],
@@ -4649,6 +4796,13 @@
       },
       "variants": {
         "answer": "An elder guardian is a separate mob from a guardian. A normal guardian does not grow into an elder guardian.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Elder guardians generate with the monument, not through a repeatable dark-water spawning cycle. Once the three are gone, waiting or rebuilding monument blocks will not naturally replace them.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853190"
         ],
@@ -4812,6 +4966,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "The first dragon is associated with entering the End. To resummon it after defeat, use four End crystals, one at the center of each side of the exit portal. A dark platform or a random crystal arrangement away from that portal does not resummon it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "The Ender Dragon is a flying boss associated with the End's central island. It attacks players and can heal from End crystals. Defeating it opens important progression routes in the End.",
         "sources": [
@@ -4913,7 +5074,7 @@
   "minecraft:enderman": {
     "topics": {
       "spawning": {
-        "answer": "Endermen appear in the Overworld, Nether and End. Warped forests are a useful Nether location, while the End has many endermen. They need enough vertical space for their tall bodies.",
+        "answer": "Endermen occur in the Overworld, Nether and End. Warped forests are especially useful in the Nether, and endermen are common in the End.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850886"
         ],
@@ -5005,6 +5166,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Endermen need a suitable solid surface and three empty blocks above. They need darkness in the Overworld and End, or light 7 or less in the Nether. Bedrock Overworld exclusions include mushroom fields, deep dark, rivers, frozen rivers and snowy plains.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An enderman is a tall neutral mob that can teleport and move certain blocks. It becomes hostile when provoked, including by looking into its eyes under suitable conditions. Water is dangerous to it.",
         "sources": [
@@ -5045,7 +5213,7 @@
   "minecraft:endermite": {
     "topics": {
       "spawning": {
-        "answer": "A player-thrown ender pearl has a 5% chance to create an endermite. In Bedrock it appears at the pearl’s landing site.",
+        "answer": "An endermite can appear when a player’s thrown ender pearl lands. In Bedrock it appears at the pearl’s landing site.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843703"
         ],
@@ -5097,6 +5265,13 @@
       },
       "variants": {
         "answer": "An endermite is its own small mob, not a baby enderman.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "A player-thrown ender pearl has a 5% chance to produce an endermite when it lands. A dark platform does not naturally generate them. Endermites disappear after about two minutes unless named with a name tag.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843703"
         ],
@@ -5208,6 +5383,13 @@
       },
       "variants": {
         "answer": "An evoker encountered in a mansion or a raid is the same kind of illager. Summoned vexes are separate mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Mansion evokers generate once in particular upper-floor rooms and do not refill after being killed. Another source is a raid on Normal or Hard, starting at wave five. An Easy raid or a cleared mansion is not a repeatable evoker-spawning area.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853175"
         ],
@@ -5504,6 +5686,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Red foxes naturally occur in taigas, old growth pine and spruce taigas and dappled forests; snow foxes occur in snowy taigas and groves. Moving a fox or placing snow does not recolor it or change the actual biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A fox is an animal that can carry an item in its mouth. It hunts some smaller animals and can pick up dropped items. A fox bred by players can trust them, but is not a wolf-style tamed follower.",
         "sources": [
@@ -5632,7 +5821,7 @@
   "minecraft:frog": {
     "topics": {
       "spawning": {
-        "answer": "Frogs appear in swamps and mangrove swamps, and are produced when tadpoles grow up. The biome where a tadpole matures determines the frog’s variant.",
+        "answer": "Frogs naturally spawn in swamps and mangrove swamps. To obtain a cold frog, raise a tadpole in a cold biome.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844499"
         ],
@@ -5704,6 +5893,13 @@
       },
       "land": {
         "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Ordinary natural spawning is in swamps and mangrove swamps. A tadpole’s growth biome determines its adult frog color; moving an adult frog does not recolor it. Spawn eggs and biome-border cases are different from normal natural habitats.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844499"
         ],
@@ -5891,7 +6087,7 @@
   "minecraft:ghast": {
     "topics": {
       "spawning": {
-        "answer": "Look for ghasts in Nether wastes, soul sand valleys and basalt deltas with enough open space for their large bodies.",
+        "answer": "Look in Nether wastes, soul sand valleys and basalt deltas. Ghasts can spawn at any light level.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3830625"
         ],
@@ -5929,6 +6125,13 @@
       },
       "variants": {
         "answer": "A hostile ghast is a different mob from a happy ghast. A ghastling grows into a happy ghast, not a hostile ghast.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "A ghast needs a solid block beneath its spawn position and about five by five blocks of clear width with four blocks of height. A cramped tunnel will not work. Light is not the deciding restriction; the biome and large clear space matter.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3830625"
         ],
@@ -5995,7 +6198,7 @@
   "minecraft:glow_squid": {
     "topics": {
       "spawning": {
-        "answer": "In Bedrock, look for glow squid in completely dark underground water from Y=-64 to Y=30, below a solid roof. They do not naturally spawn in the deep dark.",
+        "answer": "Look in completely dark underground water from Y=-64 to Y=30 in Bedrock, outside the deep dark.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844507"
         ],
@@ -6046,6 +6249,13 @@
       },
       "variants": {
         "answer": "Glow squid have baby and adult stages. They are a different species from ordinary squid and cannot be bred with food.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check light level 0, Y=-64 through 30, water and a solid roof so the location counts as underground. Ordinary surface squid use a different spawning route. Deep dark is excluded.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844507"
         ],
@@ -6119,7 +6329,7 @@
   "minecraft:goat": {
     "topics": {
       "spawning": {
-        "answer": "Look for goats on snowy slopes, jagged peaks and frozen peaks.",
+        "answer": "Look on snowy slopes, jagged peaks and frozen peaks, on surfaces such as stone, gravel, packed ice and snow blocks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844651"
         ],
@@ -6215,6 +6425,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844651",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Use the correct mountain biome and a suitable surface. Natural spawning after world generation is less common than the original groups. A snowy mountain-looking build in a different biome does not create the required habitat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
         ],
         "coverage": "reviewed_summary"
       },
@@ -6326,7 +6543,7 @@
   "minecraft:guardian": {
     "topics": {
       "spawning": {
-        "answer": "Find guardians in and around ocean monuments. In Bedrock their structure spawning uses 25 fixed spawning columns in water; removing the visible monument does not by itself remove those spawn locations.",
+        "answer": "Look in water at an ocean monument. Bedrock guardian farms use fixed spawning columns tied to the monument.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853189"
         ],
@@ -6383,6 +6600,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Bedrock guardians use 25 predetermined columns with water-source checks, rather than spawning anywhere across a Java-style monument volume. Removing the monument blocks alone does not remove those spawning positions. Check the column, water and obstructions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A guardian is a hostile aquatic mob associated with ocean monuments. It attacks with a damaging beam and can hurt attackers with its defensive spikes.",
         "sources": [
@@ -6430,7 +6654,7 @@
   "minecraft:happy_ghast": {
     "topics": {
       "spawning": {
-        "answer": "A happy ghast starts as a ghastling after a dried ghast is kept waterlogged for about twenty minutes. The ghastling must grow before it can be ridden.",
+        "answer": "Waterlog a dried ghast for about 20 minutes to obtain a ghastling, then let it grow into a happy ghast.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853633"
         ],
@@ -6516,6 +6740,13 @@
       },
       "variants": {
         "answer": "A baby happy ghast is called a ghastling. It grows into a happy ghast; the hostile ghast is a separate mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Happy ghasts do not use ordinary hostile-ghast spawning. Keep a dried ghast waterlogged until it becomes a ghastling. Snowballs speed up the ghastling’s growth, but two happy ghasts do not breed.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853633"
         ],
@@ -6632,7 +6863,7 @@
   "minecraft:hoglin": {
     "topics": {
       "spawning": {
-        "answer": "Find hoglins in crimson forests and some bastion remnants in the Nether.",
+        "answer": "Find hoglins in crimson forests and certain bastion areas, especially hoglin stables. Crimson-forest hoglins can respawn over time.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843704"
         ],
@@ -6705,6 +6936,13 @@
       },
       "variants": {
         "answer": "Hoglins have baby and adult stages. Zombification produces a zoglin, which is a different mob rather than an ordinary growth stage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural hoglins can spawn at any light level in crimson forests. In Bedrock, Nether wart blocks and shroomlights are unsuitable spawning surfaces. Leave adequate space; bastion-generated hoglins are a separate source.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843704"
         ],
@@ -6928,6 +7166,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850329",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural horses occur in plains and savannas, with some also generated in village animal areas. Coats and markings do not each require a different biome. Donkeys, mules and undead horses have different sources.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
         ],
         "coverage": "reviewed_summary"
       },
@@ -8433,6 +8678,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Bedrock husks naturally use desert surface spawning, replacing many ordinary zombies. A dark underground desert tunnel is not the same surface route. Monster-spawner or trial-spawner encounters should be treated separately.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A husk is a desert zombie variant that does not burn in sunlight. Its attacks can inflict Hunger, so it remains dangerous even in daytime.",
         "sources": [
@@ -8480,7 +8732,7 @@
   "minecraft:iron_golem": {
     "topics": {
       "spawning": {
-        "answer": "Iron golems can be summoned by qualifying villages, generate in some villages or pillager-outpost cages, and be constructed by players. Bedrock village spawning has its own bed, villager and work requirements; Java farm layouts are not interchangeable.",
+        "answer": "Find iron golems in villages, or construct one. Bedrock village spawning has bed, villager and working requirements; it does not use Java’s three-panicking-villager setup.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851102"
         ],
@@ -8574,6 +8826,13 @@
       },
       "variants": {
         "answer": "Iron golems show cracks as their health decreases. Cracks show damage, not a different breed; iron ingots can repair them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "A Bedrock village needs at least 20 beds and 10 villagers, all villagers linked to beds, and at least 75% of eligible villagers having worked recently. The village center must be in simulation distance, with a valid unobstructed spawning surface nearby. Three frightened villagers alone are not the Bedrock requirements.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851102"
         ],
@@ -8788,6 +9047,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844667",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural llamas require grass blocks, light above 7 and eligible hills or savanna habitats. Bedrock includes regular and windswept savannas as well as savanna plateaus. Trader llamas arrive with wandering traders rather than being ordinary wild herds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
         ],
         "coverage": "reviewed_summary"
       },
@@ -9034,7 +9300,7 @@
   "minecraft:magma_cube": {
     "topics": {
       "spawning": {
-        "answer": "Magma cubes appear in Nether wastes, basalt deltas and Nether fortresses. A treasure-room bastion can contain a magma-cube spawner.",
+        "answer": "Find magma cubes in the Nether, especially basalt deltas, and from magma-cube spawners in bastion treasure rooms.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849057"
         ],
@@ -9093,6 +9359,13 @@
       },
       "water": {
         "answer": "It can swim, but staying submerged for 15 seconds starts drowning damage. A larger cube can split into smaller cubes when it dies. Lava immunity does not mean immunity to drowning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural magma-cube spawning permits any light level but needs enough clear space without solid or liquid obstructions. Space is checked before the cube’s final size is selected, so a tiny gap is not sufficient just because small cubes exist. Monster spawners are a separate source.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849057"
         ],
@@ -9394,6 +9667,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Natural red mooshrooms require mushroom fields and mycelium. Brown mooshrooms do not naturally spawn: use lightning conversion or the rare opposite-color offspring from breeding two matching mooshrooms. Ordinary cows and red mushrooms do not combine into a mooshroom.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mooshroom is a mushroom-covered cow variant. It can be milked and can provide mushroom stew when used with a bowl. Shearing it changes it into an ordinary cow.",
         "sources": [
@@ -9588,7 +9868,7 @@
   "minecraft:mule": {
     "topics": {
       "spawning": {
-        "answer": "Mules are produced by breeding a tamed horse with a tamed donkey. They do not naturally spawn in ordinary terrain.",
+        "answer": "Obtain a mule by breeding a horse with a donkey. Mules do not naturally spawn in a biome.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850352"
         ],
@@ -9688,6 +9968,13 @@
       },
       "variants": {
         "answer": "Mules have baby and adult stages. They come from breeding a horse with a donkey and cannot breed themselves.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Breed a horse and donkey rather than waiting for a wild mule. Mules cannot breed with each other.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850352"
         ],
@@ -9842,7 +10129,7 @@
   "minecraft:nautilus": {
     "topics": {
       "spawning": {
-        "answer": "Nautiluses appear in ocean biomes, generally between Y=38 and Y=58.",
+        "answer": "Look in ocean biomes between Y=38 and Y=58, usually in small groups.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844669"
         ],
@@ -9914,6 +10201,13 @@
       },
       "variants": {
         "answer": "Nautiluses have baby and adult stages and can be wild or tamed. A zombie nautilus is a separate undead mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural nautiluses need ocean water in the Y=38–58 range. A shallow river is not their natural habitat. Zombie nautiluses use a separate drowned-jockey route.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844669"
         ],
@@ -10243,7 +10537,7 @@
   "minecraft:ocelot": {
     "topics": {
       "spawning": {
-        "answer": "In Bedrock, look for ocelots in jungle, bamboo jungle and sparse jungle biomes.",
+        "answer": "Look in jungles, bamboo jungles and sparse jungles in Bedrock, on grass blocks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851711"
         ],
@@ -10329,6 +10623,13 @@
       },
       "variants": {
         "answer": "Baby and adult ocelots can become trusting, but a trusting ocelot does not turn into a pet cat. Cats are a separate mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock ocelots can naturally spawn in all jungle types at light level 7 or above. Grass blocks matter. Do not apply Java’s sparse-jungle exclusion to Bedrock.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851711"
         ],
@@ -10456,7 +10757,7 @@
   "minecraft:panda": {
     "topics": {
       "spawning": {
-        "answer": "Pandas appear in jungle biomes, especially bamboo jungles. Their personalities and appearance depend on genetics, not just where they stand.",
+        "answer": "Look in jungles, especially bamboo jungles. Pandas naturally appear on grass blocks rather than podzol.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846509"
         ],
@@ -10552,6 +10853,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846509",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check a jungle biome, grass blocks and at least two blocks of space above. Natural pandas are rare. Breeding has a separate nearby-bamboo requirement; placing bamboo in another biome does not make that biome a natural panda habitat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509"
         ],
         "coverage": "reviewed_summary"
       },
@@ -10880,6 +11188,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Bedrock parched naturally spawn on the desert surface at night, replacing some skeletons. Riders in camel-husk or spider-jockey encounters are another route. A random underground skeleton farm is not automatically a parched farm.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A parched is a hostile undead skeleton variant. It can use ranged attacks, so use cover and avoid treating it as a passive desert animal.",
         "sources": [
@@ -10927,7 +11242,7 @@
   "minecraft:parrot": {
     "topics": {
       "spawning": {
-        "answer": "Parrots appear in jungle, bamboo jungle and, in Bedrock, sparse jungle biomes.",
+        "answer": "Look in jungles, bamboo jungles and sparse jungles in Bedrock, around grass, logs and leaves.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849952"
         ],
@@ -11012,6 +11327,13 @@
       },
       "land": {
         "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural parrots require eligible jungle habitats. Sparse jungle is valid in Bedrock. Parrots cannot breed, so pairing two with seeds will not produce babies.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849952"
         ],
@@ -11238,7 +11560,7 @@
   "minecraft:phantom": {
     "topics": {
       "spawning": {
-        "answer": "Phantoms appear around players who have gone several in-game days without resting. Bedrock spawning also depends on local darkness and monster-spawning rules; resting resets the relevant timer.",
+        "answer": "Phantoms appear above players who have gone a long time without resting. In Bedrock, suitable dark surface spawning locations and access to the sky matter; they are not restricted to Java’s night-only rule.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
         ],
@@ -11290,6 +11612,13 @@
       },
       "variants": {
         "answer": "A phantom is a hostile flying mob associated with players who have not rested. It is not bred as a baby animal.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check prolonged time without resting, open sky above the player, suitable surface spawning locations at light 7 or less, the monster cap and the doInsomnia game rule. Entering a bed resets the rest timer. Bedrock can spawn phantoms during daytime if the other conditions are met.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
         ],
@@ -11452,6 +11781,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3847785",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural pigs use grass blocks in eligible grassy Overworld biomes. Snowy plains, meadows, mangrove swamps and pale gardens are excluded, but cherry groves can have pigs. Natural pigs are not born with saddles; equipment and breeding are separate.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
         ],
         "coverage": "reviewed_summary"
       },
@@ -11642,7 +11978,7 @@
   "minecraft:piglin": {
     "topics": {
       "spawning": {
-        "answer": "Piglins appear in Nether wastes, crimson forests and bastion remnants. They do not naturally populate every Nether biome.",
+        "answer": "Find piglins in Nether wastes, crimson forests and generated bastion remnants.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851223"
         ],
@@ -11720,6 +12056,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Bedrock natural piglins need light level 7 or less in their eligible Nether biomes. They do not naturally spawn on Nether wart blocks or magma blocks. Bastion generation is another source; ordinary piglins and piglin brutes have different replenishment rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A piglin is a Nether mob that can barter gold ingots for items. Wearing gold armor helps avoid ordinary piglin hostility, but certain actions still anger it. Piglin brutes do not follow the same rules.",
         "sources": [
@@ -11760,7 +12103,7 @@
   "minecraft:piglin_brute": {
     "topics": {
       "spawning": {
-        "answer": "Piglin brutes generate in bastion remnants. They do not naturally respawn after being killed.",
+        "answer": "Find piglin brutes in generated bastion-remnant rooms. Those original brutes do not naturally respawn.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848820"
         ],
@@ -11826,6 +12169,13 @@
       },
       "variants": {
         "answer": "Piglin brutes have no baby form. They are different from ordinary piglins and do not barter with gold.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Piglin brutes are generated with bastions and do not replenish through ordinary natural spawning. Darkness, waiting or adding gold does not make a cleared bastion grow new brutes.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848820"
         ],
@@ -11930,6 +12280,13 @@
       },
       "variants": {
         "answer": "Pillagers can be patrol or raid members, and a captain carries a banner. Captain is a role, not a baby or coat variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Pillagers have different sources: outposts, patrols and raids. Bedrock patrols can start after five and a half in-game days and use light 0–7. Bedrock outpost spawning is tied to particular positions; do not copy a Java whole-volume outpost platform without checking the Bedrock positions.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843714"
         ],
@@ -12106,6 +12463,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Look in eligible frozen and snowy biomes rather than any place with player-placed snow. Bedrock includes additional frozen river and mountain habitats. Polar bears cannot be bred with fish, so feeding them does not create cubs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A polar bear is a large animal found in cold regions. Adults may become hostile when provoked or when a cub is threatened; it is not a tameable riding animal.",
         "sources": [
@@ -12153,7 +12517,7 @@
   "minecraft:pufferfish": {
     "topics": {
       "spawning": {
-        "answer": "In Bedrock, look for pufferfish in warm oceans near suitable surface spawning water; do not apply Java’s wider ocean-biome list.",
+        "answer": "In Bedrock, look in warm oceans. They are rarer there than tropical fish.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
         ],
@@ -12203,6 +12567,13 @@
       },
       "variants": {
         "answer": "Pufferfish have uninflated, partly inflated and fully inflated states. These are changing defensive states, not three different species.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock pufferfish require warm-ocean surface water, with suitable player distance around 12–32 blocks. Do not substitute Java’s lukewarm/deep-lukewarm spawning list or roof over the spawning water.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
         ],
@@ -12343,6 +12714,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844604",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural rabbit coats are biome-dependent: gold in deserts, white forms in snowy habitats, and brown, black or salt forms in eligible forest/taiga/meadow habitats. Bedrock also includes frozen aquatic habitats. Spawn-egg colors do not prove natural spawning in every biome.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
         ],
         "coverage": "reviewed_summary"
       },
@@ -12688,6 +13066,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Ravagers come from raids beginning at wave three, not ordinary dark-platform spawning. Riders depend on the raid wave and difficulty. Bedrock raids do not have Java’s extra-wave system.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A ravager is a large hostile beast found in raids. It attacks with powerful close-range strikes and can damage certain plants, so keep your distance and use cover.",
         "sources": [
@@ -12771,6 +13156,13 @@
       },
       "fire": {
         "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Salmon use suitable river and ocean water, not every player-made pond. Their size variants are separate from the biome requirement. Check the water biome and surface spawning conditions rather than assuming a roofed tank will work.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844555"
         ],
@@ -13021,6 +13413,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848879",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural sheep need an eligible biome and suitable grassy spawning area. Their naturally likely wool colors vary by biome; dyeing an existing sheep is separate from natural spawning. A spawn egg can produce appearances that are not proof of wild spawning at that location.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879"
         ],
         "coverage": "reviewed_summary"
       },
@@ -13604,7 +14003,7 @@
   "minecraft:shulker": {
     "topics": {
       "spawning": {
-        "answer": "Shulkers generate in End cities on the outer End islands. Their reproduction involves shulker-bullet interactions, not food-based animal breeding.",
+        "answer": "Find shulkers on End-city walls and End ships on the outer End islands. They generate with those structures.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843708"
         ],
@@ -13662,6 +14061,13 @@
       },
       "equipment": {
         "answer": "In Bedrock, you can change a shulker’s shell color by using dye on it in Creative mode. It is not a Survival dye interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "End-city generation supplies the original shulkers; an empty city does not normally refill by waiting. Additional shulkers can come from special shulker-bullet duplication mechanics, not ordinary animal breeding or a dark End platform.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843708"
         ],
@@ -13761,7 +14167,7 @@
   "minecraft:silverfish": {
     "topics": {
       "spawning": {
-        "answer": "Silverfish emerge from infested blocks and from the spawner in a stronghold’s End portal room. Other sources include suitable trial spawners and the Infested effect.",
+        "answer": "Find silverfish in infested blocks, stronghold End-portal-room spawners and certain trial spawners. The Infested effect can also produce them.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843709"
         ],
@@ -13820,6 +14226,13 @@
       },
       "variants": {
         "answer": "Silverfish can hide in infested blocks and emerge from them. The block is a hiding place, not a baby growth stage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Breaking an infested block without Silk Touch can release silverfish. Stronghold silverfish spawners need light level 11 or less. Trial spawners must be configured for silverfish; ordinary darkness alone is not their natural source.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843709"
         ],
@@ -13931,6 +14344,13 @@
       },
       "variants": {
         "answer": "Skeletons, strays, wither skeletons, bogged and parched are distinct skeleton-type mobs. They are not all ages or coat colors of an ordinary skeleton.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Ordinary skeletons need an eligible dark spawning surface and enough space. Monster rooms and trial spawners are separate sources. Desert and snowy-biome replacement mobs are not simply skeleton coats, and Nether fortress or soul-sand-valley spawning has different context.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846446"
         ],
@@ -14059,6 +14479,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Natural skeleton trap horses are associated with thunderstorm lightning. Channeling-trident lightning and lightning directed to a lightning rod do not produce traps. A normal horse struck by lightning is not the recipe for a skeleton horse.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A skeleton horse is an undead rideable horse. Certain skeleton-trap encounters can produce them. It is not an ordinary breedable horse.",
         "sources": [
@@ -14106,7 +14533,7 @@
   "minecraft:slime": {
     "topics": {
       "spawning": {
-        "answer": "Look for slimes in swamps or mangrove swamps between Y=51 and Y=69 in dim light; full moons are better and new moons do not produce swamp slimes. They also spawn below Y=40 in special slime chunks regardless of light. In Bedrock, slime-chunk positions are the same across world seeds. Suitable trial spawners and the Oozing effect are other sources.",
+        "answer": "Look below Y=40 in a slime chunk, or in swamps and mangrove swamps at Y=51–69 with light level 7 or less. Swamp spawning depends on the moon: full moons are best, and new moons produce none. In Bedrock, slime-chunk coordinates are the same across world seeds.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849919"
         ],
@@ -14172,6 +14599,13 @@
       },
       "water": {
         "answer": "Slimes can swim but can drown when submerged for too long. Larger slimes can split into smaller slimes when they die.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Underground slime-chunk spawning needs Y below 40 and does not depend on light or weather. Swamp spawning needs Y=51–69, light level 7 or less and a suitable moon phase; none spawn there on a new moon. Leave clear space. In Bedrock, slime-chunk coordinates are the same across world seeds.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849919"
         ],
@@ -14332,7 +14766,7 @@
   "minecraft:sniffer": {
     "topics": {
       "spawning": {
-        "answer": "Sniffers hatch from sniffer eggs. Search suspicious sand in warm ocean ruins for eggs, or obtain an egg by breeding two sniffers; they do not simply spawn across ordinary terrain.",
+        "answer": "Brush suspicious sand in warm ocean ruins to look for sniffer eggs, then hatch an egg. Sniffers do not naturally spawn as wandering adults.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3847160"
         ],
@@ -14426,6 +14860,13 @@
       },
       "variants": {
         "answer": "A baby sniffer is called a snifflet. A sniffer egg is a separate block that hatches into a snifflet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "A sniffer must hatch from an egg; breeding existing sniffers can also produce eggs. For the first egg, use archaeology in warm ocean ruins. Waiting in a biome or building a dark platform does not make adult sniffers naturally appear.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3847160"
         ],
@@ -14622,6 +15063,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Create one using two snow blocks and a carved pumpkin or jack o’lantern, with the pumpkin placed last. Ordinary snow layers or an uncarved pumpkin do not substitute. It does not naturally spawn just because the biome is snowy.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A snow golem is a player-built mob made using snow blocks and a carved pumpkin or suitable equivalent. It throws snowballs at many hostile mobs and can leave snow trails in suitable conditions. Heat and water can harm it.",
         "sources": [
@@ -14790,6 +15238,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Natural spiders need a suitable dark surface and enough clear width. Bedrock excludes mushroom fields, deep dark, rivers, frozen rivers and snowy plains; sulfur caves replace ordinary spider spawns with cave spiders. Spawner encounters are a separate route.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A spider is a climbing mob that can become hostile depending on conditions. It climbs walls and attacks at close range. Brightness affects its ordinary aggression.",
         "sources": [
@@ -14870,7 +15325,7 @@
   "minecraft:squid": {
     "topics": {
       "spawning": {
-        "answer": "Squid appear in suitable surface waters in oceans and rivers. Bedrock surface-spawn rules differ from the underground spawning of glow squid.",
+        "answer": "Look in ocean and river water. Bedrock squid are surface water spawns rather than underground cave spawns.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844578"
         ],
@@ -14914,6 +15369,13 @@
       },
       "growth": {
         "answer": "A naturally spawned baby squid grows into an adult after 20 minutes. Food does not speed up its growth. A golden dandelion can pause its growth; using one again resumes it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "A Bedrock squid spawn must not have a solid or spawnable block above the location. Do not automatically apply Java’s Y=50–63 range. A roofed tank can fail even though it contains water.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844578"
         ],
@@ -15039,6 +15501,13 @@
       },
       "variants": {
         "answer": "A stray is a cold-biome skeleton-type mob. It is distinct from a wither skeleton, bogged and parched.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Strays naturally occur in eligible snowy and frozen biomes. Another route is keeping an ordinary skeleton in powder snow until it converts; bogged and parched do not use that conversion. Certain trial spawners can also spawn strays.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844780"
         ],
@@ -15182,6 +15651,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Striders naturally spawn on lava with air above in Nether biomes. A dry platform does not provide their usual spawning medium. In Bedrock their animal population cap is shared with hoglins, so other animals can affect availability.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A strider is a passive Nether animal that walks on lava. Saddle it and steer with a warped fungus on a stick for lava travel. It becomes cold and slower away from lava.",
         "sources": [
@@ -15304,7 +15780,7 @@
   "minecraft:sulfur_cube": {
     "topics": {
       "spawning": {
-        "answer": "Sulfur cubes appear in sulfur caves in game versions that include that feature. Large cubes can split into small cubes.",
+        "answer": "Look in sulfur caves, where large sulfur cubes naturally spawn at any light level.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853726"
         ],
@@ -15378,6 +15854,13 @@
       },
       "variants": {
         "answer": "Sulfur cubes can have different sizes and can carry a block. Their block-carrying state is not an animal coat breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check the sulfur-caves biome and a suitable clear spawning space. Darkness is not required. Small sulfur cubes come from a large cube splitting and can grow; they are not the ordinary naturally spawned form.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853726"
         ],
@@ -15498,6 +15981,13 @@
       },
       "variants": {
         "answer": "A tadpole is a young frog. The biome where it grows up determines the resulting frog color.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Tadpoles hatch from frogspawn laid by breeding frogs. A pond without frogspawn does not spontaneously produce tadpoles, and their eventual frog color depends on where they grow up.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849184"
         ],
@@ -15811,6 +16301,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Two trader llamas attempt to appear with a wandering trader and are leashed to it. They are not a separately replenishing wild llama herd. Space around the trader matters to those attempts.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A trader llama is a llama associated with a wandering trader. It carries the trader's decorations and can defend itself by spitting. It follows llama-style handling rules rather than villager trading rules.",
         "sources": [
@@ -16054,7 +16551,7 @@
   "minecraft:tropicalfish": {
     "topics": {
       "spawning": {
-        "answer": "In Bedrock, tropical fish appear in warm and lukewarm ocean variants, suitable lush-cave waters and applicable mangrove-swamp waters. They have many combinations of pattern and color.",
+        "answer": "Look in warm, lukewarm and deep lukewarm oceans, mangrove swamps and lush-cave water.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844607"
         ],
@@ -16097,6 +16594,13 @@
       },
       "fire": {
         "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "In Bedrock ocean spawning, check Y=50–64 and the surface-water conditions. Lush-cave aquifers can work at other heights but must count as underground. Tropical fish do not naturally spawn in every pond merely because it contains water.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844607"
         ],
@@ -16524,7 +17028,7 @@
   "minecraft:turtle": {
     "topics": {
       "spawning": {
-        "answer": "Turtles naturally appear on sandy beaches, not snowy beaches or stony shores. In Bedrock their natural beach spawning is around Y=60–67. Turtle eggs are another source.",
+        "answer": "Look on sandy beaches, excluding snowy beaches and stony shores. In Bedrock, natural turtles spawn at Y=60–67.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846426"
         ],
@@ -16604,6 +17108,13 @@
       },
       "variants": {
         "answer": "Turtles have baby and adult stages. Their home beach is a location they remember, not a different coat variety.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check an eligible beach, sand and Y=60–67 for natural Bedrock turtles. Breeding is different: a turtle returns to its home beach to lay eggs, so a random new sand pen may not be its chosen nesting place.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846426"
         ],
@@ -16750,6 +17261,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Vexes are summoned by an evoker’s attack, not by normal dark-floor spawning. An evoker needs usable nearby summoning positions. Evoker-summoned vexes have a limited lifetime; spawn eggs and commands are different.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A vex is a small flying hostile spirit summoned by evokers. It can pass through blocks and attack with a sword, so ordinary walls are not reliable protection.",
         "sources": [
@@ -16886,6 +17404,13 @@
         "answer": "No. Golden dandelions do not pause villager aging. Baby villagers normally grow into adults during active game time.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Villagers originally generate with villages and igloo basements. Empty beds or rebuilt village houses do not spontaneously create replacement villagers. Use breeding existing villagers or curing zombie villagers; babies need a breeding setup, not ordinary hostile-mob spawning conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
         ],
         "coverage": "reviewed_summary"
       },
@@ -17766,6 +18291,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Villagers originally generate with villages and igloo basements. Empty beds or rebuilt village houses do not spontaneously create replacement villagers. Use breeding existing villagers or curing zombie villagers; babies need a breeding setup, not ordinary hostile-mob spawning conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A villager is a village inhabitant that can trade with players. Eligible villagers take professions from job-site blocks. Their trades depend on profession, level, and world settings.",
         "sources": [
@@ -18610,6 +19142,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Mansion vindicators generate once and do not refill by waiting. Raids provide another source. A dark mansion-shaped building outside the actual generated structure does not create a natural vindicator farm.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A vindicator is a hostile axe-wielding illager. It attacks at close range and appears in raids and certain structures.",
         "sources": [
@@ -18700,6 +19239,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Wandering traders attempt to spawn near players in the Overworld; Bedrock can also try near a claimed village bell. Their appearance is random, not guaranteed on demand. A workstation does not turn a normal villager into a wandering trader.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A wandering trader is a travelling merchant that appears with trader llamas. Trade emeralds for its rotating selection of goods before it leaves.",
         "sources": [
@@ -18741,7 +19287,7 @@
         "coverage": "reviewed_summary"
       },
       "spawning": {
-        "answer": "Naturally generated sculk shriekers in the deep dark can summon a warden after repeated player warnings. A shrieker placed by a player cannot normally summon one.",
+        "answer": "Wardens emerge after repeated warnings from naturally generated sculk shriekers, usually in the deep dark. They do not use ordinary dark-floor monster spawning.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851707"
         ],
@@ -18786,6 +19332,13 @@
       },
       "variants": {
         "answer": "A warden can emerge, investigate, become angry or dig away. These are behavior states, not animal breeds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "A player’s warning level must reach four through naturally generated sculk shriekers. The shrieker needs a valid nearby emergence space. Light level does not control this process. A shrieker collected and placed by a player does not summon a warden like a naturally generated one.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851707"
         ],
@@ -18879,7 +19432,7 @@
         "coverage": "reviewed_summary"
       },
       "spawning": {
-        "answer": "Witches appear in suitable dark Overworld areas, swamp huts and raids. Lightning striking a villager can also create a witch.",
+        "answer": "Find witches in dark Overworld areas, swamp huts and raids. Lightning can also turn a villager into a witch.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850494"
         ],
@@ -18924,6 +19477,13 @@
       },
       "variants": {
         "answer": "Witches may drink potions and can appear naturally or in raids. Drinking and potion effects are states, not separate species.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Bedrock witches avoid natural spawning in mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Swamp huts use a particular hardcoded spawning spot, not Java’s whole-hut spawning volume. Raid spawning and lightning conversion are separate routes.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850494"
         ],
@@ -19020,6 +19580,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Summon the Wither using four soul sand or soul soil blocks and three wither skeleton skulls in the Wither construction arrangement, placing a skull last and leaving the required spaces clear. It does not naturally appear in a Nether biome, and Peaceful prevents the fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "The Wither is a powerful summoned undead boss. It flies, fires explosive skulls, and causes destructive fights. Defeating it provides a Nether star.",
         "sources": [
@@ -19075,7 +19642,7 @@
         "coverage": "reviewed_summary"
       },
       "spawning": {
-        "answer": "Look in Nether fortresses at light level 7 or less. Bedrock wither fights can also produce wither skeletons during the later phase.",
+        "answer": "Look in Nether fortresses. In Bedrock, the Wither can also produce wither skeletons during its fight on Normal or Hard difficulty.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853122"
         ],
@@ -19113,6 +19680,13 @@
       },
       "variants": {
         "answer": "A wither skeleton is a separate Nether skeleton-type mob, not an ordinary skeleton that grew older.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Natural wither-skeleton spawning needs a fortress spawning area, light level 0–7 and enough room for the tall mob. Within overall fortress bounds but outside individual fortress pieces, Nether-brick flooring matters. A Nether-brick platform outside a fortress is not sufficient.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853122"
         ],
@@ -19253,7 +19827,7 @@
         "coverage": "reviewed_summary"
       },
       "spawning": {
-        "answer": "Wolf variants live in different biomes: pale in taiga; woods in forest; ashen in snowy taiga; black in old growth pine taiga; chestnut in old growth spruce taiga; rusty in sparse jungle; spotted in savanna plateau; striped in wooded badlands; snowy in grove.",
+        "answer": "Wolf coats depend on the biome: pale in taiga, ashen in snowy taiga, black in old growth pine taiga, chestnut in old growth spruce taiga, rusty in sparse jungle, snowy in grove, spotted in savanna plateau, striped in wooded badlands and woods in forest.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],
@@ -19362,6 +19936,13 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849342",
           "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Check the natural habitat of the coat you want and a suitable surface such as grass, coarse dirt, snow, snow blocks or podzol. A spawn egg’s biome-selected coat does not prove wolves naturally spawn in every biome with that coat. Wolves near biome borders can differ.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],
         "coverage": "reviewed_summary"
       },
@@ -19917,7 +20498,7 @@
         "coverage": "reviewed_summary"
       },
       "spawning": {
-        "answer": "A hoglin outside the Nether becomes a zoglin after about 15 seconds.",
+        "answer": "A hoglin becomes a zoglin after spending 15 seconds outside the Nether. Zoglins are not a normal biome-spawning herd.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844793"
         ],
@@ -19960,6 +20541,13 @@
       },
       "variants": {
         "answer": "Zoglins can be babies or adults after hoglins zombify. They do not breed with food like ordinary hoglins.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Conversion requires a hoglin outside the Nether for 15 seconds. Lighting a platform or breeding zoglins does not create more of them.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844793"
         ],
@@ -20084,6 +20672,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Natural zombies need a suitable dark solid spawning surface and two blocks of height, even for babies. Bedrock excludes mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Desert husks, drowned conversion and zombie-villager generation are separate mechanics.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie is a hostile undead mob that attacks at close range. It normally burns in direct sunlight unless protected and can transform into a drowned after suitable underwater conditions.",
         "sources": [
@@ -20194,6 +20789,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Natural zombie horsemen require grass in eligible plains, savanna or snowy-plains habitats, suitable darkness and a difficulty allowing monsters. They arrive as a zombie rider and horse, not ordinary passive horse herds. Snow blocks can prevent the grass-based spawning route.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie horse is an undead horse variant. Its availability and riding rules depend on the game version and how it was obtained; do not assume ordinary horse breeding works.",
         "sources": [
@@ -20258,7 +20860,7 @@
         "coverage": "reviewed_summary"
       },
       "spawning": {
-        "answer": "Some trident-wielding drowned can spawn riding zombie nautiluses outside rivers and frozen rivers. Warm-ocean spawning can produce the coral variant.",
+        "answer": "Look for trident-wielding adult drowned riding zombie nautiluses in oceans and dripstone caves. Warm-ocean examples have the coral appearance.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845839"
         ],
@@ -20309,6 +20911,13 @@
       },
       "fire": {
         "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "An eligible trident-wielding adult drowned outside river and frozen-river biomes has a chance to generate mounted on a zombie nautilus. It is not made by leaving an ordinary nautilus underwater. Structure-generated drowned are another eligible route.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845839"
         ],
@@ -20536,6 +21145,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Zombified piglins can appear naturally in eligible Nether areas, from Overworld Nether portals, or from conversions such as piglin zombification and lightning hitting a pig. They do not naturally spawn in Peaceful. A mob travelling through a portal is different from a portal generating one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombified piglin is a neutral undead Nether mob. Attacking one can anger nearby zombified piglins. It does not barter like an ordinary piglin.",
         "sources": [
@@ -20669,6 +21285,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "spawn_conditions": {
+        "answer": "Zombie villagers can occur during ordinary zombie spawning, in abandoned villages and igloo basements, or when villagers are killed by eligible zombies. Infection chance is 0% on Easy, 50% on Normal and 100% on Hard. A bed alone does not generate one.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie villager is an undead villager variant. Apply the appropriate Weakness effect and use a golden apple to begin curing it under suitable conditions.",
         "sources": [
@@ -20790,6 +21413,13 @@
       },
       "variants": {
         "answer": "Zombie villagers can have different biome outfits and profession appearances and can be babies or adults. Curing returns them to villagers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "spawn_conditions": {
+        "answer": "Zombie villagers can occur during ordinary zombie spawning, in abandoned villages and igloo basements, or when villagers are killed by eligible zombies. Infection chance is 0% on Easy, 50% on Normal and 100% on Hard. A bed alone does not generate one.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851910"
         ],

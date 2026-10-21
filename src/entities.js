@@ -10,6 +10,7 @@ export function entityTopic(q) {
   if (/\b(health|hearts|hit points)\b/.test(q)) return 'health';
   if (/\b(breed|breeding|mate|reproduce|duplicate)\b/.test(q)) return 'breeding';
   if (/\b(tame|taming|befriend)\b/.test(q)) return 'taming';
+  if (/\b(?:spawn|spawns|spawning)\b/.test(q)&&/\b(?:why|won t|doesn t|don t|not|never|prevent|stop|requirements?|conditions?|light|difficulty|peaceful|distance|far|height|level|space|blocks?|beds?|caps?)\b/.test(q))return 'spawn_conditions';
   if (/\b(where|find|found|spawn|spawns|spawning|biome|biomes|habitat)\b/.test(q)) return 'spawning';
   if (/\b(variant|variants|types|colors|colours|personalities)\b/.test(q)) return 'variants';
   if (/\b(trade|trades|trading|barter)\b/.test(q)) return 'trading';
@@ -46,6 +47,10 @@ export function entityAnswer(id,q,variant,requestedTopic) {
     }
   }
   const fact=special??row.topics[topic];if(!fact)return null;
+  if(topic==='spawn_conditions'&&variant) {
+    const location=row.variants.find(v=>v.name===variant)?.topics.spawning;
+    if(location)return {status:'conditional',answer:location.answer+' '+fact.answer,subject:id,topic,sources:[...new Set([...(location.sources??[]),...(fact.sources??[])])],coverage:fact.coverage};
+  }
   return {status:'conditional',answer:fact.answer,subject:id,topic,sources:fact.sources??row.topics[topic]?.sources??[],coverage:fact.coverage};
 }
 const contains=(q,term)=>(' '+q+' ').includes(' '+term+' ');

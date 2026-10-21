@@ -1,0 +1,853 @@
+{
+  "scope": "Mob spawning: raw branches are evidence, not a complete engine simulator. Missing files are not proof of unavailability.",
+  "catalog_mobs": 90,
+  "subjects_with_reviewed_conditions": 90,
+  "sample_rule_files": 60,
+  "complete": false,
+  "conflicts": [
+    {
+      "subject": "minecraft:creeper",
+      "detail": "Pinned brightness filters permit 0\u20137; archived wiki describes light 0. Numeric natural-spawn light threshold is withheld from player troubleshooting pending reconciliation."
+    }
+  ],
+  "subjects": {
+    "minecraft:allay": {
+      "name": "Allay",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:armadillo": {
+      "name": "Armadillo",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/armadillo.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:axolotl": {
+      "name": "Axolotl",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/axolotl.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:bat": {
+      "name": "Bat",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/bat.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:bee": {
+      "name": "Bee",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/bee.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:blaze": {
+      "name": "Blaze",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/blaze.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:bogged": {
+      "name": "Bogged",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/bogged.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:breeze": {
+      "name": "Breeze",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:camel": {
+      "name": "Camel",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/camel.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:camel_husk": {
+      "name": "Camel Husk",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/camel_husk.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:cat": {
+      "name": "Cat",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/cat.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:cave_spider": {
+      "name": "Cave Spider",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/cave_spider.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:chicken": {
+      "name": "Chicken",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/chicken.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:cod": {
+      "name": "Cod",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/cod.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:copper_golem": {
+      "name": "Copper Golem",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:cow": {
+      "name": "Cow",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/cow.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:creaking": {
+      "name": "Creaking",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:creeper": {
+      "name": "Creeper",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/creeper.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:dolphin": {
+      "name": "Dolphin",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/dolphin.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:donkey": {
+      "name": "Donkey",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/donkey.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:drowned": {
+      "name": "Drowned",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/drowned.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:elder_guardian": {
+      "name": "Elder Guardian",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:ender_dragon": {
+      "name": "Ender Dragon",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:enderman": {
+      "name": "Enderman",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/enderman.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:endermite": {
+      "name": "Endermite",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:evocation_illager": {
+      "name": "Evocation Illager",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:fox": {
+      "name": "Fox",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/fox.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:frog": {
+      "name": "Frog",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/frog.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:ghast": {
+      "name": "Ghast",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/ghast.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:glow_squid": {
+      "name": "Glow Squid",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/glow_squid.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:goat": {
+      "name": "Goat",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/goat.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:guardian": {
+      "name": "Guardian",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/guardian.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:happy_ghast": {
+      "name": "Happy Ghast",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:hoglin": {
+      "name": "Hoglin",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/hoglin.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:horse": {
+      "name": "Horse",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/horse.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:husk": {
+      "name": "Husk",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/husk.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:iron_golem": {
+      "name": "Iron Golem",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:llama": {
+      "name": "Llama",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/llama.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:magma_cube": {
+      "name": "Magma Cube",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/magma_cube.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:mooshroom": {
+      "name": "Mooshroom",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/mooshroom.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:mule": {
+      "name": "Mule",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:nautilus": {
+      "name": "Nautilus",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/nautilus.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:ocelot": {
+      "name": "Ocelot",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/ocelot.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:panda": {
+      "name": "Panda",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/panda.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:parched": {
+      "name": "Parched",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/parched.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:parrot": {
+      "name": "Parrot",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/parrot.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:phantom": {
+      "name": "Phantom",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/phantom.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:pig": {
+      "name": "Pig",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/pig.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:piglin": {
+      "name": "Piglin",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/piglin.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:piglin_brute": {
+      "name": "Piglin Brute",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:pillager": {
+      "name": "Pillager",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/pillager.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:polar_bear": {
+      "name": "Polar Bear",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/polar_bear.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:pufferfish": {
+      "name": "Pufferfish",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/pufferfish.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:rabbit": {
+      "name": "Rabbit",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/rabbit.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:ravager": {
+      "name": "Ravager",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:salmon": {
+      "name": "Salmon",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/salmon.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:sheep": {
+      "name": "Sheep",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/sheep.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:shulker": {
+      "name": "Shulker",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:silverfish": {
+      "name": "Silverfish",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:skeleton": {
+      "name": "Skeleton",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/skeleton.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:skeleton_horse": {
+      "name": "Skeleton Horse",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:slime": {
+      "name": "Slime",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/slime.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:sniffer": {
+      "name": "Sniffer",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:snow_golem": {
+      "name": "Snow Golem",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:spider": {
+      "name": "Spider",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/spider.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:squid": {
+      "name": "Squid",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/squid.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:stray": {
+      "name": "Stray",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/stray.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:strider": {
+      "name": "Strider",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/strider.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:sulfur_cube": {
+      "name": "Sulfur Cube",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/sulfur_cube.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:tadpole": {
+      "name": "Tadpole",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:trader_llama": {
+      "name": "Trader Llama",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:tropicalfish": {
+      "name": "Tropicalfish",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/tropicalfish.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:turtle": {
+      "name": "Turtle",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/turtle.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:vex": {
+      "name": "Vex",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:villager": {
+      "name": "Villager",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:villager_v2": {
+      "name": "Villager V2",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:vindicator": {
+      "name": "Vindicator",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:wandering_trader": {
+      "name": "Wandering Trader",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:warden": {
+      "name": "Warden",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:witch": {
+      "name": "Witch",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/witch.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:wither": {
+      "name": "Wither",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:wither_skeleton": {
+      "name": "Wither Skeleton",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/wither_skeleton.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:wolf": {
+      "name": "Wolf",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/wolf.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zoglin": {
+      "name": "Zoglin",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zombie": {
+      "name": "Zombie",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/zombie.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zombie_horse": {
+      "name": "Zombie Horse",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/zombie_horse.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zombie_nautilus": {
+      "name": "Zombie Nautilus",
+      "location_reviewed": true,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zombie_pigman": {
+      "name": "Zombie Pigman",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [
+        "behavior_pack/spawn_rules/zombie_pigman.json"
+      ],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zombie_villager": {
+      "name": "Zombie Villager",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    },
+    "minecraft:zombie_villager_v2": {
+      "name": "Zombie Villager V2",
+      "location_reviewed": false,
+      "conditions_reviewed": true,
+      "pinned_rule_files": [],
+      "status": "reviewed_summary_not_exhaustive",
+      "complete": false
+    }
+  }
+}
