@@ -29,3 +29,7 @@ project-prefixed paths such as `scripts/tts/faction` and `sounds/tts/faction`, p
 `Store Art` and `Marketing Art`. AI Bot follows the Content and asset-prefix
 conventions. Reference scripts, artwork, sounds and UUIDs were not copied.
 Its manifest/API versions are not assumed to be required for our project.
+
+## Completed 0.2.2 testing
+
+The user explicitly confirmed audible chirps, restored Things to try, and functioning hopper explanations in 0.2.2. They subsequently said testing was complete and everything else looked good. Known recipe/clarification/knowledge issues are addressed or tracked in 0.2.3. This does not establish multiplayer behavior or identify the original failed-pack warning. Version 0.2.3 has not yet been tested in Minecraft.

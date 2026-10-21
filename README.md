@@ -1,23 +1,23 @@
-# Time Trap Studios — AI Bot — 0.2.2 development build
+# Time Trap Studios — AI Bot — 0.2.3 development build
 
 An offline Minecraft Bedrock robot companion. This is a development build, not a finished or certified Marketplace product.
 
-**[Download the latest add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.2.2.mcaddon)** · **[Download the testing list](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/Robot_Test_Checklist-0.2.2.txt)**
+**[Download the latest add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.2.3.mcaddon)** · **[Download the testing list](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/Robot_Test_Checklist-0.2.3.txt)**
 
-**Source work in progress:** 0.2.3 is prepared but not distributed while the user tests 0.2.2. The recipe/topic audit and fixes are documented in [pending knowledge work](docs/KNOWLEDGE_EXPANSION_PENDING.md). Basic identifier/description coverage is not complete gameplay knowledge.
+**Knowledge expansion in progress:** 0.2.3 includes the queued recipe and follow-up fixes. The recipe/topic audit and fixes are documented in [pending knowledge work](docs/KNOWLEDGE_EXPANSION_PENDING.md). Basic identifier/description coverage is not complete gameplay knowledge.
 
 ## Install this separate test version
 
 1. Download and open the `.mcaddon` with **Minecraft Bedrock**. It contains ordinary `TimeTrapRobot_BP` and `TimeTrapRobot_RP` folders directly at its root, with no nested pack archives.
-2. Create a **fresh Creative test world** and activate only **Time Trap Studios AI Bot — Behavior 0.2.2** and **Time Trap Studios AI Bot — Resources 0.2.2**. Both descriptions also say TEST VERSION 0.2.2.
-3. Spawn a new **Time Trap Robot** from its Creative egg, or use `/summon tts_ai_bot_v0_2_2:robot`.
-4. Interact. The menu title must show **v0.2.2**. **Things to try** gives examples; **Test robot sound** plays the chirp.
+2. Create a **fresh Creative test world** and activate only **Time Trap Studios AI Bot — Behavior 0.2.3** and **Time Trap Studios AI Bot — Resources 0.2.3**. Both descriptions also say TEST VERSION 0.2.3.
+3. Spawn a new **Time Trap Robot** from its Creative egg, or use `/summon tts_ai_bot_v0_2_3:robot`.
+4. Interact. The menu title must show **v0.2.3**. **Things to try** gives examples; **Test robot sound** plays the chirp.
 
 Each new test version now gets **new header/module UUIDs and version-specific content names**, as requested. It installs separately and does not migrate robots or settings from previous versions. You can keep earlier worlds for comparison, but do not enable older packs in this test world. See [the release policy](docs/TEST_RELEASE_POLICY.md).
 
-If only one pack imports, open the [resource pack](downloads/TimeTrapRobot-Resources-0.2.2.mcpack) and [behavior pack](downloads/TimeTrapRobot-Behavior-0.2.2.mcpack) separately. Confirm both names/descriptions show 0.2.2. Do not delete an existing world to fix an import.
+If only one pack imports, open the [resource pack](downloads/TimeTrapRobot-Resources-0.2.3.mcpack) and [behavior pack](downloads/TimeTrapRobot-Behavior-0.2.3.mcpack) separately. Confirm both names/descriptions show 0.2.3. Do not delete an existing world to fix an import.
 
-The user reported earlier single-player testing on Bedrock **1.26.52**; this release still needs actual-game validation. The latest screenshot's grid wording matches the original 0.1.0 script. If you see that text, the world is running older code. [Recorded results](docs/USER_TEST_REPORT.md).
+The user reported earlier single-player testing on Bedrock **1.26.52**; this release still needs actual-game validation. [Recorded results](docs/USER_TEST_REPORT.md).
 
 ## What to ask
 
@@ -33,7 +33,7 @@ Basic what/does entries cover all **3,222 block/item/entity records** in the sup
 
 Owner-only menus offer naming/settings, follow/stay, home position and checked same-dimension return, opt-in native defense, and warnings for **creepers, nearby lava and low health only**. A creeper warning checks within 10 blocks of the owner; the robot must be within 24 blocks. Warnings share a 60-second cooldown and are proximity checks, not visibility checks. Other mob warnings are not implemented.
 
-The original chirp was valid but quiet and only 0.2 seconds long. This version uses an original louder 0.45-second mono OGG and a dedicated sound-test button. Custom sound event: `tts_ai_bot_v0_2_2.robot.chirp`. If it is silent, check Minecraft master/creature sound volumes and the active resource pack. The command `/playsound tts_ai_bot_v0_2_2.robot.chirp @s` is an optional separate test. We have not verified playback in Minecraft.
+The original chirp was valid but quiet and only 0.2 seconds long. This version uses an original louder 0.45-second mono OGG and a dedicated sound-test button. Custom sound event: `tts_ai_bot_v0_2_3.robot.chirp`. If it is silent, check Minecraft master/creature sound volumes and the active resource pack. The command `/playsound tts_ai_bot_v0_2_3.robot.chirp @s` is an optional separate test. The user confirmed chirp playback in 0.2.2; 0.2.3 still needs an in-game check.
 
 ## Develop and build
 
@@ -47,12 +47,12 @@ npm run validate
 
 Validation checks stable API declarations, description coverage and question routing, knowledge/state behavior, simulated Bedrock integration, namespaces and asset paths. Build output includes:
 
-- `dist/TimeTrapRobot-0.2.2.mcaddon` and separate versioned `.mcpack` files for testing.
-- `dist/TimeTrapRobot-Content-0.2.2.zip`, a Content-layout **development** archive matching the supplied Factions reference's pack roots. It lacks final Store Art, Marketing Art and submission approval.
+- `dist/TimeTrapRobot-0.2.3.mcaddon` and separate versioned `.mcpack` files for testing.
+- `dist/TimeTrapRobot-Content-0.2.3.zip`, a Content-layout **development** archive matching the supplied Factions reference's pack roots. It lacks final Store Art, Marketing Art and submission approval.
 - `build/TimeTrapRobot_BP` and `build/TimeTrapRobot_RP`, the expanded runnable packs.
 
 Generic source templates live in `Content/behavior_packs/AI_Bot` and `Content/resource_packs/AI_Bot`. Custom assets use `tts/ai_bot/` subdirectories and version-specific `tts_ai_bot_v...` identifiers. See [the structure notes](docs/PACK_STRUCTURE.md). `src/` contains runtime code, `data/descriptions/` contains editable basic explanations, and `tools/descriptions.py` compiles them and reports gaps. `legacy/` preserves the entire original research archive; approved `data/banter.json` is tested byte for byte.
 
 API dependencies remain stable `@minecraft/server` 2.0.0 and `@minecraft/server-ui` 2.0.0. Knowledge includes samples v1.26.50.4 and version-specific entries that may not exist in older retail versions. Optional recipe refresh uses `python tools/import-samples.py /path/to/bedrock-samples`. Regenerating the original chirp uses `python tools/generate_sound.py` and requires ffmpeg; ordinary builds use the committed audio and do not need ffmpeg.
 
-Automated tests do not execute Minecraft. Follow [the actual-game checklist](docs/IN_GAME_TESTING.md) for each release. See [current status](docs/STATUS.md) and [0.2.2 changes](docs/RELEASE_0.2.2.md).
+Automated tests do not execute Minecraft. Follow [the actual-game checklist](docs/IN_GAME_TESTING.md) for each release. See [current status](docs/STATUS.md) and [0.2.3 changes](docs/RELEASE_0.2.3.md).

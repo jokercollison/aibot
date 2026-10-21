@@ -1,0 +1,91 @@
+TIME TRAP STUDIOS AI BOT — SEPARATE TEST VERSION 0.2.3
+
+INSTALL
+1. Open TimeTrapRobot-0.2.3.mcaddon with Minecraft Bedrock.
+   Inside are TimeTrapRobot_BP and TimeTrapRobot_RP folders at the root;
+   no nested ZIP or .mcpack archives. Confirm both packs import.
+2. Create a FRESH Creative test world.
+3. Activate ONLY these matching packs:
+   Time Trap Studios AI Bot — Behavior 0.2.3
+   Time Trap Studios AI Bot — Resources 0.2.3
+   Both descriptions must also say TEST VERSION 0.2.3.
+4. Spawn a NEW robot from its egg, or use:
+   /summon tts_ai_bot_v0_2_3:robot
+5. Interact. The menu title MUST show v0.2.3. If it does not, stop:
+   a different behavior pack is running in that world.
+
+This release has new UUIDs for every pack header and module, plus version-specific
+content names and paths. It is a separate installation, not an automatic upgrade.
+Existing robots/settings from other releases are deliberately not transferred.
+Keep earlier worlds for comparison; do not activate their packs in this test world.
+
+IF ONE PACK DOES NOT IMPORT
+Open TimeTrapRobot-Resources-0.2.3.mcpack, followed by
+TimeTrapRobot-Behavior-0.2.3.mcpack. Select only their matching entries.
+Report the exact missing UUID/version if Minecraft still shows an error.
+
+FIRST CHECKS
+- Menu shows v0.2.3.
+- Things to try is present and opens example questions.
+- New introduction calls it your AI companion and mentions Things to try.
+- Robot has the same body texture/mapping as the working 0.1.1 build.
+  Expect steel-colored body, cyan eyes and chest panel, not wrapped cyan stripes.
+- Test robot sound should play a short two-note chirp.
+  If silent, check master/creature sound volumes and the active resource pack.
+  Optional separate command:
+  /playsound tts_ai_bot_v0_2_3.robot.chirp @s
+
+CRAFTING — INGREDIENT QUANTITIES ONLY
+Ask: How do I craft a diamond sword?
+Expect: To craft diamond sword, you'll need 2 diamonds and 1 stick.
+Ask: How do I craft a hopper?
+Expect: 5 iron ingots and 1 chest.
+Ask: How do I craft a stone pickaxe?
+Expect: 3 cobblestone and 2 sticks. Valid alternatives may also be listed.
+Ask: How do I make bread?
+Expect: 3 wheat.
+Ask any other crafting recipe you want to check.
+There must be NO grid rows, positions, top/bottom instructions, shape labels,
+station metadata, output-count prose, or developer verification notes.
+If old grid text or 'offline Minecraft helper' appears, copy the menu title too.
+
+DESCRIPTIONS AND FOLLOW-UPS
+- What is a hopper? -> Item collection, movement, spout direction, redstone locking.
+  Then: What does it do? -> Still describes the hopper.
+  Then: How do I craft it? -> Hopper ingredients.
+- What is a furnace? -> Smelting/cooking with fuel.
+- What is a chest? -> Item storage.
+- What is a diamond pickaxe? -> Mining tool and harvest-tier caution.
+- What are oak stairs? -> Stair-shaped building blocks.
+- What is lava? -> Hot liquid, hazard and useful applications.
+- What is a zombie? -> Hostile undead mob and basic behavior.
+- What is a creeper? -> Explosive hostile mob; suggested follow-ups.
+  Then: What scares it? -> Cats and ocelots.
+- What is a slime? -> Clarification between mob and block/item.
+  Then answer: a mob -> Slime mob explanation.
+  Then: What does it do? -> Keeps the slime mob subject.
+- How do I breed cows? -> Wheat and two suitable adult cows close together.
+- What does Mending do? -> Experience repairs equipment, highest level 1.
+- Tell me a joke -> Original approved joke.
+- hello -> Greeting.
+- Where can I find diamonds? -> Depth/mining guidance; factual version review remains pending.
+- How do I craft a wooden sword? -> 2 wooden planks and 1 stick, once.
+- How do I craft a cake? -> Ingredients, without treating returned buckets as the output.
+- How do I upgrade a diamond sword to netherite? -> Check upgrade guidance.
+
+Basic what/does coverage is not complete knowledge of every special mechanic.
+Do not expect an arbitrary open-ended AI conversation.
+
+CONTROLS
+- Rename in Settings; save/reopen to check persistence WITHIN this test version.
+- Follow me; Stay here; Set home here; Return home to a clear loaded location.
+- Toggle warnings and defense in Settings.
+- Creeper warning: within 10 blocks of you, robot within 24 blocks.
+  Detection is proximity-based, including through walls.
+- Warnings share a 60-second cooldown. Creepers, foot-level lava and low health
+  are covered. Other mob warnings are not implemented yet.
+- Multiplayer remains untested. Test owner permissions with another player later.
+
+REPORT
+Minecraft version; both pack names/descriptions; robot menu version;
+exact question/reply; texture screenshot; sound-test result; Content Log errors.

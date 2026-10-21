@@ -1,9 +1,8 @@
-# Unreleased knowledge work after 0.2.2 testing
+# Knowledge expansion included in 0.2.3; remaining gaps
 
 The user requires broad Minecraft gameplay knowledge for each block, item and
 entity, not a collection of example questions or basic names. They should not be
-responsible for finding every missing entry. Current test download remains 0.2.2;
-source is prepared as 0.2.3 with new UUIDs, but no 0.2.3 download is published yet.
+responsible for finding every missing entry. Version 0.2.3 is now published with new UUIDs after the user completed 0.2.2 testing. The larger knowledge expansion remains incomplete.
 
 ## Exhaustive source inventory and recipe audit
 
