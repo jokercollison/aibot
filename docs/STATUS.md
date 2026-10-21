@@ -5,8 +5,11 @@ The full namespace inventory/archive has 79,308 saved current revisions across
 one inventoried page was deleted/unavailable by the time of capture and remains
 explicitly recorded. Raw text, redirects, headings, links and full-text search are
 preserved. The verified portable backup is documented under research/wiki-archive/.
-Binary media and edit histories are outside this text archive. User-provided
-English August 2026 ZIM import is separately pending mirror network access.
+Binary media and edit histories are outside this text archive. The user-provided
+English August 2026 ZIM has now downloaded and passed its published SHA-256 and
+internal checksum. All 29,455 rendered HTML pages are preserved in a second
+searchable offline database and portable backup; the original 2 GB ZIM remains
+local with its media. See ZIM_ARCHIVE_STATUS.json and the archive guide.
 No game/runtime changes were made in this archive work; published test build 0.2.4
 remains unchanged. Connecting the reference corpus to comprehensive Bedrock answers
 is subsequent work, not accomplished by downloading it.

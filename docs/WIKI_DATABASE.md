@@ -1,3 +1,14 @@
+# Original ZIM and broad source archive preserved
+
+The full English August 2026 ZIM is downloaded and checksum-verified. All 29,455
+rendered HTML pages have been indexed with table text and original HTML retained.
+Together with the newer 79,308-revision source archive, this provides offline
+references independent of live wiki access. Both searchable databases have
+portable repository backups. Read the current [archive guide](../research/wiki-archive/README.md).
+This is research preservation, not a claim that the bot can answer every topic.
+
+## Earlier archive and knowledge notes
+
 # Broad offline reference archive now available
 
 The user explicitly prioritized preserving the reference corpus before expanding

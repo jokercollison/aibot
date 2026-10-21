@@ -3,7 +3,15 @@
   "source_url": "https://lb.download.kiwix.org/zim/other/minecraft.wiki_en_all_2026-08.zim",
   "bytes": 1941160495,
   "sha256": "1abbdd90762ab56676dc43bc4e1f019dd04fba3e9c97a3ac520a1c4f769c94d5",
-  "download_status": "not_downloaded; load balancer reachable but selected mirror blocked by current runtime allowlist",
+  "download_status": "downloaded; verified exact expected byte count and SHA-256",
   "snapshot": "English August 2026",
-  "text_archive_is_separate": true
+  "text_archive_is_separate": true,
+  "local_file": "/workspace/reference/minecraft-wiki/minecraft.wiki_en_all_2026-08.zim",
+  "zim_internal_checksum_verified": true,
+  "snapshot_date": "2026-08-21",
+  "uuid": "8f7f9d2c-d369-3dd2-11c0-71dc7e45aa27",
+  "rendered_html_expected": 29455,
+  "import_status": "complete",
+  "rendered_html_preserved": 29455,
+  "archive_database_backup": "research/wiki-archive/2026-08-zim/manifest.json"
 }

@@ -3,7 +3,7 @@ from unittest.mock import patch
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def load(name):
  s=importlib.util.spec_from_file_location(name,ROOT/'tools'/f'{name}.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
-w=load('wiki_archive');zim=load('wiki_zim');backup=load('wiki_backup')
+w=load('wiki_archive');zim=load('wiki_zim');backup=load('wiki_backup');lookup=load('wiki_lookup')
 class ArchiveTests(unittest.TestCase):
  def test_offline_search_source_redirect_and_audit(self):
   with tempfile.TemporaryDirectory() as t:
@@ -28,6 +28,25 @@ class ArchiveTests(unittest.TestCase):
    with patch.object(w,'request',side_effect=batches) as request,patch.object(w.time,'sleep'):
     w.inventory(db,[0]);self.assertEqual(request.call_args_list[1].args[0]['apcontinue'],'Wolf')
    with patch.object(w,'request',side_effect=AssertionError('already inventoried')):w.inventory(db,[0])
+ def test_zim_metadata_path_can_coexist_with_article_path(self):
+  with tempfile.TemporaryDirectory() as t:
+   path=pathlib.Path(t)/'zim.sqlite';db=sqlite3.connect(path)
+   db.execute('CREATE TABLE entries(entry_id INTEGER PRIMARY KEY,path TEXT UNIQUE,title TEXT,mimetype TEXT,redirect TEXT,sha256 TEXT,source BLOB,readable_text BLOB)')
+   db.execute("INSERT INTO entries VALUES(1,'Counter','Counter','text/html',NULL,NULL,NULL,NULL)");db.commit();db.close()
+   db=zim.connect_database(path);db.execute("INSERT INTO entries VALUES(2,'Counter','Counter','text/plain',NULL,NULL,NULL,NULL)");db.commit()
+   self.assertEqual(db.execute("SELECT COUNT(*) FROM entries WHERE path='Counter'").fetchone()[0],2)
+   db.execute('UPDATE entries SET readable_text=? WHERE entry_id=1',(zlib.compress(b'game article'),));db.execute('UPDATE entries SET readable_text=? WHERE entry_id=2',(zlib.compress(b'internal metadata'),));db.commit()
+   self.assertEqual(lookup.read(db,'zim','Counter')['text'],'game article');db.close()
+ def test_read_only_lookup_resolves_redirects_without_modifying_database(self):
+  with tempfile.TemporaryDirectory() as t:
+   path=pathlib.Path(t)/'archive.sqlite';db=w.connect(path)
+   for pid,title,text in [(1,'Wolf','Chestnut wolf lives in old growth spruce taiga.'),(2,'Brown wolf','#REDIRECT [[Wolf#Color variants]]')]:
+    w.store(db,{'pageid':pid,'ns':0,'title':title,'revisions':[{'revid':pid,'slots':{'main':{'contentmodel':'wikitext','content':text}}}]})
+   db.commit();db.close();db=lookup.connect(path)
+   self.assertEqual(lookup.read(db,'wiki','Brown wolf')['title'],'Wolf')
+   self.assertTrue(lookup.search(db,'wiki','chestnut',5))
+   with self.assertRaises(sqlite3.OperationalError):db.execute('DELETE FROM articles')
+   db.close()
  def test_backup_restores_without_network_and_detects_corruption(self):
   with tempfile.TemporaryDirectory() as t:
    base=pathlib.Path(t);original=base/'original.sqlite';db=sqlite3.connect(original);db.execute('CREATE TABLE facts(value TEXT)');db.execute("INSERT INTO facts VALUES('wolf variants')");db.commit();db.close()
@@ -37,7 +56,11 @@ class ArchiveTests(unittest.TestCase):
    part=next((base/'backup').glob('part-*.bin'));part.write_bytes(b'corrupt')
    with self.assertRaises(ValueError):backup.restore(base/'backup/manifest.json',base/'bad.sqlite')
    self.assertFalse((base/'bad.sqlite').exists())
+ def test_zim_charset_is_respected_without_altering_source_bytes(self):
+  self.assertEqual(zim.decode_text(b'caf\xe9','text/html; charset=iso-8859-1'),'café')
  def test_zim_tables_remain_readable_and_scripts_are_data_only(self):
   p=zim.ReadableHTML();p.feed('<h2>Variants</h2><table><tr><th>Wolf</th><th>Biome</th></tr><tr><td>Snowy</td><td>Grove</td></tr></table><script>do not execute</script>')
   self.assertIn('Snowy\tGrove',p.text());self.assertNotIn('do not execute',p.text())
+  rendered=zim.readable_html('<table><tr><td>Snowy</td><td>Grove</td></tr></table><script>do not execute</script>')
+  self.assertIn('Snowy\tGrove',rendered);self.assertNotIn('do not execute',rendered)
 if __name__=='__main__':unittest.main()

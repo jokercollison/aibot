@@ -46,5 +46,18 @@
     }
   ],
   "full_text_snowy_wolf_hits": 44,
-  "scope": "Offline retrieval/restoration evidence only, not exhaustive factual or target-game verification."
+  "scope": "Offline retrieval/restoration evidence only, not exhaustive factual or target-game verification.",
+  "zim_restored_from_backup": {
+    "network_calls_allowed": false,
+    "rendered_html_pages": 29455,
+    "whole_database_hash_verified": true,
+    "sqlite_integrity": "ok",
+    "actual_rendered_article_checks": [
+      "Wolf variants/biomes",
+      "Planks crafting/bamboo",
+      "Diamond Ore generation"
+    ],
+    "read_only_lookup": true
+  },
+  "both_restored_databases_tested_with_python_socket_calls_blocked": true
 }
