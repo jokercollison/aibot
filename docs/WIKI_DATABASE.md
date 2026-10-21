@@ -1,3 +1,15 @@
+# Broad offline reference archive now available
+
+The user explicitly prioritized preserving the reference corpus before expanding
+runtime answers. The catalog-only cache described below is superseded for research
+by `tools/wiki_archive.py` and the backed-up database documented in
+[research/wiki-archive/README.md](../research/wiki-archive/README.md).
+`docs/WIKI_ARCHIVE_STATUS.json` records namespace inventory, capture gaps and hash
+verification. This is an independent offline research resource, not a complete
+runtime question-answering system. The published game download remains 0.2.4.
+
+## Earlier catalog-cache and runtime notes
+
 # Development reference database and game knowledge
 
 The user authorized building an original structured knowledge base using Minecraft

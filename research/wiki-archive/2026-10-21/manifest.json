@@ -1,0 +1,36 @@
+{
+  "format": "tts-wiki-sqlite-gzip-parts-v1",
+  "database_bytes": 185004032,
+  "database_sha256": "ab28ab619573570cf52db620e6065b96621e42f517149c3057cdae7511bb9d6c",
+  "compressed_bytes": 119111931,
+  "parts": [
+    {
+      "name": "part-0001.bin",
+      "bytes": 25165824,
+      "sha256": "7f9e5bd02ec4bdd5fbd22223a6dfc1267f9a20de33de3f6d971c0e8a9ca16834"
+    },
+    {
+      "name": "part-0002.bin",
+      "bytes": 25165824,
+      "sha256": "e80ffb4e94efeece165324d086c8bbd62c6b62daece5eb3ffd26f8f7176e3038"
+    },
+    {
+      "name": "part-0003.bin",
+      "bytes": 25165824,
+      "sha256": "c3594660059dd43b3fd4d10b9e997cc10fbf76f25a370a113fb5f98512e4afac"
+    },
+    {
+      "name": "part-0004.bin",
+      "bytes": 25165824,
+      "sha256": "38c880ae2d4cf4d40fcd40f900ca49823654a55a6f4259773cbe44e1bada3963"
+    },
+    {
+      "name": "part-0005.bin",
+      "bytes": 18448635,
+      "sha256": "036f2f7db8aba4dc5b4f4edec077722ec1b9dcf0a071fe09b183d82ddc99fd72"
+    }
+  ],
+  "source": "https://minecraft.wiki/",
+  "scope": "Development/research reference; never included in Minecraft add-on. See archive metadata and status for snapshot scope.",
+  "license_notice": "Source wiki content currently declares CC BY-NC-SA 3.0 unless otherwise noted; preserve this notice and original source/revision attribution."
+}

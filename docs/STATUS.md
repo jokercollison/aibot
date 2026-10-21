@@ -1,3 +1,18 @@
+# Offline reference preservation
+
+The full namespace inventory/archive has 79,308 saved current revisions across
+15 game-content/support namespaces. All saved content hashes pass verification;
+one inventoried page was deleted/unavailable by the time of capture and remains
+explicitly recorded. Raw text, redirects, headings, links and full-text search are
+preserved. The verified portable backup is documented under research/wiki-archive/.
+Binary media and edit histories are outside this text archive. User-provided
+English August 2026 ZIM import is separately pending mirror network access.
+No game/runtime changes were made in this archive work; published test build 0.2.4
+remains unchanged. Connecting the reference corpus to comprehensive Bedrock answers
+is subsequent work, not accomplished by downloading it.
+
+## Earlier records
+
 # Published test release: 0.2.4
 
 Published at the user’s request after validation: API type checking, 65 Node tests and build/archive checks passed. The separate Python cache regression test also passed. New in-game testing is pending; multiplayer remains untested. The raw wiki cache is excluded from the add-on, and most wiki topics remain unconnected.

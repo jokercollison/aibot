@@ -6,6 +6,8 @@ An offline Minecraft Bedrock robot companion. This is a development build, not a
 
 **Knowledge expansion in progress:** 0.2.4 adds reviewed ore-location and Slime-spawning guidance. The [development reference database](docs/WIKI_DATABASE.md) is separate from runtime answers. Full gameplay knowledge is not complete.
 
+**Offline research archive:** a broad wiki text snapshot and verified offline restore tools are documented in [the archive guide](research/wiki-archive/README.md). This preserves references independently of live wiki access; it is separate from the bot’s playable knowledge.
+
 ## Install this separate test version
 
 1. Download and open the `.mcaddon` with **Minecraft Bedrock**. It contains ordinary `TimeTrapRobot_BP` and `TimeTrapRobot_RP` folders directly at its root, with no nested pack archives.
