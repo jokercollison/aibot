@@ -1,0 +1,19 @@
+{
+  "minecraft:diamond": {
+    "answer": "Look for diamond ore deep underground in the Overworld, below Y=16. It becomes more common toward the bottom of the world; around Y=-59 is a useful mining level, but watch for lava. Use an iron pickaxe or better to collect diamonds. They are not restricted to one Overworld biome.",
+    "related_ids": ["minecraft:diamond_ore", "minecraft:deepslate_diamond_ore"],
+    "reference_urls": ["https://minecraft.wiki/w/Diamond_Ore", "https://minecraft.wiki/w/Tutorial:Mining"],
+    "inherited_research": ["legacy/database/wiki_bedrock_mechanics_draft_13.json:wiki13_diamond_depth", "legacy/database/wiki_bedrock_qa_v20.json:wiki20_mining_fortune"],
+    "status": "general_modern_bedrock_summary_target_version_verification_pending",
+    "conditions": ["Overworld terrain generation", "Not a guaranteed ore location", "Existing chunks reflect the version in which they generated"],
+    "live_wiki_checked": false
+  },
+  "minecraft:coal": {
+    "answer": "Look for coal ore above Y=0 in the Overworld, especially exposed rock in hills, cliffs, and mountains. Higher ground is a better place to search than the deep negative-Y layers. Use a wooden pickaxe or better to collect it. If you are deep underground without coal, you can make charcoal by smelting suitable logs instead.",
+    "related_ids": ["minecraft:coal_ore", "minecraft:deepslate_coal_ore"],
+    "reference_urls": ["https://minecraft.wiki/w/Coal_Ore", "https://minecraft.wiki/w/Ore"],
+    "status": "general_modern_bedrock_summary_target_version_verification_pending",
+    "conditions": ["Normal modern Overworld generation", "Not a guaranteed ore location", "Deepslate coal at the boundary is a rare special case"],
+    "live_wiki_checked": false
+  }
+}

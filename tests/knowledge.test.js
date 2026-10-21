@@ -16,7 +16,7 @@ test('adult cow breeding',()=>assert.match(ask('How do I breed cows?').answer,/w
 test('follow-up retains the identified subject',()=>{const c=createConversation();c.ask('What is a creeper?');assert.match(c.ask('What scares it?').answer,/cats/);});
 test('unknown questions do not fabricate',()=>assert.equal(ask('How do I craft a flibbertigibbet?').status,'unknown'));
 test('unknown mob mechanics do not become generic fact claims',()=>assert.equal(ask('Can a cow survive lava?').status,'unknown'));
-test('location questions do not return misleading registry descriptions',()=>assert.equal(ask('Where can I find diamonds?').status,'unknown'));
+test('location questions return useful mining guidance rather than registry descriptions',()=>assert.match(ask('Where can I find diamonds?').answer,/Overworld.*Y=16/));
 test('enchantment returns effect',()=>assert.match(ask('What does Mending do?').answer,/Mending/));
 test('reverse ingredient queries',()=>assert.match(ask('What can I make with iron ingot?').answer,/some things you can make/));
 test('blank and excessive questions request clarification',()=>{assert.equal(ask('').status,'clarify');assert.equal(ask('x'.repeat(241)).status,'clarify');});
@@ -44,8 +44,7 @@ test('mob recognition suggests supported follow-ups',()=>{
 });
 test('mob definitions explain behavior rather than redirecting to crafting',()=>assert.match(ask('What is a zombie?').answer,/hostile undead mob/));
 test('all crafting answers omit grid positions and technical source language',()=>{
- const recipes=JSON.parse(readFileSync('data/official_recipes.json'));
- const outputs=[...new Set(Object.values(recipes).flat().map(r=>r.definition.result?.item??r.definition.output).filter(v=>typeof v==='string'))];
+ const outputs=Object.keys(JSON.parse(readFileSync('data/recipe_index.json')).by_output);
  let answered=0;
  for(const name of outputs){
   const id=name.includes(':')?name:'minecraft:'+name;

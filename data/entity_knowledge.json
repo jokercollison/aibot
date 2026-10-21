@@ -1,0 +1,1843 @@
+{
+  "minecraft:allay": {
+    "source": "behavior_pack/entities/allay.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:armadillo": {
+    "source": "behavior_pack/entities/armadillo.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 12 health points (6 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 12
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using spider eye. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:adult",
+            "items": [
+              "spider eye"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:armor_stand": {
+    "source": "behavior_pack/entities/armor_stand.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 6 health points (3 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:axolotl": {
+    "source": "behavior_pack/entities/axolotl.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 14 health points (7 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 14
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using tropical fish bucket. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "axolotl_adult",
+            "items": [
+              "tropical fish bucket"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:bat": {
+    "source": "behavior_pack/entities/bat.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 6 health points (3 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:bee": {
+    "source": "behavior_pack/entities/bee.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using allium, azalea leaves flowered, azure bluet, blue orchid, cactus flower, cherry leaves, chorus flower, cornflower, dandelion, flowering azalea, lilac, lily of the valley, mangrove propagule, orange tulip, oxeye daisy, peony, pink petals, pink tulip, pitcher plant, poppy, red tulip, rose bush, spore blossom, sunflower, torchflower, white tulip, wildflowers, wither rose. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "bee_adult",
+            "items": [
+              "allium",
+              "azalea leaves flowered",
+              "azure bluet",
+              "blue orchid",
+              "cactus flower",
+              "cherry leaves",
+              "chorus flower",
+              "cornflower",
+              "dandelion",
+              "flowering azalea",
+              "lilac",
+              "lily of the valley",
+              "mangrove propagule",
+              "orange tulip",
+              "oxeye daisy",
+              "peony",
+              "pink petals",
+              "pink tulip",
+              "pitcher plant",
+              "poppy",
+              "red tulip",
+              "rose bush",
+              "spore blossom",
+              "sunflower",
+              "torchflower",
+              "white tulip",
+              "wildflowers",
+              "wither rose"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:blaze": {
+    "source": "behavior_pack/entities/blaze.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:bogged": {
+    "source": "behavior_pack/entities/bogged.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 16 health points (8 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:breeze": {
+    "source": "behavior_pack/entities/breeze.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 30 health points (15 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:camel": {
+    "source": "behavior_pack/entities/camel.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 32 health points (16 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 32
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using cactus. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:camel_adult",
+            "items": [
+              "cactus"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:camel_husk": {
+    "source": "behavior_pack/entities/camel_husk.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 32 health points (16 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 32
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:cat": {
+    "source": "behavior_pack/entities/cat.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 10 health points (5 hearts), 20 health points (10 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "minecraft:cat_wild",
+            "maximum": 10
+          },
+          {
+            "scope": "minecraft:cat_tame",
+            "maximum": 20
+          }
+        ]
+      },
+      "taming": {
+        "answer": "For an eligible wild animal, use fish, salmon. Taming can require more than one attempt; not every form or state is eligible.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:cat_wild",
+            "items": [
+              "fish",
+              "salmon"
+            ],
+            "require_tame": null
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using fish, salmon. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:cat_adult",
+            "items": [
+              "fish",
+              "salmon"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:cave_spider": {
+    "source": "behavior_pack/entities/cave_spider.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 12 health points (6 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 12
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:chicken": {
+    "source": "behavior_pack/entities/chicken.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 4 health points (2 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 4
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using beetroot seeds, melon seeds, pitcher pod, pumpkin seeds, torchflower seeds, wheat seeds. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:chicken_adult",
+            "items": [
+              "beetroot seeds",
+              "melon seeds",
+              "pitcher pod",
+              "pumpkin seeds",
+              "torchflower seeds",
+              "wheat seeds"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:copper_golem": {
+    "source": "behavior_pack/entities/copper_golem.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 12 health points (6 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 12
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:cow": {
+    "source": "behavior_pack/entities/cow.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using wheat. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:cow_adult",
+            "items": [
+              "wheat"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:creaking": {
+    "source": "behavior_pack/entities/creaking.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 1 health points (0.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 1
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:creeper": {
+    "source": "behavior_pack/entities/creeper.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:dolphin": {
+    "source": "behavior_pack/entities/dolphin.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:donkey": {
+    "source": "behavior_pack/entities/donkey.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "breeding": {
+        "answer": "Eligible adults can breed using appleEnchanted, golden apple, golden carrot. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:donkey_tamed",
+            "items": [
+              "appleEnchanted",
+              "golden apple",
+              "golden carrot"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:drowned": {
+    "source": "behavior_pack/entities/drowned.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:elder_guardian": {
+    "source": "behavior_pack/entities/elder_guardian.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 80 health points (40 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 80
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:ender_crystal": {
+    "source": "behavior_pack/entities/ender_crystal.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 1 health points (0.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 1
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:ender_dragon": {
+    "source": "behavior_pack/entities/ender_dragon.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 200 health points (100 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 200
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:enderman": {
+    "source": "behavior_pack/entities/enderman.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 40 health points (20 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 40
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:endermite": {
+    "source": "behavior_pack/entities/endermite.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 8 health points (4 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:evocation_illager": {
+    "source": "behavior_pack/entities/evocation_illager.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 24 health points (12 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 24
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:cod": {
+    "source": "behavior_pack/entities/fish.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 3 health points (1.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:fox": {
+    "source": "behavior_pack/entities/fox.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using glow berries, sweet berries. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:fox_adult",
+            "items": [
+              "glow berries",
+              "sweet berries"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:frog": {
+    "source": "behavior_pack/entities/frog.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using slime ball. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "base",
+            "items": [
+              "slime ball"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:ghast": {
+    "source": "behavior_pack/entities/ghast.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:glow_squid": {
+    "source": "behavior_pack/entities/glow_squid.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:goat": {
+    "source": "behavior_pack/entities/goat.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using wheat. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "goat_adult",
+            "items": [
+              "wheat"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:guardian": {
+    "source": "behavior_pack/entities/guardian.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 30 health points (15 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:happy_ghast": {
+    "source": "behavior_pack/entities/happy_ghast.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "minecraft:baby",
+            "maximum": 20
+          },
+          {
+            "scope": "minecraft:adult",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:hoglin": {
+    "source": "behavior_pack/entities/hoglin.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 40 health points (20 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 40
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using crimson fungus. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:hoglin_adult",
+            "items": [
+              "crimson fungus"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:horse": {
+    "source": "behavior_pack/entities/horse.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "breeding": {
+        "answer": "Eligible adults can breed using appleEnchanted, golden apple, golden carrot. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:horse_tamed",
+            "items": [
+              "appleEnchanted",
+              "golden apple",
+              "golden carrot"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:husk": {
+    "source": "behavior_pack/entities/husk.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:iron_golem": {
+    "source": "behavior_pack/entities/iron_golem.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 100 health points (50 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 100
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:llama": {
+    "source": "behavior_pack/entities/llama.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "breeding": {
+        "answer": "Eligible adults can breed using hay block. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:llama_adult",
+            "items": [
+              "hay block"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:magma_cube": {
+    "source": "behavior_pack/entities/magma_cube.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 1 health points (0.5 hearts), 4 health points (2 hearts), 16 health points (8 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "minecraft:slime_large",
+            "maximum": 16
+          },
+          {
+            "scope": "minecraft:slime_medium",
+            "maximum": 4
+          },
+          {
+            "scope": "minecraft:slime_small",
+            "maximum": 1
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:mooshroom": {
+    "source": "behavior_pack/entities/mooshroom.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using wheat. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:cow_adult",
+            "items": [
+              "wheat"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:nautilus": {
+    "source": "behavior_pack/entities/nautilus.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 15 health points (7.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 15
+          }
+        ]
+      },
+      "taming": {
+        "answer": "For an eligible wild animal, use pufferfish, pufferfish bucket. Taming can require more than one attempt; not every form or state is eligible.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:nautilus_wild_adult_calm",
+            "items": [
+              "pufferfish",
+              "pufferfish bucket"
+            ],
+            "require_tame": null
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using clownfish, cod bucket, cooked fish, cooked salmon, fish, pufferfish, pufferfish bucket, salmon, salmon bucket, tropical fish bucket. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:nautilus_adult",
+            "items": [
+              "clownfish",
+              "cod bucket",
+              "cooked fish",
+              "cooked salmon",
+              "fish",
+              "pufferfish",
+              "pufferfish bucket",
+              "salmon",
+              "salmon bucket",
+              "tropical fish bucket"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:ocelot": {
+    "source": "behavior_pack/entities/ocelot.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 10 health points (5 hearts), 20 health points (10 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          },
+          {
+            "scope": "minecraft:ocelot_tame",
+            "maximum": 20
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using fish, salmon. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:ocelot_trusting",
+            "items": [
+              "fish",
+              "salmon"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:panda": {
+    "source": "behavior_pack/entities/panda.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 10 health points (5 hearts), 20 health points (10 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          },
+          {
+            "scope": "minecraft:panda_weak",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using bamboo. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:panda_adult",
+            "items": [
+              "bamboo"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:parched": {
+    "source": "behavior_pack/entities/parched.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 16 health points (8 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:parrot": {
+    "source": "behavior_pack/entities/parrot.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 6 health points (3 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ]
+      },
+      "taming": {
+        "answer": "For an eligible wild animal, use beetroot seeds, melon seeds, pitcher pod, pumpkin seeds, torchflower seeds, wheat seeds. Taming can require more than one attempt; not every form or state is eligible.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:parrot_wild",
+            "items": [
+              "beetroot seeds",
+              "melon seeds",
+              "pitcher pod",
+              "pumpkin seeds",
+              "torchflower seeds",
+              "wheat seeds"
+            ],
+            "require_tame": null
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:phantom": {
+    "source": "behavior_pack/entities/phantom.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:pig": {
+    "source": "behavior_pack/entities/pig.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using beetroot, carrot, potato. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:pig_adult",
+            "items": [
+              "beetroot",
+              "carrot",
+              "potato"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:piglin": {
+    "source": "behavior_pack/entities/piglin.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 16 health points (8 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:piglin_brute": {
+    "source": "behavior_pack/entities/piglin_brute.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 50 health points (25 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 50
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:pillager": {
+    "source": "behavior_pack/entities/pillager.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 24 health points (12 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 24
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:polar_bear": {
+    "source": "behavior_pack/entities/polar_bear.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 30 health points (15 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:pufferfish": {
+    "source": "behavior_pack/entities/pufferfish.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 3 health points (1.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:rabbit": {
+    "source": "behavior_pack/entities/rabbit.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 3 health points (1.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using carrot, dandelion, golden carrot. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "adult",
+            "items": [
+              "carrot",
+              "dandelion",
+              "golden carrot"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:ravager": {
+    "source": "behavior_pack/entities/ravager.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 100 health points (50 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 100
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:salmon": {
+    "source": "behavior_pack/entities/salmon.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 3 health points (1.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:sheep": {
+    "source": "behavior_pack/entities/sheep.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 8 health points (4 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using wheat. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:sheep_adult",
+            "items": [
+              "wheat"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:shulker": {
+    "source": "behavior_pack/entities/shulker.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 30 health points (15 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:silverfish": {
+    "source": "behavior_pack/entities/silverfish.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 8 health points (4 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:skeleton": {
+    "source": "behavior_pack/entities/skeleton.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:skeleton_horse": {
+    "source": "behavior_pack/entities/skeleton_horse.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 15 health points (7.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 15
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:slime": {
+    "source": "behavior_pack/entities/slime.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 1 health points (0.5 hearts), 4 health points (2 hearts), 16 health points (8 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "minecraft:slime_large",
+            "maximum": 16
+          },
+          {
+            "scope": "minecraft:slime_medium",
+            "maximum": 4
+          },
+          {
+            "scope": "minecraft:slime_small",
+            "maximum": 1
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:sniffer": {
+    "source": "behavior_pack/entities/sniffer.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 14 health points (7 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 14
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using torchflower seeds. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "sniffer_adult",
+            "items": [
+              "torchflower seeds"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:snow_golem": {
+    "source": "behavior_pack/entities/snow_golem.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 4 health points (2 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 4
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:spider": {
+    "source": "behavior_pack/entities/spider.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 16 health points (8 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 16
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:squid": {
+    "source": "behavior_pack/entities/squid.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 10 health points (5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 10
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:stray": {
+    "source": "behavior_pack/entities/stray.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:strider": {
+    "source": "behavior_pack/entities/strider.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using warped fungus. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:strider_adult",
+            "items": [
+              "warped fungus"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:sulfur_cube": {
+    "source": "behavior_pack/entities/sulfur_cube.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 4 health points (2 hearts), 8 health points (4 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "minecraft:sulfur_cube_small",
+            "maximum": 4
+          },
+          {
+            "scope": "minecraft:sulfur_cube_medium",
+            "maximum": 8
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:tadpole": {
+    "source": "behavior_pack/entities/tadpole.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 6 health points (3 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 6
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:trader_llama": {
+    "source": "behavior_pack/entities/trader_llama.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "breeding": {
+        "answer": "Eligible adults can breed using hay block. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:llama_adult",
+            "items": [
+              "hay block"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:tripod_camera": {
+    "source": "behavior_pack/entities/tripod_camera.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 4 health points (2 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 4
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:tropicalfish": {
+    "source": "behavior_pack/entities/tropicalfish.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 3 health points (1.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 3
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:turtle": {
+    "source": "behavior_pack/entities/turtle.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 30 health points (15 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 30
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using seagrass. Bring two suitable adults close together. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:adult",
+            "items": [
+              "seagrass"
+            ],
+            "require_tame": false
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:vex": {
+    "source": "behavior_pack/entities/vex.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 14 health points (7 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 14
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:villager": {
+    "source": "behavior_pack/entities/villager.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:villager_v2": {
+    "source": "behavior_pack/entities/villager_v2.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:vindicator": {
+    "source": "behavior_pack/entities/vindicator.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 24 health points (12 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 24
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:wandering_trader": {
+    "source": "behavior_pack/entities/wandering_trader.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:warden": {
+    "source": "behavior_pack/entities/warden.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 500 health points (250 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 500
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:witch": {
+    "source": "behavior_pack/entities/witch.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 26 health points (13 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 26
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:wither": {
+    "source": "behavior_pack/entities/wither.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 600 health points (300 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 600
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:wither_skeleton": {
+    "source": "behavior_pack/entities/wither_skeleton.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:wolf": {
+    "source": "behavior_pack/entities/wolf.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its health depends on its form or state. Listed maximum-health values include 8 health points (4 hearts), 40 health points (20 hearts). These are alternatives, not values that apply simultaneously.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 8
+          },
+          {
+            "scope": "minecraft:wolf_increased_max_health",
+            "maximum": 40
+          }
+        ]
+      },
+      "taming": {
+        "answer": "For an eligible wild animal, use bone. Taming can require more than one attempt; not every form or state is eligible.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:wolf_wild",
+            "items": [
+              "bone"
+            ],
+            "require_tame": null
+          }
+        ]
+      },
+      "breeding": {
+        "answer": "Eligible adults can breed using beef, chicken, cooked beef, cooked chicken, cooked porkchop, cooked rabbit, muttonCooked, muttonRaw, porkchop, rabbit, rotten flesh. Bring two suitable adults close together and make sure both are tamed. Breeding cooldowns and species-specific conditions still apply.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:wolf_adult",
+            "items": [
+              "beef",
+              "chicken",
+              "cooked beef",
+              "cooked chicken",
+              "cooked porkchop",
+              "cooked rabbit",
+              "muttonCooked",
+              "muttonRaw",
+              "porkchop",
+              "rabbit",
+              "rotten flesh"
+            ],
+            "require_tame": true
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:xp_orb": {
+    "source": "behavior_pack/entities/xp_orb.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 5 health points (2.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 5
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zoglin": {
+    "source": "behavior_pack/entities/zoglin.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 40 health points (20 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 40
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zombie": {
+    "source": "behavior_pack/entities/zombie.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zombie_horse": {
+    "source": "behavior_pack/entities/zombie_horse.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 25 health points (12.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 25
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zombie_nautilus": {
+    "source": "behavior_pack/entities/zombie_nautilus.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 15 health points (7.5 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 15
+          }
+        ]
+      },
+      "taming": {
+        "answer": "For an eligible wild animal, use pufferfish, pufferfish bucket. Taming can require more than one attempt; not every form or state is eligible.",
+        "scoped_variants": [
+          {
+            "scope": "minecraft:zombie_nautilus_tameable",
+            "items": [
+              "pufferfish",
+              "pufferfish bucket"
+            ],
+            "require_tame": null
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zombie_pigman": {
+    "source": "behavior_pack/entities/zombie_pigman.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zombie_villager": {
+    "source": "behavior_pack/entities/zombie_villager.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  },
+  "minecraft:zombie_villager_v2": {
+    "source": "behavior_pack/entities/zombie_villager_v2.json",
+    "status": "component_derived_with_state_caveats_not_full_gameplay_verification",
+    "facts": {
+      "health": {
+        "answer": "Its listed maximum health is 20 health points (10 hearts). Effects and special states can change health during play.",
+        "scoped_values": [
+          {
+            "scope": "base",
+            "maximum": 20
+          }
+        ]
+      }
+    }
+  }
+}

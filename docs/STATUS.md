@@ -1,3 +1,7 @@
+# Current source: unreleased 0.2.3; test download: 0.2.2
+
+See KNOWLEDGE_EXPANSION_PENDING.md, CRAFTING_COVERAGE.json and GAMEPLAY_COVERAGE.json for the current exhaustive source/topic audit. New recipe, ambiguity, location and entity-topic fixes pass 63 automated tests; no new 0.2.3 test download has been published. Full gameplay knowledge is NOT complete. Live wiki verification is blocked until the requested network-domain change is applied.
+
 # Development status — 0.2.1
 
 ## Implemented and checked outside Minecraft

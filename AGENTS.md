@@ -36,3 +36,12 @@ These preferences were explicitly requested by the user during in-game testing.
   Keep the Factions-style Content layout only in the separate submission ZIP.
   The 0.2.1 import using nested Content roots failed in the user’s game. NEVER put .mcpack/.zip/.mcaddon archives inside it.
   Separate standalone .mcpack downloads may be offered, but are not embedded.
+- Knowledge completeness means per-subject gameplay TOPICS, not merely identifier
+  presence or a what/does sentence. Reconcile the entire sample catalog and recipe
+  directory; maintain docs/CRAFTING_COVERAGE.json and GAMEPLAY_COVERAGE.json.
+  Never ask the tester to discover every missing entry. Missing sample recipes
+  are not evidence of uncraftability. Do not claim the entire wiki is imported.
+- Retain pending ambiguity choices so 'a mob' answers the preceding slime
+  clarification. Do not require the player to restate the full question.
+- Collapse interchangeable wooden planks only when the source includes an
+  equivalent generic recipe; preserve species for wood-specific outputs.

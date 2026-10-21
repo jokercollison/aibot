@@ -39,7 +39,7 @@ test('regular natural names work across blocks, items, equipment, fluids and ent
 });
 test('unsupported special mechanics still admit uncertainty rather than using basic descriptions as an answer',()=>{
  assert.equal(ask('Can a cow survive lava?').status,'unknown');
- assert.equal(ask('Where can I find diamonds?').status,'unknown');
+ assert.equal(ask('Where can I find a flibbertigibbet?').status,'unknown');
  assert.match(ask('What is a flibbertigibbet?').answer,/not sure/);
 });
 test('family matching does not mistake crop/mushroom stems for wood or double slabs for half blocks',()=>{
@@ -51,4 +51,17 @@ test('mob versus item meaning is clarified and can be selected naturally',()=>{
  assert.equal(ask('What is a slime?').status,'ambiguous');
  assert.match(ask('What is a slime mob?').answer,/bouncing hostile mob/);
  assert.match(ask('What is a slime block?').answer,/bouncy block/);
+});
+test('short clarification answers resolve remembered choices and retain the selected subject',()=>{
+ for(const reply of ['a mob','mob','the mob','an entity']){
+  const c=createConversation();assert.equal(c.ask('What is a slime?').status,'ambiguous');
+  assert.match(c.ask(reply).answer,/bouncing hostile mob/);
+  assert.match(c.ask('What does it do?').answer,/divides into smaller slimes/);
+ }
+ const c=createConversation();c.ask('What is a slime?');assert.match(c.ask('a block').answer,/bouncy block/);
+ assert.match(c.ask('How do I craft it?').answer,/9 slime balls/);
+});
+test('pending clarification is private to a conversation and an unrelated resolved subject clears it',()=>{
+ const a=createConversation(),b=createConversation();a.ask('What is a slime?');assert.equal(b.ask('a mob').status,'unknown');
+ a.ask('What is a hopper?');assert.equal(a.ask('a mob').status,'unknown');
 });

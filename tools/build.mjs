@@ -7,6 +7,10 @@ const root = fileURLToPath(new URL('..',import.meta.url));
 process.chdir(root);
 // Only generated directories owned by this project are replaced.
 execFileSync('python',['tools/catalog.py'],{stdio:'inherit'});
+execFileSync('python',['tools/recipes.py'],{stdio:'inherit'});
+execFileSync('python',['tools/entity_knowledge.py'],{stdio:'inherit'});
+execFileSync('python',['tools/acquisition.py'],{stdio:'inherit'});
+execFileSync('python',['tools/topics.py'],{stdio:'inherit'});
 execFileSync('python',['tools/descriptions.py'],{stdio:'inherit'});
 await rm('build',{recursive:true,force:true});
 await mkdir('build',{recursive:true});
