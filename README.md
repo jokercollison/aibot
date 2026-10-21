@@ -4,6 +4,10 @@ An offline Minecraft Bedrock robot companion for Time Trap Studios. This is an e
 
 ## Try the add-on
 
+**[Download the Minecraft test add-on](https://github.com/jokercollison/aibot/raw/refs/heads/main/downloads/TimeTrapRobot-0.1.0.mcaddon)**
+
+On a device with Minecraft Bedrock installed, download the file above, then open it with Minecraft. This is a development build that still needs actual in-game testing.
+
 1. Download `dist/TimeTrapRobot-0.1.0.mcaddon` and open it with **Minecraft Bedrock**, not Java Edition.
 2. Create a **new test world**. Activate **Time Trap Robot — Development** under Behavior Packs and **Time Trap Robot — Resources** under Resource Packs. No experimental toggles are intended to be needed.
 3. Use Creative mode and find **Time Trap Robot** in the spawn eggs, or enable cheats in the test world and enter `/summon tts:robot`.
