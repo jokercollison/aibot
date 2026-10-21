@@ -1,3 +1,5 @@
+Version 0.2.4 is now published for testing; unreleased references below are historical. Full knowledge expansion is still incomplete.
+
 ## New source work after 0.2.3
 
 Live article/API access is now working (the earlier blocked status below is historical). WIKI_DATABASE.md describes the catalog-driven local cache and separately reviewed runtime facts. Current source is unreleased 0.2.4; the 0.2.3 download remains unchanged.

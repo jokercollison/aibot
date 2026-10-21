@@ -61,6 +61,6 @@ prose. The wiki currently declares CC BY-NC-SA 3.0; source notices and revision
 attribution are retained for traceability. No assumption that paraphrasing alone
 settles every reuse question is made. The raw reference corpus is not distributed.
 
-Current source is unreleased 0.2.4; the published 0.2.3 download is unchanged.
+Version 0.2.4 is now published for testing. Earlier 0.2.3 files remain unchanged.
 
 Validation: 65 Node tests, one Python reference-cache regression test, API type checking, and full package/build checks pass. These checks do not execute Minecraft.

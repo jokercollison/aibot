@@ -1,3 +1,9 @@
+# Published test release: 0.2.4
+
+Published at the user’s request after validation: API type checking, 65 Node tests and build/archive checks passed. The separate Python cache regression test also passed. New in-game testing is pending; multiplayer remains untested. The raw wiki cache is excluded from the add-on, and most wiki topics remain unconnected.
+
+## Earlier development records
+
 # Source work: unreleased 0.2.4; published test download: 0.2.3
 
 Live wiki article/API access is working. A catalog-driven local reference database and individual mapping report now exist; raw articles are excluded from game builds. Nine ore/resource location groups and Bedrock Slime spawning have reviewed revision sources. Most wiki mechanics are not yet interpreted/connected. The gameplay-topic audit includes 89 biomes. See WIKI_DATABASE.md.
