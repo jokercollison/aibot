@@ -1,0 +1,1034 @@
+{
+  "entity:minecraft:allay": {
+    "what": "An allay is a friendly flying helper mob.",
+    "does": "Give it an item and it looks for dropped matching items to bring back. It does not mine blocks or create items for you.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Allay"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:armadillo": {
+    "what": "An armadillo is a passive animal that rolls up when it senses certain threats.",
+    "does": "Collect its scutes, including by brushing it, to make and repair wolf armor.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Armadillo"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:armor_stand": {
+    "what": "An armor stand is a display entity for equipment.",
+    "does": "Use it to display armor and compatible equipment; Bedrock armor stands support posing and additional held items.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Armor_Stand"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:arrow": {
+    "what": "An arrow is ammunition for bows, crossbows, and dispensers.",
+    "does": "Fire it at a target to deal damage; tipped arrows can also apply effects.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Arrow"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:axolotl": {
+    "what": "An axolotl is an aquatic animal that can help fight certain underwater mobs.",
+    "does": "Carry it in a water bucket and use buckets of tropical fish for breeding. It cannot stay out of water indefinitely.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Axolotl"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:bat": {
+    "what": "A bat is a small passive flying cave animal.",
+    "does": "It adds atmosphere to dark areas and is not a tameable companion or a useful loot source.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bat"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:bee": {
+    "what": "A bee is a flying animal that visits flowers and returns to a nest or hive.",
+    "does": "It helps produce honey and can pollinate crops. Disturbing bees or harvesting carelessly can make them attack.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bee"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:blaze": {
+    "what": "A blaze is a flying hostile Nether mob that attacks with fireballs.",
+    "does": "Fight it carefully to obtain blaze rods, which are important for brewing and eyes of ender.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Blaze"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:boat": {
+    "what": "A boat is a rideable vehicle for travelling across water.",
+    "does": "Place it on water, board it, and steer; it can also carry suitable passengers.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Boat"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:bogged": {
+    "what": "A bogged is a skeleton-like hostile mob that fires poisoned arrows.",
+    "does": "Use cover against its ranged attacks; shearing it can remove its mushrooms.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bogged"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:breeze": {
+    "what": "A breeze is a jumping hostile mob found in trial chambers.",
+    "does": "It fires wind charges that knock entities around and interact with certain mechanisms. Its drops are used in wind-related crafting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Breeze"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:breeze_wind_charge_projectile": {
+    "what": "A breeze wind charge is the projectile fired by a breeze.",
+    "does": "Its wind burst can knock entities around and activate certain blocks when it hits.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Breeze_Wind_Charge_Projectile"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:camel": {
+    "what": "A camel is a tall rideable desert animal.",
+    "does": "Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Camel"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:cat": {
+    "what": "A cat is a tameable animal often found around villages.",
+    "does": "Tame it with suitable raw fish to gain a companion. Cats also help keep creepers away.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cat"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:cave_spider": {
+    "what": "A cave spider is a small hostile spider associated with abandoned mineshafts.",
+    "does": "Its attacks can poison players under suitable difficulty settings. Keep distance and watch for webs.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cave_Spider"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:chest_boat": {
+    "what": "A chest boat is a boat with built-in item storage.",
+    "does": "Use it to transport yourself and supplies across water; its chest takes the place of an extra passenger seat.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chest_Boat"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:chest_minecart": {
+    "what": "A chest minecart is a rail vehicle with item storage.",
+    "does": "Use it to carry supplies along tracks and connect it to loading or unloading systems.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chest_Minecart"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:chicken": {
+    "what": "A chicken is a passive farm animal that lays eggs.",
+    "does": "Raise chickens for eggs, feathers, and food, and breed compatible adults using seeds.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chicken"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:cod": {
+    "what": "A cod is a small aquatic fish.",
+    "does": "Catch it for food or collect the live fish in a water bucket for transport.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cod"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:command_block_minecart": {
+    "what": "A command block minecart is a rail vehicle that can run commands.",
+    "does": "Use it in mapmaking systems with the appropriate permissions and powered activator-rail setup.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Command_Block_Minecart"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:copper_golem": {
+    "what": "A copper golem is a helper mob associated with copper storage.",
+    "does": "It sorts items by moving them from copper chests into suitable chests, making it useful in storage rooms. Its copper body oxidizes over time.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Copper_Golem"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:cow": {
+    "what": "A cow is a passive farm animal.",
+    "does": "Milk it with a bucket, breed adults with wheat, and raise cows as a source of leather and beef.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cow"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:creaking": {
+    "what": "A creaking is a hostile tree-like mob linked to a creaking heart.",
+    "does": "It moves when players are not looking at it. Deal with the linked heart rather than relying on ordinary attacks against the mob.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Creaking"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:creeper": {
+    "what": "A creeper is a hostile mob that approaches players and explodes.",
+    "does": "Its explosion can damage you and nearby blocks. Keep your distance; cats and ocelots help deter it.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Creeper"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:dolphin": {
+    "what": "A dolphin is a neutral aquatic mammal found in oceans.",
+    "does": "Swimming nearby can help with movement in water, and feeding it raw fish can help guide you toward certain underwater loot locations. It needs air as well as water.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dolphin"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:donkey": {
+    "what": "A donkey is a tameable riding animal.",
+    "does": "Equip it with a saddle to ride and a chest to carry supplies. It can breed with a horse to produce a mule.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Donkey"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:dragon_fireball": {
+    "what": "A dragon fireball is a projectile fired by the Ender Dragon.",
+    "does": "It creates a dangerous effect cloud, so move away from the impact area.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dragon_Fireball"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:drowned": {
+    "what": "A drowned is an underwater zombie that can also move on land.",
+    "does": "Watch for trident-wielding drowned during water travel. Its available equipment and drops vary.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Drowned"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:egg": {
+    "what": "An egg is an item laid by chickens that can also be thrown as a projectile.",
+    "does": "Use it in food recipes or throw it for a chance of hatching a chicken.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Egg"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:elder_guardian": {
+    "what": "An elder guardian is a large hostile aquatic mob found in ocean monuments.",
+    "does": "It uses a beam attack and can inflict Mining Fatigue, making monument exploration harder.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Elder_Guardian"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:ender_crystal": {
+    "what": "An End crystal is an explosive crystal that can heal the Ender Dragon.",
+    "does": "It is used in the dragon-respawning arrangement. Breaking or attacking it causes a dangerous explosion.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ender_Crystal"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:ender_dragon": {
+    "what": "The Ender Dragon is a flying boss associated with the End's central island.",
+    "does": "It attacks players and can heal from End crystals. Defeating it opens important progression routes in the End.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ender_Dragon"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:enderman": {
+    "what": "An enderman is a tall neutral mob that can teleport and move certain blocks.",
+    "does": "It becomes hostile when provoked, including by looking into its eyes under suitable conditions. Water is dangerous to it.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Enderman"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:endermite": {
+    "what": "An endermite is a small hostile creature that can appear after ender-pearl use.",
+    "does": "It attacks at close range and can attract the attention of endermen under the right conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Endermite"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:evocation_illager": {
+    "what": "An evoker is a spellcasting hostile illager.",
+    "does": "It summons vexes and magical fangs. It can drop a totem of undying when defeated.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Evocation_Illager"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:eye_of_ender_signal": {
+    "what": "A thrown eye of ender is a moving entity that points toward a stronghold.",
+    "does": "Follow its direction to search for a stronghold, collecting it again if it survives the throw.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Eye_Of_Ender_Signal"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:fireball": {
+    "what": "A large fireball is an explosive projectile commonly fired by ghasts.",
+    "does": "Avoid its impact or deflect it with a well-timed attack.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fireball"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:fireworks_rocket": {
+    "what": "A firework rocket is a launched firework entity.",
+    "does": "It can display crafted firework effects or propel a player gliding with elytra, depending on how it was made and used.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fireworks_Rocket"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:fishing_hook": {
+    "what": "A fishing hook is the cast end of a fishing rod.",
+    "does": "It waits for fishing bites and can hook certain entities when you cast and reel it.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fishing_Hook"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:fox": {
+    "what": "A fox is an animal that can carry an item in its mouth.",
+    "does": "It hunts some smaller animals and can pick up dropped items. A fox bred by players can trust them, but is not a wolf-style tamed follower.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fox"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:frog": {
+    "what": "A frog is an amphibian that can eat small slimes and small magma cubes.",
+    "does": "When it eats a small magma cube it produces a froglight; the frog variant determines the light's color.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Frog"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:ghast": {
+    "what": "A ghast is a large flying hostile Nether mob.",
+    "does": "It fires explosive fireballs and can drop ghast tears, which are used in brewing and crafting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ghast"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:glow_squid": {
+    "what": "A glow squid is a passive aquatic animal with a glowing-looking body.",
+    "does": "It drops glow ink sacs used to brighten signs and make glow item frames. It does not illuminate nearby blocks like a torch.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glow_Squid"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:goat": {
+    "what": "A goat is a mountain animal that jumps and sometimes rams entities.",
+    "does": "Give it space near cliffs. Certain ramming interactions can produce goat horns.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Goat"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:guardian": {
+    "what": "A guardian is a hostile aquatic mob associated with ocean monuments.",
+    "does": "It attacks with a damaging beam and can hurt attackers with its defensive spikes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Guardian"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:happy_ghast": {
+    "what": "A happy ghast is a large friendly flying mob that players can ride with a harness.",
+    "does": "Use it for aerial transport and building work; it can carry multiple players.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Happy_Ghast"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:hoglin": {
+    "what": "A hoglin is a hostile Nether animal found in crimson environments.",
+    "does": "It attacks at close range and can be bred with crimson fungus. Outside the Nether it can transform into a zoglin.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Hoglin"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:hopper_minecart": {
+    "what": "A hopper minecart is a rail vehicle that collects items.",
+    "does": "Use it to gather dropped items and move them along tracks, often underneath farms. A powered activator rail changes its collection state.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Hopper_Minecart"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:horse": {
+    "what": "A horse is a tameable riding animal.",
+    "does": "Tame it, equip a saddle to control riding, and use it for fast ground travel. Compatible horses can also wear horse armor.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Horse"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:husk": {
+    "what": "A husk is a desert zombie variant that does not burn in sunlight.",
+    "does": "Its attacks can inflict Hunger, so it remains dangerous even in daytime.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Husk"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:iron_golem": {
+    "what": "An iron golem is a strong guardian mob often associated with villages.",
+    "does": "It attacks many hostile mobs and can protect a settlement. Attacking villagers or golems can make some golems hostile to you.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Iron_Golem"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:lightning_bolt": {
+    "what": "A lightning bolt is a weather event that can also be summoned as an entity.",
+    "does": "It can damage entities, ignite blocks, and transform certain mobs. Lightning rods help direct nearby strikes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lightning_Bolt"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:llama": {
+    "what": "A llama is a tameable pack animal.",
+    "does": "Equip it with a chest for cargo and use a lead to guide a caravan. It can spit at targets when provoked.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Llama"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:llama_spit": {
+    "what": "Llama spit is the projectile a llama spits at a target.",
+    "does": "It is a defensive ranged attack rather than an item you normally collect.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Llama_Spit"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:magma_cube": {
+    "what": "A magma cube is a bouncing hostile Nether mob.",
+    "does": "Larger cubes split into smaller ones when killed. Their drops are used for magma cream and related recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Magma_Cube"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:minecart": {
+    "what": "A minecart is a rail vehicle for transporting entities.",
+    "does": "Place it on rails and use powered track or other mechanisms to move riders along a route.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Minecart"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:mooshroom": {
+    "what": "A mooshroom is a mushroom-covered cow variant.",
+    "does": "It can be milked and can provide mushroom stew when used with a bowl. Shearing it changes it into an ordinary cow.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mooshroom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:mule": {
+    "what": "A mule is a rideable pack animal produced by breeding a horse and donkey.",
+    "does": "Tame and saddle it for travel, or add a chest for supplies. Mules cannot breed.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mule"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:npc": {
+    "what": "An NPC is a special character entity used in compatible Education and mapmaking worlds.",
+    "does": "Creators can configure dialogue and actions; it is not an ordinary naturally spawning Survival villager.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Npc"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:ocelot": {
+    "what": "An ocelot is a wild jungle cat.",
+    "does": "Feeding suitable raw fish can gain its trust, but it does not become a domestic cat. Ocelots help keep creepers away.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ocelot"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:ominous_item_spawner": {
+    "what": "An ominous item spawner is a special entity used in ominous-trial encounters.",
+    "does": "It creates falling items or projectiles as part of trial mechanics, rather than acting as a normal tameable mob.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ominous_Item_Spawner"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:panda": {
+    "what": "A panda is a jungle animal with several personality variants.",
+    "does": "It eats bamboo and has special breeding conditions involving nearby bamboo and willing adults.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Panda"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:parrot": {
+    "what": "A parrot is a tameable jungle bird.",
+    "does": "Tame it with suitable seeds, let it perch on your shoulder, and listen to its imitations of nearby mobs. Cookies are poisonous to parrots.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Parrot"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:phantom": {
+    "what": "A phantom is a flying hostile mob associated with players going too long without rest.",
+    "does": "Sleep or rest to avoid attracting more phantoms, and watch for diving attacks at night.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Phantom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:pig": {
+    "what": "A pig is a passive farm animal.",
+    "does": "Raise it for porkchops or ride a saddled pig using a carrot on a stick to steer.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pig"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:piglin": {
+    "what": "A piglin is a Nether mob that can barter gold ingots for items.",
+    "does": "Wearing gold armor helps avoid ordinary piglin hostility, but certain actions still anger it. Piglin brutes do not follow the same rules.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Piglin"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:piglin_brute": {
+    "what": "A piglin brute is an aggressive axe-wielding mob found in bastion remnants.",
+    "does": "It does not become friendly because you wear gold and does not barter like ordinary piglins.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Piglin_Brute"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:pillager": {
+    "what": "A pillager is a hostile illager armed with a crossbow.",
+    "does": "It attacks from range and appears in patrols, outposts, and raids.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pillager"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:player": {
+    "what": "A player is a person-controlled character in the world.",
+    "does": "Players explore, build, craft, fight, and interact with the world according to their game mode and permissions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Player"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:polar_bear": {
+    "what": "A polar bear is a large animal found in cold regions.",
+    "does": "Adults may become hostile when provoked or when a cub is threatened; it is not a tameable riding animal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Polar_Bear"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:pufferfish": {
+    "what": "A pufferfish is an aquatic fish that inflates when threatened.",
+    "does": "Its defenses can poison nearby entities. Collect it in a bucket or use its item form in compatible brewing recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pufferfish"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:rabbit": {
+    "what": "A rabbit is a small passive animal.",
+    "does": "Breed it with suitable food and raise rabbits for hide, meat, and occasional rabbit's feet.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rabbit"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:ravager": {
+    "what": "A ravager is a large hostile beast found in raids.",
+    "does": "It attacks with powerful close-range strikes and can damage certain plants, so keep your distance and use cover.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ravager"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:salmon": {
+    "what": "A salmon is an aquatic fish found in suitable water areas.",
+    "does": "Catch it for food or collect it alive in a water bucket.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Salmon"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:sheep": {
+    "what": "A sheep is a passive farm animal that provides wool.",
+    "does": "Use shears to collect wool, dye it to change wool color, and feed adult sheep wheat to breed them.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sheep"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:shulker": {
+    "what": "A shulker is a hostile shell-covered mob found in End cities.",
+    "does": "Its projectiles cause Levitation, and its shells are used to craft portable shulker boxes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Shulker"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:shulker_bullet": {
+    "what": "A shulker bullet is a homing projectile fired by a shulker.",
+    "does": "A hit can cause Levitation; destroy it or use cover to avoid being lifted into a dangerous fall.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Shulker_Bullet"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:silverfish": {
+    "what": "A silverfish is a small hostile mob associated with infested stone and strongholds.",
+    "does": "Disturbing infested blocks can release it, and nearby infested blocks can make a fight worse.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Silverfish"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:skeleton": {
+    "what": "A skeleton is a hostile undead mob that usually fires arrows.",
+    "does": "Use cover or a shield against it. Ordinary exposed skeletons burn in sunlight unless protected.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Skeleton"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:skeleton_horse": {
+    "what": "A skeleton horse is an undead rideable horse.",
+    "does": "Certain skeleton-trap encounters can produce them. It is not an ordinary breedable horse.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Skeleton_Horse"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:slime": {
+    "what": "A slime is a bouncing hostile mob that divides into smaller slimes when killed.",
+    "does": "Its smaller forms can provide slimeballs used for sticky pistons and other recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Slime"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:small_fireball": {
+    "what": "A small fireball is a fiery projectile used by mobs such as blazes.",
+    "does": "It can burn targets and ignite suitable surfaces, so use cover rather than trying to collect it.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Small_Fireball"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:sniffer": {
+    "what": "A sniffer is an ancient passive animal hatched from a sniffer egg.",
+    "does": "It digs up special ancient plant seeds or pods from suitable ground, helping players grow decorative plants.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sniffer"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:snow_golem": {
+    "what": "A snow golem is a player-built mob made using snow blocks and a carved pumpkin or suitable equivalent.",
+    "does": "It throws snowballs at many hostile mobs and can leave snow trails in suitable conditions. Heat and water can harm it.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Snow_Golem"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:snowball": {
+    "what": "A snowball is a throwable item and projectile.",
+    "does": "Throw it to knock or distract suitable targets; it also has special interactions with some mobs, including blazes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Snowball"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:spider": {
+    "what": "A spider is a climbing mob that can become hostile depending on conditions.",
+    "does": "It climbs walls and attacks at close range. Brightness affects its ordinary aggression.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Spider"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:squid": {
+    "what": "A squid is a passive aquatic animal.",
+    "does": "It provides ink sacs when killed; it is not a tameable riding animal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Squid"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:stray": {
+    "what": "A stray is a cold-region skeleton variant.",
+    "does": "It fires arrows that inflict Slowness, making it harder to escape follow-up attacks.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Stray"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:strider": {
+    "what": "A strider is a passive Nether animal that walks on lava.",
+    "does": "Saddle it and steer with a warped fungus on a stick for lava travel. It becomes cold and slower away from lava.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Strider"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:tadpole": {
+    "what": "A tadpole is the young aquatic stage of a frog.",
+    "does": "Carry it in a water bucket and raise it into a frog. Its growing environment affects which frog variant it becomes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tadpole"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:thrown_trident": {
+    "what": "A thrown trident is a trident travelling as a projectile.",
+    "does": "It deals damage on impact; recovery and return behavior depend on the trident and its enchantments.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Thrown_Trident"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:tnt": {
+    "what": "TNT is an explosive block that becomes a primed explosive entity when ignited.",
+    "does": "Use it for controlled explosions, keeping people, pets, and important builds well away from the blast.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tnt"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:tnt_minecart": {
+    "what": "A TNT minecart is an explosive rail vehicle.",
+    "does": "Certain activations and impacts can trigger it. Use it only where an explosion is intended.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tnt_Minecart"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:trader_llama": {
+    "what": "A trader llama is a llama associated with a wandering trader.",
+    "does": "It carries the trader's decorations and can defend itself by spitting. It follows llama-style handling rules rather than villager trading rules.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trader_Llama"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:tripod_camera": {
+    "what": "A tripod camera is a special camera entity used in compatible Education features.",
+    "does": "It is not a normal Survival mob or a general-purpose companion.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tripod_Camera"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:tropicalfish": {
+    "what": "A tropical fish is a colorful aquatic fish with many appearance variants.",
+    "does": "Collect it alive in a water bucket for aquariums or use a bucket of tropical fish for compatible axolotl interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tropicalfish"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:turtle": {
+    "what": "A turtle is a passive coastal animal.",
+    "does": "Breed it with seagrass to produce eggs on its home beach. Babies shed turtle scutes when they grow up.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Turtle"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:vex": {
+    "what": "A vex is a small flying hostile spirit summoned by evokers.",
+    "does": "It can pass through blocks and attack with a sword, so ordinary walls are not reliable protection.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Vex"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:villager": {
+    "what": "A villager is a village inhabitant that can trade with players.",
+    "does": "Eligible villagers take professions from job-site blocks. Their trades depend on profession, level, and world settings.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Villager"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:villager_v2": {
+    "what": "A villager is a village inhabitant that can trade with players.",
+    "does": "Eligible villagers take professions from job-site blocks. Their trades depend on profession, level, and world settings.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Villager_V2"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:vindicator": {
+    "what": "A vindicator is a hostile axe-wielding illager.",
+    "does": "It attacks at close range and appears in raids and certain structures.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Vindicator"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wandering_trader": {
+    "what": "A wandering trader is a travelling merchant that appears with trader llamas.",
+    "does": "Trade emeralds for its rotating selection of goods before it leaves.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wandering_Trader"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:warden": {
+    "what": "The Warden is a powerful hostile mob associated with the deep dark and sculk shriekers.",
+    "does": "It uses vibrations, smell, and a sonic attack to find and fight threats. Sneak away and avoid summoning it rather than treating it as an ordinary fight.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Warden"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wind_charge_projectile": {
+    "what": "A wind charge is a projectile that creates a gust on impact.",
+    "does": "Use wind bursts for movement tricks and activating compatible mechanisms; be careful about landing damage.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wind_Charge_Projectile"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:witch": {
+    "what": "A witch is a hostile potion-using mob.",
+    "does": "It throws harmful potions and drinks useful potions to protect or heal itself.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Witch"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wither": {
+    "what": "The Wither is a powerful summoned undead boss.",
+    "does": "It flies, fires explosive skulls, and causes destructive fights. Defeating it provides a Nether star.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wither"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wither_skeleton": {
+    "what": "A wither skeleton is a hostile Nether skeleton that usually fights with a sword.",
+    "does": "Its attacks inflict the Wither effect, and its rare skull drop is used to summon the Wither.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wither_Skeleton"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wither_skull": {
+    "what": "A Wither skull projectile is an explosive attack fired by the Wither.",
+    "does": "Avoid the impact and resulting harmful effects; it is not the same thing as a collectible wither skeleton skull.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wither_Skull"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wither_skull_dangerous": {
+    "what": "A blue Wither skull is a dangerous variant of the Wither's explosive projectile.",
+    "does": "It can break blocks that resist many ordinary explosions, so do not rely on a simple wall for protection.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wither_Skull_Dangerous"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:wolf": {
+    "what": "A wolf is a neutral animal that can be tamed into a companion.",
+    "does": "Tame it with bones, then have it follow or sit. Tamed wolves help defend their owner and can wear wolf armor.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wolf"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:xp_bottle": {
+    "what": "A bottle o' enchanting is a throwable item that releases experience.",
+    "does": "Throw it to create experience orbs for levels or suitable Mending equipment.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Xp_Bottle"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:xp_orb": {
+    "what": "An experience orb is a small entity that players collect for experience.",
+    "does": "It contributes toward experience levels or repairs suitable equipped Mending items.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Xp_Orb"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:zoglin": {
+    "what": "A zoglin is an undead hoglin variant created when a hoglin transforms outside the Nether.",
+    "does": "It is aggressive toward many nearby entities and cannot be bred like an ordinary hoglin.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Zoglin"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:zombie": {
+    "what": "A zombie is a hostile undead mob that attacks at close range.",
+    "does": "It normally burns in direct sunlight unless protected and can transform into a drowned after suitable underwater conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Zombie"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:zombie_horse": {
+    "what": "A zombie horse is an undead horse variant.",
+    "does": "Its availability and riding rules depend on the game version and how it was obtained; do not assume ordinary horse breeding works.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Zombie_Horse"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:zombie_pigman": {
+    "what": "A zombified piglin is a neutral undead Nether mob.",
+    "does": "Attacking one can anger nearby zombified piglins. It does not barter like an ordinary piglin.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Zombie_Pigman"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:zombie_villager": {
+    "what": "A zombie villager is an undead villager variant.",
+    "does": "Apply the appropriate Weakness effect and use a golden apple to begin curing it under suitable conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Zombie_Villager"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:zombie_villager_v2": {
+    "what": "A zombie villager is an undead villager variant.",
+    "does": "Apply the appropriate Weakness effect and use a golden apple to begin curing it under suitable conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Zombie_Villager_V2"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "entity:minecraft:agent": {
+    "what": "An Agent is a programmable helper from compatible Minecraft Education features.",
+    "does": "Use compatible coding tools to direct it through building, moving, or other supported actions; it is not an ordinary Survival pet.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/agent.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:area_effect_cloud": {
+    "what": "An area-effect cloud is an invisible or particle-marked area that applies configured effects.",
+    "does": "It is used by mechanics such as lingering potions and dragon breath. Entering it can apply the corresponding effect.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/area_effect_cloud.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:camel_husk": {
+    "what": "A camel husk is an undead camel variant.",
+    "does": "It can carry riders, including hostile ones under suitable conditions. Its undead behavior differs from an ordinary camel.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/camel_husk.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:cushion": {
+    "what": "A cushion is a seat-like decorative entity.",
+    "does": "Place and interact with it as a seat in compatible builds.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/cushion.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:nautilus": {
+    "what": "A nautilus is an aquatic animal that can become a rideable mount.",
+    "does": "Tame and equip a suitable adult to travel underwater; keep it in appropriate water conditions.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/nautilus.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:parched": {
+    "what": "A parched is a hostile undead skeleton variant.",
+    "does": "It can use ranged attacks, so use cover and avoid treating it as a passive desert animal.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/parched.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:zombie_nautilus": {
+    "what": "A zombie nautilus is an undead aquatic nautilus variant.",
+    "does": "It can carry riders and has taming and saddling interactions under suitable conditions. Its undead behavior differs from an ordinary nautilus.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/zombie_nautilus.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:sulfur_cube": {
+    "what": "A sulfur cube is a cube-shaped animal that can carry a suitable block.",
+    "does": "The block it holds can change its movement and other behavior. Some interactions can make it dangerous, including explosive behavior.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/blob/v1.26.50.4/behavior_pack/entities/sulfur_cube.json"
+    ],
+    "verification": "basic_role_checked_against_entity_components_detailed_gameplay_pending"
+  },
+  "entity:minecraft:ender_pearl": {
+    "what": "An ender pearl is a throwable teleportation item.",
+    "does": "Throw it to teleport to its landing location, usually taking teleportation damage. It is also used to craft eyes of ender.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ender_Pearl"
+    ]
+  },
+  "entity:minecraft:lingering_potion": {
+    "what": "A lingering potion is a throwable potion that leaves an effect cloud.",
+    "does": "Entities entering the cloud can receive the potion's effect while the cloud lasts.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lingering_Potion"
+    ]
+  },
+  "entity:minecraft:splash_potion": {
+    "what": "A splash potion is a throwable potion.",
+    "does": "Throw it to apply its effect around the impact point; the effect depends on the potion's contents.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Splash_Potion"
+    ]
+  }
+}

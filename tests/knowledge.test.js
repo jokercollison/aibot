@@ -35,14 +35,14 @@ test('stone pickaxe uses three cobblestone and TWO sticks, including spaced spel
 });
 test('block recognition gives a supported follow-up and retains context',()=>{
  const c=createConversation();const intro=c.ask('What is a hopper?');
- assert.match(intro.answer,/I know a few things about hopper/);assert.match(intro.answer,/How do I craft it/);
+ assert.match(intro.answer,/collects and moves items automatically/);assert.match(intro.answer,/How do I craft it/);
  assert.match(c.ask('How do I craft it?').answer,/5 iron ingots/);
 });
 test('mob recognition suggests supported follow-ups',()=>{
  assert.match(ask('What is a creeper?').answer,/What scares it/);
  assert.match(ask('What is a cow?').answer,/How do I breed them/);
 });
-test('recognizing an unsupported subject does not pretend to know facts',()=>assert.match(ask('What is a zombie?').answer,/still learning/));
+test('mob definitions explain behavior rather than redirecting to crafting',()=>assert.match(ask('What is a zombie?').answer,/hostile undead mob/));
 test('all crafting answers omit grid positions and technical source language',()=>{
  const recipes=JSON.parse(readFileSync('data/official_recipes.json'));
  const outputs=[...new Set(Object.values(recipes).flat().map(r=>r.definition.result?.item??r.definition.output).filter(v=>typeof v==='string'))];

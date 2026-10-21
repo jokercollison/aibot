@@ -4,7 +4,9 @@ import {HELP} from './help.js';
 import {createConversation} from './knowledge.js';
 import banter from '../data/banter.json';
 import {owns, safeName, decodeHome, canWarn} from './state.js';
-const ROBOT = 'tts:robot';
+const ROBOT = 'tts_ai_bot:robot';
+const ROBOT_TYPES = new Set([ROBOT,'tts:robot']);
+let soundFailureLogged = false;
 const key = (k: string) => `tts:${k}`;
 const owner = (bot: Entity) => bot.getDynamicProperty(key('owner')) as string | undefined;
 const conversations = new Map<string, ReturnType<typeof createConversation>>();
@@ -17,7 +19,13 @@ function assertOwner(player: Player, bot: Entity) {
 function distance2(a: {x:number;y:number;z:number}, b: {x:number;y:number;z:number}) {return (a.x-b.x)**2+(a.y-b.y)**2+(a.z-b.z)**2;}
 function say(player: Player, bot: Entity, text: string) {
   player.sendMessage(`§b[${safeName(bot.nameTag)}]§r ${text}`);
-  try {player.playSound('tts.robot.chirp', {volume: 0.25, pitch: 1});} catch { /* Text remains usable with missing client audio. */ }
+  playChirp(player);
+}
+function playChirp(player: Player) {
+  try {player.playSound('tts_ai_bot.robot.chirp', {volume: 0.7, pitch: 1});}
+  catch (error) {
+    if (!soundFailureLogged) {console.warn(`AI Bot sound playback failed: ${String(error)}`);soundFailureLogged=true;}
+  }
 }
 function mode(bot: Entity, following: boolean) {
   bot.triggerEvent(`tts:follow_${following?'on':'off'}`);
@@ -43,7 +51,7 @@ async function interact(player: Player, bot: Entity) {
     }
     assertOwner(player, bot);
     const form = await new ActionFormData().title(bot.nameTag || 'TTR-1').body('Your AI companion. Ask me a question or choose what we do next.')
-      .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').button('Things to try').show(player);
+      .button('Ask a question').button('Follow me').button('Stay here').button('Set home here').button('Return home').button('Settings').button('Things to try').button('Test robot sound').show(player);
     if (form.canceled) return;
     assertOwner(player, bot);
     switch (form.selection) {
@@ -72,6 +80,11 @@ async function interact(player: Player, bot: Entity) {
         say(player, bot, arrived ? 'Home sweet charging station.' : 'Home is blocked or unloaded. Move nearer or set a new home.');
         break;
       }
+      case 7: {
+        playChirp(player);
+        player.sendMessage('Robot sound test sent. If it was silent, check your sound volume and that the AI Bot resource pack is active.');
+        break;
+      }
       case 6: {
         await new ActionFormData().title('Things to try').body(HELP).button('Got it!').show(player);
         break;
@@ -97,7 +110,7 @@ async function interact(player: Player, bot: Entity) {
   } finally {busy.delete(player.id);}
 }
 world.beforeEvents.playerInteractWithEntity.subscribe(event => {
-  if (event.target.typeId !== ROBOT) return;
+  if (!ROBOT_TYPES.has(event.target.typeId)) return;
   event.cancel = true;
   system.run(() => {void interact(event.player,event.target);});
 });
@@ -109,8 +122,8 @@ world.afterEvents.playerLeave.subscribe(event => {
 system.runInterval(() => {
   const seen = new Set<string>();
   for (const player of world.getAllPlayers()) {
-    for (const bot of player.dimension.getEntities({type:ROBOT, location:player.location, maxDistance:24, closest:8})) {
-      if (seen.has(bot.id) || !owns(player.id,owner(bot))) continue;
+    for (const bot of player.dimension.getEntities({families:['tts_ai_bot'], location:player.location, maxDistance:24, closest:8})) {
+      if (!ROBOT_TYPES.has(bot.typeId) || seen.has(bot.id) || !owns(player.id,owner(bot))) continue;
       seen.add(bot.id);
       try {
         if (bot.getDynamicProperty(key('warnings')) === false || !canWarn(system.currentTick,lastWarning.get(bot.id))) continue;

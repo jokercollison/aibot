@@ -1,0 +1,3349 @@
+{
+  "minecraft:hopper": {
+    "what": "A hopper is a block that collects and moves items automatically.",
+    "does": "It picks up dropped items above it, pulls items from a container above it, and transfers items into the container its spout points toward. Power it with redstone to lock its transfers. It is useful for automatic storage, furnaces, and collection systems.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Hopper"
+    ]
+  },
+  "minecraft:chest": {
+    "what": "A chest is a container for storing items.",
+    "does": "Open it to store or take items. Two compatible chests placed side by side can form a larger chest, and hoppers can move items into or out of it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chest"
+    ]
+  },
+  "minecraft:barrel": {
+    "what": "A barrel is a storage container that can open even with a solid block above it.",
+    "does": "Use it for compact storage. It also serves as a fisherman villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Barrel"
+    ]
+  },
+  "minecraft:trapped_chest": {
+    "what": "A trapped chest is a storage container that sends a redstone signal while players open it.",
+    "does": "Use it to trigger a mechanism when someone opens the chest. It does not automatically harm anyone.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trapped_Chest"
+    ]
+  },
+  "minecraft:ender_chest": {
+    "what": "An ender chest accesses storage that belongs to each player, rather than to that particular chest.",
+    "does": "Your items are accessible from other ender chests, including across dimensions. Another player opening the same chest sees their own items.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ender_Chest"
+    ]
+  },
+  "minecraft:crafting_table": {
+    "what": "A crafting table is a workstation for making items with larger recipes.",
+    "does": "Use its crafting menu and recipe book to combine ingredients into tools, equipment, and building materials.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crafting_Table"
+    ]
+  },
+  "minecraft:furnace": {
+    "what": "A furnace is a workstation that smelts or cooks items using fuel.",
+    "does": "Put a suitable item in its input and fuel in its fuel slot to make products such as iron ingots, glass, or cooked food.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Furnace"
+    ]
+  },
+  "minecraft:blast_furnace": {
+    "what": "A blast furnace is a workstation that smelts ores and metal equipment faster than a regular furnace.",
+    "does": "Use it with fuel for compatible smelting recipes. It cannot cook food or replace every furnace recipe, and it is an armorer villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Blast_Furnace"
+    ]
+  },
+  "minecraft:smoker": {
+    "what": "A smoker is a workstation that cooks food faster than a regular furnace.",
+    "does": "Use it with fuel for compatible food recipes. It is also a butcher villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Smoker"
+    ]
+  },
+  "minecraft:anvil": {
+    "what": "An anvil is a workstation for repairing, combining, and renaming equipment.",
+    "does": "Spend experience levels to combine compatible enchantments or repair equipment. Anvils wear out with use and fall if unsupported.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Anvil"
+    ]
+  },
+  "minecraft:chipped_anvil": {
+    "what": "A chipped anvil is an anvil that has already worn down.",
+    "does": "It still repairs, combines, and renames equipment, but is closer to breaking than an undamaged anvil.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chipped_Anvil"
+    ]
+  },
+  "minecraft:damaged_anvil": {
+    "what": "A damaged anvil is an anvil near the end of its usable life.",
+    "does": "It still works for repairs and enchantment combining but may break when used.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Damaged_Anvil"
+    ]
+  },
+  "minecraft:enchanting_table": {
+    "what": "An enchanting table adds enchantments to compatible equipment.",
+    "does": "Use lapis lazuli and experience levels. Properly placed bookshelves improve the available enchantment levels.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Enchanting_Table"
+    ]
+  },
+  "minecraft:grindstone": {
+    "what": "A grindstone repairs equipment and removes most enchantments.",
+    "does": "Use it to combine compatible equipment or recover some experience from unwanted enchantments. It does not remove curses and is a weaponsmith villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Grindstone"
+    ]
+  },
+  "minecraft:smithing_table": {
+    "what": "A smithing table upgrades or decorates compatible equipment.",
+    "does": "Use the appropriate smithing template and materials for netherite upgrades or armor trims. It is a toolsmith villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Smithing_Table"
+    ]
+  },
+  "minecraft:stonecutter": {
+    "what": "A stonecutter turns compatible stone materials into building shapes.",
+    "does": "Use its menu to make blocks such as stairs and slabs without arranging a crafting-grid pattern. It is also a mason villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Stonecutter"
+    ]
+  },
+  "minecraft:loom": {
+    "what": "A loom decorates banners using dyes and patterns.",
+    "does": "Put in a banner and dye, then choose a design; some designs need a banner pattern. It is also a shepherd villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Loom"
+    ]
+  },
+  "minecraft:cartography_table": {
+    "what": "A cartography table edits maps.",
+    "does": "Use it to expand, copy, or lock maps with suitable materials. It is also a cartographer villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cartography_Table"
+    ]
+  },
+  "minecraft:fletching_table": {
+    "what": "A fletching table is a job-site block for fletcher villagers.",
+    "does": "Place it for an eligible unemployed villager to become a fletcher. It does not provide a normal player crafting interface.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fletching_Table"
+    ]
+  },
+  "minecraft:brewing_stand": {
+    "what": "A brewing stand makes potions by combining bottles with brewing ingredients.",
+    "does": "Supply blaze powder as brewing fuel and use the right ingredient sequence. It is also a cleric villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Brewing_Stand"
+    ]
+  },
+  "minecraft:cauldron": {
+    "what": "A cauldron is a container block for liquids.",
+    "does": "In Bedrock it can hold water, lava, potions, or dyed water, depending on what you put into it. Its contents can be useful for filling bottles, dyeing leather equipment, or collecting liquids.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cauldron"
+    ]
+  },
+  "minecraft:composter": {
+    "what": "A composter converts suitable plant and food items into bone meal.",
+    "does": "Add compostable items until it fills, then collect the bone meal. It is also a farmer villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Composter"
+    ]
+  },
+  "minecraft:lectern": {
+    "what": "A lectern displays a written book or book and quill.",
+    "does": "Place a book on it for reading; page changes can be detected with redstone. It is also a librarian villager's job-site block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lectern"
+    ]
+  },
+  "minecraft:bookshelf": {
+    "what": "A bookshelf is a decorative book block that can strengthen an enchanting table.",
+    "does": "Place it with the required gap around an enchanting table to improve enchantment options. It does not store individual books.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bookshelf"
+    ]
+  },
+  "minecraft:chiseled_bookshelf": {
+    "what": "A chiseled bookshelf stores individual books in visible slots.",
+    "does": "Use it to store books and enchanted books. A comparator can detect which slot was last interacted with.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chiseled_Bookshelf"
+    ]
+  },
+  "minecraft:crafter": {
+    "what": "A crafter is a crafting block that can make items automatically when triggered by redstone.",
+    "does": "Supply ingredients, configure its slots, and send a redstone pulse. It outputs a matching recipe, making it useful in automated crafting systems.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crafter"
+    ]
+  },
+  "minecraft:dispenser": {
+    "what": "A dispenser is a redstone-operated block that uses or fires compatible items.",
+    "does": "A redstone pulse can make it shoot arrows, use buckets, or perform other item-specific actions. It behaves differently from a dropper.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dispenser"
+    ]
+  },
+  "minecraft:dropper": {
+    "what": "A dropper is a redstone-operated block that moves items out of its inventory.",
+    "does": "A pulse pushes an item into a facing container, or drops it into the world when no suitable container is there.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dropper"
+    ]
+  },
+  "minecraft:piston": {
+    "what": "A piston is a redstone-powered block that pushes certain blocks.",
+    "does": "Use it for moving doors, mechanisms, and other machines. Some blocks cannot be pushed.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Piston"
+    ]
+  },
+  "minecraft:sticky_piston": {
+    "what": "A sticky piston pushes blocks and can pull a block back when it retracts.",
+    "does": "Use it for retracting doors and other moving mechanisms. Bedrock piston behavior differs from Java in some situations.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sticky_Piston"
+    ]
+  },
+  "minecraft:observer": {
+    "what": "An observer detects changes in the block it faces.",
+    "does": "It sends a short redstone pulse from its back when it detects a change, which is useful in automatic farms and machines.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Observer"
+    ]
+  },
+  "minecraft:comparator": {
+    "what": "A redstone comparator measures or compares redstone signal strengths.",
+    "does": "Use it to read container fullness, compare two signals, or subtract a side input from the main input.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Comparator"
+    ]
+  },
+  "minecraft:repeater": {
+    "what": "A redstone repeater passes a redstone signal in one direction.",
+    "does": "It refreshes signal strength and adds an adjustable delay. A correctly placed side signal can lock it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Repeater"
+    ]
+  },
+  "minecraft:redstone": {
+    "what": "Redstone dust is a material used to connect redstone mechanisms.",
+    "does": "Place it as wiring to carry signals between switches and machines. It is also used in crafting and some brewing recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Redstone"
+    ]
+  },
+  "minecraft:redstone_torch": {
+    "what": "A redstone torch is a small redstone power source that also emits light.",
+    "does": "It usually powers nearby connections, but turns off when its attached block receives power, making it useful in logic circuits.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Redstone_Torch"
+    ]
+  },
+  "minecraft:redstone_lamp": {
+    "what": "A redstone lamp is a light block controlled by redstone.",
+    "does": "Power it to turn the light on and remove power to turn it off.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Redstone_Lamp"
+    ]
+  },
+  "minecraft:lever": {
+    "what": "A lever is a switch that stays on or off until you use it again.",
+    "does": "Use it to control redstone wiring, doors, lamps, and other mechanisms.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lever"
+    ]
+  },
+  "minecraft:daylight_detector": {
+    "what": "A daylight detector creates a redstone signal based on daylight conditions.",
+    "does": "Use it for automatic lighting or time-based mechanisms; its inverted mode responds differently to darkness.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Daylight_Detector"
+    ]
+  },
+  "minecraft:heavy_weighted_pressure_plate": {
+    "what": "A heavy weighted pressure plate is an iron plate that measures how many entities are on it.",
+    "does": "It produces a redstone signal whose strength increases with larger groups of entities. Its weighting differs from the light weighted plate.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate"
+    ]
+  },
+  "minecraft:light_weighted_pressure_plate": {
+    "what": "A light weighted pressure plate is a gold plate that measures entities standing on it.",
+    "does": "Its redstone strength increases with the number of entities, making it useful for counting items or mobs.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate"
+    ]
+  },
+  "minecraft:tripwire_hook": {
+    "what": "A tripwire hook forms a tripwire detector when connected to another hook by string.",
+    "does": "Entities touching the connecting string trigger a redstone signal.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tripwire_Hook"
+    ]
+  },
+  "minecraft:rail": {
+    "what": "A rail is a track for minecarts.",
+    "does": "Lay a connected route and place a minecart on it for transport. Ordinary rails do not provide powered acceleration.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rail"
+    ]
+  },
+  "minecraft:golden_rail": {
+    "what": "A powered rail is a track that accelerates or brakes minecarts.",
+    "does": "Power it with redstone to propel carts; unpowered sections slow them down.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Golden_Rail"
+    ]
+  },
+  "minecraft:detector_rail": {
+    "what": "A detector rail is a track that produces a redstone signal when a minecart is on it.",
+    "does": "Use it to detect carts and activate trackside mechanisms.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Detector_Rail"
+    ]
+  },
+  "minecraft:activator_rail": {
+    "what": "An activator rail is a track that activates certain minecart functions when powered.",
+    "does": "It can eject riders, activate TNT minecarts, or change hopper minecart collection behavior.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Activator_Rail"
+    ]
+  },
+  "minecraft:beacon": {
+    "what": "A beacon is a block that can provide status effects to nearby players.",
+    "does": "Build a valid mineral-block pyramid beneath it, keep its beam path clear, and use its menu to select available effects.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Beacon"
+    ]
+  },
+  "minecraft:conduit": {
+    "what": "A conduit is an underwater block that can provide Conduit Power.",
+    "does": "Activate it with the correct prismarine-type frame and water arrangement to help nearby players breathe, see, and mine underwater.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Conduit"
+    ]
+  },
+  "minecraft:respawn_anchor": {
+    "what": "A respawn anchor lets a player set a respawn point in the Nether.",
+    "does": "Charge it with glowstone. Trying to use it as a respawn point in an unsuitable dimension causes an explosion.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Respawn_Anchor"
+    ]
+  },
+  "minecraft:bed": {
+    "what": "A bed lets players sleep and set a respawn point in the Overworld.",
+    "does": "Sleep to help skip the night when the world's sleep conditions are met. Attempting to sleep in the Nether or End causes an explosion.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bed"
+    ]
+  },
+  "minecraft:bell": {
+    "what": "A bell is a village block that can be rung.",
+    "does": "Ring it as a village signal; villagers react to bells and they can help during raids.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bell"
+    ]
+  },
+  "minecraft:lightning_rod": {
+    "what": "A lightning rod attracts nearby lightning strikes during thunderstorms.",
+    "does": "Place it to direct strikes toward a safer location and obtain a brief redstone signal when it is struck.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lightning_Rod"
+    ]
+  },
+  "minecraft:lodestone": {
+    "what": "A lodestone gives a compass a specific location to point toward.",
+    "does": "Use a compass on it to link the compass. The linked compass works when used in the lodestone's dimension.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lodestone"
+    ]
+  },
+  "minecraft:jukebox": {
+    "what": "A jukebox is a block that plays music discs.",
+    "does": "Insert a compatible disc to play its music, then remove it when you want to change the track.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Jukebox"
+    ]
+  },
+  "minecraft:noteblock": {
+    "what": "A note block plays a musical note when used or triggered by redstone.",
+    "does": "Tune it by interacting with it; the block underneath affects the instrument.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Noteblock"
+    ]
+  },
+  "minecraft:flower_pot": {
+    "what": "A flower pot holds a small plant for decoration.",
+    "does": "Place a compatible flower, sapling, fungus, or other small plant in it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Flower_Pot"
+    ]
+  },
+  "minecraft:decorated_pot": {
+    "what": "A decorated pot is a decorative container made with bricks or pottery sherds.",
+    "does": "Use sherds to choose its side patterns and put a stack of items inside it for storage.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Decorated_Pot"
+    ]
+  },
+  "minecraft:beehive": {
+    "what": "A beehive is a crafted home for bees.",
+    "does": "Bees can store honey after visiting flowers. Harvest honey or honeycomb carefully; a properly placed campfire can keep bees calm during harvesting.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Beehive"
+    ]
+  },
+  "minecraft:bee_nest": {
+    "what": "A bee nest is a naturally generated home for bees.",
+    "does": "It can fill with honey when bees use it. Harvest honey or honeycomb carefully to avoid angering the bees.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bee_Nest"
+    ]
+  },
+  "minecraft:campfire": {
+    "what": "A campfire is a fire block used for cooking, light, and smoke.",
+    "does": "Place food on it to cook without adding furnace fuel. Its smoke and heat have other uses, including calming bees when correctly positioned.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Campfire"
+    ]
+  },
+  "minecraft:soul_campfire": {
+    "what": "A soul campfire is a blue-flamed campfire.",
+    "does": "It cooks food and produces smoke like a campfire, while also being dangerous to touch.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Soul_Campfire"
+    ]
+  },
+  "minecraft:torch": {
+    "what": "A torch is a placeable light source.",
+    "does": "Use it to light paths and rooms and reduce normal hostile-mob spawning in dark areas.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Torch"
+    ]
+  },
+  "minecraft:soul_torch": {
+    "what": "A soul torch is a blue-flamed light source.",
+    "does": "Use it for lighting and decoration; its soul-fire light also repels piglins.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Soul_Torch"
+    ]
+  },
+  "minecraft:lantern": {
+    "what": "A lantern is a decorative light source that can stand on a surface or hang below a block.",
+    "does": "Use it to illuminate buildings, paths, and interiors.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lantern"
+    ]
+  },
+  "minecraft:soul_lantern": {
+    "what": "A soul lantern is a hanging or standing light source with a blue flame.",
+    "does": "Use it for dimmer blue lighting and to help keep piglins away.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Soul_Lantern"
+    ]
+  },
+  "minecraft:glowstone": {
+    "what": "Glowstone is a bright block associated with the Nether.",
+    "does": "Use it for lighting or break it to obtain glowstone dust.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glowstone"
+    ]
+  },
+  "minecraft:sea_lantern": {
+    "what": "A sea lantern is a bright block often associated with ocean monuments.",
+    "does": "Use it for underwater and decorative lighting.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sea_Lantern"
+    ]
+  },
+  "minecraft:shroomlight": {
+    "what": "A shroomlight is a light-emitting block from huge Nether fungi.",
+    "does": "Use it to light builds and farms.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Shroomlight"
+    ]
+  },
+  "minecraft:obsidian": {
+    "what": "Obsidian is a very tough block formed in certain water-and-lava interactions.",
+    "does": "Use it to build Nether portal frames and in crafting. Harvesting it requires an appropriate high-tier pickaxe.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Obsidian"
+    ]
+  },
+  "minecraft:crying_obsidian": {
+    "what": "Crying obsidian is a glowing obsidian variant that cannot replace ordinary obsidian in a Nether portal frame.",
+    "does": "Use it for decoration and crafting respawn anchors.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crying_Obsidian"
+    ]
+  },
+  "minecraft:bedrock": {
+    "what": "Bedrock is the normally unbreakable block that forms boundaries in Minecraft worlds.",
+    "does": "In ordinary Survival play it is a barrier rather than a harvestable building material.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bedrock"
+    ]
+  },
+  "minecraft:stone": {
+    "what": "Stone is a common solid rock found throughout the Overworld.",
+    "does": "Mine it for building materials; without Silk Touch it normally drops cobblestone. It is used in many construction and crafting recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Stone"
+    ]
+  },
+  "minecraft:cobblestone": {
+    "what": "Cobblestone is a rough stone building and crafting material.",
+    "does": "Use it for basic stone tools, furnaces, and construction, or smelt it into stone.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cobblestone"
+    ]
+  },
+  "minecraft:deepstone": {
+    "what": "Deepslate is a dark rock found deep underground.",
+    "does": "Use it for dark stone construction. Mining ordinary deepslate without Silk Touch normally produces cobbled deepslate.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Deepstone"
+    ]
+  },
+  "minecraft:deepslate": {
+    "what": "Deepslate is a dark rock found deep underground.",
+    "does": "Use it for dark stone construction. Mining ordinary deepslate without Silk Touch normally produces cobbled deepslate.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Deepslate"
+    ]
+  },
+  "minecraft:cobbled_deepslate": {
+    "what": "Cobbled deepslate is the rough material obtained from mining deepslate.",
+    "does": "Use it in stone-tool recipes and to make dark building shapes and polished blocks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cobbled_Deepslate"
+    ]
+  },
+  "minecraft:dirt": {
+    "what": "Dirt is a common soil block.",
+    "does": "Use it for building, landscaping, and as a base for many plants. A hoe can turn suitable dirt into farmland.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dirt"
+    ]
+  },
+  "minecraft:grass_block": {
+    "what": "A grass block is dirt with a grassy surface.",
+    "does": "It supports many Overworld plants and can spread grass to suitable nearby dirt under the right conditions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Grass_Block"
+    ]
+  },
+  "minecraft:farmland": {
+    "what": "Farmland is soil prepared with a hoe for growing crops.",
+    "does": "Plant suitable seeds or crops on it and keep water nearby to hydrate it. Trampling can turn it back into dirt.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Farmland"
+    ]
+  },
+  "minecraft:grass_path": {
+    "what": "A dirt path is a lowered soil block used for walkways.",
+    "does": "Use a shovel on suitable soil to make paths through gardens and villages.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Grass_Path"
+    ]
+  },
+  "minecraft:gravel": {
+    "what": "Gravel is a loose block that falls when unsupported.",
+    "does": "Use it in construction and concrete powder recipes. Breaking it can produce flint.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Gravel"
+    ]
+  },
+  "minecraft:sand": {
+    "what": "Sand is a loose block that falls when unsupported.",
+    "does": "Smelt it into glass or use it in crafting and landscaping. It also supports certain plants, such as cactus.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sand"
+    ]
+  },
+  "minecraft:red_sand": {
+    "what": "Red sand is an orange-red variant of sand that falls when unsupported.",
+    "does": "Use it for landscaping, glass smelting, and compatible sand recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Red_Sand"
+    ]
+  },
+  "minecraft:clay": {
+    "what": "Clay is a soft block often found in wet areas.",
+    "does": "Break it for clay balls, or smelt the whole block into terracotta.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Clay"
+    ]
+  },
+  "minecraft:clay_ball": {
+    "what": "A clay ball is a material obtained from clay.",
+    "does": "Smelt it into a brick, or combine clay balls into a clay block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Clay_Ball"
+    ]
+  },
+  "minecraft:brick": {
+    "what": "A brick is a small fired-clay crafting ingredient.",
+    "does": "Use it to craft brick building blocks, flower pots, and decorated pots.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Brick"
+    ]
+  },
+  "minecraft:brick_block": {
+    "what": "A brick block is a fired-clay building material.",
+    "does": "Use it for walls, roofs, and brick building shapes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Brick_Block"
+    ]
+  },
+  "minecraft:terracotta": {
+    "what": "Terracotta is a hardened clay building block.",
+    "does": "Use it for construction and decoration; compatible forms can be dyed or smelted into glazed terracotta.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Terracotta"
+    ]
+  },
+  "minecraft:hardened_clay": {
+    "what": "Terracotta is hardened clay used as a building material.",
+    "does": "Use it in construction or dye it to create colored terracotta.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Hardened_Clay"
+    ]
+  },
+  "minecraft:glass": {
+    "what": "Glass is a transparent building block made by smelting sand.",
+    "does": "Use it for windows and enclosures. Harvesting the intact block normally requires Silk Touch.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glass"
+    ]
+  },
+  "minecraft:glass_pane": {
+    "what": "A glass pane is a thin transparent building block.",
+    "does": "Use connected panes for windows and dividers that take up less space than full glass blocks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glass_Pane"
+    ]
+  },
+  "minecraft:sponge": {
+    "what": "A sponge is a block that absorbs nearby water.",
+    "does": "Place it to help drain an area; once wet, it must be dried before it can absorb water again.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sponge"
+    ]
+  },
+  "minecraft:wet_sponge": {
+    "what": "A wet sponge is a sponge that has already absorbed water.",
+    "does": "Dry it in a furnace, or use the Nether's drying behavior, so it can absorb water again.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wet_Sponge"
+    ]
+  },
+  "minecraft:water": {
+    "what": "Water is a liquid used for farming, transport, and many mechanisms.",
+    "does": "It hydrates farmland, moves items and entities in currents, and can be collected in a bucket.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Water"
+    ]
+  },
+  "minecraft:flowing_water": {
+    "what": "Flowing water is water spreading from a source.",
+    "does": "Use its current to move items and mobs; a flowing section is not necessarily a collectible source block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Flowing_Water"
+    ]
+  },
+  "minecraft:lava": {
+    "what": "Lava is a hot liquid that burns and damages many entities.",
+    "does": "Use a bucket to move a source block or use lava as furnace fuel. Keep flammable builds and unprotected players away from it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lava"
+    ]
+  },
+  "minecraft:flowing_lava": {
+    "what": "Flowing lava is lava spreading outward from a source.",
+    "does": "It burns and damages many entities. A flowing section is not necessarily a collectible source block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Flowing_Lava"
+    ]
+  },
+  "minecraft:fire": {
+    "what": "Fire is a damaging flame that can spread to flammable materials.",
+    "does": "Use it cautiously for controlled burning; extinguish unwanted flames before they spread through wooden builds.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fire"
+    ]
+  },
+  "minecraft:soul_fire": {
+    "what": "Soul fire is a blue flame associated with soul sand and soul soil.",
+    "does": "It damages entities and repels piglins; treat it as a hazard rather than safe decoration.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Soul_Fire"
+    ]
+  },
+  "minecraft:ice": {
+    "what": "Ice is a slippery frozen-water block.",
+    "does": "Use it for transport and cold-themed builds. Ordinary ice can melt under suitable conditions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ice"
+    ]
+  },
+  "minecraft:packed_ice": {
+    "what": "Packed ice is a slippery solid ice block that does not melt like ordinary ice.",
+    "does": "Use it for fast transport routes and frozen-looking construction.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Packed_Ice"
+    ]
+  },
+  "minecraft:blue_ice": {
+    "what": "Blue ice is a very slippery ice block.",
+    "does": "It is useful for fast boat transport routes and certain basalt-generation setups.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Blue_Ice"
+    ]
+  },
+  "minecraft:snow": {
+    "what": "Snow is a full block made from snowballs.",
+    "does": "Use it for snowy builds and making snow golems with the other required block.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Snow"
+    ]
+  },
+  "minecraft:snow_layer": {
+    "what": "Snow layers are thin coverings of snow.",
+    "does": "Use them to create snowy ground and varying snow depths; heat can melt them.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Snow_Layer"
+    ]
+  },
+  "minecraft:powder_snow": {
+    "what": "Powder snow is a soft snow block that entities can sink into.",
+    "does": "It can cause freezing damage. Leather equipment offers useful protection, and leather boots help players walk on top.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Powder_Snow"
+    ]
+  },
+  "minecraft:netherrack": {
+    "what": "Netherrack is a common rock in the Nether.",
+    "does": "Use it as a building material or smelt it into nether bricks. Fire on top of it can keep burning.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Netherrack"
+    ]
+  },
+  "minecraft:end_stone": {
+    "what": "End stone is the pale rock that forms much of the End.",
+    "does": "Use it for construction and to craft End stone bricks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/End_Stone"
+    ]
+  },
+  "minecraft:blackstone": {
+    "what": "Blackstone is a dark Nether rock usable in several cobblestone-style recipes.",
+    "does": "Use it for dark construction, stone tools, or polished and brick building blocks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Blackstone"
+    ]
+  },
+  "minecraft:basalt": {
+    "what": "Basalt is a dark volcanic-looking building block.",
+    "does": "Use it in columns and textured builds; its placement changes the direction of its visible grain.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Basalt"
+    ]
+  },
+  "minecraft:smooth_basalt": {
+    "what": "Smooth basalt is a smoother decorative basalt variant.",
+    "does": "Use it for dark stone walls, floors, and geode-themed builds.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Smooth_Basalt"
+    ]
+  },
+  "minecraft:calcite": {
+    "what": "Calcite is a pale decorative mineral block associated with amethyst geodes.",
+    "does": "Use it for white stone construction and decorative contrasts.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Calcite"
+    ]
+  },
+  "minecraft:tuff": {
+    "what": "Tuff is a gray volcanic-looking stone.",
+    "does": "Use it for construction and compatible decorative tuff building shapes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tuff"
+    ]
+  },
+  "minecraft:amethyst_block": {
+    "what": "An amethyst block is a purple crystal building block.",
+    "does": "Use it for decoration and its musical sounds; it is different from budding amethyst, which grows crystals.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Amethyst_Block"
+    ]
+  },
+  "minecraft:budding_amethyst": {
+    "what": "Budding amethyst is the block that grows amethyst buds and clusters.",
+    "does": "Leave it in place to farm crystals; ordinary Survival harvesting does not let you collect the budding block intact.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Budding_Amethyst"
+    ]
+  },
+  "minecraft:amethyst_cluster": {
+    "what": "An amethyst cluster is the fully grown form of an amethyst crystal.",
+    "does": "Harvest it for amethyst shards with an appropriate tool, or keep it intact using suitable harvesting methods.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Amethyst_Cluster"
+    ]
+  },
+  "minecraft:amethyst_shard": {
+    "what": "An amethyst shard is a material harvested from amethyst clusters.",
+    "does": "Use it in recipes such as spyglasses, tinted glass, and calibrated sculk sensors.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Amethyst_Shard"
+    ]
+  },
+  "minecraft:ancient_debris": {
+    "what": "Ancient debris is a rare Nether material used to obtain netherite.",
+    "does": "Mine it with an appropriate high-tier pickaxe and smelt it into netherite scrap.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ancient_Debris"
+    ]
+  },
+  "minecraft:netherite_scrap": {
+    "what": "Netherite scrap is a material made by smelting ancient debris.",
+    "does": "Combine it with gold ingots to make netherite ingots.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Netherite_Scrap"
+    ]
+  },
+  "minecraft:netherite_ingot": {
+    "what": "A netherite ingot is an advanced equipment-upgrade material.",
+    "does": "Use it with the required netherite upgrade template and diamond equipment at a smithing table.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Netherite_Ingot"
+    ]
+  },
+  "minecraft:diamond": {
+    "what": "A diamond is a valuable crafting and equipment material.",
+    "does": "Use it to make diamond tools and armor, enchanting tables, and other valuable recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Diamond"
+    ]
+  },
+  "minecraft:emerald": {
+    "what": "An emerald is the main currency for villager trading.",
+    "does": "Trade it with villagers and wandering traders, or use it in compatible crafting and beacon-base blocks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Emerald"
+    ]
+  },
+  "minecraft:iron_ingot": {
+    "what": "An iron ingot is a metal crafting material.",
+    "does": "Use it for iron tools, armor, buckets, hoppers, rails, and many machines.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Iron_Ingot"
+    ]
+  },
+  "minecraft:gold_ingot": {
+    "what": "A gold ingot is a metal crafting and trading material.",
+    "does": "Use it in equipment and crafting, or barter with piglins under suitable conditions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Gold_Ingot"
+    ]
+  },
+  "minecraft:copper_ingot": {
+    "what": "A copper ingot is a crafting material made from copper.",
+    "does": "Use it for copper blocks, lightning rods, spyglasses, and other compatible recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Copper_Ingot"
+    ]
+  },
+  "minecraft:coal": {
+    "what": "Coal is a fuel and crafting material obtained from coal ore and certain other sources.",
+    "does": "Use it in furnaces or to craft torches and coal blocks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Coal"
+    ]
+  },
+  "minecraft:charcoal": {
+    "what": "Charcoal is a fuel made by smelting logs or wood.",
+    "does": "Use it in furnaces or torch recipes when mined coal is unavailable. It cannot replace coal in every recipe.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Charcoal"
+    ]
+  },
+  "minecraft:lapis_lazuli": {
+    "what": "Lapis lazuli is a blue mineral used for enchanting and crafting.",
+    "does": "Supply it to an enchanting table or use it in compatible blue-dye recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lapis_Lazuli"
+    ]
+  },
+  "minecraft:quartz": {
+    "what": "Nether quartz is a mineral material obtained from Nether quartz ore.",
+    "does": "Use it for quartz building blocks and recipes such as observers and comparators.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Quartz"
+    ]
+  },
+  "minecraft:flint": {
+    "what": "Flint is a material that can be obtained when gravel breaks.",
+    "does": "Use it to craft arrows, flint and steel, and other compatible items.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Flint"
+    ]
+  },
+  "minecraft:stick": {
+    "what": "A stick is a basic crafting component usually made from wooden planks.",
+    "does": "Use it in tools, weapons, torches, ladders, and many other recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Stick"
+    ]
+  },
+  "minecraft:bone": {
+    "what": "A bone is a material commonly obtained from skeletons.",
+    "does": "Use it to tame wolves or craft bone meal.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bone"
+    ]
+  },
+  "minecraft:bone_meal": {
+    "what": "Bone meal is a material used to grow many plants faster.",
+    "does": "Use it on compatible crops and plants, or in suitable dye and crafting recipes. Not every plant responds to it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bone_Meal"
+    ]
+  },
+  "minecraft:string": {
+    "what": "String is a crafting and redstone material.",
+    "does": "Use it for bows, fishing rods, wool, and tripwire lines.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/String"
+    ]
+  },
+  "minecraft:leather": {
+    "what": "Leather is a crafting material obtained from certain animals.",
+    "does": "Use it for leather armor, books, and other compatible recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Leather"
+    ]
+  },
+  "minecraft:feather": {
+    "what": "A feather is a lightweight crafting material commonly obtained from chickens.",
+    "does": "Use it for arrows, books and quills, and compatible recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Feather"
+    ]
+  },
+  "minecraft:gunpowder": {
+    "what": "Gunpowder is a crafting and brewing ingredient.",
+    "does": "Use it for TNT and fireworks, or to turn suitable potions into splash potions at a brewing stand.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Gunpowder"
+    ]
+  },
+  "minecraft:slime_ball": {
+    "what": "A slimeball is a sticky crafting material.",
+    "does": "Use it for sticky pistons, leads, magma cream, and other compatible recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Slime_Ball"
+    ]
+  },
+  "minecraft:slime": {
+    "what": "A slime block is a bouncy block made from slimeballs.",
+    "does": "Use it to reduce fall impact in suitable landings or move groups of compatible blocks with pistons.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Slime"
+    ]
+  },
+  "minecraft:honey_block": {
+    "what": "A honey block is a sticky block that slows movement and can be pushed by pistons.",
+    "does": "Use it in moving machines and sliding mechanisms; it does not stick to slime blocks.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Honey_Block"
+    ]
+  },
+  "minecraft:honeycomb": {
+    "what": "Honeycomb is a material harvested from a full bee nest or beehive.",
+    "does": "Use it to craft beehives and candles or wax compatible copper blocks to stop further oxidation.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Honeycomb"
+    ]
+  },
+  "minecraft:honey_bottle": {
+    "what": "A honey bottle is a drink collected from a full bee nest or hive.",
+    "does": "Drink it to restore hunger and remove poison, or use it in compatible crafting recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Honey_Bottle"
+    ]
+  },
+  "minecraft:blaze_rod": {
+    "what": "A blaze rod is a material dropped by blazes.",
+    "does": "Use it to make blaze powder and brewing stands.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Blaze_Rod"
+    ]
+  },
+  "minecraft:blaze_powder": {
+    "what": "Blaze powder is a crafting and brewing material made from blaze rods.",
+    "does": "It fuels brewing stands and is used in Strength potions and eyes of ender.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Blaze_Powder"
+    ]
+  },
+  "minecraft:ender_pearl": {
+    "what": "An ender pearl is a throwable teleportation item.",
+    "does": "Throw it to teleport to its landing location, usually taking teleportation damage. It is also used to craft eyes of ender.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ender_Pearl"
+    ]
+  },
+  "minecraft:ender_eye": {
+    "what": "An eye of ender is an item used to locate and activate the route to the End.",
+    "does": "Throw it to help locate a stronghold, or place it into an End portal frame. Thrown eyes can break.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ender_Eye"
+    ]
+  },
+  "minecraft:echo_shard": {
+    "what": "An echo shard is a rare material associated with ancient-city loot.",
+    "does": "Use it to craft a recovery compass.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Echo_Shard"
+    ]
+  },
+  "minecraft:heart_of_the_sea": {
+    "what": "A heart of the sea is a rare material found in buried treasure.",
+    "does": "Combine it with nautilus shells to craft a conduit.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Heart_Of_The_Sea"
+    ]
+  },
+  "minecraft:nautilus_shell": {
+    "what": "A nautilus shell is a material used in conduit crafting.",
+    "does": "Combine shells with a heart of the sea to make a conduit.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Nautilus_Shell"
+    ]
+  },
+  "minecraft:bucket": {
+    "what": "A bucket is a tool for collecting and placing compatible liquids.",
+    "does": "Use it on a source block to collect water or lava, or use it for milking suitable mobs and collecting certain aquatic animals.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bucket"
+    ]
+  },
+  "minecraft:water_bucket": {
+    "what": "A water bucket carries a water source.",
+    "does": "Place it to move water, help with farming, or create water-based mechanisms.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Water_Bucket"
+    ]
+  },
+  "minecraft:lava_bucket": {
+    "what": "A lava bucket carries a lava source.",
+    "does": "Place lava carefully or use the filled bucket as a long-lasting furnace fuel.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lava_Bucket"
+    ]
+  },
+  "minecraft:milk_bucket": {
+    "what": "A milk bucket contains milk collected from a suitable animal.",
+    "does": "Drink it to remove status effects, including beneficial ones, or use it in recipes such as cake.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Milk_Bucket"
+    ]
+  },
+  "minecraft:powder_snow_bucket": {
+    "what": "A powder snow bucket carries powder snow.",
+    "does": "Place it to create powder snow, or use a bucket to collect it again.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Powder_Snow_Bucket"
+    ]
+  },
+  "minecraft:glass_bottle": {
+    "what": "A glass bottle is a container used for brewing and collecting certain liquids.",
+    "does": "Fill it with water for brewing, collect honey from a full hive, or use it for other compatible interactions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glass_Bottle"
+    ]
+  },
+  "minecraft:potion": {
+    "what": "A potion is a bottled drink that applies an effect depending on its contents.",
+    "does": "Drink it to receive its effect, or use brewing ingredients to change compatible potions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Potion"
+    ]
+  },
+  "minecraft:splash_potion": {
+    "what": "A splash potion is a throwable potion.",
+    "does": "Throw it to apply its effect around the impact point; the effect depends on the potion's contents.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Splash_Potion"
+    ]
+  },
+  "minecraft:lingering_potion": {
+    "what": "A lingering potion is a throwable potion that leaves an effect cloud.",
+    "does": "Entities entering the cloud can receive the potion's effect while the cloud lasts.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lingering_Potion"
+    ]
+  },
+  "minecraft:shield": {
+    "what": "A shield is defensive equipment used to block suitable attacks.",
+    "does": "In Bedrock, equip it and use the supported blocking control, such as sneaking. Some attacks bypass or disable blocking.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Shield"
+    ]
+  },
+  "minecraft:bow": {
+    "what": "A bow is a ranged weapon that fires arrows.",
+    "does": "Hold to draw it, then release to shoot. It normally requires arrows unless a compatible enchantment changes that requirement.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bow"
+    ]
+  },
+  "minecraft:crossbow": {
+    "what": "A crossbow is a ranged weapon that can be loaded before firing.",
+    "does": "Load it with compatible ammunition, then fire it later. It can use arrows or firework rockets.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crossbow"
+    ]
+  },
+  "minecraft:trident": {
+    "what": "A trident is a weapon usable in melee or as a thrown projectile.",
+    "does": "Attack directly or throw it; its enchantments can change recovery and movement behavior.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trident"
+    ]
+  },
+  "minecraft:mace": {
+    "what": "A mace is a melee weapon with a falling smash attack.",
+    "does": "Attack after falling to deal extra smash damage. Timing and suitable enchantments affect how it performs.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mace"
+    ]
+  },
+  "minecraft:elytra": {
+    "what": "Elytra are wearable wings that let a player glide.",
+    "does": "Equip them in the chest slot and deploy them while airborne. Firework rockets without explosion effects are commonly used for propulsion.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Elytra"
+    ]
+  },
+  "minecraft:fishing_rod": {
+    "what": "A fishing rod is a tool for catching fish and other fishing loot.",
+    "does": "Cast its hook into suitable water and reel in when a fish bites. It can also hook certain entities.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fishing_Rod"
+    ]
+  },
+  "minecraft:flint_and_steel": {
+    "what": "Flint and steel is a tool that starts fire.",
+    "does": "Use it to ignite suitable surfaces, activate Nether portals, or light TNT. Keep it away from flammable builds.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Flint_And_Steel"
+    ]
+  },
+  "minecraft:shears": {
+    "what": "Shears are a tool for harvesting wool and certain plant materials.",
+    "does": "Use them on sheep or compatible blocks such as leaves and vines; some blocks give different drops when sheared.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Shears"
+    ]
+  },
+  "minecraft:brush": {
+    "what": "A brush is an archaeology tool.",
+    "does": "Use it carefully on suspicious sand or suspicious gravel to uncover the hidden item instead of breaking it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Brush"
+    ]
+  },
+  "minecraft:spyglass": {
+    "what": "A spyglass is a tool that zooms your view toward distant objects.",
+    "does": "Hold and use it to look farther away without moving closer.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Spyglass"
+    ]
+  },
+  "minecraft:compass": {
+    "what": "A compass is a navigation item that normally points toward world spawn in the Overworld.",
+    "does": "Use it for orientation or link one to a lodestone for a chosen destination.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Compass"
+    ]
+  },
+  "minecraft:recovery_compass": {
+    "what": "A recovery compass points toward your last death location when you are in the correct dimension.",
+    "does": "Carry it to help retrieve lost equipment; it does not directly recover the items for you.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Recovery_Compass"
+    ]
+  },
+  "minecraft:clock": {
+    "what": "A clock shows the time of day in dimensions with a normal day-night cycle.",
+    "does": "Use it to estimate daylight while underground in the Overworld.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Clock"
+    ]
+  },
+  "minecraft:empty_map": {
+    "what": "An empty map is an item used to start mapping an area.",
+    "does": "Use it to create a map; locator-map behavior depends on the map type and how it was made.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Empty_Map"
+    ]
+  },
+  "minecraft:filled_map": {
+    "what": "A filled map records explored terrain in a mapped area.",
+    "does": "Hold it while exploring to fill it in, or display it in an item frame.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Filled_Map"
+    ]
+  },
+  "minecraft:lead": {
+    "what": "A lead is a tool for tethering compatible entities.",
+    "does": "Use it to guide an animal or tie it to a fence. Not every mob can be led.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lead"
+    ]
+  },
+  "minecraft:saddle": {
+    "what": "A saddle is equipment used to ride certain animals.",
+    "does": "Equip it on a suitable rideable animal; steering and taming requirements depend on the animal.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Saddle"
+    ]
+  },
+  "minecraft:carrot_on_a_stick": {
+    "what": "A carrot on a stick is a steering tool for a saddled pig.",
+    "does": "Hold it while riding to guide the pig and use its boost action.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Carrot_On_A_Stick"
+    ]
+  },
+  "minecraft:warped_fungus_on_a_stick": {
+    "what": "A warped fungus on a stick is a steering tool for a saddled strider.",
+    "does": "Hold it while riding to guide the strider across suitable terrain, including lava.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Warped_Fungus_On_A_Stick"
+    ]
+  },
+  "minecraft:name_tag": {
+    "what": "A name tag is an item used to name a mob.",
+    "does": "Rename it at an anvil, then use it on a compatible mob. Naming can also prevent many ordinary mobs from despawning.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Name_Tag"
+    ]
+  },
+  "minecraft:book": {
+    "what": "A book is a crafting and enchanting material.",
+    "does": "Use it for bookshelves and enchanting tables, or enchant it to store an enchantment for later application.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Book"
+    ]
+  },
+  "minecraft:enchanted_book": {
+    "what": "An enchanted book stores one or more enchantments.",
+    "does": "Use it at an anvil to apply compatible enchantments to equipment, paying the required experience cost.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Enchanted_Book"
+    ]
+  },
+  "minecraft:writable_book": {
+    "what": "A book and quill is an item for writing pages.",
+    "does": "Write your own notes or stories, then sign it when you want to turn it into a written book.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Writable_Book"
+    ]
+  },
+  "minecraft:written_book": {
+    "what": "A written book is a signed book containing saved text.",
+    "does": "Read it, display it on a lectern, or make compatible copies.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Written_Book"
+    ]
+  },
+  "minecraft:bowl": {
+    "what": "A bowl is a container ingredient used for foods such as stew.",
+    "does": "Use it to craft or collect suitable meals, such as mushroom stew.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bowl"
+    ]
+  },
+  "minecraft:coal_block": {
+    "what": "A coal block is compact coal storage and a strong furnace fuel.",
+    "does": "Craft it from coal, use it as fuel, or convert it back into coal.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Coal_Block"
+    ]
+  },
+  "minecraft:bone_block": {
+    "what": "A bone block is compact storage made from bone meal.",
+    "does": "Use it for pale decorative builds or convert it back into bone meal.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bone_Block"
+    ]
+  },
+  "minecraft:hay_block": {
+    "what": "A hay bale is a block of compacted wheat.",
+    "does": "Use it for storage, decoration, certain animal interactions, or to reduce fall damage when landing on it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Hay_Block"
+    ]
+  },
+  "minecraft:pumpkin": {
+    "what": "A pumpkin is a farmable crop block.",
+    "does": "Use it in crafting, carve it with shears, or turn it into pumpkin seeds for farming.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pumpkin"
+    ]
+  },
+  "minecraft:carved_pumpkin": {
+    "what": "A carved pumpkin is a pumpkin with a carved face.",
+    "does": "Wear it as headgear, use it in golem construction, or combine it with a torch for a jack o'lantern.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Carved_Pumpkin"
+    ]
+  },
+  "minecraft:lit_pumpkin": {
+    "what": "A jack o'lantern is a carved pumpkin that emits light.",
+    "does": "Use it for lighting, decoration, and compatible golem-building arrangements.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lit_Pumpkin"
+    ]
+  },
+  "minecraft:melon_block": {
+    "what": "A melon is a farmable fruit block.",
+    "does": "Break it for melon slices or grow more melons using melon seeds and stems.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Melon_Block"
+    ]
+  },
+  "minecraft:wheat": {
+    "what": "Wheat is a crop harvested from mature wheat plants.",
+    "does": "Use it for bread and other recipes or to feed and breed compatible farm animals such as cows and sheep.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wheat"
+    ]
+  },
+  "minecraft:wheat_seeds": {
+    "what": "Wheat seeds are planted on farmland to grow wheat.",
+    "does": "Use them for farming or to feed compatible animals such as chickens.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wheat_Seeds"
+    ]
+  },
+  "minecraft:carrot": {
+    "what": "A carrot is a food crop that can be planted on farmland.",
+    "does": "Eat it, grow more carrots, use it in crafting, or feed compatible animals such as pigs and rabbits.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Carrot"
+    ]
+  },
+  "minecraft:potato": {
+    "what": "A potato is a food crop grown on farmland.",
+    "does": "Plant it to grow more potatoes or cook it into a baked potato for better food.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Potato"
+    ]
+  },
+  "minecraft:beetroot": {
+    "what": "Beetroot is a crop grown from beetroot seeds.",
+    "does": "Eat it or use it for beetroot soup and compatible dye recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Beetroot"
+    ]
+  },
+  "minecraft:nether_wart": {
+    "what": "Nether wart is a fungus-like crop grown on soul sand.",
+    "does": "Use it to brew awkward potions, which are the starting point for many useful potions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Nether_Wart"
+    ]
+  },
+  "minecraft:sugar_cane": {
+    "what": "Sugar cane is a tall plant that grows beside water.",
+    "does": "Harvest it for paper and sugar while leaving the bottom segment to regrow.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sugar_Cane"
+    ]
+  },
+  "minecraft:reeds": {
+    "what": "Sugar cane is a tall plant that grows beside water.",
+    "does": "Harvest it for paper and sugar while leaving the bottom segment to regrow.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Reeds"
+    ]
+  },
+  "minecraft:bamboo": {
+    "what": "Bamboo is a fast-growing plant and building resource.",
+    "does": "Use it in scaffolding, sticks, fuel, and compatible bamboo building recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bamboo"
+    ]
+  },
+  "minecraft:cactus": {
+    "what": "A cactus is a prickly desert plant.",
+    "does": "Use it in decoration and farming, or smelt it for green dye. Touching it causes damage and it destroys many dropped items that contact it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cactus"
+    ]
+  },
+  "minecraft:kelp": {
+    "what": "Kelp is an underwater plant.",
+    "does": "Grow it in water, cook it into dried kelp, or use compatible kelp products as food and fuel.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Kelp"
+    ]
+  },
+  "minecraft:sweet_berries": {
+    "what": "Sweet berries are food harvested from sweet berry bushes.",
+    "does": "Eat them or plant them to grow a bush. The bush can slow and hurt entities moving through it.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sweet_Berries"
+    ]
+  },
+  "minecraft:glow_berries": {
+    "what": "Glow berries are food that can grow on hanging cave vines.",
+    "does": "Use them for eating, growing cave vines, and natural-looking light sources.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glow_Berries"
+    ]
+  },
+  "minecraft:chorus_fruit": {
+    "what": "Chorus fruit is food from chorus plants in the End.",
+    "does": "Eating it restores hunger and can teleport you a short distance. It can also be cooked into popped chorus fruit.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chorus_Fruit"
+    ]
+  },
+  "minecraft:popped_chorus_fruit": {
+    "what": "Popped chorus fruit is a material made by cooking chorus fruit.",
+    "does": "Use it to craft purpur blocks and End rods.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+    ]
+  },
+  "minecraft:apple": {
+    "what": "An apple is a food item.",
+    "does": "Eat it to restore hunger or use it in golden-apple recipes.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Apple"
+    ]
+  },
+  "minecraft:golden_apple": {
+    "what": "A golden apple is a food that grants beneficial effects.",
+    "does": "Eat it for recovery and absorption, or use it as part of curing a suitably weakened zombie villager.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Golden_Apple"
+    ]
+  },
+  "minecraft:enchanted_golden_apple": {
+    "what": "An enchanted golden apple is a rare food with strong protective effects.",
+    "does": "Eat it for powerful temporary benefits. It is not normally craftable in modern Bedrock Survival.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Enchanted_Golden_Apple"
+    ]
+  },
+  "minecraft:bread": {
+    "what": "Bread is a food made from wheat.",
+    "does": "Eat it to restore hunger or use it in certain villager food-sharing and breeding setups.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bread"
+    ]
+  },
+  "minecraft:cake": {
+    "what": "A cake is a placeable food block eaten in slices.",
+    "does": "Place it on a suitable surface and interact to eat portions; it is not eaten directly from your hand.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cake"
+    ]
+  },
+  "minecraft:rotten_flesh": {
+    "what": "Rotten flesh is food commonly dropped by zombies.",
+    "does": "Eating it can cause Hunger, so it is a risky food source. It also has uses in wolf feeding and villager trading.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rotten_Flesh"
+    ]
+  },
+  "minecraft:spider_eye": {
+    "what": "A spider eye is a brewing ingredient that can also be eaten.",
+    "does": "Use it in compatible potion recipes; eating it poisons the player.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Spider_Eye"
+    ]
+  },
+  "minecraft:fermented_spider_eye": {
+    "what": "A fermented spider eye is a brewing ingredient.",
+    "does": "Use it to corrupt certain potions into different effects.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fermented_Spider_Eye"
+    ]
+  },
+  "minecraft:sugar": {
+    "what": "Sugar is a crafting and brewing ingredient.",
+    "does": "Use it in foods such as cake or in compatible potion recipes such as Swiftness.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sugar"
+    ]
+  },
+  "minecraft:glowstone_dust": {
+    "what": "Glowstone dust is a crafting and brewing material.",
+    "does": "Use it to make glowstone or strengthen certain potions, usually at the cost of duration.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glowstone_Dust"
+    ]
+  },
+  "minecraft:phantom_membrane": {
+    "what": "A phantom membrane is a material dropped by phantoms.",
+    "does": "Use it to repair elytra or brew compatible Slow Falling potions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Phantom_Membrane"
+    ]
+  },
+  "minecraft:ghast_tear": {
+    "what": "A ghast tear is a material dropped by ghasts.",
+    "does": "Use it in Regeneration brewing and End crystal crafting.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ghast_Tear"
+    ]
+  },
+  "minecraft:rabbit_foot": {
+    "what": "A rabbit's foot is an occasional rabbit drop used in brewing.",
+    "does": "Use it to make compatible Leaping potions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rabbit_Foot"
+    ]
+  },
+  "minecraft:turtle_scute": {
+    "what": "A turtle scute is a material shed when a baby turtle grows into an adult.",
+    "does": "Use it to craft a turtle shell helmet.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Turtle_Scute"
+    ]
+  },
+  "minecraft:armadillo_scute": {
+    "what": "An armadillo scute is a material obtained from armadillos.",
+    "does": "Use it to craft and repair wolf armor.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Armadillo_Scute"
+    ]
+  },
+  "minecraft:wolf_armor": {
+    "what": "Wolf armor is protection for a tamed wolf.",
+    "does": "Equip it on your wolf and repair it with armadillo scutes to help protect your companion.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wolf_Armor"
+    ]
+  },
+  "minecraft:turtle_helmet": {
+    "what": "A turtle shell is a helmet made from turtle scutes.",
+    "does": "Wear it for armor and a short Water Breathing benefit when entering water.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Turtle_Helmet"
+    ]
+  },
+  "minecraft:scaffolding": {
+    "what": "Scaffolding is a temporary building structure that helps players climb and work at height.",
+    "does": "Place connected scaffolding to extend a platform or climb it, then remove its support to take down connected sections.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Scaffolding"
+    ]
+  },
+  "minecraft:ladder": {
+    "what": "A ladder is a climbable block attached to a supporting surface.",
+    "does": "Use it for vertical access in shafts, towers, and buildings.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ladder"
+    ]
+  },
+  "minecraft:web": {
+    "what": "A cobweb is a block that greatly slows entities moving through it.",
+    "does": "Use it for traps or decoration, or harvest it with suitable tools to obtain string or the intact web.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Web"
+    ]
+  },
+  "minecraft:structure_block": {
+    "what": "A structure block is a mapmaking tool for saving and loading structures.",
+    "does": "Use it with the required world permissions to copy and place selected builds.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Structure_Block"
+    ]
+  },
+  "minecraft:command_block": {
+    "what": "A command block runs commands when activated under its configured conditions.",
+    "does": "Use it for mapmaking and automation in worlds where command blocks and the required permissions are enabled.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Command_Block"
+    ]
+  },
+  "minecraft:chain_command_block": {
+    "what": "A chain command block can run commands as part of a command-block chain.",
+    "does": "Use it with the correct facing and conditions to execute a sequence of commands.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chain_Command_Block"
+    ]
+  },
+  "minecraft:repeating_command_block": {
+    "what": "A repeating command block runs its command repeatedly while active.",
+    "does": "Use it for mapmaking systems, keeping its activation conditions and performance cost in mind.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Repeating_Command_Block"
+    ]
+  },
+  "minecraft:barrier": {
+    "what": "A barrier is an invisible solid block used in mapmaking.",
+    "does": "Use it with suitable commands or Creative permissions to block movement without a visible wall.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Barrier"
+    ]
+  },
+  "minecraft:structure_void": {
+    "what": "A structure void marks space that should not overwrite existing blocks when loading a structure.",
+    "does": "Use it in structure editing and mapmaking rather than as a normal Survival material.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Structure_Void"
+    ]
+  },
+  "minecraft:jigsaw": {
+    "what": "A jigsaw block is a world-generation and structure-connection tool.",
+    "does": "It is used in structure systems and mapmaking, rather than ordinary Survival crafting.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Jigsaw"
+    ]
+  },
+  "minecraft:allow": {
+    "what": "An allow block is an Education or mapmaking permission block.",
+    "does": "In compatible worlds it allows building in the area above it despite certain restrictions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Allow"
+    ]
+  },
+  "minecraft:deny": {
+    "what": "A deny block is an Education or mapmaking permission block.",
+    "does": "In compatible worlds it prevents building in the area above it under the relevant permissions.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Deny"
+    ]
+  },
+  "minecraft:border_block": {
+    "what": "A border block is a special Education or mapmaking boundary block.",
+    "does": "Use it in compatible worlds to restrict passage across a boundary.",
+    "verification": "original_editorial_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Border_Block"
+    ]
+  },
+  "minecraft:item_frame": {
+    "what": "An item frame is a display for an item or map.",
+    "does": "Attach it to a suitable surface and place an item inside, then rotate the displayed item as needed.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Item_Frame"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:glow_item_frame": {
+    "what": "A glow item frame is an item frame whose displayed contents appear bright.",
+    "does": "Use it to display items or maps clearly in dark rooms. It does not light nearby blocks like a lamp.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glow_Item_Frame"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:painting": {
+    "what": "A painting is a decorative picture that hangs on a wall.",
+    "does": "Place it on a suitable wall to decorate a room; available space affects which sizes can fit.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Painting"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:paper": {
+    "what": "Paper is a crafting material made from sugar cane.",
+    "does": "Use it for books, maps, fireworks, and compatible trading or crafting recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Paper"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:ink_sac": {
+    "what": "An ink sac is a material commonly obtained from squid.",
+    "does": "Use it in compatible black-dye recipes and sign interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ink_Sac"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:glow_ink_sac": {
+    "what": "A glow ink sac is a material obtained from glow squid.",
+    "does": "Use it to brighten sign writing or craft glow item frames. It does not turn an ordinary block into a light source.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glow_Ink_Sac"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:goat_horn": {
+    "what": "A goat horn is a reusable musical item.",
+    "does": "Use it to play its horn sound; different horns have different calls.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Goat_Horn"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:breeze_rod": {
+    "what": "A breeze rod is a material obtained from breezes.",
+    "does": "Use it to craft wind charges or combine it with a heavy core to make a mace.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Breeze_Rod"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:heavy_core": {
+    "what": "A heavy core is a rare component used to make a mace.",
+    "does": "Combine it with a breeze rod in the appropriate recipe.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Heavy_Core"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:wind_charge": {
+    "what": "A wind charge is a throwable item that produces a gust on impact.",
+    "does": "Use it for movement boosts and compatible redstone interactions, taking care with the resulting landing.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wind_Charge"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:disc_fragment_5": {
+    "what": "A disc fragment is a piece used to assemble music disc 5.",
+    "does": "Collect enough fragments and combine them in the matching recipe to make the disc.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Disc_Fragment_5"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:dragon_breath": {
+    "what": "Dragon's breath is a brewing ingredient collected from an Ender Dragon effect cloud.",
+    "does": "Use a glass bottle to collect it safely when possible, then brew compatible splash potions into lingering potions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dragon_Breath"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:nether_star": {
+    "what": "A Nether star is a rare material dropped by the Wither.",
+    "does": "Use it as the central ingredient in crafting a beacon.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Nether_Star"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:shulker_shell": {
+    "what": "A shulker shell is a material dropped by shulkers.",
+    "does": "Combine shells with a chest to craft a portable shulker box.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Shulker_Shell"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:prismarine_shard": {
+    "what": "A prismarine shard is a material associated with guardians and ocean monuments.",
+    "does": "Use it to craft prismarine blocks and sea lanterns.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Prismarine_Shard"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:prismarine_crystals": {
+    "what": "Prismarine crystals are materials associated with guardians and sea lanterns.",
+    "does": "Use them with prismarine shards to craft sea lanterns.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Prismarine_Crystals"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:magma_cream": {
+    "what": "Magma cream is a crafting and brewing ingredient.",
+    "does": "Use it in compatible Fire Resistance brewing or magma-block recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Magma_Cream"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:totem_of_undying": {
+    "what": "A totem of undying can rescue its holder from many otherwise fatal hits.",
+    "does": "Hold it in the main hand or off-hand so it can activate, consume itself, and provide recovery effects. It does not protect from every possible death.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Totem_Of_Undying"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:ominous_bottle": {
+    "what": "An ominous bottle is a drink that grants the Bad Omen effect.",
+    "does": "Use it carefully because entering a village or approaching a suitable trial can trigger more dangerous events.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ominous_Bottle"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:trial_key": {
+    "what": "A trial key unlocks a compatible ordinary vault.",
+    "does": "Earn it from trial-chamber encounters and use it on an appropriate vault; an ominous vault needs a different key.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trial_Key"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:ominous_trial_key": {
+    "what": "An ominous trial key unlocks an ominous vault.",
+    "does": "Use it on a compatible ominous vault after earning it through ominous trials.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Ominous_Trial_Key"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:vault": {
+    "what": "A vault is a trial-chamber block that gives rewards when unlocked with a matching key.",
+    "does": "Use the correct key; rewards are tracked per player, so a vault is not a chest you can repeatedly empty by reopening it.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Vault"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:trial_spawner": {
+    "what": "A trial spawner is a combat encounter block found in trial chambers.",
+    "does": "It spawns waves of mobs for nearby players and awards rewards after the trial. Ominous conditions change the encounter.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trial_Spawner"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mob_spawner": {
+    "what": "A monster spawner is a cage-like block that creates its configured mob when spawning conditions are met.",
+    "does": "Use care around it or build a farm that respects its activation distance, light requirements, and nearby-mob limits.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mob_Spawner"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sculk": {
+    "what": "Sculk is a dark block associated with the deep dark.",
+    "does": "Use it in dark-themed builds; harvesting it without Silk Touch can release experience.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sculk"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sculk_sensor": {
+    "what": "A sculk sensor detects nearby vibrations and produces redstone signals.",
+    "does": "Use it for wireless detection, but remember that nearby movement and other actions can trigger it. Wool can block certain vibration paths.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sculk_Sensor"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:calibrated_sculk_sensor": {
+    "what": "A calibrated sculk sensor is a sculk sensor whose detection can be filtered using redstone.",
+    "does": "Supply a signal to its calibration side to select which vibration frequencies it responds to.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Calibrated_Sculk_Sensor"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sculk_shrieker": {
+    "what": "A sculk shrieker is a block that responds to certain sculk-related activations with a loud shriek.",
+    "does": "Naturally generated shriekers with the appropriate properties can contribute to Warden spawning, so avoid triggering them carelessly.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sculk_Shrieker"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sculk_catalyst": {
+    "what": "A sculk catalyst spreads sculk using experience from nearby deaths.",
+    "does": "Use it in sculk-growth and experience-related setups, remembering that the growth consumes the experience involved.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sculk_Catalyst"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sculk_vein": {
+    "what": "A sculk vein is a thin sculk growth that attaches to block surfaces.",
+    "does": "Use it for dark decoration and sculk-themed builds.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sculk_Vein"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:target": {
+    "what": "A target block detects hits from suitable projectiles.",
+    "does": "It produces a redstone signal, with stronger output for hits closer to the center of its target face.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Target"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:tinted_glass": {
+    "what": "Tinted glass is transparent-looking glass that blocks light transmission.",
+    "does": "Use it to see into dark spaces while keeping them dark for suitable farms or decorative effects.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tinted_Glass"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:reinforced_deepslate": {
+    "what": "Reinforced deepslate is an unusually tough decorative block associated with ancient cities.",
+    "does": "It forms part of ancient-city structures and is not normally obtainable as a block in ordinary Survival.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Reinforced_Deepslate"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:suspicious_sand": {
+    "what": "Suspicious sand is a fragile archaeology block containing a hidden item.",
+    "does": "Use a brush to uncover the item; breaking it normally destroys the chance to recover the contents.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Suspicious_Sand"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:suspicious_gravel": {
+    "what": "Suspicious gravel is a fragile archaeology block containing a hidden item.",
+    "does": "Use a brush rather than an ordinary mining tool to uncover the hidden item.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Suspicious_Gravel"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pointed_dripstone": {
+    "what": "Pointed dripstone forms stalactites and stalagmites.",
+    "does": "Use it for cave decoration and suitable dripping-liquid setups. Falling onto it or being hit by a falling stalactite can be dangerous.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pointed_Dripstone"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:dripstone_block": {
+    "what": "A dripstone block is a cave building block associated with pointed dripstone.",
+    "does": "Use it for cave decoration and as part of compatible pointed-dripstone growth setups.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dripstone_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:soul_sand": {
+    "what": "Soul sand is a Nether block that slows entities walking on it.",
+    "does": "Use it to grow Nether wart, build parts of a Wither-summoning structure, or create upward bubble columns in source water.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Soul_Sand"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:soul_soil": {
+    "what": "Soul soil is a Nether ground block associated with soul fire.",
+    "does": "Use it in soul-fire constructions and certain basalt-generation arrangements. It is not the same as soul sand for bubble columns.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Soul_Soil"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:magma": {
+    "what": "A magma block is a hot block that damages many entities standing on it.",
+    "does": "Use it carefully in mechanisms and builds; underwater it can create downward bubble columns in suitable source water.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Magma"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:bubble_column": {
+    "what": "A bubble column is a water column that pushes entities and items upward or downward.",
+    "does": "Soul sand produces upward motion and magma blocks produce downward motion when the water conditions are suitable.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bubble_Column"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:end_portal_frame": {
+    "what": "An End portal frame is a special block surrounding an End portal.",
+    "does": "Find the correct frame arrangement and add the required eyes of ender to activate it. Ordinary Survival players cannot harvest the frame block.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/End_Portal_Frame"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:end_portal": {
+    "what": "An End portal is a gateway to or from the End.",
+    "does": "Enter it to travel according to the portal's location and progression state; it is not a normal placeable Survival building block.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/End_Portal"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:portal": {
+    "what": "A Nether portal is a gateway connecting the Overworld and Nether.",
+    "does": "Build and ignite a valid obsidian frame, then enter the portal to travel. Destination linking depends on dimension coordinates and existing portals.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Portal"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:end_rod": {
+    "what": "An End rod is a slim decorative light source.",
+    "does": "Attach it to suitable surfaces to illuminate builds and make thin supports or details.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/End_Rod"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:dragon_egg": {
+    "what": "The dragon egg is a rare trophy associated with defeating the Ender Dragon.",
+    "does": "Display it as a trophy; ordinary interaction makes it teleport rather than hatch into a dragon pet.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dragon_Egg"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:creaking_heart": {
+    "what": "A creaking heart is a special block linked to the creaking mob.",
+    "does": "In a suitable pale-oak-log arrangement it can create a linked creaking. Removing the heart deals with its linked mob.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Creaking_Heart"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:dried_ghast": {
+    "what": "A dried ghast is a block that can develop into a ghastling when hydrated.",
+    "does": "Place it in suitable water and give it time; the resulting ghastling can grow into a happy ghast.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dried_Ghast"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sniffer_egg": {
+    "what": "A sniffer egg hatches into a young sniffer.",
+    "does": "Place it in a suitable location and wait; a moss block helps it hatch faster.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sniffer_Egg"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:turtle_egg": {
+    "what": "A turtle egg is laid by turtles on sand.",
+    "does": "Keep it safe from trampling and hostile mobs while it develops and hatches into a baby turtle.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Turtle_Egg"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:frog_spawn": {
+    "what": "Frogspawn is a floating cluster of frog eggs.",
+    "does": "It develops into tadpoles in suitable water after frogs breed.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Frog_Spawn"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:small_dripleaf_block": {
+    "what": "A small dripleaf is a water-associated plant.",
+    "does": "Use it in lush-cave decoration or grow it into big dripleaf with bone meal under suitable conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Small_Dripleaf_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:big_dripleaf": {
+    "what": "A big dripleaf is a plant with a broad leaf that can temporarily support entities.",
+    "does": "Its leaf tilts after being stood on, making it useful for parkour and decorative platforms.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Big_Dripleaf"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:chorus_plant": {
+    "what": "A chorus plant is a branching End plant.",
+    "does": "Harvest it for chorus fruit and use chorus flowers to grow new plants on suitable End stone.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chorus_Plant"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:chorus_flower": {
+    "what": "A chorus flower is the growth tip used to grow chorus plants.",
+    "does": "Plant it on suitable End stone with space for the plant to develop.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chorus_Flower"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mangrove_propagule": {
+    "what": "A mangrove propagule is a young mangrove plant that can grow into a mangrove tree.",
+    "does": "Plant it on suitable ground, including suitable underwater locations, to grow mangroves.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mangrove_Propagule"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mangrove_roots": {
+    "what": "Mangrove roots are tangled blocks found around mangrove trees.",
+    "does": "Use them for root-like decorations and natural swamp builds.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mangrove_Roots"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:muddy_mangrove_roots": {
+    "what": "Muddy mangrove roots combine mangrove roots with mud.",
+    "does": "Use them for swamp-themed construction and textured ground.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Muddy_Mangrove_Roots"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:coarse_dirt": {
+    "what": "Coarse dirt is a soil block that does not turn grassy like ordinary dirt.",
+    "does": "Use it for paths and landscaping; a hoe can turn it back into dirt before further tilling.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Coarse_Dirt"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:dirt_with_roots": {
+    "what": "Rooted dirt is soil tangled with roots.",
+    "does": "Use it in natural-looking ground; certain interactions remove its roots or grow hanging roots underneath.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dirt_With_Roots"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:podzol": {
+    "what": "Podzol is a forest-floor soil block.",
+    "does": "Use it for woodland landscaping and mushroom-growing arrangements.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Podzol"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mycelium": {
+    "what": "Mycelium is the fungus-covered soil found in mushroom fields.",
+    "does": "Use it for mushroom-themed landscaping; it can spread to suitable nearby dirt.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mycelium"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mud": {
+    "what": "Mud is a wet soil block.",
+    "does": "Use it in construction, turn it into packed mud, or dry it into clay using a suitable pointed-dripstone arrangement.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mud"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:packed_mud": {
+    "what": "Packed mud is a building material made from mud and wheat.",
+    "does": "Use it directly in construction or craft it into mud bricks.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Packed_Mud"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:moss_block": {
+    "what": "A moss block is a green plant-covered ground block.",
+    "does": "Use bone meal to spread moss over suitable nearby blocks and create natural ground cover.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Moss_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pale_moss_block": {
+    "what": "A pale moss block is pale ground cover associated with the pale garden.",
+    "does": "Use it for pale landscaping and compatible pale moss decoration.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pale_Moss_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pale_hanging_moss": {
+    "what": "Pale hanging moss is a hanging decorative plant associated with pale oak trees.",
+    "does": "Use it to make pale-garden-style foliage and hanging growth.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pale_Hanging_Moss"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:glow_lichen": {
+    "what": "Glow lichen is a thin plant-like growth that emits light.",
+    "does": "Place it on suitable surfaces for subtle natural lighting and spread it with bone meal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glow_Lichen"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:spore_blossom": {
+    "what": "A spore blossom is a hanging flower from lush caves.",
+    "does": "Place it on the underside of a suitable block for decoration and drifting particles.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Spore_Blossom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sea_pickle": {
+    "what": "A sea pickle is a small underwater organism that can emit light.",
+    "does": "Use living sea pickles underwater for natural lighting and in compatible lime-dye production.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Sea_Pickle"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:seagrass": {
+    "what": "Seagrass is an underwater plant.",
+    "does": "Use it for aquatic decoration and turtle breeding; harvest it intact using suitable tools such as shears.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Seagrass"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:waterlily": {
+    "what": "A lily pad is a flat plant that floats on water.",
+    "does": "Use it for pond decoration and as a small surface to stand on.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Waterlily"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:vine": {
+    "what": "Vines are climbing plants attached to suitable surfaces.",
+    "does": "Use them for climbing and overgrown decoration; they can spread down nearby surfaces.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Vine"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:twisting_vines": {
+    "what": "Twisting vines are blue Nether vines that grow upward.",
+    "does": "Use them for climbing and warped-forest decoration.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Twisting_Vines"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:weeping_vines": {
+    "what": "Weeping vines are red Nether vines that hang downward.",
+    "does": "Use them for climbing and crimson-forest decoration.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Weeping_Vines"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:nether_sprouts": {
+    "what": "Nether sprouts are small decorative plants from warped forests.",
+    "does": "Use them for Nether-themed ground cover.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Nether_Sprouts"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:crimson_roots": {
+    "what": "Crimson roots are small plants from crimson Nether environments.",
+    "does": "Use them for decorative ground cover or compatible composting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crimson_Roots"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:warped_roots": {
+    "what": "Warped roots are small plants from warped Nether environments.",
+    "does": "Use them for decorative ground cover or compatible composting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Warped_Roots"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:crimson_fungus": {
+    "what": "A crimson fungus is a Nether fungus that can grow into a huge crimson fungus.",
+    "does": "Grow it under suitable conditions or use it to breed hoglins.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crimson_Fungus"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:warped_fungus": {
+    "what": "A warped fungus is a Nether fungus that can grow into a huge warped fungus.",
+    "does": "Grow it under suitable conditions, use it in strider-related interactions, or place it to help repel hoglins.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Warped_Fungus"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:crimson_nylium": {
+    "what": "Crimson nylium is the living surface block of a crimson forest.",
+    "does": "Use it to grow compatible Nether fungi and plants with bone meal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Crimson_Nylium"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:warped_nylium": {
+    "what": "Warped nylium is the living surface block of a warped forest.",
+    "does": "Use it to grow compatible Nether fungi and plants with bone meal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Warped_Nylium"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:nether_wart_block": {
+    "what": "A Nether wart block is a red organic-looking decorative block.",
+    "does": "Use it for Nether-style builds. Unlike many storage blocks, it cannot simply be crafted back into Nether wart.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Nether_Wart_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:warped_wart_block": {
+    "what": "A warped wart block is a blue-green decorative block from huge warped fungi.",
+    "does": "Use it for Nether-style foliage and building accents.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Warped_Wart_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:brown_mushroom": {
+    "what": "A brown mushroom is a fungus used in food and crafting.",
+    "does": "Use it in compatible stew and brewing-related recipes, or grow a huge mushroom under suitable conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Brown_Mushroom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:red_mushroom": {
+    "what": "A red mushroom is a fungus used in food and crafting.",
+    "does": "Use it in mushroom stew and other compatible recipes, or grow a huge mushroom under suitable conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Red_Mushroom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:brown_mushroom_block": {
+    "what": "A brown mushroom block is part of a huge brown mushroom.",
+    "does": "Use it for mushroom-themed construction; intact harvesting requires a suitable Silk Touch tool.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Brown_Mushroom_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:red_mushroom_block": {
+    "what": "A red mushroom block is part of a huge red mushroom.",
+    "does": "Use it for colorful mushroom builds; intact harvesting requires a suitable Silk Touch tool.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Red_Mushroom_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:resin_clump": {
+    "what": "A resin clump is a material associated with creaking-heart interactions.",
+    "does": "Collect it for resin building and crafting recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Resin_Clump"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:resin_block": {
+    "what": "A resin block is a building and storage block made from resin clumps.",
+    "does": "Use it for orange construction or convert it into suitable resin materials.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Resin_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:honeycomb_block": {
+    "what": "A honeycomb block is a decorative block made from honeycomb.",
+    "does": "Use it for golden-orange textures in builds. It does not produce honey like a hive.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Honeycomb_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:dried_kelp_block": {
+    "what": "A dried kelp block is compacted dried kelp and a furnace fuel.",
+    "does": "Use it as fuel, for storage, or as a textured building block.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Dried_Kelp_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:bamboo_block": {
+    "what": "A bamboo block is compacted bamboo used as a building material.",
+    "does": "Use it for construction or process it into compatible bamboo building products.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bamboo_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:stripped_bamboo_block": {
+    "what": "A stripped bamboo block is a bamboo block with its outer surface removed.",
+    "does": "Use it for smooth bamboo-colored construction and compatible crafting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Stripped_Bamboo_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:bamboo_mosaic": {
+    "what": "Bamboo mosaic is a decorative bamboo building block.",
+    "does": "Use it for patterned flooring and compatible mosaic slabs and stairs.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Bamboo_Mosaic"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:smooth_stone": {
+    "what": "Smooth stone is a refined stone building material.",
+    "does": "Use it for clean-looking construction and compatible crafting recipes such as blast furnaces.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Smooth_Stone"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:chiseled_polished_blackstone": {
+    "what": "Chiseled polished blackstone is a carved decorative blackstone block.",
+    "does": "Use it for patterned details in dark stone construction.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chiseled_Polished_Blackstone"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:cracked_polished_blackstone_bricks": {
+    "what": "Cracked polished blackstone bricks are a weathered-looking masonry block.",
+    "does": "Use them to give blackstone walls and ruins a damaged appearance.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cracked_Polished_Blackstone_Bricks"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mossy_cobblestone": {
+    "what": "Mossy cobblestone is cobblestone with a moss-covered appearance.",
+    "does": "Use it for old ruins, garden walls, and natural-looking construction.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mossy_Cobblestone"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:gilded_blackstone": {
+    "what": "Gilded blackstone is a dark Nether block with gold-colored inclusions.",
+    "does": "Use it in decoration; mining it can yield gold nuggets under suitable drop conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Gilded_Blackstone"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:frosted_ice": {
+    "what": "Frosted ice is temporary ice created by the Frost Walker enchantment.",
+    "does": "Walk across suitable water while wearing the enchantment to create it; it eventually breaks or melts away rather than becoming permanent packed ice.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Frosted_Ice"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:quartz_pillar": {
+    "what": "A quartz pillar is a column-patterned quartz building block.",
+    "does": "Place it in different orientations to make columns and decorative stone details.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Quartz_Pillar"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:purpur_pillar": {
+    "what": "A purpur pillar is a column-patterned purple End building block.",
+    "does": "Use it for pillars and directional details in End-themed construction.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Purpur_Pillar"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:redstone_wire": {
+    "what": "Redstone wire is placed redstone dust connecting mechanisms.",
+    "does": "Use it to carry redstone signals between switches, circuits, and machines.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Redstone_Wire"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:trip_wire": {
+    "what": "Tripwire is placed string used with tripwire hooks.",
+    "does": "Create a connected line between hooks to detect entities crossing the string.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trip_Wire"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:trapdoor": {
+    "what": "An oak trapdoor is a small hinged wooden hatch.",
+    "does": "Open it by hand or redstone for floor and ceiling access or decorative details.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Trapdoor"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:fence_gate": {
+    "what": "An oak fence gate is an openable entrance for a fence enclosure.",
+    "does": "Open it by hand or redstone while keeping a fence-style barrier when closed.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fence_Gate"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:stonecutter_block": {
+    "what": "A stonecutter turns compatible stone into building shapes.",
+    "does": "Use its menu for efficient stone stairs, slabs, and other shapes. It is also a mason villager's job-site block.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Stonecutter_Block"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:standing_banner": {
+    "what": "A banner is a tall decorative flag that can display dyed patterns.",
+    "does": "Place it in a build and use a loom to add compatible designs.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Standing_Banner"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:wall_banner": {
+    "what": "A wall banner is a decorative banner attached to a wall.",
+    "does": "Use it for signs, flags, and patterned decoration.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wall_Banner"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:banner": {
+    "what": "A banner is a tall decorative flag that can display dyed patterns.",
+    "does": "Use a loom to add designs, then place it in your build.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Banner"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:player_head": {
+    "what": "A player head is a head-shaped decoration.",
+    "does": "Place it or wear it as a cosmetic item; it does not provide ordinary helmet protection.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Player_Head"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:air": {
+    "what": "Air is the empty space between blocks.",
+    "does": "It lets entities move through an area and provides breathing space for entities that need air, unless other conditions interfere.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Air"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:element_constructor": {
+    "what": "An element constructor is an Education chemistry workstation.",
+    "does": "Use it in compatible Education worlds to create elements by setting proton, neutron, and electron counts.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Element_Constructor"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:compound_creator": {
+    "what": "A compound creator is an Education chemistry workstation.",
+    "does": "Use it in compatible Education worlds to combine elements into chemical compounds.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Compound_Creator"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:lab_table": {
+    "what": "A lab table is an Education chemistry workstation.",
+    "does": "Use compatible ingredients in Education worlds to perform chemistry recipes and produce experiment results.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Lab_Table"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:material_reducer": {
+    "what": "A material reducer is an Education chemistry workstation.",
+    "does": "Use it in compatible Education worlds to analyze suitable blocks and recover their component elements.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Material_Reducer"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:underwater_torch": {
+    "what": "An underwater torch is an Education light source that can work underwater.",
+    "does": "Use it in compatible Education worlds for underwater lighting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Underwater_Torch"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:underwater_tnt": {
+    "what": "Underwater TNT is an Education explosive designed to work underwater.",
+    "does": "Use it in compatible Education worlds for controlled underwater explosions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Underwater_Tnt"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:chemical_heat": {
+    "what": "Chemical heat is an Education chemistry-related heat effect.",
+    "does": "It belongs to special chemistry interactions rather than ordinary Survival construction.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chemical_Heat"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:beef": {
+    "what": "Raw beef is food obtained from cows and similar sources.",
+    "does": "Cook it into steak for more useful food, or use it in compatible animal-feeding interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Beef"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:chicken": {
+    "what": "Raw chicken is food obtained from chickens.",
+    "does": "Cook it before eating to avoid its chance of causing Hunger and to restore more hunger.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Chicken"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:porkchop": {
+    "what": "A raw porkchop is food obtained from pigs and hoglins.",
+    "does": "Cook it into a cooked porkchop for better food.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Porkchop"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mutton": {
+    "what": "Raw mutton is food obtained from sheep.",
+    "does": "Cook it into cooked mutton for better food.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mutton"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:rabbit": {
+    "what": "Raw rabbit is food obtained from rabbits.",
+    "does": "Cook it into cooked rabbit or use it in compatible food recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rabbit"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:cod": {
+    "what": "Raw cod is fish used as food and in compatible animal interactions.",
+    "does": "Cook it for better food, or use it for suitable cat, ocelot, or dolphin interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cod"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:salmon": {
+    "what": "Raw salmon is fish used as food and in compatible animal interactions.",
+    "does": "Cook it for better food or use it in suitable animal-feeding and taming interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Salmon"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:tropical_fish": {
+    "what": "A tropical fish item is a caught fish used as food or an ingredient in certain interactions.",
+    "does": "It is not the same as a live tropical fish in a bucket; axolotl breeding needs the bucket form.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tropical_Fish"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pufferfish": {
+    "what": "A pufferfish item is a brewing ingredient and a dangerous food.",
+    "does": "Use it in Water Breathing potion brewing. Eating it causes harmful effects rather than making it a safe meal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pufferfish"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:poisonous_potato": {
+    "what": "A poisonous potato is an occasional harmful byproduct of potato farming.",
+    "does": "Eating it can poison you. It cannot replace ordinary potatoes for planting or cooking.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Poisonous_Potato"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:cookie": {
+    "what": "A cookie is a food made from wheat and cocoa beans.",
+    "does": "Eat it to restore a little hunger. Never feed cookies to parrots because they are poisonous to them.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cookie"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pumpkin_pie": {
+    "what": "Pumpkin pie is a crafted food made from pumpkin, sugar, and an egg.",
+    "does": "Eat it to restore hunger.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pumpkin_Pie"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:beetroot_soup": {
+    "what": "Beetroot soup is a bowl-based food made from beetroots.",
+    "does": "Eat it to restore hunger; you keep the empty bowl afterward.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Beetroot_Soup"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mushroom_stew": {
+    "what": "Mushroom stew is a bowl-based food made with red and brown mushrooms.",
+    "does": "Eat it to restore hunger or collect it from a suitable mooshroom using a bowl.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Mushroom_Stew"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:rabbit_stew": {
+    "what": "Rabbit stew is a bowl-based meal using cooked rabbit and other ingredients.",
+    "does": "Eat it to restore hunger; it uses more ingredients than a simple cooked meat item.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rabbit_Stew"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:suspicious_stew": {
+    "what": "Suspicious stew is food whose extra effect depends on its ingredients or source.",
+    "does": "Eat it to restore hunger, but its hidden effect can be helpful or harmful.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Suspicious_Stew"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:golden_carrot": {
+    "what": "A golden carrot is a high-saturation food and a brewing ingredient.",
+    "does": "Eat it for long-lasting hunger recovery or use it in compatible brewing and horse-breeding interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Golden_Carrot"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:glistering_melon_slice": {
+    "what": "A glistering melon slice is a brewing ingredient made with melon and gold.",
+    "does": "Use it for compatible Healing potions. It is not eaten like an ordinary melon slice.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Glistering_Melon_Slice"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:melon_slice": {
+    "what": "A melon slice is food obtained from melon blocks.",
+    "does": "Eat it, turn it into melon seeds, or use it in compatible glistering-melon crafting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Melon_Slice"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:melon_seeds": {
+    "what": "Melon seeds grow into melon stems on farmland.",
+    "does": "Give the stem a suitable adjacent space to produce melon blocks.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Melon_Seeds"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pumpkin_seeds": {
+    "what": "Pumpkin seeds grow into pumpkin stems on farmland.",
+    "does": "Give the stem a suitable adjacent space to produce pumpkin blocks.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pumpkin_Seeds"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:beetroot_seeds": {
+    "what": "Beetroot seeds grow into beetroot crops on farmland.",
+    "does": "Plant them, let the crop mature, and harvest beetroots and more seeds.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Beetroot_Seeds"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:cocoa_beans": {
+    "what": "Cocoa beans are a food-crafting and dye ingredient grown on jungle logs.",
+    "does": "Plant them on suitable jungle logs, harvest mature pods, and use the beans in cookies or compatible brown-dye recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cocoa_Beans"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:fire_charge": {
+    "what": "A fire charge is a consumable fire-starting ingredient or projectile.",
+    "does": "Use it to ignite suitable targets or load it into a dispenser; it is also used in fireworks crafting.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Fire_Charge"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:firework_star": {
+    "what": "A firework star defines the explosion effect of a crafted firework.",
+    "does": "Combine it into a firework-rocket recipe to give the rocket its decorative burst.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Firework_Star"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:rabbit_hide": {
+    "what": "Rabbit hide is a material dropped by rabbits.",
+    "does": "Combine compatible hides to make leather or use them in applicable crafting recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Rabbit_Hide"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:closed_eyeblossom": {
+    "what": "A closed eyeblossom is the daytime form of an eyeblossom flower.",
+    "does": "Use it for decoration and compatible dye or stew recipes. It opens at night under suitable conditions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Closed_Eyeblossom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:open_eyeblossom": {
+    "what": "An open eyeblossom is the nighttime form of an eyeblossom flower.",
+    "does": "Use it for decoration and compatible dye or stew recipes. Its glowing-looking center does not act like an ordinary block light source.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Open_Eyeblossom"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:wither_rose": {
+    "what": "A wither rose is a dark flower that harms many entities touching it.",
+    "does": "Use it carefully for decoration, black-dye production, or suitable farm mechanisms.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wither_Rose"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:torchflower": {
+    "what": "A torchflower is an ancient decorative flower grown from seeds found by sniffers.",
+    "does": "Use it for decoration and compatible crafting. Despite its name, it does not light up nearby blocks like a torch.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Torchflower"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:torchflower_seeds": {
+    "what": "Torchflower seeds are ancient seeds dug up by sniffers.",
+    "does": "Plant them on farmland to grow torchflowers or use them for compatible sniffer breeding.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Torchflower_Seeds"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pitcher_pod": {
+    "what": "A pitcher pod is an ancient plant starter dug up by sniffers.",
+    "does": "Plant it on farmland to grow a pitcher plant.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pitcher_Pod"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pitcher_plant": {
+    "what": "A pitcher plant is a tall decorative ancient plant.",
+    "does": "Grow it from a pitcher pod and use the mature plant for decoration or compatible dye recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pitcher_Plant"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:leaf_litter": {
+    "what": "Leaf litter is a decorative layer of fallen leaves.",
+    "does": "Use it to give forest floors and gardens a natural leaf-covered appearance.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Leaf_Litter"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pink_petals": {
+    "what": "Pink petals are a thin decorative layer of pink flowers.",
+    "does": "Use them to decorate gardens and cherry-grove-style ground.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Pink_Petals"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:wildflowers": {
+    "what": "Wildflowers are a decorative spread of small flowers.",
+    "does": "Place them on suitable ground for natural-looking flower patches.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Wildflowers"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:firefly_bush": {
+    "what": "A firefly bush is a decorative bush associated with firefly-like ambient particles.",
+    "does": "Use it to add natural atmosphere to a garden or waterside build.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Firefly_Bush"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:cactus_flower": {
+    "what": "A cactus flower is a decorative flower associated with cactus growth.",
+    "does": "Use it for desert gardens and compatible crafting or dye recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Cactus_Flower"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:golden_dandelion": {
+    "what": "A golden dandelion is a special flower used in baby-animal growth interactions.",
+    "does": "Use it on supported baby animals to control their growth; support depends on the animal.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Golden_Dandelion"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:copper_chest": {
+    "what": "A copper chest is a storage block associated with copper golem item sorting.",
+    "does": "Use it as an input container for a suitable copper-golem sorting arrangement.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Copper_Chest"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:copper_golem_statue": {
+    "what": "A copper golem statue is a decorative statue form associated with copper golems and oxidation.",
+    "does": "Use it as decoration; waxing and oxidation affect copper forms and their interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Copper_Golem_Statue"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:camera": {
+    "what": "A camera is a special photography tool from compatible Minecraft Education features.",
+    "does": "Use it in a supported Education world to capture images; it is not an ordinary Survival crafting station.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:piston_arm_collision": {
+    "what": "A piston head is the moving extension of a piston.",
+    "does": "It pushes blocks when its piston extends. This internal block is part of the mechanism, rather than a normal separate Survival building item.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:sticky_piston_arm_collision": {
+    "what": "A sticky piston head is the moving extension of a sticky piston.",
+    "does": "It participates in the piston pushing and pulling its attached block. It is part of the mechanism, not a normal separate Survival building item.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:netherbrick": {
+    "what": "A Nether brick is a material made by smelting netherrack.",
+    "does": "Combine it into Nether brick building blocks and related recipes.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:blue_egg": {
+    "what": "A blue egg is a colored chicken egg.",
+    "does": "Use it in compatible egg recipes or throw it for chicken-hatching interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:brown_egg": {
+    "what": "A brown egg is a colored chicken egg.",
+    "does": "Use it in compatible egg recipes or throw it for chicken-hatching interactions.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:unknown": {
+    "what": "The unknown block is a placeholder used when Minecraft cannot identify a block properly.",
+    "does": "It is not a normal Survival resource. If it appears in a world unexpectedly, a required add-on or block definition may be missing.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:tnt": {
+    "what": "TNT is an explosive block that becomes a primed explosive entity when ignited.",
+    "does": "Use it for controlled explosions, keeping people, pets, and important builds well away from the blast.",
+    "reference_urls": [
+      "https://minecraft.wiki/w/Tnt"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:cinnabar": {
+    "what": "Cinnabar is a mineral building block with several decorative forms.",
+    "does": "Use it in construction or turn it into compatible polished, brick, stair, slab, and wall forms.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/cinnabar.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:polished_cinnabar": {
+    "what": "Polished cinnabar is a processed decorative cinnabar block.",
+    "does": "Use it for smoother-looking construction or make compatible stairs, slabs, and walls.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/polished_cinnabar.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:chiseled_cinnabar": {
+    "what": "Chiseled cinnabar is a carved decorative cinnabar block.",
+    "does": "Use it for patterned accents in cinnabar builds; it can be made from suitable cinnabar materials.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/chiseled_cinnabar.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:sulfur": {
+    "what": "Sulfur is a mineral block with several building variants.",
+    "does": "Use it in construction or craft compatible polished, chiseled, stair, slab, and wall forms.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/sulfur.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:polished_sulfur": {
+    "what": "Polished sulfur is a processed decorative sulfur block.",
+    "does": "Use it for construction or make compatible polished sulfur stairs, slabs, and walls.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/polished_sulfur.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:chiseled_sulfur": {
+    "what": "Chiseled sulfur is a carved decorative sulfur block.",
+    "does": "Use it to add a patterned sulfur detail to builds, using the appropriate crafting or stonecutting recipe.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/chiseled_sulfur.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:potent_sulfur": {
+    "what": "Potent sulfur is a special sulfur block made by combining sulfur.",
+    "does": "It has its own recipe and is distinct from ordinary sulfur. I still need to learn its special interactions.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/potent_sulfur.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:sulfur_spike": {
+    "what": "A sulfur spike is a pointed sulfur formation.",
+    "does": "It is different from the ordinary flat sulfur building block. I still need to learn its special interactions.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "metadata/vanilladata_modules/mojang-blocks.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:shelf_mushroom": {
+    "what": "A shelf mushroom is a mushroom material with a shelf-like growth form.",
+    "does": "Use it for suitable mushroom decoration and compatible food recipes, including rabbit stew.",
+    "reference_urls": [
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ],
+    "source_files": [
+      "behavior_pack/recipes/rabbit_stew_from_shelf_mushroom.json"
+    ],
+    "verification": "basic_building_or_recipe_role_only_special_interactions_pending"
+  },
+  "minecraft:melon_stem": {
+    "what": "A melon stem is a crop plant grown from melon seeds.",
+    "does": "Grow it on farmland with a suitable adjacent space so it can produce melon blocks.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:pumpkin_stem": {
+    "what": "A pumpkin stem is a crop plant grown from pumpkin seeds.",
+    "does": "Grow it on farmland with a suitable adjacent space so it can produce pumpkin blocks.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  },
+  "minecraft:mushroom_stem": {
+    "what": "A mushroom stem is the stalk block of a huge mushroom.",
+    "does": "Use it for mushroom-themed construction. Harvesting the intact block requires a suitable Silk Touch tool.",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ],
+    "verification": "original_editorial_summary_target_version_review_pending"
+  }
+}

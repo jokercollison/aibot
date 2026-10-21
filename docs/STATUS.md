@@ -1,19 +1,24 @@
-# Development status
+# Development status — 0.2.0
 
-## Implemented, automated checks passing
+## Implemented and checked outside Minecraft
 
-Initial modular BP/RP development build; offline question form; first-use claim; owner-only controls; persistent name/settings/home; follow/stay and opt-in native defense component events; safe same-dimension home-return attempt; bounded owner-nearby warning scans; original minimal robot art, movement animation and chirp; preserved original banter and research; official recipe data with ingredient-only answers; friendly capability-based follow-up suggestions; a Things to try menu and downloadable test checklist; ingredient-use queries; limited mob/enchantment facts and session-only follow-ups; deterministic package build.
+Modular offline BP/RP development build; owner-only forms, naming and persistent settings; native follow/stay and opt-in owner defense; safe same-dimension home-return attempt; creeper/lava/health warnings; original minimal robot art and chirp; ingredient-only recipes; broad basic block/item/entity explanations with follow-ups; Things to try and Test robot sound menus; approved original dialogue preserved; namespaced source and Content-layout packaging.
 
-`npm run validate`: stable API declaration check passes; 35 Node tests pass (24 knowledge/state checks, 8 gameplay integration checks against simulated APIs, 3 pack/version/UV checks); JSON/dependency/runtime-import checks pass; `.mcaddon` CRC check passes. Separately, the inherited v64 engine's existing 10 smoke assertions pass. These are distinct checks, not actual game tests. Other historical suites remain unrun.
+Basic description coverage: **3,222 records**, consisting of **813 specific record entries** and **2,409 family-derived record entries**. A block and its item can count separately. This includes internal, legacy and Education entries and is not a claim of full knowledge of every mechanic. Read KNOWLEDGE_SCOPE.md and KNOWLEDGE_COVERAGE.json for scope, provenance and limitations.
 
-## Not yet complete
+`npm run validate` passes stable API type checking and **46 automated tests**: 24 knowledge/state, 8 description/routing, 10 simulated gameplay integration, and 4 resource/version/path checks. Packaging also validates JSON, dependency versions, runtime imports, and CRCs. Tests do not establish factual correctness of every sentence in the target game version or run the Minecraft engine. The inherited v64 baseline's 10 assertions passed earlier; other historical suites remain unrun.
 
-- **Actual game validation** remains necessary for each release. The user reported basic in-game interaction and supplied screenshots from 0.1.0 on Bedrock 1.26.52, including a missing-resource dependency error. This is user-reported evidence, not an in-game run by the cloud agent. The 0.1.1 dependency packaging and UV changes need retesting. Minecraft is not installed in this cloud machine. Import, content log, entity component acceptance, forms, tamed navigation, native target behavior, saved-state reload and mobile/controller rendering are unverified.
-- Knowledge coverage is much smaller than the registry: most mobs/items have identifiers but no general explanations. Unsupported environmental mechanics, acquisition, spawn/loot interpretation, biomes, structures, tutorials and redstone need evidence-backed integration. V65/V66 research is preserved but not wired into player answers. No claim of complete knowledge.
-- Smithing/brewing processing-specific instructions, multi-output/alternative recipe presentation, enchantment conflicts and ambiguity handling need further work. Recipe answers show at most four variants and reverse ingredient queries show a partial list. Tagged ingredients do not expand into every matching item.
-- Defense is delegated to owner-hurt native behavior and defaults off. PvP/pet target policy and clearing existing targets after disabling defense need real multiplayer checks. Owner permissions apply to menus, not immunity from other players dealing damage. No transfer, recovery after owner account loss, or robot crafting recipe yet.
-- Follow requires nearby loaded chunks and native pathfinding. No cross-dimension following/recall. Return home is a same-dimension checked teleport, not autonomous home navigation. Stay does not anchor physics or override combat. Robot can be damaged and destroyed.
-- Personality expansion, contextual banter variations, world-event reactions and polished character art remain. Original approved dialogue is retained, but only selected categories are currently triggered.
-- Performance on actual target devices, accessibility/localization, distribution licensing and Marketplace certification have not been completed.
+## User-reported actual-game evidence
 
-No API keys or external AI services are required. Source and downloadable development builds are published to GitHub. Use the original handoff as the long-term product scope, not a description of this milestone's completed functionality.
+The user reports completing the single-player checklist on Bedrock **1.26.52**, excluding multiplayer. Screenshots show interaction, naming, basic controls and responses. The missing-resource dependency warning and inaudible chirp remain open until explicitly retested. New 0.2.0 behavior has not been tested in-game. See USER_TEST_REPORT.md.
+
+## Remaining work
+
+- Target-version factual review and richer individual variant behavior. Most editorial summaries and family rules still need authoritative target-version review; reference URLs are not fetched-source verification records. Some newer objects have only limited basic role explanations.
+- Additional acquisition/spawn/loot, diet, taming, mining, structures, redstone tutorials and other specific mechanic answers. V65/V66 research is preserved but not fully integrated. No unrestricted conversational AI is claimed.
+- Update import, latest BP/RP selection, sound playback, legacy saved-robot compatibility, new namespace and device performance need actual-game validation. The ~3 MB offline bundle needs low-end-device profiling.
+- Multiplayer ownership, simultaneous claims, PvP/pet target policy, and clearing native combat targets after disabling defense are untested. Menus are protected, but robots are not immune to other players' damage.
+- Native following needs loaded chunks. No cross-dimension following/recall or walking home. Home return is a checked same-dimension teleport, and stay does not anchor physics or override combat.
+- More mob warnings and personality variations, polished art, accessibility/localization, robot crafting/recovery/ownership transfer, submission artwork, licensing and Marketplace certification remain.
+
+Source and development builds are published on GitHub. No external AI service or API key is required.

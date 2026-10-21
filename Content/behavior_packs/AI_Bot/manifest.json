@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "2ce0184a-d453-4ef0-a642-822f3789c401",
+    "version": [
+      0,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7a1a0891-9d4c-46af-b2d1-2c465eff7a6f",
+      "version": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "00517571-14bf-4c40-a22f-232d3c689781",
+      "version": [
+        0,
+        2,
+        0
+      ],
+      "entry": "scripts/tts/ai_bot/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "ad2a55c1-6e34-4f1c-b8fe-196307352760",
+      "version": [
+        0,
+        2,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

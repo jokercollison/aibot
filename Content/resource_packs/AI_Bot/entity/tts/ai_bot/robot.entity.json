@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tts_ai_bot:robot",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/tts/ai_bot/entity/robot"
+      },
+      "geometry": {
+        "default": "geometry.tts_ai_bot.robot"
+      },
+      "render_controllers": [
+        "controller.render.tts_ai_bot.robot"
+      ],
+      "animations": {
+        "walk": "animation.tts_ai_bot.robot.walk"
+      },
+      "scripts": {
+        "animate": [
+          "walk"
+        ]
+      },
+      "spawn_egg": {
+        "base_color": "#35475A",
+        "overlay_color": "#25E7D0"
+      }
+    }
+  }
+}

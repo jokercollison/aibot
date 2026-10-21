@@ -1,3 +1,4 @@
+import descriptions from '../data/description_runtime.json' with {type:'json'};
 import bundle from '../data/catalog.json' with { type: 'json' };
 import aliases from '../data/aliases_v64.json' with { type: 'json' };
 import facts from '../data/facts.json' with { type: 'json' };
@@ -9,6 +10,17 @@ const clean = s => String(s ?? '').toLowerCase().replace(/minecraft:/g, '').repl
 const label = s => clean(s).replace(/\b\w/g, c => c.toUpperCase());
 const unknown = "I'm not sure about that yet. Try asking me how to craft something, or ask for a joke.";
 const aliasIndex = new Map(Object.entries(aliases));
+const byMinecraftId = new Map();
+for (const record of Object.values(records)) {
+  const id = record.minecraft_id.toLowerCase();
+  if (!byMinecraftId.has(id)) byMinecraftId.set(id, []);
+  byMinecraftId.get(id).push(record);
+}
+for (const record of Object.values(records)) {
+  for (const term of [clean(record.name),clean(record.minecraft_id)]) {
+    aliasIndex.set(term,[...new Set([...(aliasIndex.get(term) ?? []),record.id])]);
+  }
+}
 const maxAliasWords = Math.max(...Object.keys(aliases).map(a => a.split(' ').length));
 function subjects(text) {
   const words = clean(text).split(' '), found = [];
@@ -16,7 +28,8 @@ function subjects(text) {
     for (let size = Math.min(maxAliasWords, words.length - i); size > 0; size--) {
       const term = words.slice(i, i + size).join(' ');
       const singular = term.endsWith('ies') ? term.slice(0, -3) + 'y' : term.endsWith('s') ? term.slice(0, -1) : term;
-      const ids = aliasIndex.get(term) ?? aliasIndex.get(singular) ?? [];
+      const irregular = {wolves:'wolf'};
+      const ids = aliasIndex.get(term) ?? aliasIndex.get(irregular[term] ?? singular) ?? aliasIndex.get(term + 's') ?? [];
       for (const id of ids) if (records[id]) found.push({record: records[id], size, start: i});
     }
   }
@@ -97,7 +110,7 @@ export function recipeText(record) {
   });
   return {status:'conditional',answer:[...new Set(lines)].join('\n'),sources:recipes.map(r=>r.source)};
 }
-function introduction(record) {
+function followup(record) {
   const name = clean(record.name);
   const topics = facts[record.minecraft_id] ?? {};
   const suggestions = [];
@@ -105,8 +118,7 @@ function introduction(record) {
   if (topics.fear) suggestions.push('What scares it?');
   if (topics.danger) suggestions.push('Is it dangerous?');
   if (topics.breed) suggestions.push('How do I breed them?');
-  if (suggestions.length) return `I know a few things about ${name}! Try asking: ${suggestions.map(q => '"' + q + '"').join(' or ')}`;
-  return `I recognize ${name}, but I'm still learning about it. You can ask me how to craft something else, or ask for a joke.`;
+  return suggestions.length ? ` You can also ask: ${suggestions.slice(0,2).map(q => '"' + q + '"').join(' or ')}` : '';
 }
 export function createConversation() {
   let previous;
@@ -118,23 +130,32 @@ export function createConversation() {
       if (/^(hi|hello|hey|greetings)$/.test(q)) return {status: 'dialogue', answer: banter.greeting[0]};
       if (/\b(joke|funny)\b/.test(q)) return {status: 'dialogue', answer: banter.idle[0]};
       if (/^(bye|goodbye|see you)$/.test(q)) return {status: 'dialogue', answer: 'Circuits on standby. See you on the next adventure!'};
-      const intent = /\b(what can i (make|craft)|uses for|can i make with)\b/.test(q) ? 'uses' :
+      const definitionRequest = /^(?:what (?:is|are)|describe|tell me about)\b/.test(q) && !/\b(recipe|craft|make|ingredients|breeding|fear)\b/.test(q);
+      const intent = definitionRequest ? 'describe' : /\b(what can i (make|craft)|can i make with)\b/.test(q) ? 'uses' :
         /\b(scared|scares|afraid|fear|avoid)\b/.test(q) ? 'fear' :
         /\b(breed|breeding|mate)\b/.test(q) ? 'breed' :
         /\b(dangerous|danger|explode)\b/.test(q) ? 'danger' :
         /\b(make|craft|recipe|ingredients|build)\b/.test(q) ? 'recipe' :
         /\b(where|find|obtain|spawn|drops|drop|get)\b/.test(q) ? 'acquisition' :
+        /\b(what is|what are|tell me about|describe|what does|what do|used for|uses for|how does|how do i use)\b/.test(q) ? 'describe' :
         /\b(drown|underwater|lava|fire|sunlight|eat|tame|kill|health|attack|damage)\b/.test(q) ? 'mechanic' : 'describe';
       if (intent === 'uses' && /\bwith iron$/.test(q)) return {status:'ambiguous',answer:'Do you mean iron ingots, raw iron, or iron blocks? Please include the material in your question.'};
       const matches = subjects(q).filter(x => intent === 'recipe' || intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
+      const exact = String(input).toLowerCase().match(/\b(?:(block|item|entity):)?(minecraft:[a-z0-9_]+)\b/);
       let candidates = matches.length ? matches.filter(m => m.size === matches[0].size && m.start === matches[0].start).map(m => m.record) : [];
+      if (exact) candidates = (byMinecraftId.get(exact[2]) ?? []).filter(r => !exact[1] || r.kind === exact[1]);
+      const kindHint = /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
+      if (!exact && kindHint && candidates.some(r=>r.kind===kindHint)) candidates=candidates.filter(r=>r.kind===kindHint);
       candidates = [...new Map(candidates.map(r => [r.id,r])).values()];
       if (!candidates.length && /\b(it|they|them|its)\b/.test(q) && previous) candidates = [previous];
       if (!candidates.length) return {status: 'unknown', answer: unknown};
       // Block/item pairs with the same Minecraft id are the same subject for basic lookup.
       const ids = new Set(candidates.map(r => r.minecraft_id));
-      if (ids.size > 1 || new Set(candidates.map(r => r.kind)).has('entity') && candidates.length > 1) {
+      if (ids.size > 1) {
         return {status: 'ambiguous', answer: 'Which do you mean: ' + candidates.map(r => `${r.name} (${r.kind})`).join(', ') + '?'};
+      }
+      if (!exact && candidates.some(r=>r.kind==='entity') && new Set(candidates.map(r=>descriptions[r.id]?.what)).size>1) {
+        return {status:'ambiguous',answer:'Do you mean the mob, or the block/item with that name? Please include which one in your question.'};
       }
       const r = candidates.find(r => r.recipes?.length) ?? candidates[0];
       previous = r;
@@ -150,7 +171,12 @@ export function createConversation() {
         const equipment = (r.equipment ?? []).map(e => e === 'durable_equipment' ? 'items with durability' : clean(e));
         return {status:'conditional',answer:`${r.name}: ${r.effect.replace(/[.!]+$/,'')}.${r.maximum_level ? ` Its highest level is ${r.maximum_level}.` : ''}${equipment.length ? ` It works on ${joinList(equipment)}.` : ''}`,sources:[r.source]};
       }
-      return {status:'partial',answer:introduction(r),sources:[r.source]};
+      const description = descriptions[r.id];
+      if (description) {
+        const hint = followup(r);
+        return {status:'conditional',answer:description.what + ' ' + description.does + hint,sources:['descriptions:'+r.id],coverage:description.coverage};
+      }
+      return {status:'partial',answer:`I'm still learning about ${clean(r.name)} and don't have a dependable explanation yet.`,sources:[r.source]};
     }
   };
 }

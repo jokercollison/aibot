@@ -35,3 +35,11 @@ with zipfile.ZipFile(target) as z:
     assert z.testzip() is None
     assert len(z.namelist())==2
 print(f'Built and CRC-checked matching behavior/resource packs: {target}')
+
+source_target=root/f'dist/TimeTrapRobot-Content-{version}.zip'
+with zipfile.ZipFile(source_target,'w',zipfile.ZIP_DEFLATED) as z:
+    for folder,kind in [('TimeTrapRobot_BP','behavior_packs'),('TimeTrapRobot_RP','resource_packs')]:
+        for p in sorted((root/'build'/folder).rglob('*')):
+            if p.is_file():
+                z.write(p,Path('Content')/kind/'AI_Bot'/p.relative_to(root/'build'/folder))
+print(f'Content-layout development archive: {source_target}')

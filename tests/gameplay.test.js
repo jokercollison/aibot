@@ -2,7 +2,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {build} from 'esbuild';
-const fixture={callbacks:{}, forms:[], messages:[], intervals:[], bodies:[]};
+const fixture={callbacks:{}, forms:[], messages:[], intervals:[], bodies:[], sounds:[]};
 globalThis.__robotTest=fixture;
 fixture.world={beforeEvents:{playerInteractWithEntity:{subscribe:cb=>fixture.callbacks.interact=cb}},afterEvents:{playerLeave:{subscribe:cb=>fixture.callbacks.leave=cb}},getAllPlayers:()=>fixture.players??[]};
 fixture.system={run:cb=>cb(),runInterval:cb=>fixture.intervals.push(cb),currentTick:0};
@@ -17,9 +17,9 @@ await import('data:text/javascript;base64,'+Buffer.from(out.outputFiles[0].text)
 function setup() {
  const properties=new Map(),events=[];
  const dimension={id:'minecraft:overworld',getEntities:()=>[],getBlock:()=>({typeId:'minecraft:air'})};
- const player={id:'owner',isValid:true,dimension,location:{x:0,y:64,z:0},sendMessage:s=>fixture.messages.push(s),playSound:()=>{},getComponent:()=>({currentValue:20})};
+ const player={id:'owner',isValid:true,dimension,location:{x:0,y:64,z:0},sendMessage:s=>fixture.messages.push(s),playSound:(name,options)=>fixture.sounds.push({name,options}),getComponent:()=>({currentValue:20})};
  const bot={id:'robot',isValid:true,typeId:'tts:robot',location:{x:0,y:64,z:1},dimension,nameTag:'',getDynamicProperty:k=>properties.get(k),setDynamicProperty:(k,v)=>properties.set(k,v),getComponent:()=>({tame:()=>true}),triggerEvent:e=>events.push(e),tryTeleport:()=>false};
- fixture.messages=[];fixture.forms=[];fixture.players=[];fixture.bodies=[];
+ fixture.messages=[];fixture.forms=[];fixture.players=[];fixture.bodies=[];fixture.sounds=[];
  return {player,bot,properties,events};
 }
 async function click(player,bot){fixture.callbacks.interact({player,target:bot});await new Promise(r=>setImmediate(r));}
@@ -53,7 +53,7 @@ test('blocked home leaves follow state unchanged and reports failure',async()=>{
 });
 test('nearby creeper warning obeys per-robot cooldown',()=>{
  const {player,bot,properties}=setup();properties.set('tts:owner',player.id);
- player.dimension.getEntities=q=>q.type==='tts:robot'?[bot]:[{typeId:'minecraft:creeper'}];fixture.players=[player];
+ player.dimension.getEntities=q=>q.families?.includes('tts_ai_bot')?[bot]:[{typeId:'minecraft:creeper'}];fixture.players=[player];
  fixture.system.currentTick=100;fixture.intervals[0]();fixture.intervals[0]();assert.equal(fixture.messages.length,1);
  fixture.system.currentTick=1300;fixture.intervals[0]();assert.equal(fixture.messages.length,2);
 });
@@ -63,4 +63,12 @@ test('Things to try menu shows examples and honest warning coverage',async()=>{
  fixture.forms=[{selection:6},{selection:0}];await click(player,bot);
  assert.match(fixture.bodies.at(-1),/How do I craft a stone pickaxe/);
  assert.match(fixture.bodies.at(-1),/haven't learned warnings for other mobs/);
+});
+
+test('new namespaced robot identity and old saved robots are both recognized',async()=>{
+ const {player,bot,properties}=setup();bot.typeId='tts_ai_bot:robot';await click(player,bot);assert.equal(properties.get('tts:owner'),player.id);
+});
+test('sound test uses the registered project sound at an audible gain',async()=>{
+ const {player,bot,properties}=setup();properties.set('tts:owner',player.id);fixture.forms=[{selection:7}];await click(player,bot);
+ assert.equal(fixture.sounds[0].name,'tts_ai_bot.robot.chirp');assert.ok(fixture.sounds[0].options.volume>=0.5);
 });

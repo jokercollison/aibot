@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.tts_ai_bot.robot.walk": {
+      "loop": true,
+      "bones": {
+        "left_leg": {
+          "rotation": [
+            "Math.sin(query.modified_distance_moved * 38.17) * 35 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "right_leg": {
+          "rotation": [
+            "Math.sin(query.modified_distance_moved * 38.17) * -35 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "left_arm": {
+          "rotation": [
+            "Math.sin(query.modified_distance_moved * 38.17) * -25 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "right_arm": {
+          "rotation": [
+            "Math.sin(query.modified_distance_moved * 38.17) * 25 * query.modified_move_speed",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

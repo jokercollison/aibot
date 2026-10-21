@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "copper_bulb",
+    "pattern": "^(?:waxed_)?(?:(?:exposed|weathered|oxidized)_)?copper_bulb$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper light block switched by redstone pulses.",
+    "does": "A pulse changes its on/off state, and its oxidation affects its brightness. Waxing stops further oxidation.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "copper_door",
+    "pattern": "^(?:waxed_)?(?:(?:exposed|weathered|oxidized)_)?copper_(?:door|trapdoor)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is an openable copper doorway or hatch.",
+    "does": "Use it by hand or with redstone. Its appearance changes with oxidation unless it is waxed.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "copper_grate",
+    "pattern": "^(?:waxed_)?(?:(?:exposed|weathered|oxidized)_)?copper_grate$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper mesh building block.",
+    "does": "Use it for grilles and decorative structures. Copper oxidation changes its appearance unless it is waxed.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "copper_building",
+    "pattern": "^(?:waxed_)?(?:(?:exposed|weathered|oxidized)_)?(?:cut_copper|chiseled_copper|copper)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper building block.",
+    "does": "Use it for construction and decoration. Unwaxed copper can oxidize to a different color; honeycomb prevents further oxidation.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "spawn_egg",
+    "pattern": "^(.+)_spawn_egg$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a spawn egg for creating its named mob.",
+    "does": "Use it on a suitable surface in Creative or another mode where you have the egg. Different mobs may need suitable space or water.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "smithing_template",
+    "pattern": "^(.+)_smithing_template$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a template used at a smithing table.",
+    "does": "Combine it with compatible equipment and the required material. Upgrade templates improve equipment; armor-trim templates add a decorative pattern.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "pottery_sherd",
+    "pattern": "^(.+)_pottery_sherd$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is an archaeology material for decorating pots.",
+    "does": "Use it in a decorated-pot recipe to put its design on a side of the pot.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "banner_pattern",
+    "pattern": "^(.+)_banner_pattern$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a special banner design item.",
+    "does": "Use it in a loom with a banner and dye to apply the corresponding pattern.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "music_disc",
+    "pattern": "^(?:music_disc_.+|record_.+)$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a music disc.",
+    "does": "Insert it into a jukebox to play its track.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "boat_chest",
+    "pattern": "^(.+)_(?:chest_boat|chest_raft)$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a water vehicle with built-in storage.",
+    "does": "Use it to travel across water while carrying items in its chest. The storage replaces an extra passenger seat.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "boat",
+    "pattern": "^(.+)_(?:boat|raft)$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a rideable water vehicle.",
+    "does": "Place it on water to carry players or compatible passengers along rivers and across other water routes.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "filled_bucket",
+    "pattern": "^(.+)_bucket$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a bucket carrying its named contents.",
+    "does": "Use it to place or release the contents in a suitable location. Filled fish and axolotl buckets let you transport the animal alive.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "horse_armor",
+    "pattern": "^(?:leather|copper|iron|golden|diamond)_horse_armor$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is protective equipment for a compatible horse.",
+    "does": "Equip it on the horse to add armor protection. It is not player armor.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "armor",
+    "pattern": "^(?:leather|chainmail|copper|iron|golden|diamond|netherite)_(?:helmet|chestplate|leggings|boots)$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is wearable armor for its matching equipment slot.",
+    "does": "Equip it to reduce suitable incoming damage. Its material and enchantments affect protection and durability.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "pickaxe",
+    "pattern": "^(?:wooden|stone|copper|iron|golden|diamond|netherite)_pickaxe$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a mining tool for rock and ore blocks.",
+    "does": "Use it to mine compatible blocks faster and obtain their drops. Some ores require a stronger material tier; not every pickaxe can harvest everything.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "axe",
+    "pattern": "^(?:wooden|stone|copper|iron|golden|diamond|netherite)_axe$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a tool for chopping wood and other axe-suitable blocks.",
+    "does": "Use it to harvest logs efficiently and strip suitable logs. It can also be used as a melee weapon.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "shovel",
+    "pattern": "^(?:wooden|stone|copper|iron|golden|diamond|netherite)_shovel$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a digging tool for loose ground materials.",
+    "does": "Use it to dig dirt, sand, gravel, snow, and similar blocks faster, or make paths from suitable ground.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "hoe",
+    "pattern": "^(?:wooden|stone|copper|iron|golden|diamond|netherite)_hoe$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a farming tool.",
+    "does": "Use it to prepare suitable soil as farmland and to harvest certain plant-based blocks more efficiently.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "sword",
+    "pattern": "^(?:wooden|stone|copper|iron|golden|diamond|netherite)_sword$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a melee weapon.",
+    "does": "Use it to attack targets at close range. Material and enchantments affect its damage and durability.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "double_slab",
+    "pattern": "^(?:(.+)_double_slab|(?:.*_)?double_.+_slab)$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is the full-height form made by combining two matching slabs.",
+    "does": "Use it for construction where you want a full block with the slab material's appearance.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "slab",
+    "pattern": "^(.+)_slab$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a half-height building block.",
+    "does": "Use it for steps, layered floors, and detailed builds. Two matching slabs can form a full-height block. Bottom slabs differ from top slabs for normal mob spawning.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "stairs",
+    "pattern": "^(.+)_stairs$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a stair-shaped building block.",
+    "does": "Use it to change elevation without jumping or to make roofs, corners, and decorative shapes.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "wall",
+    "pattern": "^(.+)_wall$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a connecting wall block.",
+    "does": "Use it as a boundary or decorative support. Walls are taller for collision than they look, helping keep many ordinary mobs contained.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "fence_gate",
+    "pattern": "^(.+)_fence_gate$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is an openable gate that connects to fences.",
+    "does": "Use it to enter an enclosure while keeping a fence-style barrier when closed. It can be controlled by hand or redstone.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "fence",
+    "pattern": "^(.+)_fence$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a connecting fence block.",
+    "does": "Use it to enclose animals or mark boundaries. Many mobs cannot jump over an ordinary fence, and leads can be tied to suitable fence posts.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "trapdoor",
+    "pattern": "^(.+)_trapdoor$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a small hinged hatch.",
+    "does": "Use it for floor or ceiling openings and decorative details. Redstone can control it; iron trapdoors require redstone rather than hand opening.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "door",
+    "pattern": "^(.+)_door$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a two-block-high openable doorway.",
+    "does": "Use it to control entry into rooms. Redstone can control it; iron doors require redstone rather than hand opening.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "button",
+    "pattern": "^(.+)_button$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a temporary redstone switch.",
+    "does": "Press it to send a short redstone signal. Wooden buttons can also be triggered by suitable projectiles, while material affects timing and interaction rules.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "pressure_plate",
+    "pattern": "^(.+)_pressure_plate$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a switch activated when suitable entities stand on it.",
+    "does": "Use it to trigger redstone mechanisms. Wooden and stone plates detect different kinds of entities.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "hanging_sign",
+    "pattern": "^(.+)_hanging_sign$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a suspended sign for displaying written text.",
+    "does": "Hang it from a suitable support and write a message. Dye changes the text color and glow ink can make the writing brighter.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "sign",
+    "pattern": "^(?:.+_(?:standing_sign|wall_sign|sign)|standing_sign|wall_sign)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a sign for displaying written text.",
+    "does": "Place it on a suitable surface and enter a message. Use dye to recolor the text or glow ink to brighten it.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "planks",
+    "pattern": "^(.+)_planks$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a processed wood building material.",
+    "does": "Use it for construction and compatible recipes such as crafting tables, sticks, doors, and wooden components.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "log",
+    "pattern": "^(?:stripped_)?(oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|poplar|crimson|warped)_(?:log|wood|stem|hyphae)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a tree or giant-fungus building material.",
+    "does": "Use it for natural-looking construction or turn suitable wood into planks. Unstripped forms can often be stripped with an axe.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "leaves",
+    "pattern": "^(.+)_(?:leaves|leaves_flowered)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is foliage used by a tree or large plant.",
+    "does": "Use it for landscaping and hedges. Harvesting the intact block normally needs shears or Silk Touch; some leaves can drop plant materials when they decay.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "sapling",
+    "pattern": "^(.+)_sapling$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a young plant that can grow into its corresponding tree.",
+    "does": "Plant it on suitable ground with enough space and appropriate conditions. Bone meal can speed up compatible growth.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "ore",
+    "pattern": "^(?:deepslate_|nether_)?(.+)_ore$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a rock containing {variant}.",
+    "does": "Mine it with a suitable pickaxe to obtain its mineral resource. Tool requirements and drops depend on the ore and enchantments.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "ingot",
+    "pattern": "^(.+)_ingot$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a metal crafting material.",
+    "does": "Use it to make compatible tools, equipment, machines, or metal building blocks. Different metals have different recipes.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "nugget",
+    "pattern": "^(.+)_nugget$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a small metal crafting piece.",
+    "does": "Combine compatible nuggets into an ingot or use them in recipes that need smaller metal pieces.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "raw_metal",
+    "pattern": "^raw_(?:iron|gold|copper)$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is an unprocessed metal resource.",
+    "does": "Smelt it in a compatible furnace to make its metal ingot, or combine it into a storage block.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "raw_metal_block",
+    "pattern": "^raw_(?:iron|gold|copper)_block$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is compact storage for raw metal.",
+    "does": "Use it in construction or convert it back into raw metal for smelting.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "metal_storage",
+    "pattern": "^(?:iron|gold|copper|diamond|emerald|netherite|lapis|redstone)_block$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a compact mineral or metal storage block.",
+    "does": "Use it for construction or convert compatible storage blocks back into crafting materials. Some mineral blocks also work in beacon bases.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "shulker_box",
+    "pattern": "^(?:.+_)?shulker_box$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a portable storage container.",
+    "does": "Store items inside, break the box, and carry it with its contents preserved. You cannot put a shulker box inside another shulker box.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "bundle",
+    "pattern": "^(?:.+_)?bundle$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a portable container for combining small stacks of items.",
+    "does": "Use it to organize inventory space; its capacity is based on the stack sizes of the items inside.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "dye",
+    "pattern": "^(.+)_dye$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a coloring ingredient.",
+    "does": "Use it to color compatible wool, glass, banners, leather equipment, and other craftable or dyeable objects.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "wool",
+    "pattern": "^(?:.+_)?wool$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a soft fabric building block.",
+    "does": "Use it for decoration, beds, and compatible crafting recipes. Wool also helps block certain sculk vibration paths.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "carpet",
+    "pattern": "^(?:.+_)?carpet$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a thin floor covering.",
+    "does": "Use it for decorating floors and some spawn-proofing setups. A carpet is not the same as a full wool block.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "concrete_powder",
+    "pattern": "^(.+)_concrete_powder$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a gravity-affected building material.",
+    "does": "Place it in contact with suitable water to turn it into solid concrete, or use it as colored falling material.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "concrete",
+    "pattern": "^(.+)_concrete$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a solid colored building block.",
+    "does": "Use it for vivid walls, floors, sculptures, and other decorative builds.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "glazed_terracotta",
+    "pattern": "^(.+)_glazed_terracotta$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a patterned ceramic building block.",
+    "does": "Use its directional placement to create repeating floor and wall designs.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "terracotta",
+    "pattern": "^(.+)_terracotta$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a colored hardened-clay building block.",
+    "does": "Use it for construction and decorative color palettes, or smelt compatible colored terracotta into its glazed form.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "stained_glass_pane",
+    "pattern": "^(.+)_stained_glass_pane$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a thin colored glass block.",
+    "does": "Use connected panes for tinted windows and dividers. It is not a full glass block.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "stained_glass",
+    "pattern": "^(.+)_stained_glass$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a colored transparent building block.",
+    "does": "Use it for tinted windows, decorative enclosures, or to color a beacon beam passing through it.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "candle_cake",
+    "pattern": "^(?:.+_)?candle_cake$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a cake with a candle placed on it.",
+    "does": "Light the candle for decoration or eat cake slices; eating the cake removes its candle arrangement.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "candle",
+    "pattern": "^(?:.+_)?candle$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a small decorative light source.",
+    "does": "Place candles on a suitable surface and light them with a fire-starting tool. Compatible candles can share a block space.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "bed_variant",
+    "pattern": "^(.+)_bed$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a colored bed for sleeping and setting an Overworld respawn point.",
+    "does": "Use it when the world's sleep conditions are met. Trying to sleep in the Nether or End causes an explosion.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "coral_dead",
+    "pattern": "^dead_(.+)_coral(?:_block|_fan|_wall_fan)?$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a dead coral decoration.",
+    "does": "Use it for aquatic-looking builds without needing to preserve living coral's water conditions.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "coral",
+    "pattern": "^(.+)_coral(?:_block|_fan|_wall_fan)?$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a living coral decoration associated with warm oceans.",
+    "does": "Use it in underwater builds and keep the required water nearby so it does not turn into dead coral.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "coral_fan_hang",
+    "pattern": "^(?:coral_fan_hang.*|dead_coral.*)$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a coral decoration attached to a surface.",
+    "does": "Use it in aquatic builds; whether it needs water to stay alive depends on whether it is living or dead coral.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "brick_building",
+    "pattern": "^(?:chiseled_|cracked_|mossy_|polished_)?(?:stone|deepslate|tuff|nether|resin|quartz|prismarine|mud|blackstone|cinnabar|sulfur|red_nether)_(?:bricks|brick|tiles)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a shaped masonry building block.",
+    "does": "Use it for walls, floors, roofs, and detailed construction with a brick or tile pattern.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "polished_stone",
+    "pattern": "^(?:(?:polished|smooth|chiseled|cut)_)?(?:andesite|diorite|granite|sandstone|red_sandstone|quartz|quartz_block|basalt|tuff|blackstone|deepslate|purpur_block|end_bricks|end_stone_bricks|prismarine|dark_prismarine|prismarine_bricks)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a decorative stone building material.",
+    "does": "Use it for contrasting walls, floors, columns, and other architectural details.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "pottery_pot",
+    "pattern": "^(?:flower_pot|decorated_pot)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a decorative pot.",
+    "does": "Use it for the pot's compatible plant or item-storage interactions; flower pots and decorated pots have different functions.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "potted_plant",
+    "pattern": "^potted_(.+)$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a plant displayed inside a flower pot.",
+    "does": "Use it for small indoor or outdoor plant decorations.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "light_block",
+    "pattern": "^light_block(?:_\\d+)?$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is an invisible mapmaking light source.",
+    "does": "Use it with suitable commands or Creative access to illuminate an area without a visible lamp.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "head",
+    "pattern": "^(?:creeper_head|dragon_head|piglin_head|zombie_head|skeleton_skull|wither_skeleton_skull)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a mob-head decoration.",
+    "does": "Display it, wear compatible heads, or use it in a matching recipe or mechanism. Wither skeleton skulls are also used in summoning the Wither.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/",
+      "https://github.com/Mojang/bedrock-samples/tree/v1.26.50.4"
+    ]
+  },
+  {
+    "id": "cooked_food",
+    "pattern": "^(?:cooked_.+|baked_potato|dried_kelp|muttonCooked)$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is prepared food.",
+    "does": "Eat it to restore hunger. Cooking meat and potatoes generally makes them more useful as food; exact hunger restoration depends on the food.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "flower",
+    "pattern": "^(?:allium|azure_bluet|blue_orchid|cornflower|dandelion|lilac|lily_of_the_valley|orange_tulip|oxeye_daisy|peony|poppy|red_tulip|rose_bush|sunflower|white_tulip|pink_tulip)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a decorative flower.",
+    "does": "Plant it on suitable ground for decoration or use it in compatible dye, composting, or crafting recipes.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "ground_plant",
+    "pattern": "^(?:fern|large_fern|short_grass|tall_grass|short_dry_grass|tall_dry_grass|deadbush|bush|red_shrub|hanging_roots)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is decorative ground or hanging vegetation.",
+    "does": "Use it for natural landscaping on suitable surfaces. Harvesting and planting requirements depend on the plant.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "azalea",
+    "pattern": "^(?:flowering_)?azalea$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a small azalea plant.",
+    "does": "Use it for garden decoration or grow it with bone meal under suitable conditions to form an azalea tree.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "infested_stone",
+    "pattern": "^infested_(.+)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a block containing silverfish.",
+    "does": "Disturbing it can release hostile silverfish, so take care when mining suspicious stone in affected areas.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "amethyst_bud",
+    "pattern": "^(?:small|medium|large)_amethyst_bud$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a developing amethyst crystal.",
+    "does": "Leave it on budding amethyst so it can continue growing into a cluster. An immature bud is not a full-grown shard harvest.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "froglight",
+    "pattern": "^(?:ochre|verdant|pearlescent)_froglight$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a light-emitting block produced when a frog eats a small magma cube.",
+    "does": "Use it for bright decorative lighting. The frog variant determines the froglight color.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "copper_light",
+    "pattern": "^(?:waxed_)?(?:(?:exposed|weathered|oxidized)_)?copper_(?:lantern|torch)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper-colored light source.",
+    "does": "Use it for lighting and decorative copper-themed builds.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "copper_bars_chain",
+    "pattern": "^(?:waxed_)?(?:(?:exposed|weathered|oxidized)_)?copper_(?:bars|chain)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a thin copper building decoration.",
+    "does": "Use it for grilles, hanging details, and copper-themed construction; copper oxidation changes compatible unwaxed forms.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "iron_detail",
+    "pattern": "^iron_(?:bars|chain)$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a thin iron construction block.",
+    "does": "Use it for barriers, supports, hanging details, and decorative metalwork.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "copper_chest_variants",
+    "pattern": "^(?:waxed_)?(?:exposed_|weathered_|oxidized_)?copper_chest$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper storage container.",
+    "does": "Store items in it or use it as part of a suitable copper-golem item-sorting arrangement.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "copper_statue_variants",
+    "pattern": "^(?:waxed_)?(?:exposed_|weathered_|oxidized_)?copper_golem_statue$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper golem statue decoration.",
+    "does": "Use it for decoration; its copper condition controls compatible oxidation and waxing interactions.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "lightning_rod_variant",
+    "pattern": "^(?:waxed_)?(?:exposed_|weathered_|oxidized_)?lightning_rod$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a copper lightning rod.",
+    "does": "Use it to attract nearby lightning strikes toward a chosen location and obtain a short redstone signal when struck.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "shelf",
+    "pattern": "^(?:oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|bamboo|crimson|warped|poplar)_shelf$",
+    "kinds": [
+      "block",
+      "item"
+    ],
+    "what": "{name} is a shelf block for displaying and storing items.",
+    "does": "Use it to organize items visibly on a wall or as part of a storage area.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "harness",
+    "pattern": "^.+_harness$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is equipment for riding a happy ghast.",
+    "does": "Equip a suitable happy ghast to use it for aerial transport; different colors change the harness appearance.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "cushion",
+    "pattern": "^.+_cushion$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a colored seat decoration.",
+    "does": "Place it as a seat in compatible builds and use its sitting interaction.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "spear",
+    "pattern": "^(?:wooden|stone|copper|iron|golden|diamond|netherite)_spear$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is a reach-oriented melee weapon.",
+    "does": "Use it to attack from farther away than ordinary close-contact weapons; its attack behavior differs from a sword.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "nautilus_armor",
+    "pattern": "^(?:copper|iron|golden|diamond|netherite)_nautilus_armor$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is protective equipment for a compatible nautilus mount.",
+    "does": "Equip it on a suitable nautilus rather than in a player armor slot.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "netherite_horse_armor",
+    "pattern": "^netherite_horse_armor$",
+    "kinds": [
+      "item"
+    ],
+    "what": "{name} is advanced protective equipment for a compatible horse.",
+    "does": "Equip it on a suitable horse rather than on a player.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "education_elements",
+    "pattern": "^element_([0-9]+)$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a chemistry element block used in Education features.",
+    "does": "Use it in compatible Education chemistry recipes and workstations. The number in its technical name identifies its atomic number.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "colored_torch",
+    "pattern": "^colored_torch_(?:blue|green|purple|red)$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a colored Education torch.",
+    "does": "Use it for decorative colored flames in compatible Education worlds.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "hard_glass",
+    "pattern": "^hard_glass(?:_pane)?$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a reinforced Education glass block.",
+    "does": "Use it in compatible Education construction where you want a tougher transparent building material.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  },
+  {
+    "id": "cave_vines",
+    "pattern": "^cave_vines(?:_body_with_berries|_head_with_berries)?$",
+    "kinds": [
+      "block"
+    ],
+    "what": "{name} is a hanging cave-vine growth.",
+    "does": "Grow it under suitable blocks and harvest glow berries from berry-bearing sections.",
+    "verification": "family_summary_target_version_review_pending",
+    "reference_urls": [
+      "https://minecraft.wiki/"
+    ]
+  }
+]
