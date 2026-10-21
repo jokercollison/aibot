@@ -38,7 +38,7 @@ test('regular natural names work across blocks, items, equipment, fluids and ent
  for(const q of ['What is a chest?','What is a furnace?','What is a diamond pickaxe?','What is a zombie?','What is a creeper?','What is an arrow?','What is lava?','What is an oak stair?','What are wolves?'])assert.equal(ask(q).status,'conditional',q);
 });
 test('unsupported special mechanics still admit uncertainty rather than using basic descriptions as an answer',()=>{
- assert.equal(ask('Can a cow survive lava?').status,'unknown');
+ assert.equal(ask('Can a cow teleport?').status,'unknown');
  assert.equal(ask('Where can I find a flibbertigibbet?').status,'unknown');
  assert.match(ask('What is a flibbertigibbet?').answer,/not sure/);
 });

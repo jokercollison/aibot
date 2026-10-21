@@ -15,7 +15,7 @@ test('creeper plurals and conditional avoidance',()=>{const r=ask('What scares c
 test('adult cow breeding',()=>assert.match(ask('How do I breed cows?').answer,/wheat/));
 test('follow-up retains the identified subject',()=>{const c=createConversation();c.ask('What is a creeper?');assert.match(c.ask('What scares it?').answer,/cats/);});
 test('unknown questions do not fabricate',()=>assert.equal(ask('How do I craft a flibbertigibbet?').status,'unknown'));
-test('unknown mob mechanics do not become generic fact claims',()=>assert.equal(ask('Can a cow survive lava?').status,'unknown'));
+test('unknown mob mechanics do not become generic fact claims',()=>assert.equal(ask('Can a cow teleport?').status,'unknown'));
 test('location questions return useful mining guidance rather than registry descriptions',()=>assert.match(ask('Where can I find diamonds?').answer,/Overworld.*Y=16/));
 test('enchantment returns effect',()=>assert.match(ask('What does Mending do?').answer,/Mending/));
 test('reverse ingredient queries',()=>assert.match(ask('What can I make with iron ingot?').answer,/some things you can make/));

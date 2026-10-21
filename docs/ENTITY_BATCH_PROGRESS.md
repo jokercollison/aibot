@@ -1,3 +1,33 @@
+# Entity expansion after 0.2.8 — source development
+
+This work is saved separately from the published 0.2.8 test build. No new game
+archive has been published from this source yet.
+
+- 178 named variant records, with 520 variant-specific topic summaries: frog
+  colors, axolotls, foxes, climate farm animals, cat coats, rabbit colors, horse
+  coats and markings, llama coats, pandas, professions and other named forms.
+- Variant follow-ups retain context, including short questions such as “what
+  about the blue one?” and “does it need water?”
+- 1,008 reviewed topic summaries, 216 component-backed summaries and 326 basic
+  summaries across 142 knowledge subjects. These are coverage counts, not a claim
+  that every mechanic has been completed.
+- Fire, daylight, water, air, powder snow, conversions, equipment protection,
+  shearing, milking, brushing, repair, hatching and growth have separate topics.
+- Brown-mooshroom flower answers include 17 reviewed flower/effect rules with
+  Bedrock durations. Baby growth controls exclude villagers explicitly.
+- Edition and state exceptions are preserved: dolphin air requirements, magma
+  cube fire immunity, frog growth biomes, and 2,700 natural Bedrock tropical-fish
+  combinations. Future Freezing-effect rules are excluded.
+- Tests exercise every named variant through the question engine, plus follow-up
+  context, environmental exceptions and interactions. 122 automated tests pass.
+
+Remaining work is still entity-only: unreviewed topic/variant gaps, exact spawning
+boundaries, additional special interactions, and unresolved conditional loot
+sources. All subjects remain marked complete=false. Minecraft and multiplayer
+execution are separate from automated source validation.
+
+## Published 0.2.8 record
+
 # Entity batch — test release 0.2.8
 
 The batch is packaged in 0.2.8; published 0.2.7 downloads remain unchanged. The user reported completing its

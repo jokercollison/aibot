@@ -1,3 +1,10 @@
+# Development source after 0.2.8
+
+Large entity variant/environment/interaction expansion is connected and covered
+by 122 automated tests. See ENTITY_BATCH_PROGRESS.md for scope and remaining gaps.
+The downloadable test version remains 0.2.8; these source changes are not in that
+archive. Entity knowledge is not yet exhaustive.
+
 # Current test release: 0.2.8 — entity knowledge batch
 
 Includes conditional loot, broader eligibility/combat answers, 13 additional wiki

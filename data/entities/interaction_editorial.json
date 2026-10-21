@@ -1,0 +1,2928 @@
+{
+  "schema_version": 1,
+  "scope": "Independently written Bedrock environment and interaction facts. Future Freezing-effect rules are excluded.",
+  "subjects": {
+    "minecraft:armadillo": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        },
+        "brushing": {
+          "answer": "Brush an armadillo to obtain an armadillo scute while keeping it alive. Adults also shed scutes periodically; killing it is not the scute-harvesting method.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:bat": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+          ]
+        }
+      }
+    },
+    "minecraft:bee": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "harvesting": {
+          "answer": "Harvest a full nest or hive with bottles for honey or shears for honeycomb. Use a properly placed lit campfire to calm the hive; otherwise harvesting can anger its bees.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "anger": {
+          "answer": "Attacking bees or disturbing a hive without the required protection can anger them. A suitable lit campfire helps with harvesting but is not a universal shield against every provocation.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:camel": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "equipment": {
+          "answer": "A saddle lets you control an adult camel. It can carry two players; it does not require horse-style taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:cat": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "sleeping": {
+          "answer": "A tamed cat can rest near its owner and may bring a gift after the owner sleeps. That gift mechanic is separate from killing a cat for drops.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:chicken": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:cow": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "milking": {
+          "answer": "Use an empty bucket on a living adult cow to obtain milk. Milk is not its normal death loot. Drinking it removes status effects, including useful ones.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:dolphin": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "water": {
+          "answer": "Dolphins need both water and access to air. They surface to breathe and can drown if kept submerged without an air supply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "land": {
+          "answer": "Dolphins also dry out on land. An enclosure must provide water and access to air, rather than trapping one underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "interactions": {
+          "answer": "Feed raw cod or salmon to have a dolphin lead toward a nearby shipwreck or ocean ruins. It does not guarantee treasure remains there. Bedrock swimming boosts are not displayed as the Java Dolphin’s Grace status effect.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:donkey": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "storage": {
+          "answer": "A tamed donkey or mule can be equipped with a chest to carry inventory. Its storage chest and riding saddle are separate pieces of equipment.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "equipment": {
+          "answer": "Use a saddle on the tamed animal to control riding, and optionally a chest for storage. It does not use ordinary horse armor.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:fox": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:frog": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+          ]
+        },
+        "hatching": {
+          "answer": "Frogs lay frogspawn on water after breeding. It hatches into tadpoles; it is not picked up and placed like a normal inventory egg block.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+          ]
+        }
+      }
+    },
+    "minecraft:goat": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "milking": {
+          "answer": "Use an empty bucket on a living adult goat to get milk. Milking does not collect a goat horn.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "horns": {
+          "answer": "An adult goat with a remaining horn can lose a horn when it rams suitable blocks such as stone, certain ores, logs or packed ice. Killing it is not the normal way to harvest horns. Screamer goats can provide a different horn-sound group.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:happy_ghast": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        },
+        "equipment": {
+          "answer": "Equip an adult happy ghast with a harness, not a saddle. It can carry up to four players. A ghastling must grow up before serving as adult transport.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        },
+        "water": {
+          "answer": "A ghastling can breathe underwater, but an adult happy ghast cannot breathe underwater indefinitely. Baby and adult environmental rules differ.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:horse": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "equipment": {
+          "answer": "Equip a tamed adult horse with a saddle to control it while riding. Horse armor is a separate equipment slot; a chest cannot turn an ordinary horse into a pack donkey.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "storage": {
+          "answer": "A chest gives the llama storage based on its strength. Carpets decorate it but do not set its strength; llamas are not steered with a horse saddle.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "equipment": {
+          "answer": "Llamas use carpets for decoration and chests for storage. Riding a llama does not make it steer like a saddled horse.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:mooshroom": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "lightning": {
+          "answer": "Lightning swaps a mooshroom between red and brown. It does not always turn every struck mooshroom brown; an already-brown one turns red.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "shearing": {
+          "answer": "Shearing an adult mooshroom gives five matching mushrooms and converts it into a cow. The mushrooms do not grow back on that cow.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "milking": {
+          "answer": "Use a bucket for milk or a bowl for mushroom stew. A brown mooshroom fed a suitable small flower gives the corresponding suspicious stew on the next bowl milking; red mooshrooms do not.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "conversion": {
+          "answer": "Shearing turns a mooshroom into a cow. Lightning instead switches its red/brown form. Those two interactions do not have the same result.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:mule": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "storage": {
+          "answer": "A tamed donkey or mule can be equipped with a chest to carry inventory. Its storage chest and riding saddle are separate pieces of equipment.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "equipment": {
+          "answer": "Use a saddle on the tamed animal to control riding, and optionally a chest for storage. It does not use ordinary horse armor.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:ocelot": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:panda": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:parrot": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "music": {
+          "answer": "Parrots dance near a playing jukebox. Their dance does not make them breedable or change their permanent color.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "equipment": {
+          "answer": "A tamed parrot can sit on its owner’s shoulder. Certain movement and water conditions make it dismount; it is not equipped like a saddled horse.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        }
+      }
+    },
+    "minecraft:pig": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "lightning": {
+          "answer": "Lightning can turn a pig into a zombified piglin. That is different from breeding a new pig variant.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "equipment": {
+          "answer": "A saddle allows riding and a carrot on a stick controls the pig. A carrot on a stick is not its breeding food.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:polar_bear": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "powder_snow": {
+          "answer": "Polar bears are immune to ordinary powder-snow freezing damage. That does not make them immune to every environmental hazard.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:rabbit": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:sheep": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "shearing": {
+          "answer": "Use shears on an adult sheep with wool to harvest its wool without killing it. It can regrow wool by eating grass; mobGriefing and access to suitable grass can affect the process.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "naming": {
+          "answer": "The exact name jeb_ makes the visible wool cycle through colors. It does not change the underlying wool color that shearing or death drops use.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:sniffer": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "hatching": {
+          "answer": "Place a sniffer egg to hatch it. It normally takes about 20 minutes, or about 10 minutes on moss. An egg item sitting loose in an inventory does not hatch.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "digging": {
+          "answer": "An adult sniffer can dig up torchflower seeds or pitcher pods from suitable ground. It does not dig up every seed or excavate ordinary ores.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:trader_llama": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "storage": {
+          "answer": "A chest gives the llama storage based on its strength. Carpets decorate it but do not set its strength; llamas are not steered with a horse saddle.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "equipment": {
+          "answer": "Llamas use carpets for decoration and chests for storage. Riding a llama does not make it steer like a saddled horse.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:turtle": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "hatching": {
+          "answer": "Turtle eggs need suitable sand and progress through cracking stages, with much faster hatching at night. Protect them from trampling and hostile mobs. The parents lay eggs at their home beach.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:wolf": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, it can take fire and lava damage and die. Living in a warm biome or having a particular coat color does not grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "sunlight": {
+          "answer": "Ordinary sunlight does not make this creature spontaneously burn. Fire, lava and lightning are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "water": {
+          "answer": "It needs air and can drown if trapped fully underwater. Being able to swim or float is not the same as being able to breathe underwater.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "powder_snow": {
+          "answer": "It can take freezing damage while trapped in powder snow without applicable protection. A cold-biome home or white coat alone does not guarantee freezing immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "equipment": {
+          "answer": "Wolf armor uses armadillo scutes. The owner can equip suitable armor, dye it, repair it with scutes, and remove it with shears under the appropriate interaction. Armor and collar dye are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "repair": {
+          "answer": "Repair equipped wolf armor with armadillo scutes. Feeding meat heals the wolf; repairing armor and restoring the wolf’s own health are different actions.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "anger": {
+          "answer": "Wild wolves can become angry when attacked and nearby wolves may join. A tamed wolf can defend its owner. Meat is for a tamed wolf’s feeding uses; bones are for taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "land": {
+          "answer": "It can live on land. Still provide suitable safe terrain and protect it from fire, falls or other species-specific hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "water": {
+          "answer": "Axolotls live underwater and cannot drown normally. A water bucket can safely transport one.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "land": {
+          "answer": "Axolotls can spend a limited time on land, but dry out without water or suitable wet conditions. Keep a path back to water or carry one in a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "fire": {
+          "answer": "Axolotls are not fireproof; lava and fire can kill them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:enderman": {
+      "topics": {
+        "water": {
+          "answer": "Water damages endermen and can make them teleport away. They do not behave like ordinary swimming farm animals.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "rain": {
+          "answer": "Rain can hurt exposed endermen. They seek shelter or teleport; being in a rainy biome is not a safe way to keep one in place.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "teleportation": {
+          "answer": "Endermen can teleport to suitable nearby locations, especially when threatened. They cannot teleport to every block or through every environmental restriction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "anger": {
+          "answer": "Looking at an enderman’s face or attacking it can make it hostile. Wearing a carved pumpkin prevents the usual eye-contact provocation, but does not make attacking one safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight does not burn an enderman like a zombie, but bright conditions affect its behavior and it may teleport to shade. Rain and water can hurt it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        }
+      }
+    },
+    "minecraft:blaze": {
+      "topics": {
+        "water": {
+          "answer": "Water damages blazes. Rain can also hurt an exposed blaze outside its normal Nether environment.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        },
+        "rain": {
+          "answer": "Rain can damage an exposed blaze. Nether fortresses do not naturally have ordinary rain.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        },
+        "powder_snow": {
+          "answer": "Blazes take extra freezing damage from powder snow despite being immune to fire.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        }
+      }
+    },
+    "minecraft:snow_golem": {
+      "topics": {
+        "water": {
+          "answer": "Water damages snow golems. Do not use a water-filled enclosure to keep one.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "rain": {
+          "answer": "Rain damages exposed snow golems. Provide overhead shelter if the biome can rain.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "powder_snow": {
+          "answer": "Snow golems are immune to ordinary powder-snow freezing damage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "shearing": {
+          "answer": "Use shears to remove its pumpkin covering. This exposes its face without making it a different kind of golem.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "temperature": {
+          "answer": "Hot biomes can damage snow golems. Bedrock also restricts their snow trails in warm biomes; snow-trail rules and heat damage are separate conditions.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight itself does not ignite a snow golem like a zombie. Hot-biome damage can still hurt it, and rain or water are separate hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        }
+      }
+    },
+    "minecraft:stray": {
+      "topics": {
+        "powder_snow": {
+          "answer": "Strays are immune to ordinary powder-snow freezing damage. A normal skeleton can convert to a stray in powder snow.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        }
+      }
+    },
+    "minecraft:wither": {
+      "topics": {
+        "powder_snow": {
+          "answer": "The wither is immune to ordinary powder-snow freezing damage. This does not imply that every other kind of damage is ineffective.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+          ]
+        }
+      }
+    },
+    "minecraft:magma_cube": {
+      "topics": {
+        "powder_snow": {
+          "answer": "Magma cubes take extra freezing damage in powder snow even though ordinary fire and lava do not hurt them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+          ]
+        }
+      }
+    },
+    "minecraft:strider": {
+      "topics": {
+        "water": {
+          "answer": "Water and rain can hurt striders. Keep a strider on lava or suitable dry terrain rather than treating it as a normal water mount.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        },
+        "rain": {
+          "answer": "Rain can damage an exposed strider.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        },
+        "powder_snow": {
+          "answer": "Striders take extra freezing damage in powder snow despite being fire-immune.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        },
+        "temperature": {
+          "answer": "Striders stay warm on lava. Away from suitable warmth they shiver, become purple and move more slowly; this is a state change, not a new species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        },
+        "equipment": {
+          "answer": "A saddle allows riding, and a warped fungus on a stick controls the strider. Ordinary warped fungus is its breeding food, not the same thing as the control item.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:witch": {
+      "topics": {
+        "fire": {
+          "answer": "Witches can use Fire Resistance potions, which can protect them from fire or lava for a time. They are not unconditionally fire-immune in every state.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+          ]
+        }
+      }
+    },
+    "minecraft:creaking": {
+      "topics": {
+        "fire": {
+          "answer": "A creaking linked to a creaking heart is protected and cannot be defeated like an ordinary flammable mob. Its heart-linked state matters; remove the linked heart.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        },
+        "sunlight": {
+          "answer": "Heart-linked creakings are active at night and disappear when the heart becomes inactive in the day. This is a heart/day-cycle rule, not ordinary zombie-style sun burning.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        },
+        "vibrations": {
+          "answer": "A heart-linked creaking can be stopped by an eligible player looking at it. Hitting it can reveal the linked heart with particles; a warden’s vibration rules are a different mechanic.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        }
+      }
+    },
+    "minecraft:husk": {
+      "topics": {
+        "sunlight": {
+          "answer": "Husks do not burn in sunlight like ordinary zombies. They can still take other kinds of damage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "conversion": {
+          "answer": "A husk submerged in water can first convert into a normal zombie. Continued submersion can then turn that zombie into a drowned; it does not skip straight from husk to drowned.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "growth": {
+          "answer": "Baby undead of this kind do not normally grow into adults while they remain undead. A cured baby zombie villager can later grow as a living villager.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        }
+      }
+    },
+    "minecraft:parched": {
+      "topics": {
+        "sunlight": {
+          "answer": "Parched do not burn in sunlight like ordinary skeletons. Sunlight immunity is not the same as fire or lava immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "topics": {
+        "sunlight": {
+          "answer": "Skeleton horses do not burn in sunlight. Their skeleton riders have separate daylight and protection rules.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+          ]
+        },
+        "equipment": {
+          "answer": "In Bedrock, skeleton horses can be controlled while riding without a saddle. Do not apply Java’s saddle requirement.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie": {
+      "topics": {
+        "conversion": {
+          "answer": "An ordinary zombie kept submerged can convert into a drowned. A zombie killing a villager can instead infect that villager, with the chance depending on difficulty; these are separate mechanics.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        },
+        "growth": {
+          "answer": "Baby undead of this kind do not normally grow into adults while they remain undead. A cured baby zombie villager can later grow as a living villager.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton": {
+      "topics": {
+        "conversion": {
+          "answer": "A normal skeleton kept in powder snow can turn into a stray. This is different from spawning a wither skeleton or bogged.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        },
+        "powder_snow": {
+          "answer": "Keeping a normal skeleton in powder snow can convert it into a stray. Do not assume every skeleton-type mob follows that same conversion rule.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin": {
+      "topics": {
+        "conversion": {
+          "answer": "A piglin or piglin brute outside the Nether normally turns into a zombified piglin after about 15 seconds. Gold armor does not prevent that conversion.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "fire": {
+          "answer": "Piglins and piglin brutes are not fire-immune merely because they live in the Nether. Fire and lava can damage them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "sunlight": {
+          "answer": "They do not normally burn just from sunlight. The Overworld zombification timer is a different hazard.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin_brute": {
+      "topics": {
+        "conversion": {
+          "answer": "A piglin or piglin brute outside the Nether normally turns into a zombified piglin after about 15 seconds. Gold armor does not prevent that conversion.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        },
+        "fire": {
+          "answer": "Piglins and piglin brutes are not fire-immune merely because they live in the Nether. Fire and lava can damage them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        },
+        "sunlight": {
+          "answer": "They do not normally burn just from sunlight. The Overworld zombification timer is a different hazard.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "topics": {
+        "conversion": {
+          "answer": "A hoglin outside the Nether normally becomes a zoglin after about 15 seconds. A name tag does not prevent that dimension-based conversion.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        },
+        "fire": {
+          "answer": "Hoglins are not normally immune to fire or lava, despite living in the Nether.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:zoglin": {
+      "topics": {
+        "conversion": {
+          "answer": "A zoglin does not normally convert back to a hoglin. It cannot be restored by the zombie-villager curing method.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_pigman": {
+      "topics": {
+        "conversion": {
+          "answer": "Zombified piglins do not normally convert back to piglins. Weakness and a golden apple are the zombie-villager cure, not a piglin cure.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        },
+        "anger": {
+          "answer": "Zombified piglins are normally neutral until provoked. Attacking one can make nearby members hostile; gold armor does not cancel that anger.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        },
+        "growth": {
+          "answer": "Baby undead of this kind do not normally grow into adults while they remain undead. A cured baby zombie villager can later grow as a living villager.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        }
+      }
+    },
+    "minecraft:creeper": {
+      "topics": {
+        "lightning": {
+          "answer": "Lightning turns a creeper into a charged creeper. A suitable Channeling-trident hit during a thunderstorm can create the required lightning.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        },
+        "anger": {
+          "answer": "A creeper approaches a target and starts its fuse at close range. Cats and ocelots scare it, but do not make every possible situation safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        }
+      }
+    },
+    "minecraft:villager": {
+      "topics": {
+        "lightning": {
+          "answer": "Lightning can turn a villager into a witch. Protect villagers from lightning; this conversion is not the zombie-villager curing process.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "conversion": {
+          "answer": "A zombie can turn a villager into a zombie villager: 0% on Easy, 50% on Normal and 100% on Hard. Lightning instead makes a witch.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "trading": {
+          "answer": "Villagers take jobs from job-site blocks. A villager already traded with keeps its profession and offers; restocking requires access to its claimed workstation. Babies, nitwits and unemployed villagers do not offer normal profession trades.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "sleeping": {
+          "answer": "Villagers use beds at night. Bed ownership also affects village and breeding mechanics; simply placing a decoration that looks like a house does not assign every bed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "growth": {
+          "answer": "A baby villager normally grows into an adult after about 20 minutes of active game time. Golden dandelions do not pause villager aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "age_lock": {
+          "answer": "No. Golden dandelions do not pause villager aging. Baby villagers normally grow into adults during active game time.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:villager_v2": {
+      "topics": {
+        "lightning": {
+          "answer": "Lightning can turn a villager into a witch. Protect villagers from lightning; this conversion is not the zombie-villager curing process.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "conversion": {
+          "answer": "A zombie can turn a villager into a zombie villager: 0% on Easy, 50% on Normal and 100% on Hard. Lightning instead makes a witch.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "trading": {
+          "answer": "Villagers take jobs from job-site blocks. A villager already traded with keeps its profession and offers; restocking requires access to its claimed workstation. Babies, nitwits and unemployed villagers do not offer normal profession trades.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "sleeping": {
+          "answer": "Villagers use beds at night. Bed ownership also affects village and breeding mechanics; simply placing a decoration that looks like a house does not assign every bed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "growth": {
+          "answer": "A baby villager normally grows into an adult after about 20 minutes of active game time. Golden dandelions do not pause villager aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "age_lock": {
+          "answer": "No. Golden dandelions do not pause villager aging. Baby villagers normally grow into adults during active game time.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager": {
+      "topics": {
+        "curing": {
+          "answer": "Give the zombie villager Weakness, then use a normal golden apple on it. Protect it from sunlight and attacks while curing finishes. An enchanted golden apple is not the required item.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "conversion": {
+          "answer": "Zombie villagers can be cured using Weakness and a normal golden apple. This process does not cure ordinary zombies, husks, drowned or zombified piglins.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "growth": {
+          "answer": "Baby undead of this kind do not normally grow into adults while they remain undead. A cured baby zombie villager can later grow as a living villager.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "topics": {
+        "curing": {
+          "answer": "Give the zombie villager Weakness, then use a normal golden apple on it. Protect it from sunlight and attacks while curing finishes. An enchanted golden apple is not the required item.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "conversion": {
+          "answer": "Zombie villagers can be cured using Weakness and a normal golden apple. This process does not cure ordinary zombies, husks, drowned or zombified piglins.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "growth": {
+          "answer": "Baby undead of this kind do not normally grow into adults while they remain undead. A cured baby zombie villager can later grow as a living villager.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:bogged": {
+      "topics": {
+        "shearing": {
+          "answer": "Shearing a bogged removes its mushrooms and gives two mushrooms once. That harvest is separate from its ordinary kill loot.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        }
+      }
+    },
+    "minecraft:iron_golem": {
+      "topics": {
+        "repair": {
+          "answer": "Use iron ingots to repair an iron golem. Its cracked appearance shows damage; the cracks do not represent separate maximum-health variants.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        },
+        "water": {
+          "answer": "Iron golems do not drown. They sink rather than swim like a player, but can walk along the bottom. Drowning immunity does not make them immune to lava.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        },
+        "fall_damage": {
+          "answer": "Iron golems are immune to ordinary fall damage. They are not immune to every other damage source.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        }
+      }
+    },
+    "minecraft:allay": {
+      "topics": {
+        "music": {
+          "answer": "Allays can dance near a playing jukebox. Give a dancing allay an amethyst shard to duplicate it; both then have a five-minute duplication cooldown.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        },
+        "storage": {
+          "answer": "An allay collects dropped copies of the item it holds. It does not mine blocks, create new items or take items out of chests. A recently heard note block can act as a delivery point.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        }
+      }
+    },
+    "minecraft:nautilus": {
+      "topics": {
+        "equipment": {
+          "answer": "A tamed adult uses a saddle for riding and can wear nautilus armor. Treat its rider and mount as separate entities if it originally spawned with a drowned.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_nautilus": {
+      "topics": {
+        "equipment": {
+          "answer": "A tamed adult uses a saddle for riding and can wear nautilus armor. Treat its rider and mount as separate entities if it originally spawned with a drowned.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_horse": {
+      "topics": {
+        "equipment": {
+          "answer": "Tame the zombie horse by riding, then use the appropriate saddle and armor equipment. Its zombie rider is a separate hostile creature; body armor can protect the horse from sunlight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+          ]
+        }
+      }
+    },
+    "minecraft:egg": {
+      "topics": {
+        "hatching": {
+          "answer": "A thrown chicken egg can hatch chicks on impact, but it is not guaranteed. Chicken eggs are thrown rather than placed as incubating turtle/sniffer egg blocks.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823025"
+          ]
+        }
+      }
+    },
+    "minecraft:copper_golem": {
+      "topics": {
+        "oxidation": {
+          "answer": "Unwaxed copper golems oxidize and can become statues. Honeycomb waxes them, and an axe can remove wax or oxidation under the appropriate interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+          ]
+        },
+        "storage": {
+          "answer": "Copper golems move items from copper chests into suitable nearby wooden or trapped chests. They do not search every container in the world or manufacture items.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+          ]
+        },
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+          ]
+        }
+      }
+    },
+    "minecraft:shulker": {
+      "topics": {
+        "teleportation": {
+          "answer": "Shulkers can teleport to suitable attachment surfaces when threatened. Their bullet-based duplication has separate conditions; simply feeding them does not breed them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        }
+      }
+    },
+    "minecraft:warden": {
+      "topics": {
+        "vibrations": {
+          "answer": "Wardens detect vibrations and smell nearby targets. Sneaking and wool can help manage vibrations, but do not make a nearby warden permanently unable to detect you.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+          ]
+        }
+      }
+    },
+    "minecraft:breeze": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+          ]
+        }
+      }
+    },
+    "minecraft:camel_husk": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+          ]
+        }
+      }
+    },
+    "minecraft:cave_spider": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+          ]
+        }
+      }
+    },
+    "minecraft:cod": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+          ]
+        }
+      }
+    },
+    "minecraft:elder_guardian": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        }
+      }
+    },
+    "minecraft:endermite": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        }
+      }
+    },
+    "minecraft:evocation_illager": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+          ]
+        }
+      }
+    },
+    "minecraft:glow_squid": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:guardian": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+          ]
+        }
+      }
+    },
+    "minecraft:pillager": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        }
+      }
+    },
+    "minecraft:pufferfish": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+          ]
+        }
+      }
+    },
+    "minecraft:ravager": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        }
+      }
+    },
+    "minecraft:salmon": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+          ]
+        }
+      }
+    },
+    "minecraft:silverfish": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+          ]
+        }
+      }
+    },
+    "minecraft:slime": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+          ]
+        }
+      }
+    },
+    "minecraft:spider": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+          ]
+        }
+      }
+    },
+    "minecraft:sulfur_cube": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        },
+        "water": {
+          "answer": "A sulfur cube’s block-carrying state changes its breathing rules. A block-carrying form can breathe underwater; do not assume every size or empty form has identical environmental protection.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        },
+        "fire": {
+          "answer": "A block-carrying sulfur cube can be primed by fire-related damage. Do not treat its many damage protections as general fire or lava immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:tadpole": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+          ]
+        },
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    },
+    "minecraft:tropicalfish": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+          ]
+        }
+      }
+    },
+    "minecraft:vindicator": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        }
+      }
+    },
+    "minecraft:wandering_trader": {
+      "topics": {
+        "sunlight": {
+          "answer": "Sunlight alone does not make it burn like an exposed zombie or skeleton. Other hazards, such as being out of water or changing dimensions, can still matter for the species.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+          ]
+        },
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+          ]
+        }
+      }
+    },
+    "minecraft:drowned": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        },
+        "growth": {
+          "answer": "Baby undead of this kind do not normally grow into adults while they remain undead. A cured baby zombie villager can later grow as a living villager.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        }
+      }
+    },
+    "minecraft:phantom": {
+      "topics": {
+        "fire": {
+          "answer": "Without protection, ordinary fire and lava can damage it. Being undead, large, or adapted to a particular biome does not by itself grant fire immunity.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+          ]
+        }
+      }
+    },
+    "minecraft:squid": {
+      "topics": {
+        "age_lock": {
+          "answer": "Use a golden dandelion on an eligible baby to pause its aging. Use another golden dandelion on that same baby to resume aging. This is separate from feeding normal food to speed growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+            "https://minecraft.wiki/w/Special:PermanentLink/3848416"
+          ]
+        }
+      }
+    }
+  },
+  "mooshroom_flowers": {
+    "source": "https://minecraft.wiki/w/Special:PermanentLink/3801515",
+    "effects": {
+      "dandelion": "Saturation",
+      "blue orchid": "Saturation",
+      "poppy": "Night Vision",
+      "torchflower": "Night Vision",
+      "allium": "Fire Resistance",
+      "azure bluet": "Blindness",
+      "red tulip": "Weakness",
+      "orange tulip": "Weakness",
+      "white tulip": "Weakness",
+      "pink tulip": "Weakness",
+      "oxeye daisy": "Regeneration",
+      "cornflower": "Jump Boost",
+      "lily of the valley": "Poison",
+      "wither rose": "Wither",
+      "golden dandelion": "Saturation",
+      "open eyeblossom": "Blindness",
+      "closed eyeblossom": "Nausea"
+    },
+    "scope": "Effects only, no unreviewed duration or future-effect claims.",
+    "bedrock_duration_seconds": {
+      "dandelion": 0.3,
+      "blue orchid": 0.3,
+      "poppy": 5,
+      "torchflower": 5,
+      "allium": 3,
+      "azure bluet": 7,
+      "red tulip": 7,
+      "orange tulip": 7,
+      "white tulip": 7,
+      "pink tulip": 7,
+      "oxeye daisy": 7,
+      "cornflower": 5,
+      "lily of the valley": 11,
+      "wither rose": 7,
+      "golden dandelion": 0.3,
+      "open eyeblossom": 7,
+      "closed eyeblossom": 7
+    }
+  }
+}
