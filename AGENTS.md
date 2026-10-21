@@ -32,6 +32,7 @@ These preferences were explicitly requested by the user during in-game testing.
 - Record user-reported single-player testing separately from untested multiplayer
   and new-release checks. Cloud Minecraft execution is unavailable here.
 - Package the .mcaddon as ONE outer archive with ordinary
-  Content/behavior_packs/AI_Bot and Content/resource_packs/AI_Bot folders, matching
-  FactionsAddon1.2 (1).zip. NEVER put .mcpack/.zip/.mcaddon archives inside it.
+  TimeTrapRobot_BP and TimeTrapRobot_RP folders directly at the archive root.
+  Keep the Factions-style Content layout only in the separate submission ZIP.
+  The 0.2.1 import using nested Content roots failed in the user’s game. NEVER put .mcpack/.zip/.mcaddon archives inside it.
   Separate standalone .mcpack downloads may be offered, but are not embedded.

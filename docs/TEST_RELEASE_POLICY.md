@@ -26,3 +26,8 @@ but it cannot guarantee compatibility with every external addon or altered globa
 world rule. Multiplayer and actual game testing are separate from automated checks.
 
 Packaging rule requested by the user: the outer .mcaddon contains ordinary Content/behavior_packs/AI_Bot and Content/resource_packs/AI_Bot files/folders, matching the supplied Factions ZIP. No .mcpack or ZIP archive is embedded. Standalone .mcpack downloads are optional separate alternatives. Actual Minecraft import of this exact archive still needs testing.
+
+Correction following the reported 0.2.1 import failure: the importable .mcaddon
+must use ordinary TimeTrapRobot_BP and TimeTrapRobot_RP folders at its root.
+Keep Content/behavior_packs/AI_Bot and Content/resource_packs/AI_Bot only in the
+separate submission-style ZIP. Neither archive contains another archive.

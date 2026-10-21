@@ -4,7 +4,7 @@ import {mkdtempSync,mkdirSync,copyFileSync,writeFileSync,readFileSync,rmSync} fr
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
-test('packaging uses the reference Content folders, not nested archives',()=>{
+test('import addon has immediate pack folders; submission archive keeps Content layout',()=>{
  const dir=mkdtempSync(path.join(tmpdir(),'tts-package-'));
  try {
   mkdirSync(path.join(dir,'tools'));mkdirSync(path.join(dir,'dist'));
@@ -24,9 +24,13 @@ with zipfile.ZipFile(root/f'dist/TimeTrapRobot-{version}.mcaddon') as z:
  assert z.testzip() is None
  names=z.namelist()
  assert not any(n.lower().endswith(('.zip','.mcpack','.mcaddon')) for n in names)
+ for folder in ['TimeTrapRobot_BP','TimeTrapRobot_RP']:
+  assert f'{folder}/manifest.json' in names
+  assert z.read(f'{folder}/ordinary-file.txt')==b'test payload'
+ assert not any(n.startswith('Content/') for n in names)
+with zipfile.ZipFile(root/f'dist/TimeTrapRobot-Content-{version}.zip') as z:
  for kind in ['behavior_packs','resource_packs']:
-  assert f'Content/{kind}/AI_Bot/manifest.json' in names
-  assert z.read(f'Content/{kind}/AI_Bot/ordinary-file.txt')==b'test payload'
+  assert f'Content/{kind}/AI_Bot/manifest.json' in z.namelist()
  print('folder-layout-ok')
 `],{encoding:'utf8'});
   assert.match(result,/folder-layout-ok/);
