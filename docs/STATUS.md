@@ -1,3 +1,14 @@
+# Current test release: 0.2.8 — entity knowledge batch
+
+Includes conditional loot, broader eligibility/combat answers, 13 additional wiki
+reference subjects, and the direct wolf/beef negative answer. Retains speaker
+colors, continuous conversation and 500-health robots. 110 automated tests pass.
+Entity knowledge remains incomplete; detailed variants and special interactions
+remain the next entity-only work. Actual-game 0.2.8 and multiplayer are untested.
+See RELEASE_0.2.8.md and downloads/Robot_Test_Checklist-0.2.8.txt.
+
+## Previous status records
+
 # Current test release: 0.2.7 — speaker colors and entity feeding
 
 Player messages are aqua; bot replies are yellow, with speaker labels retained.

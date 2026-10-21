@@ -1,8 +1,8 @@
-# Entity batch after 0.2.7 — unreleased source
+# Entity batch — test release 0.2.8
 
-Published 0.2.7 downloads remain unchanged. The user reported completing its
+The batch is packaged in 0.2.8; published 0.2.7 downloads remain unchanged. The user reported completing its
 checks successfully apart from the unclear wolf/beef negative answer. That issue
-is fixed in this batch; it is not yet in their installed pack.
+is fixed in this batch and included in the 0.2.8 download.
 
 ## Connected work
 

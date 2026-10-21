@@ -1,4 +1,4 @@
-# Entity knowledge work — development after 0.2.7
+# Entity knowledge work — test release 0.2.8
 
 Work order: entities, blocks, items. Minecraft knowledge comes before additional
 personality or casual conversation. Release 0.2.6 preserves this first pass as a separately installable test build.
@@ -38,7 +38,7 @@ exhaustive mechanic coverage. Every subject remains marked incomplete. Camera
 advice now distinguishes Education from normal Survival; cushion notes are linked
 to its archived placement/breaking rules and Bedrock history.
 The evidence inventory contains pointers for all 129 catalog subjects. Current
-unreleased counts and limits are recorded in ENTITY_BATCH_PROGRESS.md; the figures
+0.2.8 counts and limits are recorded in ENTITY_BATCH_PROGRESS.md; the figures
 above describe published 0.2.6/0.2.7 builds.
 
 `WIKI_ENTITY_RECONCILIATION.json` also inventories wiki entity pages absent from
@@ -46,7 +46,7 @@ that catalog. The classified [wiki inventory](ENTITY_WIKI_CLASSIFICATION.json) a
 208 listed pages: mapped catalog subjects, four Bedrock reference gaps, composite
 roles/jockeys, and excluded or restricted editions/features. Classification is
 not answer coverage; the four Bedrock subjects now have basic connected topics in
-the unreleased batch, with additional detail still pending.
+the 0.2.8 batch, with additional detail still pending.
 Do not assume the samples exhaust the wiki, or that later wiki mechanics apply to
 1.26.52. Do not close this task based on article counts or passing routing tests.
 

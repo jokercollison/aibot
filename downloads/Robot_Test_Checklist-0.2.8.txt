@@ -1,0 +1,63 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.8
+NEW/CHANGED CHECKS ONLY
+
+INSTALL
+Open TimeTrapRobot-0.2.8.mcaddon with Minecraft Bedrock.
+Use a fresh world, activate ONLY the matching pair, and spawn a NEW robot:
+  Time Trap Studios AI Bot — Behavior 0.2.8
+  Time Trap Studios AI Bot — Resources 0.2.8
+Both descriptions and the robot menu must show 0.2.8.
+Optional summon: /summon tts_ai_bot_v0_2_8:robot
+All header/module UUIDs are fresh; custom content names are version-specific.
+
+FOOD PARSING AND DIRECT NEGATIVE ANSWERS
+- Can I tame a wolf with beef?
+  Expect a direct No, bones for taming, and food uses after taming.
+- Can I tame a wolf with a diamond block?
+  Expect No and bones, not a description of diamond blocks.
+- What do chickens eat?
+  Expect suitable seeds/pitcher pods, not confusion with chicken meat.
+- What do rabbits eat?
+  Expect carrots, golden carrots or dandelions.
+- What do cows eat when they are 200 years old and in the plains?
+  Expect wheat. Incidental wording must not hide the food question.
+
+CONDITIONAL DROPS (KEEP USING THE SAME CONVERSATION)
+1. What does a wither skeleton drop when I kill it with Looting III?
+   Expect coal/bones and a conditional 8.5% skull chance, not a guaranteed skull.
+2. What does an adult cow drop while burning with Looting III?
+   Expect possible 0-5 leather and 1-6 steak, not raw beef.
+3. What does a blaze drop when killed by a skeleton?
+   Expect no eligible ordinary rod drop; rods require a player/tamed-wolf kill.
+4. What does a creeper drop when a wither skeleton kills it?
+   Expect the CREEPER to remain the subject; gunpowder is possible.
+   A wither skeleton is not one of the supported disc-killer conditions.
+5. What does a creeper drop when killed by a skeleton?
+   Expect gunpowder and one eligible music disc, not every disc.
+6. What does a creeper drop when killed by a charged creeper?
+   Expect the separate creeper-head condition.
+7. What does a baby zombie riding a chicken drop when I kill it without Looting?
+   Expect conditional Lava Chicken disc and applicable zombie loot.
+8. What does a sheared sheep drop without Looting?
+   Then: What does an unsheared sheep drop without Looting?
+   Expect wool only for the unsheared form; meat has its own rules.
+9. What does a wither skeleton drop?
+   Then: with Looting III
+   Expect the same subject with Looting applied.
+
+BROADER ENTITY ANSWERS
+- Can I tame a creeper? -> No.
+- Can I breed a warden? -> No.
+- How do I breed sulfur cubes? -> Splitting, not food-based pairing.
+- Are rabbits dangerous? -> Ordinary Bedrock rabbits are passive; killer bunny is Java-only.
+- What is an elder guardian ghost? Then: Where does it spawn?
+  -> Technical entity; commands, not ordinary monument spawning.
+- What is a spider jockey? -> Separate mount/rider, with Bedrock variants.
+- What is a falling block? -> Gravity-affected block in moving entity form.
+- What is a dropped item? -> Item outside an inventory; pickup/merging.
+
+Retained from 0.2.7: aqua player text, yellow bot replies, continuous conversation,
+Things to try, existing artwork and 500 starting/maximum health (250 hearts).
+No need to repeat the entire earlier checklist. Multiplayer remains untested.
+Entity knowledge is NOT complete: detailed variants and special interactions
+remain pending. Automatic bottom scrolling is not fixed in this release.
