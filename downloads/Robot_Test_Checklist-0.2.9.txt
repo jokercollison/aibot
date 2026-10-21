@@ -1,0 +1,51 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.9
+NEW/CHANGED CHECKS ONLY — Minecraft Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.9.mcaddon. Use a fresh test world and a NEW robot.
+Activate only these matching packs:
+  Time Trap Studios AI Bot — Behavior 0.2.9
+  Time Trap Studios AI Bot — Resources 0.2.9
+Both descriptions and the robot menu must show 0.2.9.
+Optional summon: /summon tts_ai_bot_v0_2_9:robot
+
+VARIANT FOLLOW-UPS — stay in the same conversation
+1. Where can I find a red fox?
+   Then: and the snow one
+   Expect red-fox habitats, then snowy taiga/grove habitats.
+2. Where can I find a pink axolotl?
+   Then: what about blue
+   Then: Does the blue one need water?
+   Expect blue axolotls from breeding, not natural spawning; water requirements.
+3. Which froglight does a white frog produce?
+   Expect pearlescent. Orange -> ochre; green -> verdant.
+4. What variants does an iron golem have?
+   Expect cracks to be damage states, not different breeds.
+5. What variants does a piglin brute have?
+   Expect no baby form; distinguish ordinary piglins.
+
+ENVIRONMENT AND INTERACTIONS
+6. Can a magma cube drown underwater?
+   Expect drowning after 15 seconds submerged, despite fire immunity.
+7. Can a dolphin breathe underwater?
+   Expect that it needs air as well as water.
+8. What equipment can a shulker use?
+   Expect Bedrock dyeing to require Creative mode, not Survival.
+9. Do vexes live forever?
+   Then: Do they disappear?
+   Expect evoker-summoned lifetime damage after 30-119 seconds;
+   spawn-egg/command vexes do not take that automatic lifetime damage.
+10. How do I repair wolf armor?
+    Expect armadillo scutes, not meat as armor repair.
+11. How do I hatch a sniffer egg?
+    Expect 20 minutes normally or 10 minutes on moss.
+12. How do I stop a baby cow growing?
+    Expect a golden dandelion. Villagers are excluded from this growth control.
+13. What stew does a brown mooshroom make with an azure bluet?
+    Expect Blindness for 7 seconds in Bedrock.
+
+Check Things to try remains available and follow-ups stay in the conversation.
+No need to repeat the entire 0.2.8 checklist. Report the question and answer for
+anything unexpected. Existing artwork, colors and 500-health robot are retained.
+Automatic bottom scrolling is unchanged. Multiplayer remains untested.
+Entity knowledge is still being expanded; this is not exhaustive coverage.

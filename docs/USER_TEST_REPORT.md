@@ -1,3 +1,10 @@
+# User report: previous 0.2.8 test build
+
+The user reports that everything on the last tested version looked pretty good.
+This is a general single-player report, not confirmation of every knowledge topic
+or multiplayer behavior. Version 0.2.9 contains subsequent entity changes and
+still requires actual-game testing.
+
 # User report: 0.2.7
 
 The user reports testing complete, with everything else good except the answer to

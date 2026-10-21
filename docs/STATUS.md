@@ -1,3 +1,14 @@
+# Current test release: 0.2.9 — entity variants and interactions
+
+Packages the two entity source batches after 0.2.8, with 178 named variants,
+1,080 reviewed topic summaries and scoped environment/interaction answers.
+126 automated tests pass. The latest download and focused checklist are 0.2.9.
+User reports the previous tested version looked good; 0.2.9 actual-game and
+multiplayer checks remain pending. Entity knowledge is not exhaustive.
+See RELEASE_0.2.9.md and downloads/Robot_Test_Checklist-0.2.9.txt.
+
+## Previous source and release records
+
 # Latest entity source update
 
 All 90 catalog mobs now have sourced form/state summaries. The source contains
