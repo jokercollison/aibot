@@ -19,3 +19,20 @@ test('short age follow-ups preserve the species and breeding topic',()=>{
  assert.equal(c.ask('and babies').topic,'breeding_age');
  const other=createConversation();assert.equal(other.ask('what about adults').status,'unknown');
 });
+
+test('negative ages and existing offspring do not select baby XP',()=>{
+ for(const q of ['How much XP does a cow that is not a baby drop?','How much XP do cows that aren’t babies drop?','How much XP does a cow that is no longer a baby drop?','How much XP do cows with babies drop?']) {
+  const r=ask(q);assert.equal(r.topic,'experience',q);assert.equal(r.answer,ask('How much XP does a cow drop?').answer,q);
+ }
+ assert.equal(ask('How much XP does a baby cow drop?').topic,'experience_baby');
+});
+test('short reward age follow-ups retain subject and switch between adult and baby XP',()=>{
+ for(const name of ['cow','zombie','piglin','hoglin']) {
+  const c=createConversation();c.ask(`How much XP does a baby ${name} drop?`);
+  const adult=c.ask('what about adults');assert.equal(adult.subject,`minecraft:${name}`);assert.equal(adult.topic,'experience');
+  assert.equal(c.ask('and babies').answer,ask(`How much XP does a baby ${name} drop?`).answer);
+ }
+ const c=createConversation();c.ask('How much XP does a cow drop?');c.ask('Can baby cows breed?');
+ assert.equal(c.ask('what about adults').topic,'breeding');
+ assert.equal(createConversation().ask('and babies').status,'unknown');
+});

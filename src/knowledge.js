@@ -166,6 +166,10 @@ export function createConversation() {
         const age=q.match(/^(?:and |what about |how about )?(?:the )?(adults?|bab(?:y|ies))(?: then)?$/);
         if(age)return this.ask(`Can ${age[1]} entity:${previous.minecraft_id} breed?`);
       }
+      if(previous?.kind==='entity'&&['experience','experience_baby'].includes(previousEntityTopic)) {
+        const age=q.match(/^(?:and |what about |how about )?(?:a |an |the )?(adults?|bab(?:y|ies))(?: then)?$/);
+        if(age)return this.ask(`How much XP does ${age[1]} entity:${previous.minecraft_id} drop?`);
+      }
       if(previous?.kind==='entity') {
         const chosen=shortVariant(previous.minecraft_id,q);
         const relative=q.match(/\b(?:the )?([a-z]+) one\b/);

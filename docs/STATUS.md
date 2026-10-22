@@ -1,7 +1,8 @@
 # Source development after 0.2.13: wording and follow-up audit
 
 Started the next batch with age-negation, parent/offspring wording and short
-age-follow-up fixes. Source checks pass 175 tests. Published 0.2.13 remains the
+age-follow-up fixes. XP age interpretation and short reward follow-ups are also fixed. Source checks
+pass 177 tests. Published 0.2.13 remains the
 latest download and is unchanged; its release validation was 172 tests. See
 ENTITY_WORDING_PROGRESS.md. New source work is not packaged yet.
 
