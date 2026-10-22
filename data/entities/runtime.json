@@ -9,7 +9,14 @@
         "coverage": "reviewed_summary"
       },
       "interactions": {
-        "answer": "Supported coding tools can instruct an Agent to move and work with blocks. It is not a naturally tameable Survival companion.",
+        "answer": "Supported coding tools give the Agent instructions. Ordinary animal feeding and breeding do not control it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3831659"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "availability": {
+        "answer": "The Agent belongs to Education-related coding features. It is not an ordinary Survival mob with a natural biome or taming recipe.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3831659"
         ],
@@ -34,7 +41,8 @@
       "roles": {},
       "hazards": []
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:allay": {
     "topics": {
@@ -210,6 +218,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_effects": {
+        "answer": "A lingering cloud affects eligible entities inside its area and shrinks as it expires or applies effects. It is a temporary area hazard, not the original potion bottle.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "You cannot collect an ordinary lingering potion cloud back into its original bottle. Dragon’s breath collection is a different special cloud interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An area-effect cloud is an invisible or particle-marked area that applies configured effects. It is used by mechanics such as lingering potions and dragon breath. Entering it can apply the corresponding effect.",
         "sources": [
@@ -232,7 +254,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/area_effect_cloud.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "area effect cloud"
+    ]
   },
   "minecraft:armadillo": {
     "topics": {
@@ -470,6 +495,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "equipment": {
+        "answer": "Use armor and held items directly on the stand; it has no ordinary inventory window. Bedrock armor stands have arms and can display held items.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3826742"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "posing": {
+        "answer": "Sneak and interact to cycle supported poses. Redstone can also control poses. This is display behavior, not a living mob’s attack AI.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3826742"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Breaking the stand can release its displayed equipment and the stand item. Fire, explosions or destructive hazards can still destroy items; do not use it as protected backup storage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3826742"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An armor stand is a display entity for equipment. Use it to display armor and compatible equipment; Bedrock armor stands support posing and additional held items.",
         "sources": [
@@ -492,7 +538,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armor_stand.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:arrow": {
     "topics": {
@@ -512,6 +559,27 @@
       },
       "interactions": {
         "answer": "Some arrows stuck in blocks can be picked up, but arrows shot by mobs and other restricted projectiles are not all recoverable.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851631"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_use": {
+        "answer": "Shoot arrows with a bow or crossbow. An arrow lodged in a block can activate supported targets or wooden switches.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851631"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Ordinary arrows can hurt targets; tipped arrows add their own status effects. The effect depends on the ammunition, not only the bow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851631"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Some arrows lodged in blocks can be picked up, but mob-fired, Creative and Infinity arrows have pickup restrictions. Do not assume every arrow you see is a recoverable item.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851631"
         ],
@@ -539,7 +607,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/arrow.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:axolotl": {
     "topics": {
@@ -1761,6 +1830,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "storage": {
+        "answer": "An ordinary boat has two rider positions. Many land mobs can ride, but a hostile passenger can still attack. A boat with chest has different capacity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851308"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "Enter and use the movement controls to paddle. Boats can be leashed for towing; they are not lava-proof vehicles.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851308"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Breaking a boat returns its boat item under ordinary conditions and releases passengers. Moving a mob into a boat is not a universal way to cancel special despawn timers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851308"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A boat is a rideable vehicle for travelling across water. Place it on water, board it, and steer; it can also carry suitable passengers.",
         "sources": [
@@ -1783,7 +1873,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/boat.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:bogged": {
     "topics": {
@@ -2100,6 +2191,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "A breeze fires this wind-charge projectile as its ranged attack. It differs from the wind-charge item a player throws.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Its wind burst pushes entities and can trigger supported mechanisms. Keep footing and nearby machinery in mind.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "You cannot collect the breeze’s fired projectile as the player’s wind-charge item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A breeze wind charge is the projectile fired by a breeze. Its wind burst can knock entities around and activate certain blocks when it hits.",
         "sources": [
@@ -2122,7 +2234,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/breeze_wind_charge_projectile.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "breeze wind charge"
+    ]
   },
   "minecraft:camel": {
     "topics": {
@@ -3257,6 +3372,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "storage": {
+        "answer": "A boat with chest has a single-chest-sized inventory and only one rider position because the chest occupies the other seat. Hoppers can load or unload it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3818475"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "It paddles like a boat. Sneak and interact to access the chest from outside, or open the inventory while riding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3818475"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Breaking it drops the carried inventory; do not treat it as a protected storage backup. Opening or breaking it near piglins can provoke them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3818475"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A chest boat is a boat with built-in item storage. Use it to transport yourself and supplies across water; its chest takes the place of an extra passenger seat.",
         "sources": [
@@ -3279,7 +3415,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chest_boat.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "boat with chest",
+      "chest boat"
+    ]
   },
   "minecraft:chest_minecart": {
     "topics": {
@@ -3299,6 +3439,27 @@
       },
       "drops": {
         "answer": "Breaking a chest minecart normally drops the chest-minecart item and its stored contents.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851318"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "storage": {
+        "answer": "A chest minecart provides 27 inventory slots. Hoppers below can remove cargo and suitable hoppers can load it; the cart is storage rather than a passenger seat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851318"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "It moves along rails like a minecart. Powered rails are useful for maintaining motion; filling it with cargo changes its travel behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851318"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Destroying it drops the cart and stored items. Plan an unloading station instead of assuming it automatically pushes cargo into every nearby chest.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851318"
         ],
@@ -3326,7 +3487,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chest_minecart.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "minecart with chest",
+      "chest minecart"
+    ]
   },
   "minecraft:chicken": {
     "topics": {
@@ -3843,6 +4008,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "storage": {
+        "answer": "It executes commands rather than providing ordinary chest storage or a normal passenger seat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851328"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "An active activator rail triggers its configured command. It is a command/creator tool, not an ordinary Survival crafting upgrade.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851328"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Use it only where command permissions allow it. Do not expect an ordinary Survival recipe or a chest interface.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851328"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A command block minecart is a rail vehicle that can run commands. Use it in mapmaking systems with the appropriate permissions and powered activator-rail setup.",
         "sources": [
@@ -3865,7 +4051,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/command_block_minecart.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "minecart with command block",
+      "command block minecart"
+    ]
   },
   "minecraft:copper_golem": {
     "topics": {
@@ -4696,6 +4886,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "transport": {
+        "answer": "A cushion is a placeable seat rather than a steerable vehicle. Sitting on it does not turn it into a boat or minecart.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850059"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A cushion breaks and drops itself when its supporting surface is removed. It can also break from destructive hazards, so keep a suitable support below it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850059"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cushion is a seat-like decorative entity. Place and interact with it as a seat in compatible builds.",
         "sources": [
@@ -4718,7 +4922,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cushion.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:dolphin": {
     "topics": {
@@ -5294,6 +5499,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "The Ender Dragon launches this fireball. It is not a ghast fireball that you can simply return to sender.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Its impact creates a damaging area-effect cloud. Move out of the lingering hazard rather than treating impact as the end of the attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Dragon fireballs are not collectible items. Dragon’s breath can be collected from the breath cloud with a glass bottle; that is a different interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A dragon fireball is a projectile fired by the Ender Dragon. It creates a dangerous effect cloud, so move away from the impact area.",
         "sources": [
@@ -5316,7 +5542,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dragon_fireball.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:drowned": {
     "topics": {
@@ -5487,6 +5714,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw an egg to make a hatching attempt on impact. It is different from leaving a dropped egg item on the ground.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3823025"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A thrown egg has a chance to produce chicks, not a guarantee. It is not a normal damage-dealing combat weapon.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3823025"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A thrown egg is consumed by the throw. An egg item dropped on the ground is a different entity state and can be picked up.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3823025"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An egg is an item laid by chickens that can also be thrown as a projectile. Use it in food recipes or throw it for a chance of hatching a chicken.",
         "sources": [
@@ -5509,7 +5757,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/egg.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:elder_guardian": {
     "topics": {
@@ -5680,6 +5929,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "activation": {
+        "answer": "Place an End crystal on obsidian or bedrock with enough clear space. Four crystals at the sides of the End exit portal can start the dragon-resummoning sequence.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837768"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "An End crystal heals a nearby dragon and can explode when attacked or damaged. Keep distance and do not treat it as a safe decorative light.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837768"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A placed End crystal is not safely recovered by breaking it like an ordinary block. Damaging it can cause an explosion.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837768"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An End crystal is an explosive crystal that can heal the Ender Dragon. It is used in the dragon-respawning arrangement. Breaking or attacking it causes a dangerous explosion.",
         "sources": [
@@ -5716,7 +5986,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_crystal.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "end crystal",
+      "ender crystal"
+    ]
   },
   "minecraft:ender_dragon": {
     "topics": {
@@ -5859,6 +6133,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw a pearl to teleport to its landing position. In Bedrock, the player must still be in the dimension where it lands.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3840320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Teleporting normally causes five health points of damage. Suitable enchantments can reduce it; ordinary unenchanted armor does not remove that cost.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3840320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A thrown pearl is consumed. It is not an eye of ender and does not guide you toward a stronghold.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3840320"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An ender pearl is a throwable teleportation item. Throw it to teleport to its landing location, usually taking teleportation damage. It is also used to craft eyes of ender.",
         "sources": [
@@ -5881,7 +6176,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_pearl.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:enderman": {
     "topics": {
@@ -6312,6 +6608,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Use an eye of ender in the Overworld to send it toward a nearby stronghold. The flying signal is not a rideable mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "The eye can fall back as an item or break. It points toward the stronghold, not necessarily directly to the portal room.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Recover the eye if it falls as an item. Some eyes break instead, so carry more than one for a long journey.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835744"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A thrown eye of ender is a moving entity that points toward a stronghold. Follow its direction to search for a stronghold, collecting it again if it survives the throw.",
         "sources": [
@@ -6334,7 +6651,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/eye_of_ender_signal.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "eye of ender"
+    ]
   },
   "minecraft:fireball": {
     "topics": {
@@ -6347,6 +6667,27 @@
       },
       "combat": {
         "answer": "A ghast fireball explodes on impact and can be deflected back by a well-timed attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822892"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_use": {
+        "answer": "A ghast fires a large fireball at its target. A fire charge item and this moving projectile are different things.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822892"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "The large fireball explodes on impact and can ignite nearby blocks. It is not the same projectile as a blaze’s small fireball.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822892"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "You can strike a large ghast fireball back toward the ghast. Deflecting it does not give you a fireball item to store.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3822892"
         ],
@@ -6374,7 +6715,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fireball.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:fireworks_rocket": {
     "topics": {
@@ -6387,6 +6729,27 @@
       },
       "interactions": {
         "answer": "Firework rockets can boost a player gliding with elytra. Rockets containing firework stars explode and can hurt the user; use rockets without stars for safer boosting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3815139"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_use": {
+        "answer": "Use a rocket while flying with elytra for a boost, or launch it with suitable controls, a dispenser or a crossbow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3815139"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Firework stars add damaging explosions. A star-free flight rocket is different from a rocket made for explosive effects.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3815139"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A launched rocket is consumed. For safer elytra boosting, avoid adding damaging firework stars.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3815139"
         ],
@@ -6414,7 +6777,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fireworks_rocket.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "firework rocket"
+    ]
   },
   "minecraft:fishing_hook": {
     "topics": {
@@ -6427,6 +6793,27 @@
       },
       "interactions": {
         "answer": "Wait for a bite, then reel in to catch fishing loot. Reeling can also pull hooked entities; treasure fishing has additional open-water conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820476"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_use": {
+        "answer": "A fishing rod casts the bobber. Wait for a bite and reel in at the right moment, or hook supported creatures to pull them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820476"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Reeling a hooked creature moves it toward you and can cost extra rod durability. Fishing outcomes and a hooked-mob interaction are different.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820476"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Reeling retracts the line. The bobber is not a dropped item to collect or a persistent pet; changing away from the rod can end the cast.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3820476"
         ],
@@ -6454,7 +6841,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fishing_hook.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "fishing bobber",
+      "fishing hook"
+    ]
   },
   "minecraft:fox": {
     "topics": {
@@ -8167,6 +8558,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "storage": {
+        "answer": "A hopper minecart has five slots and pulls dropped items or items from a container above. It can collect through a single solid-block layer but does not push into containers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "It travels on rails. A powered activator rail disables collection; an unpowered activator rail reenables it. A hopper below can unload the cart.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851320"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Breaking it releases stored items. A powered rail and an activator rail perform different jobs, so check which rail is disabling collection.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851320"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A hopper minecart is a rail vehicle that collects items. Use it to gather dropped items and move them along tracks, often underneath farms. A powered activator rail changes its collection state.",
         "sources": [
@@ -8189,7 +8601,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hopper_minecart.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "minecart with hopper",
+      "hopper minecart"
+    ]
   },
   "minecraft:horse": {
     "topics": {
@@ -10092,6 +10508,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "activation": {
+        "answer": "Thunderstorms, lightning rods and Channeling-related conditions can affect lightning strikes. A strike is an event entity, not a creature you breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3806763"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Lightning can ignite surroundings, hurt entities and trigger transformations such as pig to zombified piglin or villager to witch. Not every struck animal becomes an undead mount.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3806763"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Lightning cannot be picked up in a bucket or collected as an item. Use suitable lightning-rod placement to manage strikes near a build.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3806763"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A lightning bolt is a weather event that can also be summoned as an entity. It can damage entities, ignite blocks, and transform certain mobs. Lightning rods help direct nearby strikes.",
         "sources": [
@@ -10114,7 +10551,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/lightning_bolt.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:lingering_potion": {
     "topics": {
@@ -10127,6 +10565,27 @@
       },
       "interactions": {
         "answer": "Lingering potions leave a temporary cloud that applies the potion’s effect to eligible entities in its area.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_use": {
+        "answer": "Throw it to create an area-effect cloud after impact. The bottle and the resulting cloud are separate entities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A lingering cloud applies its potion effect to eligible creatures entering it. The cloud shrinks over time and when it affects targets.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3837570"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "The bottle is consumed. You cannot pick the cloud back up as the original potion.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3837570"
         ],
@@ -10154,7 +10613,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/lingering_potion.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:llama": {
     "topics": {
@@ -10550,6 +11010,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "A llama launches spit while retaliating against a target. It is a projectile, not an item the player fires from inventory.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3728004"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "The spit can hurt a target or accidentally hit another creature, potentially starting another fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3728004"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "The fired spit cannot be picked up and stored as ammunition.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3728004"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "Llama spit is the projectile a llama spits at a target. It is a defensive ranged attack rather than an item you normally collect.",
         "sources": [
@@ -10572,7 +11053,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama_spit.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:magma_cube": {
     "topics": {
@@ -10832,6 +11314,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "storage": {
+        "answer": "A normal minecart carries a passenger rather than a chest inventory. Cargo minecarts are different entities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "Place it on rails. Powered rails supply motion, while ordinary rails guide the route; a passenger does not simply paddle it like a boat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Breaking the cart releases its passenger. Hostile passengers do not become harmless merely because they are in a cart.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A minecart is a rail vehicle for transporting entities. Place it on rails and use powered track or other mechanisms to move riders along a route.",
         "sources": [
@@ -10854,7 +11357,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/minecart.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:mooshroom": {
     "topics": {
@@ -11900,7 +12404,14 @@
         "coverage": "reviewed_summary"
       },
       "interactions": {
-        "answer": "World creators configure NPC dialogue and actions. They are different from villagers and do not use normal villager trading or breeding.",
+        "answer": "Creator settings define an NPC’s dialogue and actions. Interacting with it is not a way to tame it or change its profession with a workstation.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849562"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "availability": {
+        "answer": "NPCs are creator/Education-oriented characters that use configured dialogue and commands. They are not villagers that breed and trade through ordinary Survival rules.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849562"
         ],
@@ -11942,7 +12453,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/npc.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:ocelot": {
     "topics": {
@@ -12182,6 +12694,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "activation": {
+        "answer": "An ominous trial spawner can create this overhead item-spawner entity during an ominous trial. It displays an item briefly before releasing it downward.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820479"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "If the displayed item is a projectile it is fired; otherwise it is dropped. Watch the displayed item and overhead hazards rather than assuming every outcome is helpful loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820479"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "The item-spawner entity itself is not an ordinary collectible spawner block. A released item and the entity that released it are different things.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3820479"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An ominous item spawner is a special entity used in ominous-trial encounters. It creates falling items or projectiles as part of trial mechanics, rather than acting as a normal tameable mob.",
         "sources": [
@@ -12204,7 +12737,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ominous_item_spawner.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:panda": {
     "topics": {
@@ -14126,6 +14660,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "experience": {
+        "answer": "On death, ordinary experience loss and recovery follow player rules rather than a monster’s fixed XP reward. Keep Inventory settings change what is lost.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848965"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Dropped inventory items and experience are separate entities after death. Recovering some experience does not automatically restore every lost level or item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848965"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A player is a person-controlled character in the world. Players explore, build, craft, fight, and interact with the world according to their game mode and permissions.",
         "sources": [
@@ -14148,7 +14696,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/player.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:polar_bear": {
     "topics": {
@@ -16145,6 +16694,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "A shulker fires guided bullets that track their target. These are not ordinary arrows.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A hit applies Levitation. In Bedrock a shield can block damage while Levitation still applies.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A bullet can be destroyed by hitting it or by collision with blocks. It does not turn into a collectible ammunition item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A shulker bullet is a homing projectile fired by a shulker. A hit can cause Levitation; destroy it or use cover to avoid being lifted into a dangerous fall.",
         "sources": [
@@ -16167,7 +16737,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/shulker_bullet.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "shulker bullet"
+    ]
   },
   "minecraft:silverfish": {
     "topics": {
@@ -16842,6 +17415,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Blazes and certain other sources fire small fireballs. They are not the large explosive ghast fireball.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848368"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A small fireball can deal damage and ignite a target. A shield can block a blaze fireball’s damage and ignition.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848368"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Do not try to return a blaze’s small fireball using the large-ghast-fireball method. Avoid it or block it rather than expecting a recoverable item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848368"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A small fireball is a fiery projectile used by mobs such as blazes. It can burn targets and ignite suitable surfaces, so use cover rather than trying to collect it.",
         "sources": [
@@ -16864,7 +17458,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/small_fireball.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:sniffer": {
     "topics": {
@@ -17313,6 +17908,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw snowballs as projectiles. Snow golems also throw their own snowball projectiles.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843674"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Snowballs deal three health points of damage to blazes, but do not deal ordinary damage to other mobs. They can still cause knockback and provoke retaliation.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843674"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Thrown snowballs are not arrows that lodge in blocks for recovery. Collect new snowballs rather than expecting to retrieve each throw.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843674"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A snowball is a throwable item and projectile. Throw it to knock or distract suitable targets; it also has special interactions with some mobs, including blazes.",
         "sources": [
@@ -17335,7 +17951,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/snowball.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:spider": {
     "topics": {
@@ -17485,6 +18102,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw it so its splash reaches the intended target. A direct hit can apply a stronger or longer result than being near the edge.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3836205"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Its effect depends on the potion. Healing and Harming interact differently with undead targets; do not assume every healing potion heals every mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3836205"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "The thrown bottle is consumed rather than returning as a reusable glass bottle.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3836205"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A splash potion is a throwable potion. Throw it to apply its effect around the impact point; the effect depends on the potion's contents.",
         "sources": [
@@ -17507,7 +18145,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/splash_potion.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:squid": {
     "topics": {
@@ -18437,6 +19076,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw a trident as a projectile; a player’s trident is different from a drowned’s naturally held weapon.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847567"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A thrown trident damages targets. Loyalty returns it under suitable conditions, while Riptide is a different wet-weather movement enchantment and cannot be combined with Loyalty.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847567"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Thrown tridents do not ordinarily despawn in Bedrock. Pickup depends on ownership, enchantments and how it was thrown. You cannot collect every drowned-thrown trident just by walking over it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847567"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A thrown trident is a trident travelling as a projectile. It deals damage on impact; recovery and return behavior depend on the trident and its enchantments.",
         "sources": [
@@ -18459,7 +19119,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/thrown_trident.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "thrown trident",
+      "trident projectile"
+    ]
   },
   "minecraft:tnt": {
     "topics": {
@@ -18472,6 +19136,27 @@
       },
       "interactions": {
         "answer": "Primed TNT counts down and explodes, damaging nearby entities and breaking blocks. Water can protect blocks from much explosion damage without making nearby entities safe.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822891"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "activation": {
+        "answer": "Redstone, fire and ignition sources can turn a TNT block into primed TNT. Once primed, it is a moving entity affected by gravity.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822891"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Ordinarily primed TNT explodes after its fuse. Water can prevent ordinary block destruction from the explosion, but nearby entities can still be hurt.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822891"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Primed TNT is not an item you can mine back into a safe TNT block. Avoid priming it near valuables or creatures you want to keep.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3822891"
         ],
@@ -18499,7 +19184,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tnt.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "primed tnt"
+    ]
   },
   "minecraft:tnt_minecart": {
     "topics": {
@@ -18519,6 +19207,27 @@
       },
       "drops": {
         "answer": "Breaking an unprimed TNT minecart normally returns its item. An exploding TNT minecart is not a safe way to recover the cart.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851323"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "storage": {
+        "answer": "A TNT minecart is an explosive rail vehicle, not a safe cargo chest or passenger seat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851323"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "propulsion": {
+        "answer": "A powered activator rail can prime it with a four-second fuse. Fire, damage and sufficiently hard falls can also cause dangerous activation.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851323"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Treat it as an explosive even when it looks like an ordinary cart. Do not use an assumed safe breaking method once it is primed or rely on another edition’s collision tricks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851323"
         ],
@@ -18546,7 +19255,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tnt_minecart.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "minecart with tnt",
+      "tnt minecart"
+    ]
   },
   "minecraft:trader_llama": {
     "topics": {
@@ -18908,7 +19621,14 @@
         "coverage": "reviewed_summary"
       },
       "interactions": {
-        "answer": "In Minecraft Education, cameras work with portfolios to collect photos. This tripod entity is different from the camera command used by world creators.",
+        "answer": "Its availability depends on the world and supported creator features. It is not a combat pet or a normal breeding animal.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3801335"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "availability": {
+        "answer": "The camera is associated with Education and special creator content. Do not expect an ordinary Survival crafting recipe or natural spawning biome.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3801335"
         ],
@@ -18936,7 +19656,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tripod_camera.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "tripod camera"
+    ]
   },
   "minecraft:tropicalfish": {
     "topics": {
@@ -22106,6 +22829,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw a wind charge to create a burst of wind on impact. It can activate supported buttons, doors, trapdoors and other mechanisms.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A direct hit deals a small amount of damage and knockback; the burst also pushes nearby entities. A careless launch can cause a dangerous fall.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A thrown wind charge is consumed. It is not a dropped breeze rod that can be collected after the burst.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851783"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A wind charge is a projectile that creates a gust on impact. Use wind bursts for movement tricks and activating compatible mechanisms; be careful about landing damage.",
         "sources": [
@@ -22128,7 +22872,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wind_charge_projectile.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "wind charge"
+    ]
   },
   "minecraft:witch": {
     "topics": {
@@ -22538,6 +23285,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "The Wither fires explosive skull projectiles. These are separate from the wither skeleton skull item used for summoning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Wither skull impacts can explode and inflict Wither. The blue dangerous variant has different block-breaking behavior from an ordinary black skull.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A fired wither skull is not a collectible wither skeleton head. Defeating a wither skeleton under its head-drop conditions is a separate task.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A Wither skull projectile is an explosive attack fired by the Wither. Avoid the impact and resulting harmful effects; it is not the same thing as a collectible wither skeleton skull.",
         "sources": [
@@ -22560,7 +23328,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skull.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:wither_skull_dangerous": {
     "topics": {
@@ -22573,6 +23342,27 @@
       },
       "combat": {
         "answer": "Wither skulls explode on impact and can apply Wither. The slower blue skull has stronger block-breaking properties than an ordinary black skull.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_use": {
+        "answer": "The Wither fires explosive skull projectiles. These are separate from the wither skeleton skull item used for summoning.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "Wither skull impacts can explode and inflict Wither. The blue dangerous variant has different block-breaking behavior from an ordinary black skull.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3769223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "A fired wither skull is not a collectible wither skeleton head. Defeating a wither skeleton under its head-drop conditions is a separate task.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3769223"
         ],
@@ -22600,7 +23390,10 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skull_dangerous.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "blue wither skull"
+    ]
   },
   "minecraft:wolf": {
     "topics": {
@@ -23293,6 +24086,34 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "projectile_use": {
+        "answer": "Throw the bottle to shatter it and release experience orbs. It is not a bottle that stores your current player level.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3827316"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "projectile_effects": {
+        "answer": "A bottle gives 3–11 experience points on impact, averaging seven. Points and player levels are different quantities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3827316"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "The thrown bottle is consumed when it breaks. The reward is collected as experience orbs, not as an empty reusable bottle.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3827316"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "experience": {
+        "answer": "A bottle gives 3–11 experience points on impact, averaging seven. Points and player levels are different quantities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3827316"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A bottle o' enchanting is a throwable item that releases experience. Throw it to create experience orbs for levels or suitable Mending equipment.",
         "sources": [
@@ -23315,7 +24136,11 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/xp_bottle.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": [
+      "bottle o enchanting",
+      "experience bottle"
+    ]
   },
   "minecraft:xp_orb": {
     "topics": {
@@ -23328,6 +24153,27 @@
       },
       "interactions": {
         "answer": "Nearby experience orbs move toward players and are collected for experience. Mending can use collected experience to repair eligible equipment.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "experience": {
+        "answer": "Experience orbs carry experience points, not whole player levels. Orbs can have different values; collecting one orb is not always exactly one point.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "retrieval": {
+        "answer": "Move close enough to collect experience. Eligible equipped Mending items can use collected experience to repair durability instead of all of it going to your level.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "storage": {
+        "answer": "Experience orbs are not inventory items you can store in a normal chest. Bottles o’ enchanting are a different item and do not bottle your existing level.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
         ],
@@ -23355,7 +24201,8 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/xp_orb.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "object_aliases": []
   },
   "minecraft:zoglin": {
     "topics": {

@@ -1,3 +1,4 @@
+import {objectTopic} from './entity-objects.js';
 import {movementTopic} from './entity-movement.js';
 import {combatTopic} from './entity-combat.js';
 import {rewardTopic} from './entity-rewards.js';
@@ -12,6 +13,7 @@ export function entityTopic(q) {
   const movement=movementTopic(q);if(movement)return movement;
   const combat=combatTopic(q);if(combat)return combat;
   const action=specialInteraction(q);if(action)return action;
+  const object=objectTopic(q);if(object)return object;
   if (/\b(?:repair|heal).*\b(?:armor|armour)\b/.test(q))return 'repair';
   if (/\b(heal|healing|restore|recover)\b/.test(q)) return 'healing';
   if (/\b(health|hearts|hit points)\b/.test(q)) return 'health';
@@ -73,6 +75,9 @@ export const entityReferences=Object.fromEntries(Object.entries(database).filter
 
 const relatedEggs={'minecraft:sniffer_egg':'minecraft:sniffer','minecraft:turtle_egg':'minecraft:turtle','minecraft:frog_spawn':'minecraft:frog','minecraft:egg':'minecraft:egg'};
 export function relatedEntityAnswer(id,q) {
+ if(id==='minecraft:trident'&&['projectile_use','projectile_effects','retrieval'].includes(entityTopic(q))) {
+  const answer=entityAnswer('minecraft:thrown_trident',q);return answer?{...answer,subject:id,entity_reference:'minecraft:thrown_trident'}:null;
+ }
  if(id==='minecraft:wolf_armor'&&entityTopic(q)==='repair') {
   const answer=entityAnswer('minecraft:wolf',q,undefined,'repair');
   return answer?{...answer,subject:id,entity_reference:'minecraft:wolf'}:null;
@@ -83,3 +88,5 @@ export function relatedEntityAnswer(id,q) {
 }
 
 export const entitySubjectAliases=Object.entries(database).flatMap(([id,row])=>(row.subject_aliases??[]).map(alias=>({id,alias})));
+
+export const entityObjectAliases=Object.entries(database).flatMap(([id,row])=>(row.object_aliases??[]).map(alias=>({id,alias})));

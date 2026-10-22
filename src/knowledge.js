@@ -1,8 +1,9 @@
+import {objectTopics} from './entity-objects.js';
 import {movementTopics} from './entity-movement.js';
 import {combatTopics} from './entity-combat.js';
 import {rewardTopics} from './entity-rewards.js';
 import {specialInteractionTopics} from './entity-facets.js';
-import {entityAnswer, entityTopic, entityVariant, shortVariant, entityVariantAliases, entitySubjectAliases, entityReferences, relatedEntityAnswer} from './entities.js';
+import {entityAnswer, entityTopic, entityVariant, shortVariant, entityVariantAliases, entitySubjectAliases, entityObjectAliases, entityReferences, relatedEntityAnswer} from './entities.js';
 import acquisitionIndex from '../data/acquisition_index.json' with {type:'json'};
 import entityKnowledge from '../data/entity_knowledge.json' with {type:'json'};
 import locationFacts from '../data/location_facts.json' with {type:'json'};
@@ -194,13 +195,22 @@ export function createConversation() {
         /\b(drown|underwater|lava|fire|sunlight|eat|tame|kill|health|attack|damage)\b/.test(q) ? 'mechanic' : 'describe';
       if (intent === 'uses' && /\bwith iron$/.test(q)) return {status:'ambiguous',answer:'Do you mean iron ingots, raw iron, or iron blocks? Please include the material in your question.'};
       const matches = subjects(q).filter(x => intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
+      if(!['recipe','uses'].includes(intent)) {
+        const queryWords=q.split(' ');
+        for(const {id,alias} of entityObjectAliases) {
+          const term=clean(alias),start=queryWords.findIndex((_,i)=>queryWords.slice(i,i+term.split(' ').length).join(' ')===term);
+          if(start<0)continue;
+          for(const record of byMinecraftId.get(id)??[])if(record.kind==='entity')matches.push({record,size:term.split(' ').length,start});
+        }
+        matches.sort((a,b)=>b.size-a.size||a.start-b.start);
+      }
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
       let scopedInteraction=false;
       const shieldFollowup=previous?.kind==='entity'&&entityTopic(q)==='counterplay'&&/^(?:can|will|does) (?:a |my |the )?shield (?:protect me|help|block (?:it|that|its attack))$/.test(q);
       if(shieldFollowup){matches.splice(0,matches.length,{record:previous,size:1,start:0});inheritedSubject=true;}
 
-      if([...specialInteractionTopics,...rewardTopics,...combatTopics,...movementTopics].includes(entityTopic(q))) {
+      if([...specialInteractionTopics,...rewardTopics,...combatTopics,...movementTopics,...objectTopics].includes(entityTopic(q))) {
         if(previous&&/\b(?:can|does|do|will|won t|doesn t|don t) (?:it|they)\b|\b(?:leash|bucket|feed|trust|collect|help|move|transport|relocate|bring) (?:it|them)\b/.test(q)) {matches.splice(0,matches.length);inheritedSubject=true;}
         else {
           const entities=matches.filter(m=>m.record.kind==='entity');
@@ -283,11 +293,11 @@ export function createConversation() {
       }
       previousVariant = matches.length ? entityVariant(r.minecraft_id,q)?.name : r.minecraft_id === previous?.minecraft_id ? previousVariant : undefined;
       previous = r;
-      previousEntityTopic=r.kind==='entity'?(intent==='danger'?'combat':entityTopic(q)):undefined;
+      previousEntityTopic=r.kind==='entity'?(intent==='danger'&&!entityTopic(q)?'combat':entityTopic(q)):undefined;
       pendingChoice=undefined;
       if(r.kind!=='entity') {const related=relatedEntityAnswer(r.minecraft_id,q);if(related)return related;}
       if((r.kind==='entity' || entityReferences[r.minecraft_id]) && intent!=='fear' && (r.kind==='entity' || !['identity','behavior'].includes(entityTopic(q)))) {
-        const answer=entityAnswer(r.minecraft_id,q,previousVariant,intent==='danger'?'combat':undefined);
+        const answer=entityAnswer(r.minecraft_id,q,previousVariant,intent==='danger'&&!entityTopic(q)?'combat':undefined);
         if(answer)return ['identity','behavior'].includes(answer.topic)?{...answer,answer:answer.answer+followup(r)}:answer;
       }
       if (intent === 'recipe') return {...recipeText(r), subject: r.minecraft_id};

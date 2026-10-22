@@ -1,6 +1,8 @@
 export function rewardTopic(q) {
  if(/^(?:what (?:is|are)|describe|tell me about)\b/.test(q))return null;
- if(/\b(?:xp|experience|experience points|experience orbs)\b/.test(q)) {
+ if(/\b(?:throw|shoot|cast|launch)\b/.test(q)&&!/\b(?:much|many|give|gives|drop|drops)\b/.test(q))return null;
+ const question=q.replace(/\b(?:xp bottle|xp orb|experience bottle|experience orb|bottle o enchanting)\b/g,'');
+ if(/\b(?:xp|experience|experience points|experience orbs)\b/.test(question)) {
   if(/\b(?:breed|breeding|bred)\b/.test(q))return 'experience_breeding';
   if(/\bbab(?:y|ies)\b/.test(q))return 'experience_baby';
   return 'experience';

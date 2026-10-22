@@ -19,6 +19,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ object_data=json.loads((ROOT/'data/entities/object_editorial.json').read_text())
  movement_data=json.loads((ROOT/'data/entities/movement_editorial.json').read_text())
  combat_data=json.loads((ROOT/'data/entities/combat_editorial.json').read_text())
  reward_data=json.loads((ROOT/'data/entities/reward_editorial.json').read_text())
@@ -31,7 +32,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -64,6 +65,7 @@ def build():
   for v in compiled_variants.values():
    v['topics']={name:{**fact,'sources':fact.get('sources',fact.get('reference_urls',[subject['wiki']['url']]))} for name,fact in v['topics'].items()}
   runtime[key]={'topics':topics,'feeding':food,'variants':list(compiled_variants.values())}
+  if key in object_data['subjects']:runtime[key]['object_aliases']=object_data['subjects'][key].get('query_aliases',[])
   if subject['category']=='mob' and not key.endswith('_v2') and subject['wiki']['title'].lower()!=subject['name'].lower():runtime[key]['subject_aliases']=[subject['wiki']['title']]
   if key!=canonical:runtime[key]['variant_alias_owner']=canonical
   if key=='minecraft:mooshroom':runtime[key]['flower_effects']=interaction_source['mooshroom_flowers']
@@ -80,6 +82,8 @@ def build():
  (ROOT/'docs/ENTITY_COMBAT_COVERAGE.json').write_text(json.dumps(combat_audit,indent=2)+'\n')
  movement_audit={'scope':movement_data['scope'],'reviewed_subjects':len(movement_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in movement_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':{topic:('reviewed_summary' if topic in movement_data['subjects'].get(key,{}).get('topics',{}) else 'pending_review') for topic in ['lifetime','relocation','teleportation']},'complete':False} for key,row in evidence.items() if row['category']=='mob'}}
  (ROOT/'docs/ENTITY_MOVEMENT_COVERAGE.json').write_text(json.dumps(movement_audit,indent=2)+'\n')
+ object_audit={'scope':object_data['scope'],'catalog_non_mobs':sum(s['category']!='mob' for s in json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects'].values()),'reviewed_subjects':len(object_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in object_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in object_data['subjects'].items()}}
+ (ROOT/'docs/ENTITY_OBJECT_COVERAGE.json').write_text(json.dumps(object_audit,indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")
 if __name__=='__main__':build()

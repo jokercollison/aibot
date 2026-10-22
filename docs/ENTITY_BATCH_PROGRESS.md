@@ -1,3 +1,10 @@
+# Latest source batch: non-mob entity mechanics after 0.2.12
+
+Connected 112 reviewed mechanic summaries across all 39 catalog non-mob entities.
+Total reviewed entity summaries: 1,719. All 166 automated tests pass. See
+ENTITY_OBJECTS.md and ENTITY_OBJECT_COVERAGE.json for scope and remaining gaps.
+Published 0.2.12 remains unchanged; no new test artifact was created for this batch.
+
 # Latest source batch: combat and protection after 0.2.10
 
 Connected 105 reviewed combat summaries across 35 subjects. Total reviewed entity

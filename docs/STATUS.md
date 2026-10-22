@@ -1,3 +1,10 @@
+# Latest source batch: non-mob entity mechanics after 0.2.12
+
+Connected 112 reviewed mechanic summaries across all 39 catalog non-mob entities.
+Total reviewed entity summaries: 1,719. All 166 automated tests pass. See
+ENTITY_OBJECTS.md and ENTITY_OBJECT_COVERAGE.json for scope and remaining gaps.
+Published 0.2.12 remains unchanged; no new test artifact was created for this batch.
+
 # Current test release: 0.2.12 — Bedrock replies and entity movement
 
 Removes Java comparisons from 39 player-facing answers and connects 62 reviewed
