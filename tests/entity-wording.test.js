@@ -36,3 +36,40 @@ test('short reward age follow-ups retain subject and switch between adult and ba
  assert.equal(c.ask('what about adults').topic,'breeding');
  assert.equal(createConversation().ask('and babies').status,'unknown');
 });
+
+test('short variant choices preserve gameplay topics instead of becoming descriptions',()=>{
+ const cases=[
+  ['How do I tame a wolf?','ashen','taming'],
+  ['What does a cow eat?','warm','diet'],
+  ['How do I breed a panda?','brown','breeding'],
+  ['How much XP does a slime mob drop?','small','experience'],
+  ['How much XP does a baby cow drop?','cold','experience_baby'],
+  ['How much XP does breeding cows give?','warm','experience_breeding'],
+  ['What equipment does a llama drop?','gray','equipment_drops'],
+  ['Does a cat despawn?','calico','lifetime'],
+  ['Can a wolf teleport?','ashen','teleportation'],
+  ['How can I move a cat?','calico','relocation'],
+  ['What conditions does a chicken need to spawn?','cold','spawn_conditions'],
+  ['How do I heal a wolf?','ashen','healing'],
+  ['How does a cow grow?','cold','growth'],
+  ['How do I ride a horse?','white','transport'],
+  ['How do I trade with a villager?','farmer','trading']
+ ];
+ for(const [question,variant,topic] of cases) {
+  const c=createConversation();const initial=c.ask(question);
+  assert.equal(initial.topic,topic,question);
+  const next=c.ask(`what about the ${variant} one`);
+  assert.equal(next.subject,initial.subject,question);
+  assert.equal(next.topic,topic,`${question}: ${variant}`);
+  assert.notEqual(next.status,'unknown',question);
+ }
+});
+
+test('variant follow-ups use the latest topic and remain conversation-local',()=>{
+ const c=createConversation();c.ask('How do I tame a wolf?');
+ assert.equal(c.ask('what about ashen').topic,'taming');
+ c.ask('Where can I find wolves?');
+ const next=c.ask('what about woods');assert.equal(next.topic,'spawning');
+ assert.match(next.answer,/forest/i);
+ assert.equal(createConversation().ask('what about ashen').status,'unknown');
+});

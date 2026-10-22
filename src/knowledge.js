@@ -177,7 +177,34 @@ export function createConversation() {
         if(relativeChoice)return this.ask(q.replace(relative[0],relativeChoice.aliases[0]));
         if(chosen) {
           const alias=chosen.aliases[0];
-          const questions={spawning:`Where can I find ${alias}?`,variants:`What variants does ${alias} have?`,health:`How much health does ${alias} have?`,drops:`What does ${alias} drop?`,fire:`Can ${alias} survive lava?`,water:`Can ${alias} breathe underwater?`,sunlight:`Does ${alias} burn in sunlight?`,froglights:`Which froglight does ${alias} produce?`,milking:`What can I get by milking ${alias}?`,combat:`Is ${alias} dangerous?`};
+          const questions={
+            spawning:`Where can I find ${alias}?`,
+            spawn_conditions:`What conditions does ${alias} need to spawn?`,
+            variants:`What variants does ${alias} have?`,
+            health:`How much health does ${alias} have?`,
+            drops:`What does ${alias} drop?`,
+            experience:`How much XP does ${alias} drop?`,
+            experience_baby:`How much XP does baby ${alias} drop?`,
+            experience_breeding:`How much XP does breeding ${alias} give?`,
+            equipment_drops:`What equipment does ${alias} drop?`,
+            breeding:`How do I breed ${alias}?`,
+            breeding_conditions:`What health conditions does ${alias} need for breeding?`,
+            taming:`How do I tame ${alias}?`,
+            diet:`What does ${alias} eat?`,
+            healing:`How do I heal ${alias}?`,
+            growth:`How does ${alias} grow?`,
+            transport:`How do I ride ${alias}?`,
+            trading:`How do I trade with ${alias}?`,
+            lifetime:`Does ${alias} despawn?`,
+            relocation:`How can I move ${alias}?`,
+            teleportation:`Can ${alias} teleport?`,
+            fire:`Can ${alias} survive lava?`,
+            water:`Can ${alias} breathe underwater?`,
+            sunlight:`Does ${alias} burn in sunlight?`,
+            froglights:`Which froglight does ${alias} produce?`,
+            milking:`What can I get by milking ${alias}?`,
+            combat:`Is ${alias} dangerous?`
+          };
           return this.ask(questions[previousEntityTopic]??`What is ${alias}?`);
         }
       }
