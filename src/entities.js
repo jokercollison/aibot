@@ -1,3 +1,4 @@
+import {prerequisiteTopic,conditionalEntityTopic} from './entity-conditions.js';
 import {objectTopic} from './entity-objects.js';
 import {movementTopic} from './entity-movement.js';
 import {combatTopic} from './entity-combat.js';
@@ -10,6 +11,7 @@ import database from '../data/entities/runtime.json' with {type:'json'};
 export function entityTopic(q) {
   const reward=rewardTopic(q);if(reward)return reward;
   if (/\b(drop|drops|loot|looting)\b/.test(q) && !/\bfroglights?\b/.test(q)) return 'drops';
+  const prerequisite=prerequisiteTopic(q);if(prerequisite)return prerequisite;
   const movement=movementTopic(q);if(movement)return movement;
   const combat=combatTopic(q);if(combat)return combat;
   const action=specialInteraction(q);if(action)return action;
@@ -40,6 +42,9 @@ export function entityAnswer(id,q,variant,requestedTopic) {
   if(!row)return null;
   if(!topic&&variant)topic='identity';
   if(!topic)return null;
+  const condition=conditionalEntityTopic(id,q,topic,row.topics);
+  if(condition){const fact=row.topics[condition];return {status:'conditional',answer:fact.answer,subject:id,topic:condition,sources:fact.sources,coverage:fact.coverage};}
+  if(topic==='breeding_conditions'&&!row.topics[topic])topic='breeding';
   if(topic==='healing'&&id==='minecraft:iron_golem')topic='repair';
   if(['milking','diet','interactions','age_lock'].includes(topic)) {
     const stew=flowerStewAnswer(id,q,variant);if(stew)return stew;

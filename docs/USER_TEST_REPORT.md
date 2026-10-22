@@ -1,3 +1,9 @@
+# Latest testing status: 0.2.12 pending
+
+The user reports they have not yet had a chance to test and asks development to
+continue. Do not infer a pass for 0.2.12 or the later source batches. Keep the
+published artifact unchanged. Earlier successful 0.2.11 results remain separate.
+
 # User report: 0.2.11 testing good
 
 The user reports “2.11 test is good.” Record this as user-reported successful

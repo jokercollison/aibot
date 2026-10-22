@@ -388,6 +388,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An armadillo is a passive animal that rolls up when it senses certain threats. Collect its scutes, including by brushing it, to make and repair wolf armor.",
         "sources": [
@@ -757,6 +764,13 @@
         "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -1270,6 +1284,13 @@
         "answer": "Avoid provoking the colony. Use a correctly placed lit campfire for honey harvesting and protect bees from the flames. Smoke is not a blanket guarantee against every other provocation.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -2375,6 +2396,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel is a tall rideable desert animal. Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
         "sources": [
@@ -2784,6 +2812,20 @@
       },
       "teleportation": {
         "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_ownership": {
+        "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853626"
         ],
@@ -3617,6 +3659,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A chicken is a passive farm animal that lays eggs. Raise chickens for eggs, feathers, and food, and breed compatible adults using seeds.",
         "sources": [
@@ -4375,6 +4424,13 @@
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -5310,6 +5366,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_ownership": {
+        "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A donkey is a tameable riding animal. Equip it with a saddle to ride and a chest to carry supplies. It can breed with a horse to produce a mule.",
         "sources": [
@@ -5637,6 +5707,21 @@
         "answer": "In Bedrock, its naturally held trident or fishing rod has a 25% drop chance after a player or tamed-wolf kill, plus one percentage point per Looting level, up to 28% with Looting III. The creature must actually hold or wear that item; picked-up equipment is separate.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops_conversion": {
+        "answer": "Converting a zombie into a drowned does not generate a naturally equipped trident. A trident drop still requires the drowned to actually have the relevant equipment and meet its drop conditions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops_shell": {
+        "answer": "A nautilus shell is a separate offhand item, not the trident drop. Drowned that spawn holding a shell drop that shell on death. It does not mean every drowned drops a shell.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+          "https://minecraft.wiki/w/Special:PermanentLink/3791225"
         ],
         "coverage": "reviewed_summary"
       },
@@ -7004,6 +7089,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops_totem": {
+        "answer": "If a fox is holding a totem of undying when it would die, it consumes the totem and survives instead of dropping that totem. This is different from an ordinary carried-item drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops_consumed_food": {
+        "answer": "A fox can drop an item it is still holding, but food it has already eaten is gone and cannot be recovered as a held drop. Do not treat the fox’s mouth as permanent food storage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A fox is an animal that can carry an item in its mouth. It hunts some smaller animals and can pick up dropped items. A fox bred by players can trust them, but is not a wolf-style tamed follower.",
         "sources": [
@@ -7234,6 +7340,13 @@
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -7841,6 +7954,13 @@
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -8462,6 +8582,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A hoglin is a hostile Nether animal found in crimson environments. It attacks at close range and can be bred with crimson fungus. Outside the Nether it can transform into a zoglin.",
         "sources": [
@@ -8745,6 +8872,20 @@
       },
       "relocation": {
         "answer": "Tame an adult and equip a saddle for controlled riding, or use a lead. Coat color does not guarantee speed or jump strength. Keep the route safe for both rider and mount.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_ownership": {
+        "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850329"
         ],
@@ -10794,6 +10935,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_ownership": {
+        "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A llama is a tameable pack animal. Equip it with a chest for cargo and use a lead to guide a caravan. It can spit at targets when provoked.",
         "sources": [
@@ -11511,6 +11666,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mooshroom is a mushroom-covered cow variant. It can be milked and can provide mushroom stew when used with a bowl. Shearing it changes it into an ordinary cow.",
         "sources": [
@@ -12127,6 +12289,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A nautilus is an aquatic animal that can become a rideable mount. Tame and equip a suitable adult to travel underwater; keep it in appropriate water conditions.",
         "sources": [
@@ -12599,6 +12768,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An ocelot is a wild jungle cat. Feeding suitable raw fish can gain its trust, but it does not become a domestic cat. Ocelots help keep creepers away.",
         "sources": [
@@ -12902,6 +13078,13 @@
         "answer": "Do not hit a panda to make it move or breed. Use suitable bamboo interactions, and give an aggressive panda space rather than assuming every panda gives only one harmless response.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -13994,6 +14177,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A pig is a passive farm animal. Raise it for porkchops or ride a saddled pig using a carrot on a stick to steer.",
         "sources": [
@@ -14310,6 +14500,20 @@
       },
       "counterplay": {
         "answer": "Wear at least one piece of gold armor for ordinary appearance-based hostility, avoid provoking protected interactions and use cover. Gold does not protect you from piglin brutes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops_gold": {
+        "answer": "An admired gold ingot can drop if the piglin is killed in one hit while examining it. If it is hit and survives, it stops admiring the ingot and that ingot is not recovered by killing it later. Ordinary picked-up gold is not a guaranteed returned item.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "drops_pork": {
+        "answer": "Piglins do not return raw or cooked porkchops they picked up as ordinary held-item drops. Other equipment and barter items have their own rules.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851223"
         ],
@@ -15152,6 +15356,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A rabbit is a small passive animal. Breed it with suitable food and raise rabbits for hide, meat, and occasional rabbit's feet.",
         "sources": [
@@ -15939,6 +16150,13 @@
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -17612,6 +17830,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_health": {
+        "answer": "Both adult sniffers must be at full health before breeding. In Bedrock, torchflower seeds can heal them; breeding food does not skip the health requirement.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "digging_age": {
+        "answer": "A snifflet cannot dig up ancient seeds. Let it grow into an adult, then provide suitable reachable ground and meet its other digging requirements.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sniffer is an ancient passive animal hatched from a sniffer egg. It digs up special ancient plant seeds or pods from suitable ground, helping players grow decorative plants.",
         "sources": [
@@ -18575,6 +18814,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A strider is a passive Nether animal that walks on lava. Saddle it and steer with a warped fungus on a stick for lava travel. It becomes cold and slower away from lava.",
         "sources": [
@@ -19406,6 +19652,20 @@
       },
       "lifetime": {
         "answer": "A trader llama tied to a wandering trader can leave with the trader. In Bedrock, removing its lead from the trader makes it tamed and prevents that ordinary trader-linked despawn. Protect it from damage afterward.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_ownership": {
+        "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849739"
         ],
@@ -20320,6 +20580,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A turtle is a passive coastal animal. Breed it with seagrass to produce eggs on its home beach. Babies shed turtle scutes when they grow up.",
         "sources": [
@@ -20702,6 +20969,13 @@
         "answer": "Use a boat or minecart for ordinary transport. You cannot attach an ordinary lead to a villager. At the destination, provide safe housing and check its bed and workstation links rather than assuming they transferred correctly.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -21642,6 +21916,13 @@
         "answer": "Use a boat or minecart; an ordinary player lead does not attach to a villager. Protect the route and review bed/workstation links after arrival.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
         ],
         "coverage": "reviewed_summary"
       },
@@ -23603,6 +23884,27 @@
       },
       "teleportation": {
         "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_age": {
+        "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_ownership": {
+        "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "breeding_health": {
+        "answer": "Both tamed adult wolves must be at full health before breeding. Feed suitable meat to heal them first, then use breeding food while they are standing.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],

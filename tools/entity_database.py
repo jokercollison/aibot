@@ -19,6 +19,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ condition_data=json.loads((ROOT/'data/entities/condition_editorial.json').read_text())
  object_data=json.loads((ROOT/'data/entities/object_editorial.json').read_text())
  movement_data=json.loads((ROOT/'data/entities/movement_editorial.json').read_text())
  combat_data=json.loads((ROOT/'data/entities/combat_editorial.json').read_text())
@@ -32,7 +33,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -84,6 +85,8 @@ def build():
  (ROOT/'docs/ENTITY_MOVEMENT_COVERAGE.json').write_text(json.dumps(movement_audit,indent=2)+'\n')
  object_audit={'scope':object_data['scope'],'catalog_non_mobs':sum(s['category']!='mob' for s in json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects'].values()),'reviewed_subjects':len(object_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in object_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in object_data['subjects'].items()}}
  (ROOT/'docs/ENTITY_OBJECT_COVERAGE.json').write_text(json.dumps(object_audit,indent=2)+'\n')
+ condition_audit={'scope':condition_data['scope'],'reviewed_subjects':len(condition_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in condition_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in condition_data['subjects'].items()}}
+ (ROOT/'docs/ENTITY_CONDITION_COVERAGE.json').write_text(json.dumps(condition_audit,indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")
 if __name__=='__main__':build()

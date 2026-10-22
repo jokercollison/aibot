@@ -274,6 +274,7 @@ export function createConversation() {
       if (!exact && kindHint && candidates.some(r=>r.kind===kindHint)) candidates=candidates.filter(r=>r.kind===kindHint);
       candidates = [...new Map(candidates.map(r => [r.id,r])).values()];
       if (!candidates.length && /\b(it|they|them|its)\b/.test(q) && previous) candidates = [previous];
+      if(!candidates.length&&previous?.kind==='entity'&&['breeding','breeding_conditions'].includes(entityTopic(q))&&/\b(?:baby|babies|adult|adults)\b/.test(q))candidates=[previous];
       if (!candidates.length) return {status: 'unknown', answer: unknown};
       // Block/item pairs with the same Minecraft id are the same subject for basic lookup.
       const ids = new Set(candidates.map(r => r.minecraft_id));

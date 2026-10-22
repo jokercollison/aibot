@@ -1,3 +1,10 @@
+# Latest source batch: entity prerequisites and special carried-item drops
+
+43 reviewed conditional answers across 30 subjects; 1,762 reviewed topic summaries
+overall. All 172 automated tests pass. See ENTITY_ACTION_CONDITIONS.md and
+ENTITY_CONDITION_COVERAGE.json for scope and unresolved evidence gaps.
+Published 0.2.12 remains unchanged while user testing is pending.
+
 # Latest source batch: non-mob entity mechanics after 0.2.12
 
 Connected 112 reviewed mechanic summaries across all 39 catalog non-mob entities.

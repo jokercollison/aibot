@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Reviewed action prerequisites and special carried-item drops. Missing loot payloads are not reconstructed.",
+  "references": {
+    "Breeding": {
+      "revision_id": 3792652,
+      "sha256": "163d1ecad98780aa236264872d7384d8167909ee2e6522f7c82de8befaab19b5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+    },
+    "Horse": {
+      "revision_id": 3850329,
+      "sha256": "4d7e566bd6c56ef335e2b0df6a46255558e6b00d3ee4c858583e1f4721abe147",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+    },
+    "Donkey": {
+      "revision_id": 3850357,
+      "sha256": "fae56e9d56f614afbc3aa8b8d5c82d1f996c602dac1f78b4c64e2b7c2a2a8b9c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+    },
+    "Llama": {
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+    },
+    "Trader Llama": {
+      "revision_id": 3849739,
+      "sha256": "37df095b0f11351fcc086eca588fc7ae22f14a4d6c8056b8a1a7fb802be484fd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+    },
+    "Cat": {
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+    },
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    },
+    "Sniffer": {
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+    },
+    "Fox": {
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+    },
+    "Piglin": {
+      "revision_id": 3851223,
+      "sha256": "86ebd4c09320abe00c2773b905ee40aea87827758a246175e8d221f270b866bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+    },
+    "Drowned": {
+      "revision_id": 3851909,
+      "sha256": "cbdd5a06530ac56754002e954e2b306550b4cc1737a13779011bf90055f87973",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+    },
+    "Nautilus Shell": {
+      "revision_id": 3791225,
+      "sha256": "959eb6db1eb465b86875d67961d9b54f31ea1938ced69f5973dc7beadde12bbe",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3791225"
+    }
+  },
+  "subjects": {
+    "minecraft:armadillo": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:bee": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:camel": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:cat": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_ownership": {
+          "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        }
+      }
+    },
+    "minecraft:chicken": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:cow": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:donkey": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_ownership": {
+          "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        }
+      }
+    },
+    "minecraft:fox": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "drops_totem": {
+          "answer": "If a fox is holding a totem of undying when it would die, it consumes the totem and survives instead of dropping that totem. This is different from an ordinary carried-item drop.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "drops_consumed_food": {
+          "answer": "A fox can drop an item it is still holding, but food it has already eaten is gone and cannot be recovered as a held drop. Do not treat the fox’s mouth as permanent food storage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        }
+      }
+    },
+    "minecraft:frog": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:goat": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:horse": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_ownership": {
+          "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        }
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_ownership": {
+          "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        }
+      }
+    },
+    "minecraft:mooshroom": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:nautilus": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:ocelot": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:panda": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:pig": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:rabbit": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:sheep": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:sniffer": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_health": {
+          "answer": "Both adult sniffers must be at full health before breeding. In Bedrock, torchflower seeds can heal them; breeding food does not skip the health requirement.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "digging_age": {
+          "answer": "A snifflet cannot dig up ancient seeds. Let it grow into an adult, then provide suitable reachable ground and meet its other digging requirements.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        }
+      }
+    },
+    "minecraft:strider": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:trader_llama": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_ownership": {
+          "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        }
+      }
+    },
+    "minecraft:turtle": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:wolf": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        },
+        "breeding_ownership": {
+          "answer": "The parents must be tamed before breeding. Use eligible adult animals and their breeding food; feeding wild animals is not enough to skip taming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "breeding_health": {
+          "answer": "Both tamed adult wolves must be at full health before breeding. Feed suitable meat to heal them first, then use breeding food while they are standing.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        }
+      }
+    },
+    "minecraft:villager": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:villager_v2": {
+      "topics": {
+        "breeding_age": {
+          "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin": {
+      "topics": {
+        "drops_gold": {
+          "answer": "An admired gold ingot can drop if the piglin is killed in one hit while examining it. If it is hit and survives, it stops admiring the ingot and that ingot is not recovered by killing it later. Ordinary picked-up gold is not a guaranteed returned item.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "drops_pork": {
+          "answer": "Piglins do not return raw or cooked porkchops they picked up as ordinary held-item drops. Other equipment and barter items have their own rules.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        }
+      }
+    },
+    "minecraft:drowned": {
+      "topics": {
+        "drops_conversion": {
+          "answer": "Converting a zombie into a drowned does not generate a naturally equipped trident. A trident drop still requires the drowned to actually have the relevant equipment and meet its drop conditions.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        },
+        "drops_shell": {
+          "answer": "A nautilus shell is a separate offhand item, not the trident drop. Drowned that spawn holding a shell drop that shell on death. It does not mean every drowned drops a shell.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+            "https://minecraft.wiki/w/Special:PermanentLink/3791225"
+          ]
+        }
+      }
+    }
+  }
+}
