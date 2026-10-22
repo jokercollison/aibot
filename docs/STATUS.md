@@ -1,3 +1,22 @@
+# Current baseline release: 0.2.16 — large entity core pass
+
+289 new answers across 87 mob profiles; 287 reviewed summaries and two partial
+command-created undead foal growth cases. All 90 catalog mobs now have detailed
+combat, persistence and relocation guidance. 41 generic negative breeding replies
+are direct. Total reviewed summaries: 2,168. See ENTITY_CORE_MILESTONE.md.
+
+Actual-engine audit: 2,992 representative requests across all 129 catalog entities;
+2,886 answered, four partial, 102 explicitly unsupported, zero unexpected failures.
+199 automated tests and API/build/archive checks pass. Actual Minecraft testing
+is pending. Use Robot_Test_Checklist-0.2.16.txt, not all old checklists.
+
+This establishes the entity core baseline so blocks can be the next knowledge
+category. Feeding remains unsupported for 51 mob profiles, and narrow conflicting
+or unavailable evidence remains tracked; neither is claimed complete. Targeted
+entity fixes can proceed alongside block work. Older downloads are unchanged.
+
+## Earlier source and release records
+
 # Current test release: 0.2.15 — feeding and observed eating
 
 Packages the source feeding batch after 0.2.14: 39 dietary summaries, nine

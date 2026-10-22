@@ -1,3 +1,11 @@
+# Current combat baseline — 0.2.16
+
+All 90 catalog mob profiles now have reviewed attack-style, provocation and
+counterplay summaries: 270 summaries in these three topics. Passive mobs have
+explicit non-attack guidance and real hazards; riders, prey and block-dependent
+behavior retain exceptions. See ENTITY_CORE_MILESTONE.md. This is not an exact
+damage simulator or exhaustive knowledge. Earlier batch records follow.
+
 # Current combat coverage — 0.2.14
 
 153 detailed summaries across 51 entity profiles cover attack style, provocation

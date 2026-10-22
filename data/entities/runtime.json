@@ -166,6 +166,56 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "Allays have no baby form. Duplication makes another allay directly, so there is no baby allay to feed or wait to grow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Allays normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/allay.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a allay. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "An allay does not fight players or act as a combat pet. Its job is collecting matching dropped items.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting an allay does not make it retaliate like a wolf. Giving it an item changes collection behavior, not an attack mode.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "You do not need to fight an allay to stop it following you; take its held item back with an empty hand. Protect it from nearby hostile mobs and environmental damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An allay is a friendly flying helper mob. Give it an item and it looks for dropped matching items to bring back. It does not mine blocks or create items for you.",
         "sources": [
@@ -431,6 +481,48 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844454",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned armadillo can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a armadillo. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "An armadillo does not attack players. It responds to threats by rolling up and taking reduced damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Sprinting or mounted players and nearby undead can frighten an armadillo into rolling up; this is defensive behavior, not aggression.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Slow down and let it unroll rather than attacking it. Use a brush for scutes; killing it is not the scute-harvesting interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -1135,6 +1227,56 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A bat has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned bat can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bat.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a bat in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Bats do not attack players or inflict melee damage. Their erratic flying is not a charge attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A disturbed bat flies away instead of fighting back. It cannot be turned into a guard pet by provoking or taming it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "No combat counter is needed for a bat. It is a passive cave animal; avoid confusing its flight with a nearby hostile mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A bat is a small passive flying cave animal. It adds atmosphere to dark areas and is not a tameable companion or a useful loot source.",
         "sources": [
@@ -1357,6 +1499,24 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844630",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Tempting a bee with suitable flowers or breeding it gives it persistence in Bedrock. Protect the bee and its hive as well: persistence does not stop damage or keep it from flying away.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a bee. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -1752,7 +1912,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Blaze cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a blaze.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3852956"
@@ -1819,6 +1979,32 @@
         "answer": "Use cover between bursts. A shield can block the fireball damage and ignition. Snowballs can damage blazes; Fire Resistance helps against fire but does not make every close-range hit harmless.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A blaze has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned blaze can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/blaze.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a blaze in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -1981,7 +2167,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Bogged cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a bogged.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851713"
@@ -2048,6 +2234,32 @@
         "answer": "Use cover and a shield against arrows. Poison management does not replace avoiding the next shot; shearing one does not make it safe.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A bogged has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned bogged can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bogged.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a bogged in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -2141,7 +2353,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Breeze cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a breeze.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3822417"
@@ -2201,6 +2413,32 @@
         "answer": "Use cover and watch your footing. Melee attacks or wind charges are useful options because ordinary direct projectiles are deflected. Area effects from splash potions differ from direct projectile hits.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A breeze has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Breezes normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/breeze.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a breeze in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -2472,6 +2710,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned camel can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "A camel does not attack players on its own. A rider using a weapon is a separate source of damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A camel is passive and does not retaliate against a player like a neutral wolf. Its dash is a movement ability, not a command to attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Treat a rider and its mount separately. For your own camel, use a saddle and safe routes rather than trying to make it a combat pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel is a tall rideable desert animal. Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
         "sources": [
@@ -2639,6 +2910,47 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845813",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A camel husk has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a camel husk. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. Remove hostile riders before trying to attach the lead; a hostile rider is a separate opponent.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "The camel husk itself is passive, but its hostile passengers can attack while riding it. The mount and each rider are separate entities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A camel husk jockey is dangerous because hostile riders control the encounter, not because the bare mount has become an ordinary player-hunting attacker.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Deal with the hostile riders before handling the mount, and do not assume removing one passenger removes every attacker. A rabbit’s foot can heal the mount once safe to approach.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -2901,6 +3213,30 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853626",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Cats do not attack players. They hunt small prey such as chickens, rabbits and baby turtles, so a pet cat is not harmless to every animal.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A cat does not become a player-hunting enemy when hit; it flees. Creepers and phantoms avoid cats rather than being killed by cat attacks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep vulnerable small animals separate from cats. Tame a stray with raw fish instead of fighting it, and do not expect a cat to defend you like a wolf.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -3350,7 +3686,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Cave spider cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a cave spider.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851778"
@@ -3410,6 +3746,32 @@
         "answer": "Keep your distance from mineshaft webs and narrow openings. Milk can remove Poison but does not prevent another bite from poisoning you again.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A cave spider has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned cave spider can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cave_spider.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a cave spider in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -3742,6 +4104,48 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned chicken can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a chicken. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Chickens do not attack players. A chicken jockey is dangerous because of its separate undead rider.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting an ordinary chicken makes it flee, not retaliate. A rider on it does not change the chicken into the source of the rider’s attacks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "If facing a chicken jockey, deal with the rider. For ordinary chickens, use seeds and an enclosure rather than fighting to move them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A chicken is a passive farm animal that lays eggs. Raise chickens for eggs, feathers, and food, and breed compatible adults using seeds.",
         "sources": [
@@ -4038,6 +4442,38 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A cod has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Cod do not attack players or bite for damage. They are passive fish.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Disturbing cod does not turn them hostile; they try to move away. Do not confuse cod with a defensive pufferfish.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use a water bucket if you want to collect one alive. Keep it in suitable water; fighting is not needed to relocate it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cod is a small aquatic fish. Catch it for food or collect the live fish in a water bucket for transport.",
         "sources": [
@@ -4207,7 +4643,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Copper golem cannot be bred by feeding a pair of adults. They are created using their construction or summoning method instead.",
+        "answer": "You cannot breed a copper golem. They are created using their construction or summoning method instead.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3845018"
@@ -4281,6 +4717,56 @@
         "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "Copper golems have no normal baby growth stage. Oxidation changes the golem and can turn it into a statue; oxidation is not a baby growing into an adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A copper golem has persistence and does not ordinarily distance-despawn. A fully oxidized golem can turn into a statue; that transformation is different from disappearing because you walked away.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/copper_golem.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a copper golem. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Copper golems do not fight players or defend you with iron-golem-style melee attacks. They move and sort items.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Opening storage or approaching a copper golem does not provoke an attack. Its behavior changes through oxidation and sorting interactions, not player aggression.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "There is no hostile combat phase to defeat. Use the proper waxing, scraping and statue interactions if you want to manage its oxidation rather than attacking it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -4513,6 +4999,48 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned cow can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a cow. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Cows do not attack players. Even adults near calves remain passive rather than protecting babies like polar bears.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a cow causes it to flee rather than attack the player. Feeding wheat is for breeding and growth, not turning it into a guard animal.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use wheat and a fenced route to handle cows safely. Combat is only relevant if you choose to kill one for its drops.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cow is a passive farm animal. Milk it with a bucket, breed adults with wheat, and raise cows as a source of leather and beef.",
         "sources": [
@@ -4700,7 +5228,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Creaking cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a creaking.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3852706"
@@ -4784,6 +5312,23 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A creaking has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You cannot transport a creaking as an ordinary minecart passenger or by attaching a normal lead. A heart-linked creaking stays tied to its creaking heart; treat that encounter as a heart mechanic, not an animal to lead home.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A creaking is a hostile tree-like mob linked to a creaking heart. It moves when players are not looking at it. Deal with the linked heart rather than relying on ordinary attacks against the mob.",
         "sources": [
@@ -4854,7 +5399,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Creeper cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a creeper.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3848379"
@@ -4921,6 +5466,32 @@
         "answer": "Back away as soon as it hisses, keep distance with ranged attacks and use cover. Do not rely on a nearby cat once detonation has begun.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A creeper has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned creeper can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/creeper.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a creeper in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -5465,6 +6036,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned donkey can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Donkeys do not attack players. A mounted attacker, if present, is separate from the donkey itself.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A donkey can buck off a rider during taming, but that is not a melee retaliation attack. Feeding does not make it a guard pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Tame and handle the donkey through riding interactions. Keep it away from hazards and separate any hostile rider from the mount.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A donkey is a tameable riding animal. Equip it with a saddle to ride and a chest to carry supplies. It can breed with a horse to produce a mule.",
         "sources": [
@@ -5725,7 +6329,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Drowned cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a drowned.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
@@ -5814,6 +6418,24 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851909",
           "https://minecraft.wiki/w/Special:PermanentLink/3791225"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned drowned can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/drowned.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a drowned in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -5969,7 +6591,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Elder guardian cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed an elder guardian.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3853190"
@@ -6036,6 +6658,23 @@
         "answer": "The original elder guardians generate with the ocean monument and do not naturally respawn after death. Protecting one from ordinary despawning is different from keeping it alive; Peaceful can remove hostile monument mobs.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "An elder guardian has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a elder guardian in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. This aquatic mob needs a route that does not leave it exposed to unsuitable conditions; it can still attack from the cart. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -6208,7 +6847,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Ender dragon cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed an ender dragon.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851987"
@@ -6254,6 +6893,32 @@
         "answer": "Destroy the healing End crystals carefully, avoid breath clouds and aim for the head for better damage. While perched at the portal, the dragon is immune to arrows and thrown tridents, so change your attack method instead of wasting ammunition.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "An ender dragon has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Ender Dragons normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_dragon.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You cannot transport a ender dragon as an ordinary minecart passenger or by attaching a normal lead. Its boss encounter is not a normal tame-and-transport interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -6416,7 +7081,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Enderman cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed an enderman.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3850886"
@@ -6507,6 +7172,32 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "An enderman has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned enderman can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/enderman.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a enderman in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An enderman is a tall neutral mob that can teleport and move certain blocks. It becomes hostile when provoked, including by looking into its eyes under suitable conditions. Water is dangerous to it.",
         "sources": [
@@ -6576,7 +7267,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Endermite cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed an endermite.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3843703"
@@ -6643,6 +7334,23 @@
         "answer": "An unnamed endermite despawns after about two minutes even in a boat or minecart. Apply a renamed name tag to prevent that ordinary timer. Naming does not protect a hostile mob from removal on Peaceful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "An endermite has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a endermite in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -6729,7 +7437,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Evocation illager cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed an evocation illager.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3853175"
@@ -6789,6 +7497,32 @@
         "answer": "Prioritize the evoker before it summons more vexes, using distance and ranged attacks when possible. Watch the ground for fangs, and remember that vexes can pass through walls.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "An evocation illager has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Evocation Illagers normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules. Raid cleanup and special encounter states are different from keeping an ordinary mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/evocation_illager.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a evocation illager in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -7282,6 +8016,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned fox can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Foxes hunt small animals and a trusting fox can defend a player it trusts against an attacker. They are not tame wolf-style followers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Wild foxes normally flee from players, but a trusting fox can attack an entity that harms its trusted player. Do not confuse trust-based defense with ordinary tame-pet commands.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Avoid threatening a trusted player near their fox, and keep chickens or other vulnerable prey separate. Use breeding to gain a trusting cub rather than trying to tame a wild fox with random food.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A fox is an animal that can carry an item in its mouth. It hunts some smaller animals and can pick up dropped items. A fox bred by players can trust them, but is not a wolf-style tamed follower.",
         "sources": [
@@ -7535,6 +8302,56 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "An adult frog does not grow into a larger frog. Its young stage is a tadpole, which grows into a frog; the biome where the tadpole matures determines the frog variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned frog can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a frog. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Frogs do not attack players. They swallow small slimes and small magma cubes with their tongues.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A frog stays passive toward players; approaching it does not trigger retaliation. Its prey behavior is limited to suitable small mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "No player combat counter is needed. For froglights, provide the smallest magma cubes; a frog cannot swallow the larger sizes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A frog is an amphibian that can eat small slimes and small magma cubes. When it eats a small magma cube it produces a froglight; the frog variant determines the light's color.",
         "sources": [
@@ -7765,7 +8582,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Ghast cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a ghast.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3830625"
@@ -7811,6 +8628,32 @@
         "answer": "Use solid cover or a ranged weapon. You can strike a large ghast fireball back toward it; this is different from blaze small fireballs.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A ghast has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned ghast can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ghast.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a ghast in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -7965,6 +8808,48 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3844507",
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned glow squid can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a glow squid. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. Keep it in water: it cannot survive an ordinary dry-land walk.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Glow squid do not attack players or shoot damaging ink projectiles. Their luminous appearance is not an attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A glow squid remains passive when disturbed. Its visual glow and ink response are not evidence that it has become hostile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep it in water if you are preserving it. It does not light the surrounding blocks like a torch or protect you from monsters.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -8208,6 +9093,24 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned goat can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a goat. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A goat is a mountain animal that jumps and sometimes rams entities. Give it space near cliffs. Certain ramming interactions can produce goat horns.",
         "sources": [
@@ -8331,7 +9234,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Guardian cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a guardian.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3853189"
@@ -8391,6 +9294,32 @@
         "answer": "Break line of sight with solid cover before the beam finishes charging. Prepare air or Water Breathing and do not treat a shield as complete immunity to its beam or spikes.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A guardian has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned guardian can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/guardian.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a guardian in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. This aquatic mob needs a route that does not leave it exposed to unsuitable conditions; it can still attack from the cart. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -8588,6 +9517,39 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853633",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Riding or naming your happy ghast gives it persistence in Bedrock. If it goes missing, also check whether it drifted away, was moved or died; ordinary distance despawning is only one possible cause of a missing mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Happy ghasts do not shoot hostile-ghast fireballs or deliberately attack players. They are friendly flying mounts.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A happy ghast does not turn into a hostile ghast when approached or ridden. Riders using weapons remain separate attackers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use a harness to ride an adult and take care with falls when dismounting. Do not treat a happy ghast as a hostile ghast that needs its fireballs reflected.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -8836,6 +9798,24 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843704",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned hoglin can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a hoglin. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. A lead does not make this hostile mob safe to approach.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -9141,6 +10121,39 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850329",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned horse can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Horses do not attack players on their own. A mounted hostile rider is a separate attacker.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "An untamed horse can throw a rider off during taming, but this is not an aggressive melee attack. Feeding and taming do not create a guard animal.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use normal taming and saddling interactions. Handle any hostile rider separately and keep the horse out of dangerous terrain.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -10590,7 +11603,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Husk cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a husk.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851908"
@@ -10678,6 +11691,24 @@
         "answer": "Keep distance or block incoming melee hits with a shield. Do not wait for sunrise to remove husks; use a secure barrier and keep them away from villagers.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned husk can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/husk.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a husk in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -10771,7 +11802,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Iron golem cannot be bred by feeding a pair of adults. They are created using their construction or summoning method instead.",
+        "answer": "You cannot breed an iron golem. They are created using their construction or summoning method instead.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851102"
@@ -10866,6 +11897,32 @@
         "answer": "Avoid provoking village golems. Do not assume your ordinary armor makes their melee attacks safe, or that a village golem will handle a creeper for you.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "An iron golem has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Iron Golems normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/iron_golem.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a iron golem. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -11226,6 +12283,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned llama can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A llama is a tameable pack animal. Equip it with a chest for cargo and use a lead to guide a caravan. It can spit at targets when provoked.",
         "sources": [
@@ -11513,7 +12579,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Magma cube cannot be bred by feeding a pair of adults. Larger ones split into smaller ones when killed; that is not food-based breeding.",
+        "answer": "You cannot breed a magma cube. Larger ones split into smaller ones when killed; that is not food-based breeding.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3849057"
@@ -11573,6 +12639,32 @@
         "answer": "Use room and cover to handle split offspring, and do not use fire as your main attack. Watch for lava around the fight; killing one large cube may leave several smaller threats.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "Small magma cubes are size variants, not growing babies. Waiting or feeding does not grow them into larger cubes; larger magma cubes split into smaller ones when killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned magma cube can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/magma_cube.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a magma cube in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -11953,6 +13045,48 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned mooshroom can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a mooshroom. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Mooshrooms do not attack players. Red and brown variants remain passive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a mooshroom makes it flee rather than fight back. A lightning-based variant change is not a hostile transformation.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "For mushrooms, consider that shearing permanently changes a mooshroom into a cow. Use buckets or bowls for renewable milk and stew rather than treating it as a hostile enemy.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mooshroom is a mushroom-covered cow variant. It can be milked and can provide mushroom stew when used with a bowl. Shearing it changes it into an ordinary cow.",
         "sources": [
@@ -12297,6 +13431,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned mule can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Mules do not attack players. They are passive pack mounts rather than combat pets.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Bucking during taming does not make a mule a hostile mob. Feeding a mule does not enable breeding or attack commands.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Tame and saddle the mule for riding, or equip a chest for transport. Protect it from hazards rather than expecting it to defend you.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mule is a rideable pack animal produced by breeding a horse and donkey. Tame and saddle it for travel, or add a chest for supplies. Mules cannot breed.",
         "sources": [
@@ -12579,6 +13746,30 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844669",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "An untamed adult nautilus can retaliate with a damaging dash and attacks pufferfish. Tamed and baby nautiluses are normally passive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Attacking a wild adult nautilus can provoke it. A tamed nautilus and a harmless baby do not have the same retaliation state as an angry wild adult.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Avoid provoking a wild adult and stay out of its dash path. Tame with pufferfish when safe; another fish being accepted for healing does not mean it tames the nautilus.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -13064,6 +14255,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "You can use a lead to move a ocelot. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Ocelots do not attack players, but hunt prey such as chickens and baby turtles.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "An ocelot normally flees from a nearby player rather than fighting. Gaining its trust does not convert it into a domestic cat or guard pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Approach carefully with raw cod or salmon to gain trust, and keep vulnerable prey separate. Do not attack it to try to make it follow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An ocelot is a wild jungle cat. Feeding suitable raw fish can gain its trust, but it does not become a domestic cat. Ocelots help keep creepers away.",
         "sources": [
@@ -13380,6 +14604,24 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned panda can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a panda in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A panda is a jungle animal with several personality variants. It eats bamboo and has special breeding conditions involving nearby bamboo and willing adults.",
         "sources": [
@@ -13685,7 +14927,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Parched cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a parched.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3845817"
@@ -13752,6 +14994,32 @@
         "answer": "Use cover and block incoming arrows. Weakness reduces your melee effectiveness, so avoid charging into other enemies while affected.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A parched has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned parched can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parched.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a parched in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -13967,6 +15235,38 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849952",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A parrot has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Parrots do not fight players or defend their owners with attacks. Their hostile-mob imitations are sounds, not their own attacks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a parrot does not make it become a hostile mob. Hearing an imitation can indicate a nearby mob or be an imitation rather than a direct attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Protect a parrot from damage and never use cookies as a treat. It is a companion and mimic, not a combat pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -14220,7 +15520,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Phantom cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a phantom.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
@@ -14273,6 +15573,32 @@
         "answer": "Enter a bed to reset the rest timer and use shelter against swoops. Cats can repel phantoms, but shelter and rest remain useful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A phantom has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned phantom can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/phantom.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a phantom in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -14502,6 +15828,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned pig can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Pigs do not attack players. A saddled pig remains a passive mount.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a pig makes it flee, not retaliate. Lightning can transform a pig into a zombified piglin, which has different behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use accepted food to move pigs and a carrot on a stick to steer a saddled pig. Avoid assuming a lightning-transformed mob still has ordinary pig behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A pig is a passive farm animal. Raise it for porkchops or ride a saddled pig using a carrot on a stick to steer.",
         "sources": [
@@ -14718,7 +16077,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Piglin cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a piglin.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851223"
@@ -14831,6 +16190,32 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "Baby piglins do not grow into adults. Feeding or waiting does not turn one into an adult piglin, and piglins cannot be bred.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned piglin can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a piglin in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A piglin is a Nether mob that can barter gold ingots for items. Wearing gold armor helps avoid ordinary piglin hostility, but certain actions still anger it. Piglin brutes do not follow the same rules.",
         "sources": [
@@ -14920,7 +16305,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Piglin brute cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a piglin brute.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3848820"
@@ -15004,6 +16389,23 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A piglin brute has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a piglin brute in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A piglin brute is an aggressive axe-wielding mob found in bastion remnants. It does not become friendly because you wear gold and does not barter like ordinary piglins.",
         "sources": [
@@ -15080,7 +16482,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Pillager cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a pillager.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3843714"
@@ -15147,6 +16549,32 @@
         "answer": "Use solid cover against arrows and attack between shots. In Bedrock, waiting for a pillager’s crossbow to break will not disarm it.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A pillager has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned pillager can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Raid-spawned mobs have special persistence, and encounter cleanup is a separate rule. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pillager.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a pillager in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -15394,6 +16822,24 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned polar bear can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a polar bear. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A polar bear is a large animal found in cold regions. Adults may become hostile when provoked or when a cub is threatened; it is not a tameable riding animal.",
         "sources": [
@@ -15549,6 +16995,14 @@
         "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A pufferfish has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
         ],
         "coverage": "reviewed_summary"
       },
@@ -15746,6 +17200,48 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844604",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned rabbit can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a rabbit. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Ordinary rabbits in Bedrock do not attack players. They flee instead of behaving as a hostile rabbit variant.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A rabbit does not become a player-hunting enemy after you approach or hit it. Its rapid movement is escape behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use carrots, golden carrots or dandelions to handle rabbits and protect them from predators. No special anti-rabbit combat tactic is needed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -16049,7 +17545,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Ravager cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a ravager.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3843713"
@@ -16109,6 +17605,32 @@
         "answer": "Keep a strong barrier and distance from its melee reach. Track any rider separately; defeating one of them does not automatically defeat the other.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A ravager has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned ravager can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Raid-spawned mobs have special persistence, and encounter cleanup is a separate rule. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ravager.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a ravager in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -16239,6 +17761,38 @@
         "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "Small salmon are a size variant, not babies that grow into larger salmon. Do not confuse fish size with a timed baby-growth stage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Salmon do not attack players. Small, medium and large salmon are all passive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a salmon does not make it retaliate. Its size is not a hostile or baby-growth state.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Collect it alive with a water bucket if you want to relocate it. Keep it in water rather than interpreting flopping as a melee attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -16546,6 +18100,48 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848879",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned sheep can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a sheep. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Sheep do not attack players. Wool color does not change that passive behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a sheep causes escape behavior, not retaliation. A dyed or named sheep does not become a combat pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use shears for renewable wool and wheat for handling or breeding. Let it reach grass to regrow its wool.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -17220,6 +18816,23 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A shulker has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a shulker in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A shulker is a hostile shell-covered mob found in End cities. Its projectiles cause Levitation, and its shells are used to craft portable shulker boxes.",
         "sources": [
@@ -17374,7 +18987,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Silverfish cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a silverfish.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3843709"
@@ -17434,6 +19047,32 @@
         "answer": "A one-hit kill prevents that silverfish from calling others out of infested blocks. Silk Touch lets you mine infested blocks without releasing their silverfish; avoid slowly poisoning a silverfish beside infested stone.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A silverfish has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned silverfish can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/silverfish.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a silverfish in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -17513,7 +19152,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Skeleton cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a skeleton.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3846446"
@@ -17587,6 +19226,32 @@
         "answer": "Use solid cover to interrupt its shots and face incoming arrows with a raised shield. Watch for other attackers while concentrating on the archer.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A skeleton has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned skeleton can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a skeleton in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -17748,6 +19413,47 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "Skeleton horses cannot breed, so they have no normal breeding-and-raising cycle. I do not have a growth time to give you for a command-created baby.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "partial_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a skeleton horse. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "A skeleton horse itself does not attack players. The skeleton horseman attacks through its separate skeleton rider.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Triggering a skeleton trap creates a dangerous mounted encounter, but the horse and rider have separate roles. A riderless skeleton horse is passive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Deal with the skeleton rider while avoiding unnecessary damage to the horse if you want to keep it. Do not expect feeding to breed a replacement skeleton horse.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A skeleton horse is an undead rideable horse. Certain skeleton-trap encounters can produce them. It is not an ordinary breedable horse.",
         "sources": [
@@ -17831,7 +19537,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Slime cannot be bred by feeding a pair of adults. Larger ones split into smaller ones when killed; that is not food-based breeding.",
+        "answer": "You cannot breed a slime. Larger ones split into smaller ones when killed; that is not food-based breeding.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3849919"
@@ -17898,6 +19604,32 @@
         "answer": "Leave room to deal with split offspring. Do not treat the original large slime’s death as proof that every smaller slime is gone.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "Small slimes are size variants, not growing babies. They do not become larger just by waiting or feeding; larger slimes split into smaller ones when killed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned slime can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/slime.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a slime in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -18264,6 +19996,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "Sniffers normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Sniffers do not attack players or act as combat pets. Their main activity is searching suitable ground and digging for ancient plants.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Disturbing a sniffer does not trigger hostile retaliation. A snifflet cannot dig until it grows up, but that age difference does not make it aggressive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Protect sniffers from hazards and provide suitable digging space. Use torchflower seeds for their feeding interactions instead of fighting them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sniffer is an ancient passive animal hatched from a sniffer egg. It digs up special ancient plant seeds or pods from suitable ground, helping players grow decorative plants.",
         "sources": [
@@ -18378,7 +20143,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Snow golem cannot be bred by feeding a pair of adults. They are created using their construction or summoning method instead.",
+        "answer": "You cannot breed a snow golem. They are created using their construction or summoning method instead.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851744"
@@ -18480,6 +20245,32 @@
         "answer": "Protect a snow golem from retaliation and do not rely on it to kill ordinary monsters. Shelter it from water, rain and damaging heat; its snowballs are a distraction rather than a replacement for secure defenses.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A snow golem has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Snow Golems normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/snow_golem.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a snow golem. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -18645,7 +20436,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Spider cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a spider.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3844683"
@@ -18705,6 +20496,32 @@
         "answer": "Use barriers with space and overhangs rather than assuming a plain wall stops it. Avoid provoking a neutral spider while dealing with other threats.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A spider has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned spider can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/spider.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a spider in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -18889,6 +20706,48 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned squid can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/squid.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a squid. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. Keep it in water: it cannot survive an ordinary dry-land walk.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Squid do not attack players or shoot damaging ink attacks. They are passive aquatic mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A squid does not become hostile when disturbed. An ink effect is a defensive visual response, not a damaging projectile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep it in water if preserving it; it needs water to breathe. No combat protection from a squid is normally needed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A squid is a passive aquatic animal. It provides ink sacs when killed; it is not a tameable riding animal.",
         "sources": [
@@ -18986,7 +20845,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Stray cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a stray.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3844780"
@@ -19053,6 +20912,32 @@
         "answer": "Use cover and block arrows. Watch your movement when slowed, particularly near ledges or other hostile mobs.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A stray has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned stray can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/stray.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a stray in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -19257,6 +21142,39 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844584",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned strider can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Striders do not attack players. Their ability to walk on lava does not make their riders immune to lava.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A strider stays passive when handled; shivering away from lava is a temperature response, not anger.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use a saddle and warped fungus on a stick to ride it. Keep yourself clear of lava when mounting or dismounting rather than relying on the strider as protection.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -19513,6 +21431,30 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Sulfur cubes are normally passive, but an absorbed block can create hazards, including damaging magma contact or an ignited explosive form.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A sulfur cube is not an ordinary hostile slime. The block it absorbs changes its behavior, so passive behavior does not make every configuration safe.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Check the absorbed block before approaching. Keep explosive forms away from buildings, and distinguish passive movement from block-based damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sulfur cube is a cube-shaped animal that can carry a suitable block. The block it holds can change its movement and other behavior. Some interactions can make it dangerous, including explosive behavior.",
         "sources": [
@@ -19682,6 +21624,30 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849184",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Tadpoles do not attack players. They are the passive aquatic young stage of frogs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A tadpole does not retaliate against players. Out-of-water danger is a survival problem, not aggression.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use a water bucket to move it, and keep it in water until it grows into a frog. Protect it from axolotls and other hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -20133,6 +22099,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "You can use a lead to move a trader llama. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. A trader-owned llama may still be leashed to the wandering trader; deal with that leash before leading it elsewhere.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Trader llamas can spit at attackers. The wandering trader and each llama are separate entities.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Attacking a trader llama or its wandering trader can provoke spitting. It is a neutral animal rather than a harmless decoration on the trader.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Avoid hitting the trader or llamas. Remove the trader’s leash before independent handling where needed; feeding or riding does not instantly make an ongoing attack safe.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A trader llama is a llama associated with a wandering trader. It carries the trader's decorations and can defend itself by spitting. It follows llama-style handling rules rather than villager trading rules.",
         "sources": [
@@ -20459,6 +22458,38 @@
         "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A tropicalfish has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Tropical fish do not attack players. Their many colors and patterns do not create different hostile forms.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A tropical fish stays passive when approached or hit. Do not confuse it with an inflating pufferfish.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use a water bucket to collect it alive and keep it in water. Separate aquarium fish from hunters such as axolotls.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -21052,6 +23083,39 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally spawned turtle can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Suitable player interactions, such as breeding, tempting with accepted food or leashing where supported, can also give persistence. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Turtles do not attack players, even around their eggs. They do not defend nests like an aggressive guard mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A turtle remains passive when disturbed. Eggs and babies can still attract threats, but those threats are other mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Protect eggs and babies from predators and trampling. Use seagrass for breeding or baby growth rather than fighting the adults.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A turtle is a passive coastal animal. Breed it with seagrass to produce eggs on its home beach. Babies shed turtle scutes when they grow up.",
         "sources": [
@@ -21158,7 +23222,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Vex cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a vex.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3845919"
@@ -21218,6 +23282,23 @@
         "answer": "A simple solid wall is not a reliable cage because vexes can pass through blocks. Keep track of the evoker and incoming vexes rather than hiding behind one thin wall.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A vex has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a vex in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845919",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -21437,6 +23518,30 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849427",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Villagers do not fight players or defend a village through their own melee attacks. Iron golems provide a separate kind of defense.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A villager does not hit back, but harming villagers can have consequences for village reputation, trading and golem hostility.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Protect villagers with safe housing and barriers. Do not assume a passive villager can protect itself from zombies or raids.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -22424,6 +24529,30 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Villagers do not fight players or defend a village through their own melee attacks. Iron golems provide a separate kind of defense.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A villager does not hit back, but harming villagers can have consequences for village reputation, trading and golem hostility.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Protect villagers with safe housing and barriers. Do not assume a passive villager can protect itself from zombies or raids.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A villager is a village inhabitant that can trade with players. Eligible villagers take professions from job-site blocks. Their trades depend on profession, level, and world settings.",
         "sources": [
@@ -23267,7 +25396,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Vindicator cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a vindicator.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3848438"
@@ -23334,6 +25463,32 @@
         "answer": "Keep out of axe range and use ranged attacks or secure barriers. Do not assume a vindicator is harmless when its arms are folded or when it has no visible weapon.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A vindicator has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Vindicators normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules. Raid cleanup and special encounter states are different from keeping an ordinary mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/vindicator.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a vindicator in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -23469,6 +25624,38 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A wandering trader has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "A wandering trader does not attack players. Its trader llamas can defend it by spitting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting the trader can provoke its llamas even though the trader itself is passive. Its temporary invisibility is not an attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Avoid hitting the trader or its llamas. Trade while it is available; trapping or naming it does not remove its special departure timer.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A wandering trader is a travelling merchant that appears with trader llamas. Trade emeralds for its rotating selection of goods before it leaves.",
         "sources": [
@@ -23539,7 +25726,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Warden cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a warden.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851707"
@@ -23599,6 +25786,23 @@
         "answer": "An unnamed calm warden can dig away after about 60 seconds without detecting targets or vibrations. Named wardens do not use that ordinary digging-away behavior. It is not governed by the usual distance-based monster despawn checks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A warden has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You cannot transport a warden as an ordinary minecart passenger or by attaching a normal lead. Luring it by sounds is dangerous and is not taming or safe transport.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -23743,7 +25947,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Witch cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a witch.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3850494"
@@ -23803,6 +26007,32 @@
         "answer": "Use cover and keep track of poison and other effects. Milk removes status effects but does not prevent another potion hit, and also clears useful effects you may want to keep.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A witch has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned witch can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. Raid-spawned mobs have special persistence, and encounter cleanup is a separate rule. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/witch.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a witch in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -23876,7 +26106,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Wither cannot be bred by feeding a pair of adults. They are created using their construction or summoning method instead.",
+        "answer": "You cannot breed a wither. They are created using their construction or summoning method instead.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3846728"
@@ -23929,6 +26159,32 @@
         "answer": "Fight away from buildings and prepare for explosions and Wither damage. At half health it gains anti-projectile armor, so ordinary arrows stop being a reliable attack; prepare a close-range weapon for the later phase. Keep clear during the final death explosion.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A wither has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Withers normally have persistence in Bedrock and do not disappear through ordinary distance despawning. They can still be killed or removed by other game rules.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You cannot transport a wither as an ordinary minecart passenger or by attaching a normal lead. Its boss encounter is not a normal tame-and-transport interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -24016,7 +26272,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Wither skeleton cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a wither skeleton.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3853122"
@@ -24069,6 +26325,32 @@
         "answer": "Use cover and space that accounts for their tall body. Milk can clear Wither, but unlike ordinary Poison the Wither effect can be fatal; another hit can apply it again.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A wither skeleton has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned wither skeleton can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skeleton.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a wither skeleton in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -25183,6 +27465,32 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "Baby zoglins never grow into adults. A baby hoglin can grow while it remains a hoglin, but converting it into a zoglin does not preserve that normal growth cycle.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned zoglin can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zoglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a zoglin. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. A lead does not make this hostile mob safe to approach.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zoglin is an undead hoglin variant created when a hoglin transforms outside the Nether. It is aggressive toward many nearby entities and cannot be bred like an ordinary hoglin.",
         "sources": [
@@ -25267,7 +27575,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Zombie cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a zombie.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851907"
@@ -25348,6 +27656,24 @@
         "answer": "Keep distance and use barriers or ranged attacks. Light and secure a village rather than relying on villagers to escape; sunlight is not reliable protection against babies wearing cover or zombies in shade.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned zombie can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a zombie in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -25504,6 +27830,47 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "Zombie horses cannot breed, so they have no normal breeding-and-raising cycle. I do not have a growth time to give you for a command-created baby.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "partial_summary"
+      },
+      "relocation": {
+        "answer": "You can use a lead to move a zombie horse. Guide it along a safe route, keep it close enough that the lead does not break, and protect it from falls and unsuitable water or heat. Remove hostile riders before trying to attach the lead; a hostile rider is a separate opponent.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "A zombie horse itself does not damage players, but its zombie rider can attack while mounted. The rider controls a separate hostile part of the encounter.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "The riderless zombie horse is passive. A hostile rider making the mount approach you does not turn the horse itself into the source of the weapon attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Deal with the zombie rider before taming or riding the horse. A red mushroom heals the mount; it is not a way to pacify the zombie rider.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie horse is an undead horse variant. Its availability and riding rules depend on the game version and how it was obtained; do not assume ordinary horse breeding works.",
         "sources": [
@@ -25589,7 +27956,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Zombie nautilus cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a zombie nautilus.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3845839"
@@ -25664,6 +28031,38 @@
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845839",
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_nautilus.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A zombie nautilus has no normal baby form that grows into an adult. There is no ordinary baby-growth timer or growth food to use for this mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+          "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "An untamed zombie nautilus can retaliate with a dash and attacks pufferfish; tamed ones are normally passive. A drowned riding it attacks separately.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Hitting a wild zombie nautilus can provoke it. A drowned rider may make the pair hostile even when the mount itself would otherwise be passive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Remove a hostile rider before handling the mount and avoid its dash path. Tame the mount with pufferfish when safe; taming it does not tame its drowned rider.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846284"
         ],
         "coverage": "reviewed_summary"
       },
@@ -25847,7 +28246,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Zombie pigman cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a zombie pigman.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851912"
@@ -25921,6 +28320,24 @@
         "answer": "Avoid hitting one while fighting other mobs. If a group becomes angry, retreat to cover rather than treating each piglin as an isolated opponent.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned zombie pigman can disappear through ordinary distance despawning unless it has become persistent. In Bedrock, a name tag is one way to prevent ordinary distance despawning; distance rules depend on simulation settings and mob state. A boat or minecart alone is not a blanket persistence guarantee, and persistence does not prevent death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912",
+          "https://minecraft.wiki/w/Special:PermanentLink/3846380",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_pigman.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a zombie pigman in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. A small minority of zombified piglins refuse minecart boarding, so a particular one may not enter. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851912",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },
@@ -26018,7 +28435,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Zombie villager cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a zombie villager.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851910"
@@ -26116,6 +28533,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "A minecart can carry a zombie villager in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie villager is an undead villager variant. Apply the appropriate Weakness effect and use a golden apple to begin curing it under suitable conditions.",
         "sources": [
@@ -26200,7 +28626,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Zombie villager v2 cannot be bred by feeding a pair of adults.",
+        "answer": "You cannot breed a zombie villager v2.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652",
           "https://minecraft.wiki/w/Special:PermanentLink/3851910"
@@ -26295,6 +28721,15 @@
         "answer": "Bedrock converted zombie villagers and those generated in abandoned villages or igloo basements are persistent. Other natural examples may despawn unless kept persistent. Naming does not protect a hostile mob from removal on Peaceful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A minecart can carry a zombie villager v2 in Bedrock. Bring an empty cart into contact with it, then use rails and powered rails along a protected route. An active activator rail can eject the passenger. It can still be dangerous while riding; a cart is not taming or protection from its attacks. The cart alone does not guarantee persistence in Bedrock.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+          "https://minecraft.wiki/w/Special:PermanentLink/3823154",
+          "https://minecraft.wiki/w/Special:PermanentLink/3852298"
         ],
         "coverage": "reviewed_summary"
       },

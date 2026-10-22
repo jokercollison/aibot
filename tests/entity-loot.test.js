@@ -72,7 +72,7 @@ test('condition-only drop follow-ups preserve victim and original topic',()=>{
 });
 test('reviewed breeding and taming eligibility is answered across mob groups',()=>{
  for(const name of ['creeper','zombie','blaze','warden','wither','silverfish','bogged']) {
-  assert.match(ask(`Can I breed a ${name}?`).answer,/cannot be bred/);
+  assert.match(ask(`Can I breed a ${name}?`).answer,/cannot (?:be bred|breed)/);
   assert.match(ask(`Can I tame a ${name}?`).answer,/cannot be tamed/);
  }
  assert.match(ask('How do I breed sulfur cubes?').answer,/splits into two small/);

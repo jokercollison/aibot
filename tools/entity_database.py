@@ -20,6 +20,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ core_data=json.loads((ROOT/'data/entities/core_editorial.json').read_text())
  diet_data=json.loads((ROOT/'data/entities/diet_editorial.json').read_text())
  growth_data=json.loads((ROOT/'data/entities/growth_editorial.json').read_text())
  condition_data=json.loads((ROOT/'data/entities/condition_editorial.json').read_text())
@@ -36,7 +37,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{}),**growth_data['subjects'].get(key,{}).get('topics',{}),**diet_data['subjects'].get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{}),**growth_data['subjects'].get(key,{}).get('topics',{}),**diet_data['subjects'].get(key,{}).get('topics',{}),**core_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -84,9 +85,12 @@ def build():
  (ROOT/'docs/ENTITY_INTERACTION_COVERAGE.json').write_text(json.dumps(interaction_audit,indent=2)+'\n')
  reward_audit={'scope':reward_data['scope'],'subjects_in_batch':len(reward_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in reward_data['subjects'].values()),'conflicts':reward_data['conflicts'],'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in reward_data['subjects'].items()}}
  (ROOT/'docs/ENTITY_REWARD_COVERAGE.json').write_text(json.dumps(reward_audit,indent=2)+'\n')
- combat_audit={'scope':combat_data['scope'],'reviewed_subjects':len(combat_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in combat_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':{topic:('reviewed_summary' if topic in combat_data['subjects'].get(key,{}).get('topics',{}) else 'pending_detailed_review') for topic in ['attack_style','provocation','counterplay']},'complete':False} for key,row in evidence.items() if row['category']=='mob'}}
+ combat_topics=['attack_style','provocation','counterplay']
+ mob_rows={key:runtime[key] for key,row in evidence.items() if row['category']=='mob'}
+ combat_audit={'scope':'Current catalog mob combat coverage, including the broad core layer; summaries remain partial.','reviewed_subjects':sum(all(r['topics'].get(t,{}).get('coverage')=='reviewed_summary' for t in combat_topics) for r in mob_rows.values()),'reviewed_topic_summaries':sum(r['topics'].get(t,{}).get('coverage')=='reviewed_summary' for r in mob_rows.values() for t in combat_topics),'complete':False,'subjects':{key:{'topics':{topic:r['topics'].get(topic,{}).get('coverage','pending_detailed_review') for topic in combat_topics},'complete':False} for key,r in mob_rows.items()}}
  (ROOT/'docs/ENTITY_COMBAT_COVERAGE.json').write_text(json.dumps(combat_audit,indent=2)+'\n')
- movement_audit={'scope':movement_data['scope'],'reviewed_subjects':len(movement_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in movement_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':{topic:('reviewed_summary' if topic in movement_data['subjects'].get(key,{}).get('topics',{}) else 'pending_review') for topic in ['lifetime','relocation','teleportation']},'complete':False} for key,row in evidence.items() if row['category']=='mob'}}
+ movement_topics=['lifetime','relocation','teleportation']
+ movement_audit={'scope':'Current catalog mob persistence, relocation and teleportation coverage, including the broad core layer; summaries remain partial.','reviewed_subjects':sum(any(r['topics'].get(t,{}).get('coverage')=='reviewed_summary' for t in movement_topics) for r in mob_rows.values()),'reviewed_topic_summaries':sum(r['topics'].get(t,{}).get('coverage')=='reviewed_summary' for r in mob_rows.values() for t in movement_topics),'complete':False,'subjects':{key:{'topics':{topic:r['topics'].get(topic,{}).get('coverage','pending_review') for topic in movement_topics},'complete':False} for key,r in mob_rows.items()}}
  (ROOT/'docs/ENTITY_MOVEMENT_COVERAGE.json').write_text(json.dumps(movement_audit,indent=2)+'\n')
  object_audit={'scope':object_data['scope'],'catalog_non_mobs':sum(s['category']!='mob' for s in json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects'].values()),'reviewed_subjects':len(object_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in object_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in object_data['subjects'].items()}}
  (ROOT/'docs/ENTITY_OBJECT_COVERAGE.json').write_text(json.dumps(object_audit,indent=2)+'\n')

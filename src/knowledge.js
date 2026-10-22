@@ -364,7 +364,7 @@ export function createConversation() {
       if(r.kind==='entity'&&technical)return {status:'conditional',answer:technical.answer,sources:[entityKnowledge[r.minecraft_id].source]};
       const f = facts[r.minecraft_id]?.[intent];
       if (f) return {status: f.status, answer: f.text, sources: [f.source]};
-      if(r.kind==='entity' && entityTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:entityTopic(q),answer:`I'm still learning about ${clean(r.name)} ${entityTopic(q)}. Could you ask me about another part of it?`};
+      if(r.kind==='entity' && entityTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:entityTopic(q),answer:`I'm not sure about that yet. Could you ask me something else about ${clean(r.name)}?`};
       if(r.kind==='entity' && !entityTopic(q) && /^(?:can|could|will|would|does|do|is|are|why|when|how|what (?:does|do|can))\b/.test(q)) return {status:'unknown',subject:r.minecraft_id,answer:unknown};
       if (intent !== 'describe') return {status: 'unknown', answer: unknown};
       if (r.kind === 'enchantment' && r.effect) {

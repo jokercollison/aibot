@@ -1,3 +1,12 @@
+# Entity core baseline — 0.2.16
+
+The [milestone report](ENTITY_CORE_MILESTONE.md) defines the practical entity
+baseline, known gaps and next transition to blocks. There are 2,168 reviewed
+summaries, with all 90 catalog mobs covered for combat, persistence and relocation.
+The [question audit](ENTITY_QUESTION_AUDIT.json) exercises 2,992 representative
+requests across all 129 catalog entities and explicitly counts unsupported cases.
+This is not complete wiki knowledge; earlier batch records follow.
+
 # Current test release — 0.2.15
 
 The feeding batch is now packaged: 1,881 reviewed topic summaries across 142

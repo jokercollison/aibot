@@ -1,3 +1,9 @@
+# Current testing status: 0.2.16 pending
+
+Automated validation and the question matrix do not execute Minecraft. No pass
+is inferred for the new core baseline release. Its focused checklist covers
+representative new features. Multiplayer and device performance remain separate.
+
 # Current testing status: 0.2.15 pending
 
 The feeding release passed automated validation and archive checks. No actual

@@ -1,0 +1,50 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.16
+LARGE ENTITY CORE PASS — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.16.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.16
+  Time Trap Studios AI Bot — Resources 0.2.16
+Descriptions and robot menu must show 0.2.16.
+Optional summon: /summon tts_ai_bot_v0_2_16:robot
+
+REPRESENTATIVE CHECKS ONLY
+The automated matrix already exercises 2,992 questions. You do not need to
+repeat the whole catalog or discover every missing fact.
+
+1. How can you breed a creeper?
+   Expect: You cannot breed a creeper.
+   Then: What does it eat?
+   Expect an honest not-sure answer, not invented feeding advice.
+   Then: How can you move it?
+   Expect a minecart route; it can still be dangerous and a cart alone does not
+   guarantee persistence in Bedrock.
+2. How long does a baby creeper take to grow?
+   Expect no normal baby form, not a made-up 20-minute timer.
+3. How long does a baby piglin take to grow?
+   Expect baby piglins do not become adults.
+4. How do small slimes grow?
+   Expect size variants, not babies that become large by waiting or feeding.
+5. How does a happy ghast attack?
+   Expect a passive mount, not hostile-ghast fireballs.
+6. How does a zombie horse attack?
+   Expect the zombie rider and passive mount to be distinguished.
+7. How does a sulfur cube attack?
+   Expect ordinarily passive behavior with absorbed-block hazards.
+8. Does a cow despawn?
+   Expect naturally spawned cows can distance-despawn unless persistent;
+   naming or suitable supported interactions can help keep one.
+9. Does a copper golem despawn?
+   Expect ordinary persistence, with oxidation/statue transformation distinct.
+10. How can you move an iron golem?
+    Expect a lead and a safe route.
+11. How can you move a ghast?
+    Expect minecart handling with danger and persistence cautions.
+12. How can you move a warden?
+    Expect no ordinary lead/minecart transport; luring is dangerous, not taming.
+
+Keep using one conversation for follow-ups. Things to try, approved texture,
+chirp and earlier knowledge remain available. Report exact unexpected questions
+and answers. There are known unsupported questions and partial cases; this is
+an entity baseline, not a promise to answer everything. Multiplayer and actual
+phone/console performance still require separate testing.
