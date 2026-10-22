@@ -31,3 +31,17 @@ Correction following the reported 0.2.1 import failure: the importable .mcaddon
 must use ordinary TimeTrapRobot_BP and TimeTrapRobot_RP folders at its root.
 Keep Content/behavior_packs/AI_Bot and Content/resource_packs/AI_Bot only in the
 separate submission-style ZIP. Neither archive contains another archive.
+
+## Final production data cleanup — user requirement
+
+Source URLs and development provenance may remain in current test builds. Before
+a final production package is distributed, remove them from playable scripts and
+data, including sources/reference arrays, revision IDs, evidence paths, confidence,
+verification and audit fields. Preserve the complete research records in the
+development project. Any required license/attribution notice belongs separately
+from runtime answer metadata.
+
+This is a pending final-packaging task, not a change to published 0.2.11. Add a
+production-data projection plus automated package checks when implementing it;
+verify answers and follow-up behavior remain equivalent after metadata removal.
+Do not strip by blindly replacing URL strings in generated JavaScript.

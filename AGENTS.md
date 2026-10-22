@@ -72,3 +72,11 @@ These preferences were explicitly requested by the user during in-game testing.
   requested after the editor froze expanding a multi-megabyte line. Keep build
   minification disabled and retain the oversized-line validation. Formatting
   alone is not a promise of lower memory use or faster device loading.
+
+- Final production packaging must strip development provenance from playable
+  scripts/data: source URLs, source/reference arrays, revision IDs, evidence paths,
+  verification/confidence and audit metadata. The user permits these in current
+  test builds. Retain full evidence in development/research files and keep any
+  required license/attribution notices separate from runtime answer metadata.
+  Verify final stripped output still answers correctly. Do not modify historical
+  test downloads to apply this future packaging requirement.
