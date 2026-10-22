@@ -118,3 +118,36 @@ The three subsequent development batches above are now packaged in isolated
 release 0.2.19. Historical statements about development-only status describe their
 original preparation; 0.2.18 and earlier downloads remain unchanged. See the
 0.2.19 release notes and focused checklist. Actual Minecraft testing is pending.
+
+## Plant and farming batch after 0.2.19 (development only)
+
+Adds 134 catalog block variants across crops, saplings, leaves, conventional
+flowers, coral forms, aquatic plants, fungi, moss, roots and fruit-producing plants.
+264 shared topic summaries have 405 catalog/topic applications. The exact member
+inventory is BLOCK_PLANT_AUDIT.json; data and revision/hash evidence are in
+ data/blocks/plants.json. Regenerate inventories with tools/block_family_audit.py.
+These counts describe scoped summaries, not complete botanical wiki coverage.
+
+New growth questions support planting, bone meal, hydration, maturity and crop
+followups. Location questions take precedence when a player asks where a plant
+grows. Names such as fire coral and chorus plant do not accidentally turn a
+harvesting question into a fire or growth question. Sugar cane and glow berries
+reach their block mechanics despite item/block identifier differences; small
+dripleaf and lily pad have natural-name aliases.
+
+Exceptions include 2-by-2 dark/pale oak saplings, giant spruce/jungle forms,
+mangrove propagule maturity, leaf collection versus sapling drops, farmland
+hydration, Nether wart on soul sand and no bone meal, Bedrock sugar-cane bone
+meal, nonaccelerated cactus, cocoa Fortune limits, aquatic shears, ordinary vine
+shears, Nether vine harvesting direction, coral Silk Touch and dead coral, moss
+spreading, hanging-root Silk Touch, pale moss bone meal, dripleaf conversion,
+Nether fungi on matching nylium, and mushroom/fruit harvesting. Source articles
+with disambiguation titles are replaced by actual species pages and dependencies.
+Future/other unreviewed plants are not silently folded into broad flower rules.
+
+Validation: TypeScript and 236 automated tests pass. Every 405 plant facet
+application is exercised through the public conversation engine, alongside
+natural phrasing, context and exception tests. Existing 5,780 entity requests
+remain green. Temporary readable bundle: 6,322,270 bytes, maximum line 1,607
+characters. No new release or Minecraft pass is claimed. Published 0.2.19 and
+all earlier downloads remain unchanged.

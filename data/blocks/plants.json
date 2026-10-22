@@ -1,0 +1,1694 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "oak_leaves",
+      "pattern": "oak_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops. Oak and dark oak leaves can also drop apples.",
+        "location": "Look on the corresponding trees in forests and plains.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "oak_sapling",
+      "pattern": "oak_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in forests and plains.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "spruce_leaves",
+      "pattern": "spruce_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in taiga and snowy taiga.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "spruce_sapling",
+      "pattern": "spruce_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in taiga and snowy taiga.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth. Four matching saplings in a 2-by-2 square can grow a giant tree; single saplings can grow smaller trees."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "birch_leaves",
+      "pattern": "birch_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in birch forests and ordinary forests.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "birch_sapling",
+      "pattern": "birch_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in birch forests and ordinary forests.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "jungle_leaves",
+      "pattern": "jungle_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in jungles.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "jungle_sapling",
+      "pattern": "jungle_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in jungles.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth. Four matching saplings in a 2-by-2 square can grow a giant tree; single saplings can grow smaller trees."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "acacia_leaves",
+      "pattern": "acacia_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in savannas.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "acacia_sapling",
+      "pattern": "acacia_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in savannas.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dark_oak_leaves",
+      "pattern": "dark_oak_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops. Oak and dark oak leaves can also drop apples.",
+        "location": "Look on the corresponding trees in dark forests.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dark_oak_sapling",
+      "pattern": "dark_oak_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in dark forests.",
+        "growth": "Plant 4 matching saplings in a 2-by-2 square on suitable soil, with clear space above. A single sapling does not grow this tree. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cherry_leaves",
+      "pattern": "cherry_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in cherry groves.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cherry_sapling",
+      "pattern": "cherry_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in cherry groves.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pale_oak_leaves",
+      "pattern": "pale_oak_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in pale gardens.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pale_oak_sapling",
+      "pattern": "pale_oak_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in pale gardens.",
+        "growth": "Plant 4 matching saplings in a 2-by-2 square on suitable soil, with clear space above. A single sapling does not grow this tree. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "poplar_leaves",
+      "pattern": "(?:red|orange|yellow)_poplar_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect the leaf block. Without them, leaves may drop sticks or a matching sapling rather than the leaf block. Fortune improves the chance of those drops.",
+        "location": "Look on the corresponding trees in dappled forests.",
+        "growth": "Natural leaves can decay when no longer connected to nearby logs. Leaves you place yourself do not decay. Use a matching sapling to grow a new tree; bone meal does not turn a leaf block into a tree."
+      },
+      "evidence": {
+        "title": "Leaves",
+        "revision": 3810011,
+        "sha256": "e3fef3f3349820a62c7cff2ee8105d3f6458c964b4fa103ea82e0f083c76fdb3",
+        "source": "https://minecraft.wiki/w/Leaves?oldid=3810011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "poplar_sapling",
+      "pattern": "poplar_sapling",
+      "topics": {
+        "mining": "Saplings drop themselves when broken by hand or with any tool. Silk Touch is unnecessary and Fortune does not multiply a planted sapling.",
+        "location": "Get saplings by breaking or letting leaves decay from matching trees in dappled forests.",
+        "growth": "Plant the sapling on suitable dirt-like soil with enough light and clear space above it. Bone meal can speed up growth."
+      },
+      "evidence": {
+        "title": "Sapling",
+        "revision": 3817455,
+        "sha256": "8939a7bcd5f2717454e20f78b051ced86afa20c943c6c70ffe7c5246e8602954",
+        "source": "https://minecraft.wiki/w/Sapling?oldid=3817455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "azalea_leaves",
+      "pattern": "azalea_leaves(?:_flowered)?",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect azalea leaves. Otherwise they may drop the corresponding azalea shrub. Fortune improves the shrub-drop chance.",
+        "location": "Find azalea leaves on azalea trees above lush caves. Flowering leaves and ordinary azalea leaves are different decorative variants.",
+        "growth": "Grow an azalea or flowering azalea with bone meal to make an azalea tree. Leaf blocks themselves are not saplings."
+      },
+      "evidence": {
+        "title": "Azalea",
+        "revision": 3776685,
+        "sha256": "e4abee4aa625a959aa118b40395b6150ee8498065be69e94fc0b409535d7704e",
+        "source": "https://minecraft.wiki/w/Azalea?oldid=3776685",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "azalea",
+      "pattern": "(?:flowering_)?azalea",
+      "topics": {
+        "mining": "Azaleas drop themselves when broken by hand or with any tool. Shears are unnecessary.",
+        "location": "Find azaleas in lush caves, or grow vegetation by using bone meal on moss blocks.",
+        "growth": "Place an azalea on suitable soil and use bone meal to grow an azalea tree, leaving enough room above. Flowering and nonflowering azaleas can both grow into trees."
+      },
+      "evidence": {
+        "title": "Azalea",
+        "revision": 3776685,
+        "sha256": "e4abee4aa625a959aa118b40395b6150ee8498065be69e94fc0b409535d7704e",
+        "source": "https://minecraft.wiki/w/Azalea?oldid=3776685",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "mangrove_leaves",
+      "pattern": "mangrove_leaves",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect mangrove leaves. Grow and collect propagules beneath the leaves to plant more mangrove trees; do not expect an ordinary mangrove sapling drop.",
+        "location": "Find mangrove leaves on mangrove trees in mangrove swamps.",
+        "growth": "Use bone meal on mangrove leaves with empty space underneath to start a hanging propagule. Use more bone meal on the propagule to mature it."
+      },
+      "evidence": {
+        "title": "Mangrove Propagule",
+        "revision": 3750925,
+        "sha256": "7ec97f12cfb574bec84d0dbedca65a31148dd7a9b9a6f0683427295d9e1fedeb",
+        "source": "https://minecraft.wiki/w/Mangrove_Propagule?oldid=3750925",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "mangrove_propagule",
+      "pattern": "mangrove_propagule",
+      "topics": {
+        "mining": "Collect hanging propagules only when fully mature. Immature hanging propagules drop nothing. A planted propagule drops itself when broken.",
+        "location": "Look beneath mangrove leaves in mangrove swamps for hanging propagules.",
+        "growth": "Let a hanging propagule mature before collecting it. Plant it on suitable soil, including underwater, with enough room for a mangrove tree. Bone meal can speed its growth."
+      },
+      "evidence": {
+        "title": "Mangrove Propagule",
+        "revision": 3750925,
+        "sha256": "7ec97f12cfb574bec84d0dbedca65a31148dd7a9b9a6f0683427295d9e1fedeb",
+        "source": "https://minecraft.wiki/w/Mangrove_Propagule?oldid=3750925",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wheat",
+      "pattern": "wheat",
+      "topics": {
+        "mining": "Harvest by breaking the mature crop by hand or with a tool. Mature wheat gives 1 wheat plus a variable number of seeds. Fortune increases seed yield, not the wheat count. Replant after harvesting.",
+        "location": "Look for this crop in village farms. You can also get wheat seeds by breaking grass.",
+        "growth": "Plant wheat seeds on farmland. Light level 9 or above supports normal growth. Nearby water keeps farmland hydrated; bone meal speeds up the crop. Protect farmland from trampling."
+      },
+      "evidence": {
+        "title": "Wheat Seeds",
+        "revision": 3828157,
+        "sha256": "812282ee61d8aefa814ca8d0e0f757d3d99efbb41ddf52bf636b38f3bd6f77ec",
+        "source": "https://minecraft.wiki/w/Wheat_Seeds?oldid=3828157",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "carrots",
+      "pattern": "carrots",
+      "topics": {
+        "mining": "Harvest by breaking the mature crop by hand or with a tool. A mature carrot crop normally gives 2\u20135 carrots. Fortune can increase the yield. Replant after harvesting.",
+        "location": "Look for this crop in village farms. Keep some of the planting material for your own farm.",
+        "growth": "Plant carrots on farmland. Light level 9 or above supports normal growth. Nearby water keeps farmland hydrated; bone meal speeds up the crop. Protect farmland from trampling."
+      },
+      "evidence": {
+        "title": "Carrot",
+        "revision": 3780130,
+        "sha256": "9a36e39c3ce98ad55c17615c33033612c00b5fac4a1732cf7952eaa10aa64925",
+        "source": "https://minecraft.wiki/w/Carrot?oldid=3780130",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "potatoes",
+      "pattern": "potatoes",
+      "topics": {
+        "mining": "Harvest by breaking the mature crop by hand or with a tool. A mature potato crop normally gives 2\u20135 potatoes and has a small chance of an extra poisonous potato. Fortune can increase ordinary potato yield. Replant after harvesting.",
+        "location": "Look for this crop in village farms. Keep some of the planting material for your own farm.",
+        "growth": "Plant potatoes on farmland. Light level 9 or above supports normal growth. Nearby water keeps farmland hydrated; bone meal speeds up the crop. Protect farmland from trampling."
+      },
+      "evidence": {
+        "title": "Potato",
+        "revision": 3820494,
+        "sha256": "5b60474cbe5e7983b189a112d066d6d51c67ec83e1c35d5502259fba319aa418",
+        "source": "https://minecraft.wiki/w/Potato?oldid=3820494",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "beetroot",
+      "pattern": "beetroot",
+      "topics": {
+        "mining": "Harvest by breaking the mature crop by hand or with a tool. A mature beetroot crop gives beetroot and seeds. Fortune improves the seed yield, not the beetroot count. Replant after harvesting.",
+        "location": "Look for this crop in village farms. Keep some of the planting material for your own farm.",
+        "growth": "Plant beetroot seeds on farmland. Light level 9 or above supports normal growth. Nearby water keeps farmland hydrated; bone meal speeds up the crop. Protect farmland from trampling."
+      },
+      "evidence": {
+        "title": "Beetroot Seeds",
+        "revision": 3835352,
+        "sha256": "cfcb74b75570b5618ac998eb9aef1d14bb0dd722e9dd9c50a9a19d7dd0e27ca5",
+        "source": "https://minecraft.wiki/w/Beetroot_Seeds?oldid=3835352",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "farmland",
+      "pattern": "farmland",
+      "topics": {
+        "mining": "Breaking farmland drops dirt, not a farmland item; a shovel is fastest. Silk Touch does not collect farmland intact.",
+        "location": "Use a hoe on dirt or grass blocks to make farmland. Village farms also contain it.",
+        "growth": "Farmland supports crops. Water up to 4 blocks away horizontally, at the same level or one block above, can hydrate it. Dry empty farmland can turn back into dirt; trampling can also destroy it.",
+        "water": "Water nearby hydrates farmland. Putting water directly into its block space destroys the farmland rather than waterlogging it."
+      },
+      "evidence": {
+        "title": "Farmland",
+        "revision": 3842639,
+        "sha256": "1cf33ed297ccd36b40d2eb9db31c2f374cc08581c205d9c9af41d82a680c0a64",
+        "source": "https://minecraft.wiki/w/Farmland?oldid=3842639",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "nether_wart_crop",
+      "pattern": "nether_wart",
+      "topics": {
+        "mining": "Mature Nether wart yields 2\u20134 Nether wart; Fortune can increase the yield. Immature plants give 1. Harvest by hand or with any tool and replant some.",
+        "location": "Look in Nether fortresses and some housing-unit bastion remnants for Nether wart gardens.",
+        "growth": "Plant Nether wart on soul sand, not soul soil. It can grow in any dimension and does not need water or light. Bone meal does not speed it up."
+      },
+      "evidence": {
+        "title": "Nether Wart",
+        "revision": 3820490,
+        "sha256": "8118f1bac5676d8297197c4df6dd1676edb38b6966cdf673235879bfe2962232",
+        "source": "https://minecraft.wiki/w/Nether_Wart?oldid=3820490",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "sugar_cane",
+      "pattern": "reeds",
+      "topics": {
+        "mining": "Break the upper sugar cane blocks and leave the bottom one to regrow. The blocks drop sugar cane; no special tool is required. Fortune does not multiply the yield.",
+        "location": "Find sugar cane beside water on riverbanks and shorelines.",
+        "growth": "Plant sugar cane on suitable soil or sand directly beside water. It naturally grows upward to 3 blocks. Bone meal speeds its growth.",
+        "water": "Sugar cane needs water beside the supporting soil, not poured over the cane itself. Removing nearby water can uproot it."
+      },
+      "evidence": {
+        "title": "Sugar Cane",
+        "revision": 3810018,
+        "sha256": "d2a1561d6545fddf8fe751b4eb94aaf8e7cec12fbbc5ccef36e7391e69aa5cd7",
+        "source": "https://minecraft.wiki/w/Sugar_Cane?oldid=3810018",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cactus",
+      "pattern": "cactus",
+      "topics": {
+        "mining": "Cactus can be broken by hand and drops itself. Break upper segments and leave the base to regrow. Keep dropped items away from cactus, which can destroy them.",
+        "location": "Find cactus in deserts and badlands.",
+        "growth": "Plant cactus on sand or red sand with the sides clear of obstructing blocks. It grows upward naturally. It does not need water; bone meal does not speed its growth."
+      },
+      "evidence": {
+        "title": "Cactus",
+        "revision": 3849951,
+        "sha256": "e6d6494765882ae9361c608a4b85d2b2e3213c49fb16f2db006027ed27b8c0a6",
+        "source": "https://minecraft.wiki/w/Cactus?oldid=3849951",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "bamboo",
+      "pattern": "(?:bamboo|bamboo_sapling)",
+      "topics": {
+        "mining": "Bamboo drops bamboo when broken. A sword breaks stalks instantly. Leave the bottom segment to regrow; breaking a lower segment breaks the bamboo above it too.",
+        "location": "Find bamboo in jungles, particularly bamboo jungles.",
+        "growth": "Plant bamboo on suitable soil and leave space above it. It grows tall naturally; bone meal speeds growth. It does not need adjacent water."
+      },
+      "evidence": {
+        "title": "Bamboo",
+        "revision": 3841132,
+        "sha256": "4e19e95a750060923defb055e335e0aba0fd4363de8e79dda4e768ddab813cac",
+        "source": "https://minecraft.wiki/w/Bamboo?oldid=3841132",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cocoa",
+      "pattern": "cocoa",
+      "topics": {
+        "mining": "A mature cocoa pod drops 3 cocoa beans. An axe is fastest. Fortune does not increase the yield. Replant cocoa beans on a suitable jungle wood surface.",
+        "location": "Look for cocoa pods attached to jungle trees in jungles.",
+        "growth": "Plant cocoa beans on the side of jungle logs or jungle wood, including stripped versions. The wood need not be part of a living tree. Bone meal speeds up pod growth; water is unnecessary."
+      },
+      "evidence": {
+        "title": "Cocoa Beans",
+        "revision": 3786236,
+        "sha256": "cc02272bbe776bcb665a9e1836ef9061a0102b4481e1a1973836d8789549fbf8",
+        "source": "https://minecraft.wiki/w/Cocoa_Beans?oldid=3786236",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "sweet_berries",
+      "pattern": "sweet_berry_bush",
+      "topics": {
+        "mining": "Use a grown sweet berry bush to pick berries without destroying it. A fully grown bush gives 2\u20133 berries and returns to an earlier growth stage. Breaking a grown bush can also yield berries.",
+        "location": "Look for sweet berry bushes in taiga and snowy taiga biomes.",
+        "growth": "Plant sweet berries on suitable soil. Bone meal speeds bush growth. Grown bushes slow and can hurt most mobs and players who move through them."
+      },
+      "evidence": {
+        "title": "Sweet Berries",
+        "revision": 3822938,
+        "sha256": "2c77b8d3085968b59e2204399557a397d9beb55ffdeeb57c8a21746d646a8d42",
+        "source": "https://minecraft.wiki/w/Sweet_Berries?oldid=3822938",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "torchflower_crop",
+      "pattern": "torchflower_crop",
+      "topics": {
+        "mining": "Harvest the mature crop to get a torchflower. Breaking it before maturity returns its planting material instead. A mature crop does not return extra seeds or pods.",
+        "location": "Have an adult sniffer dig up torchflower seeds from suitable ground, then plant them to grow this crop.",
+        "growth": "Plant torchflower seeds on farmland with enough light. Bone meal speeds growth. Harvest the mature plant and obtain more planting material from sniffers."
+      },
+      "evidence": {
+        "title": "Torchflower Seeds",
+        "revision": 3828161,
+        "sha256": "812f6f009aeec7d4d69ac70872424c59a1e85fe780137ecc0f2c7c653c6ee95c",
+        "source": "https://minecraft.wiki/w/Torchflower_Seeds?oldid=3828161",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pitcher_crop",
+      "pattern": "pitcher_crop",
+      "topics": {
+        "mining": "Harvest the mature crop to get a pitcher plant. Breaking it before maturity returns its planting material instead. A mature crop does not return extra seeds or pods.",
+        "location": "Have an adult sniffer dig up pitcher pods from suitable ground, then plant them to grow this crop.",
+        "growth": "Plant pitcher pods on farmland with enough light. Bone meal speeds growth. Harvest the mature plant and obtain more planting material from sniffers."
+      },
+      "evidence": {
+        "title": "Pitcher Pod",
+        "revision": 3828163,
+        "sha256": "48e0c6e0241f4d1295d7b0c25e82d7ebc541426851abb5379f57ec93c3170322",
+        "source": "https://minecraft.wiki/w/Pitcher_Pod?oldid=3828163",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "kelp",
+      "pattern": "kelp",
+      "topics": {
+        "mining": "Break kelp by hand or with any tool. Each broken segment drops kelp; breaking a lower segment also breaks those above it. Leave the base to regrow.",
+        "location": "Look oceans except warm and frozen oceans.",
+        "growth": "Plant kelp underwater on a suitable solid surface with water above it. Bone meal can extend it upward.",
+        "water": "This aquatic plant needs water to survive. Do not drain its growing space."
+      },
+      "evidence": {
+        "title": "Kelp",
+        "revision": 3850000,
+        "sha256": "0bb0393bfaafcb3f036ea68e2a5f0e10a52674d9110d6fa4836a68441c303a6a",
+        "source": "https://minecraft.wiki/w/Kelp?oldid=3850000",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "seagrass",
+      "pattern": "seagrass",
+      "topics": {
+        "mining": "Use shears to collect seagrass. Other ordinary tools, including Silk Touch tools without shears, do not collect it. Tall seagrass gives 2 seagrass items.",
+        "location": "Look underwater in rivers and many ocean biomes.",
+        "growth": "Use bone meal underwater on suitable blocks to grow seagrass. It must stay in water.",
+        "water": "This aquatic plant needs water to survive. Do not drain its growing space."
+      },
+      "evidence": {
+        "title": "Seagrass",
+        "revision": 3791040,
+        "sha256": "cf22eaddbfa281f210a3ea0fae18ef9193c25e07095312dd1a7020cea2e8b524",
+        "source": "https://minecraft.wiki/w/Seagrass?oldid=3791040",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "vine",
+      "pattern": "vine",
+      "topics": {
+        "mining": "Use shears to collect ordinary vines. Silk Touch on another tool does not collect them. Breaking their support can destroy hanging vines without collecting them.",
+        "location": "Find vines in jungles and swamps, hanging from trees and other surfaces.",
+        "growth": "Place vines against a suitable support. They spread over nearby surfaces and hang downward. Bone meal does not speed up ordinary vines."
+      },
+      "evidence": {
+        "title": "Vines",
+        "revision": 3809945,
+        "sha256": "3df74ebb805b43bc75a243ae254a709d64e0d41a4a8aca01328377c7a04233be",
+        "source": "https://minecraft.wiki/w/Vines?oldid=3809945",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "twisting_vines",
+      "pattern": "twisting_vines",
+      "topics": {
+        "mining": "Use shears or Silk Touch to guarantee a vine drop from the segment you break. Fortune III also guarantees its drop; otherwise drops are not guaranteed. Harvest from the top so unsupported segments are not wasted.",
+        "location": "Find these vines in warped forests in the Nether.",
+        "growth": "These vines grow upward. Bone meal extends the growing tip when space is available."
+      },
+      "evidence": {
+        "title": "Twisting Vines",
+        "revision": 3816872,
+        "sha256": "8ade81d1bf74e0c8732de8657ddeabe2dafb5d9a237a0861e888fe9cf675bcaf",
+        "source": "https://minecraft.wiki/w/Twisting_Vines?oldid=3816872",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "weeping_vines",
+      "pattern": "weeping_vines",
+      "topics": {
+        "mining": "Use shears or Silk Touch to guarantee a vine drop from the segment you break. Fortune III also guarantees its drop; otherwise drops are not guaranteed. Harvest from the bottom so unsupported segments are not wasted.",
+        "location": "Find these vines in crimson forests in the Nether.",
+        "growth": "These vines grow downward. Bone meal extends the growing tip when space is available."
+      },
+      "evidence": {
+        "title": "Weeping Vines",
+        "revision": 3820470,
+        "sha256": "973564ffdcf1762d7259d4f3c520915958128b56adc9d82cd4284c0be1f4d93b",
+        "source": "https://minecraft.wiki/w/Weeping_Vines?oldid=3820470",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "moss",
+      "pattern": "moss_block",
+      "topics": {
+        "mining": "Moss drops itself by hand or with any tool; a hoe is fastest. Silk Touch is unnecessary and Fortune does not increase the block drop.",
+        "location": "Find moss on the floor and ceiling of lush caves, or obtain it from some loot and wandering traders.",
+        "growth": "Use bone meal on moss to spread it over nearby convertible blocks with air above. This can also grow moss carpet, grass and azaleas. Not every block is convertible."
+      },
+      "evidence": {
+        "title": "Moss Block",
+        "revision": 3744232,
+        "sha256": "8d94fdeaf76badfb7f80e3b59c00fb1cfbe7b51402c979e9e35dcdba8c217139",
+        "source": "https://minecraft.wiki/w/Moss_Block?oldid=3744232",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "moss_carpet",
+      "pattern": "moss_carpet",
+      "topics": {
+        "mining": "Moss carpet drops itself by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Find moss carpet in lush caves, grow it by bone-mealing moss blocks, or craft it from moss blocks.",
+        "growth": "Moss carpet is a thin decorative layer. Use bone meal on a moss block to spread moss vegetation; carpet is not the same as a moss block."
+      },
+      "evidence": {
+        "title": "Moss Carpet",
+        "revision": 3744234,
+        "sha256": "8809b5118d33ffd82ccb40c85765acd5acf0d448de2797c6762c0c98b7669d54",
+        "source": "https://minecraft.wiki/w/Moss_Carpet?oldid=3744234",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "chorus_flower",
+      "pattern": "chorus_flower",
+      "topics": {
+        "mining": "Break the chorus flower itself to collect it. Breaking the supporting chorus plant does not collect the flowers for you. An axe is fastest.",
+        "location": "Find chorus flowers at the tips of chorus plants on the outer End islands.",
+        "growth": "Plant a chorus flower on End stone with space around and above it. It grows a branching chorus plant. Bone meal does not speed it up."
+      },
+      "evidence": {
+        "title": "Chorus Flower",
+        "revision": 3854642,
+        "sha256": "731288e78648b58403587b22a398dd6cbb4a6732d34248298d2c6daaed4b0d8e",
+        "source": "https://minecraft.wiki/w/Chorus_Flower?oldid=3854642",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "chorus_plant",
+      "pattern": "chorus_plant",
+      "topics": {
+        "mining": "Breaking chorus plant stems gives a chance of chorus fruit, not a placeable stem block. Breaking the base collapses the connected plant. Harvest flowers separately first if you want to replant.",
+        "location": "Find chorus plants on the outer End islands.",
+        "growth": "Grow a new chorus plant by placing a chorus flower on End stone. Leave room for branches. Stem blocks are not the planting item."
+      },
+      "evidence": {
+        "title": "Chorus Plant",
+        "revision": 3834894,
+        "sha256": "690e6515869dafdfd1837b664e8ad68989182a7c6bea9cd4aea0d51d58207e39",
+        "source": "https://minecraft.wiki/w/Chorus_Plant?oldid=3834894",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "live_coral_block",
+      "pattern": "(?:tube|brain|bubble|fire|horn)_coral_block",
+      "topics": {
+        "mining": "Use a Silk Touch pickaxe to collect the live coral block. A pickaxe without Silk Touch gives the dead block instead.",
+        "location": "Look in coral reefs in warm oceans.",
+        "water": "Keep live coral in contact with suitable water to prevent it from turning into dead coral. Putting dead coral back in water does not revive it."
+      },
+      "evidence": {
+        "title": "Coral Block",
+        "revision": 3830481,
+        "sha256": "550d8be760eab63bf5847229451c5b8e5cb810cb23e9517aeb22fd7ba449af91",
+        "source": "https://minecraft.wiki/w/Coral_Block?oldid=3830481",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "live_coral_plant",
+      "pattern": "(?:tube|brain|bubble|fire|horn)_coral",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this coral plant. Without Silk Touch it drops nothing.",
+        "location": "Look in coral reefs in warm oceans.",
+        "water": "Keep live coral in contact with suitable water to prevent it from turning into dead coral. Putting dead coral back in water does not revive it."
+      },
+      "evidence": {
+        "title": "Coral",
+        "revision": 3830479,
+        "sha256": "ed6dd3fb07cfbafff062cb918edbefead6375daca11d0b0d8d21f6035660e65b",
+        "source": "https://minecraft.wiki/w/Coral?oldid=3830479",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "live_coral_fan",
+      "pattern": "(?:tube|brain|bubble|fire|horn)_coral(?:_wall)?_fan",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this coral decoration. Without Silk Touch it drops nothing. Wall-mounted fans drop their matching fan item, not a separate wall-fan item.",
+        "location": "Look in coral reefs in warm oceans.",
+        "water": "Keep live coral in contact with suitable water to prevent it from turning into dead coral. Putting dead coral back in water does not revive it."
+      },
+      "evidence": {
+        "title": "Coral Fan",
+        "revision": 3776706,
+        "sha256": "98284e3da2b7c9a96cac497306be292465feb32e0d76b829e35eb7d61e44c4b6",
+        "source": "https://minecraft.wiki/w/Coral_Fan?oldid=3776706",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dead_coral_block",
+      "pattern": "dead_(?:tube|brain|bubble|fire|horn)_coral_block",
+      "topics": {
+        "mining": "Use any pickaxe to collect the dead coral block. Silk Touch is unnecessary.",
+        "location": "Look in coral reefs in warm oceans.",
+        "water": "Dead coral stays dead in water; it cannot be revived by adding water or bone meal."
+      },
+      "evidence": {
+        "title": "Dead Coral Block",
+        "revision": 3751020,
+        "sha256": "15b1d246ed524b4cd2c7b29fad61fb7e33247b0bfcb331f04f92fa0ae1a5cacb",
+        "source": "https://minecraft.wiki/w/Dead_Coral_Block?oldid=3751020",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dead_coral_plant",
+      "pattern": "dead_(?:tube|brain|bubble|fire|horn)_coral",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this coral plant. Without Silk Touch it drops nothing.",
+        "location": "Look in coral reefs in warm oceans.",
+        "water": "Dead coral stays dead in water; it cannot be revived by adding water or bone meal."
+      },
+      "evidence": {
+        "title": "Dead Coral",
+        "revision": 3776722,
+        "sha256": "893a34ad06af5bc28e5a644b0ac3c05426ac78a26851089f7b40d711b887028a",
+        "source": "https://minecraft.wiki/w/Dead_Coral?oldid=3776722",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dead_coral_fan",
+      "pattern": "dead_(?:tube|brain|bubble|fire|horn)_coral(?:_wall)?_fan",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this coral decoration. Without Silk Touch it drops nothing. Wall-mounted fans drop their matching fan item, not a separate wall-fan item.",
+        "location": "Look in coral reefs in warm oceans.",
+        "water": "Dead coral stays dead in water; it cannot be revived by adding water or bone meal."
+      },
+      "evidence": {
+        "title": "Dead Coral Fan",
+        "revision": 3751025,
+        "sha256": "26c0ef42dd2ed2abe277cf356c4d3e828f833271cd05b604bd3c810ef37c1cb9",
+        "source": "https://minecraft.wiki/w/Dead_Coral_Fan?oldid=3751025",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dandelion",
+      "pattern": "dandelion",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in many grassy Overworld biomes, including plains for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "poppy",
+      "pattern": "poppy",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in many grassy Overworld biomes, including plains for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "blue_orchid",
+      "pattern": "blue_orchid",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in swamps for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "allium",
+      "pattern": "allium",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "azure_bluet",
+      "pattern": "azure_bluet",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "oxeye_daisy",
+      "pattern": "oxeye_daisy",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cornflower",
+      "pattern": "cornflower",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lily_of_the_valley",
+      "pattern": "lily_of_the_valley",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in forests and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "orange_tulip",
+      "pattern": "orange_tulip",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "red_tulip",
+      "pattern": "red_tulip",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "white_tulip",
+      "pattern": "white_tulip",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pink_tulip",
+      "pattern": "pink_tulip",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in plains and flower forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "sunflower",
+      "pattern": "sunflower",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in sunflower plains for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lilac",
+      "pattern": "lilac",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "rose_bush",
+      "pattern": "rose_bush",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "peony",
+      "pattern": "peony",
+      "topics": {
+        "mining": "Break this flower by hand or with any tool to collect it. Silk Touch is unnecessary and Fortune does not multiply its ordinary block drop.",
+        "location": "Look in forests for this flower.",
+        "growth": "Place the flower on suitable dirt-like soil with enough light. Flowers are not farmland crops and do not need nearby irrigation water."
+      },
+      "evidence": {
+        "title": "Flower",
+        "revision": 3847447,
+        "sha256": "71a57ff1e78ba965c6bba47d9f5d90a2700c78a11c1e0dd979f7ea4cebded514",
+        "source": "https://minecraft.wiki/w/Flower?oldid=3847447",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "hanging_roots",
+      "pattern": "hanging_roots",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect hanging roots. Without either, they drop nothing.",
+        "location": "Look beneath rooted dirt in lush caves, or use bone meal on rooted dirt to grow hanging roots underneath.",
+        "growth": "Use bone meal on rooted dirt with empty space below to grow hanging roots. Using a hoe on rooted dirt also removes the roots and turns it into dirt."
+      },
+      "evidence": {
+        "title": "Hanging Roots",
+        "revision": 3776742,
+        "sha256": "3b7483e006a54c7554ba50e2eb0e6991e61d064b022d61e347a63db7043b55fe",
+        "source": "https://minecraft.wiki/w/Hanging_Roots?oldid=3776742",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "mangrove_roots",
+      "pattern": "mangrove_roots",
+      "topics": {
+        "mining": "Mangrove roots drop themselves by hand or with any tool; an axe is fastest. Silk Touch is unnecessary.",
+        "location": "Find roots around mangrove trees in mangrove swamps, or grow a mangrove propagule.",
+        "water": "Mangrove roots can be waterlogged, even though they fill a full block space."
+      },
+      "evidence": {
+        "title": "Mangrove Roots",
+        "revision": 3830108,
+        "sha256": "cc13184e80590d63635b93821e3061423bfa28e31361a6bf93a4b205be4b97e7",
+        "source": "https://minecraft.wiki/w/Mangrove_Roots?oldid=3830108",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "muddy_roots",
+      "pattern": "muddy_mangrove_roots",
+      "topics": {
+        "mining": "Muddy mangrove roots drop themselves by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary.",
+        "location": "Look where mangrove roots meet mud in mangrove swamps, or craft the block from mud and mangrove roots."
+      },
+      "evidence": {
+        "title": "Muddy Mangrove Roots",
+        "revision": 3630134,
+        "sha256": "a9e0b2a2c6216adc024b6745077f5d0934c945e7f05adb9928694f190e7f1e4d",
+        "source": "https://minecraft.wiki/w/Muddy_Mangrove_Roots?oldid=3630134",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "glow_berries",
+      "pattern": "cave_vines(?:_(?:body|head)_with_berries)?",
+      "topics": {
+        "mining": "Use a berry-bearing cave vine to collect 1 glow berry without breaking it. Breaking a vine also yields 1 glow berry if it has berries, or nothing if it has none. Fortune does not increase the yield.",
+        "location": "Find cave vines hanging from ceilings in lush caves.",
+        "growth": "Place glow berries under a block to start hanging cave vines. Use bone meal on a cave vine to make it bear berries. Vines grow downward when space is clear."
+      },
+      "evidence": {
+        "title": "Glow Berries",
+        "revision": 3851254,
+        "sha256": "c6667cdcb176a6ae2fdbb1e72a88b35829c15bbce1135f3e0bd6d676986dcaf1",
+        "source": "https://minecraft.wiki/w/Glow_Berries?oldid=3851254",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "big_dripleaf",
+      "pattern": "big_dripleaf",
+      "topics": {
+        "mining": "Big dripleaf can be harvested with any tool; an axe is fastest. Breaking any part collapses the plant, dropping big dripleaf from its parts.",
+        "location": "Find big dripleaf in lush caves.",
+        "growth": "Bone meal can grow a small dripleaf into a big dripleaf and can make a big dripleaf taller. Leave space above. Its leaf temporarily tilts when stood on."
+      },
+      "evidence": {
+        "title": "Big Dripleaf",
+        "revision": 3785296,
+        "sha256": "5a5f8c4faf227b83f9e7cacb21ef764c2ce92e137118180ff83c07f74c9f94a8",
+        "source": "https://minecraft.wiki/w/Big_Dripleaf?oldid=3785296",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "small_dripleaf",
+      "pattern": "small_dripleaf_block",
+      "topics": {
+        "mining": "Use shears to collect small dripleaf. Other tools, breaking its support or piston movement drop nothing.",
+        "location": "Find small dripleaf in lush caves, or buy it from wandering traders.",
+        "growth": "Bone meal turns small dripleaf into big dripleaf. It does not multiply small dripleaves; use wandering traders for a renewable supply."
+      },
+      "evidence": {
+        "title": "Small Dripleaf",
+        "revision": 3744209,
+        "sha256": "24597b944bd31c6ef6e1a3ff9e51e9d5cbd4bd008cca326f1b7d0362341b0842",
+        "source": "https://minecraft.wiki/w/Small_Dripleaf?oldid=3744209",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pale_moss",
+      "pattern": "pale_moss_block",
+      "topics": {
+        "mining": "Pale moss drops itself by hand or with any tool; a hoe is fastest. Silk Touch is unnecessary.",
+        "location": "Find pale moss patches in pale gardens.",
+        "growth": "Use bone meal on pale moss blocks to spread pale moss over nearby convertible blocks and grow pale moss carpet."
+      },
+      "evidence": {
+        "title": "Pale Moss Block",
+        "revision": 3841809,
+        "sha256": "641a3f71bd68f3059e4539c9f84de984e8057c2f1e4ca8723c49bbbf59ef5cb4",
+        "source": "https://minecraft.wiki/w/Pale_Moss_Block?oldid=3841809",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pale_moss_carpet",
+      "pattern": "pale_moss_carpet",
+      "topics": {
+        "mining": "Pale moss carpet drops itself when broken by hand or with a tool.",
+        "location": "Find pale moss carpet on pale moss patches in pale gardens.",
+        "growth": "Pale moss carpet can grow decorative side coverings against neighboring solid blocks. Bone meal can grow these side coverings; it is not ordinary farmland."
+      },
+      "evidence": {
+        "title": "Pale Moss Carpet",
+        "revision": 3847380,
+        "sha256": "a5cdd07d1e228889d99f4d5cff30c4b1b0e666b86602d846baaa7ce8c199a150",
+        "source": "https://minecraft.wiki/w/Pale_Moss_Carpet?oldid=3847380",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pale_hanging_moss",
+      "pattern": "pale_hanging_moss",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect pale hanging moss. Otherwise it drops nothing.",
+        "location": "Find pale hanging moss under pale oak leaves and logs in pale gardens. Sapling-grown pale oaks do not automatically generate it.",
+        "growth": "Pale hanging moss does not naturally extend after placement. Use bone meal to extend it downward when there is room."
+      },
+      "evidence": {
+        "title": "Pale Hanging Moss",
+        "revision": 3778429,
+        "sha256": "b94747447d0536c9358fd948da7a1cefc87ece38205b192ef92a61cbcfcdd9be",
+        "source": "https://minecraft.wiki/w/Pale_Hanging_Moss?oldid=3778429",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "crimson_fungus",
+      "pattern": "crimson_fungus",
+      "topics": {
+        "mining": "Fungi drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Find this fungus in crimson forests in the Nether.",
+        "growth": "Use bone meal on this fungus planted on crimson nylium to grow its matching huge fungus. Leave enough room. Normal planting soil and huge-fungus growth requirements are different."
+      },
+      "evidence": {
+        "title": "Crimson Fungus",
+        "revision": 3749057,
+        "sha256": "8309edaa1ef31419af10690086686c50bf14ef7fc6216c0a5956f7b47a62e0c4",
+        "source": "https://minecraft.wiki/w/Crimson_Fungus?oldid=3749057",
+        "dependencies": [],
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "warped_fungus",
+      "pattern": "warped_fungus",
+      "topics": {
+        "mining": "Fungi drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Find this fungus in warped forests in the Nether.",
+        "growth": "Use bone meal on this fungus planted on warped nylium to grow its matching huge fungus. Leave enough room. Normal planting soil and huge-fungus growth requirements are different."
+      },
+      "evidence": {
+        "title": "Warped Fungus",
+        "revision": 3749056,
+        "sha256": "d60d3926cd2b35a8d2d7c36eb07d8ea5cb0e0272d721007ce51d924737dcce7b",
+        "source": "https://minecraft.wiki/w/Warped_Fungus?oldid=3749056",
+        "dependencies": [],
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "nether_roots",
+      "pattern": "(?:crimson|warped)_roots",
+      "topics": {
+        "mining": "Nether roots drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Find crimson roots in crimson forests and warped roots in warped forests in the Nether.",
+        "growth": "Nether roots are decorative vegetation, not tree saplings. Bone meal on nylium grows Nether vegetation, including appropriate roots."
+      },
+      "evidence": {
+        "title": "Crimson Roots",
+        "revision": 3776720,
+        "sha256": "358c6cd217e9b0e4d8f9301b685a1d20aeb1d97fcb206d99443ae86c61121f2c",
+        "source": "https://minecraft.wiki/w/Crimson_Roots?oldid=3776720",
+        "dependencies": [
+          {
+            "title": "Warped Roots",
+            "revision": 3744301,
+            "sha256": "d3c225d2fd4110cadcf4085761ca82314ef783629521bfdf30226507e0cc98e0",
+            "source": "https://minecraft.wiki/w/Warped_Roots?oldid=3744301"
+          }
+        ],
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "mushrooms",
+      "pattern": "(?:brown|red)_mushroom",
+      "topics": {
+        "mining": "Small mushrooms drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Look in dark areas, forests, mushroom fields and parts of the Nether for mushrooms.",
+        "growth": "Mushrooms can spread in suitable dim conditions. On mycelium, podzol or nylium they can be planted regardless of light. Bone meal can grow a huge mushroom when substrate and space requirements are met."
+      },
+      "evidence": {
+        "title": "Brown Mushroom",
+        "revision": 3851178,
+        "sha256": "c095166a0d9e53b82eddef87a14866ee5956316f4058642070e249887b5ef491",
+        "source": "https://minecraft.wiki/w/Brown_Mushroom?oldid=3851178",
+        "dependencies": [
+          {
+            "title": "Red Mushroom",
+            "revision": 3839259,
+            "sha256": "6e86c3c3be02dc7cf69dba6263cde23e7928829f456290dd1733a64592e1a0f6",
+            "source": "https://minecraft.wiki/w/Red_Mushroom?oldid=3839259"
+          }
+        ],
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "huge_mushroom_blocks",
+      "pattern": "(?:brown_mushroom_block|red_mushroom_block|mushroom_stem)",
+      "topics": {
+        "mining": "Use Silk Touch to collect the mushroom block itself. Cap blocks broken without Silk Touch can drop mushrooms; mushroom stems do not yield mushrooms. An axe is fastest.",
+        "location": "Find huge mushrooms in mushroom fields and dark forests, or grow a small mushroom with bone meal under suitable conditions.",
+        "growth": "Huge mushroom blocks are building materials, not seeds for another huge mushroom. Use bone meal on a small red or brown mushroom to grow one."
+      },
+      "evidence": {
+        "title": "Huge Mushroom",
+        "revision": 3818647,
+        "sha256": "0e85d1c7d94501dd1723ff08471a3b43fd43c71995137278db1adb33d5a4d898",
+        "source": "https://minecraft.wiki/w/Huge_Mushroom?oldid=3818647",
+        "dependencies": [
+          {
+            "title": "Brown Mushroom",
+            "revision": 3851178,
+            "sha256": "c095166a0d9e53b82eddef87a14866ee5956316f4058642070e249887b5ef491",
+            "source": "https://minecraft.wiki/w/Brown_Mushroom?oldid=3851178"
+          },
+          {
+            "title": "Red Mushroom",
+            "revision": 3839259,
+            "sha256": "6e86c3c3be02dc7cf69dba6263cde23e7928829f456290dd1733a64592e1a0f6",
+            "source": "https://minecraft.wiki/w/Red_Mushroom?oldid=3839259"
+          }
+        ],
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "ferns",
+      "pattern": "(?:fern|large_fern)",
+      "topics": {
+        "mining": "Use shears to collect ferns; a large fern gives 2 fern items. Without shears they may drop wheat seeds instead. Fortune can improve the seed yield.",
+        "location": "Look in jungles and taiga biomes for ferns.",
+        "growth": "Place ferns on suitable dirt-like soil. Bone meal on a fern can grow a large fern."
+      },
+      "evidence": {
+        "title": "Fern",
+        "revision": 3810026,
+        "sha256": "d0dfba9371e6723d6fff4127824e485adf6bb1f86b1e47f739b3b5cf752282b7",
+        "source": "https://minecraft.wiki/w/Fern?oldid=3810026",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "grass_plants",
+      "pattern": "(?:short_grass|tall_grass)",
+      "topics": {
+        "mining": "Use shears to collect grass plants. Otherwise they may drop wheat seeds. Fortune can improve the seed yield. Tall grass gives short grass items rather than a separate tall-grass item.",
+        "location": "Look on grassy terrain in many Overworld biomes.",
+        "growth": "Use bone meal on grass blocks to generate vegetation appropriate to the biome. Bone meal on short grass can grow tall grass."
+      },
+      "evidence": {
+        "title": "Short Grass",
+        "revision": 3810034,
+        "sha256": "666600d606676096e98bb34432b9402a421ef9611bcc74b93404329bfb794033",
+        "source": "https://minecraft.wiki/w/Short_Grass?oldid=3810034",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lily_pad",
+      "pattern": "waterlily",
+      "topics": {
+        "mining": "Lily pads drop themselves when broken by hand or with any tool. Boats can also break them.",
+        "location": "Find lily pads on water in swamps and mangrove swamps.",
+        "growth": "Lily pads are placed on water surfaces. They do not grow taller or spread by themselves, and bone meal does not multiply them."
+      },
+      "evidence": {
+        "title": "Lily Pad",
+        "revision": 3826111,
+        "sha256": "12731557798a0bf964347b7f2dc57d98e2da8070cd9beeb648995f6d83fb4dcf",
+        "source": "https://minecraft.wiki/w/Lily_Pad?oldid=3826111",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "melon",
+      "pattern": "melon_block",
+      "topics": {
+        "mining": "A melon normally drops 3\u20137 melon slices. Fortune can increase the yield, capped at 9 slices. Silk Touch collects the whole melon. An axe is fastest.",
+        "location": "Find melons in jungles or grow them from melon seeds.",
+        "growth": "Plant melon seeds on farmland to grow a stem. Once mature, the stem needs an adjacent suitable empty growing space to produce a melon. Harvest the melon while leaving the stem for more fruit."
+      },
+      "evidence": {
+        "title": "Melon",
+        "revision": 3778101,
+        "sha256": "732d7d2707ca68d069b5c3768a76cb9d51ee163449989dc1015a48c334f8668d",
+        "source": "https://minecraft.wiki/w/Melon?oldid=3778101",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pumpkin",
+      "pattern": "pumpkin",
+      "topics": {
+        "mining": "Pumpkins drop themselves by hand or with any tool; an axe is fastest. Use shears on a pumpkin to carve it and obtain pumpkin seeds.",
+        "location": "Find pumpkin patches in grassy Overworld terrain, or grow pumpkins from seeds.",
+        "growth": "Plant pumpkin seeds on farmland to grow a stem. Leave a suitable empty space beside the mature stem for a pumpkin to appear. Harvest the pumpkin and leave the stem for more fruit."
+      },
+      "evidence": {
+        "title": "Pumpkin",
+        "revision": 3845533,
+        "sha256": "dd80e8dcd81a174f62e4918956c17176da896f02e15e75ccf60366c2ba5793fa",
+        "source": "https://minecraft.wiki/w/Pumpkin?oldid=3845533",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "melon_stem",
+      "pattern": "melon_stem",
+      "topics": {
+        "mining": "Breaking a stem can give its corresponding seeds. Harvest the fruit instead and leave the stem if you want it to keep producing.",
+        "location": "Plant melon seeds on farmland to obtain the stem.",
+        "growth": "Grow the stem on farmland with enough light and a suitable adjacent empty space for fruit. Bone meal matures the stem but does not instantly create the fruit."
+      },
+      "evidence": {
+        "title": "Melon Seeds",
+        "revision": 3853241,
+        "sha256": "65f7415128553ac01df91e566bcf64ff89ab087c28ebbe060a03eef4a66a36bf",
+        "source": "https://minecraft.wiki/w/Melon_Seeds?oldid=3853241",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "pumpkin_stem",
+      "pattern": "pumpkin_stem",
+      "topics": {
+        "mining": "Breaking a stem can give its corresponding seeds. Harvest the fruit instead and leave the stem if you want it to keep producing.",
+        "location": "Plant pumpkin seeds on farmland to obtain the stem.",
+        "growth": "Grow the stem on farmland with enough light and a suitable adjacent empty space for fruit. Bone meal matures the stem but does not instantly create the fruit."
+      },
+      "evidence": {
+        "title": "Pumpkin Seeds",
+        "revision": 3828159,
+        "sha256": "34be19f146be93292cbb93cf7078779d9d5550e85a3aa6d0e2d10a619bb456d1",
+        "source": "https://minecraft.wiki/w/Pumpkin_Seeds?oldid=3828159",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    }
+  ]
+}

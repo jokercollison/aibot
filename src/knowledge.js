@@ -42,6 +42,10 @@ for(const {id,alias} of [...entitySubjectAliases,...entityVariantAliases]) {
  const targets=(byMinecraftId.get(id)??[]).filter(r=>r.kind==='entity').map(r=>r.id);
  if(targets.length)aliasIndex.set(clean(alias),targets);
 }
+for(const [alias,id] of [['small dripleaf','minecraft:small_dripleaf_block'],['lily pad','minecraft:waterlily']]) {
+  const targets=(byMinecraftId.get(id)??[]).map(r=>r.id);
+  if(targets.length)aliasIndex.set(alias,targets);
+}
 const maxAliasWords = Math.max(...[...aliasIndex.keys()].map(a=>a.split(' ').length));
 function subjects(text) {
   const words = clean(text).split(' '), found = [];
@@ -354,7 +358,7 @@ export function createConversation() {
       previous = r;
       previousEntityTopic=r.kind==='entity'?(intent==='danger'&&!entityTopic(q)?'combat':entityTopic(q)):undefined;
       pendingChoice=undefined;
-      if(r.kind==='block' && intent!=='recipe' && intent!=='uses') {
+      if((r.kind==='block' || ['minecraft:sugar_cane','minecraft:glow_berries'].includes(r.minecraft_id)) && intent!=='recipe' && intent!=='uses') {
         const answer=blockAnswer(r.minecraft_id,q);
         const existingLocation=locationFacts[r.minecraft_id]??Object.values(locationFacts).find(f=>f.related_ids?.includes(r.minecraft_id));
         if(answer && !(answer.topic==='location' && existingLocation))return answer;
