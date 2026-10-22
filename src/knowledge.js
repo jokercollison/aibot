@@ -1,4 +1,4 @@
-import {blockAnswer, blockTopic} from './blocks.js';
+import {blockAnswer, blockTopic, blockRecipe} from './blocks.js';
 import {affinityTopics} from './entity-affinities.js';
 import {objectTopics} from './entity-objects.js';
 import {movementTopics} from './entity-movement.js';
@@ -124,6 +124,7 @@ function presentationRecipes(recipes) {
 }
 export function recipeText(record) {
   const recipes=byOutput.get(record.minecraft_id.toLowerCase())??[];
+  if(!recipes.length && record.kind==='block') {const fallback=blockRecipe(record.minecraft_id);if(fallback)return fallback;}
   if(!recipes.length)return {status:'unknown',answer:`I'm not sure how to craft ${clean(record.name)} yet. You might be able to get it another way.`};
   const lines=presentationRecipes(recipes).map(r=>{
     const name=display(record.minecraft_id);
@@ -252,7 +253,7 @@ export function createConversation() {
         }
         matches.sort((a,b)=>b.size-a.size||a.start-b.start);
       }
-      if(blockTopic(q)==='mining' && !['recipe','uses'].includes(intent)) {
+      if(blockTopic(q) && blockTopic(q)!=='location' && !['recipe','uses'].includes(intent) && !/\b(?:mob|entity|animal|creature)\b/.test(q) && !matches.some(m=>m.record.kind==='entity')) {
         const blocks=matches.filter(m=>m.record.kind==='block');
         if(blocks.length)matches.splice(0,matches.length,...blocks);
       }
@@ -389,7 +390,7 @@ export function createConversation() {
       if (f) return {status: f.status, answer: f.text, sources: [f.source]};
       if(r.kind==='entity' && entityTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:entityTopic(q),answer:`I'm not sure about that yet. Could you ask me something else about ${clean(r.name)}?`};
       if(r.kind==='entity' && !entityTopic(q) && /^(?:can|could|will|would|does|do|is|are|why|when|how|what (?:does|do|can))\b/.test(q)) return {status:'unknown',subject:r.minecraft_id,answer:unknown};
-      if(r.kind==='block' && blockTopic(q)==='mining') return {status:'unknown',subject:r.minecraft_id,topic:'mining',answer:`I'm still learning how to mine ${clean(r.name)}. Could you ask me something else about it?`};
+      if(r.kind==='block' && blockTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:blockTopic(q),answer:`I'm still learning about that part of ${clean(r.name)}. Could you ask me something else about it?`};
       if (intent !== 'describe') return {status: 'unknown', answer: unknown};
       if (r.kind === 'enchantment' && r.effect) {
         const equipment = (r.equipment ?? []).map(e => e === 'durable_equipment' ? 'items with durability' : clean(e));

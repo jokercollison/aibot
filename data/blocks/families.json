@@ -1,0 +1,191 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "concrete",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_concrete",
+      "topics": {
+        "mining": "Use any pickaxe to collect concrete. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Make concrete by bringing concrete powder of the desired color into contact with source or flowing water.",
+        "fire": "Concrete does not catch fire or burn away.",
+        "gravity": "Concrete stays in place without support; it does not fall like concrete powder.",
+        "water": "Concrete stays concrete in water. To make it, harden concrete powder with source or flowing water."
+      },
+      "evidence": {
+        "title": "Concrete",
+        "revision": 3835038,
+        "sha256": "97bacedef60baa1d45248ba4a235ca6d3f624d2c56b9a963c74376e6b62a820b",
+        "source": "https://minecraft.wiki/w/Concrete?oldid=3835038"
+      }
+    },
+    {
+      "id": "concrete_powder",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_concrete_powder",
+      "topics": {
+        "mining": "Concrete powder drops itself when broken by hand or with a tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Craft concrete powder from sand, gravel and the desired dye. It is a manufactured building material.",
+        "fire": "Concrete powder does not catch fire or burn away.",
+        "gravity": "Concrete powder falls when unsupported. Falling powder can bury and suffocate you. Keep support under it when building.",
+        "water": "Source or flowing water hardens concrete powder into concrete of the same color. Rain and splash water bottles do not harden it."
+      },
+      "evidence": {
+        "title": "Concrete Powder",
+        "revision": 3836552,
+        "sha256": "7a716e56e9fae6f455541b4350bd5cbca8254ba877af18b29da39d43f852686e",
+        "source": "https://minecraft.wiki/w/Concrete_Powder?oldid=3836552"
+      }
+    },
+    {
+      "id": "wool",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_wool",
+      "topics": {
+        "mining": "Wool drops itself when broken by hand or with a tool. Shears are fastest. Silk Touch is unnecessary and Fortune does not increase the block drop.",
+        "location": "Shear an adult sheep of the desired color to get wool, or use the matching dye in wool recipes. You can craft white wool from string.",
+        "fire": "Wool is flammable and can burn away. Keep it away from fire and lava.",
+        "gravity": "Wool stays in place without support; it does not fall.",
+        "water": "Wool does not dissolve or change color in water. It cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Wool",
+        "revision": 3851387,
+        "sha256": "42bccf31beb86ee41f7d587a48254df29cb369014d05bbc539d3b04034d6c281",
+        "source": "https://minecraft.wiki/w/Wool?oldid=3851387"
+      }
+    },
+    {
+      "id": "glass",
+      "pattern": "(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_stained_glass|glass)",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this glass block. Without Silk Touch it drops nothing. Fortune does not help recover it.",
+        "location": "Smelt sand or red sand into glass. Use dye with glass to make stained glass in the desired color.",
+        "fire": "Glass does not catch fire or burn away.",
+        "gravity": "Glass stays in place without support; it does not fall.",
+        "water": "Full glass blocks cannot be waterlogged. They can be used as walls to hold back water."
+      },
+      "evidence": {
+        "title": "Glass",
+        "revision": 3750634,
+        "sha256": "e286db5e867e864122f02f6347c5e0ba1533c40cb2386b6982fb0f93acbc20ce",
+        "source": "https://minecraft.wiki/w/Glass?oldid=3750634"
+      }
+    },
+    {
+      "id": "glass_pane",
+      "pattern": "(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_stained_glass_pane|glass_pane)",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect glass panes. Without Silk Touch they drop nothing. Fortune does not help recover them.",
+        "location": "Craft glass panes from glass blocks, or stained glass panes from matching stained glass. Some buildings also contain panes.",
+        "fire": "Glass panes do not catch fire or burn away.",
+        "gravity": "Glass panes stay in place without support; they do not fall.",
+        "water": "Glass panes can be waterlogged, so water can occupy the same block space as a pane."
+      },
+      "evidence": {
+        "title": "Glass Pane",
+        "revision": 3854601,
+        "sha256": "01e697e34c5a3e51f1dd3f1d95f1bb98671c7eb71dcb1dab55867438b9ef7a08",
+        "source": "https://minecraft.wiki/w/Glass_Pane?oldid=3854601"
+      }
+    },
+    {
+      "id": "tinted_glass",
+      "pattern": "tinted_glass",
+      "topics": {
+        "mining": "Tinted glass drops itself even when broken by hand. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft tinted glass from glass and amethyst shards. It blocks light while still letting you see through it.",
+        "fire": "Tinted glass does not catch fire or burn away.",
+        "gravity": "Tinted glass stays in place without support; it does not fall.",
+        "water": "Tinted glass cannot be waterlogged. It can hold water back as a full block."
+      },
+      "evidence": {
+        "title": "Tinted Glass",
+        "revision": 3724452,
+        "sha256": "7b2572d3509b8076eb11d5cba954433679b73218d4e93a7bee9300bbc8c75b4c",
+        "source": "https://minecraft.wiki/w/Tinted_Glass?oldid=3724452"
+      }
+    },
+    {
+      "id": "logs",
+      "pattern": "(?:stripped_)?(?:oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|poplar)_log",
+      "topics": {
+        "mining": "Logs drop themselves when broken by hand or with a tool; an axe is fastest. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Get logs by chopping the matching tree. Grow more of that tree using its appropriate sapling or propagule. Stripped logs are made by using an axe on a log.",
+        "fire": "These Overworld logs are flammable and can burn away. Stripping them does not make them fireproof.",
+        "gravity": "Logs stay in place without support; they do not fall.",
+        "stripping": "Use an axe on an unstripped log to remove its bark. This changes the block into its stripped version; it does not drop the bark as an item."
+      },
+      "evidence": {
+        "title": "Log",
+        "revision": 3833507,
+        "sha256": "65f5cc017d65a840e2100c2b43da5379a11cb5f1c7bef951d6558d6b504b5410",
+        "source": "https://minecraft.wiki/w/Log?oldid=3833507"
+      }
+    },
+    {
+      "id": "bark_wood",
+      "pattern": "(?:stripped_)?(?:oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|poplar)_wood",
+      "topics": {
+        "mining": "Wood blocks drop themselves when broken by hand or with a tool; an axe is fastest. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft all-bark wood from matching logs. Use an axe on unstripped wood to make the stripped form.",
+        "fire": "These Overworld wood blocks are flammable. Stripping them does not make them fireproof.",
+        "gravity": "Wood blocks stay in place without support; they do not fall.",
+        "stripping": "Use an axe on unstripped wood to change it into stripped wood. Already stripped wood cannot be stripped a second time."
+      },
+      "evidence": {
+        "title": "Wood",
+        "revision": 3825532,
+        "sha256": "e77b57d82ff8be4607220fe6974f41db3371620d4fef0e179bec1f8398e0b590",
+        "source": "https://minecraft.wiki/w/Wood?oldid=3825532"
+      }
+    },
+    {
+      "id": "nether_logs",
+      "pattern": "(?:stripped_)?(?:crimson|warped)_(?:stem|hyphae)",
+      "topics": {
+        "mining": "Stems and hyphae drop themselves when broken by hand or with a tool; an axe is fastest. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Harvest crimson or warped stems from the matching huge fungus in the Nether, or grow huge fungi. Craft hyphae from matching stems; use an axe for stripped forms.",
+        "fire": "Crimson and warped stems and hyphae do not catch fire or burn away. Their dropped items can still be destroyed in fire or lava.",
+        "gravity": "Stems and hyphae stay in place without support; they do not fall.",
+        "stripping": "Use an axe on an unstripped stem or hyphae block to make its stripped form. Already stripped forms cannot be stripped again."
+      },
+      "evidence": {
+        "title": "Wood",
+        "revision": 3825532,
+        "sha256": "e77b57d82ff8be4607220fe6974f41db3371620d4fef0e179bec1f8398e0b590",
+        "source": "https://minecraft.wiki/w/Wood?oldid=3825532"
+      }
+    },
+    {
+      "id": "overworld_planks",
+      "pattern": "(?:(?:oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|poplar)|bamboo)_planks",
+      "topics": {
+        "mining": "Planks drop themselves when broken by hand or with a tool; an axe is fastest. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft matching planks from the corresponding logs or wood. Bamboo planks are made from bamboo blocks instead.",
+        "fire": "Overworld and bamboo planks are flammable and can burn away. Keep them away from fire and lava.",
+        "gravity": "Planks stay in place without support; they do not fall."
+      },
+      "evidence": {
+        "title": "Planks",
+        "revision": 3833513,
+        "sha256": "3cbfec3c42226ba4b09f08fa67be22d2a829aaa7af2493ed71b0e49ce9df6a79",
+        "source": "https://minecraft.wiki/w/Planks?oldid=3833513"
+      }
+    },
+    {
+      "id": "nether_planks",
+      "pattern": "(?:crimson|warped)_planks",
+      "topics": {
+        "mining": "Planks drop themselves when broken by hand or with a tool; an axe is fastest. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft crimson or warped planks from the matching stems or hyphae.",
+        "fire": "Crimson and warped planks do not catch fire or burn away. Their dropped items can still be destroyed in fire or lava.",
+        "gravity": "Planks stay in place without support; they do not fall."
+      },
+      "evidence": {
+        "title": "Planks",
+        "revision": 3833513,
+        "sha256": "3cbfec3c42226ba4b09f08fa67be22d2a829aaa7af2493ed71b0e49ce9df6a79",
+        "source": "https://minecraft.wiki/w/Planks?oldid=3833513"
+      }
+    }
+  ]
+}
