@@ -1,9 +1,11 @@
 """Track gameplay topic completeness for every catalog subject, not definition counts."""
 from pathlib import Path
-import json,collections
+import json,collections,re
 ROOT=Path(__file__).resolve().parents[1]
 def load(name):return json.loads((ROOT/name).read_text())
 records=load('data/catalog.json')['records'];descriptions=load('data/description_catalog.json');recipes=load('data/recipe_index.json')['by_output'];loot=load('legacy/database/structured/v65/loot_sources_by_item.json');spawn=load('legacy/database/structured/v66/spawn_evidence_compact.json');locations=load('data/location_facts.json');facts=load('data/facts.json');entity_topics=load('data/entity_knowledge.json');acquisition=load('data/acquisition_index.json');current_entities=load('data/entities/runtime.json');current_entities=load('data/entities/runtime.json')
+block_rules=[rule for path in (ROOT/'data/blocks').glob('*.json') for rule in json.loads(path.read_text()).get('rules',[])]
+block_terrain=load('data/blocks/terrain.json')['subjects']
 location_ids={id for key,row in locations.items() for id in [key]+row.get('related_ids',[])}
 topics={
  'block':['identity','uses','recipe_or_acquisition','location','biomes','mining_tool','drops','properties','redstone'],
@@ -23,6 +25,16 @@ for id,r in records.items():
   if name.lower() in recipes:row['recipe_or_acquisition']={'status':'sample_recipe_indexed','answer_connected':True}
   elif name in loot:row['recipe_or_acquisition']={'status':'conditional_loot_category_answer','answer_connected':True}
  if name in location_ids:row['location']={'status':'live_article_reviewed_not_in_game_verified','answer_connected':True}
+ if kind=='block':
+  matched=next((rule for rule in block_rules if re.fullmatch(rule['pattern'],name.split(':',1)[1])),None)
+  detail={**(matched or {}).get('topics',{}),**block_terrain.get(name,{}).get('topics',{})}
+  mapping={'mining':['mining_tool','drops'],'operation':['uses'],'location':['location'],'redstone':['redstone']}
+  for facet,public_topics in mapping.items():
+   if facet in detail:
+    for topic in public_topics:row[topic]={'status':'reviewed_block_facet_summary','answer_connected':True,'exhaustive':False}
+  for facet in ['growth','storage','water','fire','gravity','oxidation','stripping','danger']:
+   row[facet]={'status':'reviewed_block_facet_summary' if facet in detail else 'unresolved','answer_connected':facet in detail,'exhaustive':False}
+  if any(f in detail for f in ['water','fire','gravity']):row['properties']={'status':'reviewed_property_subset','answer_connected':True,'exhaustive':False}
  if kind=='entity':
   if name in spawn:row['spawn_conditions']={'status':'conditional_sample_evidence_not_yet_interpreted','answer_connected':False}
   if name in loot:row['drops']={'status':'conditional_source_evidence','answer_connected':False}

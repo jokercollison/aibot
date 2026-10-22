@@ -1,4 +1,4 @@
-import {blockAnswer, blockTopic, blockRecipe} from './blocks.js';
+import {blockAnswer, blockTopic, blockRecipe, blockRecipeId} from './blocks.js';
 import {affinityTopics} from './entity-affinities.js';
 import {objectTopics} from './entity-objects.js';
 import {movementTopics} from './entity-movement.js';
@@ -127,6 +127,8 @@ function presentationRecipes(recipes) {
   return recipes.filter(r=>!r.ingredients.some(i=>i.id?.endsWith('_planks'))||!generic.has(signature(r)));
 }
 export function recipeText(record) {
+  const canonical=blockRecipeId(record.minecraft_id);
+  if(canonical!==record.minecraft_id)return recipeText({...record,minecraft_id:canonical});
   const recipes=byOutput.get(record.minecraft_id.toLowerCase())??[];
   if(!recipes.length && record.kind==='block') {const fallback=blockRecipe(record.minecraft_id);if(fallback)return fallback;}
   if(!recipes.length)return {status:'unknown',answer:`I'm not sure how to craft ${clean(record.name)} yet. You might be able to get it another way.`};
@@ -257,7 +259,7 @@ export function createConversation() {
         }
         matches.sort((a,b)=>b.size-a.size||a.start-b.start);
       }
-      if(blockTopic(q) && blockTopic(q)!=='location' && !['recipe','uses'].includes(intent) && !/\b(?:mob|entity|animal|creature)\b/.test(q) && !matches.some(m=>m.record.kind==='entity')) {
+      if(blockTopic(q) && blockTopic(q)!=='location' && !['recipe','uses'].includes(intent) && !/\b(?:mob|entity|animal|creature)\b/.test(q) && (!matches.some(m=>m.record.kind==='entity') || (blockTopic(q)==='mining' && /\b(?:mine|mining|break|breaking|harvest)\b/.test(q)))) {
         const blocks=matches.filter(m=>m.record.kind==='block');
         if(blocks.length)matches.splice(0,matches.length,...blocks);
       }
@@ -376,7 +378,7 @@ export function createConversation() {
       }
       if(intent==='acquisition') {
         const location=locationFacts[r.minecraft_id]??Object.values(locationFacts).find(f=>f.related_ids?.includes(r.minecraft_id));
-        if(location)return {status:'conditional',answer:location.answer,sources:location.reference_urls};
+        if(location)return {status:'conditional',subject:r.minecraft_id,topic:'location',answer:location.answer,sources:location.reference_urls};
         if(r.kind==='entity'&&/\b(drop|drops|loot)\b/.test(q)) {
           const drops=acquisitionIndex.entities[r.minecraft_id];
           if(drops?.length)return {status:'conditional',answer:`Depending on its form and the loot conditions, ${clean(r.name)} can drop ${joinList([...new Set(drops.flatMap(d=>d.possible_items))].map(display))}. These are possible drops, not a guaranteed list from every kill.`,sources:drops.map(d=>d.source)};

@@ -205,3 +205,17 @@ notes above describe preparation status at that time. The full suite has 244
 passing tests and the entity audit remains green. Actual Minecraft testing is
 pending; the focused release checklist contains only changed-feature examples.
 All 0.2.19 and earlier downloads are unchanged.
+
+## Catalog audit and gap pass: 0.2.21
+
+Reconciles all 1,463 blocks and adds focused answers to the remaining 549
+previously description-only entries: decorative 235, special 89, availability
+225. Education, creator and internal blocks have explicit guidance rather than
+being silently removed. Each block now has at least one detailed facet; complete
+per-topic knowledge is not claimed. BLOCK_CATALOG_AUDIT.md explains the remaining
+applicability and topic work, and BLOCK_QUESTION_AUDIT.json records every result.
+
+21,945 real conversation paths and all 5,429 authored facet applications are
+checked in tests/builds, alongside the existing entity matrix. There are 249
+passing Node tests. All prior downloads remain unchanged. This work is packaged
+as 0.2.21 for testing; actual Minecraft testing is pending.

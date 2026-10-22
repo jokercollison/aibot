@@ -1,3 +1,9 @@
+# Current testing status: 0.2.21 pending
+
+New block answers, sign recipes and imports require actual Minecraft testing.
+The full catalog audit is a Node conversation check, not a Minecraft run. No
+pass is inferred for 0.2.20 or other unreported tests. Multiplayer remains separate.
+
 # Current testing status: 0.2.20 pending
 
 New plant/device/utility answers and pack import require actual Minecraft testing.

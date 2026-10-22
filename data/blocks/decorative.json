@@ -1,0 +1,1342 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "signs",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|darkoak|jungle|mangrove|pale_oak|poplar|spruce|warped)_(?:standing|wall)_sign|standing_sign|wall_sign)",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary. Standing and wall signs drop their matching sign item.",
+        "operation": "Use a sign to write text on either side. Dye changes text color and glow ink makes the text glow. Apply honeycomb to prevent further editing.",
+        "location": "Craft signs from matching planks and a stick.",
+        "water": "Signs can be waterlogged."
+      },
+      "evidence": {
+        "title": "Sign",
+        "revision": 3849680,
+        "sha256": "e4db5f2bc5c30a1a627579702a4cc94a0cd28f2bf496a6f54c413f45761a2baa",
+        "source": "https://minecraft.wiki/w/Sign?oldid=3849680"
+      }
+    },
+    {
+      "id": "hanging_signs",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|darkoak|jungle|mangrove|pale_oak|poplar|spruce|warped)|oak)_hanging_sign",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Hang a sign under a support or attach it using its side support. Edit either side; dye and glow ink change the text, and honeycomb locks editing.",
+        "location": "Craft hanging signs from matching stripped wood material and chains.",
+        "water": "Hanging signs can be waterlogged."
+      },
+      "evidence": {
+        "title": "Hanging Sign",
+        "revision": 3849676,
+        "sha256": "020be7984d462129bf0c9918daf1963bbc45a653b0eb35caf734fdf40a58a013",
+        "source": "https://minecraft.wiki/w/Hanging_Sign?oldid=3849676"
+      }
+    },
+    {
+      "id": "banners",
+      "pattern": "(?:standing|wall)_banner",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary. Wall and standing forms drop the banner item with its patterns.",
+        "operation": "Use a loom to apply dye patterns to a banner. Some patterns need a banner pattern item. Place the banner standing or on a wall.",
+        "location": "Craft a banner from 6 matching wool and 1 stick, or obtain banners through appropriate structures and trades."
+      },
+      "evidence": {
+        "title": "Banner",
+        "revision": 3850671,
+        "sha256": "406caff1ca2fad6a1ae9184a33bdc8ab42293fdb7601701c947ce140548a871a",
+        "source": "https://minecraft.wiki/w/Banner?oldid=3850671"
+      }
+    },
+    {
+      "id": "carpets",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_carpet",
+      "topics": {
+        "mining": "Carpet drops itself by hand or with any tool. Unlike full wool blocks, shears do not break carpet faster.",
+        "location": "Craft colored carpet from matching wool. Some buildings also contain carpets.",
+        "operation": "Use carpet as a thin decorative floor covering. It is not a solid full block.",
+        "fire": "Wool carpet is flammable. Keep it away from fire and lava."
+      },
+      "evidence": {
+        "title": "Carpet",
+        "revision": 3806904,
+        "sha256": "dc8813dc60b54ac71492e0030e3f848147fdf5a43ee5ff101bffc330071dee9c",
+        "source": "https://minecraft.wiki/w/Carpet?oldid=3806904"
+      }
+    },
+    {
+      "id": "candles",
+      "pattern": "(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_)?candle",
+      "topics": {
+        "mining": "Candles drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Place up to 4 matching candles in one block space and light them with an ignition source. Use an empty hand or water to extinguish them. Redstone does not light them.",
+        "location": "Craft an undyed candle from string and honeycomb, then use dye for a colored candle.",
+        "water": "Candles can be waterlogged but cannot remain lit while waterlogged."
+      },
+      "evidence": {
+        "title": "Candle",
+        "revision": 3784228,
+        "sha256": "6074a4afb7ffabf96783c7cee0b617648ad4ddca5225753c733d705eeaf1a44c",
+        "source": "https://minecraft.wiki/w/Candle?oldid=3784228"
+      }
+    },
+    {
+      "id": "cakes",
+      "pattern": "(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_candle_cake|candle_cake|cake)",
+      "topics": {
+        "mining": "Placed cake cannot be collected, even with Silk Touch. Breaking a cake with a candle returns the candle, not the cake.",
+        "operation": "Place cake on a support and use it to eat one slice at a time. An untouched cake can hold a candle; the candle must be removed before eating.",
+        "redstone": "A comparator reads the number of cake slices remaining. Cake is not an item container."
+      },
+      "evidence": {
+        "title": "Cake",
+        "revision": 3852063,
+        "sha256": "90db498987046c892495de5afcff3b401b2efa8c95d374101daa6f531daa70b8",
+        "source": "https://minecraft.wiki/w/Cake?oldid=3852063"
+      }
+    },
+    {
+      "id": "flower_pot",
+      "pattern": "flower_pot",
+      "topics": {
+        "mining": "Breaking a flower pot drops the pot and any plant inside separately. No special tool is required.",
+        "operation": "Use a flower pot to display a supported small plant, sapling, mushroom or fungus. Potted plants are decorative; they do not grow into trees in the pot.",
+        "location": "Craft flower pots from bricks, or find them in some buildings."
+      },
+      "evidence": {
+        "title": "Flower Pot",
+        "revision": 3846705,
+        "sha256": "a070caff5b2dea4fd20ad2db0feda597ce3d03e2ad18531271739f72196e24fd",
+        "source": "https://minecraft.wiki/w/Flower_Pot?oldid=3846705"
+      }
+    },
+    {
+      "id": "decorated_pot",
+      "pattern": "decorated_pot",
+      "topics": {
+        "mining": "Breaking a decorated pot by hand collects the pot. Suitable tools without Silk Touch shatter it into its crafting bricks or pottery sherds instead. Silk Touch preserves the pot. Stored contents also drop.",
+        "operation": "Insert items into a decorated pot by using it while holding them. It holds one stack of one item type; breaking the pot or using automation retrieves the contents.",
+        "storage": "A decorated pot holds one stack of a single item type, not a chest-style inventory.",
+        "redstone": "Hoppers can insert or extract items. A comparator can read its stored-item fullness."
+      },
+      "evidence": {
+        "title": "Decorated Pot",
+        "revision": 3854641,
+        "sha256": "2248079fa67f08c0bc86e68d45ee4a2f5fcb36cdd29794a95f9776fe69637093",
+        "source": "https://minecraft.wiki/w/Decorated_Pot?oldid=3854641"
+      }
+    },
+    {
+      "id": "bamboo_blocks",
+      "pattern": "(?:stripped_)?bamboo_block",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary.",
+        "location": "Craft a bamboo block from 9 bamboo. Use an axe on it for stripped bamboo. Bamboo blocks cannot be crafted back into 9 bamboo.",
+        "stripping": "Use an axe on an unstripped bamboo block to strip it. Already stripped blocks cannot be stripped again.",
+        "fire": "Bamboo blocks are flammable, including stripped forms."
+      },
+      "evidence": {
+        "title": "Block of Bamboo",
+        "revision": 3849653,
+        "sha256": "ab575bb7d9c0e2d38aa0e2ea491f44699c41b0e6e128e65bac0c2d395de587fe",
+        "source": "https://minecraft.wiki/w/Block_of_Bamboo?oldid=3849653"
+      }
+    },
+    {
+      "id": "bamboo_mosaic",
+      "pattern": "bamboo_mosaic",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary.",
+        "location": "Craft bamboo mosaic from 2 bamboo slabs.",
+        "operation": "Use bamboo mosaic as a decorative building block, or make its mosaic slab and stair variants."
+      },
+      "evidence": {
+        "title": "Bamboo Mosaic",
+        "revision": 3849658,
+        "sha256": "7f367a1705afa01b5f82a591a1f3e57054ba86337c43e282a4316ff2e1642835",
+        "source": "https://minecraft.wiki/w/Bamboo_Mosaic?oldid=3849658"
+      }
+    },
+    {
+      "id": "bamboo_mosaic_shapes",
+      "pattern": "bamboo_mosaic_(?:slab|stairs)",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary.",
+        "location": "Craft mosaic slabs or stairs from bamboo mosaic.",
+        "water": "Single mosaic slabs and stairs can be waterlogged."
+      },
+      "evidence": {
+        "title": "Bamboo Mosaic",
+        "revision": 3849658,
+        "sha256": "7f367a1705afa01b5f82a591a1f3e57054ba86337c43e282a4316ff2e1642835",
+        "source": "https://minecraft.wiki/w/Bamboo_Mosaic?oldid=3849658"
+      }
+    },
+    {
+      "id": "bamboo_mosaic_double",
+      "pattern": "bamboo_mosaic_double_slab",
+      "topics": {
+        "mining": "A double bamboo mosaic slab drops 2 matching slabs. An axe is fastest. Silk Touch does not keep it as a double-slab item.",
+        "location": "Place 2 matching bamboo mosaic slabs in one block space.",
+        "water": "Double slabs fill the block space and cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "calcite",
+      "pattern": "calcite",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary and Fortune does not multiply it.",
+        "location": "Find calcite in the middle layer of amethyst geodes or exposed in stony peaks.",
+        "operation": "Calcite is a decorative stone building block; it is not an amethyst-growing block."
+      },
+      "evidence": {
+        "title": "Calcite",
+        "revision": 3837885,
+        "sha256": "7f752c3721e1643399fab542ab1cbee4fe569da9aa66d3843eb4014fe989f6ca",
+        "source": "https://minecraft.wiki/w/Calcite?oldid=3837885"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "bone",
+      "pattern": "bone_block",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary and Fortune does not multiply it.",
+        "location": "Find bone blocks in fossils or craft them from 9 bone meal. Crafting one back yields 9 bone meal.",
+        "operation": "Use bone blocks for compact bone-meal storage or decoration."
+      },
+      "evidence": {
+        "title": "Bone Block",
+        "revision": 3750998,
+        "sha256": "90bc79186b8c68ba1ce9f1e5411744ebad3432f61e62fdd63ac54a640a9ebec5",
+        "source": "https://minecraft.wiki/w/Bone_Block?oldid=3750998"
+      }
+    },
+    {
+      "id": "raw_iron_copper",
+      "pattern": "raw_(?:iron|copper)_block",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect raw iron or raw copper blocks. Weaker tools drop nothing. Fortune does not multiply the contents.",
+        "location": "Craft a raw metal block from 9 matching raw metal items. Raw iron and raw copper blocks can also occur in their large ore veins.",
+        "operation": "Store raw metal compactly, then craft the block back into 9 raw metal items for smelting."
+      },
+      "evidence": {
+        "title": "Block of Raw Iron",
+        "revision": 3846669,
+        "sha256": "efc33d62f316db76fd46472744e369c1a969c3f03affb724b9cba44b3b35c26e",
+        "source": "https://minecraft.wiki/w/Block_of_Raw_Iron?oldid=3846669"
+      }
+    },
+    {
+      "id": "raw_gold",
+      "pattern": "raw_gold_block",
+      "topics": {
+        "mining": "Use an iron pickaxe or better to collect a raw gold block. Weaker tools drop nothing. Fortune does not multiply it.",
+        "location": "Craft a raw gold block from 9 raw gold.",
+        "operation": "Craft the block back into 9 raw gold before smelting; this is raw metal storage, not a gold ingot block."
+      },
+      "evidence": {
+        "title": "Block of Raw Gold",
+        "revision": 3846668,
+        "sha256": "4aea79697519b116ed817f514118a2eddfc0d15188d54840515467d1486a6b5d",
+        "source": "https://minecraft.wiki/w/Block_of_Raw_Gold?oldid=3846668"
+      }
+    },
+    {
+      "id": "reinforced_deepslate",
+      "pattern": "reinforced_deepslate",
+      "topics": {
+        "mining": "Reinforced deepslate drops nothing, even with Silk Touch. No tool speeds up its very slow breaking.",
+        "location": "Find reinforced deepslate in the central frame-like structure of an ancient city.",
+        "operation": "Reinforced deepslate is a durable decorative block. The ancient-city frame is not an activatable portal."
+      },
+      "evidence": {
+        "title": "Reinforced Deepslate",
+        "revision": 3837306,
+        "sha256": "b8807e900e6f21feddb21aed33ba94a70fd6dccc7ecf2290291b8175c7a5d34c",
+        "source": "https://minecraft.wiki/w/Reinforced_Deepslate?oldid=3837306"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "infested",
+      "pattern": "infested_(?:stone|cobblestone|deepslate|(?:chiseled_|cracked_|mossy_)?stone_bricks)",
+      "topics": {
+        "mining": "Breaking an infested block normally releases a silverfish and gives no block. Silk Touch instead drops the ordinary non-infested block without releasing the silverfish. You cannot collect an infested block this way.",
+        "location": "Infested blocks can occur in structures such as strongholds and igloo basements, and as infested stone or deepslate in appropriate mountain terrain.",
+        "danger": "Breaking an infested block can release an attacking silverfish. Hurting a silverfish may call more out of nearby blocks; Silk Touch avoids releasing one from the block you mine."
+      },
+      "evidence": {
+        "title": "Infested Block",
+        "revision": 3731854,
+        "sha256": "f62a17e491092ee46bec5f4bc2c16252f1c45be6a1e05ec3136e3d5338731af7",
+        "source": "https://minecraft.wiki/w/Infested_Block?oldid=3731854"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "crying_obsidian",
+      "pattern": "crying_obsidian",
+      "topics": {
+        "mining": "Use a diamond or netherite pickaxe to collect crying obsidian. Weaker tools drop nothing; Silk Touch is unnecessary.",
+        "location": "Find crying obsidian in ruined portals, some bastion loot or piglin bartering.",
+        "operation": "Use crying obsidian to craft respawn anchors. It cannot replace ordinary obsidian in a Nether portal frame."
+      },
+      "evidence": {
+        "title": "Crying Obsidian",
+        "revision": 3844350,
+        "sha256": "a4d72103c67604c54cb6c09c97e7e3b49c68d205f2d8a2e486c97b63cd8768f5",
+        "source": "https://minecraft.wiki/w/Crying_Obsidian?oldid=3844350"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "resin_block",
+      "pattern": "resin_block",
+      "topics": {
+        "mining": "Resin blocks drop themselves instantly when broken by hand or with any tool.",
+        "location": "Craft a resin block from 9 resin clumps.",
+        "operation": "Use it for decoration or craft it back into resin clumps."
+      },
+      "evidence": {
+        "title": "Block of Resin",
+        "revision": 3778363,
+        "sha256": "fec0d9256266b15d1dc88b4dffc7f3749e4969afc153da3af299a75fafc3904e",
+        "source": "https://minecraft.wiki/w/Block_of_Resin?oldid=3778363"
+      }
+    },
+    {
+      "id": "resin_clump",
+      "pattern": "resin_clump",
+      "topics": {
+        "mining": "Resin clumps can be collected by hand or with any tool; no Silk Touch is required.",
+        "location": "Attack a naturally heart-linked creaking to cause resin to appear on nearby pale oak logs around its creaking heart.",
+        "operation": "Use resin clumps for crafting resin blocks, smelting resin bricks, or decorating block surfaces."
+      },
+      "evidence": {
+        "title": "Resin Clump",
+        "revision": 3775716,
+        "sha256": "82b4e783b808ec1d0b51c71c451300d15959d64af731ad91b10f42afa5824fb8",
+        "source": "https://minecraft.wiki/w/Resin_Clump?oldid=3775716"
+      }
+    },
+    {
+      "id": "resin_masonry",
+      "pattern": "(?:chiseled_)?resin_bricks|resin_brick_(?:slab|stairs|wall)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary and Fortune does not multiply it.",
+        "location": "Smelt resin clumps into resin brick items, then craft resin brick blocks and their decorative shapes.",
+        "operation": "Resin bricks and their shapes are decorative masonry building blocks."
+      },
+      "evidence": {
+        "title": "Resin Bricks",
+        "revision": 3836922,
+        "sha256": "9973fa8cd2bf377ac9b22c0bc61119f8f70eafcc60b162b20b30bf0658aae301",
+        "source": "https://minecraft.wiki/w/Resin_Bricks?oldid=3836922"
+      }
+    },
+    {
+      "id": "resin_double",
+      "pattern": "resin_brick_double_slab",
+      "topics": {
+        "mining": "Use a pickaxe to get 2 matching resin brick slabs. Silk Touch does not preserve a double-slab item; weaker tools drop nothing.",
+        "location": "Place 2 matching resin brick slabs in the same block space.",
+        "water": "Double resin brick slabs cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "sculk",
+      "pattern": "sculk",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this sculk block. A hoe is fastest. Without Silk Touch you do not collect the block.",
+        "location": "Look in the deep dark biome and ancient cities.",
+        "operation": "Sculk is a deep-dark surface block that stores experience and can spread around an active sculk catalyst."
+      },
+      "evidence": {
+        "title": "Sculk",
+        "revision": 3751046,
+        "sha256": "a9530a7d771c3c41804e46bfdc4d580ba3a6414daaf404e9547931e383f3dade",
+        "source": "https://minecraft.wiki/w/Sculk?oldid=3751046"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "sculk_vein",
+      "pattern": "sculk_vein",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this sculk block. A hoe is fastest. Without Silk Touch you do not collect the block.",
+        "location": "Look in the deep dark biome and ancient cities.",
+        "operation": "Sculk veins are thin sculk coverings on block faces. They are not the same as full sculk blocks."
+      },
+      "evidence": {
+        "title": "Sculk Vein",
+        "revision": 3689465,
+        "sha256": "faffa57d6f820bc7be0522098bfcb0a426fbb8e0f8d888089c39beac90ecfe59",
+        "source": "https://minecraft.wiki/w/Sculk_Vein?oldid=3689465"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "sculk_sensor",
+      "pattern": "sculk_sensor",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this sculk block. A hoe is fastest. Without Silk Touch you do not collect the block.",
+        "location": "Look in the deep dark biome and ancient cities.",
+        "operation": "A sculk sensor detects nearby vibrations and turns them into redstone signals. Wool can block vibration paths."
+      },
+      "evidence": {
+        "title": "Sculk Sensor",
+        "revision": 3844079,
+        "sha256": "afdcb42bcdfcfb7a0c1e4130bd1b2d5283b7e0c089d64afb390b60b9a0d9acd0",
+        "source": "https://minecraft.wiki/w/Sculk_Sensor?oldid=3844079"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "calibrated_sensor",
+      "pattern": "calibrated_sculk_sensor",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this sculk block. A hoe is fastest. Without Silk Touch you do not collect the block.",
+        "location": "Craft it from a sculk sensor and amethyst shards.",
+        "operation": "Feed a redstone strength into the amethyst side to filter the vibration frequency the sensor detects."
+      },
+      "evidence": {
+        "title": "Calibrated Sculk Sensor",
+        "revision": 3840050,
+        "sha256": "5b08c6ddd26bf1c54c8a6070ff5778a08fb75bf7ef93380b385ee27f2f57178c",
+        "source": "https://minecraft.wiki/w/Calibrated_Sculk_Sensor?oldid=3840050"
+      }
+    },
+    {
+      "id": "sculk_catalyst",
+      "pattern": "sculk_catalyst",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this sculk block. A hoe is fastest. Without Silk Touch you do not collect the block.",
+        "location": "Look in the deep dark biome and ancient cities.",
+        "operation": "Nearby mob deaths that provide experience can let a sculk catalyst spread sculk over suitable blocks."
+      },
+      "evidence": {
+        "title": "Sculk Catalyst",
+        "revision": 3844078,
+        "sha256": "31a2abd2e24f7d180c5d0364e5d9e86ca2866e7a3e1761ae83533e0cd7639563",
+        "source": "https://minecraft.wiki/w/Sculk_Catalyst?oldid=3844078"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "sculk_shrieker",
+      "pattern": "sculk_shrieker",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect this sculk block. A hoe is fastest. Without Silk Touch you do not collect the block.",
+        "location": "Look in the deep dark biome and ancient cities.",
+        "operation": "Naturally generated, summoning-enabled shriekers can build up warnings and summon a Warden. A shrieker you collect and place cannot summon one."
+      },
+      "evidence": {
+        "title": "Sculk Shrieker",
+        "revision": 3851772,
+        "sha256": "17915bb63132c5640c0fe62cbf68c0b33827e33f5e6434ecb3bdd65e9084469c",
+        "source": "https://minecraft.wiki/w/Sculk_Shrieker?oldid=3851772"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "suspicious_sand",
+      "pattern": "suspicious_sand",
+      "topics": {
+        "mining": "Do not mine this archaeology block to retrieve its item. Brush it in place; breaking it drops nothing, even with Silk Touch.",
+        "location": "Look in desert pyramids, desert wells and warm ocean ruins.",
+        "operation": "Use a brush repeatedly without breaking the block to reveal its buried item. After brushing, it becomes the ordinary sand or gravel block.",
+        "gravity": "This block falls when unsupported and breaks when it lands. Keep it supported while brushing."
+      },
+      "evidence": {
+        "title": "Suspicious Sand",
+        "revision": 3818793,
+        "sha256": "c1327cc7addbe0eba343fdc9366212b4bf71ee0bdb7902b882f0e9ec4994c9e9",
+        "source": "https://minecraft.wiki/w/Suspicious_Sand?oldid=3818793"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "suspicious_gravel",
+      "pattern": "suspicious_gravel",
+      "topics": {
+        "mining": "Do not mine this archaeology block to retrieve its item. Brush it in place; breaking it drops nothing, even with Silk Touch.",
+        "location": "Look in trail ruins and cold ocean ruins.",
+        "operation": "Use a brush repeatedly without breaking the block to reveal its buried item. After brushing, it becomes the ordinary sand or gravel block.",
+        "gravity": "This block falls when unsupported and breaks when it lands. Keep it supported while brushing."
+      },
+      "evidence": {
+        "title": "Suspicious Gravel",
+        "revision": 3818795,
+        "sha256": "b12d0e4dd4525b63e8c7ea366ad92f451541f5ada90e3aeb5b6b8c57b58207e7",
+        "source": "https://minecraft.wiki/w/Suspicious_Gravel?oldid=3818795"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "target",
+      "pattern": "target",
+      "topics": {
+        "mining": "Targets drop themselves by hand or with any tool; a hoe is fastest.",
+        "operation": "Hit a target with a projectile to generate a redstone pulse. Hits closer to its center produce stronger signals.",
+        "redstone": "Projectile impact gives a temporary signal whose strength depends on hit accuracy. Targets can also redirect nearby redstone dust connections."
+      },
+      "evidence": {
+        "title": "Target",
+        "revision": 3746507,
+        "sha256": "d4fdd240b411b4d362efc06c3a3d21cb9744c197be373782530d8f1f2b4fed99",
+        "source": "https://minecraft.wiki/w/Target?oldid=3746507"
+      }
+    },
+    {
+      "id": "tripwire_hook",
+      "pattern": "tripwire_hook",
+      "topics": {
+        "mining": "Tripwire hooks drop themselves by hand or with any tool.",
+        "operation": "Place two hooks facing each other with string between them. Entities crossing the connected string activate the hooks.",
+        "redstone": "A completed tripwire line produces power when triggered. Cut the string with shears to avoid the ordinary disarming pulse."
+      },
+      "evidence": {
+        "title": "Tripwire Hook",
+        "revision": 3810426,
+        "sha256": "c30bd9dc26e9374ff88e5719754b8bd625e9aa3b0a00b7e6cd8a4627ddc14bea",
+        "source": "https://minecraft.wiki/w/Tripwire_Hook?oldid=3810426"
+      }
+    },
+    {
+      "id": "tripwire",
+      "pattern": "trip_wire",
+      "topics": {
+        "mining": "Breaking tripwire can trigger its hooks. Use shears to safely remove connected string.",
+        "operation": "Place string in a connected line between facing tripwire hooks to detect entities crossing it.",
+        "redstone": "Entities touching a connected tripwire line activate the hooks, supplying redstone power."
+      },
+      "evidence": {
+        "title": "Tripwire Hook",
+        "revision": 3810426,
+        "sha256": "c30bd9dc26e9374ff88e5719754b8bd625e9aa3b0a00b7e6cd8a4627ddc14bea",
+        "source": "https://minecraft.wiki/w/Tripwire_Hook?oldid=3810426"
+      }
+    },
+    {
+      "id": "hay",
+      "pattern": "hay_block",
+      "topics": {
+        "mining": "Hay bales drop themselves by hand or with any tool; a hoe is fastest.",
+        "location": "Find hay bales in villages, or craft them from 9 wheat.",
+        "operation": "Use hay for compact wheat storage, feeding suitable animals, cushioning falls, or extending campfire smoke height."
+      },
+      "evidence": {
+        "title": "Hay Bale",
+        "revision": 3850433,
+        "sha256": "d4bdc41b6721e6cec48bc75fd25d6063a7c496c576285b6881b3cb8be726b319",
+        "source": "https://minecraft.wiki/w/Hay_Bale?oldid=3850433"
+      }
+    },
+    {
+      "id": "dried_kelp",
+      "pattern": "dried_kelp_block",
+      "topics": {
+        "mining": "Dried kelp blocks drop themselves by hand or with any tool; a hoe is fastest.",
+        "location": "Craft a dried kelp block from 9 dried kelp.",
+        "operation": "Use it as furnace fuel or craft it back into dried kelp."
+      },
+      "evidence": {
+        "title": "Dried Kelp Block",
+        "revision": 3800322,
+        "sha256": "fa60e29bb7d46f9c3c5dbfe036e13c6fc531e3bcc65678827381a0351ceaea41",
+        "source": "https://minecraft.wiki/w/Dried_Kelp_Block?oldid=3800322"
+      }
+    },
+    {
+      "id": "heavy_core",
+      "pattern": "heavy_core",
+      "topics": {
+        "mining": "Heavy cores drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "location": "Obtain a heavy core as a possible reward from an ominous vault using an ominous trial key.",
+        "operation": "Combine a heavy core with a breeze rod to craft a mace."
+      },
+      "evidence": {
+        "title": "Heavy Core",
+        "revision": 3682609,
+        "sha256": "5d5975013fb5f67df6e51a98c7a2c52d73482390ed73e222c4fafdb07d14dce0",
+        "source": "https://minecraft.wiki/w/Heavy_Core?oldid=3682609"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "pointed_dripstone",
+      "pattern": "pointed_dripstone",
+      "topics": {
+        "mining": "Pointed dripstone drops itself by hand or with any tool; a pickaxe is fastest. Removing its support can make hanging dripstone fall.",
+        "location": "Find pointed dripstone in dripstone caves.",
+        "operation": "Use pointed dripstone for cave decoration, growth setups or cauldron drip collection under suitable water/lava conditions.",
+        "danger": "Falling stalactites can hurt entities below. Landing on upward-pointing stalagmites increases fall damage."
+      },
+      "evidence": {
+        "title": "Pointed Dripstone",
+        "revision": 3854643,
+        "sha256": "9706e3481f26958616184a13365d3e0269f4d90cf359174b6db1f5ba0c22645b",
+        "source": "https://minecraft.wiki/w/Pointed_Dripstone?oldid=3854643"
+      }
+    },
+    {
+      "id": "dripstone_block",
+      "pattern": "dripstone_block",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary and Fortune does not multiply it.",
+        "location": "Find dripstone blocks in dripstone caves or craft them from pointed dripstone.",
+        "operation": "Dripstone blocks support pointed-dripstone formations and suitable growth setups."
+      },
+      "evidence": {
+        "title": "Dripstone Block",
+        "revision": 3810608,
+        "sha256": "c59101833007f551a27ca1ef2a79c6f110fff91c5684a23953ff088cb3998f43",
+        "source": "https://minecraft.wiki/w/Dripstone_Block?oldid=3810608"
+      }
+    },
+    {
+      "id": "powder_snow",
+      "pattern": "powder_snow",
+      "topics": {
+        "mining": "Breaking powder snow drops nothing, even with Silk Touch. Use an empty bucket to collect it instead.",
+        "location": "Find powder snow in groves and snowy slopes, or collect falling snow in a cauldron.",
+        "danger": "Entities can sink into powder snow and freeze. Leather boots let you walk on its surface, and leather armor protects against freezing."
+      },
+      "evidence": {
+        "title": "Powder Snow",
+        "revision": 3850717,
+        "sha256": "2fad75bbceabd79de5aceff91bbe35048a6898084e21f29ff389fc9bcc1566f4",
+        "source": "https://minecraft.wiki/w/Powder_Snow?oldid=3850717"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "wool_slab",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_wool_slab",
+      "topics": {
+        "mining": "Break it by hand or with any tool; shears are fastest. It drops itself. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "water": "This shape can be waterlogged.",
+        "fire": "Wool building shapes are flammable and can burn away.",
+        "operation": "Use this material as a building shape. It stays in place without support."
+      },
+      "evidence": {
+        "source": "https://github.com/Mojang/bedrock-samples/tree/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/blocks",
+        "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+        "reviewed_components": [
+          "requires_correct_tool_for_drops",
+          "tags",
+          "loot",
+          "liquid_detection",
+          "flammable"
+        ],
+        "members": [
+          {
+            "file": "behavior_pack/blocks/white_wool_slab.block.json",
+            "sha256": "55de70aaacbd14f43f6cc4da101db3d28e4ae45b404e22996587de6fb1c98f2e",
+            "loot": "loot_tables/blocks/white_wool_slab.json",
+            "loot_sha256": "cefc63b9e3eda953a77d49d4b1d50b6dcc6fed50242c87d301ca6d23673a0aab"
+          },
+          {
+            "file": "behavior_pack/blocks/orange_wool_slab.block.json",
+            "sha256": "802a64a50e73020d3e224d06d9101641179e86da58f245feabd4565e54372947",
+            "loot": "loot_tables/blocks/orange_wool_slab.json",
+            "loot_sha256": "45a6e37a8764a98eb20e8c34fc2a76d4b4ba44501ce603023d4a941603f39c35"
+          },
+          {
+            "file": "behavior_pack/blocks/magenta_wool_slab.block.json",
+            "sha256": "f0773d0daa8b719f002e2dd77ffc43bb9922472a78acbad9da2f92220fa9cc63",
+            "loot": "loot_tables/blocks/magenta_wool_slab.json",
+            "loot_sha256": "28de1ced2e00c055de22ca12c4e7676e149ab2f0b3a87aed837f0e07de0ebc76"
+          },
+          {
+            "file": "behavior_pack/blocks/light_blue_wool_slab.block.json",
+            "sha256": "fa23a32d710a58f113247d4c777b3af3f6111434458f782fab2c76b6b5bf383b",
+            "loot": "loot_tables/blocks/light_blue_wool_slab.json",
+            "loot_sha256": "e645a4188404e0a1c052a9949f9636745224ad0ad315e7532d6c4c4a91d36b09"
+          },
+          {
+            "file": "behavior_pack/blocks/yellow_wool_slab.block.json",
+            "sha256": "4fb892697c01e86d27fb69c3434811ac8949a44cead58039a2213bfb9f71b001",
+            "loot": "loot_tables/blocks/yellow_wool_slab.json",
+            "loot_sha256": "89028b719f7a0d4798aefafb2ad37ffcdc207d2e01e8e1e3d515178dd45f3599"
+          },
+          {
+            "file": "behavior_pack/blocks/lime_wool_slab.block.json",
+            "sha256": "02f8d08ffc4a4db786e0e11e4a412dae37a07075ffb77b30cfaa2e7549fbbfdb",
+            "loot": "loot_tables/blocks/lime_wool_slab.json",
+            "loot_sha256": "ac09a244e445f28cce85db43e2461845d9971a04da0b4e80140cb4e3f7487e49"
+          },
+          {
+            "file": "behavior_pack/blocks/pink_wool_slab.block.json",
+            "sha256": "9b5845013ecc0c759c8c5870b0c4c6c3d104586b8720e0c047c9c590b88139e8",
+            "loot": "loot_tables/blocks/pink_wool_slab.json",
+            "loot_sha256": "571fe2b5d1f683bb4be3440c31ef830bbea33bf5846600fd0c86fd18fc72e1f0"
+          },
+          {
+            "file": "behavior_pack/blocks/gray_wool_slab.block.json",
+            "sha256": "ef49170dec73ee01f3ad533b3ee0060b00fdeec2a5a9a997da52d08c464067f9",
+            "loot": "loot_tables/blocks/gray_wool_slab.json",
+            "loot_sha256": "69515862b424297ffa7626da3c5d97662f68f87edc98bf6f8fe9069244842dbe"
+          },
+          {
+            "file": "behavior_pack/blocks/light_gray_wool_slab.block.json",
+            "sha256": "2de55e228c403fc56dc3cc7120304ec16c6f451d0f2413c4fc1325af73a3efeb",
+            "loot": "loot_tables/blocks/light_gray_wool_slab.json",
+            "loot_sha256": "8eb44711d27bb173ff278ca65d2edd05255e4b2a0e8a5f7c991c39745a22b79c"
+          },
+          {
+            "file": "behavior_pack/blocks/cyan_wool_slab.block.json",
+            "sha256": "36aca6202fb863d050b64832a8971044845bb253c23a5d06138f7cffb7b8b45d",
+            "loot": "loot_tables/blocks/cyan_wool_slab.json",
+            "loot_sha256": "eed0f1fb31efac03f72701303e7d2c2d359c840b47e3444b9983cc18e1fc848f"
+          },
+          {
+            "file": "behavior_pack/blocks/purple_wool_slab.block.json",
+            "sha256": "a22771073a65a4ebd6bcb6353d77c7c670a2064a1bd400ddc0568e0071b209c6",
+            "loot": "loot_tables/blocks/purple_wool_slab.json",
+            "loot_sha256": "63b274b1af2e5269548c272c94da395c2aecbeb7c68968484049e70648cc17ee"
+          },
+          {
+            "file": "behavior_pack/blocks/blue_wool_slab.block.json",
+            "sha256": "3381f737eb24c1071768a53f27e1736b1b92282535b86b1606a9c934a61b25c5",
+            "loot": "loot_tables/blocks/blue_wool_slab.json",
+            "loot_sha256": "798d202eea4e5d222c2a20b5492bbab4d30d5c793c1672be3d060fc3dcadc2c5"
+          },
+          {
+            "file": "behavior_pack/blocks/brown_wool_slab.block.json",
+            "sha256": "770a50ae8517917e034cc011c17d9957b14814ba30a421f4a6fd000f194ea9e3",
+            "loot": "loot_tables/blocks/brown_wool_slab.json",
+            "loot_sha256": "ab1ead4616d6708079cf658384f490cf9b9e2f314e7f455024f71595298e7c63"
+          },
+          {
+            "file": "behavior_pack/blocks/green_wool_slab.block.json",
+            "sha256": "add217635d94deabbe4b4612d3fcdbde6e2ae5e3eb249d1ffc7ea1a0a82ff53f",
+            "loot": "loot_tables/blocks/green_wool_slab.json",
+            "loot_sha256": "8a6b92cc67b9c41e9ff27ebbcea14869254d3a183012ad708bb3d0f1b124c545"
+          },
+          {
+            "file": "behavior_pack/blocks/red_wool_slab.block.json",
+            "sha256": "7639e33c13912fe96d4105f1e693913d5250974f1daa49035a8ae01016a46858",
+            "loot": "loot_tables/blocks/red_wool_slab.json",
+            "loot_sha256": "4f22dc3833f7c6b8f8b80dcd7179d4dc2a29febcdb8ff2dbe9925cde79bce6fc"
+          },
+          {
+            "file": "behavior_pack/blocks/black_wool_slab.block.json",
+            "sha256": "ac2c105cc66dec8164ab0f08b92ecfe3430377fbcb4c7ab82b98d4fb91975604",
+            "loot": "loot_tables/blocks/black_wool_slab.json",
+            "loot_sha256": "9c6f20c1199f18d1e57e7478ed8e8efda162ece7967811366be8ed84dadee343"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wool_stairs",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_wool_stairs",
+      "topics": {
+        "mining": "Break it by hand or with any tool; shears are fastest. It drops itself. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "water": "This shape can be waterlogged.",
+        "fire": "Wool building shapes are flammable and can burn away.",
+        "operation": "Use this material as a building shape. It stays in place without support."
+      },
+      "evidence": {
+        "source": "https://github.com/Mojang/bedrock-samples/tree/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/blocks",
+        "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+        "reviewed_components": [
+          "requires_correct_tool_for_drops",
+          "tags",
+          "loot",
+          "liquid_detection",
+          "flammable"
+        ],
+        "members": [
+          {
+            "file": "behavior_pack/blocks/white_wool_stairs.block.json",
+            "sha256": "5da36ecca14b0025cedbd03f21a78d1bd72f7a77d4523fa1c4a25e5343a3eb7d",
+            "loot": "loot_tables/blocks/white_wool_stairs.json",
+            "loot_sha256": "f7f615bcad097bdcb00557752c2f36919e153b515089827edf77b8b3998015e9"
+          },
+          {
+            "file": "behavior_pack/blocks/orange_wool_stairs.block.json",
+            "sha256": "fda9fc95e1fd045cc7ecc29430394e493b5ca1d79320055c78c330be933f478b",
+            "loot": "loot_tables/blocks/orange_wool_stairs.json",
+            "loot_sha256": "96ba2de6e549d52fce654689652d80342cca57acef4808b42372083df141b7c6"
+          },
+          {
+            "file": "behavior_pack/blocks/magenta_wool_stairs.block.json",
+            "sha256": "e484cbd264502ed973eba6ace18117805dcb5ba7d615032cf02687dd190e20a1",
+            "loot": "loot_tables/blocks/magenta_wool_stairs.json",
+            "loot_sha256": "3f4608ebd61a0191cccb92d024a0dfd253ea5f3653044acdd7d85c0293b291a6"
+          },
+          {
+            "file": "behavior_pack/blocks/light_blue_wool_stairs.block.json",
+            "sha256": "30d46b0e3ae2e3b24ab7eb1155432c50549fab911ed94913595ee95579ad5149",
+            "loot": "loot_tables/blocks/light_blue_wool_stairs.json",
+            "loot_sha256": "5f6a22a5ab5052a2c03a3a18b249bf4ec6218295c46194f6b07d4923984f2f07"
+          },
+          {
+            "file": "behavior_pack/blocks/yellow_wool_stairs.block.json",
+            "sha256": "edcf5c3964c02d76a7cac797548c42a0f3892fd2e67da0178b023a5b1b2a4035",
+            "loot": "loot_tables/blocks/yellow_wool_stairs.json",
+            "loot_sha256": "9cc38a56611ba45826c483d4f9a2e7c22ce378f2b7aacfc83b233ad4438d235b"
+          },
+          {
+            "file": "behavior_pack/blocks/lime_wool_stairs.block.json",
+            "sha256": "5bc51468fe7e5bd137396db8a5bd2f58137a748fbd35560336ee3c62a7b16b20",
+            "loot": "loot_tables/blocks/lime_wool_stairs.json",
+            "loot_sha256": "af9eff31f3dc743f39606cee41e0c8bd12ac06a0c8435a578ea23d7040e83fe1"
+          },
+          {
+            "file": "behavior_pack/blocks/pink_wool_stairs.block.json",
+            "sha256": "7bf110cadd840ab7f787e3c4de615a5c2d73249d7c37fb037fa1fed3027bd198",
+            "loot": "loot_tables/blocks/pink_wool_stairs.json",
+            "loot_sha256": "7a07085f421a2c1f36ed57a9f0c596bd769b3b04b93c032f0b144991030bb617"
+          },
+          {
+            "file": "behavior_pack/blocks/gray_wool_stairs.block.json",
+            "sha256": "d2ac9304aad6824cc6ed618ee059d29be44bdb12056e9370cfc2474f87ac8d4f",
+            "loot": "loot_tables/blocks/gray_wool_stairs.json",
+            "loot_sha256": "06794f9fb0c646523ecfb1b78cae0a9a14a0bb3c7f80b3292c7d43d08b5ce0fa"
+          },
+          {
+            "file": "behavior_pack/blocks/light_gray_wool_stairs.block.json",
+            "sha256": "0de746637772c8058660db074b1e1bd63529fedf0b811f5d505e23a3b6ab493b",
+            "loot": "loot_tables/blocks/light_gray_wool_stairs.json",
+            "loot_sha256": "1904c510db5704e78b1622a10b3cc2bb11d546236b597331a31f87ffc96999f4"
+          },
+          {
+            "file": "behavior_pack/blocks/cyan_wool_stairs.block.json",
+            "sha256": "61b67f046cceafa2dff2717c965b7524f1a8e4c089829540f765ce069992110d",
+            "loot": "loot_tables/blocks/cyan_wool_stairs.json",
+            "loot_sha256": "2a8a9872995368fd55696aafaefa4e8d709a99de3fa48b580a3ecc9ae8e53764"
+          },
+          {
+            "file": "behavior_pack/blocks/purple_wool_stairs.block.json",
+            "sha256": "77f9c9e45e81d1aa8cb6d13a7a619e23270ef60824fa8286c857412dc54e224c",
+            "loot": "loot_tables/blocks/purple_wool_stairs.json",
+            "loot_sha256": "929fbbe6cff20e95d97c3bbceed1abf28e903c46a826b002a0bddd2f908a5799"
+          },
+          {
+            "file": "behavior_pack/blocks/blue_wool_stairs.block.json",
+            "sha256": "73b7c63d9887c09f77081ff325fa71ef041f18544bdf9f83c30386ec6ec7e014",
+            "loot": "loot_tables/blocks/blue_wool_stairs.json",
+            "loot_sha256": "07c413fcd05e4fbbbd4ab38b648069c11763061a8a72fb049ca10e8350bf9c24"
+          },
+          {
+            "file": "behavior_pack/blocks/brown_wool_stairs.block.json",
+            "sha256": "d92c3d91175bba258b95228f977df9cdcb977d9a7fe7cc17bbedbe2ac25421e8",
+            "loot": "loot_tables/blocks/brown_wool_stairs.json",
+            "loot_sha256": "f5a6db05b737c8e2b48c2028323da2c1e24b068b58d47e067af16281449d2642"
+          },
+          {
+            "file": "behavior_pack/blocks/green_wool_stairs.block.json",
+            "sha256": "6abf5cd8f5ddf4a677ce0746f44487da3b14a672d8d2d1845fa412ccdb8f214b",
+            "loot": "loot_tables/blocks/green_wool_stairs.json",
+            "loot_sha256": "136ec2ea7022049c84c9a33bad674e91325a24b986d5cfd5f2b7e1ec99340556"
+          },
+          {
+            "file": "behavior_pack/blocks/red_wool_stairs.block.json",
+            "sha256": "a9c105f3f7dd10b5d6fb43b32db7235a5b629d8dd79d2d4f1672d6b6e9bf093c",
+            "loot": "loot_tables/blocks/red_wool_stairs.json",
+            "loot_sha256": "8626ada22fb4d37c40bf1dce32770074ae234dce75ba4e2c2e068a9daf95c238"
+          },
+          {
+            "file": "behavior_pack/blocks/black_wool_stairs.block.json",
+            "sha256": "4e26a83634b8f570c4759d62c1672465c5eaef5f1d8988de6e54094ae553f66d",
+            "loot": "loot_tables/blocks/black_wool_stairs.json",
+            "loot_sha256": "9586a70ddd0d64ff108f44a161ebf03a80727ebe0c513f50103428cf26b99eb8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wool_double_slab",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_wool_double_slab",
+      "topics": {
+        "mining": "Break it by hand or with any tool; shears are fastest. It drops 2 matching slabs, not a double-slab item. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "water": "Double slabs cannot be waterlogged.",
+        "fire": "Wool building shapes are flammable and can burn away.",
+        "operation": "Use this material as a building shape. It stays in place without support."
+      },
+      "evidence": {
+        "source": "https://github.com/Mojang/bedrock-samples/tree/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/blocks",
+        "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+        "reviewed_components": [
+          "requires_correct_tool_for_drops",
+          "tags",
+          "loot",
+          "liquid_detection",
+          "flammable"
+        ],
+        "members": [
+          {
+            "file": "behavior_pack/blocks/white_wool_double_slab.block.json",
+            "sha256": "c96d9072548e5c914dcfe87a6d81fa96bc2b3250186f445df012fe606ef16803",
+            "loot": "loot_tables/blocks/white_wool_double_slab.json",
+            "loot_sha256": "1742ce0ce28ea1af1d2d897fba443f4e181ba330ede3fba7d34834e0730534ae"
+          },
+          {
+            "file": "behavior_pack/blocks/orange_wool_double_slab.block.json",
+            "sha256": "e82f94b16dc416c2dd79ca21ff29f35622aa89a4bdd6e90eb2725f9746da72b2",
+            "loot": "loot_tables/blocks/orange_wool_double_slab.json",
+            "loot_sha256": "966689628b097e16cfe119c1eb2160a26e8716c6f84b41d621540a906fe07c20"
+          },
+          {
+            "file": "behavior_pack/blocks/magenta_wool_double_slab.block.json",
+            "sha256": "251f22cdff572618e02e786776f13f24f392ec76a53de8b0af42f8dcf77bc780",
+            "loot": "loot_tables/blocks/magenta_wool_double_slab.json",
+            "loot_sha256": "1040d9da97523f8c8b050a20c8df133fca7f5f68bcdd702d1cb558f8f2df35a2"
+          },
+          {
+            "file": "behavior_pack/blocks/light_blue_wool_double_slab.block.json",
+            "sha256": "bce93cd75358072a700b44bc5afcfafed044f66afd43a66da7428b52d79fe441",
+            "loot": "loot_tables/blocks/light_blue_wool_double_slab.json",
+            "loot_sha256": "acda1691f6ffb6d492f89c4269efb60fa6de7f65690e1d07ccac69334116909f"
+          },
+          {
+            "file": "behavior_pack/blocks/yellow_wool_double_slab.block.json",
+            "sha256": "875a3fed86b70e3d4ff078b5765547c6290c42be2391cbcd11fc54f957cc68b1",
+            "loot": "loot_tables/blocks/yellow_wool_double_slab.json",
+            "loot_sha256": "c2424d7b716ea50c3b0981ae48e15f563956f52f699e9f14cec88f1ff078eac5"
+          },
+          {
+            "file": "behavior_pack/blocks/lime_wool_double_slab.block.json",
+            "sha256": "9455c8858e0476394529a3259b4527ae62d57c6d87935bb68896ab17e9b09080",
+            "loot": "loot_tables/blocks/lime_wool_double_slab.json",
+            "loot_sha256": "28562cd5a570e4dbc55649d412e124666b288a6cd686b41a7e93ad1b60d15afe"
+          },
+          {
+            "file": "behavior_pack/blocks/pink_wool_double_slab.block.json",
+            "sha256": "34eb3d13e4d897ae475ad4bfdc322d7a53b9cb2da2cf7149c28b1ae4baef5e2b",
+            "loot": "loot_tables/blocks/pink_wool_double_slab.json",
+            "loot_sha256": "40a10f9a6d92625850cc6903557c7d5db585a685a859c12151507e076c6b8a17"
+          },
+          {
+            "file": "behavior_pack/blocks/gray_wool_double_slab.block.json",
+            "sha256": "edd824a2c1a5ce0a81019b69080e8c8df04538dc5b304316f18d640fdbfdf209",
+            "loot": "loot_tables/blocks/gray_wool_double_slab.json",
+            "loot_sha256": "1cea665e10f8d3b94814f83f87179a8a52bd8fe7a1b015859d3d59aaef4902de"
+          },
+          {
+            "file": "behavior_pack/blocks/light_gray_wool_double_slab.block.json",
+            "sha256": "01d53cde31697831883bd098817c6ac80bb953aab68d48eb7a922ec1a567bc89",
+            "loot": "loot_tables/blocks/light_gray_wool_double_slab.json",
+            "loot_sha256": "68c4dcefbf01e0ed8e2f90e6b732dd043ca82e9ca50ebcc8c2cef227dc6a9b9b"
+          },
+          {
+            "file": "behavior_pack/blocks/cyan_wool_double_slab.block.json",
+            "sha256": "b1e275bf1601382eb6409a9eac07fd9286e9b958b6720e41fbd32bbedaa3bf27",
+            "loot": "loot_tables/blocks/cyan_wool_double_slab.json",
+            "loot_sha256": "74665968b6cac5ca576cbfe6341638f1c25f5e3c04bad83d0fdce52626a7de96"
+          },
+          {
+            "file": "behavior_pack/blocks/purple_wool_double_slab.block.json",
+            "sha256": "ea5c2536420622b2fc0ce6ab5e32a3000df0f26d9e95503c2cbf8f6509ba9bc2",
+            "loot": "loot_tables/blocks/purple_wool_double_slab.json",
+            "loot_sha256": "60ea33f79b97a2e046e1cf928c4fd25d3aa8872ea829fe8797f7bf551e24ddde"
+          },
+          {
+            "file": "behavior_pack/blocks/blue_wool_double_slab.block.json",
+            "sha256": "0d7429266f3fb2dd4cd4d94bed251e2d72cb4cf18451fb10c6d6e5cc2e344938",
+            "loot": "loot_tables/blocks/blue_wool_double_slab.json",
+            "loot_sha256": "5e304534dae65e3edbc3725ca29aff5e01f085845b0d7e3239665a9b4466434f"
+          },
+          {
+            "file": "behavior_pack/blocks/brown_wool_double_slab.block.json",
+            "sha256": "eda28c6772eb4f827e3d9670805f1edcfd044ab9df980a94404d23c1049f5a6b",
+            "loot": "loot_tables/blocks/brown_wool_double_slab.json",
+            "loot_sha256": "b3099a4b064b21fa918a4f5af9aeb98cfae0edaddc56910fca46b538b109d840"
+          },
+          {
+            "file": "behavior_pack/blocks/green_wool_double_slab.block.json",
+            "sha256": "a14c0a32aecfb128a3745a47fa4974dce5371573b2c189080ef219709e36f46c",
+            "loot": "loot_tables/blocks/green_wool_double_slab.json",
+            "loot_sha256": "632e14a32fc0b8d8bfbdf5271ec70e36c80409242d9a7d47c8ef0c8ce48ef3b4"
+          },
+          {
+            "file": "behavior_pack/blocks/red_wool_double_slab.block.json",
+            "sha256": "bd6c8c28997456ddc4ee3d868f7162bf09f167c00036bb3e2fb6a419eb0fbc2a",
+            "loot": "loot_tables/blocks/red_wool_double_slab.json",
+            "loot_sha256": "000fa641af942bb01722708dfacfbdc50bab7d0822920a982a3f3a45c4426a82"
+          },
+          {
+            "file": "behavior_pack/blocks/black_wool_double_slab.block.json",
+            "sha256": "e8065a5a844b7386f1756a0232f258c451db3a20f141850a686576b07750e9f6",
+            "loot": "loot_tables/blocks/black_wool_double_slab.json",
+            "loot_sha256": "0ddb78b111f3c72e432211626999aacfdad1e07f1f94d1d5254839bee9953ddd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "concrete_slab",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_concrete_slab",
+      "topics": {
+        "mining": "Use any pickaxe; without one the block drops nothing. It drops itself. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "water": "This shape can be waterlogged.",
+        "fire": "Concrete building shapes do not catch fire or burn away.",
+        "operation": "Use this material as a building shape. It stays in place without support."
+      },
+      "evidence": {
+        "source": "https://github.com/Mojang/bedrock-samples/tree/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/blocks",
+        "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+        "reviewed_components": [
+          "requires_correct_tool_for_drops",
+          "tags",
+          "loot",
+          "liquid_detection",
+          "flammable"
+        ],
+        "members": [
+          {
+            "file": "behavior_pack/blocks/white_concrete_slab.block.json",
+            "sha256": "bd767af358f3bfdb4ed3a5d9054124177ea4454410ddec21657aeea8a64a8ddb",
+            "loot": "loot_tables/blocks/white_concrete_slab.json",
+            "loot_sha256": "fb89c53dd7b69d4ae1932c23fe47e54c1a16a05974c17999c4f214346d9aeb09"
+          },
+          {
+            "file": "behavior_pack/blocks/orange_concrete_slab.block.json",
+            "sha256": "6b201b7b7fc87105ab0266a319d967e54e07a687bd148eca0540759cad0d7d04",
+            "loot": "loot_tables/blocks/orange_concrete_slab.json",
+            "loot_sha256": "65a9fac92f6214ddeb7feff245e4386cfa937289aaea8c3e9ec10c8c0b6dbd0a"
+          },
+          {
+            "file": "behavior_pack/blocks/magenta_concrete_slab.block.json",
+            "sha256": "e6b3d940650e2fc33c1999b11faf4b9caaa3773619aa9efe59e3d9b148097199",
+            "loot": "loot_tables/blocks/magenta_concrete_slab.json",
+            "loot_sha256": "bd0b07783f903a36cbd46146041d5f1cb2864f96609ded72fd9202a3cb745e38"
+          },
+          {
+            "file": "behavior_pack/blocks/light_blue_concrete_slab.block.json",
+            "sha256": "4af43bd4f1584afe6e2fddc9ef895799fe1a5a27a4f8594aca90c8520cfd26ee",
+            "loot": "loot_tables/blocks/light_blue_concrete_slab.json",
+            "loot_sha256": "07123ee803b65120f6da21980bda887606e22ce1a2080c15618d6d3ad3dc756a"
+          },
+          {
+            "file": "behavior_pack/blocks/yellow_concrete_slab.block.json",
+            "sha256": "fa976a1b9524d4e7537a9bf22c9f6aa132a062063c6e4d438eb885e9233d28f2",
+            "loot": "loot_tables/blocks/yellow_concrete_slab.json",
+            "loot_sha256": "cfd0e5ad473cedd589cff1996b89b2d90210b387156491e4dc0a67f3391108ba"
+          },
+          {
+            "file": "behavior_pack/blocks/lime_concrete_slab.block.json",
+            "sha256": "72d4c2cee98e797d1a9e98ba402f1965c316c84847401a22fc45c22b8157878e",
+            "loot": "loot_tables/blocks/lime_concrete_slab.json",
+            "loot_sha256": "ae76bceceb3efe3b2ba3d0e5216dce4350dc91f389e35c4ce1df0ecb1045c550"
+          },
+          {
+            "file": "behavior_pack/blocks/pink_concrete_slab.block.json",
+            "sha256": "7f1248a3cad32c159b9a67d78ce08f35d9bc0d7ae28feadc7beed825d6e62bbe",
+            "loot": "loot_tables/blocks/pink_concrete_slab.json",
+            "loot_sha256": "1e93311702e2b6f0808a1aa8a9b2889338a32a0a9c8204455066c115e1d4da7e"
+          },
+          {
+            "file": "behavior_pack/blocks/gray_concrete_slab.block.json",
+            "sha256": "abe1ff3116531df68c48b343dd066fe8437d99af95d680012364d9c0ced52d46",
+            "loot": "loot_tables/blocks/gray_concrete_slab.json",
+            "loot_sha256": "a36ce00578df0b1583115c471c91de2be0937b9d8bf849da9c76796bb5669310"
+          },
+          {
+            "file": "behavior_pack/blocks/light_gray_concrete_slab.block.json",
+            "sha256": "e0033a445ca303bc70052d13e20bc7f77209463156dcc5e3e9a15d4c1cde8c6c",
+            "loot": "loot_tables/blocks/light_gray_concrete_slab.json",
+            "loot_sha256": "95d7ff971b685c5c2e09af26e2b3bf3d1bc0cd02e68c66879d0d892b8e10ad71"
+          },
+          {
+            "file": "behavior_pack/blocks/cyan_concrete_slab.block.json",
+            "sha256": "1a1574815cb19a636e6d6b5ba61914dc7717ab0fde865d7152665526268904f9",
+            "loot": "loot_tables/blocks/cyan_concrete_slab.json",
+            "loot_sha256": "694cb930a0cc778664d20d0d654a2dd0dd161911c1a5cb0f7f604ecb9543cc8e"
+          },
+          {
+            "file": "behavior_pack/blocks/purple_concrete_slab.block.json",
+            "sha256": "a07d3a1ba0abcb1f058dd7b3dad6f13808d0ae07dc4dbf4bad5db2a23ddbd256",
+            "loot": "loot_tables/blocks/purple_concrete_slab.json",
+            "loot_sha256": "ff95023f23a6c0ffe18c5541d12763f8bf23c1a6e50a160a337cbc8c42997c9a"
+          },
+          {
+            "file": "behavior_pack/blocks/blue_concrete_slab.block.json",
+            "sha256": "8897719b1275143ca66da3410bfa49c70baa33d7a230128b930fd92a7f3b7642",
+            "loot": "loot_tables/blocks/blue_concrete_slab.json",
+            "loot_sha256": "eb6d43380966619d6be53f4735de15f22ff6388a9f0369960e6147282c2bc894"
+          },
+          {
+            "file": "behavior_pack/blocks/brown_concrete_slab.block.json",
+            "sha256": "52cfbd4e9112a9e59dd169d618df597859722b5fc5c1040c6e5b2cbb08cba834",
+            "loot": "loot_tables/blocks/brown_concrete_slab.json",
+            "loot_sha256": "7b5bbcf04b73762bd58fabba0ffbb41f32c140fae4d7003ec426f2568efa4c73"
+          },
+          {
+            "file": "behavior_pack/blocks/green_concrete_slab.block.json",
+            "sha256": "9bc32cd1d8203dc88522a8d04e82e5a1b57b4ef4d491eb88bbb576e58aaf7d52",
+            "loot": "loot_tables/blocks/green_concrete_slab.json",
+            "loot_sha256": "d449db8453b52bbb54acf9244f49ebeffbf955eabd604ccbe4e1ac2c77a23561"
+          },
+          {
+            "file": "behavior_pack/blocks/red_concrete_slab.block.json",
+            "sha256": "e614daaae3f0344a8a3d2824fa703936a3fb98ee1be0587e7401aff475a477b6",
+            "loot": "loot_tables/blocks/red_concrete_slab.json",
+            "loot_sha256": "6f4e5a836d7e5f7a1bbd41fd3b0ae1a385e104f940af756c900530f969fc7960"
+          },
+          {
+            "file": "behavior_pack/blocks/black_concrete_slab.block.json",
+            "sha256": "447fb558455917c8a1a76a156ca6bf22488d537f4355fb22df4ee3cae008c9fd",
+            "loot": "loot_tables/blocks/black_concrete_slab.json",
+            "loot_sha256": "4ad6f8714b7edbeb4077493058850a5baf41306f6ec153220a277f50930bb180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "concrete_stairs",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_concrete_stairs",
+      "topics": {
+        "mining": "Use any pickaxe; without one the block drops nothing. It drops itself. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "water": "This shape can be waterlogged.",
+        "fire": "Concrete building shapes do not catch fire or burn away.",
+        "operation": "Use this material as a building shape. It stays in place without support."
+      },
+      "evidence": {
+        "source": "https://github.com/Mojang/bedrock-samples/tree/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/blocks",
+        "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+        "reviewed_components": [
+          "requires_correct_tool_for_drops",
+          "tags",
+          "loot",
+          "liquid_detection",
+          "flammable"
+        ],
+        "members": [
+          {
+            "file": "behavior_pack/blocks/white_concrete_stairs.block.json",
+            "sha256": "6389d10985a3266ad5b665ef5204c38819c501e52c265a7828b50130b9c05a7f",
+            "loot": "loot_tables/blocks/white_concrete_stairs.json",
+            "loot_sha256": "918a23e36cb3dfe328c4866e999acab9ff6b239627683c17c2683c78b6d3b7cb"
+          },
+          {
+            "file": "behavior_pack/blocks/orange_concrete_stairs.block.json",
+            "sha256": "6415863c08607ed722b91efa224e484f931b955e50bca4b19c668446b6da9bc6",
+            "loot": "loot_tables/blocks/orange_concrete_stairs.json",
+            "loot_sha256": "59175ce4a48dbdf29cb08791e01a1f8152bcbdaa524ecab9fd437219a654f3d3"
+          },
+          {
+            "file": "behavior_pack/blocks/magenta_concrete_stairs.block.json",
+            "sha256": "2f3eedcbf515da2682c2d76f2f2f504ff2bd526994b44b0133b1f9dfb5e3554d",
+            "loot": "loot_tables/blocks/magenta_concrete_stairs.json",
+            "loot_sha256": "01fb10403490e7800d721bfb055059a8afc5d75da5aca5aff464cc66d51e9f4e"
+          },
+          {
+            "file": "behavior_pack/blocks/light_blue_concrete_stairs.block.json",
+            "sha256": "f20e5a684da687e006aec44403c9b3238ef6e0f7bd3228788b31c77903200db8",
+            "loot": "loot_tables/blocks/light_blue_concrete_stairs.json",
+            "loot_sha256": "73b41db8424ed72e29eefb374bdc776e76a1571e641e0ef01713c65767757b3c"
+          },
+          {
+            "file": "behavior_pack/blocks/yellow_concrete_stairs.block.json",
+            "sha256": "707dd5efc3139a67619ef437cc593f76ee8fb6b4d994051071f329bc81c11623",
+            "loot": "loot_tables/blocks/yellow_concrete_stairs.json",
+            "loot_sha256": "3cf13f23c72044fdf7fed45d2dec92ffdb7f7322d95a975c82bff6f167f32563"
+          },
+          {
+            "file": "behavior_pack/blocks/lime_concrete_stairs.block.json",
+            "sha256": "7b95ddb8887a5805f0a37005477872f08cb38bd62e7f57178ebbca215266da43",
+            "loot": "loot_tables/blocks/lime_concrete_stairs.json",
+            "loot_sha256": "99c2dd72a105f1bf48d3a0e6a8e367b7535c43a8cb8a5b3bb84684a598c7301d"
+          },
+          {
+            "file": "behavior_pack/blocks/pink_concrete_stairs.block.json",
+            "sha256": "cf6ef3cef876d3b96f1544531a9775f9dee5c2704d1617011bebac24ff37e319",
+            "loot": "loot_tables/blocks/pink_concrete_stairs.json",
+            "loot_sha256": "98563740c70b4e79240bc7756957b0641b38a3cdaeda705959faf7bc0f49778e"
+          },
+          {
+            "file": "behavior_pack/blocks/gray_concrete_stairs.block.json",
+            "sha256": "42af1a3d5b33cd7ea79411711ac442fba731e109f107952048dcf11b310c796d",
+            "loot": "loot_tables/blocks/gray_concrete_stairs.json",
+            "loot_sha256": "d2e5f4b4bcecf387d5dcf019298d1b27935b7a9aaa8b7b71e1cbac72544b628e"
+          },
+          {
+            "file": "behavior_pack/blocks/light_gray_concrete_stairs.block.json",
+            "sha256": "4c98aad40128578dc2f2277eb220251f60b217b33a732df459b13be89ec8a225",
+            "loot": "loot_tables/blocks/light_gray_concrete_stairs.json",
+            "loot_sha256": "54e7c363072d829bffd06f7293455b66b10633eb57516b6737144a8e3b7e8947"
+          },
+          {
+            "file": "behavior_pack/blocks/cyan_concrete_stairs.block.json",
+            "sha256": "77e8bb7587cd8ea3e2757efe19c013e0d831d45d6bf4c2833869d516d5b55fee",
+            "loot": "loot_tables/blocks/cyan_concrete_stairs.json",
+            "loot_sha256": "598212384a5590bef04c06ea67be4ff77839bf430a7c6c2f570ccfe4c599b657"
+          },
+          {
+            "file": "behavior_pack/blocks/purple_concrete_stairs.block.json",
+            "sha256": "72dbc3fa05f2ab4f912066b310194c52f510e82a7d10ee716b1e5533ad09711a",
+            "loot": "loot_tables/blocks/purple_concrete_stairs.json",
+            "loot_sha256": "3f187d0e306891ade2c1ab884a8dce1fe25069f1c7fc157ef15d0eabfb465cc3"
+          },
+          {
+            "file": "behavior_pack/blocks/blue_concrete_stairs.block.json",
+            "sha256": "9596f04c0bb5ab72245ef888f807d712cd9a2db2bdf53396e4c205d762dda935",
+            "loot": "loot_tables/blocks/blue_concrete_stairs.json",
+            "loot_sha256": "f3dd8ffe521fefa493a54ea5c05ff8db4a96a289dbdefe8190d3acc0dc0b5001"
+          },
+          {
+            "file": "behavior_pack/blocks/brown_concrete_stairs.block.json",
+            "sha256": "962b0aea964c358e36da40e9542225376dd9e15e8184112b99ebcaaf4b85b102",
+            "loot": "loot_tables/blocks/brown_concrete_stairs.json",
+            "loot_sha256": "1e660a6f74e8fec30c870aa042cc1fe90479460a1aac74b8b3eafd2fed9b13f4"
+          },
+          {
+            "file": "behavior_pack/blocks/green_concrete_stairs.block.json",
+            "sha256": "c51cf072ecbf7f9c1c59dcbeab93be8bb2ff040bea77836af716ecdb9e1f0653",
+            "loot": "loot_tables/blocks/green_concrete_stairs.json",
+            "loot_sha256": "39f774cec800dcde7d92ca1c1209a459b39f9b9460656474abcb2152a2d9e9ae"
+          },
+          {
+            "file": "behavior_pack/blocks/red_concrete_stairs.block.json",
+            "sha256": "499b3fd2f6359005ae20c433c52be9dee2dffc93f6238b254f128ddd6fe6c670",
+            "loot": "loot_tables/blocks/red_concrete_stairs.json",
+            "loot_sha256": "6bc1bac07b8fa6e89ca1b48993a2996650e7e8c4ed159493c3825d3b58ae31f4"
+          },
+          {
+            "file": "behavior_pack/blocks/black_concrete_stairs.block.json",
+            "sha256": "b9f8e7a88f69c6a1a54fb5ea9255a055cdeb6377bee96c54d81db853a8968ca5",
+            "loot": "loot_tables/blocks/black_concrete_stairs.json",
+            "loot_sha256": "ee5c7b0561a00ceaee2b7072fa6a28337a1bd24e64de6bab7c3b89cc82427a06"
+          }
+        ]
+      }
+    },
+    {
+      "id": "concrete_double_slab",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_concrete_double_slab",
+      "topics": {
+        "mining": "Use any pickaxe; without one the block drops nothing. It drops 2 matching slabs, not a double-slab item. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "water": "Double slabs cannot be waterlogged.",
+        "fire": "Concrete building shapes do not catch fire or burn away.",
+        "operation": "Use this material as a building shape. It stays in place without support."
+      },
+      "evidence": {
+        "source": "https://github.com/Mojang/bedrock-samples/tree/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/blocks",
+        "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+        "reviewed_components": [
+          "requires_correct_tool_for_drops",
+          "tags",
+          "loot",
+          "liquid_detection",
+          "flammable"
+        ],
+        "members": [
+          {
+            "file": "behavior_pack/blocks/white_concrete_double_slab.block.json",
+            "sha256": "c4d14b80850139472ab23f3f5b24a92cfa8c55e5666a12636299515810c5be51",
+            "loot": "loot_tables/blocks/white_concrete_double_slab.json",
+            "loot_sha256": "1d48443f059a983e6095602bd67bfaaf886470ff339c36ae01acba5091e4079c"
+          },
+          {
+            "file": "behavior_pack/blocks/orange_concrete_double_slab.block.json",
+            "sha256": "94cb38f08daa0271e35b71e922103ca05d02df3fbc8974a77204cd700297fa4f",
+            "loot": "loot_tables/blocks/orange_concrete_double_slab.json",
+            "loot_sha256": "4729c005b0064dfcaae0934b524140bc46770f253911119cc3ab38b504e1377e"
+          },
+          {
+            "file": "behavior_pack/blocks/magenta_concrete_double_slab.block.json",
+            "sha256": "05916c8e37d523d76343f6be5077d16c54f540d7ac2aab5187a457eddd73981f",
+            "loot": "loot_tables/blocks/magenta_concrete_double_slab.json",
+            "loot_sha256": "ccb8eebbfd675dc401e6b107ab68b9a1990f5ab198cf8a6a784c50873d73ce38"
+          },
+          {
+            "file": "behavior_pack/blocks/light_blue_concrete_double_slab.block.json",
+            "sha256": "ff4a7b58fd7a0ad6082a1f3af574789d738bf8172c16947fdfa21b45cf56da4d",
+            "loot": "loot_tables/blocks/light_blue_concrete_double_slab.json",
+            "loot_sha256": "f4e57a8f3c2a1666856dd30f6c35e05a66ffe401c0c4e0524330c4eb308ce9cb"
+          },
+          {
+            "file": "behavior_pack/blocks/yellow_concrete_double_slab.block.json",
+            "sha256": "58e110cd6a613e1f100466c401ab7ea286bec1f28125a12ed7b1b0423f6cf530",
+            "loot": "loot_tables/blocks/yellow_concrete_double_slab.json",
+            "loot_sha256": "b6260866b24633a26c000bfe517d1cb7373ba6c649770bd6d4228cf2a2bb1bdb"
+          },
+          {
+            "file": "behavior_pack/blocks/lime_concrete_double_slab.block.json",
+            "sha256": "5deb60670bcc332b7afebd284f6dbb4bd165821d998e059c7b4da20392514c27",
+            "loot": "loot_tables/blocks/lime_concrete_double_slab.json",
+            "loot_sha256": "d05e64f7b33ae8ef83eb53a977ba2b0209279fd684f099dea487033ed459d439"
+          },
+          {
+            "file": "behavior_pack/blocks/pink_concrete_double_slab.block.json",
+            "sha256": "5f8088ae86a8d34b6ac6b5da4c20de5f4f5f38144357e389d96337f1b9a2b3ea",
+            "loot": "loot_tables/blocks/pink_concrete_double_slab.json",
+            "loot_sha256": "eeec96de330af2b868715fc8d381e1cdf2d3de1da5d45507afd21acf878f2b65"
+          },
+          {
+            "file": "behavior_pack/blocks/gray_concrete_double_slab.block.json",
+            "sha256": "0d8335f14cfd572173fa0ffdf3ae356a5f8a4e00d05efd238c9ff45afee1ae53",
+            "loot": "loot_tables/blocks/gray_concrete_double_slab.json",
+            "loot_sha256": "26d4da61ea8117d1d3be893accc9eead4243792b804dc5bd4536e14532da4c22"
+          },
+          {
+            "file": "behavior_pack/blocks/light_gray_concrete_double_slab.block.json",
+            "sha256": "812905b5ec41030d62bf4d141942e1a7cb8fbda46d1b56f2b45e8fe07b5a7fc4",
+            "loot": "loot_tables/blocks/light_gray_concrete_double_slab.json",
+            "loot_sha256": "efb4fb0364330ae7107c1b45fa6c9cf5ea375e6afadaf9b6fe6be7fc257adc1d"
+          },
+          {
+            "file": "behavior_pack/blocks/cyan_concrete_double_slab.block.json",
+            "sha256": "afc87e448d1a79ace8d4f3b44a31204d45206270623d5362f0f370a4501911d0",
+            "loot": "loot_tables/blocks/cyan_concrete_double_slab.json",
+            "loot_sha256": "e7a06f855bb5a9e8c49aae34c353ae4c43c9db193a004fefd351ad4ac2b33311"
+          },
+          {
+            "file": "behavior_pack/blocks/purple_concrete_double_slab.block.json",
+            "sha256": "9eb5d67e7be78ea2ee7373da28476b31fc98b57a02e1e7f202c4b512bd18ac86",
+            "loot": "loot_tables/blocks/purple_concrete_double_slab.json",
+            "loot_sha256": "30180100e872600b514e6af2fcf2656e9513bd180c80d427cbeeec3d7c653361"
+          },
+          {
+            "file": "behavior_pack/blocks/blue_concrete_double_slab.block.json",
+            "sha256": "eca64b8aea374946a1ac633f17feee1d908aa8a6c101f9781e1822b61399ddf7",
+            "loot": "loot_tables/blocks/blue_concrete_double_slab.json",
+            "loot_sha256": "bb41958f41039f4ebf1589fddd6070f6e9e3babb12ab98cb9a2ed495df54dfff"
+          },
+          {
+            "file": "behavior_pack/blocks/brown_concrete_double_slab.block.json",
+            "sha256": "57c4324585622f4d697475fec0ed24c4cf3fc5d5380eb6ea9b000e6717c128fb",
+            "loot": "loot_tables/blocks/brown_concrete_double_slab.json",
+            "loot_sha256": "20bc769bc5053d8a4fc9af02746b2cb40ad59e15cbe7b079ef5097f6598a8f74"
+          },
+          {
+            "file": "behavior_pack/blocks/green_concrete_double_slab.block.json",
+            "sha256": "dbb5c0c5e7f02b500318505b82e99f106062ec50aa4de0f7a3a36293ea0501ca",
+            "loot": "loot_tables/blocks/green_concrete_double_slab.json",
+            "loot_sha256": "1182781e96d30841e4b874a02603d3f794422b37838bcb7e75153762f0e24100"
+          },
+          {
+            "file": "behavior_pack/blocks/red_concrete_double_slab.block.json",
+            "sha256": "b8a06aca3f6752866346e14ad6c821036549be04b780f88b8af41498d280f914",
+            "loot": "loot_tables/blocks/red_concrete_double_slab.json",
+            "loot_sha256": "29c307b26640fb8b72e8f9f3365db8490226701e3b6ef4d043f3dd7c4735cfbe"
+          },
+          {
+            "file": "behavior_pack/blocks/black_concrete_double_slab.block.json",
+            "sha256": "899fb922e8590181a44bd97673c58f8c09d05bed6124a2a605111327dd588243",
+            "loot": "loot_tables/blocks/black_concrete_double_slab.json",
+            "loot_sha256": "52aacce25a2016ca8a4651e09c11c3676f50604dcbeee316a1d2fd739b5c4816"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -46,3 +46,9 @@ if __name__ == '__main__':
     audit('data/blocks/devices.json', 'docs/BLOCK_DEVICE_AUDIT.json')
 
     audit('data/blocks/utility.json', 'docs/BLOCK_UTILITY_AUDIT.json')
+
+    audit('data/blocks/decorative.json', 'docs/BLOCK_DECORATIVE_AUDIT.json')
+
+    audit('data/blocks/special.json', 'docs/BLOCK_SPECIAL_AUDIT.json')
+
+    audit('data/blocks/availability.json', 'docs/BLOCK_AVAILABILITY_AUDIT.json')

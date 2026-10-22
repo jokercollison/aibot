@@ -1,11 +1,11 @@
 {
   "name": "time-trap-robot",
-  "version": "0.2.20",
+  "version": "0.2.21",
   "private": true,
   "type": "module",
   "scripts": {
     "check": "tsc --noEmit",
-    "test": "python tools/recipes.py && python tools/entity_knowledge.py && python tools/acquisition.py && python tools/entity_database.py && python tools/entity_loot.py && python tools/topics.py && python tools/descriptions.py && node tools/entity_question_audit.mjs && node --test tests/*.test.js",
+    "test": "python tools/recipes.py && python tools/entity_knowledge.py && python tools/acquisition.py && python tools/entity_database.py && python tools/entity_loot.py && python tools/topics.py && python tools/descriptions.py && python tools/block_family_audit.py && node tools/block_question_audit.mjs && node tools/entity_question_audit.mjs && node --test tests/*.test.js",
     "build": "node tools/build.mjs",
     "validate": "npm run check && npm test && npm run build"
   },

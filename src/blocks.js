@@ -1,3 +1,6 @@
+import availability from '../data/blocks/availability.json' with {type:'json'};
+import special from '../data/blocks/special.json' with {type:'json'};
+import decorative from '../data/blocks/decorative.json' with {type:'json'};
 import utility from '../data/blocks/utility.json' with {type:'json'};
 import devices from '../data/blocks/devices.json' with {type:'json'};
 import plants from '../data/blocks/plants.json' with {type:'json'};
@@ -6,13 +9,16 @@ import ground from '../data/blocks/ground.json' with {type:'json'};
 import families from '../data/blocks/families.json' with {type:'json'};
 import terrain from '../data/blocks/terrain.json' with {type:'json'};
 
-const rules=[...families.rules,...ground.rules,...masonry.rules,...plants.rules,...devices.rules,...utility.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
+const rules=[...families.rules,...ground.rules,...masonry.rules,...plants.rules,...devices.rules,...utility.rules,...decorative.rules,...special.rules,...availability.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
 
 // Keep the question facet separate from the catalog's basic definition.
 export function blockTopic(q) {
   q=q.replace(/\bhoneycomb blocks?\b/g,'decorative block').replace(/\bfire coral\b/g,'coral').replace(/\b(?:powered|unpowered) (?=comparator|repeater)/g,'').replace(/\bredstone (?=lamp|torch|comparator|repeater|wire|block)/g,'');
   if (/^(?:what is|what are|describe|tell me about)\b/.test(q) && !/\b(?:tool|pickaxe|shovel|silk touch|fortune|happens|growth|growing|planting)\b/.test(q)) return undefined;
-  if (/\b(?:where|find|found|locate|obtain|biomes?|depth|deep|height)\b/.test(q)) return 'location';
+  if (/\b(?:where|find|found|locate|obtain|biomes?|depth|deep|height)\b/.test(q) || /^(?:how|where) (?:can|do) i (?:get|collect)\b/.test(q)) return 'location';
+  if (/\b(?:mine|mining|break|breaking|harvest|pickaxe|shovel|tool|drops?|loot|silk touch|fortune)\b/.test(q)) return 'mining';
+  if (/\b(?:explode|explodes|explosion|explosions|dangerous|danger)\b/.test(q)) return 'danger';
+  if (/^how (?:do i|can i|do you) use\b/.test(q)) return 'operation';
   if (/\b(?:grow|grows|growing|growth|planting|bone meal|bonemeal|fertili[sz]e|mature|maturing|hydrate|hydration|trample|trampling)\b/.test(q) || /\b(?:do i|can i|should i|to|you) plant\b/.test(q)) return 'growth';
   if (/\b(?:oxidi[sz](?:e|es|ing)|oxidation|rust|rusting|wax|waxing|honeycomb|scrape|scraping)\b/.test(q)) return 'oxidation';
   if (/\b(?:strip|stripping|bark)\b/.test(q) && /\b(?:how|can|axe|strip|stripping)\b/.test(q)) return 'stripping';
@@ -44,10 +50,20 @@ export function blockAnswer(id, q) {
 // Reviewed wiki recipe fallback for color recipes absent from pinned sample files.
 export function blockRecipe(id) {
   const match=id.match(/^minecraft:(white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_wool$/);
-  if(!match)return undefined;
+  if(!match) {
+    if(id==='minecraft:decorated_pot')return {status:'conditional',subject:id,answer:"To craft a decorated pot, you'll need 4 bricks.",sources:[decorative.rules.find(r=>r.id==='decorated_pot').evidence.source]};
+    const rule=rules.find(r=>r.recipe_unavailable&&r.match.test(id.replace(/^minecraft:/,'')));
+    if(rule)return {status:'conditional',subject:id,topic:'recipe',coverage:'reviewed_uncraftable',answer:`You cannot craft ${id.replace(/^minecraft:/,'').replaceAll('_',' ')} in ordinary Survival. ${rule.topics.location??rule.topics.mining}`,sources:[rule.evidence.source]};
+    return undefined;
+  }
   const color=match[1].replaceAll('_',' ');
   const answer=color==='white'
     ? "To craft white wool, you'll need 4 string. You can also use 1 wool and 1 white dye."
     : `To craft ${color} wool, you'll need 1 wool and 1 ${color} dye.`;
   return {status:'conditional',subject:id,answer,sources:[families.rules.find(r=>r.id==='wool').evidence.source]};
+}
+
+export function blockRecipeId(id) {
+  if(id==='minecraft:standing_sign'||id==='minecraft:wall_sign')return 'minecraft:sign';
+  return id.replace(/_(?:standing|wall)_sign$/,'_sign');
 }

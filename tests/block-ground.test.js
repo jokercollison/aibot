@@ -46,6 +46,7 @@ test('soil exceptions and shared family followups stay attached to their block',
 test('unrelated reinforced and infested deepslate do not inherit ordinary drops',()=>{
  for(const id of ['reinforced_deepslate','infested_deepslate']) {
   const a=createConversation().ask(`How do I mine block:minecraft:${id}?`);
-  assert.equal(a.status,'unknown');
+  assert.equal(a.status,'conditional');
+  assert.doesNotMatch(a.answer,/drops itself/);
  }
 });

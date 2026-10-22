@@ -1,0 +1,671 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "bedrock",
+      "pattern": "bedrock",
+      "topics": {
+        "mining": "Bedrock cannot be broken or collected through ordinary Survival mining, even with Silk Touch.",
+        "location": "Bedrock forms the bottom boundary of the Overworld and the floor and ceiling boundaries of the Nether. It also appears in End portal and gateway structures.",
+        "operation": "Bedrock is an unbreakable world boundary during normal Survival play. It is not a mineable ore or a craftable building resource."
+      },
+      "evidence": {
+        "title": "Bedrock",
+        "revision": 3847276,
+        "sha256": "5e1e3db107464d66bd9b72b2dea367a40f1496d4720af7ad38869cbaec16b1a3",
+        "source": "https://minecraft.wiki/w/Bedrock?oldid=3847276"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "dragon_egg",
+      "pattern": "dragon_egg",
+      "topics": {
+        "mining": "Trying to mine a dragon egg normally makes it teleport. A piston can push it into item form, or let it fall onto a suitable non-full block such as a torch to collect it.",
+        "location": "Look at the End exit portal after defeating the Ender Dragon.",
+        "operation": "The dragon egg is a trophy. It does not hatch into a baby dragon or respawn the Ender Dragon by itself."
+      },
+      "evidence": {
+        "title": "Dragon Egg",
+        "revision": 3842592,
+        "sha256": "185e9a0846513a0870246fca92e6065844d31de323bb72862296639c0a0b7baf",
+        "source": "https://minecraft.wiki/w/Dragon_Egg?oldid=3842592"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "carved_pumpkin",
+      "pattern": "carved_pumpkin",
+      "topics": {
+        "mining": "This pumpkin block drops itself by hand or with any tool; an axe is fastest.",
+        "location": "Use shears on a pumpkin to carve it.",
+        "operation": "Use a carved pumpkin as headwear or as the final block when constructing a suitable golem."
+      },
+      "evidence": {
+        "title": "Carved Pumpkin",
+        "revision": 3788537,
+        "sha256": "048ff4ef29fc22d4a5c7fe91f9b1382ff807590dc9c80486e2b0e5ad7a43f8d6",
+        "source": "https://minecraft.wiki/w/Carved_Pumpkin?oldid=3788537"
+      }
+    },
+    {
+      "id": "lit_pumpkin",
+      "pattern": "lit_pumpkin",
+      "topics": {
+        "mining": "This pumpkin block drops itself by hand or with any tool; an axe is fastest.",
+        "location": "Craft a jack o lantern from a carved pumpkin and a torch.",
+        "operation": "A jack o lantern gives steady light. It does not need fuel or redstone power."
+      },
+      "evidence": {
+        "title": "Jack o'Lantern",
+        "revision": 3844065,
+        "sha256": "a74c2bd64e07eec21d73df7f3ea643db29b890dc52a2c1cc2df264d6dd916604",
+        "source": "https://minecraft.wiki/w/Jack_o'Lantern?oldid=3844065"
+      }
+    },
+    {
+      "id": "golden_flower",
+      "pattern": "golden_dandelion",
+      "topics": {
+        "mining": "Golden dandelions drop themselves by hand or with any tool.",
+        "location": "Craft a golden dandelion from a dandelion and 8 gold nuggets.",
+        "operation": "Use a golden dandelion on a supported baby mob to pause its growth; use it again to resume growth. It is not a normal breeding food."
+      },
+      "evidence": {
+        "title": "Golden Dandelion",
+        "revision": 3848416,
+        "sha256": "1d71229b488e9ee1b43ea3091f8c864e7d0c8d3fc6190fbb0a20bc9acbb32c90",
+        "source": "https://minecraft.wiki/w/Golden_Dandelion?oldid=3848416"
+      }
+    },
+    {
+      "id": "leaf_litter",
+      "pattern": "leaf_litter",
+      "topics": {
+        "mining": "Leaf litter drops itself by hand or with any tool. The number dropped matches the pieces placed in that block space.",
+        "location": "Find leaf litter beneath trees in suitable forest biomes, or obtain it through its supported smelting recipes.",
+        "operation": "Place multiple pieces in a block space as decorative ground cover. Leaf litter can also be used as fuel."
+      },
+      "evidence": {
+        "title": "Leaf Litter",
+        "revision": 3809944,
+        "sha256": "668bd74a148394cc566abf5a473346b37966bdcbbec022b336e37ed7ef339d24",
+        "source": "https://minecraft.wiki/w/Leaf_Litter?oldid=3809944"
+      }
+    },
+    {
+      "id": "short_dry_grass",
+      "pattern": "short_dry_grass",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect dry grass. Otherwise it drops nothing.",
+        "location": "Look in deserts and badlands.",
+        "growth": "Dry grass is desert vegetation. Bone meal can grow or spread its appropriate short and tall forms; it does not produce wheat seeds like ordinary grass."
+      },
+      "evidence": {
+        "title": "Short Dry Grass",
+        "revision": 3778982,
+        "sha256": "068b6067167b6bd8ed0fc50b5b95ba22abe295c95e21e7452055db154454f9c3",
+        "source": "https://minecraft.wiki/w/Short_Dry_Grass?oldid=3778982"
+      }
+    },
+    {
+      "id": "tall_dry_grass",
+      "pattern": "tall_dry_grass",
+      "topics": {
+        "mining": "Use shears or a Silk Touch tool to collect dry grass. Otherwise it drops nothing.",
+        "location": "Look in deserts and badlands.",
+        "growth": "Dry grass is desert vegetation. Bone meal can grow or spread its appropriate short and tall forms; it does not produce wheat seeds like ordinary grass."
+      },
+      "evidence": {
+        "title": "Tall Dry Grass",
+        "revision": 3744250,
+        "sha256": "8f7700f03be85eacfc81a629f53aff58bbe301f7bb9a2be1644100f714bdd9a3",
+        "source": "https://minecraft.wiki/w/Tall_Dry_Grass?oldid=3744250"
+      }
+    },
+    {
+      "id": "shelf_mushroom",
+      "pattern": "shelf_mushroom",
+      "topics": {
+        "mining": "This plant drops itself when broken by hand or with any tool.",
+        "location": "Look for it in on fallen poplar logs in dappled forests.",
+        "operation": "Use it as decorative vegetation on a compatible supporting surface."
+      },
+      "evidence": {
+        "title": "Shelf Mushroom",
+        "revision": 3842573,
+        "sha256": "9aa0aa804e81360f193964635063ff6e876d280f6d8a8cb6307e9664219dd0dc",
+        "source": "https://minecraft.wiki/w/Shelf_Mushroom?oldid=3842573"
+      }
+    },
+    {
+      "id": "red_shrub",
+      "pattern": "red_shrub",
+      "topics": {
+        "mining": "This plant drops itself when broken by hand or with any tool.",
+        "location": "Look for it in dappled forests.",
+        "operation": "Use it as decorative vegetation on a compatible supporting surface."
+      },
+      "evidence": {
+        "title": "Red Shrub",
+        "revision": 3847312,
+        "sha256": "d93aa6709967867fa7ae675bb714eeb619b5488ac82470c094d87ffe8927fce7",
+        "source": "https://minecraft.wiki/w/Red_Shrub?oldid=3847312"
+      }
+    },
+    {
+      "id": "straw_bed",
+      "pattern": "straw_bed",
+      "topics": {
+        "mining": "An unused straw bed drops itself when broken; a hoe is fastest. After sleeping in it, the bed is consumed instead.",
+        "location": "Craft straw beds from hay bales or find them in abandoned camps.",
+        "operation": "A straw bed is a single-use sleeping place. It does not reset your respawn point like an ordinary bed.",
+        "danger": "Do not try to sleep in a straw bed in the Nether or the End; beds explode there."
+      },
+      "evidence": {
+        "title": "Straw Bed",
+        "revision": 3847738,
+        "sha256": "ffbae858f11ab7d601aa056e00e2aaf87521156a2fc5012559198b0009c6c6f4",
+        "source": "https://minecraft.wiki/w/Straw_Bed?oldid=3847738"
+      }
+    },
+    {
+      "id": "potent_sulfur",
+      "pattern": "potent_sulfur",
+      "topics": {
+        "mining": "Use any pickaxe to collect potent sulfur. Without a pickaxe it drops nothing.",
+        "location": "Find potent sulfur in sulfur pools in sulfur caves and sulfur springs.",
+        "operation": "Potent sulfur under suitable water can produce noxious gas at the surface. It is not merely decorative ordinary sulfur.",
+        "danger": "Noxious gas above a suitable potent-sulfur water setup can cause nausea. Keep clear of the gas when exploring sulfur pools."
+      },
+      "evidence": {
+        "title": "Potent Sulfur",
+        "revision": 3845506,
+        "sha256": "3a4ab5e410af0e656f89220cc7cf25c2219ccbad5789a22088c0542a17090d40",
+        "source": "https://minecraft.wiki/w/Potent_Sulfur?oldid=3845506"
+      }
+    },
+    {
+      "id": "sulfur_spike",
+      "pattern": "sulfur_spike",
+      "topics": {
+        "mining": "Sulfur spikes drop themselves by hand or with any tool; a pickaxe is fastest. A thrown trident can break them.",
+        "location": "Find spikes in sulfur caves and around sulfur springs.",
+        "operation": "Use sulfur spikes for cave decoration or compatible sulfur recipes. Removing a supporting formation can make parts fall."
+      },
+      "evidence": {
+        "title": "Sulfur Spike",
+        "revision": 3854645,
+        "sha256": "d7a6d8da0f4ff275d590c8a0b5e23d8bd09cf37081da8e5d2f59260e8993529d",
+        "source": "https://minecraft.wiki/w/Sulfur_Spike?oldid=3854645"
+      }
+    },
+    {
+      "id": "water",
+      "pattern": "(?:flowing_)?water",
+      "topics": {
+        "mining": "Use a bucket on a source block to collect this fluid. Ordinary mining and Silk Touch do not produce a placeable fluid block item.",
+        "location": "Water occurs in rivers, lakes, oceans and aquifers in the Overworld.",
+        "operation": "Use water for irrigation, travel, extinguishing fire and water-based mechanisms. Water placed normally in the Nether evaporates."
+      },
+      "evidence": {
+        "title": "Water",
+        "revision": 3852378,
+        "sha256": "a6476a3570be6788fdbe6a88e8a1b6416fffa4dc7d42d06ba45cd4178bae3429",
+        "source": "https://minecraft.wiki/w/Water?oldid=3852378"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "lava",
+      "pattern": "(?:flowing_)?lava",
+      "topics": {
+        "mining": "Use a bucket on a source block to collect this fluid. Ordinary mining and Silk Touch do not produce a placeable fluid block item.",
+        "location": "Find lava underground in the Overworld and in large seas and pockets in the Nether.",
+        "operation": "Lava is a dangerous fluid that burns many entities and dropped items. Lava buckets can be used as furnace fuel."
+      },
+      "evidence": {
+        "title": "Lava",
+        "revision": 3844067,
+        "sha256": "e92059dc2ebc6905082ef211d0f7556526c2b26f38ac90eabbafcae56015128c",
+        "source": "https://minecraft.wiki/w/Lava?oldid=3844067"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "bubble_column",
+      "pattern": "bubble_column",
+      "topics": {
+        "mining": "Bubble columns are not collectible blocks. Collect their water with a bucket or change the base block to remove the effect.",
+        "location": "Place soul sand or magma beneath a column of water source blocks.",
+        "operation": "Soul sand creates upward bubbles; magma creates downward bubbles. Flowing water needs to become source blocks before the full column works."
+      },
+      "evidence": {
+        "title": "Bubble Column",
+        "revision": 3786839,
+        "sha256": "1e0ddab07be74d564163d14f96306dca7fcd62926e7f1c96188459a31a7364e5",
+        "source": "https://minecraft.wiki/w/Bubble_Column?oldid=3786839"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "fire",
+      "pattern": "fire",
+      "topics": {
+        "mining": "Fire cannot be collected by mining or Silk Touch. Extinguish it rather than trying to pick it up.",
+        "location": "Light suitable surfaces with an ignition source.",
+        "danger": "Touching fire can hurt and ignite vulnerable entities. Keep flammable builds and dropped items away from it."
+      },
+      "evidence": {
+        "title": "Fire",
+        "revision": 3850724,
+        "sha256": "9b71d9384e23af4e93da22fe13b66bd839e778e23f092433b431905d1935e6a0",
+        "source": "https://minecraft.wiki/w/Fire?oldid=3850724"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "soul_fire",
+      "pattern": "soul_fire",
+      "topics": {
+        "mining": "Fire cannot be collected by mining or Silk Touch. Extinguish it rather than trying to pick it up.",
+        "location": "Ignite soul sand or soul soil to make soul fire.",
+        "danger": "Touching fire can hurt and ignite vulnerable entities. Keep flammable builds and dropped items away from it."
+      },
+      "evidence": {
+        "title": "Soul Fire",
+        "revision": 3844077,
+        "sha256": "5a94e24d48589c92680a0bfb62d6c1fafd84aa39653fafc7be94e1bc365da13e",
+        "source": "https://minecraft.wiki/w/Soul_Fire?oldid=3844077"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "heads",
+      "pattern": "(?:creeper_head|dragon_head|piglin_head|player_head|skeleton_skull|wither_skeleton_skull|zombie_head)",
+      "topics": {
+        "mining": "Heads and skulls drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Place heads for decoration or wear compatible heads. Some heads have special uses, such as Wither skeleton skulls for Wither construction and heads above note blocks for mob sounds."
+      },
+      "evidence": {
+        "title": "Head",
+        "revision": 3849775,
+        "sha256": "5daa5f5f54e1e1677d7c3210daf100fc51d3ffd1df86f153bb1e36be3bba3538",
+        "source": "https://minecraft.wiki/w/Head?oldid=3849775"
+      }
+    },
+    {
+      "id": "portal",
+      "pattern": "portal",
+      "topics": {
+        "mining": "This portal block cannot be collected through normal Survival mining, even with Silk Touch.",
+        "operation": "A Nether portal is created by lighting a valid obsidian frame. Breaking the portal blocks does not give a collectible portal item.",
+        "location": "Build an appropriate obsidian frame to form a Nether portal."
+      },
+      "evidence": {
+        "title": "Nether Portal (block)",
+        "revision": 3844083,
+        "sha256": "7ea6d91426e121cbb8c941ff193adb86dbb4359e6f83e723eb031f7ca2b141cf",
+        "source": "https://minecraft.wiki/w/Nether_Portal_(block)?oldid=3844083"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "end_portal",
+      "pattern": "end_portal",
+      "topics": {
+        "mining": "This portal block cannot be collected through normal Survival mining, even with Silk Touch.",
+        "operation": "An End portal forms when a valid frame is completed with eyes of ender. Portal blocks are not collectible building blocks in ordinary Survival.",
+        "location": "Find End portal structures in strongholds."
+      },
+      "evidence": {
+        "title": "End Portal (block)",
+        "revision": 3844081,
+        "sha256": "e206e38cfa9361fc26391164cafdab0d3be7260ccafceb481922077ebc55aa95",
+        "source": "https://minecraft.wiki/w/End_Portal_(block)?oldid=3844081"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "end_portal_frame",
+      "pattern": "end_portal_frame",
+      "topics": {
+        "mining": "This portal block cannot be collected through normal Survival mining, even with Silk Touch.",
+        "operation": "End portal frames occur in strongholds and cannot be mined or crafted in ordinary Survival. Complete the frame with eyes of ender to activate the portal.",
+        "location": "Find End portal structures in strongholds."
+      },
+      "evidence": {
+        "title": "End Portal Frame",
+        "revision": 3773521,
+        "sha256": "0cdfbaea589ad0a92165878ff4bb22cfd00a1fb0dd4753405517660ff987438d",
+        "source": "https://minecraft.wiki/w/End_Portal_Frame?oldid=3773521"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "elements",
+      "pattern": "element_(?:[0-9]|[1-9][0-9]|1[01][0-9])",
+      "topics": {
+        "mining": "Element blocks drop themselves instantly when broken.",
+        "location": "Elements belong to the Education chemistry features. Use an element constructor in a world with those features available; they are not ordinary Survival ores.",
+        "operation": "Use elements as inputs for supported chemistry compounds and experiments. The proton, neutron and electron counts define the element or isotope."
+      },
+      "evidence": {
+        "title": "Element",
+        "revision": 3813983,
+        "sha256": "80fa7ee351aa335e41da2e28342439f3089681e6fad3a84bf7489ec2eaa001c8",
+        "source": "https://minecraft.wiki/w/Element?oldid=3813983"
+      }
+    },
+    {
+      "id": "hardened_glass",
+      "pattern": "hard_(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_stained_)?glass(?:_pane)?",
+      "topics": {
+        "mining": "Hardened glass drops itself even when broken by hand. Silk Touch is unnecessary; it behaves differently from ordinary glass.",
+        "location": "Hardened glass is an Education chemistry material made from glass and appropriate compounds in a world supporting those features.",
+        "operation": "Use hardened glass as a tougher transparent building material. It is not ordinary stained glass."
+      },
+      "evidence": {
+        "title": "Hardened Glass",
+        "revision": 3731438,
+        "sha256": "7979dc660c37df7512af7e028cd7028fc011ccc5d1cab0e1811e76016e2662f1",
+        "source": "https://minecraft.wiki/w/Hardened_Glass?oldid=3731438"
+      }
+    },
+    {
+      "id": "light_blocks",
+      "pattern": "light_block_(?:[0-9]|1[0-5])",
+      "topics": {
+        "location": "Invisible light blocks are creator tools obtained through commands or compatible Creative tools, not normal Survival crafting.",
+        "operation": "Light blocks add invisible lighting at a selected light level. They are intended for map building rather than ordinary Survival resource gathering."
+      },
+      "evidence": {
+        "title": "Light (block)",
+        "revision": 3802189,
+        "sha256": "af8ae3369ae719d6092535a5b50a1577eab8515ab58a37909055ab7a7bdc3978",
+        "source": "https://minecraft.wiki/w/Light_(block)?oldid=3802189"
+      }
+    },
+    {
+      "id": "allow",
+      "pattern": "allow",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Allow blocks permit building and breaking above them under the applicable Education/adventure rules."
+      },
+      "evidence": {
+        "title": "Allow",
+        "revision": 3782361,
+        "sha256": "408d3908c20f0652a7c4e0cccc5a50c8aeb52a6a5c580525d46c065b01f94f9f",
+        "source": "https://minecraft.wiki/w/Allow?oldid=3782361"
+      }
+    },
+    {
+      "id": "deny",
+      "pattern": "deny",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Deny blocks prevent building and breaking above them under the applicable Education/adventure rules."
+      },
+      "evidence": {
+        "title": "Deny",
+        "revision": 3818547,
+        "sha256": "83debf202dc42de93c8d3bd91a9d07e6b8c0333637a5e026bc855a3688023d48",
+        "source": "https://minecraft.wiki/w/Deny?oldid=3818547"
+      }
+    },
+    {
+      "id": "border_block",
+      "pattern": "border_block",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Border blocks create a special impassable world boundary under the applicable Education rules."
+      },
+      "evidence": {
+        "title": "Border",
+        "revision": 3849334,
+        "sha256": "733f4736660174988da7b36c07a04610d9b902ea9fb7796e26eb9c98613f3cd9",
+        "source": "https://minecraft.wiki/w/Border?oldid=3849334"
+      }
+    },
+    {
+      "id": "barrier",
+      "pattern": "barrier",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Barrier blocks are invisible collision blocks used by map makers."
+      },
+      "evidence": {
+        "title": "Barrier",
+        "revision": 3842509,
+        "sha256": "b0a06f790d96d90b349f6b72c89207792efb163c527a6a8433d516bb334ca3a4",
+        "source": "https://minecraft.wiki/w/Barrier?oldid=3842509"
+      }
+    },
+    {
+      "id": "structure_void",
+      "pattern": "structure_void",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Structure void preserves existing space when using structure tools; it is not an ordinary solid building block."
+      },
+      "evidence": {
+        "title": "Structure Void",
+        "revision": 3739197,
+        "sha256": "ef266954933baeb1937944338f9551977a36cd2c543f3d60e2c4d1d54a01b292",
+        "source": "https://minecraft.wiki/w/Structure_Void?oldid=3739197"
+      }
+    },
+    {
+      "id": "jigsaw",
+      "pattern": "jigsaw",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Jigsaw blocks help creators assemble generated structure pieces."
+      },
+      "evidence": {
+        "title": "Jigsaw Block",
+        "revision": 3818666,
+        "sha256": "e9dcb074a9bf5940843cc5bd9880e50627feb1563d5606ff9272ef760dc52e93",
+        "source": "https://minecraft.wiki/w/Jigsaw_Block?oldid=3818666"
+      }
+    },
+    {
+      "id": "structure_block",
+      "pattern": "structure_block",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Structure blocks save and load structures for world-building workflows."
+      },
+      "evidence": {
+        "title": "Structure Block",
+        "revision": 3845491,
+        "sha256": "47c4f82838dad2ebafd7d199efba61c1636ce2ede66f09b4f6c10caea1814c69",
+        "source": "https://minecraft.wiki/w/Structure_Block?oldid=3845491"
+      }
+    },
+    {
+      "id": "camera",
+      "pattern": "camera",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "The camera block belongs to specialized Education features; it is not a normal Survival recipe."
+      },
+      "evidence": {
+        "title": "Camera",
+        "revision": 3801335,
+        "sha256": "608c5e7eeb27bafc03b885e855c07e230c428c2750e941152c72a3d497a9c08d",
+        "source": "https://minecraft.wiki/w/Camera?oldid=3801335"
+      }
+    },
+    {
+      "id": "compound_creator",
+      "pattern": "compound_creator",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Use this Education chemistry station to combine appropriate elements into compounds."
+      },
+      "evidence": {
+        "title": "Compound Creator",
+        "revision": 3755778,
+        "sha256": "b7ff6b1f31f1b1972a285fc35387fd69cbbeb304bccdcf639f05e301f435b76f",
+        "source": "https://minecraft.wiki/w/Compound_Creator?oldid=3755778"
+      }
+    },
+    {
+      "id": "element_constructor",
+      "pattern": "element_constructor",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Use this Education chemistry station to choose protons, neutrons and electrons to construct elements."
+      },
+      "evidence": {
+        "title": "Element Constructor",
+        "revision": 3680278,
+        "sha256": "5ffe87451171e59825523a8d43299594652670d1043cf7c1f0f71b79e01d8725",
+        "source": "https://minecraft.wiki/w/Element_Constructor?oldid=3680278"
+      }
+    },
+    {
+      "id": "lab_table",
+      "pattern": "lab_table",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Use this Education chemistry station for supported compound experiments."
+      },
+      "evidence": {
+        "title": "Lab Table",
+        "revision": 3680282,
+        "sha256": "70a48b193d0be5b2c5e9422b7052a1df67d2f9376c8696d3be161f235b29b12f",
+        "source": "https://minecraft.wiki/w/Lab_Table?oldid=3680282"
+      }
+    },
+    {
+      "id": "material_reducer",
+      "pattern": "material_reducer",
+      "topics": {
+        "location": "This is a specialized creator or Education block. It is not obtained by ordinary Survival crafting or mining.",
+        "operation": "Use this Education chemistry station to break supported materials into element outputs."
+      },
+      "evidence": {
+        "title": "Material Reducer",
+        "revision": 3852957,
+        "sha256": "400cad58b136af7a3bbdb2ecca0ae713aadad5b239ba9da6b73cc025683912c8",
+        "source": "https://minecraft.wiki/w/Material_Reducer?oldid=3852957"
+      }
+    },
+    {
+      "id": "command_blocks",
+      "pattern": "(?:chain_|repeating_)?command_block",
+      "topics": {
+        "location": "Command blocks are creator tools obtained with authorized commands and Creative access, not ordinary Survival crafting.",
+        "operation": "Command blocks run configured commands when their conditions are met. Impulse, repeating and chain forms are different command execution modes."
+      },
+      "evidence": {
+        "title": "Command Block",
+        "revision": 3845496,
+        "sha256": "aefe53c02115abc28e49a0f5708e91e60810e9d509c1a2baea75cce8cf5f5979",
+        "source": "https://minecraft.wiki/w/Command_Block?oldid=3845496"
+      }
+    },
+    {
+      "id": "piston_heads",
+      "pattern": "(?:sticky_)?piston_arm_collision",
+      "topics": {
+        "location": "A piston head appears as part of an extended piston; it is not an independently craftable block.",
+        "operation": "Operate the piston base with redstone. The head is part of that mechanism, not a separate item you need to collect."
+      },
+      "evidence": {
+        "title": "Piston",
+        "revision": 3820809,
+        "sha256": "325efe0835552a384af40a1aa9d6e46e353915b3d995fcf48659715e3410f7ff",
+        "source": "https://minecraft.wiki/w/Piston?oldid=3820809"
+      }
+    },
+    {
+      "id": "air",
+      "pattern": "air",
+      "topics": {
+        "location": "Air is empty world space, not a collectible Survival resource.",
+        "operation": "Air blocks provide empty space for movement, placement and other world mechanics."
+      },
+      "evidence": {
+        "title": "Air",
+        "revision": 3842614,
+        "sha256": "6b273e72f632b25d27d9e06dea78ac94183cfbaf97f441735c3b4375dec00eae",
+        "source": "https://minecraft.wiki/w/Air?oldid=3842614"
+      }
+    },
+    {
+      "id": "unknown",
+      "pattern": "unknown",
+      "topics": {
+        "location": "This placeholder is not an ordinary Survival resource or recipe output.",
+        "operation": "An unknown block is a placeholder for content the game cannot interpret. Check the world or add-on compatibility rather than treating it as a resource."
+      },
+      "evidence": {
+        "title": "Unknown",
+        "revision": 3791437,
+        "sha256": "0c078c08752a884a81f6391708b2bc82cd30be2d380bc84550c1dbd36043e774",
+        "source": "https://minecraft.wiki/w/Unknown?oldid=3791437"
+      }
+    },
+    {
+      "id": "colored_torches",
+      "pattern": "colored_torch_(?:blue|green|purple|red)",
+      "topics": {
+        "location": "Colored torches are Education chemistry items, made using compatible torch and compound recipes.",
+        "operation": "Colored torches provide light with their distinct appearance. They are not redstone torches."
+      },
+      "evidence": {
+        "title": "Colored Torch",
+        "revision": 3692623,
+        "sha256": "7aff1ea4f16148ffe48c6809e489a0e6abe3efff328e117d36c2212f9f39083d",
+        "source": "https://minecraft.wiki/w/Colored_Torch?oldid=3692623"
+      }
+    },
+    {
+      "id": "underwater_torch",
+      "pattern": "underwater_torch",
+      "topics": {
+        "location": "Underwater torches belong to the Education chemistry features.",
+        "operation": "Unlike an ordinary torch, an underwater torch can provide light underwater in worlds supporting the chemistry features."
+      },
+      "evidence": {
+        "title": "Underwater Torch",
+        "revision": 3772169,
+        "sha256": "9befa156343d4162464c99806387083a2d052d15d7754a5cb82de06efdf778fe",
+        "source": "https://minecraft.wiki/w/Underwater_Torch?oldid=3772169"
+      }
+    },
+    {
+      "id": "underwater_tnt",
+      "pattern": "underwater_tnt",
+      "topics": {
+        "location": "Underwater TNT is an Education chemistry explosive, not an ordinary TNT variant obtained by mining.",
+        "danger": "Underwater TNT can cause destructive explosions underwater. Keep players and valued builds away from a primed explosive."
+      },
+      "evidence": {
+        "title": "Underwater TNT",
+        "revision": 3787706,
+        "sha256": "84acd57c237374f1b3c03d60616f3f15213df903f6c3a42b28fec903483f8b80",
+        "source": "https://minecraft.wiki/w/Underwater_TNT?oldid=3787706"
+      }
+    },
+    {
+      "id": "chemical_heat",
+      "pattern": "chemical_heat",
+      "topics": {
+        "location": "Heat blocks belong to Education chemistry features.",
+        "operation": "A heat block can melt nearby ice and snow without emitting light in supported Education worlds."
+      },
+      "evidence": {
+        "title": "Heat Block",
+        "revision": 3449787,
+        "sha256": "c4306c1ddd6e9a3df33d060bc903a7bcb3c64fd760a640b364d2b10556644aeb",
+        "source": "https://minecraft.wiki/w/Heat_Block?oldid=3449787"
+      }
+    }
+  ]
+}

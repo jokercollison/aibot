@@ -1,0 +1,811 @@
+{
+  "scope": "data/blocks/decorative.json",
+  "families": [
+    {
+      "family": "signs",
+      "topics": [
+        "mining",
+        "operation",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:acacia_standing_sign",
+        "minecraft:acacia_wall_sign",
+        "minecraft:bamboo_standing_sign",
+        "minecraft:bamboo_wall_sign",
+        "minecraft:birch_standing_sign",
+        "minecraft:birch_wall_sign",
+        "minecraft:cherry_standing_sign",
+        "minecraft:cherry_wall_sign",
+        "minecraft:crimson_standing_sign",
+        "minecraft:crimson_wall_sign",
+        "minecraft:darkoak_standing_sign",
+        "minecraft:darkoak_wall_sign",
+        "minecraft:jungle_standing_sign",
+        "minecraft:jungle_wall_sign",
+        "minecraft:mangrove_standing_sign",
+        "minecraft:mangrove_wall_sign",
+        "minecraft:pale_oak_standing_sign",
+        "minecraft:pale_oak_wall_sign",
+        "minecraft:poplar_standing_sign",
+        "minecraft:poplar_wall_sign",
+        "minecraft:spruce_standing_sign",
+        "minecraft:spruce_wall_sign",
+        "minecraft:standing_sign",
+        "minecraft:wall_sign",
+        "minecraft:warped_standing_sign",
+        "minecraft:warped_wall_sign"
+      ],
+      "subject_count": 26,
+      "facet_applications": 104
+    },
+    {
+      "family": "hanging_signs",
+      "topics": [
+        "mining",
+        "operation",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:acacia_hanging_sign",
+        "minecraft:bamboo_hanging_sign",
+        "minecraft:birch_hanging_sign",
+        "minecraft:cherry_hanging_sign",
+        "minecraft:crimson_hanging_sign",
+        "minecraft:dark_oak_hanging_sign",
+        "minecraft:jungle_hanging_sign",
+        "minecraft:mangrove_hanging_sign",
+        "minecraft:oak_hanging_sign",
+        "minecraft:pale_oak_hanging_sign",
+        "minecraft:poplar_hanging_sign",
+        "minecraft:spruce_hanging_sign",
+        "minecraft:warped_hanging_sign"
+      ],
+      "subject_count": 13,
+      "facet_applications": 52
+    },
+    {
+      "family": "banners",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:standing_banner",
+        "minecraft:wall_banner"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "carpets",
+      "topics": [
+        "mining",
+        "location",
+        "operation",
+        "fire"
+      ],
+      "members": [
+        "minecraft:black_carpet",
+        "minecraft:blue_carpet",
+        "minecraft:brown_carpet",
+        "minecraft:cyan_carpet",
+        "minecraft:gray_carpet",
+        "minecraft:green_carpet",
+        "minecraft:light_blue_carpet",
+        "minecraft:light_gray_carpet",
+        "minecraft:lime_carpet",
+        "minecraft:magenta_carpet",
+        "minecraft:orange_carpet",
+        "minecraft:pink_carpet",
+        "minecraft:purple_carpet",
+        "minecraft:red_carpet",
+        "minecraft:white_carpet",
+        "minecraft:yellow_carpet"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "candles",
+      "topics": [
+        "mining",
+        "operation",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:black_candle",
+        "minecraft:blue_candle",
+        "minecraft:brown_candle",
+        "minecraft:candle",
+        "minecraft:cyan_candle",
+        "minecraft:gray_candle",
+        "minecraft:green_candle",
+        "minecraft:light_blue_candle",
+        "minecraft:light_gray_candle",
+        "minecraft:lime_candle",
+        "minecraft:magenta_candle",
+        "minecraft:orange_candle",
+        "minecraft:pink_candle",
+        "minecraft:purple_candle",
+        "minecraft:red_candle",
+        "minecraft:white_candle",
+        "minecraft:yellow_candle"
+      ],
+      "subject_count": 17,
+      "facet_applications": 68
+    },
+    {
+      "family": "cakes",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:black_candle_cake",
+        "minecraft:blue_candle_cake",
+        "minecraft:brown_candle_cake",
+        "minecraft:cake",
+        "minecraft:candle_cake",
+        "minecraft:cyan_candle_cake",
+        "minecraft:gray_candle_cake",
+        "minecraft:green_candle_cake",
+        "minecraft:light_blue_candle_cake",
+        "minecraft:light_gray_candle_cake",
+        "minecraft:lime_candle_cake",
+        "minecraft:magenta_candle_cake",
+        "minecraft:orange_candle_cake",
+        "minecraft:pink_candle_cake",
+        "minecraft:purple_candle_cake",
+        "minecraft:red_candle_cake",
+        "minecraft:white_candle_cake",
+        "minecraft:yellow_candle_cake"
+      ],
+      "subject_count": 18,
+      "facet_applications": 54
+    },
+    {
+      "family": "flower_pot",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:flower_pot"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "decorated_pot",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:decorated_pot"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "bamboo_blocks",
+      "topics": [
+        "mining",
+        "location",
+        "stripping",
+        "fire"
+      ],
+      "members": [
+        "minecraft:bamboo_block",
+        "minecraft:stripped_bamboo_block"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "bamboo_mosaic",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:bamboo_mosaic"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "bamboo_mosaic_shapes",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:bamboo_mosaic_slab",
+        "minecraft:bamboo_mosaic_stairs"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "bamboo_mosaic_double",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:bamboo_mosaic_double_slab"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "calcite",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:calcite"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "bone",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:bone_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "raw_iron_copper",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:raw_copper_block",
+        "minecraft:raw_iron_block"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "raw_gold",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:raw_gold_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "reinforced_deepslate",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:reinforced_deepslate"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "infested",
+      "topics": [
+        "mining",
+        "location",
+        "danger"
+      ],
+      "members": [
+        "minecraft:infested_chiseled_stone_bricks",
+        "minecraft:infested_cobblestone",
+        "minecraft:infested_cracked_stone_bricks",
+        "minecraft:infested_deepslate",
+        "minecraft:infested_mossy_stone_bricks",
+        "minecraft:infested_stone",
+        "minecraft:infested_stone_bricks"
+      ],
+      "subject_count": 7,
+      "facet_applications": 21
+    },
+    {
+      "family": "crying_obsidian",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:crying_obsidian"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "resin_block",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:resin_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "resin_clump",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:resin_clump"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "resin_masonry",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:chiseled_resin_bricks",
+        "minecraft:resin_brick_slab",
+        "minecraft:resin_brick_stairs",
+        "minecraft:resin_brick_wall",
+        "minecraft:resin_bricks"
+      ],
+      "subject_count": 5,
+      "facet_applications": 15
+    },
+    {
+      "family": "resin_double",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:resin_brick_double_slab"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sculk",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:sculk"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sculk_vein",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:sculk_vein"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sculk_sensor",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:sculk_sensor"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "calibrated_sensor",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:calibrated_sculk_sensor"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sculk_catalyst",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:sculk_catalyst"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sculk_shrieker",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:sculk_shrieker"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "suspicious_sand",
+      "topics": [
+        "mining",
+        "location",
+        "operation",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:suspicious_sand"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "suspicious_gravel",
+      "topics": [
+        "mining",
+        "location",
+        "operation",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:suspicious_gravel"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "target",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:target"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "tripwire_hook",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:tripwire_hook"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "tripwire",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:trip_wire"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "hay",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:hay_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "dried_kelp",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:dried_kelp_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "heavy_core",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:heavy_core"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "pointed_dripstone",
+      "topics": [
+        "mining",
+        "location",
+        "operation",
+        "danger"
+      ],
+      "members": [
+        "minecraft:pointed_dripstone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "dripstone_block",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:dripstone_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "powder_snow",
+      "topics": [
+        "mining",
+        "location",
+        "danger"
+      ],
+      "members": [
+        "minecraft:powder_snow"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "wool_slab",
+      "topics": [
+        "mining",
+        "water",
+        "fire",
+        "operation"
+      ],
+      "members": [
+        "minecraft:black_wool_slab",
+        "minecraft:blue_wool_slab",
+        "minecraft:brown_wool_slab",
+        "minecraft:cyan_wool_slab",
+        "minecraft:gray_wool_slab",
+        "minecraft:green_wool_slab",
+        "minecraft:light_blue_wool_slab",
+        "minecraft:light_gray_wool_slab",
+        "minecraft:lime_wool_slab",
+        "minecraft:magenta_wool_slab",
+        "minecraft:orange_wool_slab",
+        "minecraft:pink_wool_slab",
+        "minecraft:purple_wool_slab",
+        "minecraft:red_wool_slab",
+        "minecraft:white_wool_slab",
+        "minecraft:yellow_wool_slab"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "wool_stairs",
+      "topics": [
+        "mining",
+        "water",
+        "fire",
+        "operation"
+      ],
+      "members": [
+        "minecraft:black_wool_stairs",
+        "minecraft:blue_wool_stairs",
+        "minecraft:brown_wool_stairs",
+        "minecraft:cyan_wool_stairs",
+        "minecraft:gray_wool_stairs",
+        "minecraft:green_wool_stairs",
+        "minecraft:light_blue_wool_stairs",
+        "minecraft:light_gray_wool_stairs",
+        "minecraft:lime_wool_stairs",
+        "minecraft:magenta_wool_stairs",
+        "minecraft:orange_wool_stairs",
+        "minecraft:pink_wool_stairs",
+        "minecraft:purple_wool_stairs",
+        "minecraft:red_wool_stairs",
+        "minecraft:white_wool_stairs",
+        "minecraft:yellow_wool_stairs"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "wool_double_slab",
+      "topics": [
+        "mining",
+        "water",
+        "fire",
+        "operation"
+      ],
+      "members": [
+        "minecraft:black_wool_double_slab",
+        "minecraft:blue_wool_double_slab",
+        "minecraft:brown_wool_double_slab",
+        "minecraft:cyan_wool_double_slab",
+        "minecraft:gray_wool_double_slab",
+        "minecraft:green_wool_double_slab",
+        "minecraft:light_blue_wool_double_slab",
+        "minecraft:light_gray_wool_double_slab",
+        "minecraft:lime_wool_double_slab",
+        "minecraft:magenta_wool_double_slab",
+        "minecraft:orange_wool_double_slab",
+        "minecraft:pink_wool_double_slab",
+        "minecraft:purple_wool_double_slab",
+        "minecraft:red_wool_double_slab",
+        "minecraft:white_wool_double_slab",
+        "minecraft:yellow_wool_double_slab"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "concrete_slab",
+      "topics": [
+        "mining",
+        "water",
+        "fire",
+        "operation"
+      ],
+      "members": [
+        "minecraft:black_concrete_slab",
+        "minecraft:blue_concrete_slab",
+        "minecraft:brown_concrete_slab",
+        "minecraft:cyan_concrete_slab",
+        "minecraft:gray_concrete_slab",
+        "minecraft:green_concrete_slab",
+        "minecraft:light_blue_concrete_slab",
+        "minecraft:light_gray_concrete_slab",
+        "minecraft:lime_concrete_slab",
+        "minecraft:magenta_concrete_slab",
+        "minecraft:orange_concrete_slab",
+        "minecraft:pink_concrete_slab",
+        "minecraft:purple_concrete_slab",
+        "minecraft:red_concrete_slab",
+        "minecraft:white_concrete_slab",
+        "minecraft:yellow_concrete_slab"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "concrete_stairs",
+      "topics": [
+        "mining",
+        "water",
+        "fire",
+        "operation"
+      ],
+      "members": [
+        "minecraft:black_concrete_stairs",
+        "minecraft:blue_concrete_stairs",
+        "minecraft:brown_concrete_stairs",
+        "minecraft:cyan_concrete_stairs",
+        "minecraft:gray_concrete_stairs",
+        "minecraft:green_concrete_stairs",
+        "minecraft:light_blue_concrete_stairs",
+        "minecraft:light_gray_concrete_stairs",
+        "minecraft:lime_concrete_stairs",
+        "minecraft:magenta_concrete_stairs",
+        "minecraft:orange_concrete_stairs",
+        "minecraft:pink_concrete_stairs",
+        "minecraft:purple_concrete_stairs",
+        "minecraft:red_concrete_stairs",
+        "minecraft:white_concrete_stairs",
+        "minecraft:yellow_concrete_stairs"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "concrete_double_slab",
+      "topics": [
+        "mining",
+        "water",
+        "fire",
+        "operation"
+      ],
+      "members": [
+        "minecraft:black_concrete_double_slab",
+        "minecraft:blue_concrete_double_slab",
+        "minecraft:brown_concrete_double_slab",
+        "minecraft:cyan_concrete_double_slab",
+        "minecraft:gray_concrete_double_slab",
+        "minecraft:green_concrete_double_slab",
+        "minecraft:light_blue_concrete_double_slab",
+        "minecraft:light_gray_concrete_double_slab",
+        "minecraft:lime_concrete_double_slab",
+        "minecraft:magenta_concrete_double_slab",
+        "minecraft:orange_concrete_double_slab",
+        "minecraft:pink_concrete_double_slab",
+        "minecraft:purple_concrete_double_slab",
+        "minecraft:red_concrete_double_slab",
+        "minecraft:white_concrete_double_slab",
+        "minecraft:yellow_concrete_double_slab"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 235,
+  "facet_applications": 879,
+  "independent_family_summaries": 153
+}

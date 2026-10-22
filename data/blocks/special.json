@@ -1,0 +1,739 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "cinnabar",
+      "pattern": "(?:cinnabar|polished_cinnabar|chiseled_cinnabar|cinnabar_bricks)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "location": "Find cinnabar in sulfur caves and sulfur springs. Craft or stonecut it into its decorative variants.",
+        "operation": "Use this mineral material for building and its compatible decorative recipes."
+      },
+      "evidence": {
+        "title": "Cinnabar",
+        "revision": 3849471,
+        "sha256": "2b01caa75ed101d767c564e8dee1a344c4f78ce478c63f211fa2c7dd54a10035",
+        "source": "https://minecraft.wiki/w/Cinnabar?oldid=3849471"
+      }
+    },
+    {
+      "id": "sulfur",
+      "pattern": "(?:sulfur|polished_sulfur|chiseled_sulfur|sulfur_bricks)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "location": "Find sulfur in sulfur caves and sulfur springs. Craft or stonecut it into its decorative variants.",
+        "operation": "Use this mineral material for building and its compatible decorative recipes."
+      },
+      "evidence": {
+        "title": "Sulfur",
+        "revision": 3800604,
+        "sha256": "c7c5ccdbd431481d5096875347b4b0ef96a2844154eb45eb95379d4adb87db50",
+        "source": "https://minecraft.wiki/w/Sulfur?oldid=3800604"
+      }
+    },
+    {
+      "id": "cinnabar_shapes",
+      "pattern": "(?:cinnabar|polished_cinnabar|cinnabar_brick)_(?:slab|stairs|wall)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this building shape. Without one it drops nothing. Silk Touch is unnecessary.",
+        "location": "Craft or stonecut the matching mineral material into slabs, stairs or walls.",
+        "water": "Single slabs, stairs and walls can be waterlogged."
+      },
+      "evidence": {
+        "title": "Cinnabar",
+        "revision": 3849471,
+        "sha256": "2b01caa75ed101d767c564e8dee1a344c4f78ce478c63f211fa2c7dd54a10035",
+        "source": "https://minecraft.wiki/w/Cinnabar?oldid=3849471"
+      }
+    },
+    {
+      "id": "cinnabar_double",
+      "pattern": "(?:cinnabar|polished_cinnabar|cinnabar_brick)_double_slab",
+      "topics": {
+        "mining": "Use any pickaxe to collect 2 matching slabs. Silk Touch does not keep a double-slab item. Without a pickaxe it drops nothing.",
+        "location": "Place two matching slabs in one block space.",
+        "water": "Double slabs cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "sulfur_shapes",
+      "pattern": "(?:sulfur|polished_sulfur|sulfur_brick)_(?:slab|stairs|wall)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this building shape. Without one it drops nothing. Silk Touch is unnecessary.",
+        "location": "Craft or stonecut the matching mineral material into slabs, stairs or walls.",
+        "water": "Single slabs, stairs and walls can be waterlogged."
+      },
+      "evidence": {
+        "title": "Sulfur",
+        "revision": 3800604,
+        "sha256": "c7c5ccdbd431481d5096875347b4b0ef96a2844154eb45eb95379d4adb87db50",
+        "source": "https://minecraft.wiki/w/Sulfur?oldid=3800604"
+      }
+    },
+    {
+      "id": "sulfur_double",
+      "pattern": "(?:sulfur|polished_sulfur|sulfur_brick)_double_slab",
+      "topics": {
+        "mining": "Use any pickaxe to collect 2 matching slabs. Silk Touch does not keep a double-slab item. Without a pickaxe it drops nothing.",
+        "location": "Place two matching slabs in one block space.",
+        "water": "Double slabs cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "mossy_cobble",
+      "pattern": "mossy_cobblestone",
+      "topics": {
+        "mining": "Use any pickaxe to collect mossy cobblestone. Without a pickaxe it drops nothing.",
+        "location": "Find mossy cobblestone in monster rooms and other structures, or craft it using cobblestone and a supported moss ingredient.",
+        "operation": "Mossy cobblestone is decorative masonry. It does not grow or spread moss by itself."
+      },
+      "evidence": {
+        "title": "Mossy Cobblestone",
+        "revision": 3784774,
+        "sha256": "6c3141781984d08436624fddb39a549b63e49fdfed73265d113b955f1378782f",
+        "source": "https://minecraft.wiki/w/Mossy_Cobblestone?oldid=3784774"
+      }
+    },
+    {
+      "id": "stone_shapes",
+      "pattern": "(?:normal_stone_(?:slab|stairs)|smooth_stone_slab|stone_stairs|nether_brick_fence)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this stone building shape. Without a pickaxe it drops nothing.",
+        "location": "Craft or stonecut the matching stone or masonry material into its building shape.",
+        "water": "Single slabs, stairs and fences can be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "stone_double",
+      "pattern": "(?:normal_stone|smooth_stone|petrified_oak)_double_slab",
+      "topics": {
+        "mining": "Use a pickaxe to collect 2 matching slabs. Without a pickaxe it drops nothing. Silk Touch does not collect it as a double-slab item.",
+        "location": "Place 2 matching slabs in the same block space.",
+        "water": "Double slabs cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "petrified",
+      "pattern": "petrified_oak_slab",
+      "topics": {
+        "mining": "Despite its wooden appearance, a petrified oak slab needs a pickaxe to drop as an item.",
+        "operation": "This is a legacy stone-like slab with an oak appearance, distinct from an ordinary wooden oak slab.",
+        "location": "Petrified oak slabs are legacy blocks and are not obtained through the ordinary oak slab crafting recipe."
+      },
+      "evidence": {
+        "title": "Petrified Oak Slab",
+        "revision": 3792750,
+        "sha256": "12541772f05feb948bdc3b02f949664a110d0a0865f1801e68108e33979b1fa6",
+        "source": "https://minecraft.wiki/w/Petrified_Oak_Slab?oldid=3792750"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "smooth_stone",
+      "pattern": "smooth_stone",
+      "topics": {
+        "mining": "Use any pickaxe to collect smooth stone. Without one it drops nothing.",
+        "location": "Smelt stone to make smooth stone; smelt cobblestone first if you need stone.",
+        "operation": "Use smooth stone for construction and compatible recipes, such as blast furnaces and smooth stone slabs."
+      },
+      "evidence": {
+        "title": "Smooth Stone",
+        "revision": 3800313,
+        "sha256": "d8989fd9c5df4ee108851e6099444effb3b3fa1e80e2160a935e8c633f730b66",
+        "source": "https://minecraft.wiki/w/Smooth_Stone?oldid=3800313"
+      }
+    },
+    {
+      "id": "bee_nest",
+      "pattern": "bee_nest",
+      "topics": {
+        "mining": "Use Silk Touch to collect a bee nest with its bees inside. Without Silk Touch the nest drops nothing and bees can emerge angry. An axe is fastest.",
+        "location": "Look for bee nests on trees in suitable flower-rich Overworld biomes. Growing oak or birch near flowers can also produce nests.",
+        "operation": "At full honey level, use shears for honeycomb or a bottle for honey. Place a safely positioned lit campfire underneath to calm the bees before harvesting."
+      },
+      "evidence": {
+        "title": "Bee Nest",
+        "revision": 3818460,
+        "sha256": "863f6902c83d4dc72d928a8dd2b2ae37d796e67c31b6d4aaf156d8e4814378e8",
+        "source": "https://minecraft.wiki/w/Bee_Nest?oldid=3818460"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "beehive",
+      "pattern": "beehive",
+      "topics": {
+        "mining": "A beehive drops itself when broken; an axe is fastest. Silk Touch keeps bees inside. Without it, bees can emerge angry, even though the hive block still drops.",
+        "location": "Craft a beehive from wooden planks and honeycomb.",
+        "operation": "A beehive houses up to 3 bees. Harvest a full hive using shears for honeycomb or a bottle for honey, with a safely positioned lit campfire underneath to calm bees."
+      },
+      "evidence": {
+        "title": "Beehive",
+        "revision": 3818461,
+        "sha256": "ee22c800cdf02a57d0e888fb8ed280a49dbf57d06bcea2af401856e30fa97162",
+        "source": "https://minecraft.wiki/w/Beehive?oldid=3818461"
+      }
+    },
+    {
+      "id": "creaking_heart",
+      "pattern": "creaking_heart",
+      "topics": {
+        "mining": "Silk Touch collects the creaking heart itself. Without Silk Touch it drops 1\u20133 resin clumps; Fortune can increase those drops.",
+        "location": "Find creaking hearts inside some naturally generated pale oak trees in pale gardens.",
+        "operation": "A creaking heart placed between two correctly aligned pale oak logs can activate under the required conditions. Naturally generated hearts link to their creaking; attacking that creaking causes resin to form nearby."
+      },
+      "evidence": {
+        "title": "Creaking Heart",
+        "revision": 3849946,
+        "sha256": "fe8de4effbcffe723bb306fa405a42b6c42a4c008044eda2ed63bed02cb2226f",
+        "source": "https://minecraft.wiki/w/Creaking_Heart?oldid=3849946"
+      }
+    },
+    {
+      "id": "dried_ghast",
+      "pattern": "dried_ghast",
+      "topics": {
+        "mining": "Dried ghasts drop themselves by hand or with any tool. Breaking a waterlogged one resets its hydration progress.",
+        "location": "Find dried ghasts at Nether fossils in soul sand valleys, or obtain one through its supported recipe or piglin bartering.",
+        "growth": "Keep a dried ghast waterlogged so it hydrates over time and becomes a ghastling. Removing it from water or breaking it interrupts that progress."
+      },
+      "evidence": {
+        "title": "Dried Ghast",
+        "revision": 3841654,
+        "sha256": "4196ad0758952c95bb2c06eadf9fd093784cb04f8e603dee914f5ae57ad822a9",
+        "source": "https://minecraft.wiki/w/Dried_Ghast?oldid=3841654"
+      }
+    },
+    {
+      "id": "statue",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_golem_statue",
+      "topics": {
+        "mining": "Copper golem statues drop themselves by hand or with any tool; a pickaxe is fastest. They retain their pose.",
+        "operation": "Use a copper golem statue to change its pose. Scraping a fully oxidized copper golem statue can revive it as a copper golem.",
+        "oxidation": "Copper statues can oxidize. Honeycomb preserves the current stage; an axe can remove oxidation."
+      },
+      "evidence": {
+        "title": "Copper Golem Statue",
+        "revision": 3818495,
+        "sha256": "8708c5d2ee9f03ac4676e8a3ae677dcf361c92299e804dd2f9cdcbaa0bf0eb48",
+        "source": "https://minecraft.wiki/w/Copper_Golem_Statue?oldid=3818495"
+      }
+    },
+    {
+      "id": "waxed_statue",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_golem_statue",
+      "topics": {
+        "mining": "Copper golem statues drop themselves by hand or with any tool; a pickaxe is fastest. They retain their pose.",
+        "operation": "Use a copper golem statue to change its pose. Scraping a fully oxidized copper golem statue can revive it as a copper golem.",
+        "oxidation": "Wax keeps the statue at its current stage. Remove wax with an axe before scraping oxidation."
+      },
+      "evidence": {
+        "title": "Copper Golem Statue",
+        "revision": 3818495,
+        "sha256": "8708c5d2ee9f03ac4676e8a3ae677dcf361c92299e804dd2f9cdcbaa0bf0eb48",
+        "source": "https://minecraft.wiki/w/Copper_Golem_Statue?oldid=3818495"
+      }
+    },
+    {
+      "id": "lodestone",
+      "pattern": "lodestone",
+      "topics": {
+        "mining": "Use any pickaxe to collect a lodestone. Without one it drops nothing.",
+        "operation": "Use a compass on a lodestone to bind it to that position. The compass points to it in the same dimension; it cannot guide you across dimensions.",
+        "location": "Craft a lodestone using chiseled stone bricks and an iron ingot, or obtain one from relevant loot."
+      },
+      "evidence": {
+        "title": "Lodestone",
+        "revision": 3845781,
+        "sha256": "841cf7ac8c126876fb828ed482c320102e9bac9157cd5d50896fb98921b16485",
+        "source": "https://minecraft.wiki/w/Lodestone?oldid=3845781"
+      }
+    },
+    {
+      "id": "magma",
+      "pattern": "magma",
+      "topics": {
+        "mining": "Use any pickaxe to collect magma blocks. Without one they drop nothing.",
+        "location": "Look in the Nether and at underwater magma formations in the Overworld.",
+        "water": "Magma under a column of water source blocks makes a downward bubble column. It can pull swimmers toward the block.",
+        "danger": "Standing on magma blocks can hurt you. Sneaking helps avoid contact damage, but do not treat a magma bubble column as safe breathing water."
+      },
+      "evidence": {
+        "title": "Magma Block",
+        "revision": 3844072,
+        "sha256": "17c8af32b3f22d82b74513ba3efa6d23dbf3627ea31f9a18b3c223698e097865",
+        "source": "https://minecraft.wiki/w/Magma_Block?oldid=3844072"
+      }
+    },
+    {
+      "id": "crimson_nylium",
+      "pattern": "crimson_nylium",
+      "topics": {
+        "mining": "Use a Silk Touch pickaxe to collect nylium. An ordinary pickaxe drops netherrack instead.",
+        "location": "Find this nylium on the floor of its matching Nether forest biome.",
+        "growth": "Bone meal on nylium grows Nether vegetation. Bone meal can also spread nearby nylium onto suitable netherrack; keep the growing surface clear."
+      },
+      "evidence": {
+        "title": "Crimson Nylium",
+        "revision": 3824751,
+        "sha256": "c453f5726078a98e4675fdba0d5334a6d24a355293923aaba42dd225c8aa2d9b",
+        "source": "https://minecraft.wiki/w/Crimson_Nylium?oldid=3824751"
+      }
+    },
+    {
+      "id": "warped_nylium",
+      "pattern": "warped_nylium",
+      "topics": {
+        "mining": "Use a Silk Touch pickaxe to collect nylium. An ordinary pickaxe drops netherrack instead.",
+        "location": "Find this nylium on the floor of its matching Nether forest biome.",
+        "growth": "Bone meal on nylium grows Nether vegetation. Bone meal can also spread nearby nylium onto suitable netherrack; keep the growing surface clear."
+      },
+      "evidence": {
+        "title": "Warped Nylium",
+        "revision": 3852371,
+        "sha256": "f54fdea6c4729f1ab6a22c1e5a35de044891ad3b14e8fd4fbb4391b5847e8449",
+        "source": "https://minecraft.wiki/w/Warped_Nylium?oldid=3852371"
+      }
+    },
+    {
+      "id": "wart_blocks",
+      "pattern": "(?:nether|warped)_wart_block",
+      "topics": {
+        "mining": "Wart blocks drop themselves by hand or with any tool; a hoe is fastest.",
+        "location": "Find wart blocks in the canopies of matching huge Nether fungi.",
+        "operation": "Use wart blocks for building. A Nether wart block cannot be crafted back into Nether wart items."
+      },
+      "evidence": {
+        "title": "Nether Wart Block",
+        "revision": 3744303,
+        "sha256": "0689c7ec75dc1900567f4fdb518b4f074933f4f71574841ba14669c07eb2cd53",
+        "source": "https://minecraft.wiki/w/Nether_Wart_Block?oldid=3744303"
+      }
+    },
+    {
+      "id": "shroomlight",
+      "pattern": "shroomlight",
+      "topics": {
+        "mining": "Shroomlights drop themselves by hand or with any tool; a hoe is fastest.",
+        "location": "Find shroomlights in the canopies of huge crimson and warped fungi, including fungi grown with bone meal.",
+        "operation": "Shroomlights give steady light without needing fuel or redstone power."
+      },
+      "evidence": {
+        "title": "Shroomlight",
+        "revision": 3844068,
+        "sha256": "6db55c1ea0eb517092bbff01aa85e2d761a352f34dc8b3733c9ab3b7dcb3071a",
+        "source": "https://minecraft.wiki/w/Shroomlight?oldid=3844068"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "ochre_froglight",
+      "pattern": "ochre_froglight",
+      "topics": {
+        "mining": "Froglights drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Have a temperate frog eat a tiny magma cube to produce this froglight.",
+        "operation": "Froglights are steady light blocks. They do not need redstone power."
+      },
+      "evidence": {
+        "title": "Froglight",
+        "revision": 3844073,
+        "sha256": "dfc07c98e25b6d4e5e4cd5ac00dde8d4f4225c4de1e17b67e6e06efcad92acbb",
+        "source": "https://minecraft.wiki/w/Froglight?oldid=3844073"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "verdant_froglight",
+      "pattern": "verdant_froglight",
+      "topics": {
+        "mining": "Froglights drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Have a cold frog eat a tiny magma cube to produce this froglight.",
+        "operation": "Froglights are steady light blocks. They do not need redstone power."
+      },
+      "evidence": {
+        "title": "Froglight",
+        "revision": 3844073,
+        "sha256": "dfc07c98e25b6d4e5e4cd5ac00dde8d4f4225c4de1e17b67e6e06efcad92acbb",
+        "source": "https://minecraft.wiki/w/Froglight?oldid=3844073"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "pearlescent_froglight",
+      "pattern": "pearlescent_froglight",
+      "topics": {
+        "mining": "Froglights drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Have a warm frog eat a tiny magma cube to produce this froglight.",
+        "operation": "Froglights are steady light blocks. They do not need redstone power."
+      },
+      "evidence": {
+        "title": "Froglight",
+        "revision": 3844073,
+        "sha256": "dfc07c98e25b6d4e5e4cd5ac00dde8d4f4225c4de1e17b67e6e06efcad92acbb",
+        "source": "https://minecraft.wiki/w/Froglight?oldid=3844073"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "sea_pickle",
+      "pattern": "sea_pickle",
+      "topics": {
+        "mining": "Sea pickles drop themselves by hand or with any tool. A cluster gives the number of pickles it contains.",
+        "location": "Find sea pickles in warm-ocean coral reefs.",
+        "growth": "Use bone meal on a sea pickle underwater on live coral to grow more pickles nearby. They emit light only while underwater."
+      },
+      "evidence": {
+        "title": "Sea Pickle",
+        "revision": 3844099,
+        "sha256": "eb69ae045efce438982b1cb9e212e82af5da39154246c5a5d73c91698cd5fe3b",
+        "source": "https://minecraft.wiki/w/Sea_Pickle?oldid=3844099"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "glow_lichen",
+      "pattern": "glow_lichen",
+      "topics": {
+        "mining": "Use shears to collect glow lichen. Ordinary tools, including Silk Touch tools without shears, do not collect it.",
+        "location": "Look for glow lichen on cave surfaces in the Overworld.",
+        "growth": "Use bone meal to spread glow lichen over adjacent suitable faces."
+      },
+      "evidence": {
+        "title": "Glow Lichen",
+        "revision": 3848700,
+        "sha256": "dedd3cfa32b54481190afc01cd603b037281d9208237c66a04c2093b2bd0a796",
+        "source": "https://minecraft.wiki/w/Glow_Lichen?oldid=3848700"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "pink_petals",
+      "pattern": "pink_petals",
+      "topics": {
+        "mining": "Break this plant by hand or with any tool to collect it. Silk Touch is unnecessary.",
+        "location": "Look in cherry groves.",
+        "growth": "Place it on suitable soil. Bone meal can produce additional plants or expand the patch, depending on the plant."
+      },
+      "evidence": {
+        "title": "Pink Petals",
+        "revision": 3810016,
+        "sha256": "fcf9365b853e5104d6f881048267a7f8ca05bfddb59724b7c3f35cee54c286f2",
+        "source": "https://minecraft.wiki/w/Pink_Petals?oldid=3810016"
+      }
+    },
+    {
+      "id": "wildflowers",
+      "pattern": "wildflowers",
+      "topics": {
+        "mining": "Break this plant by hand or with any tool to collect it. Silk Touch is unnecessary.",
+        "location": "Look in birch forests and meadows.",
+        "growth": "Place it on suitable soil. Bone meal can produce additional plants or expand the patch, depending on the plant."
+      },
+      "evidence": {
+        "title": "Wildflowers",
+        "revision": 3810014,
+        "sha256": "f72a53efe8e47244b9f18841389a1676bca8efba2586e05128fcf0521469c03f",
+        "source": "https://minecraft.wiki/w/Wildflowers?oldid=3810014"
+      }
+    },
+    {
+      "id": "firefly_bush",
+      "pattern": "firefly_bush",
+      "topics": {
+        "mining": "Break this plant by hand or with any tool to collect it. Silk Touch is unnecessary.",
+        "location": "Look in swamps and beside some rivers.",
+        "growth": "Place it on suitable soil. Bone meal can produce additional plants or expand the patch, depending on the plant."
+      },
+      "evidence": {
+        "title": "Firefly Bush",
+        "revision": 3844063,
+        "sha256": "93d7ac48a485ef08e46d06d95d7a310b43ac0e7c163f8ea0a7fe2743e67935fa",
+        "source": "https://minecraft.wiki/w/Firefly_Bush?oldid=3844063"
+      }
+    },
+    {
+      "id": "bush",
+      "pattern": "bush",
+      "topics": {
+        "mining": "Break this plant by hand or with any tool to collect it. Silk Touch is unnecessary.",
+        "location": "Look in appropriate grassy Overworld biomes.",
+        "growth": "Place it on suitable soil. Bone meal can produce additional plants or expand the patch, depending on the plant."
+      },
+      "evidence": {
+        "title": "Bush",
+        "revision": 3810022,
+        "sha256": "d04917644fdf451422ac2d9412ac37d1c5a544cf38554388bb7dad9a1d2896b8",
+        "source": "https://minecraft.wiki/w/Bush?oldid=3810022"
+      }
+    },
+    {
+      "id": "cactus_flower",
+      "pattern": "cactus_flower",
+      "topics": {
+        "mining": "Break the plant by hand or with any tool to collect it.",
+        "location": "Look for this plant in the tops of suitable tall cactus plants.",
+        "operation": "This is a decorative plant, not a crop that repeatedly produces food."
+      },
+      "evidence": {
+        "title": "Cactus Flower",
+        "revision": 3777537,
+        "sha256": "f8d17449fdbba14ca6c9ca95670d0eee5c996e676b546baed69ef62b9f1e2a69",
+        "source": "https://minecraft.wiki/w/Cactus_Flower?oldid=3777537"
+      }
+    },
+    {
+      "id": "spore_blossom",
+      "pattern": "spore_blossom",
+      "topics": {
+        "mining": "Break the plant by hand or with any tool to collect it.",
+        "location": "Look for this plant in lush-cave ceilings.",
+        "operation": "This is a decorative plant, not a crop that repeatedly produces food."
+      },
+      "evidence": {
+        "title": "Spore Blossom",
+        "revision": 3820482,
+        "sha256": "460f269c8859755aa35919c1b8f603a838e069ef0e868e860052eefcd1dd0f59",
+        "source": "https://minecraft.wiki/w/Spore_Blossom?oldid=3820482"
+      }
+    },
+    {
+      "id": "torchflower",
+      "pattern": "torchflower",
+      "topics": {
+        "mining": "Break the plant by hand or with any tool to collect it.",
+        "location": "Look for this plant in grown torchflower crops.",
+        "operation": "This is a decorative plant, not a crop that repeatedly produces food."
+      },
+      "evidence": {
+        "title": "Torchflower",
+        "revision": 3830088,
+        "sha256": "6f9854a209df474ba8105d9be8b1c6d18ff37003ccfe5f6a84e345f4933f383c",
+        "source": "https://minecraft.wiki/w/Torchflower?oldid=3830088"
+      }
+    },
+    {
+      "id": "pitcher_plant",
+      "pattern": "pitcher_plant",
+      "topics": {
+        "mining": "Break the plant by hand or with any tool to collect it.",
+        "location": "Look for this plant in grown pitcher crops.",
+        "operation": "This is a decorative plant, not a crop that repeatedly produces food."
+      },
+      "evidence": {
+        "title": "Pitcher Plant",
+        "revision": 3839991,
+        "sha256": "24fd96a6e96625e72a942e7af2e904fbdc99a2b224fe0f21db47e4f7982ead1b",
+        "source": "https://minecraft.wiki/w/Pitcher_Plant?oldid=3839991"
+      }
+    },
+    {
+      "id": "wither_rose",
+      "pattern": "wither_rose",
+      "topics": {
+        "mining": "Break the plant by hand or with any tool to collect it.",
+        "location": "Look for this plant in locations where a Wither kills a suitable mob.",
+        "operation": "Wither roses inflict Wither on vulnerable entities touching them. Handle and place them carefully."
+      },
+      "evidence": {
+        "title": "Wither Rose",
+        "revision": 3820667,
+        "sha256": "c82966e6e7809ecfe2c5d0bb798b78f8e96f4737cbbd8a9880d96b083c8a9972",
+        "source": "https://minecraft.wiki/w/Wither_Rose?oldid=3820667"
+      }
+    },
+    {
+      "id": "deadbush",
+      "pattern": "deadbush",
+      "topics": {
+        "mining": "Use shears to collect this plant. Otherwise it drops sticks or nothing.",
+        "location": "Look for this plant in deserts and badlands.",
+        "operation": "This is a decorative plant, not a crop that repeatedly produces food."
+      },
+      "evidence": {
+        "title": "Dead Bush",
+        "revision": 3750917,
+        "sha256": "7b7b7125bab9fdfbe05ef7503fd331a58231b7022d4f15ffca99206033b4cadd",
+        "source": "https://minecraft.wiki/w/Dead_Bush?oldid=3750917"
+      }
+    },
+    {
+      "id": "nether_sprouts",
+      "pattern": "nether_sprouts",
+      "topics": {
+        "mining": "Use shears to collect this plant. Otherwise it drops sticks or nothing.",
+        "location": "Look for this plant in warped forests.",
+        "operation": "This is a decorative plant, not a crop that repeatedly produces food."
+      },
+      "evidence": {
+        "title": "Nether Sprouts",
+        "revision": 3831674,
+        "sha256": "6bb9dfcfce596d63e14cf2ae2552b8315757f00c05445a6ef4ebe90ca463129b",
+        "source": "https://minecraft.wiki/w/Nether_Sprouts?oldid=3831674"
+      }
+    },
+    {
+      "id": "eyeblossoms",
+      "pattern": "(?:open|closed)_eyeblossom",
+      "topics": {
+        "mining": "Eyeblossoms drop themselves when broken by hand or with any tool.",
+        "location": "Find eyeblossoms in pale gardens.",
+        "growth": "Eyeblossoms open at night and close during the day under normal conditions. Bone meal can produce another matching flower."
+      },
+      "evidence": {
+        "title": "Eyeblossom",
+        "revision": 3820652,
+        "sha256": "31fd0d2f697bc2dcfc9938cf09fc8dd6aebaa124ddf9c280de9547377693fdd9",
+        "source": "https://minecraft.wiki/w/Eyeblossom?oldid=3820652"
+      }
+    },
+    {
+      "id": "turtle_egg",
+      "pattern": "turtle_egg",
+      "topics": {
+        "mining": "Use Silk Touch to collect turtle eggs. Breaking them normally or trampling them destroys them without a drop.",
+        "location": "Breed turtles with seagrass so a pregnant turtle returns to its home beach to lay eggs.",
+        "growth": "Place turtle eggs on sand or red sand to hatch. They hatch more quickly at night; protect them from trampling and egg-breaking mobs."
+      },
+      "evidence": {
+        "title": "Turtle Egg",
+        "revision": 3816926,
+        "sha256": "f4a7585246f40088a7b066afa52a81251772bac10d969b67369d43c3cf978d73",
+        "source": "https://minecraft.wiki/w/Turtle_Egg?oldid=3816926"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "sniffer_egg",
+      "pattern": "sniffer_egg",
+      "topics": {
+        "mining": "Sniffer eggs drop themselves even by hand. Silk Touch is unnecessary.",
+        "location": "Brush suspicious sand in warm ocean ruins for a chance of a sniffer egg, or breed sniffers.",
+        "growth": "Place a sniffer egg to hatch. Placing it on moss makes it hatch faster."
+      },
+      "evidence": {
+        "title": "Sniffer Egg",
+        "revision": 3751008,
+        "sha256": "bb0cd453213b1fff70aac136b6da52a13a0b07c0d46749c5920ebf94ae38b78a",
+        "source": "https://minecraft.wiki/w/Sniffer_Egg?oldid=3751008"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "frogspawn",
+      "pattern": "frog_spawn",
+      "topics": {
+        "mining": "Frogspawn cannot be collected in normal Survival, even with Silk Touch. Breaking it destroys it.",
+        "location": "Breed two frogs with slimeballs; one lays frogspawn on nearby suitable water.",
+        "growth": "Leave frogspawn on suitable water and wait for tadpoles to hatch. Collect tadpoles with a water bucket rather than trying to collect the frogspawn."
+      },
+      "evidence": {
+        "title": "Frogspawn",
+        "revision": 3776740,
+        "sha256": "53c2900cd2fa967efa71b951e9374b448f5d1b8927d464bb6d21b21c024c510d",
+        "source": "https://minecraft.wiki/w/Frogspawn?oldid=3776740"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "item_frames",
+      "pattern": "(?:glow_)?frame",
+      "topics": {
+        "mining": "Breaking an item frame drops the frame. Remove its displayed item first if you want to keep that item separate.",
+        "operation": "Use an item frame to display an item or map. Interact to rotate the displayed item; glow frames make the display appear bright.",
+        "redstone": "A comparator can read an item frame and use its item rotation to produce different output strengths."
+      },
+      "evidence": {
+        "title": "Item Frame",
+        "revision": 3846623,
+        "sha256": "8bac75e2f2259dc6a008d9806bae3c3776151414776af4f9b67188651e6a8599",
+        "source": "https://minecraft.wiki/w/Item_Frame?oldid=3846623"
+      }
+    },
+    {
+      "id": "snow_layer",
+      "pattern": "snow_layer",
+      "topics": {
+        "mining": "A shovel collects snowballs from snow layers. Use a Silk Touch shovel to collect the snow layer instead.",
+        "location": "Find snow layers on cold-biome terrain after snowfall.",
+        "operation": "Snow layers are thin ground coverings, distinct from full snow blocks and powder snow."
+      },
+      "evidence": {
+        "title": "Snow",
+        "revision": 3833373,
+        "sha256": "4399150362b3589feca2e7e9ef0bc9fe486890af5b9ab21f8e9a7cff16c5915c",
+        "source": "https://minecraft.wiki/w/Snow?oldid=3833373"
+      }
+    },
+    {
+      "id": "frosted_ice",
+      "pattern": "frosted_ice",
+      "topics": {
+        "mining": "Frosted ice cannot be collected, even with Silk Touch. It is temporary ice created by Frost Walker.",
+        "location": "Walk near suitable water while wearing Frost Walker boots to create temporary frosted ice.",
+        "operation": "Frosted ice melts back into water. Use ordinary ice or packed ice when you need a lasting building material."
+      },
+      "evidence": {
+        "title": "Frosted Ice",
+        "revision": 3853061,
+        "sha256": "5acece2acb4b9bf752870c107a2cdbbdb617d38392840bb2a9f9fd885f87141e",
+        "source": "https://minecraft.wiki/w/Frosted_Ice?oldid=3853061"
+      },
+      "recipe_unavailable": true
+    },
+    {
+      "id": "grass_path",
+      "pattern": "grass_path",
+      "topics": {
+        "mining": "Dirt paths drop dirt, not a path block, even with Silk Touch. A shovel is fastest.",
+        "location": "Use a shovel on suitable dirt-like ground to make a path. Villages also contain paths.",
+        "operation": "Dirt paths are slightly lower walking surfaces. Placing a solid block directly above can turn the path back into dirt."
+      },
+      "evidence": {
+        "title": "Dirt Path",
+        "revision": 3841806,
+        "sha256": "1e2c5bf1681d3dc63ed567ddce3ef689128f6fbfac8f9d3b264121b1332c5bdd",
+        "source": "https://minecraft.wiki/w/Dirt_Path?oldid=3841806"
+      }
+    },
+    {
+      "id": "redstone_wire",
+      "pattern": "redstone_wire",
+      "topics": {
+        "mining": "Break placed redstone dust by hand or with any tool to collect the dust.",
+        "operation": "Place redstone dust on supported surfaces to connect circuit components. Signal strength decreases as it travels along dust.",
+        "redstone": "Redstone dust carries signal strengths from 0 to 15. Use repeaters to restore strength on longer lines."
+      },
+      "evidence": {
+        "title": "Redstone Dust",
+        "revision": 3841903,
+        "sha256": "99b9aef3de0f457d419decc11e38bf6b0199fd9a5c853bc679558ec7a77c0870",
+        "source": "https://minecraft.wiki/w/Redstone_Dust?oldid=3841903"
+      }
+    }
+  ]
+}

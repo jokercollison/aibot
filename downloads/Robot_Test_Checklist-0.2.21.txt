@@ -1,0 +1,44 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.21
+Bedrock 1.26.52 — changed features only
+
+INSTALL
+Open TimeTrapRobot-0.2.21.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.21
+  Time Trap Studios AI Bot — Resources 0.2.21
+Both pack descriptions and the robot menu must show 0.2.21.
+Optional summon: /summon tts_ai_bot_v0_2_21:robot
+Confirm both packs import without missing dependencies or content-log errors.
+
+QUESTIONS TO TRY
+1. Where is bedrock? / Can I craft bedrock?
+   Expect world-boundary locations and a clear no-crafting answer.
+2. How do I mine a bee nest? / How do I mine a beehive?
+   Expect nest needs Silk Touch; hive drops itself but needs Silk Touch to keep bees.
+3. How do I mine suspicious sand? / Where can I find suspicious gravel?
+   Expect brush instead of mining; trail ruins/cold ocean ruins.
+4. How do I mine a sculk shrieker? / How do I use a sculk shrieker?
+   Expect Silk Touch collection; a placed shrieker cannot summon a Warden.
+5. How do I mine reinforced deepslate?
+   Expect no drop, even with Silk Touch.
+   How do I mine infested stone?
+   Expect silverfish normally; Silk Touch gives ordinary stone without the fish.
+6. How do I mine a cake? / How do I mine a candle cake?
+   Expect no cake drop; a candle cake returns its candle.
+7. How do I mine a decorated pot? / How do I craft a decorated pot?
+   Expect hand collection versus tool shattering, and a 4-brick recipe.
+8. How do I craft an acacia wall sign?
+   Expect 6 acacia planks and 1 stick, with no grid instructions.
+9. How do I mine red wool stairs? / How do I mine red concrete stairs?
+   Expect wool collectible by hand; concrete needs a pickaxe.
+   How do I mine red wool double slabs?
+   Expect two slabs, not a double-slab item.
+10. How do I mine water? / How do I use lava? / Is fire dangerous?
+    Expect bucket/source collection, lava uses/hazards, and fire danger.
+11. What is a lodestone?
+    Follow up: How do I use it?
+    Expect compass binding within the same dimension.
+12. How do I mine a turtle egg? / How do I mine a sniffer egg?
+    Expect Silk Touch for turtle eggs; sniffer eggs collectible by hand.
+
+No need to repeat previous checklists or find every missing topic yourself.
+All catalog identifiers are audited; full block-topic completion is still in progress.

@@ -1,3 +1,11 @@
+# Current release: 0.2.21 — full catalog audit and block gap pass
+
+All 1,463 block identifiers are reconciled across 21,945 question paths. Focused
+topic/availability answers now cover every identifier, with 549 entries added in
+this pass. 5,429 authored facet applications route correctly. Topic gaps remain
+explicit: this is not full block-topic completion. See BLOCK_CATALOG_AUDIT.md.
+Actual Minecraft testing is pending; use the focused 0.2.21 checklist.
+
 # Current release: 0.2.20 — plants, devices and utility blocks
 
 Adds 437 block variants in the plant, device and utility batches. They contain

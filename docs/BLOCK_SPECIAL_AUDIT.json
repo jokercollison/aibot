@@ -1,0 +1,675 @@
+{
+  "scope": "data/blocks/special.json",
+  "families": [
+    {
+      "family": "cinnabar",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:chiseled_cinnabar",
+        "minecraft:cinnabar",
+        "minecraft:cinnabar_bricks",
+        "minecraft:polished_cinnabar"
+      ],
+      "subject_count": 4,
+      "facet_applications": 12
+    },
+    {
+      "family": "sulfur",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:chiseled_sulfur",
+        "minecraft:polished_sulfur",
+        "minecraft:sulfur",
+        "minecraft:sulfur_bricks"
+      ],
+      "subject_count": 4,
+      "facet_applications": 12
+    },
+    {
+      "family": "cinnabar_shapes",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:cinnabar_brick_slab",
+        "minecraft:cinnabar_brick_stairs",
+        "minecraft:cinnabar_brick_wall",
+        "minecraft:cinnabar_slab",
+        "minecraft:cinnabar_stairs",
+        "minecraft:cinnabar_wall",
+        "minecraft:polished_cinnabar_slab",
+        "minecraft:polished_cinnabar_stairs",
+        "minecraft:polished_cinnabar_wall"
+      ],
+      "subject_count": 9,
+      "facet_applications": 27
+    },
+    {
+      "family": "cinnabar_double",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:cinnabar_brick_double_slab",
+        "minecraft:cinnabar_double_slab",
+        "minecraft:polished_cinnabar_double_slab"
+      ],
+      "subject_count": 3,
+      "facet_applications": 9
+    },
+    {
+      "family": "sulfur_shapes",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:polished_sulfur_slab",
+        "minecraft:polished_sulfur_stairs",
+        "minecraft:polished_sulfur_wall",
+        "minecraft:sulfur_brick_slab",
+        "minecraft:sulfur_brick_stairs",
+        "minecraft:sulfur_brick_wall",
+        "minecraft:sulfur_slab",
+        "minecraft:sulfur_stairs",
+        "minecraft:sulfur_wall"
+      ],
+      "subject_count": 9,
+      "facet_applications": 27
+    },
+    {
+      "family": "sulfur_double",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:polished_sulfur_double_slab",
+        "minecraft:sulfur_brick_double_slab",
+        "minecraft:sulfur_double_slab"
+      ],
+      "subject_count": 3,
+      "facet_applications": 9
+    },
+    {
+      "family": "mossy_cobble",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:mossy_cobblestone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "stone_shapes",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:nether_brick_fence",
+        "minecraft:normal_stone_slab",
+        "minecraft:normal_stone_stairs",
+        "minecraft:smooth_stone_slab",
+        "minecraft:stone_stairs"
+      ],
+      "subject_count": 5,
+      "facet_applications": 15
+    },
+    {
+      "family": "stone_double",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:normal_stone_double_slab",
+        "minecraft:petrified_oak_double_slab",
+        "minecraft:smooth_stone_double_slab"
+      ],
+      "subject_count": 3,
+      "facet_applications": 9
+    },
+    {
+      "family": "petrified",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:petrified_oak_slab"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "smooth_stone",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:smooth_stone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "bee_nest",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:bee_nest"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "beehive",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:beehive"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "creaking_heart",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:creaking_heart"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "dried_ghast",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:dried_ghast"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "statue",
+      "topics": [
+        "mining",
+        "operation",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_golem_statue",
+        "minecraft:exposed_copper_golem_statue",
+        "minecraft:oxidized_copper_golem_statue",
+        "minecraft:weathered_copper_golem_statue"
+      ],
+      "subject_count": 4,
+      "facet_applications": 12
+    },
+    {
+      "family": "waxed_statue",
+      "topics": [
+        "mining",
+        "operation",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_golem_statue",
+        "minecraft:waxed_exposed_copper_golem_statue",
+        "minecraft:waxed_oxidized_copper_golem_statue",
+        "minecraft:waxed_weathered_copper_golem_statue"
+      ],
+      "subject_count": 4,
+      "facet_applications": 12
+    },
+    {
+      "family": "lodestone",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:lodestone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "magma",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "danger"
+      ],
+      "members": [
+        "minecraft:magma"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "crimson_nylium",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:crimson_nylium"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "warped_nylium",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:warped_nylium"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "wart_blocks",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:nether_wart_block",
+        "minecraft:warped_wart_block"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "shroomlight",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:shroomlight"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "ochre_froglight",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:ochre_froglight"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "verdant_froglight",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:verdant_froglight"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "pearlescent_froglight",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:pearlescent_froglight"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sea_pickle",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:sea_pickle"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "glow_lichen",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:glow_lichen"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "pink_petals",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:pink_petals"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "wildflowers",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:wildflowers"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "firefly_bush",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:firefly_bush"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "bush",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:bush"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "cactus_flower",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:cactus_flower"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "spore_blossom",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:spore_blossom"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "torchflower",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:torchflower"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "pitcher_plant",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:pitcher_plant"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "wither_rose",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:wither_rose"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "deadbush",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:deadbush"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "nether_sprouts",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:nether_sprouts"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "eyeblossoms",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:closed_eyeblossom",
+        "minecraft:open_eyeblossom"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "turtle_egg",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:turtle_egg"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sniffer_egg",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:sniffer_egg"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "frogspawn",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:frog_spawn"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "item_frames",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:frame",
+        "minecraft:glow_frame"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "snow_layer",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:snow_layer"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "frosted_ice",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:frosted_ice"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "grass_path",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:grass_path"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "redstone_wire",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:redstone_wire"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 89,
+  "facet_applications": 268,
+  "independent_family_summaries": 145
+}

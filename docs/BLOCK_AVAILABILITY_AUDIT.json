@@ -1,0 +1,754 @@
+{
+  "scope": "data/blocks/availability.json",
+  "families": [
+    {
+      "family": "bedrock",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:bedrock"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "dragon_egg",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:dragon_egg"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "carved_pumpkin",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:carved_pumpkin"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "lit_pumpkin",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:lit_pumpkin"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "golden_flower",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:golden_dandelion"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "leaf_litter",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:leaf_litter"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "short_dry_grass",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:short_dry_grass"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "tall_dry_grass",
+      "topics": [
+        "mining",
+        "location",
+        "growth"
+      ],
+      "members": [
+        "minecraft:tall_dry_grass"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "shelf_mushroom",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:shelf_mushroom"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "red_shrub",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:red_shrub"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "straw_bed",
+      "topics": [
+        "mining",
+        "location",
+        "operation",
+        "danger"
+      ],
+      "members": [
+        "minecraft:straw_bed"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "potent_sulfur",
+      "topics": [
+        "mining",
+        "location",
+        "operation",
+        "danger"
+      ],
+      "members": [
+        "minecraft:potent_sulfur"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "sulfur_spike",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:sulfur_spike"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "water",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:flowing_water",
+        "minecraft:water"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "lava",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:flowing_lava",
+        "minecraft:lava"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "bubble_column",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:bubble_column"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "fire",
+      "topics": [
+        "mining",
+        "location",
+        "danger"
+      ],
+      "members": [
+        "minecraft:fire"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "soul_fire",
+      "topics": [
+        "mining",
+        "location",
+        "danger"
+      ],
+      "members": [
+        "minecraft:soul_fire"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "heads",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:creeper_head",
+        "minecraft:dragon_head",
+        "minecraft:piglin_head",
+        "minecraft:player_head",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:zombie_head"
+      ],
+      "subject_count": 7,
+      "facet_applications": 14
+    },
+    {
+      "family": "portal",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:portal"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "end_portal",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:end_portal"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "end_portal_frame",
+      "topics": [
+        "mining",
+        "operation",
+        "location"
+      ],
+      "members": [
+        "minecraft:end_portal_frame"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "elements",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:element_0",
+        "minecraft:element_1",
+        "minecraft:element_10",
+        "minecraft:element_100",
+        "minecraft:element_101",
+        "minecraft:element_102",
+        "minecraft:element_103",
+        "minecraft:element_104",
+        "minecraft:element_105",
+        "minecraft:element_106",
+        "minecraft:element_107",
+        "minecraft:element_108",
+        "minecraft:element_109",
+        "minecraft:element_11",
+        "minecraft:element_110",
+        "minecraft:element_111",
+        "minecraft:element_112",
+        "minecraft:element_113",
+        "minecraft:element_114",
+        "minecraft:element_115",
+        "minecraft:element_116",
+        "minecraft:element_117",
+        "minecraft:element_118",
+        "minecraft:element_12",
+        "minecraft:element_13",
+        "minecraft:element_14",
+        "minecraft:element_15",
+        "minecraft:element_16",
+        "minecraft:element_17",
+        "minecraft:element_18",
+        "minecraft:element_19",
+        "minecraft:element_2",
+        "minecraft:element_20",
+        "minecraft:element_21",
+        "minecraft:element_22",
+        "minecraft:element_23",
+        "minecraft:element_24",
+        "minecraft:element_25",
+        "minecraft:element_26",
+        "minecraft:element_27",
+        "minecraft:element_28",
+        "minecraft:element_29",
+        "minecraft:element_3",
+        "minecraft:element_30",
+        "minecraft:element_31",
+        "minecraft:element_32",
+        "minecraft:element_33",
+        "minecraft:element_34",
+        "minecraft:element_35",
+        "minecraft:element_36",
+        "minecraft:element_37",
+        "minecraft:element_38",
+        "minecraft:element_39",
+        "minecraft:element_4",
+        "minecraft:element_40",
+        "minecraft:element_41",
+        "minecraft:element_42",
+        "minecraft:element_43",
+        "minecraft:element_44",
+        "minecraft:element_45",
+        "minecraft:element_46",
+        "minecraft:element_47",
+        "minecraft:element_48",
+        "minecraft:element_49",
+        "minecraft:element_5",
+        "minecraft:element_50",
+        "minecraft:element_51",
+        "minecraft:element_52",
+        "minecraft:element_53",
+        "minecraft:element_54",
+        "minecraft:element_55",
+        "minecraft:element_56",
+        "minecraft:element_57",
+        "minecraft:element_58",
+        "minecraft:element_59",
+        "minecraft:element_6",
+        "minecraft:element_60",
+        "minecraft:element_61",
+        "minecraft:element_62",
+        "minecraft:element_63",
+        "minecraft:element_64",
+        "minecraft:element_65",
+        "minecraft:element_66",
+        "minecraft:element_67",
+        "minecraft:element_68",
+        "minecraft:element_69",
+        "minecraft:element_7",
+        "minecraft:element_70",
+        "minecraft:element_71",
+        "minecraft:element_72",
+        "minecraft:element_73",
+        "minecraft:element_74",
+        "minecraft:element_75",
+        "minecraft:element_76",
+        "minecraft:element_77",
+        "minecraft:element_78",
+        "minecraft:element_79",
+        "minecraft:element_8",
+        "minecraft:element_80",
+        "minecraft:element_81",
+        "minecraft:element_82",
+        "minecraft:element_83",
+        "minecraft:element_84",
+        "minecraft:element_85",
+        "minecraft:element_86",
+        "minecraft:element_87",
+        "minecraft:element_88",
+        "minecraft:element_89",
+        "minecraft:element_9",
+        "minecraft:element_90",
+        "minecraft:element_91",
+        "minecraft:element_92",
+        "minecraft:element_93",
+        "minecraft:element_94",
+        "minecraft:element_95",
+        "minecraft:element_96",
+        "minecraft:element_97",
+        "minecraft:element_98",
+        "minecraft:element_99"
+      ],
+      "subject_count": 119,
+      "facet_applications": 357
+    },
+    {
+      "family": "hardened_glass",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:hard_black_stained_glass",
+        "minecraft:hard_black_stained_glass_pane",
+        "minecraft:hard_blue_stained_glass",
+        "minecraft:hard_blue_stained_glass_pane",
+        "minecraft:hard_brown_stained_glass",
+        "minecraft:hard_brown_stained_glass_pane",
+        "minecraft:hard_cyan_stained_glass",
+        "minecraft:hard_cyan_stained_glass_pane",
+        "minecraft:hard_glass",
+        "minecraft:hard_glass_pane",
+        "minecraft:hard_gray_stained_glass",
+        "minecraft:hard_gray_stained_glass_pane",
+        "minecraft:hard_green_stained_glass",
+        "minecraft:hard_green_stained_glass_pane",
+        "minecraft:hard_light_blue_stained_glass",
+        "minecraft:hard_light_blue_stained_glass_pane",
+        "minecraft:hard_light_gray_stained_glass",
+        "minecraft:hard_light_gray_stained_glass_pane",
+        "minecraft:hard_lime_stained_glass",
+        "minecraft:hard_lime_stained_glass_pane",
+        "minecraft:hard_magenta_stained_glass",
+        "minecraft:hard_magenta_stained_glass_pane",
+        "minecraft:hard_orange_stained_glass",
+        "minecraft:hard_orange_stained_glass_pane",
+        "minecraft:hard_pink_stained_glass",
+        "minecraft:hard_pink_stained_glass_pane",
+        "minecraft:hard_purple_stained_glass",
+        "minecraft:hard_purple_stained_glass_pane",
+        "minecraft:hard_red_stained_glass",
+        "minecraft:hard_red_stained_glass_pane",
+        "minecraft:hard_white_stained_glass",
+        "minecraft:hard_white_stained_glass_pane",
+        "minecraft:hard_yellow_stained_glass",
+        "minecraft:hard_yellow_stained_glass_pane"
+      ],
+      "subject_count": 34,
+      "facet_applications": 102
+    },
+    {
+      "family": "light_blocks",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:light_block_0",
+        "minecraft:light_block_1",
+        "minecraft:light_block_10",
+        "minecraft:light_block_11",
+        "minecraft:light_block_12",
+        "minecraft:light_block_13",
+        "minecraft:light_block_14",
+        "minecraft:light_block_15",
+        "minecraft:light_block_2",
+        "minecraft:light_block_3",
+        "minecraft:light_block_4",
+        "minecraft:light_block_5",
+        "minecraft:light_block_6",
+        "minecraft:light_block_7",
+        "minecraft:light_block_8",
+        "minecraft:light_block_9"
+      ],
+      "subject_count": 16,
+      "facet_applications": 32
+    },
+    {
+      "family": "allow",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:allow"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "deny",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:deny"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "border_block",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:border_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "barrier",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:barrier"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "structure_void",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:structure_void"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "jigsaw",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:jigsaw"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "structure_block",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:structure_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "camera",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:camera"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "compound_creator",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:compound_creator"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "element_constructor",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:element_constructor"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "lab_table",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:lab_table"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "material_reducer",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:material_reducer"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "command_blocks",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:chain_command_block",
+        "minecraft:command_block",
+        "minecraft:repeating_command_block"
+      ],
+      "subject_count": 3,
+      "facet_applications": 6
+    },
+    {
+      "family": "piston_heads",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:piston_arm_collision",
+        "minecraft:sticky_piston_arm_collision"
+      ],
+      "subject_count": 2,
+      "facet_applications": 4
+    },
+    {
+      "family": "air",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:air"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "unknown",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:unknown"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "colored_torches",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:colored_torch_blue",
+        "minecraft:colored_torch_green",
+        "minecraft:colored_torch_purple",
+        "minecraft:colored_torch_red"
+      ],
+      "subject_count": 4,
+      "facet_applications": 8
+    },
+    {
+      "family": "underwater_torch",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:underwater_torch"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "underwater_tnt",
+      "topics": [
+        "location",
+        "danger"
+      ],
+      "members": [
+        "minecraft:underwater_tnt"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "chemical_heat",
+      "topics": [
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:chemical_heat"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 225,
+  "facet_applications": 628,
+  "independent_family_summaries": 115
+}
