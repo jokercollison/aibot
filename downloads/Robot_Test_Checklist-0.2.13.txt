@@ -1,0 +1,57 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.13
+CHANGED CHECKS ONLY — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.13.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.13
+  Time Trap Studios AI Bot — Resources 0.2.13
+Descriptions and menu must show 0.2.13.
+Optional summon: /summon tts_ai_bot_v0_2_13:robot
+
+VEHICLES AND PROJECTILES
+1. How much storage does a boat with chest have?
+   Expect single-chest inventory and one rider, not the ordinary two-seat boat.
+2. How do I steer a hopper minecart?
+   Expect rails and powered activator disabling collection; inactive reenables it.
+3. How do I retrieve a trident?
+   Expect Bedrock thrown-trident persistence and pickup restrictions.
+4. How much XP does a bottle o enchanting give?
+   Expect 3-11 points, not player levels.
+5. What is a snowball?
+   Then: What happens when it hits?
+   Then: How do I retrieve it?
+   Expect blaze-specific damage and no arrow-style recovery of the throw.
+6. How do I activate an end crystal?
+   Expect obsidian/bedrock placement and dragon-resummoning arrangement.
+7. How do I change an armor stand poses?
+   Expect sneak/interact and supported redstone posing.
+
+CONDITIONS AND FOLLOW-UPS
+8. Can I breed baby cows with wheat?
+   Expect No: grow into adults first.
+9. How do I breed cows to make a baby?
+   Expect ordinary adult breeding guidance; not rejection because baby is mentioned.
+10. Can I breed untamed horses with golden carrots?
+    Expect parents must be tamed first.
+11. Can injured wolves breed?
+    Expect tamed adult wolves at full health.
+12. What is a cow?
+    Then: Can a baby breed?
+    Then: What do they eat?
+    Expect age restriction, then wheat; keep the cow as subject.
+13. What does a fox drop while holding a totem of undying?
+    Expect it consumes the totem and survives rather than dropping that totem.
+14. Does a fox drop the chicken it already ate?
+    Expect eaten food cannot be recovered as a carried item.
+15. Does a piglin drop its gold ingot when killed?
+    Expect one-hit/admiration condition, not guaranteed return of all picked-up gold.
+16. Does a converted drowned drop a trident?
+    Expect conversion does not generate a naturally equipped trident.
+17. Does a drowned drop a nautilus shell?
+    Expect a shell if it actually holds one, not a shell from every drowned.
+
+Keep the readable script, Bedrock-only replies, Things to try and continuous
+conversation. Report exact questions/answers for unexpected results. No need to
+repeat every old checklist; old downloads remain for comparison. Source metadata
+stays in test builds for now. Entity knowledge is not complete. Multiplayer and
+phone/console performance still need actual-device testing.

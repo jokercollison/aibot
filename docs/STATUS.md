@@ -1,3 +1,12 @@
+# Current test release: 0.2.13 — entity objects and conditional actions
+
+Packages source work after 0.2.12: vehicle/projectile/technical mechanics and
+state-aware breeding/special drops. 1,762 reviewed entity summaries; 172 automated
+tests pass. See RELEASE_0.2.13.md and the focused checklist. Actual-game testing
+remains pending. Later source work must not change this published artifact.
+
+## Previous records
+
 # Latest source batch: entity prerequisites and special carried-item drops
 
 43 reviewed conditional answers across 30 subjects; 1,762 reviewed topic summaries
