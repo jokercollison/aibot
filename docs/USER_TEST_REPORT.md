@@ -1,3 +1,9 @@
+# Current testing status: 0.2.19 pending
+
+The new family answers, lower uncertainty chirp and import checks require actual
+Minecraft testing. Automated validation does not establish audible sound quality,
+multiplayer behavior or device performance. No prior-release pass is inferred.
+
 # Current testing status: 0.2.18 pending
 
 New block answers and import checks require actual Minecraft testing. The user is

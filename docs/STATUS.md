@@ -1,3 +1,12 @@
+# Current release: 0.2.19 — broad block families and uncertainty tone
+
+Combines three development batches across 463 additional block variants, with
+2,193 shared facet applications and 16 wool-color recipe checks. Includes wood,
+glass, concrete, wool, ores, soils, masonry, copper and mineral storage blocks.
+Unknown answers start with “Hmm, ” and use a softer, lower version of the original
+chirp. Full block knowledge remains in progress. Actual Minecraft testing pending.
+See RELEASE_0.2.19.md and the focused checklist.
+
 # Current release: 0.2.18 — first block facets
 
 Adds 30 reviewed mining/location summaries across 15 terrain and resource blocks.

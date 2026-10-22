@@ -111,3 +111,10 @@ Validation: TypeScript and all 230 automated tests pass, including all 1,145
 masonry facet applications and simulated private-form sound selection/restoration.
 The entity question audit remains green. This batch is saved in development;
 0.2.18 downloads are unchanged. Packaging a new isolated release remains separate.
+
+## Packaging update
+
+The three subsequent development batches above are now packaged in isolated
+release 0.2.19. Historical statements about development-only status describe their
+original preparation; 0.2.18 and earlier downloads remain unchanged. See the
+0.2.19 release notes and focused checklist. Actual Minecraft testing is pending.

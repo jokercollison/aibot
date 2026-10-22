@@ -1,0 +1,55 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.19
+Bedrock 1.26.52 — changed features only
+
+INSTALL
+Open TimeTrapRobot-0.2.19.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.19
+  Time Trap Studios AI Bot — Resources 0.2.19
+Both descriptions and the robot menu must show 0.2.19.
+Optional summon: /summon tts_ai_bot_v0_2_19:robot
+Confirm both packs import without dependency or content-log errors.
+
+QUESTIONS TO TRY (no need to repeat old checklists)
+1. What is blue wool?
+   Follow up: How do I mine it? / Can it burn? / How do I craft it?
+   Expect shears fastest, flammable, 1 wool and 1 blue dye.
+2. Does blue concrete fall? / Does blue concrete powder fall?
+   Expect solid concrete stays up; powder falls.
+   Can rain harden red concrete powder?
+   Expect no; source or flowing water hardens it.
+3. Can glass panes be waterlogged? / Can glass be waterlogged?
+   Expect panes yes; full glass blocks no.
+   How do I mine tinted glass?
+   Expect it drops itself without Silk Touch.
+4. Can crimson planks burn? / Can oak planks burn?
+   Expect Nether planks resist fire; oak planks are flammable.
+5. What does diamond ore drop?
+   Expect 1 diamond normally, Fortune can increase it, Silk Touch gets ore.
+   How do I mine deepslate iron ore?
+   Expect stone pickaxe or better, raw iron normally, Silk Touch for ore.
+6. What is podzol?
+   Follow up: How do I mine it? / Where can I find it?
+   Expect Silk Touch to keep podzol; otherwise dirt; old growth taiga/bamboo jungle.
+7. How do I mine packed mud? / How do I mine mud bricks?
+   Expect packed mud collectible by hand; mud bricks require a pickaxe.
+8. How do I mine a cobbled deepslate double slab?
+   Expect 2 matching slabs, not a separate double-slab item.
+   Can sandstone double slabs be waterlogged?
+   Expect no. Single slabs can be waterlogged.
+9. How do I mine a redstone block? / How do I mine a netherite block?
+   Expect any pickaxe for redstone block; diamond or netherite for netherite block.
+10. Does Fortune work on sea lanterns? / Does Fortune work on glowstone?
+    Expect no extra sea-lantern drops; glowstone dust capped at 4.
+11. What is weathered cut copper?
+    Follow up: How do I wax it? / How do I scrape it?
+    Expect honeycomb preserves stage; axe removes wax then oxidation by stages.
+12. What happens with water and soul sand? / What happens with water and soul soil?
+    Expect upward bubbles over soul sand with water sources; none over soul soil.
+13. Ask an unknown question, e.g. What is a flibbertigibbet?
+    Expect a friendly Hmm opening and quieter, lower chirp.
+    Then ask What is a hopper?
+    Expect normal answer and normal chirp again.
+    Known negative answers and clarification prompts should keep normal chirp.
+
+Tell me whether the lower uncertainty tone sounds right and report wrong answers.
+This is a broad block batch, not a claim of complete block coverage.
