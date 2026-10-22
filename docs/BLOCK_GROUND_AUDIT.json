@@ -1,0 +1,436 @@
+{
+  "scope": "data/blocks/ground.json",
+  "families": [
+    {
+      "family": "deepslate",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "deepslate_building",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_deepslate",
+        "minecraft:cobbled_deepslate",
+        "minecraft:cracked_deepslate_bricks",
+        "minecraft:cracked_deepslate_tiles",
+        "minecraft:deepslate_bricks",
+        "minecraft:deepslate_tiles",
+        "minecraft:polished_deepslate"
+      ],
+      "subject_count": 7,
+      "facet_applications": 28
+    },
+    {
+      "family": "tuff_building",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_tuff",
+        "minecraft:chiseled_tuff_bricks",
+        "minecraft:polished_tuff",
+        "minecraft:tuff",
+        "minecraft:tuff_bricks"
+      ],
+      "subject_count": 5,
+      "facet_applications": 20
+    },
+    {
+      "family": "terracotta",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:black_terracotta",
+        "minecraft:blue_terracotta",
+        "minecraft:brown_terracotta",
+        "minecraft:cyan_terracotta",
+        "minecraft:gray_terracotta",
+        "minecraft:green_terracotta",
+        "minecraft:hardened_clay",
+        "minecraft:light_blue_terracotta",
+        "minecraft:light_gray_terracotta",
+        "minecraft:lime_terracotta",
+        "minecraft:magenta_terracotta",
+        "minecraft:orange_terracotta",
+        "minecraft:pink_terracotta",
+        "minecraft:purple_terracotta",
+        "minecraft:red_terracotta",
+        "minecraft:white_terracotta",
+        "minecraft:yellow_terracotta"
+      ],
+      "subject_count": 17,
+      "facet_applications": 68
+    },
+    {
+      "family": "glazed_terracotta",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:black_glazed_terracotta",
+        "minecraft:blue_glazed_terracotta",
+        "minecraft:brown_glazed_terracotta",
+        "minecraft:cyan_glazed_terracotta",
+        "minecraft:gray_glazed_terracotta",
+        "minecraft:green_glazed_terracotta",
+        "minecraft:light_blue_glazed_terracotta",
+        "minecraft:lime_glazed_terracotta",
+        "minecraft:magenta_glazed_terracotta",
+        "minecraft:orange_glazed_terracotta",
+        "minecraft:pink_glazed_terracotta",
+        "minecraft:purple_glazed_terracotta",
+        "minecraft:red_glazed_terracotta",
+        "minecraft:silver_glazed_terracotta",
+        "minecraft:white_glazed_terracotta",
+        "minecraft:yellow_glazed_terracotta"
+      ],
+      "subject_count": 16,
+      "facet_applications": 64
+    },
+    {
+      "family": "sandstone",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_red_sandstone",
+        "minecraft:chiseled_sandstone",
+        "minecraft:cut_red_sandstone",
+        "minecraft:cut_sandstone",
+        "minecraft:red_sandstone",
+        "minecraft:sandstone",
+        "minecraft:smooth_red_sandstone",
+        "minecraft:smooth_sandstone"
+      ],
+      "subject_count": 8,
+      "facet_applications": 32
+    },
+    {
+      "family": "dirt",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity",
+        "water"
+      ],
+      "members": [
+        "minecraft:dirt"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "coarse_dirt",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity",
+        "water"
+      ],
+      "members": [
+        "minecraft:coarse_dirt"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "rooted_dirt",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity",
+        "water"
+      ],
+      "members": [
+        "minecraft:dirt_with_roots"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "grass_block",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:grass_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "podzol",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:podzol"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "mycelium",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:mycelium"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "mud",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity",
+        "water"
+      ],
+      "members": [
+        "minecraft:mud"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "packed_mud",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:packed_mud"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "mud_bricks",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:mud_bricks"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "red_sand",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity",
+        "water"
+      ],
+      "members": [
+        "minecraft:red_sand"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "coal_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:coal_ore",
+        "minecraft:deepslate_coal_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "iron_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate_iron_ore",
+        "minecraft:iron_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "copper_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "gold_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate_gold_ore",
+        "minecraft:gold_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "diamond_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate_diamond_ore",
+        "minecraft:diamond_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "emerald_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate_emerald_ore",
+        "minecraft:emerald_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "lapis_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate_lapis_ore",
+        "minecraft:lapis_ore"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "redstone_ore",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:deepslate_redstone_ore",
+        "minecraft:lit_deepslate_redstone_ore",
+        "minecraft:lit_redstone_ore",
+        "minecraft:redstone_ore"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "nether_gold",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:nether_gold_ore"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "nether_quartz",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:quartz_ore"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 84,
+  "facet_applications": 341,
+  "independent_family_summaries": 109
+}

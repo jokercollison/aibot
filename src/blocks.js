@@ -1,7 +1,8 @@
+import ground from '../data/blocks/ground.json' with {type:'json'};
 import families from '../data/blocks/families.json' with {type:'json'};
 import terrain from '../data/blocks/terrain.json' with {type:'json'};
 
-const rules=families.rules.map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
+const rules=[...families.rules,...ground.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
 
 // Keep the question facet separate from the catalog's basic definition.
 export function blockTopic(q) {
@@ -10,7 +11,7 @@ export function blockTopic(q) {
   if (/\b(?:burn|burns|burning|flammable|fireproof|fire|lava)\b/.test(q)) return 'fire';
   if (/\b(?:gravity|fall|falls|falling|unsupported|support)\b/.test(q)) return 'gravity';
   if (/\b(?:water|waterlogged|waterlogging|harden|hardens|rain|dissolve)\b/.test(q)) return 'water';
-  if (/\b(?:silk touch|fortune|mine|mining|break|breaking|harvest|pickaxe|shovel|tool)\b/.test(q)) return 'mining';
+  if (/\b(?:silk touch|fortune|mine|mining|break|breaking|harvest|pickaxe|shovel|tool|drops?|loot)\b/.test(q)) return 'mining';
   if (/\b(?:where|find|found|locate|obtain|biomes?|depth|deep|height|level)\b/.test(q)) return 'location';
   return undefined;
 }

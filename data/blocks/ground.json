@@ -1,0 +1,427 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "deepslate",
+      "pattern": "deepslate",
+      "topics": {
+        "mining": "Use any pickaxe to get cobbled deepslate. A Silk Touch pickaxe collects deepslate itself. Without a pickaxe it drops nothing; Fortune does not increase the drop.",
+        "location": "Deepslate makes up most solid terrain below Y=0 in the Overworld. It gradually replaces stone between Y=8 and Y=0.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Deepslate",
+        "revision": 3820354,
+        "sha256": "c891c57614ecdbb082c0a68c0cde78d74feb434e156e2cb1d1f886d3ccb71168",
+        "source": "https://minecraft.wiki/w/Deepslate?oldid=3820354"
+      }
+    },
+    {
+      "id": "deepslate_building",
+      "pattern": "(?:cobbled_deepslate|polished_deepslate|chiseled_deepslate|(?:cracked_)?deepslate_(?:bricks|tiles))",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Mine deepslate for cobbled deepslate, then craft or stonecut it into building variants. Smelt the corresponding bricks or tiles to make cracked forms.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Deepslate",
+        "revision": 3820354,
+        "sha256": "c891c57614ecdbb082c0a68c0cde78d74feb434e156e2cb1d1f886d3ccb71168",
+        "source": "https://minecraft.wiki/w/Deepslate?oldid=3820354"
+      }
+    },
+    {
+      "id": "tuff_building",
+      "pattern": "(?:tuff|polished_tuff|chiseled_tuff|chiseled_tuff_bricks|tuff_bricks)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find tuff underground below Y=0 in the Overworld, including large iron veins. Craft or stonecut tuff to make its polished, brick and chiseled variants.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Tuff",
+        "revision": 3829688,
+        "sha256": "d1d289596ab0d2811f7b51f16f872102fe4b91b76e30d3a21dba604447490223",
+        "source": "https://minecraft.wiki/w/Tuff?oldid=3829688"
+      }
+    },
+    {
+      "id": "terracotta",
+      "pattern": "(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_terracotta|hardened_clay)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Smelt clay blocks to make terracotta, then use dye for colored terracotta. Badlands contain abundant natural terracotta, though not every dye color occurs there.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Terracotta",
+        "revision": 3783005,
+        "sha256": "4abcdedd409aeb7ed8a1ba49024da44598d82fddab1593fcf99b0929a7efd365",
+        "source": "https://minecraft.wiki/w/Terracotta?oldid=3783005"
+      }
+    },
+    {
+      "id": "glazed_terracotta",
+      "pattern": "(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|silver|light_gray|cyan|purple|blue|brown|green|red|black)_glazed_terracotta",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Smelt the matching colored terracotta to make glazed terracotta. Its pattern orientation depends on how you place it.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Glazed Terracotta",
+        "revision": 3792741,
+        "sha256": "c98d7b9a9f30b27748e2e776d8fc7dd643949af6fac947661c7f6e9b87fc84e0",
+        "source": "https://minecraft.wiki/w/Glazed_Terracotta?oldid=3792741"
+      }
+    },
+    {
+      "id": "sandstone",
+      "pattern": "(?:chiseled_|cut_|smooth_)?(?:red_)?sandstone",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft sandstone from 4 sand, or red sandstone from 4 red sand. Ordinary sandstone also occurs under desert and beach sand. Craft, stonecut or smelt the base material for decorative variants.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Sandstone",
+        "revision": 3802194,
+        "sha256": "9a46373fa77e5c624495e4b6c498b25bb8a3be92535d1c032c46e766d203852a",
+        "source": "https://minecraft.wiki/w/Sandstone?oldid=3802194"
+      }
+    },
+    {
+      "id": "dirt",
+      "pattern": "dirt",
+      "topics": {
+        "mining": "Dirt drops itself by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Dirt is common near the Overworld surface under grass blocks and in underground patches.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall.",
+        "water": "Use a water bottle on dirt to turn it into mud. Simply placing dirt next to water does not do this."
+      },
+      "evidence": {
+        "title": "Dirt",
+        "revision": 3790977,
+        "sha256": "227aae19fa8c3d10db4d65eb7d1e69bfb28424cd63f068736b7e74a7da4e7272",
+        "source": "https://minecraft.wiki/w/Dirt?oldid=3790977"
+      }
+    },
+    {
+      "id": "coarse_dirt",
+      "pattern": "coarse_dirt",
+      "topics": {
+        "mining": "Coarse dirt drops itself by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Find coarse dirt in old growth taiga, wooded badlands and windswept savanna, or craft it from dirt and gravel.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall.",
+        "water": "Use a water bottle on coarse dirt to turn it into mud."
+      },
+      "evidence": {
+        "title": "Coarse Dirt",
+        "revision": 3845160,
+        "sha256": "860a9510fcb1a491efdfe985ecd74b294c0b062fb45dadeab23da5914ed15478",
+        "source": "https://minecraft.wiki/w/Coarse_Dirt?oldid=3845160"
+      }
+    },
+    {
+      "id": "rooted_dirt",
+      "pattern": "dirt_with_roots",
+      "topics": {
+        "mining": "Rooted dirt drops itself by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Look beneath azalea trees, where rooted dirt leads toward lush caves.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall.",
+        "water": "Use a water bottle on rooted dirt to turn it into mud."
+      },
+      "evidence": {
+        "title": "Rooted Dirt",
+        "revision": 3759408,
+        "sha256": "775646c1a3d7e226c2d2760367d300f501a4ea0550250ed95c241784633fc992",
+        "source": "https://minecraft.wiki/w/Rooted_Dirt?oldid=3759408"
+      }
+    },
+    {
+      "id": "grass_block",
+      "pattern": "(?:grass_block|grass)",
+      "topics": {
+        "mining": "A shovel is fastest. Use a Silk Touch tool to collect the surface block itself; otherwise it drops dirt. Fortune does not increase the drop.",
+        "location": "Grass blocks cover much of the Overworld surface. Use Silk Touch to collect them intact.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Grass Block",
+        "revision": 3847277,
+        "sha256": "66a2ed3c21a0469bcea363638bdf402ddf2e5fa8a622323b3a37180132ed4863",
+        "source": "https://minecraft.wiki/w/Grass_Block?oldid=3847277"
+      }
+    },
+    {
+      "id": "podzol",
+      "pattern": "podzol",
+      "topics": {
+        "mining": "A shovel is fastest. Use a Silk Touch tool to collect the surface block itself; otherwise it drops dirt. Fortune does not increase the drop.",
+        "location": "Look in old growth taiga or bamboo jungle for podzol. Use Silk Touch to collect it intact.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Podzol",
+        "revision": 3825506,
+        "sha256": "fc74b56d91f0acad6eba9d446e4562ef48ec2bf02efcf57d7e7444a526ca0a3e",
+        "source": "https://minecraft.wiki/w/Podzol?oldid=3825506"
+      }
+    },
+    {
+      "id": "mycelium",
+      "pattern": "mycelium",
+      "topics": {
+        "mining": "A shovel is fastest. Use a Silk Touch tool to collect the surface block itself; otherwise it drops dirt. Fortune does not increase the drop.",
+        "location": "Look for mycelium on mushroom fields islands. Use Silk Touch to collect it intact.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Mycelium",
+        "revision": 3825505,
+        "sha256": "354d4cec1ffc5d0d88954287679030020e8a5bab9a267bbc02c6629ff02d6b51",
+        "source": "https://minecraft.wiki/w/Mycelium?oldid=3825505"
+      }
+    },
+    {
+      "id": "mud",
+      "pattern": "mud",
+      "topics": {
+        "mining": "Mud drops itself by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Mud occurs in mangrove swamps. You can make it by using a water bottle on dirt, coarse dirt or rooted dirt.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall.",
+        "water": "Water bottles turn suitable dirt into mud. Placing mud over a block with pointed dripstone hanging underneath can dry it into clay."
+      },
+      "evidence": {
+        "title": "Mud",
+        "revision": 3786904,
+        "sha256": "8fe165738433312a1e6950fc15ee9e57dc321f01b28d5bd2e731a73b884c11a4",
+        "source": "https://minecraft.wiki/w/Mud?oldid=3786904"
+      }
+    },
+    {
+      "id": "packed_mud",
+      "pattern": "packed_mud",
+      "topics": {
+        "mining": "Packed mud drops itself even by hand, but a pickaxe is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Craft packed mud from 1 mud and 1 wheat. It also occurs in trail ruins.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Packed Mud",
+        "revision": 3630196,
+        "sha256": "576e5e96c2574a676a3ebc001ca380605a64fc93b2959bf0b36fdb4d315f27ec",
+        "source": "https://minecraft.wiki/w/Packed_Mud?oldid=3630196"
+      }
+    },
+    {
+      "id": "mud_bricks",
+      "pattern": "mud_bricks",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft mud bricks from packed mud. Packed mud is made from mud and wheat.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Mud Bricks",
+        "revision": 3832248,
+        "sha256": "76b87d067f1f34ac9a680fafb82ee0f58c667b7024d45ae151f1f1a5931b4994",
+        "source": "https://minecraft.wiki/w/Mud_Bricks?oldid=3832248"
+      }
+    },
+    {
+      "id": "red_sand",
+      "pattern": "red_sand",
+      "topics": {
+        "mining": "Red sand drops itself by hand or with any tool; a shovel is fastest. Fortune does not increase the drop and Silk Touch is unnecessary.",
+        "location": "Find red sand on the surface of badlands biomes. It can also be bought from wandering traders.",
+        "fire": "Red sand does not catch fire or burn away.",
+        "gravity": "Red sand falls when unsupported and can bury and suffocate you.",
+        "water": "Red sand does not harden in water. It cannot replace ordinary sand in concrete powder recipes."
+      },
+      "evidence": {
+        "title": "Red Sand",
+        "revision": 3778978,
+        "sha256": "8a93e626d1e1b76e46d8dc8e4252174274a5a8b69dbf1d912ce39360d4d0ef79",
+        "source": "https://minecraft.wiki/w/Red_Sand?oldid=3778978"
+      }
+    },
+    {
+      "id": "coal_ore",
+      "pattern": "(?:deepslate_)?coal_ore",
+      "topics": {
+        "mining": "Use a wooden pickaxe or better. Without Silk Touch, this ore normally drops 1 coal. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look for coal ore in the Overworld above Y=0, especially exposed hills and mountains.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Coal Ore",
+        "revision": 3786721,
+        "sha256": "f3035124815a63e0689bf3feeaaedd70c9607202411f225ef18a2eaee6a4284c",
+        "source": "https://minecraft.wiki/w/Coal_Ore?oldid=3786721"
+      }
+    },
+    {
+      "id": "iron_ore",
+      "pattern": "(?:deepslate_)?iron_ore",
+      "topics": {
+        "mining": "Use a stone pickaxe or better. Without Silk Touch, this ore normally drops 1 raw iron. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look for iron ore in the Overworld, including mountain terrain and deep underground iron veins.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Iron Ore",
+        "revision": 3786781,
+        "sha256": "c6f56c5ceb9721374b75184d127ade2fbacdbbf3f1de380f195100d08ec74b57",
+        "source": "https://minecraft.wiki/w/Iron_Ore?oldid=3786781"
+      }
+    },
+    {
+      "id": "copper_ore",
+      "pattern": "(?:deepslate_)?copper_ore",
+      "topics": {
+        "mining": "Use a stone pickaxe or better. Without Silk Touch, this ore normally drops 2\u20135 raw copper. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look for copper ore underground in the Overworld, especially around Y=48 and in dripstone caves.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Copper Ore",
+        "revision": 3786741,
+        "sha256": "f29835161ffaba8f13ab44943a427cfcf718e612fb6591c79926efb657fb1ea2",
+        "source": "https://minecraft.wiki/w/Copper_Ore?oldid=3786741"
+      }
+    },
+    {
+      "id": "gold_ore",
+      "pattern": "(?:deepslate_)?gold_ore",
+      "topics": {
+        "mining": "Use a iron pickaxe or better. Without Silk Touch, this ore normally drops 1 raw gold. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look for gold ore underground in the Overworld. Badlands have additional gold generation at higher elevations.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Gold Ore",
+        "revision": 3786782,
+        "sha256": "70ef124fbc2d6584d2563ecbd7fdd933c7d57f3a8d6107f4f6033a873a03ba1b",
+        "source": "https://minecraft.wiki/w/Gold_Ore?oldid=3786782"
+      }
+    },
+    {
+      "id": "diamond_ore",
+      "pattern": "(?:deepslate_)?diamond_ore",
+      "topics": {
+        "mining": "Use a iron pickaxe or better. Without Silk Touch, this ore normally drops 1 diamond. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look deep underground in the Overworld below Y=16; diamonds become more common toward the bottom.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Diamond Ore",
+        "revision": 3786784,
+        "sha256": "8f0ad457a2353df618ada29e872c9c58fa96f3bd5b233833d8b8254a8950a1b4",
+        "source": "https://minecraft.wiki/w/Diamond_Ore?oldid=3786784"
+      }
+    },
+    {
+      "id": "emerald_ore",
+      "pattern": "(?:deepslate_)?emerald_ore",
+      "topics": {
+        "mining": "Use a iron pickaxe or better. Without Silk Touch, this ore normally drops 1 emerald. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look for emerald ore in mountain and windswept-hill biomes in the Overworld, especially at higher elevations.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Emerald Ore",
+        "revision": 3800937,
+        "sha256": "f46c97ea87c64c7f36ccdc3faf9bcbac1ff3b0eef8e779cb2f7395b00c880a45",
+        "source": "https://minecraft.wiki/w/Emerald_Ore?oldid=3800937"
+      }
+    },
+    {
+      "id": "lapis_ore",
+      "pattern": "(?:deepslate_)?lapis_ore",
+      "topics": {
+        "mining": "Use a stone pickaxe or better. Without Silk Touch, this ore normally drops 4\u20139 lapis lazuli. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look underground in the Overworld for lapis lazuli ore.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Lapis Lazuli Ore",
+        "revision": 3801216,
+        "sha256": "37b125c803bbde6807c5edf0d6716815badb1d54ee1ef800ec0f727e7af96896",
+        "source": "https://minecraft.wiki/w/Lapis_Lazuli_Ore?oldid=3801216"
+      }
+    },
+    {
+      "id": "redstone_ore",
+      "pattern": "(?:lit_)?(?:deepslate_)?redstone_ore",
+      "topics": {
+        "mining": "Use a iron pickaxe or better. Without Silk Touch, this ore normally drops 4\u20135 redstone dust. Fortune can increase the resource drops. Silk Touch collects the ore block instead. A tool below the required mining tier drops nothing.",
+        "location": "Look deep underground in the Overworld for redstone ore.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Redstone Ore",
+        "revision": 3844052,
+        "sha256": "d412074e0122cd08bda4a817499a7cf3df48c4fcb0ca59de35bcdcf270504238",
+        "source": "https://minecraft.wiki/w/Redstone_Ore?oldid=3844052"
+      }
+    },
+    {
+      "id": "nether_gold",
+      "pattern": "nether_gold_ore",
+      "topics": {
+        "mining": "Use any pickaxe. Normally Nether gold ore drops 2\u20136 gold nuggets; Fortune can increase that. Silk Touch collects the ore, which can be smelted into a gold ingot. Without a pickaxe it drops nothing.",
+        "location": "Look for Nether gold ore in netherrack throughout the Nether.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Nether Gold Ore",
+        "revision": 3780680,
+        "sha256": "348282fb813ba82e78aa02ccf61c65864744324fc865baddf15399b562b5db1e",
+        "source": "https://minecraft.wiki/w/Nether_Gold_Ore?oldid=3780680"
+      }
+    },
+    {
+      "id": "nether_quartz",
+      "pattern": "quartz_ore",
+      "topics": {
+        "mining": "Use any pickaxe. Normally quartz ore drops 1 Nether quartz; Fortune can increase that. Silk Touch collects the ore block instead. Without a pickaxe it drops nothing.",
+        "location": "Look for quartz ore in netherrack throughout the Nether.",
+        "fire": "This mineral building block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Nether Quartz Ore",
+        "revision": 3798421,
+        "sha256": "136e338b6448eba7f13155be5ab62e8dcb4de3668b79c6f42ab74b0dfac04da8",
+        "source": "https://minecraft.wiki/w/Nether_Quartz_Ore?oldid=3798421"
+      }
+    }
+  ]
+}

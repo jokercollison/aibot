@@ -52,3 +52,28 @@ Regression tests exercise all 707 family facet applications through the real
 conversation engine, all 16 wool recipes, exception pairs and context follow-ups.
 This development batch has not been packaged or tested in Minecraft. The published
 0.2.18 downloads remain unchanged.
+
+## Ground and ore batch in development
+
+Adds 84 catalog variants across 26 exact-match families, with 109 authored shared
+summaries applied to 341 block/topic combinations. Ores cover coal, iron, copper,
+gold, diamond, emerald, lapis, redstone, Nether gold and Nether quartz, including
+matching deepslate/lit forms. Mining separates minimum tool tiers, normal resource
+drops, Silk Touch and Fortune. Existing more detailed location facts still win.
+
+Other coverage includes deepslate building blocks, tuff building blocks, sandstone,
+terracotta/glazed terracotta, dirt, coarse/rooted dirt, grass, podzol, mycelium, mud,
+packed mud, mud bricks and red sand. Water-bottle conversion, red-sand recipe limits,
+falling sand and hand-collectible packed mud retain explicit exceptions. Reinforced
+and infested deepslate and shape derivatives are outside these patterns.
+
+Data/evidence: data/blocks/ground.json. Reproduce both family inventories with
+`python tools/block_family_audit.py`; ground membership appears in
+BLOCK_GROUND_AUDIT.json. Counts describe shared applications, not independent
+species discoveries or complete block coverage. Existing definition/recipe paths
+are preserved. Drop questions now select the mining facet for blocks.
+
+Validation: 221 automated tests pass, including every matching ground-family
+facet through the conversation engine, representative natural questions, soil
+followups, exceptions and the existing entity audit. Minecraft testing and a new
+package remain pending; published 0.2.18 downloads are unchanged.
