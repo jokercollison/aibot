@@ -43,3 +43,32 @@ export function flowerStewAnswer(id,q,variant) {
  const effect=flowers.effects[flower],duration=flowers.bedrock_duration_seconds?.[flower];
  return {status:'conditional',answer:`Feed ${flower} to an adult brown mooshroom, then use a bowl for suspicious stew with ${effect}${duration!==undefined?' for '+duration+' seconds in Bedrock':''}. It gives ordinary mushroom stew again until fed another flower.`,subject:id,topic:'milking',sources:[flowers.source]};
 }
+
+// Specific actions take priority over incidental food, water or item names.
+export function specialInteraction(q) {
+ if(/^(?:what (?:is|are)|describe|tell me about)\b/.test(q))return null;
+ if(/\b(?:leash|leashed|leashing|unleash)\b|\b(?:use|attach|put|remove).*\blead\b|\btie.*\bfence\b/.test(q))return 'leashing';
+ if(/\b(?:bucket|buckets|bucketed|bucketing)\b/.test(q)&&!/\b(?:eat|food|feed|breed|tame|recipe|craft|make)\b/.test(q))return 'bucketing';
+ if(/\b(?:restock|restocks|restocking|resupply|sold out|out of stock|exhausted trades)\b/.test(q))return 'restocking';
+ if(/\b(?:profession|job|jobs|workstation|job site|reroll|nitwit)\b/.test(q)&&!/\b(?:spawn|spawns|spawning|where|craft|trade|trades|trading)\b/.test(q))return 'profession';
+ if(/\b(?:breed|breeding)\b/.test(q)&&/\b(?:why|won t|don t|doesn t|cannot|can t|refuse|requirements|conditions)\b/.test(q))return 'breeding_conditions';
+ if(/\b(?:trust|trusting|trusts)\b/.test(q))return 'trust';
+ if(/\b(?:sit|sitting|stand up|stay put)\b/.test(q)&&!/\b(?:breed|breeding|bamboo)\b/.test(q))return 'sitting';
+ if(/\b(?:collar|collars)\b/.test(q))return 'collar';
+ if(/\b(?:shoulder|shoulders|perch)\b/.test(q))return 'shoulder';
+ if(/\b(?:imitate|imitates|imitating|imitation|mimic)\b/.test(q))return 'imitation';
+ if(/\b(?:pollinate|pollination|pollinating|fertilize|fertilizing)\b/.test(q))return 'pollination';
+ if(/\b(?:harvest|harvesting|honeycomb|honey bottle|turtle scutes?)\b/.test(q))return 'harvesting';
+ if(/\b(?:deliver|delivery|deliveries|collect|collects|collecting|sort|sorting|note block)\b/.test(q)&&!/\b(?:craft|recipe)\b/.test(q))return 'delivery';
+ if(/\b(?:held item|holding an item|mouth|take back|give back|return my item)\b/.test(q))return 'item_holding';
+ if(/\b(?:find treasure|treasure|shipwreck|ocean ruin)\b/.test(q)&&!/\b(?:spawn|spawns|spawning)\b/.test(q))return 'treasure';
+ if(/\b(?:speed boost|swim faster|swimming faster|dolphin s grace)\b/.test(q))return 'speed';
+ if(/\b(?:roll up|rolled up|rolling|unroll)\b/.test(q))return 'rolling';
+ if(/\b(?:repel|repels|repelling|scare away|keep away)\b/.test(q))return 'defense';
+ if(/\b(?:lay eggs|laying eggs|home beach|nesting)\b/.test(q))return 'nesting';
+ if(/\b(?:play dead|playing dead)\b/.test(q))return 'playing_dead';
+ if(/\b(?:mining fatigue|help me fight|regeneration)\b/.test(q))return 'support';
+ if(/\b(?:reanimate|reactivate|reactivating|revive a statue)\b/.test(q))return 'reactivation';
+ return null;
+}
+export const specialInteractionTopics=['leashing','bucketing','restocking','profession','breeding_conditions','trust','sitting','collar','shoulder','imitation','pollination','harvesting','delivery','item_holding','treasure','speed','rolling','defense','nesting','playing_dead','support','reactivation'];

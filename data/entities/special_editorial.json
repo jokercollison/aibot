@@ -1,0 +1,1069 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Reviewed special interaction summaries, not full per-entity completion.",
+  "references": {
+    "Lead": {
+      "revision_id": 3823154,
+      "sha256": "72c6b5bb160c0f7c3f44b1dce02664bd2c58c2f15f97c4dba9e439da3c42b610",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+    },
+    "Bucket of mob": {
+      "revision_id": 3835188,
+      "sha256": "36f23ab4503e18e56ad98b3e41234adfa9e1e476fb5a2cf734ed9a8cb29cb3d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+    },
+    "Bucket of Tadpole": {
+      "revision_id": 3791954,
+      "sha256": "cea82aefebded8485c541577d35f0622fd4a8503d866572aab3626ac2ccd25f6",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3791954"
+    },
+    "Sulfur Cube": {
+      "revision_id": 3853726,
+      "sha256": "31c7803b75cf0517a3664f52e194077b3838a45060323cfbc39e693fe91fb756",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+    },
+    "Allay": {
+      "revision_id": 3852359,
+      "sha256": "486b7c8dc84db4d3b660183829a4d82166a1f0d559f3d161c33f79e946c227c1",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+    },
+    "Bee": {
+      "revision_id": 3844630,
+      "sha256": "4a8f5fda0fd26e0aa03abd7ec0f93e3412f65b2ecdb347b2380cbbec21c9d3b9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+    },
+    "Armadillo": {
+      "revision_id": 3844454,
+      "sha256": "5edcd142ae9849ce74698289716a904e597c4a5a487d8a4c9fe45ddffd012713",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+    },
+    "Dolphin": {
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+    },
+    "Fox": {
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+    },
+    "Ocelot": {
+      "revision_id": 3851711,
+      "sha256": "1fe59c7626abc811c7b06f63805435bef605a8bd666dbbd01e422908ccb2f6ce",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+    },
+    "Cat": {
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+    },
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    },
+    "Parrot": {
+      "revision_id": 3849952,
+      "sha256": "f547aaf994d25e0c0fbd949e5b5fa94df1e6709375c255be35111564417dfcb4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+    },
+    "Panda": {
+      "revision_id": 3846509,
+      "sha256": "527b3a4b259cf897373e5ba57c401ac973a6233aeea000d1653d4ae1c97a9962",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+    },
+    "Sniffer": {
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+    },
+    "Turtle": {
+      "revision_id": 3846426,
+      "sha256": "a07edbbfee13affef2be3f02e4b394373222e9dc6d8f68c4552f4ae30e17721a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+    },
+    "Goat": {
+      "revision_id": 3844651,
+      "sha256": "698c6e1b5f9787eceb1e68a4beb2b36ee1cefacfe7659dd831e43b4def8dad1f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+    },
+    "Axolotl": {
+      "revision_id": 3844455,
+      "sha256": "53d5d3d09e872220bebdd4f7f7127145ceaefdbaf6ab01c7ef012635e678e057",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+    },
+    "Villager": {
+      "revision_id": 3849427,
+      "sha256": "84e96339f1a286cf12398f20bdca38f9b3341475f2d34dc308229829bfdccf72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+    },
+    "Zombie Villager": {
+      "revision_id": 3851910,
+      "sha256": "3053b3baaeaf5f67f94b9d6b4936c59de66765b0d915a64dcfaf3cc903881e2b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+    },
+    "Piglin": {
+      "revision_id": 3851223,
+      "sha256": "86ebd4c09320abe00c2773b905ee40aea87827758a246175e8d221f270b866bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+    },
+    "Piglin Brute": {
+      "revision_id": 3848820,
+      "sha256": "41f41186fdd1478cd07ccbfe4c2b6fc89adcf9f48d37de09f9db637f5114f836",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+    },
+    "Copper Golem": {
+      "revision_id": 3845018,
+      "sha256": "68735bc25a37528f1a0abb0f73c3af27d9393293caa5c33387814f459ff464c4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+    }
+  },
+  "subjects": {
+    "minecraft:allay": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "delivery": {
+          "answer": "Give an allay one example item. It collects matching dropped items; it does not mine blocks, duplicate your items or take them from chests. A note block heard within 16 blocks can redirect deliveries for 30 seconds. Replaying that same note block refreshes its attention; wool can block the vibration.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        },
+        "item_holding": {
+          "answer": "Use an empty hand on the allay to take back its example item. Giving it an item asks it to collect matching drops, not to duplicate the item or open chests.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        },
+        "music": {
+          "answer": "A note block redirects item deliveries for 30 seconds and repeated notes refresh that focus. A jukebox has a different job: a dancing allay given an amethyst shard duplicates, with a five-minute cooldown for both allays.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        }
+      }
+    },
+    "minecraft:armadillo": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "defense": {
+          "answer": "An unrolled armadillo repels spiders and cave spiders within six blocks. A rolled-up armadillo does not provide that repelling behavior; it is protecting itself rather than fighting for you.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        },
+        "rolling": {
+          "answer": "Armadillos roll up when hurt or threatened by nearby undead mobs or sprinting or mounted players. While rolled up they do not eat or follow food. Remove the threat and give it time to unroll; water, fire or attaching a lead also ends the rolled state.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        }
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use a water bucket directly on the creature to capture it, then use the filled bucket to release it into suitable water. Capturing and releasing it prevents ordinary natural despawning. A dispenser can release a bucketed creature but does not capture one with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        },
+        "support": {
+          "answer": "When you kill a mob that is fighting your axolotl, it can remove your Mining Fatigue and grant Regeneration. It is not a tamed pet, and the benefit depends on helping with that fight rather than just standing near an axolotl.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "playing_dead": {
+          "answer": "An axolotl hurt underwater can play dead briefly and regenerate while hostile aquatic mobs ignore it. It does not do this on every hit, and playing dead is not permanent invulnerability.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        }
+      }
+    },
+    "minecraft:bee": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "pollination": {
+          "answer": "A nectar-carrying bee can help supported crops grow when it flies one or two blocks above them and has a valid home hive. It does not plant seeds or harvest the crop for you. Flowers supply nectar; a crafted empty hive alone does not supply bees.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "harvesting": {
+          "answer": "At honey level five, use shears for honeycomb or a glass bottle for honey. A lit campfire below the nest or hive can prevent harvesting anger if the smoke reaches it. Protect bees from touching the fire. Breaking the hive is different from harvesting its honey.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        }
+      }
+    },
+    "minecraft:camel": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:cat": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "sitting": {
+          "answer": "As its owner, use the tamed creature to switch between sitting and standing. Sitting keeps it from normally following you; it does not grant invulnerability. Use an empty hand to avoid a food or equipment interaction instead.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "defense": {
+          "answer": "Cats repel creepers and phantoms, but do not make you immune to them. A creeper already beginning its explosion may not flee, so move out of its blast range rather than relying on the cat.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "collar": {
+          "answer": "After taming a cat, its owner can use dye to recolor its collar. Dye does not change the cat’s coat pattern.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        }
+      }
+    },
+    "minecraft:chicken": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:copper_golem": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "delivery": {
+          "answer": "A copper golem takes up to 16 of one item type from a copper chest and looks for a suitable wooden chest or trapped chest that is empty or already contains that item type. It does not sort directly into every kind of container. Oxidation can eventually stop an unwaxed golem as a statue.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+          ]
+        },
+        "reactivation": {
+          "answer": "Remove wax with an axe if needed, then scrape oxidation from the copper golem statue until it is unoxidized. Using an axe on an unwaxed, unoxidized statue reanimates the golem. A fully oxidized statue is not fixed by feeding it metal.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+          ]
+        }
+      }
+    },
+    "minecraft:cow": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:dolphin": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "treasure": {
+          "answer": "Feed a dolphin raw fish such as raw cod or raw salmon, then follow it toward a nearby shipwreck or ocean ruin. Feeding does not tame it, make it rideable or guarantee that the structure contains untouched loot.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "speed": {
+          "answer": "Sprint-swimming near a dolphin gives a swimming speed boost. In Bedrock this is not displayed as a Dolphin’s Grace status effect. It does not give you underwater breathing, so still watch your air.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        }
+      }
+    },
+    "minecraft:donkey": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:fox": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "trust": {
+          "answer": "Breed two foxes with sweet berries or glow berries. The resulting baby trusts the player who bred them, but still follows nearby adults that may run away. Trust is not wolf-style taming or a command to sit. Wild baby foxes do not automatically trust you.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "item_holding": {
+          "answer": "A fox can carry a dropped item in its mouth and prefers food over non-food items. It can eat carried food, so do not treat its mouth as permanent safe storage. Giving it a food drop can make it swap out a held non-food item.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        }
+      }
+    },
+    "minecraft:frog": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:glow_squid": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:goat": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "horns": {
+          "answer": "An adult goat with horns can lose one by ramming stone, coal ore, copper ore, iron ore, emerald ore, logs or packed ice. Killing it is not the horn-harvesting method. A hornless goat cannot supply another horn by being killed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        }
+      }
+    },
+    "minecraft:happy_ghast": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:horse": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:iron_golem": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:mooshroom": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:mule": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:ocelot": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "trust": {
+          "answer": "Approach carefully with raw cod or raw salmon and feed it until hearts appear. A trusting ocelot stops fleeing, but does not turn into a pet cat or gain a wolf-style sit command. In Bedrock, a baby bred from trusting ocelots trusts the player.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        }
+      }
+    },
+    "minecraft:parrot": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "sitting": {
+          "answer": "As its owner, use the tamed creature to switch between sitting and standing. Sitting keeps it from normally following you; it does not grant invulnerability. Use an empty hand to avoid a food or equipment interaction instead.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "shoulder": {
+          "answer": "Move through your tamed parrot while it is not commanded to sit, or let it fly to you, to let it perch on your shoulder. You can carry one on each shoulder. This is separate from giving it a sit command on the ground.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "imitation": {
+          "answer": "Parrots imitate nearby monster sounds. Hearing an imitation is not proof that the monster is attacking you or that the parrot can fight it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "food_safety": {
+          "answer": "Do not feed a cookie to a parrot. Cookies are harmful: in Bedrock they cause Fatal Poison and can kill it after a few seconds. Use suitable seeds for taming instead.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        }
+      }
+    },
+    "minecraft:pig": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:polar_bear": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:rabbit": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:sheep": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:sniffer": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "breeding_conditions": {
+          "answer": "Bedrock sniffers must be at full health to breed. Use torchflower seeds on two adults; successful breeding drops a sniffer egg and starts a five-minute breeding cooldown.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "digging": {
+          "answer": "An adult sniffer needs reachable diggable ground beneath its head. It cannot dig while leashed, in water, tempted by a torchflower seed, panicking or riding in a boat or minecart. After digging, it waits eight minutes and avoids its previous 20 digging spots. It finds torchflower seeds or pitcher pods, not ores.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "breeding": {
+          "answer": "Bedrock sniffers must be at full health to breed. Use torchflower seeds on two adults; successful breeding drops a sniffer egg and starts a five-minute breeding cooldown.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        }
+      }
+    },
+    "minecraft:snow_golem": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:squid": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:strider": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:sulfur_cube": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use an empty bucket on a large sulfur cube. Small sulfur cubes cannot be bucketed. A cube with ignited TNT also cannot be captured. A carried block is retained in the bucket; this is different from aquatic mobs needing water buckets.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        }
+      }
+    },
+    "minecraft:trader_llama": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:zoglin": {
+      "topics": {
+        "leashing": {
+          "answer": "Yes. Use a lead on it to move it, then use a fence to tie it there. You can remove the lead with shears. Leashing does not tame the creature or give it immunity to hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:wolf": {
+      "topics": {
+        "leashing": {
+          "answer": "You can attach a lead while it is not angry. If it becomes angry while already leashed, that alone does not break the lead, but you cannot reattach one while it remains angry. Leashing does not tame it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "sitting": {
+          "answer": "As its owner, use the tamed creature to switch between sitting and standing. Sitting keeps it from normally following you; it does not grant invulnerability. Use an empty hand to avoid a food or equipment interaction instead.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "collar": {
+          "answer": "After taming a wolf, its owner can use dye to change its collar color. The collar color does not change the wolf’s natural coat variant.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        }
+      }
+    },
+    "minecraft:nautilus": {
+      "topics": {
+        "leashing": {
+          "answer": "You can attach a lead while it is not angry. If it becomes angry while already leashed, that alone does not break the lead, but you cannot reattach one while it remains angry. Leashing does not tame it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:camel_husk": {
+      "topics": {
+        "leashing": {
+          "answer": "You can attach a lead once it is not being ridden by a hostile mob. Deal with the hostile rider first; the mount and rider are separate creatures.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_horse": {
+      "topics": {
+        "leashing": {
+          "answer": "You can attach a lead once it is not being ridden by a hostile mob. Deal with the hostile rider first; the mount and rider are separate creatures.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_nautilus": {
+      "topics": {
+        "leashing": {
+          "answer": "A zombie nautilus must not be angry or ridden by a hostile mob before you attach a lead. Remove the drowned rider and let the mount become calm first. Leashing it does not tame it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:bat": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:panda": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "breeding_conditions": {
+          "answer": "In Bedrock, each panda needs at least eight bamboo plants within five blocks to enter love mode. Feeding bamboo without enough planted bamboo nearby can make it sit and eat instead of breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "breeding": {
+          "answer": "Feed bamboo to two adult pandas with at least eight bamboo plants within five blocks of each panda. In Bedrock, too little nearby planted bamboo makes them eat rather than enter love mode.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        }
+      }
+    },
+    "minecraft:cod": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use a water bucket directly on the creature to capture it, then use the filled bucket to release it into suitable water. Capturing and releasing it prevents ordinary natural despawning. A dispenser can release a bucketed creature but does not capture one with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:salmon": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use a water bucket directly on the creature to capture it, then use the filled bucket to release it into suitable water. Capturing and releasing it prevents ordinary natural despawning. A dispenser can release a bucketed creature but does not capture one with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:tropicalfish": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use a water bucket directly on the creature to capture it, then use the filled bucket to release it into suitable water. Capturing and releasing it prevents ordinary natural despawning. A dispenser can release a bucketed creature but does not capture one with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:pufferfish": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use a water bucket directly on the creature to capture it, then use the filled bucket to release it into suitable water. Capturing and releasing it prevents ordinary natural despawning. A dispenser can release a bucketed creature but does not capture one with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:tadpole": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "bucketing": {
+          "answer": "Use a water bucket on a tadpole to move it. Its age, health and name are preserved. After release it can still grow into a frog, whose color depends on the growth biome. A dispenser can release it but cannot capture it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3791954"
+          ]
+        }
+      }
+    },
+    "minecraft:turtle": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "nesting": {
+          "answer": "A turtle returns to its remembered home beach to lay eggs after breeding with seagrass. Moving an adult to a new pen does not change that home. Move eggs with Silk Touch and hatch them at the new location to establish a new home beach for those babies.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "harvesting": {
+          "answer": "A baby turtle drops a turtle scute when it grows into an adult. Killing or shearing an adult turtle is not the turtle-scute method. Armadillo scutes are a different item used for wolf armor.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        }
+      }
+    },
+    "minecraft:villager": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "profession": {
+          "answer": "An unemployed adult can claim an available job-site block to get its matching profession. Babies and nitwits cannot take jobs. Once you trade with a villager, its profession and trades are locked; breaking the workstation does not reroll that traded villager. In Bedrock, another villager can claim the workstation you placed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "restocking": {
+          "answer": "A villager restocks exhausted offers by working at its own claimed workstation, up to twice per day. Check that the correct villager claimed the block and can reach it during working hours. Another nearby workstation of the same type is not automatically its workstation.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "breeding_conditions": {
+          "answer": "Villager breeding needs willing adults with enough food and available valid beds in the village. Dropping food is different from feeding an animal directly. If mobGriefing is false, villagers do not pick up food, which can prevent your food-based setup from working.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        }
+      }
+    },
+    "minecraft:villager_v2": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        },
+        "profession": {
+          "answer": "An unemployed adult can claim an available job-site block to get its matching profession. Babies and nitwits cannot take jobs. Once you trade with a villager, its profession and trades are locked; breaking the workstation does not reroll that traded villager. In Bedrock, another villager can claim the workstation you placed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "restocking": {
+          "answer": "A villager restocks exhausted offers by working at its own claimed workstation, up to twice per day. Check that the correct villager claimed the block and can reach it during working hours. Another nearby workstation of the same type is not automatically its workstation.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "breeding_conditions": {
+          "answer": "Villager breeding needs willing adults with enough food and available valid beds in the village. Dropping food is different from feeding an animal directly. If mobGriefing is false, villagers do not pick up food, which can prevent your food-based setup from working.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        }
+      }
+    },
+    "minecraft:wandering_trader": {
+      "topics": {
+        "leashing": {
+          "answer": "No, you cannot attach an ordinary lead to it through normal player interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager": {
+      "topics": {
+        "curing": {
+          "answer": "Apply Weakness, then use an ordinary golden apple directly on the zombie villager, not an enchanted golden apple. Keep it protected while curing; it can still attack. Curing usually takes three to five minutes. A baby stays a baby, and a previously traded villager keeps its profession and trades.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "topics": {
+        "curing": {
+          "answer": "Apply Weakness, then use an ordinary golden apple directly on the zombie villager, not an enchanted golden apple. Keep it protected while curing; it can still attack. Curing usually takes three to five minutes. A baby stays a baby, and a previously traded villager keeps its profession and trades.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin": {
+      "topics": {
+        "trading": {
+          "answer": "Give an adult piglin a gold ingot and let it finish examining it to receive a random barter item. Babies accept gold but do not barter; piglin brutes do not barter. Gold nuggets and gold blocks are not substitutes for the barter ingot.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "anger": {
+          "answer": "Wearing at least one piece of gold armor can prevent ordinary piglin hostility from your appearance. It does not protect you when you attack piglins or anger them through protected-container or gold-related actions. Piglin brutes ignore that gold-armor protection.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin_brute": {
+      "topics": {
+        "trading": {
+          "answer": "No. Piglin brutes do not barter with gold. Use an adult ordinary piglin instead; wearing gold armor also does not make a brute friendly.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        }
+      }
+    }
+  }
+}

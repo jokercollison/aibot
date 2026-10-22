@@ -1,3 +1,4 @@
+import {specialInteractionTopics} from './entity-facets.js';
 import {entityAnswer, entityTopic, entityVariant, shortVariant, entityVariantAliases, entityReferences, relatedEntityAnswer} from './entities.js';
 import acquisitionIndex from '../data/acquisition_index.json' with {type:'json'};
 import entityKnowledge from '../data/entity_knowledge.json' with {type:'json'};
@@ -192,6 +193,17 @@ export function createConversation() {
       const matches = subjects(q).filter(x => intent === 'uses' ? ['item','block'].includes(x.record.kind) : ['entity','block','item','enchantment','biome'].includes(x.record.kind));
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
+      let scopedInteraction=false;
+      if(specialInteractionTopics.includes(entityTopic(q))) {
+        if(previous&&/\b(?:can|does|do|will|won t|doesn t|don t) (?:it|they)\b|\b(?:leash|bucket|feed|trust|collect|help|move) (?:it|them)\b/.test(q)) {matches.splice(0,matches.length);inheritedSubject=true;}
+        else {
+          const entities=matches.filter(m=>m.record.kind==='entity');
+          if(entities.length) {
+            const first=Math.min(...entities.map(m=>m.start));
+            matches.splice(0,matches.length,...entities.filter(m=>m.start===first));scopedInteraction=true;
+          }
+        }
+      }
       if(['spawning','spawn_conditions'].includes(entityTopic(q))) {
         const clause=q.match(/\b(?:won t|can t|doesn t|don t|does|do|can|will|would)\s+(.+?)\s+(?:(?:not|naturally|never|still|ever)\s+)*spawn\b/);
         if(clause) {
@@ -241,7 +253,7 @@ export function createConversation() {
       const exact = String(input).toLowerCase().match(/\b(?:(block|item|entity):)?(minecraft:(?:potion_type:)?[a-z0-9_]+)\b/);
       let candidates = matches.length ? matches.filter(m => m.size === matches[0].size && m.start === matches[0].start).map(m => m.record) : [];
       if (exact) candidates = (byMinecraftId.get(exact[2]) ?? []).filter(r => !exact[1] || r.kind === exact[1]);
-      const kindHint = scopedSpawnSubject ? 'entity' : /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
+      const kindHint = (scopedSpawnSubject||scopedInteraction) ? 'entity' : /\b(?:mob|animal|creature)\b/.test(q) && !/\bmob spawner\b/.test(q) ? 'entity' : /\bblock\b/.test(q) ? 'block' : /\bitem\b/.test(q) ? 'item' : null;
       if(!['block','item'].includes(kindHint) && (/\b(drop|drops|loot|dangerous)\b/.test(q) || ['spawn_conditions','health','variants','breeding','taming','diet','healing','transport','combat','brushing','shearing','age_lock','growth','fire','water','sunlight','rain','powder_snow','conversion','fall_damage','land'].includes(entityTopic(q))) && candidates.some(r=>r.kind==='entity'))candidates=candidates.filter(r=>r.kind==='entity');
       if (!exact && kindHint && candidates.some(r=>r.kind===kindHint)) candidates=candidates.filter(r=>r.kind===kindHint);
       candidates = [...new Map(candidates.map(r => [r.id,r])).values()];

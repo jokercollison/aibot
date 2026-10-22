@@ -1,10 +1,11 @@
 import {conditionalLootAnswer} from './entity-loot.js';
 import {feedingAnswer} from './entity-feeding.js';
-import {entityFacet,flowerStewAnswer} from './entity-facets.js';
+import {entityFacet,flowerStewAnswer,specialInteraction} from './entity-facets.js';
 import database from '../data/entities/runtime.json' with {type:'json'};
 
 export function entityTopic(q) {
   if (/\b(drop|drops|loot|looting)\b/.test(q) && !/\bfroglights?\b/.test(q)) return 'drops';
+  const action=specialInteraction(q);if(action)return action;
   if (/\b(?:repair|heal).*\b(?:armor|armour)\b/.test(q))return 'repair';
   if (/\b(heal|healing|restore|recover)\b/.test(q)) return 'healing';
   if (/\b(health|hearts|hit points)\b/.test(q)) return 'health';

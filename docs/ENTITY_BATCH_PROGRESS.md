@@ -1,3 +1,11 @@
+# Latest source batch: special entity interactions after 0.2.9
+
+Connected 103 reviewed interaction summaries across 56 subjects. Total reviewed
+entity topic summaries: 1,263. All 142 automated tests pass. See
+ENTITY_SPECIAL_INTERACTIONS.md and ENTITY_INTERACTION_COVERAGE.json for coverage
+and remaining gaps. Downloadable 0.2.9 remains unchanged; this source is not yet
+packaged. No entity is marked complete.
+
 # Spawning/location source batch after 0.2.9
 
 90 catalog mobs now have spawning-troubleshooting summaries, and 48 location

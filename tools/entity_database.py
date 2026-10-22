@@ -19,6 +19,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ special_data=json.loads((ROOT/'data/entities/special_editorial.json').read_text())['subjects']
  spawn_data=json.loads((ROOT/'data/entities/spawn_editorial.json').read_text())['subjects']
  environment_data=json.loads((ROOT/'data/entities/environment_components.json').read_text())
  runtime={};audit={};conflicts=[]
@@ -27,7 +28,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -67,6 +68,8 @@ def build():
  assert not set(editorial)-set(evidence)
  (ROOT/'data/entities/runtime.json').write_text(json.dumps(runtime,indent=2,ensure_ascii=False)+'\n')
  report={'scope':'Catalog entities; wiki-only candidates require availability reconciliation. Summaries are not exhaustive topic coverage.','entities':len(runtime),'catalog_entities':catalog_entities,'additional_reference_subjects':len(references),'entities_with_curated_topics':sum(bool(r['topics']) for r in runtime.values()),'curated_topic_summaries':sum(sum(t['coverage']=='reviewed_summary' for t in r['topics'].values()) for r in runtime.values()),'component_topic_summaries':sum(sum(t['coverage'] in ['sample_component_summary','scoped_sample_interactions','explicit_sample_environment'] for t in r['topics'].values()) for r in runtime.values()),'basic_topic_summaries':sum(sum(t['coverage'] in ['editorial_basic_summary','basic_behavior_classification'] for t in r['topics'].values()) for r in runtime.values()),'named_variant_records':sum(len(r['variants']) for k,r in runtime.items() if not r.get('variant_alias_owner')),'variant_topic_summaries':sum(sum(len(v['topics']) for v in r['variants']) for r in runtime.values() if not r.get('variant_alias_owner')),'complete':False,'source_conflicts':conflicts,'subjects':audit}
+ interaction_audit={'scope':'Reviewed special interaction batch; topic absence is pending review, not proof an action is impossible.','subjects_in_batch':len(special_data),'batch_topic_summaries':sum(len(r['topics']) for r in special_data.values()),'complete':False,'subjects':{key:{'name':subject['name'],'reviewed_batch_topics':sorted(special_data.get(key,{}).get('topics',{})),'complete':False} for key,subject in evidence.items() if subject['category']=='mob'}}
+ (ROOT/'docs/ENTITY_INTERACTION_COVERAGE.json').write_text(json.dumps(interaction_audit,indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")
 if __name__=='__main__':build()
