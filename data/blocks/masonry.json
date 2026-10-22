@@ -1,0 +1,576 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "granite_diorite_andesite",
+      "pattern": "(?:polished_)?(?:granite|diorite|andesite)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find granite, diorite and andesite in underground patches in the Overworld. Craft the matching stone into its polished variant.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Granite",
+        "revision": 3785782,
+        "sha256": "e1417b113e204a7144f2d5dec710f7eb8dd5bba7c3db4bbae809c5e3a93e0ed2",
+        "source": "https://minecraft.wiki/w/Granite?oldid=3785782"
+      }
+    },
+    {
+      "id": "stone_bricks",
+      "pattern": "(?:(?:cracked|mossy|chiseled)_)?stone_bricks",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft stone bricks from stone, or find them in strongholds and some other structures. Smelt stone bricks for cracked bricks; use moss-related recipes for mossy bricks.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Stone Bricks",
+        "revision": 3821963,
+        "sha256": "d34563155bc067ca8f67c0c9d267cdfff1b6fc90b168b7d6925e4532be13d42f",
+        "source": "https://minecraft.wiki/w/Stone_Bricks?oldid=3821963"
+      }
+    },
+    {
+      "id": "bricks",
+      "pattern": "brick_block",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Smelt clay balls into bricks, then craft brick blocks from the bricks.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Bricks",
+        "revision": 3749879,
+        "sha256": "4f2304b37ad232dc27d4e8888a505b8d842b62c8f53f3086c09d351d9fbb056d",
+        "source": "https://minecraft.wiki/w/Bricks?oldid=3749879"
+      }
+    },
+    {
+      "id": "blackstone",
+      "pattern": "(?:blackstone|polished_blackstone|chiseled_polished_blackstone|(?:cracked_)?polished_blackstone_bricks)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find blackstone in the Nether, especially basalt deltas and bastion remnants. Craft or stonecut it into polished and brick variants.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Blackstone",
+        "revision": 3775770,
+        "sha256": "2963a1f4f3d3bd1b07f75452514a33e96cdda9875087c8c2b16e73fbbfc52043",
+        "source": "https://minecraft.wiki/w/Blackstone?oldid=3775770"
+      }
+    },
+    {
+      "id": "basalt",
+      "pattern": "(?:basalt|polished_basalt|smooth_basalt)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find basalt in Nether basalt deltas and soul sand valleys. Smooth basalt surrounds amethyst geodes in the Overworld; smelting basalt also makes smooth basalt.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Basalt",
+        "revision": 3711801,
+        "sha256": "1714fd7610a852e825154e079ac5813b2f21a5c15d608ae1f648ad2304a3c3ed",
+        "source": "https://minecraft.wiki/w/Basalt?oldid=3711801"
+      }
+    },
+    {
+      "id": "netherrack",
+      "pattern": "netherrack",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Netherrack makes up much of the Nether terrain. Smelt it into nether brick items.",
+        "fire": "Netherrack does not burn away. Fire lit on its top can burn indefinitely unless extinguished.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Netherrack",
+        "revision": 3844345,
+        "sha256": "e0aa0a77a39d97b16ed225f31261be0655efe299bda51af7bfbd1258f132a192",
+        "source": "https://minecraft.wiki/w/Netherrack?oldid=3844345"
+      }
+    },
+    {
+      "id": "nether_bricks",
+      "pattern": "(?:nether_brick|red_nether_brick|cracked_nether_bricks|chiseled_nether_bricks)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Smelt netherrack into nether brick items, then craft nether brick blocks. Nether fortresses contain nether bricks. Red nether bricks also need nether wart.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Nether Bricks",
+        "revision": 3755296,
+        "sha256": "b35795d2cd94c369d6da7713fbca22b05998f31279d4b20f9287d4f2928a1b33",
+        "source": "https://minecraft.wiki/w/Nether_Bricks?oldid=3755296"
+      }
+    },
+    {
+      "id": "end_stone",
+      "pattern": "(?:end_stone|end_bricks)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Mine End stone from the End islands. Craft it into End stone bricks for building.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "End Stone",
+        "revision": 3832437,
+        "sha256": "e258e2a6e399f8fd0692db922d983c8db25e021c9cad27a14a474773ba466d0e",
+        "source": "https://minecraft.wiki/w/End_Stone?oldid=3832437"
+      }
+    },
+    {
+      "id": "purpur",
+      "pattern": "purpur_(?:block|pillar)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find purpur in End cities and End ships. You can also craft purpur blocks from popped chorus fruit.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Purpur Block",
+        "revision": 3707439,
+        "sha256": "7634c007a7b579f1a1e10861d1cf7b1b6835dadab89950c2d04c8e7efe6436ec",
+        "source": "https://minecraft.wiki/w/Purpur_Block?oldid=3707439"
+      }
+    },
+    {
+      "id": "prismarine",
+      "pattern": "(?:prismarine|prismarine_bricks|dark_prismarine)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find prismarine building materials in ocean monuments. Craft them from prismarine shards; dark prismarine also needs black dye.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Prismarine",
+        "revision": 3850564,
+        "sha256": "4b85cd4ee85b8bce50ae34d8d70a8cd3ba4b1476542e7ad361a565fb927cf377",
+        "source": "https://minecraft.wiki/w/Prismarine?oldid=3850564"
+      }
+    },
+    {
+      "id": "quartz_building",
+      "pattern": "(?:quartz_block|quartz_bricks|quartz_pillar|chiseled_quartz_block|smooth_quartz)",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft quartz building blocks from Nether quartz. Use crafting, stonecutting or smelting for the corresponding decorative forms.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Quartz",
+        "revision": 3846673,
+        "sha256": "d41c8b75841d2ac40d65c0802587fbd6a77b1d3ce8e91339b2acc7f1dfb074d9",
+        "source": "https://minecraft.wiki/w/Block_of_Quartz?oldid=3846673"
+      }
+    },
+    {
+      "id": "amethyst_block",
+      "pattern": "amethyst_block",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Find amethyst blocks in the inner layer of amethyst geodes, or craft them from 4 amethyst shards. Ordinary amethyst blocks do not grow buds; budding amethyst does.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Amethyst",
+        "revision": 3846727,
+        "sha256": "cf00413bb9202d2d27a7bb4e709f864e7d0a5b234e99515eea68e42b05b007cb",
+        "source": "https://minecraft.wiki/w/Block_of_Amethyst?oldid=3846727"
+      }
+    },
+    {
+      "id": "masonry_slab",
+      "pattern": "(?:andesite|polished_andesite|granite|polished_granite|diorite|polished_diorite|cobblestone|mossy_cobblestone|stone_brick|mossy_stone_brick|brick|sandstone|red_sandstone|cut_sandstone|cut_red_sandstone|smooth_sandstone|smooth_red_sandstone|cobbled_deepslate|polished_deepslate|deepslate_brick|deepslate_tile|tuff|polished_tuff|tuff_brick|mud_brick|blackstone|polished_blackstone|polished_blackstone_brick|nether_brick|red_nether_brick|end_stone_brick|end_brick|prismarine|prismarine_brick|prismarine_bricks|dark_prismarine|purpur|quartz|smooth_quartz)_slab",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft or stonecut this building shape from its matching stone or masonry material. The source material determines which variants are available.",
+        "water": "This building shape can be waterlogged, so water can occupy the same block space.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "masonry_stairs",
+      "pattern": "(?:andesite|polished_andesite|granite|polished_granite|diorite|polished_diorite|cobblestone|mossy_cobblestone|stone_brick|mossy_stone_brick|brick|sandstone|red_sandstone|cut_sandstone|cut_red_sandstone|smooth_sandstone|smooth_red_sandstone|cobbled_deepslate|polished_deepslate|deepslate_brick|deepslate_tile|tuff|polished_tuff|tuff_brick|mud_brick|blackstone|polished_blackstone|polished_blackstone_brick|nether_brick|red_nether_brick|end_stone_brick|end_brick|prismarine|prismarine_brick|prismarine_bricks|dark_prismarine|purpur|quartz|smooth_quartz)_stairs",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft or stonecut this building shape from its matching stone or masonry material. The source material determines which variants are available.",
+        "water": "This building shape can be waterlogged, so water can occupy the same block space.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Stairs",
+        "revision": 3852643,
+        "sha256": "27278246b95d586cdd2b8acff57ec12b879ad5c372f72fa2cf00ab9ed2097158",
+        "source": "https://minecraft.wiki/w/Stairs?oldid=3852643"
+      }
+    },
+    {
+      "id": "masonry_wall",
+      "pattern": "(?:andesite|polished_andesite|granite|polished_granite|diorite|polished_diorite|cobblestone|mossy_cobblestone|stone_brick|mossy_stone_brick|brick|sandstone|red_sandstone|cut_sandstone|cut_red_sandstone|smooth_sandstone|smooth_red_sandstone|cobbled_deepslate|polished_deepslate|deepslate_brick|deepslate_tile|tuff|polished_tuff|tuff_brick|mud_brick|blackstone|polished_blackstone|polished_blackstone_brick|nether_brick|red_nether_brick|end_stone_brick|end_brick|prismarine|prismarine_brick|prismarine_bricks|dark_prismarine|purpur|quartz|smooth_quartz)_wall",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase the drop.",
+        "location": "Craft or stonecut this building shape from its matching stone or masonry material. The source material determines which variants are available.",
+        "water": "This building shape can be waterlogged, so water can occupy the same block space.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Wall",
+        "revision": 3852646,
+        "sha256": "c8d0d4721d3de3801c042bbb094532debe20a70b7561b9724d56bc9401bcdd43",
+        "source": "https://minecraft.wiki/w/Wall?oldid=3852646"
+      }
+    },
+    {
+      "id": "masonry_double_slabs",
+      "pattern": "(?:andesite|polished_andesite|granite|polished_granite|diorite|polished_diorite|cobblestone|mossy_cobblestone|stone_brick|mossy_stone_brick|brick|sandstone|red_sandstone|cut_sandstone|cut_red_sandstone|smooth_sandstone|smooth_red_sandstone|cobbled_deepslate|polished_deepslate|deepslate_brick|deepslate_tile|tuff|polished_tuff|tuff_brick|mud_brick|blackstone|polished_blackstone|polished_blackstone_brick|nether_brick|red_nether_brick|end_stone_brick|end_brick|prismarine|prismarine_brick|prismarine_bricks|dark_prismarine|purpur|quartz|smooth_quartz)_double_slab",
+      "topics": {
+        "mining": "Use any pickaxe to break the double slab. It drops 2 matching slabs rather than a separate double-slab item. Without a pickaxe it drops nothing. Silk Touch does not preserve it as one double slab, and Fortune does not add slabs.",
+        "location": "Place 2 matching slabs in the same block space to make a double slab.",
+        "water": "A double slab fills the whole block space and cannot be waterlogged.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825"
+      }
+    },
+    {
+      "id": "iron_storage",
+      "pattern": "iron_block",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 iron ingots. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Iron",
+        "revision": 3846671,
+        "sha256": "45ec700604965cf6d4be4e8a30a3ac6ed699c8479ecf0a93ad8d99c607e72cd1",
+        "source": "https://minecraft.wiki/w/Block_of_Iron?oldid=3846671"
+      }
+    },
+    {
+      "id": "gold_storage",
+      "pattern": "gold_block",
+      "topics": {
+        "mining": "Use a iron pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 gold ingots. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Gold",
+        "revision": 3846665,
+        "sha256": "21d05366e97716190b76e9ee59e7383899bf3405b283add5f9fd7bca06782124",
+        "source": "https://minecraft.wiki/w/Block_of_Gold?oldid=3846665"
+      }
+    },
+    {
+      "id": "diamond_storage",
+      "pattern": "diamond_block",
+      "topics": {
+        "mining": "Use a iron pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 diamonds. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Diamond",
+        "revision": 3846677,
+        "sha256": "f16a807ad5f567d9ca4c1684e10039be71bb9dc355db6e30147ed32c549c9fba",
+        "source": "https://minecraft.wiki/w/Block_of_Diamond?oldid=3846677"
+      }
+    },
+    {
+      "id": "emerald_storage",
+      "pattern": "emerald_block",
+      "topics": {
+        "mining": "Use a iron pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 emeralds. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Emerald",
+        "revision": 3846675,
+        "sha256": "db3fa3c431023b9152f03404e233348fe81dc0d01d06f3588bc448b1f18dfbef",
+        "source": "https://minecraft.wiki/w/Block_of_Emerald?oldid=3846675"
+      }
+    },
+    {
+      "id": "netherite_storage",
+      "pattern": "netherite_block",
+      "topics": {
+        "mining": "Use a diamond pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 netherite ingots. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Netherite",
+        "revision": 3846678,
+        "sha256": "790fc20588f14b80d76e894af32b712c8266ffce98a0b96301ce96be34621760",
+        "source": "https://minecraft.wiki/w/Block_of_Netherite?oldid=3846678"
+      }
+    },
+    {
+      "id": "lapis_storage",
+      "pattern": "lapis_block",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 lapis lazuli. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Lapis Lazuli",
+        "revision": 3846724,
+        "sha256": "b5dec787dd056dca5655c8869a8c66ed7964d8082f3bbe84d9a7508d50e86c00",
+        "source": "https://minecraft.wiki/w/Block_of_Lapis_Lazuli?oldid=3846724"
+      }
+    },
+    {
+      "id": "redstone_storage",
+      "pattern": "redstone_block",
+      "topics": {
+        "mining": "Use a wooden pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 redstone dust. Craft it back into its component items when you need them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Redstone",
+        "revision": 3846676,
+        "sha256": "f54850cc54c2f788f646fd866439ff0cebfa1507077220f6017a05b2df22dba3",
+        "source": "https://minecraft.wiki/w/Block_of_Redstone?oldid=3846676"
+      }
+    },
+    {
+      "id": "coal_storage",
+      "pattern": "coal_block",
+      "topics": {
+        "mining": "Use a wooden pickaxe or better to collect the block itself. A lower-tier tool drops nothing. Silk Touch is unnecessary, and Fortune does not multiply its contents.",
+        "location": "Craft this storage block from 9 coal. Craft it back into its component items when you need them."
+      },
+      "evidence": {
+        "title": "Block of Coal",
+        "revision": 3846672,
+        "sha256": "0a047a7dbab907dece652e87b1ef478bcaa896d8ae2e9fae14e08677477e526a",
+        "source": "https://minecraft.wiki/w/Block_of_Coal?oldid=3846672"
+      }
+    },
+    {
+      "id": "gilded_blackstone",
+      "pattern": "gilded_blackstone",
+      "topics": {
+        "mining": "Use any pickaxe. Normally there is a 10% chance to drop 2\u20135 gold nuggets instead of the block. Fortune increases that chance, reaching 100% at Fortune III; it does not increase the nugget count. Silk Touch always collects the block. Without a pickaxe it drops nothing.",
+        "location": "Find gilded blackstone in bastion remnants in the Nether. Mining it near piglins can anger them.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Gilded Blackstone",
+        "revision": 3750589,
+        "sha256": "0f1f74e8d354f0788d2bd0e29cc06fcbcb1893dc052e4540ed5bd6471fd5a5ed",
+        "source": "https://minecraft.wiki/w/Gilded_Blackstone?oldid=3750589"
+      }
+    },
+    {
+      "id": "glowstone",
+      "pattern": "glowstone",
+      "topics": {
+        "mining": "Without Silk Touch, glowstone drops 2\u20134 glowstone dust. Fortune makes larger drops more likely but cannot exceed 4 dust. A Silk Touch tool collects the block itself.",
+        "location": "Look under Nether ceilings and overhangs for glowstone, or craft it from 4 glowstone dust.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Glowstone",
+        "revision": 3849540,
+        "sha256": "e0fc9afb95b47605e7fd66c93c292ed4bbcd48f7f6e05caa70dc6dcbb222be18",
+        "source": "https://minecraft.wiki/w/Glowstone?oldid=3849540"
+      }
+    },
+    {
+      "id": "sea_lantern",
+      "pattern": "sea_lantern",
+      "topics": {
+        "mining": "Use Silk Touch to collect a sea lantern. Without Silk Touch it drops 2\u20133 prismarine crystals. Fortune does not increase these drops.",
+        "location": "Find sea lanterns in ocean monuments and some ocean ruins, or craft them from prismarine crystals and shards.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Sea Lantern",
+        "revision": 3844075,
+        "sha256": "20d60964da80f44813b735bf54f30435753ebc596cc12fc06f45d8bbfc3b310b",
+        "source": "https://minecraft.wiki/w/Sea_Lantern?oldid=3844075"
+      }
+    },
+    {
+      "id": "amethyst_buds",
+      "pattern": "(?:small|medium|large)_amethyst_bud",
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect an amethyst bud. Without Silk Touch, buds drop nothing; only fully grown clusters yield shards.",
+        "location": "Amethyst buds grow on budding amethyst inside geodes. Leave space around the budding block for growth.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Amethyst Cluster",
+        "revision": 3844087,
+        "sha256": "ac3714f9b10045ae35433e4a32eb11c5cba6b9a582627c17743699f6ba89fa9c",
+        "source": "https://minecraft.wiki/w/Amethyst_Cluster?oldid=3844087"
+      }
+    },
+    {
+      "id": "amethyst_cluster",
+      "pattern": "amethyst_cluster",
+      "topics": {
+        "mining": "Use a pickaxe to get 4 amethyst shards from a fully grown cluster. Fortune can increase the shards. Breaking it by other ordinary methods gives 2 shards. A Silk Touch tool collects the cluster itself.",
+        "location": "Look on budding amethyst in amethyst geodes. Wait for buds to grow into full clusters before harvesting shards.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Amethyst Cluster",
+        "revision": 3844087,
+        "sha256": "ac3714f9b10045ae35433e4a32eb11c5cba6b9a582627c17743699f6ba89fa9c",
+        "source": "https://minecraft.wiki/w/Amethyst_Cluster?oldid=3844087"
+      }
+    },
+    {
+      "id": "soul_sand",
+      "pattern": "soul_sand",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Look in soul sand valleys in the Nether.",
+        "water": "Soul sand beneath a column of water source blocks creates an upward bubble column. Flowing water must first be converted into source blocks.",
+        "fire": "Fire lit on this block becomes blue soul fire.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Soul Sand",
+        "revision": 3844346,
+        "sha256": "95d6c4b1f9099d16cd3be741bc282201bb1588637963ffb57a9ecea688cc290f",
+        "source": "https://minecraft.wiki/w/Soul_Sand?oldid=3844346"
+      }
+    },
+    {
+      "id": "soul_soil",
+      "pattern": "soul_soil",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Look in soul sand valleys in the Nether.",
+        "water": "Soul soil does not create bubble columns in water. Use soul sand for an upward bubble column instead.",
+        "fire": "Fire lit on this block becomes blue soul fire.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Soul Soil",
+        "revision": 3750714,
+        "sha256": "37c9baca63d9624163f82dcc6b03c76a64cbbdf1e78bf89a5c533abd01f95299",
+        "source": "https://minecraft.wiki/w/Soul_Soil?oldid=3750714"
+      }
+    },
+    {
+      "id": "unwaxed_copper",
+      "pattern": "(?:(?:exposed_|weathered_|oxidized_)?(?:cut_copper|chiseled_copper)|(?:copper_block|exposed_copper|weathered_copper|oxidized_copper))",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect this copper block. A lower-tier tool drops nothing. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Craft copper blocks from copper ingots, then craft or stonecut decorative forms. Some copper blocks also occur in trial chambers.",
+        "oxidation": "Unwaxed copper changes from normal to exposed, weathered and oxidized over time. Use honeycomb to preserve its current stage, or an axe to scrape oxidation back one stage at a time.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Copper",
+        "revision": 3846725,
+        "sha256": "c7d40c4875305ed8eb8038e349aa180fbf18e9855dc9ed4d90616a2521d54853",
+        "source": "https://minecraft.wiki/w/Block_of_Copper?oldid=3846725"
+      }
+    },
+    {
+      "id": "waxed_copper",
+      "pattern": "waxed_(?:(?:exposed_|weathered_|oxidized_)?(?:cut_copper|chiseled_copper)|(?:copper_block|exposed_copper|weathered_copper|oxidized_copper)|copper)",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect this copper block. A lower-tier tool drops nothing. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Craft copper blocks from copper ingots, then craft or stonecut decorative forms. Some copper blocks also occur in trial chambers.",
+        "oxidation": "Waxed copper does not oxidize further. Use an axe to remove the wax; further axe uses can scrape oxidation back one stage at a time.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Block of Copper",
+        "revision": 3846725,
+        "sha256": "c7d40c4875305ed8eb8038e349aa180fbf18e9855dc9ed4d90616a2521d54853",
+        "source": "https://minecraft.wiki/w/Block_of_Copper?oldid=3846725"
+      }
+    },
+    {
+      "id": "copper_shapes",
+      "pattern": "(?:waxed_)?(?:exposed_|weathered_|oxidized_)?cut_copper_(?:slab|stairs)",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the slab or stairs. A lower-tier tool drops nothing. Silk Touch is unnecessary and Fortune does not increase the drop.",
+        "location": "Craft or stonecut cut copper into slabs or stairs. Combine 2 matching slabs in one block space for a double slab.",
+        "oxidation": "Unwaxed cut copper oxidizes over time. Honeycomb preserves its current stage. Use an axe first to remove wax if present, then to scrape oxidation back one stage per use.",
+        "water": "Single slabs and stairs can be waterlogged.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Cut Copper",
+        "revision": 3835357,
+        "sha256": "5566e8f41c526beb518419d29f6a2aacb89e264d5b35ca71e9621663683049c2",
+        "source": "https://minecraft.wiki/w/Cut_Copper?oldid=3835357"
+      }
+    },
+    {
+      "id": "copper_double_slabs",
+      "pattern": "(?:waxed_)?(?:exposed_|weathered_|oxidized_)?double_cut_copper_slab",
+      "topics": {
+        "mining": "Use a stone pickaxe or better. A double cut copper slab drops 2 matching slabs. Silk Touch does not keep it as a double-slab item; Fortune does not add slabs. A lower-tier tool drops nothing.",
+        "location": "Craft or stonecut cut copper into slabs or stairs. Combine 2 matching slabs in one block space for a double slab.",
+        "oxidation": "Unwaxed cut copper oxidizes over time. Honeycomb preserves its current stage. Use an axe first to remove wax if present, then to scrape oxidation back one stage per use.",
+        "water": "Double slabs cannot be waterlogged.",
+        "fire": "This stone or mineral block does not catch fire or burn away.",
+        "gravity": "This block stays in place without support; it does not fall."
+      },
+      "evidence": {
+        "title": "Cut Copper",
+        "revision": 3835357,
+        "sha256": "5566e8f41c526beb518419d29f6a2aacb89e264d5b35ca71e9621663683049c2",
+        "source": "https://minecraft.wiki/w/Cut_Copper?oldid=3835357"
+      }
+    }
+  ]
+}

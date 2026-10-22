@@ -1,0 +1,709 @@
+{
+  "scope": "data/blocks/masonry.json",
+  "families": [
+    {
+      "family": "granite_diorite_andesite",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:andesite",
+        "minecraft:diorite",
+        "minecraft:granite",
+        "minecraft:polished_andesite",
+        "minecraft:polished_diorite",
+        "minecraft:polished_granite"
+      ],
+      "subject_count": 6,
+      "facet_applications": 24
+    },
+    {
+      "family": "stone_bricks",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:stone_bricks"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "bricks",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:brick_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "blackstone",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:blackstone",
+        "minecraft:chiseled_polished_blackstone",
+        "minecraft:cracked_polished_blackstone_bricks",
+        "minecraft:polished_blackstone",
+        "minecraft:polished_blackstone_bricks"
+      ],
+      "subject_count": 5,
+      "facet_applications": 20
+    },
+    {
+      "family": "basalt",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:basalt",
+        "minecraft:polished_basalt",
+        "minecraft:smooth_basalt"
+      ],
+      "subject_count": 3,
+      "facet_applications": 12
+    },
+    {
+      "family": "netherrack",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:netherrack"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "nether_bricks",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_nether_bricks",
+        "minecraft:cracked_nether_bricks",
+        "minecraft:nether_brick",
+        "minecraft:red_nether_brick"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "end_stone",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:end_bricks",
+        "minecraft:end_stone"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "purpur",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "prismarine",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:dark_prismarine",
+        "minecraft:prismarine",
+        "minecraft:prismarine_bricks"
+      ],
+      "subject_count": 3,
+      "facet_applications": 12
+    },
+    {
+      "family": "quartz_building",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_quartz_block",
+        "minecraft:quartz_block",
+        "minecraft:quartz_bricks",
+        "minecraft:quartz_pillar",
+        "minecraft:smooth_quartz"
+      ],
+      "subject_count": 5,
+      "facet_applications": 20
+    },
+    {
+      "family": "amethyst_block",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:amethyst_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "masonry_slab",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:andesite_slab",
+        "minecraft:blackstone_slab",
+        "minecraft:brick_slab",
+        "minecraft:cobbled_deepslate_slab",
+        "minecraft:cobblestone_slab",
+        "minecraft:cut_red_sandstone_slab",
+        "minecraft:cut_sandstone_slab",
+        "minecraft:dark_prismarine_slab",
+        "minecraft:deepslate_brick_slab",
+        "minecraft:deepslate_tile_slab",
+        "minecraft:diorite_slab",
+        "minecraft:end_stone_brick_slab",
+        "minecraft:granite_slab",
+        "minecraft:mossy_cobblestone_slab",
+        "minecraft:mossy_stone_brick_slab",
+        "minecraft:mud_brick_slab",
+        "minecraft:nether_brick_slab",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_blackstone_brick_slab",
+        "minecraft:polished_blackstone_slab",
+        "minecraft:polished_deepslate_slab",
+        "minecraft:polished_diorite_slab",
+        "minecraft:polished_granite_slab",
+        "minecraft:polished_tuff_slab",
+        "minecraft:prismarine_brick_slab",
+        "minecraft:prismarine_slab",
+        "minecraft:purpur_slab",
+        "minecraft:quartz_slab",
+        "minecraft:red_nether_brick_slab",
+        "minecraft:red_sandstone_slab",
+        "minecraft:sandstone_slab",
+        "minecraft:smooth_quartz_slab",
+        "minecraft:smooth_red_sandstone_slab",
+        "minecraft:smooth_sandstone_slab",
+        "minecraft:stone_brick_slab",
+        "minecraft:tuff_brick_slab",
+        "minecraft:tuff_slab"
+      ],
+      "subject_count": 37,
+      "facet_applications": 185
+    },
+    {
+      "family": "masonry_stairs",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:andesite_stairs",
+        "minecraft:blackstone_stairs",
+        "minecraft:brick_stairs",
+        "minecraft:cobbled_deepslate_stairs",
+        "minecraft:dark_prismarine_stairs",
+        "minecraft:deepslate_brick_stairs",
+        "minecraft:deepslate_tile_stairs",
+        "minecraft:diorite_stairs",
+        "minecraft:end_brick_stairs",
+        "minecraft:granite_stairs",
+        "minecraft:mossy_cobblestone_stairs",
+        "minecraft:mossy_stone_brick_stairs",
+        "minecraft:mud_brick_stairs",
+        "minecraft:nether_brick_stairs",
+        "minecraft:polished_andesite_stairs",
+        "minecraft:polished_blackstone_brick_stairs",
+        "minecraft:polished_blackstone_stairs",
+        "minecraft:polished_deepslate_stairs",
+        "minecraft:polished_diorite_stairs",
+        "minecraft:polished_granite_stairs",
+        "minecraft:polished_tuff_stairs",
+        "minecraft:prismarine_bricks_stairs",
+        "minecraft:prismarine_stairs",
+        "minecraft:purpur_stairs",
+        "minecraft:quartz_stairs",
+        "minecraft:red_nether_brick_stairs",
+        "minecraft:red_sandstone_stairs",
+        "minecraft:sandstone_stairs",
+        "minecraft:smooth_quartz_stairs",
+        "minecraft:smooth_red_sandstone_stairs",
+        "minecraft:smooth_sandstone_stairs",
+        "minecraft:stone_brick_stairs",
+        "minecraft:tuff_brick_stairs",
+        "minecraft:tuff_stairs"
+      ],
+      "subject_count": 34,
+      "facet_applications": 170
+    },
+    {
+      "family": "masonry_wall",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:andesite_wall",
+        "minecraft:blackstone_wall",
+        "minecraft:brick_wall",
+        "minecraft:cobbled_deepslate_wall",
+        "minecraft:cobblestone_wall",
+        "minecraft:deepslate_brick_wall",
+        "minecraft:deepslate_tile_wall",
+        "minecraft:diorite_wall",
+        "minecraft:end_stone_brick_wall",
+        "minecraft:granite_wall",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:mossy_stone_brick_wall",
+        "minecraft:mud_brick_wall",
+        "minecraft:nether_brick_wall",
+        "minecraft:polished_blackstone_brick_wall",
+        "minecraft:polished_blackstone_wall",
+        "minecraft:polished_deepslate_wall",
+        "minecraft:polished_tuff_wall",
+        "minecraft:prismarine_wall",
+        "minecraft:red_nether_brick_wall",
+        "minecraft:red_sandstone_wall",
+        "minecraft:sandstone_wall",
+        "minecraft:stone_brick_wall",
+        "minecraft:tuff_brick_wall",
+        "minecraft:tuff_wall"
+      ],
+      "subject_count": 25,
+      "facet_applications": 125
+    },
+    {
+      "family": "masonry_double_slabs",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:andesite_double_slab",
+        "minecraft:blackstone_double_slab",
+        "minecraft:brick_double_slab",
+        "minecraft:cobbled_deepslate_double_slab",
+        "minecraft:cobblestone_double_slab",
+        "minecraft:cut_red_sandstone_double_slab",
+        "minecraft:cut_sandstone_double_slab",
+        "minecraft:dark_prismarine_double_slab",
+        "minecraft:deepslate_brick_double_slab",
+        "minecraft:deepslate_tile_double_slab",
+        "minecraft:diorite_double_slab",
+        "minecraft:end_stone_brick_double_slab",
+        "minecraft:granite_double_slab",
+        "minecraft:mossy_cobblestone_double_slab",
+        "minecraft:mossy_stone_brick_double_slab",
+        "minecraft:mud_brick_double_slab",
+        "minecraft:nether_brick_double_slab",
+        "minecraft:polished_andesite_double_slab",
+        "minecraft:polished_blackstone_brick_double_slab",
+        "minecraft:polished_blackstone_double_slab",
+        "minecraft:polished_deepslate_double_slab",
+        "minecraft:polished_diorite_double_slab",
+        "minecraft:polished_granite_double_slab",
+        "minecraft:polished_tuff_double_slab",
+        "minecraft:prismarine_brick_double_slab",
+        "minecraft:prismarine_double_slab",
+        "minecraft:purpur_double_slab",
+        "minecraft:quartz_double_slab",
+        "minecraft:red_nether_brick_double_slab",
+        "minecraft:red_sandstone_double_slab",
+        "minecraft:sandstone_double_slab",
+        "minecraft:smooth_quartz_double_slab",
+        "minecraft:smooth_red_sandstone_double_slab",
+        "minecraft:smooth_sandstone_double_slab",
+        "minecraft:stone_brick_double_slab",
+        "minecraft:tuff_brick_double_slab",
+        "minecraft:tuff_double_slab"
+      ],
+      "subject_count": 37,
+      "facet_applications": 185
+    },
+    {
+      "family": "iron_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:iron_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "gold_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:gold_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "diamond_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:diamond_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "emerald_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:emerald_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "netherite_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:netherite_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "lapis_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:lapis_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "redstone_storage",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:redstone_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "coal_storage",
+      "topics": [
+        "mining",
+        "location"
+      ],
+      "members": [
+        "minecraft:coal_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "gilded_blackstone",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:gilded_blackstone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "glowstone",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:glowstone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "sea_lantern",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:sea_lantern"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "amethyst_buds",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:large_amethyst_bud",
+        "minecraft:medium_amethyst_bud",
+        "minecraft:small_amethyst_bud"
+      ],
+      "subject_count": 3,
+      "facet_applications": 12
+    },
+    {
+      "family": "amethyst_cluster",
+      "topics": [
+        "mining",
+        "location",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:amethyst_cluster"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "soul_sand",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:soul_sand"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "soul_soil",
+      "topics": [
+        "mining",
+        "location",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:soul_soil"
+      ],
+      "subject_count": 1,
+      "facet_applications": 5
+    },
+    {
+      "family": "unwaxed_copper",
+      "topics": [
+        "mining",
+        "location",
+        "oxidation",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:chiseled_copper",
+        "minecraft:copper_block",
+        "minecraft:cut_copper",
+        "minecraft:exposed_chiseled_copper",
+        "minecraft:exposed_copper",
+        "minecraft:exposed_cut_copper",
+        "minecraft:oxidized_chiseled_copper",
+        "minecraft:oxidized_copper",
+        "minecraft:oxidized_cut_copper",
+        "minecraft:weathered_chiseled_copper",
+        "minecraft:weathered_copper",
+        "minecraft:weathered_cut_copper"
+      ],
+      "subject_count": 12,
+      "facet_applications": 60
+    },
+    {
+      "family": "waxed_copper",
+      "topics": [
+        "mining",
+        "location",
+        "oxidation",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:waxed_chiseled_copper",
+        "minecraft:waxed_copper",
+        "minecraft:waxed_cut_copper",
+        "minecraft:waxed_exposed_chiseled_copper",
+        "minecraft:waxed_exposed_copper",
+        "minecraft:waxed_exposed_cut_copper",
+        "minecraft:waxed_oxidized_chiseled_copper",
+        "minecraft:waxed_oxidized_copper",
+        "minecraft:waxed_oxidized_cut_copper",
+        "minecraft:waxed_weathered_chiseled_copper",
+        "minecraft:waxed_weathered_copper",
+        "minecraft:waxed_weathered_cut_copper"
+      ],
+      "subject_count": 12,
+      "facet_applications": 60
+    },
+    {
+      "family": "copper_shapes",
+      "topics": [
+        "mining",
+        "location",
+        "oxidation",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:cut_copper_slab",
+        "minecraft:cut_copper_stairs",
+        "minecraft:exposed_cut_copper_slab",
+        "minecraft:exposed_cut_copper_stairs",
+        "minecraft:oxidized_cut_copper_slab",
+        "minecraft:oxidized_cut_copper_stairs",
+        "minecraft:waxed_cut_copper_slab",
+        "minecraft:waxed_cut_copper_stairs",
+        "minecraft:waxed_exposed_cut_copper_slab",
+        "minecraft:waxed_exposed_cut_copper_stairs",
+        "minecraft:waxed_oxidized_cut_copper_slab",
+        "minecraft:waxed_oxidized_cut_copper_stairs",
+        "minecraft:waxed_weathered_cut_copper_slab",
+        "minecraft:waxed_weathered_cut_copper_stairs",
+        "minecraft:weathered_cut_copper_slab",
+        "minecraft:weathered_cut_copper_stairs"
+      ],
+      "subject_count": 16,
+      "facet_applications": 96
+    },
+    {
+      "family": "copper_double_slabs",
+      "topics": [
+        "mining",
+        "location",
+        "oxidation",
+        "water",
+        "fire",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:double_cut_copper_slab",
+        "minecraft:exposed_double_cut_copper_slab",
+        "minecraft:oxidized_double_cut_copper_slab",
+        "minecraft:waxed_double_cut_copper_slab",
+        "minecraft:waxed_exposed_double_cut_copper_slab",
+        "minecraft:waxed_oxidized_double_cut_copper_slab",
+        "minecraft:waxed_weathered_double_cut_copper_slab",
+        "minecraft:weathered_double_cut_copper_slab"
+      ],
+      "subject_count": 8,
+      "facet_applications": 48
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 235,
+  "facet_applications": 1145,
+  "independent_family_summaries": 150
+}

@@ -1,12 +1,14 @@
+import masonry from '../data/blocks/masonry.json' with {type:'json'};
 import ground from '../data/blocks/ground.json' with {type:'json'};
 import families from '../data/blocks/families.json' with {type:'json'};
 import terrain from '../data/blocks/terrain.json' with {type:'json'};
 
-const rules=[...families.rules,...ground.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
+const rules=[...families.rules,...ground.rules,...masonry.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
 
 // Keep the question facet separate from the catalog's basic definition.
 export function blockTopic(q) {
   if (/^(?:what is|what are|describe|tell me about)\b/.test(q) && !/\b(?:tool|pickaxe|shovel|silk touch|fortune|happens)\b/.test(q)) return undefined;
+  if (/\b(?:oxidi[sz](?:e|es|ing)|oxidation|rust|rusting|wax|waxing|honeycomb|scrape|scraping)\b/.test(q)) return 'oxidation';
   if (/\b(?:strip|stripping|bark)\b/.test(q) && /\b(?:how|can|axe|strip|stripping)\b/.test(q)) return 'stripping';
   if (/\b(?:burn|burns|burning|flammable|fireproof|fire|lava)\b/.test(q)) return 'fire';
   if (/\b(?:gravity|fall|falls|falling|unsupported|support)\b/.test(q)) return 'gravity';

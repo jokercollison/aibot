@@ -138,3 +138,22 @@ test('conversation colors distinguish speakers and reset before each following t
  assert.match(transcript,/^§bYou: What is a hopper\?§r\n§eJarvis: /);
  assert.ok(transcript.endsWith('§r'));assert.doesNotMatch(transcript,/§c/);
 });
+
+test('unknown reply has a gentle lower uncertainty chirp and next normal reply restores pitch',async()=>{
+ const {player,bot,properties}=setup();properties.set(`${SCOPE}:owner`,player.id);
+ fixture.forms=[{selection:0},{formValues:['What is a flibbertigibbet?']},{formValues:['What is a hopper?']},{canceled:true}];
+ await click(player,bot);
+ assert.match(fixture.labels[1],/Hmm, /);
+ assert.equal(fixture.sounds.length,2);
+ assert.equal(fixture.sounds[0].name,SOUND_ID);
+ assert.equal(fixture.sounds[0].options.pitch,0.65);
+ assert.equal(fixture.sounds[1].options.pitch,1);
+ assert.deepEqual(fixture.messages,[]);
+});
+
+test('clarification does not use the unknown-answer sound',async()=>{
+ const {player,bot,properties}=setup();properties.set(`${SCOPE}:owner`,player.id);
+ fixture.forms=[{selection:0},{formValues:['What is a slime?']},{canceled:true}];
+ await click(player,bot);
+ assert.equal(fixture.sounds.length,1);assert.equal(fixture.sounds[0].options.pitch,1);
+});

@@ -77,3 +77,37 @@ Validation: 221 automated tests pass, including every matching ground-family
 facet through the conversation engine, representative natural questions, soil
 followups, exceptions and the existing entity audit. Minecraft testing and a new
 package remain pending; published 0.2.18 downloads are unchanged.
+
+## Masonry, mineral storage and dimension-material batch in development
+
+Adds 235 catalog variants across reviewed stone/mineral building families,
+including ordinary/polished granite, diorite and andesite; stone/nether bricks;
+blackstone, basalt, End stone, purpur, prismarine, quartz and amethyst; selected
+masonry slabs/stairs/walls; copper building forms; storage blocks; soul sand/soil;
+glowstone, sea lanterns and amethyst buds/clusters.
+
+The exact member inventory in BLOCK_MASONRY_AUDIT.json records 1,145 facet
+applications from 150 shared summaries. These are shared-rule applications, not
+1,145 independent facts. Source revisions and hashes are in
+ data/blocks/masonry.json. Shape rules exclude wood, copper functional components,
+custom wool/concrete derivatives and unreviewed materials. Copper shapes have a
+separate stone-pickaxe threshold; double slabs drop two matching slabs and cannot
+be waterlogged. Storage block tool thresholds are separate from their ore rules.
+Bedrock sea lantern drops are not increased by Fortune. Gilded blackstone,
+glowstone, buds and clusters each retain their own drop rules. Copper oxidation,
+waxing and scraping questions are connected without treating the adjectives
+“waxed” and “oxidized” in a block name as the requested topic.
+
+Also adds the requested uncertainty personality: unknown replies get a “Hmm, ”
+opening while preserving their specific guidance and follow-up context. During
+conversation, unknown-status answers use the existing original chirp at pitch
+0.65 and volume 0.55; normal answers/clarifications retain pitch 1, volume 0.7.
+This reuses the sound asset rather than adding a new recording. Known negative
+answers are not treated as missing knowledge. Partial answers retain their own
+status. No shared/world sound broadcast is added. Audible feel requires actual
+Minecraft testing; no console/phone sound test is claimed.
+
+Validation: TypeScript and all 230 automated tests pass, including all 1,145
+masonry facet applications and simulated private-form sound selection/restoration.
+The entity question audit remains green. This batch is saved in development;
+0.2.18 downloads are unchanged. Packaging a new isolated release remains separate.

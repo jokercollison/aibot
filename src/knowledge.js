@@ -25,7 +25,7 @@ for(const [id,ref] of Object.entries(entityReferences)) {
 }
 const clean = s => String(s ?? '').toLowerCase().replace(/minecraft:/g, '').replace(/[_-]/g, ' ').replace(/\bpick axe\b/g, 'pickaxe').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 const label = s => clean(s).replace(/\b\w/g, c => c.toUpperCase());
-const unknown = "I'm not sure about that yet. Try asking me how to craft something, or ask for a joke.";
+const unknown = "I'm not sure about that one yet. Try asking me how to craft something, or ask for a joke.";
 const aliasIndex = new Map(Object.entries(aliases));
 const byMinecraftId = new Map();
 for (const record of Object.values(records)) {
@@ -152,7 +152,7 @@ export function createConversation() {
   let previousVariant;
   let previousEntityTopic;
   let pendingVariant;
-  return {
+  const engine = {
     ask(input) {
       const q = clean(input);
       if (!q) return {status: 'clarify', answer: 'What would you like to know about Minecraft?'};
@@ -404,5 +404,10 @@ export function createConversation() {
       return {status:'partial',answer:`I'm still learning about ${clean(r.name)} and don't have a dependable explanation yet.`,sources:[r.source]};
     }
   };
+  return {ask(input) {
+    const result=engine.ask(input);
+    if(result.status==='unknown' && !result.answer.startsWith('Hmm, ')) return {...result,answer:'Hmm, '+result.answer};
+    return result;
+  }};
 }
 export const knowledgeStats = {records: bundle.originalRecordCount, recipes: allRecipes.length};

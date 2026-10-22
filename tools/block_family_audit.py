@@ -38,3 +38,5 @@ def audit(filename, output):
 if __name__ == '__main__':
     audit('data/blocks/families.json', 'docs/BLOCK_FAMILY_AUDIT.json')
     audit('data/blocks/ground.json', 'docs/BLOCK_GROUND_AUDIT.json')
+
+    audit('data/blocks/masonry.json', 'docs/BLOCK_MASONRY_AUDIT.json')

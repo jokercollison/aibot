@@ -23,8 +23,8 @@ function say(player: Player, bot: Entity, text: string) {
   player.sendMessage(`§b[${safeName(bot.nameTag)}]§r ${text}`);
   playChirp(player);
 }
-function playChirp(player: Player) {
-  try {player.playSound(SOUND_ID, {volume: 0.7, pitch: 1});}
+function playChirp(player: Player, uncertain = false) {
+  try {player.playSound(SOUND_ID, {volume: uncertain ? 0.55 : 0.7, pitch: uncertain ? 0.65 : 1});}
   catch (error) {
     if (!soundFailureLogged) {console.warn(`AI Bot sound playback failed: ${String(error)}`);soundFailureLogged=true;}
   }
@@ -62,11 +62,12 @@ async function talk(player: Player, bot: Entity) {
       await nextTick();continue;
     }
     prompt = '';
-    const answer = session.engine.ask(question).answer;
+    const result = session.engine.ask(question);
+    const answer = result.answer;
     session.turns.push({question,answer});
     // Bound recent history while always keeping the entire latest answer visible.
     while (session.turns.length > 4 || (session.turns.length > 1 && session.turns.reduce((n,t) => n+t.question.length+t.answer.length,0) > 6000)) session.turns.shift();
-    playChirp(player);
+    playChirp(player, result.status === 'unknown');
     await nextTick();
   }
 }
