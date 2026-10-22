@@ -1,3 +1,9 @@
+# Current testing status: 0.2.15 pending
+
+The feeding release passed automated validation and archive checks. No actual
+Minecraft pass has been reported for this release. Use its focused checklist;
+multiplayer and device performance remain separate. Earlier reports follow.
+
 # Current testing status: 0.2.14 pending
 
 0.2.14 passed automated checks, not execution in Minecraft. Its growth/combat

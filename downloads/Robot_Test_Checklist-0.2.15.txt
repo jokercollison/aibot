@@ -1,0 +1,47 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.15
+CHANGED FEATURES ONLY — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.15.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.15
+  Time Trap Studios AI Bot — Resources 0.2.15
+Both descriptions and the robot menu must show 0.2.15.
+Optional summon: /summon tts_ai_bot_v0_2_15:robot
+
+FEEDING AND FOLLOW-UPS
+1. What do cows eat?
+   Expect wheat with adult breeding and calf growth uses.
+2. Can I tame a baby wolf with beef?
+   Expect No: bones tame wolves; beef has other feeding uses.
+   Then: Can I tame it with bones?
+   Expect bone taming guidance; keep the wolf as subject.
+3. Can I breed wolves with fish?
+   Expect No for breeding, even though fish can heal wolves in Bedrock.
+   Then: Can I heal it with fish?
+   Expect fish healing guidance.
+4. Can a panda eat cake?
+   Expect adult pandas eat cake, but cake does not breed pandas.
+   Then: Can I breed it with cake?
+   Expect No; use bamboo and meet nearby planted-bamboo requirements.
+5. Can a fox eat chicken?
+   Expect eating a carried edible item; berries are the breeding food.
+6. Can a villager eat bread?
+   Expect inventory breeding food: 3 bread or 12 carrots/potatoes/beetroot per
+   adult, or equivalent mixture; suitable spare beds are also needed.
+   Then: Can it eat wheat seeds?
+   Expect farmer collection/farming, not ready breeding food.
+7. Can an allay eat sugar?
+   Expect holding/collecting matching items, not animal feeding or breeding.
+8. Can a piglin eat porkchops?
+   Expect pork pickup; not bartering or breeding, and not recoverable as drops.
+9. Can frogs eat small magma cubes?
+   Expect small prey and froglights.
+   Then: Can it eat large magma cubes?
+   Expect No: only the smallest cubes can be swallowed.
+10. What does a baby cow eat?
+    Expect wheat guidance, without confusing feeding with taming.
+
+No need to repeat old checklists. Use Things to try for other examples.
+Report exact questions and answers for unexpected results. Entity knowledge is
+still incomplete. Multiplayer and actual phone/console performance remain
+separate checks; automated tests do not run Minecraft.

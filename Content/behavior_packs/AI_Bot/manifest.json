@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Time Trap Studios AI Bot \u2014 Behavior 0.2.14",
-    "description": "Time Trap Studios AI Bot Behavior pack \u2014 TEST VERSION 0.2.14. Activate only with this version\u2019s matching pack.",
-    "uuid": "9891f9be-2d91-4d15-b540-296c2a81c4ab",
+    "name": "Time Trap Studios AI Bot \u2014 Behavior 0.2.15",
+    "description": "Time Trap Studios AI Bot Behavior pack \u2014 TEST VERSION 0.2.15. Activate only with this version\u2019s matching pack.",
+    "uuid": "6c9fa331-eea1-4503-ab7c-70c7ae681615",
     "version": [
       0,
       2,
-      14
+      15
     ],
     "min_engine_version": [
       1,
@@ -19,21 +19,21 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "72d6869d-9990-4829-a481-561bb94fea7d",
+      "uuid": "e96bfdb0-a808-4ea7-98c7-6c9bcb6549a2",
       "version": [
         0,
         2,
-        14
+        15
       ]
     },
     {
       "type": "script",
       "language": "javascript",
-      "uuid": "b3d38788-b7dd-4d27-994a-38e7259c2a7b",
+      "uuid": "6c7f597c-b454-49a7-bbe3-6d459ed070a1",
       "version": [
         0,
         2,
-        14
+        15
       ],
       "entry": "scripts/tts/ai_bot/main.js"
     }
@@ -48,11 +48,11 @@
       "version": "2.0.0"
     },
     {
-      "uuid": "d867592e-cd65-407e-ae6d-a4df6bc003de",
+      "uuid": "c13cae47-dac0-4161-ba11-4a7a73866269",
       "version": [
         0,
         2,
-        14
+        15
       ]
     }
   ],

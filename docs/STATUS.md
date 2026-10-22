@@ -1,3 +1,16 @@
+# Current test release: 0.2.15 — feeding and observed eating
+
+Packages the source feeding batch after 0.2.14: 39 dietary summaries, nine
+specific eating/collection cases and two frog prey-size rules. Total reviewed
+topic summaries: 1,881. This remains incomplete entity knowledge, with 51 mob
+dietary profiles pending review. See RELEASE_0.2.15.md and ENTITY_FEEDING_PROGRESS.md.
+
+192 tests, API checks, readable build and archive checks pass. Actual-game testing
+is pending. Use only Robot_Test_Checklist-0.2.15.txt for changed features. Both packs
+have fresh version-specific identities. Older downloads remain unchanged.
+
+## Earlier source and release records
+
 # Source work after 0.2.14 — feeding and observed eating
 
 39 reviewed dietary summaries cover all positive sample feeding profiles plus

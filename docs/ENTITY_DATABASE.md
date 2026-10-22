@@ -1,3 +1,10 @@
+# Current test release — 0.2.15
+
+The feeding batch is now packaged: 1,881 reviewed topic summaries across 142
+knowledge subjects. See [0.2.15 changes](RELEASE_0.2.15.md) and the
+[current topic audit](ENTITY_CORE_TOPIC_AUDIT.json). Every subject remains
+incomplete. Counts below preserve the earlier 0.2.14 audit and batch history.
+
 # Current entity audit — 0.2.14
 
 The new [catalog-wide topic audit](ENTITY_CORE_TOPIC_AUDIT.json) reconciles all

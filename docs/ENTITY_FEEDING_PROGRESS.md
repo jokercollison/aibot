@@ -1,3 +1,11 @@
+# Packaged in test release 0.2.15
+
+The source batch below is now included in the downloadable 0.2.15 release.
+Release validation passes 192 automated tests, API checks and archive checks.
+Minecraft testing remains pending. The 0.2.14 download is unchanged.
+
+## Source-stage record
+
 # Source batch after 0.2.14 — feeding purposes and observed eating
 
 39 reviewed dietary summaries now cover all 35 sample-backed positive feeding
