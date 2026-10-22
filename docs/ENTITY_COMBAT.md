@@ -1,3 +1,12 @@
+# Current combat coverage — 0.2.14
+
+153 detailed summaries across 51 entity profiles cover attack style, provocation
+and counterplay. The [0.2.14 audit](ENTITY_AUDIT_0.2.14.md) describes the latest
+48 summaries across 16 additional profiles. The remaining 39 catalog mob profiles
+still require detailed review; basic passive/neutral labels are not completion.
+
+## Earlier batch record
+
 # Combat and protection source batch after 0.2.10
 
 105 author-written summaries across 35 entity subjects cover attack style,

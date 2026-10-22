@@ -27,6 +27,7 @@ export function entityTopic(q) {
   if (/\b(trade|trades|trading|barter)\b/.test(q)) return 'trading';
   if (/\b(ride|riding|saddle|control|mount)\b/.test(q)) return 'transport';
   if(/\b(?:golden dandelion|pause aging|stop growing|stay a baby|stop aging|resume aging)\b/.test(q))return 'age_lock';
+  if (/\b(?:grow|grows|growing|growth|mature|matures|maturing|maturity|adulthood)\b/.test(q) || /\b(?:speed up|accelerate)\b.*\b(?:baby|babies|foal|snifflet|ghastling)\b/.test(q) || /\b(?:baby|babies)\b.*\b(?:become adults?|get bigger)\b/.test(q))return 'growth';
   if (/\b(eat|eats|food|diet|feed|feeding)\b/.test(q)) return 'diet';
   if (/^(?:what (?:is|are)|describe|tell me about)\b/.test(q)) return 'identity';
   const facet=entityFacet(q);if(facet)return facet;
@@ -49,7 +50,7 @@ export function entityAnswer(id,q,variant,requestedTopic) {
   if(['milking','diet','interactions','age_lock'].includes(topic)) {
     const stew=flowerStewAnswer(id,q,variant);if(stew)return stew;
   }
-  if(['diet','healing'].includes(topic) || ['taming','breeding'].includes(topic) && /\b(with|using|feed|eat|food)\b/.test(q)) {
+  if(['diet','healing'].includes(topic) || topic==='growth'&&/\b(with|using|feed|feeding|eat|food)\b/.test(q) || ['taming','breeding'].includes(topic) && /\b(with|using|feed|eat|food)\b/.test(q)) {
     const answer=feedingAnswer(id,q,topic);if(answer)return answer;
   }
   const special=variant && row.variants.find(v=>v.name===variant)?.topics[topic];

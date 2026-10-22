@@ -1,0 +1,854 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Reviewed growth times and suitable acceleration interactions. Timing assumes the mob is actively simulated, with aging enabled; no blanket feeding percentage is inferred.",
+  "references": {
+    "Baby": {
+      "revision_id": 3836104,
+      "sha256": "93fe99e4d029272e36e43425e17f522f56eaa85c578b5498d36181af95ebad2f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3836104"
+    },
+    "Breeding": {
+      "revision_id": 3792652,
+      "sha256": "163d1ecad98780aa236264872d7384d8167909ee2e6522f7c82de8befaab19b5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+    },
+    "Armadillo": {
+      "revision_id": 3844454,
+      "sha256": "5edcd142ae9849ce74698289716a904e597c4a5a487d8a4c9fe45ddffd012713",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+    },
+    "Axolotl": {
+      "revision_id": 3844455,
+      "sha256": "53d5d3d09e872220bebdd4f7f7127145ceaefdbaf6ab01c7ef012635e678e057",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+    },
+    "Bee": {
+      "revision_id": 3844630,
+      "sha256": "4a8f5fda0fd26e0aa03abd7ec0f93e3412f65b2ecdb347b2380cbbec21c9d3b9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+    },
+    "Camel": {
+      "revision_id": 3853630,
+      "sha256": "570d45627ef5a9c2743c8804ac20c8c121f45eee2ebf341b445be745ffdd3d9e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+    },
+    "Cat": {
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+    },
+    "Chicken": {
+      "revision_id": 3850656,
+      "sha256": "f63f4a56a7552145ccdc74700eef465c8bca094756b019d99222a1b9ead4c648",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+    },
+    "Cow": {
+      "revision_id": 3851210,
+      "sha256": "3f0b4febbc9c94cd6b130416afc7877830dcc84086fe931d1be638358334b949",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+    },
+    "Dolphin": {
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+    },
+    "Donkey": {
+      "revision_id": 3850357,
+      "sha256": "fae56e9d56f614afbc3aa8b8d5c82d1f996c602dac1f78b4c64e2b7c2a2a8b9c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+    },
+    "Fox": {
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+    },
+    "Glow Squid": {
+      "revision_id": 3844507,
+      "sha256": "902c9228a1563c46da21a52f66ca9f3cb34117938bec23d22d452ddc77fb81ea",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+    },
+    "Goat": {
+      "revision_id": 3844651,
+      "sha256": "698c6e1b5f9787eceb1e68a4beb2b36ee1cefacfe7659dd831e43b4def8dad1f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+    },
+    "Happy Ghast": {
+      "revision_id": 3853633,
+      "sha256": "e8314d1d4eb1dc39bf0de0541c3ed93c71925fd296c95c93a24945ba7d879ae9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+    },
+    "Hoglin": {
+      "revision_id": 3843704,
+      "sha256": "a5d23adb55e8866b5d4c300f4d296cca138ba7f58ee1e56fe6eb9d16afe1e809",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+    },
+    "Horse": {
+      "revision_id": 3850329,
+      "sha256": "4d7e566bd6c56ef335e2b0df6a46255558e6b00d3ee4c858583e1f4721abe147",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+    },
+    "Llama": {
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+    },
+    "Mooshroom": {
+      "revision_id": 3844535,
+      "sha256": "5641a0c9e3944241e0882871a3e18e057f45a707cc36826236b0bef92f740add",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+    },
+    "Mule": {
+      "revision_id": 3850352,
+      "sha256": "596632d61aa0bf365e43468ff48c94735964987d375be25cead17727adc2abd4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+    },
+    "Nautilus": {
+      "revision_id": 3844669,
+      "sha256": "25558e8f7681fef8556d4221e5ee17551133da4db086bf23ccecad0153faea35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+    },
+    "Ocelot": {
+      "revision_id": 3851711,
+      "sha256": "1fe59c7626abc811c7b06f63805435bef605a8bd666dbbd01e422908ccb2f6ce",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+    },
+    "Panda": {
+      "revision_id": 3846509,
+      "sha256": "527b3a4b259cf897373e5ba57c401ac973a6233aeea000d1653d4ae1c97a9962",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+    },
+    "Pig": {
+      "revision_id": 3847785,
+      "sha256": "41b0bff50a942df1b1335e949f5cfc025dcfadc71c876a012172ecb09261c968",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+    },
+    "Polar Bear": {
+      "revision_id": 3853198,
+      "sha256": "572119f172a030c7ce0126166835838b3426c7f14ffd1d4f68b6867f367df405",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+    },
+    "Rabbit": {
+      "revision_id": 3844604,
+      "sha256": "9d36ef20fb7e1a508371a93ec44352fbcbe9d2177b93f621a5f91cf51132e67f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+    },
+    "Sheep": {
+      "revision_id": 3848879,
+      "sha256": "0510096b093b9a16abe87b903681f0661a074c196fd1db291ae0ce47abea9bca",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+    },
+    "Sniffer": {
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+    },
+    "Squid": {
+      "revision_id": 3844578,
+      "sha256": "8ed0c5b83d0e50887a823bb9d8d5466e8e1da09499eb3a12b0d6385847d39849",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+    },
+    "Strider": {
+      "revision_id": 3844584,
+      "sha256": "415c3ec00da3a60f44e77e04e80da27df294515ebd67f2ad5c14204f74e951d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+    },
+    "Sulfur Cube": {
+      "revision_id": 3853726,
+      "sha256": "31c7803b75cf0517a3664f52e194077b3838a45060323cfbc39e693fe91fb756",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+    },
+    "Tadpole": {
+      "revision_id": 3849184,
+      "sha256": "9a9aa222c9d1b87debe5ff7cdea32c419ab3f2299b3a8da9de91856f7bcd6655",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+    },
+    "Trader Llama": {
+      "revision_id": 3849739,
+      "sha256": "37df095b0f11351fcc086eca588fc7ae22f14a4d6c8056b8a1a7fb802be484fd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+    },
+    "Turtle": {
+      "revision_id": 3846426,
+      "sha256": "a07edbbfee13affef2be3f02e4b394373222e9dc6d8f68c4552f4ae30e17721a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+    },
+    "Villager": {
+      "revision_id": 3849427,
+      "sha256": "84e96339f1a286cf12398f20bdca38f9b3341475f2d34dc308229829bfdccf72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+    },
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    }
+  },
+  "subjects": {
+    "minecraft:armadillo": {
+      "topics": {
+        "growth": {
+          "answer": "A baby armadillo normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it spider eyes while it is unrolled.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "2048492eacb9705e22a107a7efcce360bc65e9a877a4fc5191647fae33ec80ea",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "growth": {
+          "answer": "A baby axolotl normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it buckets of tropical fish, not loose tropical fish.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "axolotl_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "b5769fc320248272ba99099ea435f414f16de71592053350a96a94da0f39c8af",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:bee": {
+      "topics": {
+        "growth": {
+          "answer": "A baby bee normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it a suitable flower such as a dandelion or poppy. Its growth timer pauses while it is inside a nest or hive.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "bee_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "d8734837ccca181af50db24134ba056e50ee1de182eaba3ffcd2d23fbc08d0cf",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:camel": {
+      "topics": {
+        "growth": {
+          "answer": "A baby camel normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it cactus.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:camel_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "55328f8220f04fab0b229205cdacd0db6b5cf45c361a148fd18ba4731ba605a9",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:cat": {
+      "topics": {
+        "growth": {
+          "answer": "A baby cat normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it raw cod or raw salmon.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:cat_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "478a7c8376910c4a9d3be2c10e82e4768d703c5bbb8c49a0d6e4311389f29f4e",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:chicken": {
+      "topics": {
+        "growth": {
+          "answer": "A baby chicken normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it suitable seeds such as wheat seeds.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:chicken_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "0c451859206ed919f5fdd7da625a0b0cb5272de1b410defce45afe34dbdbf25a",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:cow": {
+      "topics": {
+        "growth": {
+          "answer": "A baby cow normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:cow_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "df6fbc9859fb810a7a534251bf05b09f6624629b2a8da56eaaca4bef859290cd",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:dolphin": {
+      "topics": {
+        "growth": {
+          "answer": "A baby dolphin normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it raw cod or raw salmon.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "dolphin_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "d101925f74d069a90fd8a08d716f7df6f6568a1154e728f65b67668508bc3f47",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:donkey": {
+      "topics": {
+        "growth": {
+          "answer": "A baby donkey normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples or hay bales.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:donkey_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "6d2013164da953035e1bfc553efecbeae6b31edcb026d61491fa7bf98d4779b7",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:fox": {
+      "topics": {
+        "growth": {
+          "answer": "A baby fox normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it sweet berries or glow berries.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:fox_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "445568fefe87593872d196d59968846cd443c73508f137c557ae34f580443e15",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:glow_squid": {
+      "topics": {
+        "growth": {
+          "answer": "A baby glow squid normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. Keep it in water while you wait.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:squid_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "82e3ea45eb1cbc060e0d1ca1a81f328fef6bce4b42e8e4b601fbe5951754f5b4",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:goat": {
+      "topics": {
+        "growth": {
+          "answer": "A baby goat normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "goat_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "640106751db4533c69479467e327b268f45705b3f8b1d62f544bc63d268791a0",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:happy_ghast": {
+      "topics": {
+        "growth": {
+          "answer": "A ghastling normally takes about 20 minutes of active game time to become an adult happy ghast. Hydrating a dried ghast happens before this and has its own timer. You can speed this up by feeding it snowballs. In Bedrock, 10 snowballs can fully grow a newly spawned ghastling. It cannot be harnessed or ridden while still a ghastling.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "828f860a1131968482b63298926317714acd20a77cf125f7da6bf6757785c0d8",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:hoglin": {
+      "topics": {
+        "growth": {
+          "answer": "A baby hoglin normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it crimson fungus.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:hoglin_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "d319deb1d78c369af792e0e8990744fc3c17daf5395be43b27e516e1cd506331",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:horse": {
+      "topics": {
+        "growth": {
+          "answer": "A baby horse normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples or hay bales.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:horse_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "06491c7b6a9c3e98c9382e3705d05c7b0103c4c076a356282afca2e674569a59",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "growth": {
+          "answer": "A baby llama normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat or hay bales.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:llama_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "65dfb6df1c51ba61a8931c7881da5e95f3140c2362684baf96d6430a224fe4f4",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:mooshroom": {
+      "topics": {
+        "growth": {
+          "answer": "A baby mooshroom normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:cow_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "b1f2b45edae6dbc4297feccbc5ba4bb33b308927b8243d53679d140512d1f4ca",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:mule": {
+      "topics": {
+        "growth": {
+          "answer": "A baby mule normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples or hay bales. A mule can grow up even though adult mules cannot breed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:mule_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "06ba4b2d5093dee7f6ce2264ce30eb7770f151d490706d4dfb79c3372857b4cb",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:nautilus": {
+      "topics": {
+        "growth": {
+          "answer": "A baby nautilus normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it fish or buckets of fish. In Bedrock, 10 suitable fish or buckets of fish can fully grow a newly spawned baby nautilus.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:nautilus_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "b12bd40f9c2badd5755459c43aae1f60eb67fc6dad753785743ab48c3cc4f271",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:ocelot": {
+      "topics": {
+        "growth": {
+          "answer": "A baby ocelot normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it raw cod or raw salmon.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:ocelot_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "557ea1ef71294437cd3854022e4796a03ab141dd5a06a6f906ce4178acc601f9",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:panda": {
+      "topics": {
+        "growth": {
+          "answer": "A baby panda normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it bamboo.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:panda_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "307985f5570a64e38e2dbda3f72daceb455a3dfbcdac17559fe6c425eb4b31cb",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:pig": {
+      "topics": {
+        "growth": {
+          "answer": "A baby pig normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it carrots, potatoes or beetroot.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:pig_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "cc4c5cb3f2efb0defebf397c3aaa3a830446c1b9a608fb66e164b2c527886ee0",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:polar_bear": {
+      "topics": {
+        "growth": {
+          "answer": "A baby polar bear normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. A golden dandelion can pause its age, but that is different from accelerating growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "b493fb2ecee58f8adc03f9a428e67c9eb249ef17cbb0c1a426ca18e3fa9de374",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:rabbit": {
+      "topics": {
+        "growth": {
+          "answer": "A baby rabbit normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it carrots, golden carrots or dandelions.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "b233e2b5b76702b83478c37e0802632503af7578f1d36e9f3dc54336fd378cbc",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:sheep": {
+      "topics": {
+        "growth": {
+          "answer": "A baby sheep normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat. Eating grass also helps a baby sheep grow.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:sheep_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "cf889c9ed1f421360504ab14cfdd98b6c4b3b894b3998273f7f8a42e77764cac",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:sniffer": {
+      "topics": {
+        "growth": {
+          "answer": "A snifflet normally takes about 40 minutes of active game time to become an adult sniffer. Egg hatching is a separate timer. You can speed this up by feeding it torchflower seeds.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "sniffer_baby",
+        "duration_seconds": 2400,
+        "sample_sha256": "b0b9fde7c03728d594b27ac3c3091e16ab75ed3f7c8966b679bb9763bcf830fc",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:squid": {
+      "topics": {
+        "growth": {
+          "answer": "A baby squid normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. Keep it in water while you wait.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/squid.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:squid_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "83e1ab2b2acbe5f379fb8d05e33a419b6fbbf601193047961eb74287215c8f67",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:strider": {
+      "topics": {
+        "growth": {
+          "answer": "A baby strider normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it warped fungus.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:strider_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "d12f8a4be612e2c83fa490693d8447ab266dd257663770155399cc2131eca49e",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:sulfur_cube": {
+      "topics": {
+        "growth": {
+          "answer": "A small sulfur cube normally takes about 20 minutes of active game time to grow into a large sulfur cube. You can speed this up by feeding it slimeballs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sulfur_cube.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:sulfur_cube_small",
+        "duration_seconds": 1200,
+        "sample_sha256": "91fc1312c7f51f6b840db526fd18d15d75a65a3cf02943862b09373d676d42e6",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:tadpole": {
+      "topics": {
+        "growth": {
+          "answer": "A tadpole normally takes about 20 minutes of active game time to become a frog. The biome where it grows up determines its frog variant. You can speed this up by feeding it slimeballs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "base",
+        "duration_seconds": 1200,
+        "sample_sha256": "3680d7f13bed479b6b1511be7b6210651c04d1daf48dce6f6d365f3c715500a9",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:trader_llama": {
+      "topics": {
+        "growth": {
+          "answer": "A baby trader llama normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat or hay bales.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:llama_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "1b854457e41b467379b420c96cf60e0ea01d7650d9b5842fc21f6cd8f4867de3",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:turtle": {
+      "topics": {
+        "growth": {
+          "answer": "A baby turtle normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it seagrass. It drops a turtle scute when it becomes an adult; killing the baby is not how to obtain that scute.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "3ed8660b75fdc6e7ed0e4656ff4702433c4a3149c2abe58770dce6643dc2e121",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:villager": {
+      "topics": {
+        "growth": {
+          "answer": "A baby villager normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. A golden dandelion cannot freeze a baby villager’s age. Riding in a boat or minecart does not stop its normal growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "cfc6572fa126fe0d15f7882fbad983772ed415ab278a33275365249833dcbbd8",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:villager_v2": {
+      "topics": {
+        "growth": {
+          "answer": "A baby villager v2 normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. A golden dandelion cannot freeze a baby villager’s age. Riding in a boat or minecart does not stop its normal growth.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager_v2.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "4ddafc6f089c847c467e9b267a612703b7979b95d734b0211e7767602a23ca22",
+        "food_roles_checked": true
+      }
+    },
+    "minecraft:wolf": {
+      "topics": {
+        "growth": {
+          "answer": "A baby wolf normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it suitable meat such as beef or rotten flesh, not fish.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+            "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+            "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
+          ]
+        }
+      },
+      "evidence": {
+        "sample_scope": "minecraft:wolf_baby",
+        "duration_seconds": 1200,
+        "sample_sha256": "f5698390df1d656b005f434ce40d12743f42de6d9dce430c7afd3094f689792f",
+        "food_roles_checked": true
+      }
+    }
+  }
+}

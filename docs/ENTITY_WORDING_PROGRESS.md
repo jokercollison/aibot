@@ -1,3 +1,10 @@
+# Packaged in 0.2.14
+
+The source changes below are now included in the 0.2.14 test download, along with
+the new growth/combat batch. Full validation passes 186 tests. The earlier
+0.2.13 download remains unchanged. Earlier source-stage counts below describe
+the checkpoints before packaging; they are not the latest release total.
+
 # Source work started after 0.2.13: age wording and short follow-ups
 
 The published 0.2.13 artifact remains unchanged with its 172-test release record.

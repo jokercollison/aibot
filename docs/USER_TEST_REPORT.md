@@ -1,3 +1,10 @@
+# Current testing status: 0.2.14 pending
+
+0.2.14 passed automated checks, not execution in Minecraft. Its growth/combat
+and accumulated follow-up changes need the focused checklist. No new user-reported
+pass is inferred for 0.2.12, 0.2.13 or 0.2.14. Multiplayer and device performance
+remain untested. Earlier user-reported 0.2.11 results are preserved below.
+
 # Latest testing status: 0.2.12 pending
 
 The user reports they have not yet had a chance to test and asks development to

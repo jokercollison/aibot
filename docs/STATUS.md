@@ -1,3 +1,18 @@
+# Current test release: 0.2.14 — entity audit, growth and combat
+
+All 129 pinned entity IDs have a core-topic audit. Growth guidance is reviewed
+for all 35 explicit ageable profiles; 16 more combat profiles now have attack,
+provocation and counterplay summaries. The total is 1,842 reviewed summaries,
+not complete entity knowledge. See ENTITY_AUDIT_0.2.14.md and RELEASE_0.2.14.md.
+
+Packages the wording and follow-up changes developed after 0.2.13. All 186 tests,
+API checks, readable build and packaging checks pass. Actual-game testing is
+pending; use only Robot_Test_Checklist-0.2.14.txt for changed features. Older
+downloads remain unchanged. Remaining topic gaps stay explicit in
+ENTITY_CORE_TOPIC_AUDIT.json; entity work is still ongoing.
+
+## Earlier source and release records
+
 # Source development after 0.2.13: wording and follow-up audit
 
 Started the next batch with age-negation, parent/offspring wording and short

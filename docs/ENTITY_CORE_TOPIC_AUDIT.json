@@ -1,0 +1,4794 @@
+{
+  "scope": "Every pinned Bedrock catalog entity; additional wiki reference subjects are excluded from this denominator.",
+  "catalog_entities": 129,
+  "mobs": 90,
+  "other_entities": 39,
+  "completion_rule": "Reviewed summaries are partial. Basic identity, component facts and missing topics remain distinct. A pending topic may need a sourced not-applicable answer; absence is never proof of impossibility.",
+  "topic_counts": {
+    "attack_style": {
+      "pending_review": 39,
+      "reviewed_summary": 51
+    },
+    "availability": {
+      "pending_review": 36,
+      "reviewed_summary": 3
+    },
+    "breeding": {
+      "reviewed_summary": 90
+    },
+    "counterplay": {
+      "pending_review": 39,
+      "reviewed_summary": 51
+    },
+    "diet": {
+      "pending_review": 55,
+      "scoped_sample_interactions": 35
+    },
+    "drops": {
+      "pending_review": 29,
+      "reviewed_summary": 100
+    },
+    "experience": {
+      "reviewed_summary": 90
+    },
+    "growth": {
+      "pending_review": 49,
+      "reviewed_summary": 41
+    },
+    "health": {
+      "pending_review": 37,
+      "reviewed_summary": 32,
+      "sample_component_summary": 60
+    },
+    "identity": {
+      "editorial_basic_summary": 129
+    },
+    "interactions": {
+      "pending_review": 54,
+      "reviewed_summary": 75
+    },
+    "lifetime": {
+      "pending_review": 60,
+      "reviewed_summary": 30
+    },
+    "provocation": {
+      "pending_review": 39,
+      "reviewed_summary": 51
+    },
+    "relocation": {
+      "pending_review": 63,
+      "reviewed_summary": 27
+    },
+    "spawn_conditions": {
+      "reviewed_summary": 90
+    },
+    "spawning": {
+      "pending_review": 2,
+      "reviewed_summary": 127
+    },
+    "taming": {
+      "reviewed_summary": 90
+    },
+    "variants": {
+      "reviewed_summary": 90
+    }
+  },
+  "subjects": {
+    "minecraft:agent": {
+      "name": "Agent",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior"
+      ],
+      "pending_core_topics": [
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:allay": {
+      "name": "Allay",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "delivery",
+        "equipment_drops",
+        "fire",
+        "item_holding",
+        "leashing",
+        "music",
+        "storage",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:area_effect_cloud": {
+      "name": "Area Effect Cloud",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:armadillo": {
+      "name": "Armadillo",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "brushing",
+        "combat",
+        "defense",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "rolling",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:armor_stand": {
+      "name": "Armor Stand",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "pending_review",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "health": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "equipment",
+        "posing",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "spawning",
+        "availability"
+      ],
+      "complete": false
+    },
+    "minecraft:arrow": {
+      "name": "Arrow",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:axolotl": {
+      "name": "Axolotl",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "bucketing",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "playing_dead",
+        "sunlight",
+        "support",
+        "water"
+      ],
+      "pending_core_topics": [],
+      "complete": false
+    },
+    "minecraft:bat": {
+      "name": "Bat",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fall_damage",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:bee": {
+      "name": "Bee",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "anger",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fall_damage",
+        "fire",
+        "harvesting",
+        "land",
+        "leashing",
+        "pollination",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:blaze": {
+      "name": "Blaze",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fall_damage",
+        "fire",
+        "powder_snow",
+        "rain",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:boat": {
+      "name": "Boat",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage",
+        "transport"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:bogged": {
+      "name": "Bogged",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "shearing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:breeze": {
+      "name": "Breeze",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fall_damage",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:breeze_wind_charge_projectile": {
+      "name": "Breeze Wind Charge Projectile",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:camel": {
+      "name": "Camel",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:camel_husk": {
+      "name": "Camel Husk",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "growth",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:cat": {
+      "name": "Cat",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_ownership",
+        "collar",
+        "combat",
+        "defense",
+        "experience_baby",
+        "experience_breeding",
+        "fall_damage",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sitting",
+        "sleeping",
+        "sunlight",
+        "teleportation",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:cave_spider": {
+      "name": "Cave Spider",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:chest_boat": {
+      "name": "Chest Boat",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage",
+        "transport"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:chest_minecart": {
+      "name": "Chest Minecart",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage",
+        "transport"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:chicken": {
+      "name": "Chicken",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fall_damage",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:cod": {
+      "name": "Cod",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "bucketing",
+        "combat",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:command_block_minecart": {
+      "name": "Command Block Minecart",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:copper_golem": {
+      "name": "Copper Golem",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "construction",
+        "delivery",
+        "fall_damage",
+        "fire",
+        "leashing",
+        "oxidation",
+        "reactivation",
+        "storage",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:cow": {
+      "name": "Cow",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "milking",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:creaking": {
+      "name": "Creaking",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight",
+        "vibrations"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:creeper": {
+      "name": "Creeper",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "anger",
+        "behavior",
+        "combat",
+        "fire",
+        "lightning",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:cushion": {
+      "name": "Cushion",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "pending_review",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "retrieval",
+        "transport"
+      ],
+      "pending_core_topics": [
+        "spawning",
+        "availability",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:dolphin": {
+      "name": "Dolphin",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "combat",
+        "experience_baby",
+        "fire",
+        "land",
+        "leashing",
+        "speed",
+        "sunlight",
+        "treasure",
+        "water"
+      ],
+      "pending_core_topics": [],
+      "complete": false
+    },
+    "minecraft:donkey": {
+      "name": "Donkey",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_ownership",
+        "combat",
+        "equipment",
+        "equipment_drops",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "storage",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:dragon_fireball": {
+      "name": "Dragon Fireball",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:drowned": {
+      "name": "Drowned",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "drops_conversion",
+        "drops_shell",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:egg": {
+      "name": "Egg",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "hatching",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:elder_guardian": {
+      "name": "Elder Guardian",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:ender_crystal": {
+      "name": "Ender Crystal",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "activation",
+        "behavior",
+        "combat",
+        "fire",
+        "projectile_effects",
+        "retrieval",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:ender_dragon": {
+      "name": "Ender Dragon",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "construction",
+        "fall_damage",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:ender_pearl": {
+      "name": "Ender Pearl",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:enderman": {
+      "name": "Enderman",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "anger",
+        "behavior",
+        "combat",
+        "fire",
+        "rain",
+        "sunlight",
+        "teleportation",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:endermite": {
+      "name": "Endermite",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:evocation_illager": {
+      "name": "Evocation Illager",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:eye_of_ender_signal": {
+      "name": "Eye Of Ender Signal",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:fireball": {
+      "name": "Fireball",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:fireworks_rocket": {
+      "name": "Fireworks Rocket",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:fishing_hook": {
+      "name": "Fishing Hook",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:fox": {
+      "name": "Fox",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "drops_consumed_food",
+        "drops_totem",
+        "equipment_drops",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "item_holding",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "trust",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:frog": {
+      "name": "Frog",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_breeding",
+        "fire",
+        "froglights",
+        "hatching",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "growth",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:ghast": {
+      "name": "Ghast",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fall_damage",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:glow_squid": {
+      "name": "Glow Squid",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "combat",
+        "experience_baby",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:goat": {
+      "name": "Goat",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "horns",
+        "land",
+        "leashing",
+        "milking",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:guardian": {
+      "name": "Guardian",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:happy_ghast": {
+      "name": "Happy Ghast",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "combat",
+        "equipment",
+        "equipment_drops",
+        "experience_baby",
+        "fall_damage",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:hoglin": {
+      "name": "Hoglin",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "conversion",
+        "experience_baby",
+        "fire",
+        "leashing",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:hopper_minecart": {
+      "name": "Hopper Minecart",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:horse": {
+      "name": "Horse",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_ownership",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:husk": {
+      "name": "Husk",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:iron_golem": {
+      "name": "Iron Golem",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "construction",
+        "fall_damage",
+        "fire",
+        "leashing",
+        "repair",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:lightning_bolt": {
+      "name": "Lightning Bolt",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "activation",
+        "behavior",
+        "projectile_effects",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:lingering_potion": {
+      "name": "Lingering Potion",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:llama": {
+      "name": "Llama",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_ownership",
+        "combat",
+        "equipment",
+        "equipment_drops",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "storage",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:llama_spit": {
+      "name": "Llama Spit",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:magma_cube": {
+      "name": "Magma Cube",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fall_damage",
+        "fire",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:minecart": {
+      "name": "Minecart",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage",
+        "transport"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:mooshroom": {
+      "name": "Mooshroom",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "conversion",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "lightning",
+        "milking",
+        "powder_snow",
+        "shearing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:mule": {
+      "name": "Mule",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "combat",
+        "equipment",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "storage",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:nautilus": {
+      "name": "Nautilus",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "equipment",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:npc": {
+      "name": "Npc",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:ocelot": {
+      "name": "Ocelot",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fall_damage",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "trust",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:ominous_item_spawner": {
+      "name": "Ominous Item Spawner",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "activation",
+        "behavior",
+        "projectile_effects",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:panda": {
+      "name": "Panda",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_conditions",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:parched": {
+      "name": "Parched",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:parrot": {
+      "name": "Parrot",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment",
+        "fall_damage",
+        "fire",
+        "food_safety",
+        "imitation",
+        "land",
+        "leashing",
+        "music",
+        "powder_snow",
+        "shoulder",
+        "sitting",
+        "sunlight",
+        "teleportation",
+        "water"
+      ],
+      "pending_core_topics": [
+        "growth",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:phantom": {
+      "name": "Phantom",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:pig": {
+      "name": "Pig",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "lightning",
+        "powder_snow",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:piglin": {
+      "name": "Piglin",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "anger",
+        "behavior",
+        "combat",
+        "conversion",
+        "drops_gold",
+        "drops_pork",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "trading"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:piglin_brute": {
+      "name": "Piglin Brute",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "equipment_drops",
+        "fire",
+        "sunlight",
+        "trading"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:pillager": {
+      "name": "Pillager",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:player": {
+      "name": "Player",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "reviewed_summary",
+        "health": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "experience",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions"
+      ],
+      "complete": false
+    },
+    "minecraft:polar_bear": {
+      "name": "Polar Bear",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "combat",
+        "experience_baby",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:pufferfish": {
+      "name": "Pufferfish",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "bucketing",
+        "combat",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions"
+      ],
+      "complete": false
+    },
+    "minecraft:rabbit": {
+      "name": "Rabbit",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:ravager": {
+      "name": "Ravager",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:salmon": {
+      "name": "Salmon",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "bucketing",
+        "combat",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:sheep": {
+      "name": "Sheep",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "naming",
+        "powder_snow",
+        "shearing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:shulker": {
+      "name": "Shulker",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment",
+        "fire",
+        "sunlight",
+        "teleportation"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:shulker_bullet": {
+      "name": "Shulker Bullet",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:silverfish": {
+      "name": "Silverfish",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:skeleton": {
+      "name": "Skeleton",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "equipment_drops",
+        "fire",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:skeleton_horse": {
+      "name": "Skeleton Horse",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "fire",
+        "leashing",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:slime": {
+      "name": "Slime",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:small_fireball": {
+      "name": "Small Fireball",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:sniffer": {
+      "name": "Sniffer",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_conditions",
+        "breeding_health",
+        "combat",
+        "digging",
+        "digging_age",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "hatching",
+        "land",
+        "leashing",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:snow_golem": {
+      "name": "Snow Golem",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "construction",
+        "fall_damage",
+        "fire",
+        "leashing",
+        "powder_snow",
+        "rain",
+        "shearing",
+        "sunlight",
+        "temperature",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:snowball": {
+      "name": "Snowball",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:spider": {
+      "name": "Spider",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:splash_potion": {
+      "name": "Splash Potion",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:squid": {
+      "name": "Squid",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "combat",
+        "experience_baby",
+        "land",
+        "leashing",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:stray": {
+      "name": "Stray",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:strider": {
+      "name": "Strider",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "leashing",
+        "powder_snow",
+        "rain",
+        "sunlight",
+        "temperature",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:sulfur_cube": {
+      "name": "Sulfur Cube",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "bucketing",
+        "combat",
+        "experience_baby",
+        "fire",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:tadpole": {
+      "name": "Tadpole",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "bucketing",
+        "combat",
+        "fire",
+        "hatching",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:thrown_trident": {
+      "name": "Thrown Trident",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:tnt": {
+      "name": "Tnt",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "activation",
+        "behavior",
+        "projectile_effects",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:tnt_minecart": {
+      "name": "Tnt Minecart",
+      "category": "vehicle",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "propulsion",
+        "retrieval",
+        "storage"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:trader_llama": {
+      "name": "Trader Llama",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_ownership",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "storage",
+        "sunlight",
+        "transport",
+        "water"
+      ],
+      "pending_core_topics": [
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:tripod_camera": {
+      "name": "Tripod Camera",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior"
+      ],
+      "pending_core_topics": [
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:tropicalfish": {
+      "name": "Tropicalfish",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "bucketing",
+        "combat",
+        "fire",
+        "land",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:turtle": {
+      "name": "Turtle",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "sample_component_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "pending_review",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "combat",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "harvesting",
+        "hatching",
+        "land",
+        "leashing",
+        "nesting",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "lifetime"
+      ],
+      "complete": false
+    },
+    "minecraft:vex": {
+      "name": "Vex",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:villager": {
+      "name": "Villager",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_conditions",
+        "combat",
+        "conversion",
+        "experience_breeding",
+        "fire",
+        "leashing",
+        "lightning",
+        "profession",
+        "restocking",
+        "sleeping",
+        "sunlight",
+        "trading"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:villager_v2": {
+      "name": "Villager V2",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "behavior",
+        "breeding_age",
+        "breeding_conditions",
+        "combat",
+        "conversion",
+        "experience_breeding",
+        "fire",
+        "leashing",
+        "lightning",
+        "profession",
+        "restocking",
+        "sleeping",
+        "sunlight",
+        "trading"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:vindicator": {
+      "name": "Vindicator",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "sunlight"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:wandering_trader": {
+      "name": "Wandering Trader",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "leashing",
+        "sunlight",
+        "trading"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:warden": {
+      "name": "Warden",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "fire",
+        "sunlight",
+        "vibrations"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:wind_charge_projectile": {
+      "name": "Wind Charge Projectile",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:witch": {
+      "name": "Witch",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:wither": {
+      "name": "Wither",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "construction",
+        "fire",
+        "powder_snow",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:wither_skeleton": {
+      "name": "Wither Skeleton",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment_drops",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:wither_skull": {
+      "name": "Wither Skull",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:wither_skull_dangerous": {
+      "name": "Wither Skull Dangerous",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "pending_review",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "interactions",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:wolf": {
+      "name": "Wolf",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "age_lock",
+        "anger",
+        "behavior",
+        "breeding_age",
+        "breeding_health",
+        "breeding_ownership",
+        "collar",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "experience_breeding",
+        "fire",
+        "land",
+        "leashing",
+        "powder_snow",
+        "repair",
+        "sitting",
+        "sunlight",
+        "teleportation",
+        "water"
+      ],
+      "pending_core_topics": [],
+      "complete": false
+    },
+    "minecraft:xp_bottle": {
+      "name": "Xp Bottle",
+      "category": "projectile",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "experience",
+        "projectile_effects",
+        "projectile_use",
+        "retrieval"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:xp_orb": {
+      "name": "Xp Orb",
+      "category": "other_entity",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "availability": "pending_review",
+        "interactions": "reviewed_summary",
+        "drops": "pending_review",
+        "health": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "experience",
+        "retrieval",
+        "storage"
+      ],
+      "pending_core_topics": [
+        "availability",
+        "drops",
+        "health"
+      ],
+      "complete": false
+    },
+    "minecraft:zoglin": {
+      "name": "Zoglin",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "experience_baby",
+        "fire",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "growth",
+        "interactions",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie": {
+      "name": "Zombie",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_horse": {
+      "name": "Zombie Horse",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment",
+        "experience_baby",
+        "fire",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_nautilus": {
+      "name": "Zombie Nautilus",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "scoped_sample_interactions",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "pending_review",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "pending_review",
+        "attack_style": "pending_review",
+        "provocation": "pending_review",
+        "counterplay": "pending_review",
+        "lifetime": "reviewed_summary",
+        "relocation": "reviewed_summary"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "equipment",
+        "equipment_drops",
+        "fire",
+        "leashing",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "growth",
+        "interactions",
+        "attack_style",
+        "provocation",
+        "counterplay"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_pigman": {
+      "name": "Zombie Pigman",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "pending_review",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "anger",
+        "behavior",
+        "combat",
+        "conversion",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "lifetime",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_villager": {
+      "name": "Zombie Villager",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "curing",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "relocation"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_villager_v2": {
+      "name": "Zombie Villager V2",
+      "category": "mob",
+      "core_topics": {
+        "identity": "editorial_basic_summary",
+        "spawning": "reviewed_summary",
+        "spawn_conditions": "reviewed_summary",
+        "health": "reviewed_summary",
+        "diet": "pending_review",
+        "taming": "reviewed_summary",
+        "breeding": "reviewed_summary",
+        "growth": "reviewed_summary",
+        "drops": "reviewed_summary",
+        "experience": "reviewed_summary",
+        "variants": "reviewed_summary",
+        "interactions": "reviewed_summary",
+        "attack_style": "reviewed_summary",
+        "provocation": "reviewed_summary",
+        "counterplay": "reviewed_summary",
+        "lifetime": "reviewed_summary",
+        "relocation": "pending_review"
+      },
+      "other_connected_topics": [
+        "behavior",
+        "combat",
+        "conversion",
+        "curing",
+        "equipment_drops",
+        "experience_baby",
+        "fire",
+        "sunlight",
+        "water"
+      ],
+      "pending_core_topics": [
+        "diet",
+        "relocation"
+      ],
+      "complete": false
+    }
+  },
+  "complete": false
+}

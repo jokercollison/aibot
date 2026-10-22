@@ -29,7 +29,7 @@ def compile():
   durations={b['duration'] for b in babies if isinstance(b.get('duration'),(int,float)) and b['duration']>0}
   if len(durations)==1:
    seconds=next(iter(durations));time=f'{seconds/60:g} minutes' if seconds%60==0 else f'{seconds:g} seconds'
-   facts['growth']={'answer':f'A baby normally grows up after about {time} of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.','coverage':'explicit_sample_environment','sources':[source]}
+   facts['growth']={'answer':f'A baby normally grows up after about {time} of active game time. Paused or unloaded conditions can change elapsed real time. Ask about suitable food before trying to speed up growth.','coverage':'explicit_sample_environment','sources':[source]}
   triggers=base.get('minecraft:damage_sensor',{}).get('triggers',[])
   if isinstance(triggers,dict):triggers=[triggers]
   if any(t.get('cause')=='fall' and t.get('deals_damage')=='no' and not t.get('on_damage',{}).get('filters') for t in triggers):facts['fall_damage']={'answer':'It does not take ordinary fall damage. Other damage sources can still hurt it.','coverage':'explicit_sample_environment','sources':[source]}

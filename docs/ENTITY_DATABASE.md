@@ -1,3 +1,18 @@
+# Current entity audit — 0.2.14
+
+The new [catalog-wide topic audit](ENTITY_CORE_TOPIC_AUDIT.json) reconciles all
+129 pinned catalog entities (90 mobs and 39 other entities). It distinguishes
+reviewed summaries, scoped component facts, basic descriptions and pending review.
+Feeding roles count as scoped dietary coverage, not a complete diet article.
+Pending topics may need a sourced not-applicable answer; absence is not proof.
+
+0.2.14 contains 1,842 reviewed summaries across 142 knowledge subjects, plus
+185 component-backed summaries and 326 basic summaries. Variant counts remain
+178 records with 520 topic summaries. These counts overlap neither full wiki
+articles nor a claim that an entity is complete. See [this batch](ENTITY_AUDIT_0.2.14.md).
+
+The sections below preserve earlier batch history and explain the data path.
+
 # Entity knowledge work — test release 0.2.8
 
 Work order: entities, blocks, items. Minecraft knowledge comes before additional

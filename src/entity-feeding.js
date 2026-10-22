@@ -46,7 +46,7 @@ export function feedingAnswer(id,q,topic) {
  if(withheld)return {status:'unknown',answer:withheld.answer,subject:id,topic:'diet',sources:food.sources};
  if(hazard&&id==='minecraft:parrot'&&requested==='minecraft:cookie'&&row.topics.food_safety)return {status:'conditional',answer:row.topics.food_safety.answer,subject:id,topic:'diet',sources:row.topics.food_safety.sources};
  if(hazard)return {status:'conditional',answer:`Do not feed it ${hazard.name}; that interaction applies a harmful effect rather than healing it.`,subject:id,topic:'diet',sources:food.sources};
- const role=/\b(heal|healing|restore|recover)\b/.test(q)?'healing':/\b(grow|growth|baby|babies)\b/.test(q)&&topic!=='breeding'?'growth':topic==='taming'?'taming':topic==='breeding'?'breeding':null;
+ const role=/\b(heal|healing|restore|recover)\b/.test(q)?'healing':(topic==='growth'||/\b(grow|growth|baby|babies)\b/.test(q))&&topic!=='breeding'?'growth':topic==='taming'?'taming':topic==='breeding'?'breeding':null;
  const selected=role?[[role,food.roles[role]??[]]]:Object.entries(food.roles);
  if(!selected.some(([,items])=>items.length))return null;
  const lines=[];

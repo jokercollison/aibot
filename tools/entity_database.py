@@ -3,6 +3,7 @@ import json
 from entity_topics import feeding, health, sample_url
 from entity_environment import compile as compile_environment
 from entity_spawning import compile as compile_spawning
+from entity_audit import compile_audit
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def build():
@@ -19,6 +20,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ growth_data=json.loads((ROOT/'data/entities/growth_editorial.json').read_text())
  condition_data=json.loads((ROOT/'data/entities/condition_editorial.json').read_text())
  object_data=json.loads((ROOT/'data/entities/object_editorial.json').read_text())
  movement_data=json.loads((ROOT/'data/entities/movement_editorial.json').read_text())
@@ -33,7 +35,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{}),**growth_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -87,6 +89,7 @@ def build():
  (ROOT/'docs/ENTITY_OBJECT_COVERAGE.json').write_text(json.dumps(object_audit,indent=2)+'\n')
  condition_audit={'scope':condition_data['scope'],'reviewed_subjects':len(condition_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in condition_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in condition_data['subjects'].items()}}
  (ROOT/'docs/ENTITY_CONDITION_COVERAGE.json').write_text(json.dumps(condition_audit,indent=2)+'\n')
+ (ROOT/'docs/ENTITY_CORE_TOPIC_AUDIT.json').write_text(json.dumps(compile_audit(json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects'],runtime),indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")
 if __name__=='__main__':build()

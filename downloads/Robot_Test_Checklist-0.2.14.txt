@@ -1,0 +1,59 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.14
+CHANGED FEATURES ONLY — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.14.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.14
+  Time Trap Studios AI Bot — Resources 0.2.14
+Descriptions and menu must show 0.2.14.
+Optional summon: /summon tts_ai_bot_v0_2_14:robot
+
+GROWTH
+1. How long does a baby cow take to grow up?
+   Expect about 20 active minutes; wheat can help.
+   Then: Can I grow it with carrots?
+   Expect No, with wheat guidance; keep the cow as subject.
+2. How long does a sniffer take to mature?
+   Expect 40 minutes and torchflower seeds; hatching is a separate timer.
+3. Can I speed up a baby villager with food?
+   Expect feeding does not speed growth, about 20 minutes; no golden-dandelion lock.
+   Repeat with baby squid or polar bear: no food acceleration.
+4. How long does a ghastling take to grow?
+   Expect 20 minutes or 10 snowballs in Bedrock; dried-ghast hydration is separate.
+5. Can I grow a baby axolotl with tropical fish?
+   Expect buckets of tropical fish, not loose fish. Subject stays axolotl.
+6. How long does a baby bee take to grow?
+   Expect about 20 minutes, suitable flowers, timer paused inside nest/hive.
+
+COMBAT
+7. How do pillagers attack underwater?
+   Expect Bedrock melee. Then: How do I defeat it?
+   Expect cover and no waiting for its crossbow to break.
+8. How does a drowned attack?
+   Expect melee or naturally equipped trident throws; picked-up tridents are melee.
+9. How do I defeat a wither?
+   Expect half-health projectile armor, later-phase hazards and death explosion.
+10. How do I defeat the ender dragon?
+    Expect crystals/head/breath guidance; arrows/tridents ineffective while perched.
+11. How does a snow golem attack?
+    Expect snowball knockback, damage to blazes but not ordinary monster damage.
+12. How do I defeat a silverfish?
+    Expect one-hit prevention of reinforcements and Silk Touch for infested blocks.
+
+ACCUMULATED FOLLOW-UP FIXES
+13. How much XP does a baby zombie drop?
+    Then: What about adults?
+    Then: And babies?
+    Expect 12 base -> 5 base -> 12 base XP.
+14. Can cows that are not babies breed?
+    Expect adult wheat guidance, not a baby rejection.
+15. How do I tame a wolf?
+    Then: What about the ashen one?
+    Expect taming/bones guidance, not a generic description.
+    Then: Where can I find wolves?
+    Then: What about woods?
+    Expect location guidance for woods wolves.
+
+No need to repeat all old checklists. Report the exact question and answer if
+something is wrong. This is an early test build with incomplete entity knowledge.
+Multiplayer and actual phone/console performance remain separate checks.

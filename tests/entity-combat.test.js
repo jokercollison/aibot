@@ -36,3 +36,25 @@ test('combat follow-ups preserve the subject and switch topic without an extra r
  c.ask('What is a creeper?');assert.match(c.ask('How do I defeat it?').answer,/Back away/);
  assert.match(c.ask('How much XP does it drop?').answer,/5 experience points/);
 });
+
+test('expanded combat retains Bedrock mechanics and species-specific counterplay',()=>{
+ assert.match(ask('How do pillagers attack underwater?').answer,/melee attacks while underwater/);
+ assert.match(ask('How do I defeat a pillager?').answer,/crossbow to break will not disarm/);
+ assert.match(ask('How does a drowned attack?').answer,/picked up a trident does not gain/);
+ assert.match(ask('How does a husk attack?').answer,/Hunger.*blocked hit does not apply/);
+ assert.match(ask('How does an evoker attack?').answer,/fangs.*vexes.*bypasses ordinary armor/);
+ assert.match(ask('How do I defeat a wither?').answer,/half health.*anti-projectile.*death explosion/);
+ assert.match(ask('How do I defeat the ender dragon?').answer,/perched.*immune to arrows and thrown tridents/);
+ assert.match(ask('How does a pufferfish attack?').answer,/Poison for 10 seconds/);
+ assert.match(ask('Why is a goat attacking me?').answer,/without being hit first/);
+ assert.match(ask('How do I defeat a silverfish?').answer,/one-hit kill.*Silk Touch/);
+ assert.match(ask('How does a snow golem attack?').answer,/knockback without health damage.*blazes/);
+ assert.match(ask('How does an axolotl attack?').answer,/passive toward players.*kill fish/);
+});
+
+test('combat variant follow-ups preserve attack, provocation and counterplay topics',()=>{
+ for(const q of ['How does a goat attack?','Why is a goat attacking me?','How do I defeat a goat?']) {
+  const c=createConversation(),first=c.ask(q),next=c.ask('what about the screamer one');
+  assert.equal(next.subject,'minecraft:goat');assert.equal(next.topic,first.topic);
+ }
+});

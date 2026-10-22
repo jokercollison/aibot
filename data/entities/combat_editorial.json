@@ -177,6 +177,81 @@
       "revision_id": 3843713,
       "sha256": "be80460b2e3b47cd1bc907e33d67aff0643b2db84534a69a0c94873c8a0faa35",
       "url": "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+    },
+    "Zombie": {
+      "revision_id": 3851907,
+      "sha256": "a09aad980011a31e335cbe861e87d135f3c0b2eae9123d70a43f510dd50860a9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+    },
+    "Husk": {
+      "revision_id": 3851908,
+      "sha256": "e600ebc5b5c2d12a6b77168d4a8fbf200bff6d96e7a7d59149a41a76d3632c44",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+    },
+    "Drowned": {
+      "revision_id": 3851909,
+      "sha256": "cbdd5a06530ac56754002e954e2b306550b4cc1737a13779011bf90055f87973",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+    },
+    "Zombie Villager": {
+      "revision_id": 3851910,
+      "sha256": "3053b3baaeaf5f67f94b9d6b4936c59de66765b0d915a64dcfaf3cc903881e2b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+    },
+    "Evoker": {
+      "revision_id": 3853175,
+      "sha256": "e74c10d67daa7e526b18174ebfe7ad902534d611ed2bcae58ca22fab98600897",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+    },
+    "Pillager": {
+      "revision_id": 3843714,
+      "sha256": "8d5480e4b607a3a7bf85765e3fa70efc20b7009e8762342001111f1ff620630c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+    },
+    "Vindicator": {
+      "revision_id": 3848438,
+      "sha256": "5dd9eebfebd1b212597ae1b96e4100241c7c101e6a02de9fe21944d082b0f81d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+    },
+    "Wither": {
+      "revision_id": 3846728,
+      "sha256": "1b2c7688549032715caa147b97704cf8e34f3a0987454339005448594e9d721c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+    },
+    "Ender Dragon": {
+      "revision_id": 3851987,
+      "sha256": "35cbcc55b0d177cb7f5389d80a6dad87b1846d9b4db421e118562f49aa9cb277",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+    },
+    "Pufferfish": {
+      "revision_id": 3844681,
+      "sha256": "d666017b6a0e508158626c768cfaa90cb6e4d7a67213902a89734cb9e61d9c72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+    },
+    "Silverfish": {
+      "revision_id": 3843709,
+      "sha256": "ebcc09c8f3749393963f45c426c95de23f9a842195ca2e241e9d7447890eec60",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+    },
+    "Endermite": {
+      "revision_id": 3843703,
+      "sha256": "725d08bd3d3e09c85350574e15b165a66740a9cdd09579c736cee6bea8c5aa3f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+    },
+    "Goat": {
+      "revision_id": 3844651,
+      "sha256": "698c6e1b5f9787eceb1e68a4beb2b36ee1cefacfe7659dd831e43b4def8dad1f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+    },
+    "Axolotl": {
+      "revision_id": 3844455,
+      "sha256": "53d5d3d09e872220bebdd4f7f7127145ceaefdbaf6ab01c7ef012635e678e057",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+    },
+    "Snow Golem": {
+      "revision_id": 3851744,
+      "sha256": "d7303646887143ef12c56c735dd9e074b4cf32744178a07d5d884e9241c657dd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851744"
     }
   },
   "subjects": {
@@ -1051,6 +1126,406 @@
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie": {
+      "topics": {
+        "attack_style": {
+          "answer": "Zombies normally chase targets and deal close-range melee damage. Some can carry weapons, and babies are faster than adults.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        },
+        "provocation": {
+          "answer": "Zombies are hostile without needing to be hit first. They also threaten villagers, so a village wall is useful even when no player is fighting.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep distance and use barriers or ranged attacks. Light and secure a village rather than relying on villagers to escape; sunlight is not reliable protection against babies wearing cover or zombies in shade.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        }
+      }
+    },
+    "minecraft:husk": {
+      "topics": {
+        "attack_style": {
+          "answer": "Husks fight at close range like zombies. An unarmed hit can inflict Hunger; a properly blocked hit does not apply it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "provocation": {
+          "answer": "Husks are hostile on sight and threaten players and villagers. They do not need provocation and do not burn in sunlight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep distance or block incoming melee hits with a shield. Do not wait for sunrise to remove husks; use a secure barrier and keep them away from villagers.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        }
+      }
+    },
+    "minecraft:drowned": {
+      "topics": {
+        "attack_style": {
+          "answer": "Drowned can attack at close range, while ones naturally equipped with a trident can throw it. A drowned that only picked up a trident does not gain the ranged attack.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        },
+        "provocation": {
+          "answer": "Drowned are dangerous at night and when players enter their water. Daytime behavior depends on water and provocation, so a nearby drowned is not guaranteed safe just because the sun is up.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        },
+        "counterplay": {
+          "answer": "Watch for tridents and use solid cover against ranged attacks. Fight from a secure position rather than diving into a group; a fully powered conduit can damage nearby hostile drowned.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager": {
+      "topics": {
+        "attack_style": {
+          "answer": "Zombie villagers use zombie-style melee attacks. They are still hostile while waiting to be cured, and babies can move quickly.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "provocation": {
+          "answer": "A zombie villager is hostile rather than a normal trading villager. It does not need to be attacked before it targets players.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "counterplay": {
+          "answer": "Contain it safely if you want to cure it, and protect it from sunlight. Apply Weakness and then use a normal golden apple; do not release it among villagers before curing finishes.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "topics": {
+        "attack_style": {
+          "answer": "Zombie villagers use zombie-style melee attacks. They are still hostile while waiting to be cured, and babies can move quickly.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "provocation": {
+          "answer": "A zombie villager is hostile rather than a normal trading villager. It does not need to be attacked before it targets players.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "counterplay": {
+          "answer": "Contain it safely if you want to cure it, and protect it from sunlight. Apply Weakness and then use a normal golden apple; do not release it among villagers before curing finishes.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:evocation_illager": {
+      "topics": {
+        "attack_style": {
+          "answer": "Evokers summon fangs from the ground and flying vexes. Fang damage bypasses ordinary armor, although Protection enchantments can reduce it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+          ]
+        },
+        "provocation": {
+          "answer": "Evokers are hostile to players and villagers. They can summon attacks instead of approaching for a normal melee fight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+          ]
+        },
+        "counterplay": {
+          "answer": "Prioritize the evoker before it summons more vexes, using distance and ranged attacks when possible. Watch the ground for fangs, and remember that vexes can pass through walls.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+          ]
+        }
+      }
+    },
+    "minecraft:pillager": {
+      "topics": {
+        "attack_style": {
+          "answer": "Pillagers normally shoot arrows from crossbows. In Bedrock they can use melee attacks while underwater, so jumping into water is not a safe way to disable them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        },
+        "provocation": {
+          "answer": "Pillagers are hostile to players, iron golems, wandering traders and adult villagers; you do not need to hit one first.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use solid cover against arrows and attack between shots. In Bedrock, waiting for a pillager’s crossbow to break will not disarm it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        }
+      }
+    },
+    "minecraft:vindicator": {
+      "topics": {
+        "attack_style": {
+          "answer": "Vindicators rush targets and use powerful close-range axe attacks. An unarmed vindicator can still attack.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        },
+        "provocation": {
+          "answer": "Vindicators are normally hostile to players, adult villagers and golems. Naming one Johnny makes it attack many additional kinds of mob; it does not make a friendly pet.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep out of axe range and use ranged attacks or secure barriers. Do not assume a vindicator is harmless when its arms are folded or when it has no visible weapon.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        }
+      }
+    },
+    "minecraft:wither": {
+      "topics": {
+        "attack_style": {
+          "answer": "The wither fires explosive skulls that can inflict Wither. In Bedrock, its later phase includes destructive dash attacks and an explosion when it reaches half health.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+          ]
+        },
+        "provocation": {
+          "answer": "The wither is a hostile boss once its spawning sequence finishes. Its initial charge-up ends in an explosion, and it also explodes during its death sequence.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+          ]
+        },
+        "counterplay": {
+          "answer": "Fight away from buildings and prepare for explosions and Wither damage. At half health it gains anti-projectile armor, so ordinary arrows stop being a reliable attack; prepare a close-range weapon for the later phase. Keep clear during the final death explosion.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+          ]
+        }
+      }
+    },
+    "minecraft:ender_dragon": {
+      "topics": {
+        "attack_style": {
+          "answer": "The Ender Dragon damages targets with body and wing contact and dangerous breath clouds. Nearby End crystals heal it during the fight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+          ]
+        },
+        "provocation": {
+          "answer": "The dragon is the hostile boss of the central End island. It can knock players off terrain, and dangerous breath remains on the ground during parts of the fight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+          ]
+        },
+        "counterplay": {
+          "answer": "Destroy the healing End crystals carefully, avoid breath clouds and aim for the head for better damage. While perched at the portal, the dragon is immune to arrows and thrown tridents, so change your attack method instead of wasting ammunition.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+          ]
+        }
+      }
+    },
+    "minecraft:pufferfish": {
+      "topics": {
+        "attack_style": {
+          "answer": "A puffed pufferfish hurts and poisons creatures that touch it. In Bedrock a fully puffed pufferfish can apply Poison for 10 seconds.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+          ]
+        },
+        "provocation": {
+          "answer": "Approaching a pufferfish makes it inflate defensively. It does not need to chase you or be hit first to hurt you on contact.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep space around pufferfish instead of swimming into them. Use a water bucket to collect one for transport, and avoid putting loose pufferfish in a shared swimming area.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+          ]
+        }
+      }
+    },
+    "minecraft:silverfish": {
+      "topics": {
+        "attack_style": {
+          "answer": "Silverfish bite at close range. If one survives player damage or Poison damage, nearby silverfish can emerge from infested blocks.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+          ]
+        },
+        "provocation": {
+          "answer": "Silverfish are hostile. Mining infested blocks can release them, and attacking a surviving silverfish can turn a small encounter into a group fight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+          ]
+        },
+        "counterplay": {
+          "answer": "A one-hit kill prevents that silverfish from calling others out of infested blocks. Silk Touch lets you mine infested blocks without releasing their silverfish; avoid slowly poisoning a silverfish beside infested stone.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+          ]
+        }
+      }
+    },
+    "minecraft:endermite": {
+      "topics": {
+        "attack_style": {
+          "answer": "Endermites attack at close range. They are arthropods, so Bane of Arthropods is effective against them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        },
+        "provocation": {
+          "answer": "Endermites are hostile to nearby players. In Bedrock they can also attack endermen; an endermite is not a tame companion.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep out of contact range or defeat it promptly. Naming an endermite is useful for keeping one, but does not make it friendly or prevent damage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        }
+      }
+    },
+    "minecraft:goat": {
+      "topics": {
+        "attack_style": {
+          "answer": "A goat can lower its head and ram an unmoving target, causing knockback that is especially dangerous near cliffs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "provocation": {
+          "answer": "Goats can ram without being hit first. Punching a goat does not trigger ordinary retaliatory attacks; a screamer goat attempts rams more often.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "counterplay": {
+          "answer": "Move aside when it lowers its head, and leave room between yourself and cliff edges. Do not stand still expecting a neutral goat to remain harmless.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        }
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "attack_style": {
+          "answer": "Axolotls hunt fish and several other aquatic mobs, including guardians and drowned. They are passive toward players, but can kill fish in a shared tank.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "provocation": {
+          "answer": "An axolotl does not become a player-hunting hostile mob when you approach it. Its hunting behavior targets aquatic prey, with hostile prey prioritized.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep display fish and tadpoles separate from axolotls. An injured axolotl may play dead underwater, but this is not guaranteed protection against every hit or against drying out.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        }
+      }
+    },
+    "minecraft:snow_golem": {
+      "topics": {
+        "attack_style": {
+          "answer": "Snow golems throw snowballs at monsters. The snowballs normally cause knockback without health damage, but they deal damage to blazes.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "provocation": {
+          "answer": "Snow golems do not intentionally attack players. They provoke monsters by throwing snowballs, which can cause those monsters to attack the golem.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+          ]
+        },
+        "counterplay": {
+          "answer": "Protect a snow golem from retaliation and do not rely on it to kill ordinary monsters. Shelter it from water, rain and damaging heat; its snowballs are a distraction rather than a replacement for secure defenses.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851744"
           ]
         }
       }

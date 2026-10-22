@@ -395,6 +395,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby armadillo normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it spider eyes while it is unrolled.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An armadillo is a passive animal that rolls up when it senses certain threats. Collect its scutes, including by brushing it, to make and repair wolf armor.",
         "sources": [
@@ -432,13 +441,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
         ]
@@ -753,6 +755,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Axolotls hunt fish and several other aquatic mobs, including guardians and drowned. They are passive toward players, but can kill fish in a shared tank.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "An axolotl does not become a player-hunting hostile mob when you approach it. Its hunting behavior targets aquatic prey, with hostile prey prioritized.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep display fish and tadpoles separate from axolotls. An injured axolotl may play dead underwater, but this is not guaranteed protection against every hit or against drying out.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "lifetime": {
         "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
         "sources": [
@@ -771,6 +794,15 @@
         "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A baby axolotl normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it buckets of tropical fish, not loose tropical fish.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -811,13 +843,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
         ]
@@ -1294,6 +1319,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby bee normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it a suitable flower such as a dandelion or poppy. Its growth timer pauses while it is inside a nest or hive.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A bee is a flying animal that visits flowers and returns to a nest or hive. It helps produce honey and can pollinate crops. Disturbing bees or harvesting carelessly can make them attack.",
         "sources": [
@@ -1331,13 +1365,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
         ]
@@ -2403,6 +2430,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby camel normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it cactus.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel is a tall rideable desert animal. Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
         "sources": [
@@ -2440,13 +2476,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
         ]
@@ -2831,6 +2860,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby cat normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it raw cod or raw salmon.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cat is a tameable animal often found around villages. Tame it with suitable raw fish to gain a companion. Cats also help keep creepers away.",
         "sources": [
@@ -2855,13 +2893,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
         ]
@@ -3666,6 +3697,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby chicken normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it suitable seeds such as wheat seeds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A chicken is a passive farm animal that lays eggs. Raise chickens for eggs, feathers, and food, and breed compatible adults using seeds.",
         "sources": [
@@ -3703,13 +3743,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
         ]
@@ -4434,6 +4467,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby cow normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cow is a passive farm animal. Milk it with a bucket, breed adults with wheat, and raise cows as a source of leather and beef.",
         "sources": [
@@ -4471,13 +4513,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
         ]
@@ -5145,6 +5180,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby dolphin normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it raw cod or raw salmon.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A dolphin is a neutral aquatic mammal found in oceans. Swimming nearby can help with movement in water, and feeding it raw fish can help guide you toward certain underwater loot locations. It needs air as well as water.",
         "sources": [
@@ -5175,13 +5219,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
         ]
@@ -5380,6 +5417,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby donkey normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples or hay bales.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A donkey is a tameable riding animal. Equip it with a saddle to ride and a chest to carry supplies. It can breed with a horse to produce a mule.",
         "sources": [
@@ -5404,13 +5450,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
         ]
@@ -5705,6 +5744,27 @@
       },
       "equipment_drops": {
         "answer": "In Bedrock, its naturally held trident or fishing rod has a 25% drop chance after a player or tamed-wolf kill, plus one percentage point per Looting level, up to 28% with Looting III. The creature must actually hold or wear that item; picked-up equipment is separate.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Drowned can attack at close range, while ones naturally equipped with a trident can throw it. A drowned that only picked up a trident does not gain the ranged attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Drowned are dangerous at night and when players enter their water. Daytime behavior depends on water and provocation, so a nearby drowned is not guaranteed safe just because the sun is up.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Watch for tridents and use solid cover against ranged attacks. Fight from a secure position rather than diving into a group; a fully powered conduit can damage nearby hostile drowned.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
         ],
@@ -6144,6 +6204,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "The Ender Dragon damages targets with body and wing contact and dangerous breath clouds. Nearby End crystals heal it during the fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "The dragon is the hostile boss of the central End island. It can knock players off terrain, and dangerous breath remains on the ground during parts of the fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Destroy the healing End crystals carefully, avoid breath clouds and aim for the head for better damage. While perched at the portal, the dragon is immune to arrows and thrown tridents, so change your attack method instead of wasting ammunition.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "The Ender Dragon is a flying boss associated with the End's central island. It attacks players and can heal from End crystals. Defeating it opens important progression routes in the End.",
         "sources": [
@@ -6505,6 +6586,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Endermites attack at close range. They are arthropods, so Bane of Arthropods is effective against them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Endermites are hostile to nearby players. In Bedrock they can also attack endermen; an endermite is not a tame companion.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep out of contact range or defeat it promptly. Naming an endermite is useful for keeping one, but does not make it friendly or prevent damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "lifetime": {
         "answer": "An unnamed endermite despawns after about two minutes even in a boat or minecart. Apply a renamed name tag to prevent that ordinary timer. Naming does not protect a hostile mob from removal on Peaceful.",
         "sources": [
@@ -6632,6 +6734,27 @@
       },
       "experience": {
         "answer": "In Bedrock an evoker gives 10 experience points regardless of how it dies. This differs from the usual player-kill requirement for many mobs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Evokers summon fangs from the ground and flying vexes. Fang damage bypasses ordinary armor, although Protection enchantments can reduce it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Evokers are hostile to players and villagers. They can summon attacks instead of approaching for a normal melee fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Prioritize the evoker before it summons more vexes, using distance and ranged attacks when possible. Watch the ground for fangs, and remember that vexes can pass through walls.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853175"
         ],
@@ -7110,6 +7233,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby fox normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it sweet berries or glow berries.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A fox is an animal that can carry an item in its mouth. It hunts some smaller animals and can pick up dropped items. A fox bred by players can trust them, but is not a wolf-style tamed follower.",
         "sources": [
@@ -7140,13 +7272,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
         ]
@@ -7755,6 +7880,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby glow squid normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. Keep it in water while you wait.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A glow squid is a passive aquatic animal with a glowing-looking body. It drops glow ink sacs used to brighten signs and make glow item frames. It does not illuminate nearby blocks like a torch.",
         "sources": [
@@ -7798,13 +7932,6 @@
       },
       "land": {
         "answer": "It needs water to breathe normally. Keeping it out of water can cause suffocation damage.",
-        "coverage": "explicit_sample_environment",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
         "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
@@ -7957,10 +8084,40 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "A goat can lower its head and ram an unmoving target, causing knockback that is especially dangerous near cliffs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Goats can ram without being hit first. Punching a goat does not trigger ordinary retaliatory attacks; a screamer goat attempts rams more often.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Move aside when it lowers its head, and leave room between yourself and cliff edges. Do not stand still expecting a neutral goat to remain harmless.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "breeding_age": {
         "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A baby goat normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -8001,13 +8158,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
         ]
@@ -8344,6 +8494,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A ghastling normally takes about 20 minutes of active game time to become an adult happy ghast. Hydrating a dried ghast happens before this and has its own timer. You can speed this up by feeding it snowballs. In Bedrock, 10 snowballs can fully grow a newly spawned ghastling. It cannot be harnessed or ridden while still a ghastling.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A happy ghast is a large friendly flying mob that players can ride with a harness. Use it for aerial transport and building work; it can carry multiple players.",
         "sources": [
@@ -8385,13 +8544,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
         ]
@@ -8589,6 +8741,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby hoglin normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it crimson fungus.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A hoglin is a hostile Nether animal found in crimson environments. It attacks at close range and can be bred with crimson fungus. Outside the Nether it can transform into a zoglin.",
         "sources": [
@@ -8619,13 +8780,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
         ]
@@ -8891,6 +9045,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby horse normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples or hay bales.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A horse is a tameable riding animal. Tame it, equip a saddle to control riding, and use it for fast ground travel. Compatible horses can also wear horse armor.",
         "sources": [
@@ -8915,13 +9078,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
         ]
@@ -10421,6 +10577,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Husks fight at close range like zombies. An unarmed hit can inflict Hunger; a properly blocked hit does not apply it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Husks are hostile on sight and threaten players and villagers. They do not need provocation and do not burn in sunlight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep distance or block incoming melee hits with a shield. Do not wait for sunrise to remove husks; use a secure barrier and keep them away from villagers.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A husk is a desert zombie variant that does not burn in sunlight. Its attacks can inflict Hunger, so it remains dangerous even in daytime.",
         "sources": [
@@ -10949,6 +11126,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby llama normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat or hay bales.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A llama is a tameable pack animal. Equip it with a chest for cargo and use a lead to guide a caravan. It can spit at targets when provoked.",
         "sources": [
@@ -10973,13 +11159,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
         ]
@@ -11673,6 +11852,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby mooshroom normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mooshroom is a mushroom-covered cow variant. It can be milked and can provide mushroom stew when used with a bowl. Shearing it changes it into an ordinary cow.",
         "sources": [
@@ -11710,13 +11898,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
         ]
@@ -12014,6 +12195,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby mule normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples or hay bales. A mule can grow up even though adult mules cannot breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mule is a rideable pack animal produced by breeding a horse and donkey. Tame and saddle it for travel, or add a chest for supplies. Mules cannot breed.",
         "sources": [
@@ -12038,13 +12228,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
         ]
@@ -12296,6 +12479,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby nautilus normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it fish or buckets of fish. In Bedrock, 10 suitable fish or buckets of fish can fully grow a newly spawned baby nautilus.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A nautilus is an aquatic animal that can become a rideable mount. Tame and equip a suitable adult to travel underwater; keep it in appropriate water conditions.",
         "sources": [
@@ -12339,13 +12531,6 @@
       },
       "land": {
         "answer": "It needs water to breathe normally. Keeping it out of water can cause suffocation damage.",
-        "coverage": "explicit_sample_environment",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
         "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
@@ -12775,6 +12960,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby ocelot normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it raw cod or raw salmon.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An ocelot is a wild jungle cat. Feeding suitable raw fish can gain its trust, but it does not become a domestic cat. Ocelots help keep creepers away.",
         "sources": [
@@ -12799,13 +12993,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
         ]
@@ -13088,6 +13275,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby panda normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it bamboo.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A panda is a jungle animal with several personality variants. It eats bamboo and has special breeding conditions involving nearby bamboo and willing adults.",
         "sources": [
@@ -13105,13 +13301,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
         ]
@@ -14184,6 +14373,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby pig normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it carrots, potatoes or beetroot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A pig is a passive farm animal. Raise it for porkchops or ride a saddled pig using a carrot on a stick to steer.",
         "sources": [
@@ -14221,13 +14419,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
         ]
@@ -14804,6 +14995,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Pillagers normally shoot arrows from crossbows. In Bedrock they can use melee attacks while underwater, so jumping into water is not a safe way to disable them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Pillagers are hostile to players, iron golems, wandering traders and adult villagers; you do not need to hit one first.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Use solid cover against arrows and attack between shots. In Bedrock, waiting for a pillager’s crossbow to break will not disarm it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A pillager is a hostile illager armed with a crossbow. It attacks from range and appears in patrols, outposts, and raids.",
         "sources": [
@@ -15039,6 +15251,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby polar bear normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. A golden dandelion can pause its age, but that is different from accelerating growth.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A polar bear is a large animal found in cold regions. Adults may become hostile when provoked or when a cub is threatened; it is not a tameable riding animal.",
         "sources": [
@@ -15062,13 +15283,6 @@
             "maximum": 30
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
         ]
@@ -15164,6 +15378,27 @@
       },
       "experience": {
         "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "A puffed pufferfish hurts and poisons creatures that touch it. In Bedrock a fully puffed pufferfish can apply Poison for 10 seconds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Approaching a pufferfish makes it inflate defensively. It does not need to chase you or be hit first to hurt you on contact.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep space around pufferfish instead of swimming into them. Use a water bucket to collect one for transport, and avoid putting loose pufferfish in a shared swimming area.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
         ],
@@ -15363,6 +15598,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby rabbit normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it carrots, golden carrots or dandelions.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A rabbit is a small passive animal. Breed it with suitable food and raise rabbits for hide, meat, and occasional rabbit's feet.",
         "sources": [
@@ -15393,13 +15637,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
         ]
@@ -16160,6 +16397,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby sheep normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat. Eating grass also helps a baby sheep grow.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sheep is a passive farm animal that provides wool. Use shears to collect wool, dye it to change wool color, and feed adult sheep wheat to breed them.",
         "sources": [
@@ -16197,13 +16443,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
         ]
@@ -17041,6 +17280,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Silverfish bite at close range. If one survives player damage or Poison damage, nearby silverfish can emerge from infested blocks.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Silverfish are hostile. Mining infested blocks can release them, and attacking a surviving silverfish can turn a small encounter into a group fight.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "A one-hit kill prevents that silverfish from calling others out of infested blocks. Silk Touch lets you mine infested blocks without releasing their silverfish; avoid slowly poisoning a silverfish beside infested stone.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A silverfish is a small hostile mob associated with infested stone and strongholds. Disturbing infested blocks can release it, and nearby infested blocks can make a fight worse.",
         "sources": [
@@ -17851,6 +18111,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A snifflet normally takes about 40 minutes of active game time to become an adult sniffer. Egg hatching is a separate timer. You can speed this up by feeding it torchflower seeds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sniffer is an ancient passive animal hatched from a sniffer egg. It digs up special ancient plant seeds or pods from suitable ground, helping players grow decorative plants.",
         "sources": [
@@ -17888,13 +18157,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 40 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
         ]
@@ -18060,6 +18322,27 @@
         "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Snow golems throw snowballs at monsters. The snowballs normally cause knockback without health damage, but they deal damage to blazes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Snow golems do not intentionally attack players. They provoke monsters by throwing snowballs, which can cause those monsters to attack the golem.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Protect a snow golem from retaliation and do not rely on it to kill ordinary monsters. Shelter it from water, rain and damaging heat; its snowballs are a distraction rather than a replacement for secure defenses.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851744"
         ],
         "coverage": "reviewed_summary"
       },
@@ -18433,9 +18716,11 @@
         "coverage": "reviewed_summary"
       },
       "growth": {
-        "answer": "A naturally spawned baby squid grows into an adult after 20 minutes. Food does not speed up its growth. A golden dandelion can pause its growth; using one again resumes it.",
+        "answer": "A baby squid normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. Keep it in water while you wait.",
         "sources": [
-          "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+          "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/squid.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -18821,6 +19106,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby strider normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it warped fungus.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A strider is a passive Nether animal that walks on lava. Saddle it and steer with a warped fungus on a stick for lava travel. It becomes cold and slower away from lava.",
         "sources": [
@@ -18871,13 +19165,6 @@
       },
       "sunlight": {
         "answer": "Ordinary sunlight does not make it take burning damage. It is fire-immune, although other environmental hazards can still matter.",
-        "coverage": "explicit_sample_environment",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
         "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
@@ -19071,6 +19358,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A small sulfur cube normally takes about 20 minutes of active game time to grow into a large sulfur cube. You can speed this up by feeding it slimeballs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sulfur_cube.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sulfur cube is a cube-shaped animal that can carry a suitable block. The block it holds can change its movement and other behavior. Some interactions can make it dangerous, including explosive behavior.",
         "sources": [
@@ -19230,6 +19526,15 @@
         "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "growth": {
+        "answer": "A tadpole normally takes about 20 minutes of active game time to become a frog. The biome where it grows up determines its frog variant. You can speed this up by feeding it slimeballs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -19671,6 +19976,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby trader llama normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it wheat or hay bales.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A trader llama is a llama associated with a wandering trader. It carries the trader's decorations and can defend itself by spitting. It follows llama-style handling rules rather than villager trading rules.",
         "sources": [
@@ -19695,13 +20009,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
         ]
@@ -20587,6 +20894,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby turtle normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it seagrass. It drops a turtle scute when it becomes an adult; killing the baby is not how to obtain that scute.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A turtle is a passive coastal animal. Breed it with seagrass to produce eggs on its home beach. Babies shed turtle scutes when they grow up.",
         "sources": [
@@ -20630,13 +20946,6 @@
       },
       "water": {
         "answer": "It can breathe underwater. It can also breathe air.",
-        "coverage": "explicit_sample_environment",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
         "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
@@ -20896,9 +21205,11 @@
         "coverage": "reviewed_summary"
       },
       "growth": {
-        "answer": "A baby villager normally grows into an adult after about 20 minutes of active game time. Golden dandelions do not pause villager aging.",
+        "answer": "A baby villager normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. A golden dandelion cannot freeze a baby villager’s age. Riding in a boat or minecart does not stop its normal growth.",
         "sources": [
-          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -21843,9 +22154,11 @@
         "coverage": "reviewed_summary"
       },
       "growth": {
-        "answer": "A baby villager normally grows into an adult after about 20 minutes of active game time. Golden dandelions do not pause villager aging.",
+        "answer": "A baby villager v2 normally takes about 20 minutes of active game time to become an adult. Feeding does not speed up its growth. A golden dandelion cannot freeze a baby villager’s age. Riding in a boat or minecart does not stop its normal growth.",
         "sources": [
-          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager_v2.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -22791,6 +23104,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Vindicators rush targets and use powerful close-range axe attacks. An unarmed vindicator can still attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Vindicators are normally hostile to players, adult villagers and golems. Naming one Johnny makes it attack many additional kinds of mob; it does not make a friendly pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep out of axe range and use ranged attacks or secure barriers. Do not assume a vindicator is harmless when its arms are folded or when it has no visible weapon.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A vindicator is a hostile axe-wielding illager. It attacks at close range and appears in raids and certain structures.",
         "sources": [
@@ -23365,6 +23699,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "The wither fires explosive skulls that can inflict Wither. In Bedrock, its later phase includes destructive dash attacks and an explosion when it reaches half health.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "The wither is a hostile boss once its spawning sequence finishes. Its initial charge-up ends in an explosion, and it also explodes during its death sequence.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Fight away from buildings and prepare for explosions and Wither damage. At half health it gains anti-projectile armor, so ordinary arrows stop being a reliable attack; prepare a close-range weapon for the later phase. Keep clear during the final death explosion.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "The Wither is a powerful summoned undead boss. It flies, fires explosive skulls, and causes destructive fights. Defeating it provides a Nether star.",
         "sources": [
@@ -23910,6 +24265,15 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "growth": {
+        "answer": "A baby wolf normally takes about 20 minutes of active game time to become an adult. You can speed this up by feeding it suitable meat such as beef or rotten flesh, not fish.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+          "https://minecraft.wiki/w/Special:PermanentLink/3792652",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A wolf is a neutral animal that can be tamed into a companion. Tame it with bones, then have it follow or sit. Tamed wolves help defend their owner and can wear wolf armor.",
         "sources": [
@@ -23927,13 +24291,6 @@
       "diet": {
         "answer": "Food has different uses for breeding, taming, healing and growth.",
         "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
-        ]
-      },
-      "growth": {
-        "answer": "A baby normally grows up after about 20 minutes of active game time. Suitable feeding interactions can accelerate growth; paused or unloaded conditions can change elapsed real time.",
-        "coverage": "explicit_sample_environment",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
         ]
@@ -24760,6 +25117,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Zombies normally chase targets and deal close-range melee damage. Some can carry weapons, and babies are faster than adults.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "Zombies are hostile without needing to be hit first. They also threaten villagers, so a village wall is useful even when no player is fighting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Keep distance and use barriers or ranged attacks. Light and secure a village rather than relying on villagers to escape; sunlight is not reliable protection against babies wearing cover or zombies in shade.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie is a hostile undead mob that attacks at close range. It normally burns in direct sunlight unless protected and can transform into a drowned after suitable underwater conditions.",
         "sources": [
@@ -25495,6 +25873,27 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "attack_style": {
+        "answer": "Zombie villagers use zombie-style melee attacks. They are still hostile while waiting to be cured, and babies can move quickly.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A zombie villager is hostile rather than a normal trading villager. It does not need to be attacked before it targets players.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Contain it safely if you want to cure it, and protect it from sunlight. Apply Weakness and then use a normal golden apple; do not release it among villagers before curing finishes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "lifetime": {
         "answer": "In Bedrock, zombie villagers created by converting villagers are persistent. Abandoned-village and igloo-basement examples are also persistent. Ordinary naturally spawned zombie villagers can need a name tag to prevent normal despawning. Peaceful can still remove them.",
         "sources": [
@@ -25651,6 +26050,27 @@
       },
       "equipment_drops": {
         "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "attack_style": {
+        "answer": "Zombie villagers use zombie-style melee attacks. They are still hostile while waiting to be cured, and babies can move quickly.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "provocation": {
+        "answer": "A zombie villager is hostile rather than a normal trading villager. It does not need to be attacked before it targets players.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "counterplay": {
+        "answer": "Contain it safely if you want to cure it, and protect it from sunlight. Apply Weakness and then use a normal golden apple; do not release it among villagers before curing finishes.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851910"
         ],
