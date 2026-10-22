@@ -17,6 +17,6 @@ test('core topic audit reconciles every catalog entity with explicit unresolved 
  }
  assert.deepEqual(totals,audit.topic_counts);
  assert.equal(audit.complete,false);
- assert.equal(audit.subjects['minecraft:cow'].core_topics.diet,'scoped_sample_interactions');
+ assert.equal(audit.subjects['minecraft:cow'].core_topics.diet,'reviewed_summary');
  assert.equal(audit.subjects['minecraft:creeper'].core_topics.diet,'pending_review');
 });

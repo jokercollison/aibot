@@ -20,6 +20,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ diet_data=json.loads((ROOT/'data/entities/diet_editorial.json').read_text())
  growth_data=json.loads((ROOT/'data/entities/growth_editorial.json').read_text())
  condition_data=json.loads((ROOT/'data/entities/condition_editorial.json').read_text())
  object_data=json.loads((ROOT/'data/entities/object_editorial.json').read_text())
@@ -35,7 +36,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{}),**growth_data['subjects'].get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{}),**movement_data['subjects'].get(key,{}).get('topics',{}),**object_data['subjects'].get(key,{}).get('topics',{}),**condition_data['subjects'].get(key,{}).get('topics',{}),**growth_data['subjects'].get(key,{}).get('topics',{}),**diet_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -68,6 +69,8 @@ def build():
   for v in compiled_variants.values():
    v['topics']={name:{**fact,'sources':fact.get('sources',fact.get('reference_urls',[subject['wiki']['url']]))} for name,fact in v['topics'].items()}
   runtime[key]={'topics':topics,'feeding':food,'variants':list(compiled_variants.values())}
+  for field in ['diet_cases','prey_cases']:
+   if diet_data['subjects'].get(key,{}).get(field):runtime[key][field]=diet_data['subjects'][key][field]
   if key in object_data['subjects']:runtime[key]['object_aliases']=object_data['subjects'][key].get('query_aliases',[])
   if subject['category']=='mob' and not key.endswith('_v2') and subject['wiki']['title'].lower()!=subject['name'].lower():runtime[key]['subject_aliases']=[subject['wiki']['title']]
   if key!=canonical:runtime[key]['variant_alias_owner']=canonical

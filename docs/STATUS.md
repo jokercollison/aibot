@@ -1,3 +1,14 @@
+# Source work after 0.2.14 — feeding and observed eating
+
+39 reviewed dietary summaries cover all positive sample feeding profiles plus
+four additional catalog profiles. Source now has 1,881 reviewed summaries and
+passes 192 tests, API and temporary readable-bundle checks. Explicit feeding
+purposes, item collection and frog prey sizes remain distinct. See
+ENTITY_FEEDING_PROGRESS.md. Diet review remains pending for 51 mob profiles.
+
+These changes are not yet in a downloadable release. Published 0.2.14 remains
+unchanged while actual-game testing is pending; use its existing checklist.
+
 # Current test release: 0.2.14 — entity audit, growth and combat
 
 All 129 pinned entity IDs have a core-topic audit. Growth guidance is reviewed

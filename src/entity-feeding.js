@@ -40,13 +40,29 @@ function requestedFood(q) {
 const titles={breeding:'For breeding',taming:'For taming',healing:'For healing',growth:'To help babies grow'};
 export function feedingAnswer(id,q,topic) {
  const row=database[id],food=row?.feeding;
+ if(!row)return null;
+ const preyClause=topic==='diet'&&q.match(/\b(?:eat|eats|swallow|swallows|hunt|hunts)\s+(.+)$/);
+ if(preyClause) {
+  const prey=row.prey_cases?.find(c=>c.aliases.some(alias=>contains(preyClause[1],alias)));
+  if(prey) {
+   const answer=/\b(?:medium|large|big|giant)\b/.test(preyClause[1])?prey.large_answer:prey.small_answer;
+   return {status:'conditional',answer,subject:id,topic:'diet',sources:prey.sources,coverage:'reviewed_summary'};
+  }
+ }
+ const requested=requestedFood(ingredientText(id,q));
+ const role=topic==='taming'?'taming':topic==='breeding'?'breeding':
+  /\b(heal|healing|restore|recover)\b/.test(q)?'healing':
+  (topic==='growth'||/\b(grow|growing|growth|mature|maturing)\b/.test(q))?'growth':null;
+ if(topic==='diet'&&!role) {
+  const fact=requested?row.diet_cases?.find(c=>c.items.includes(requested)):row.topics.diet;
+  if(fact)return {status:'conditional',answer:fact.answer,subject:id,topic:'diet',sources:fact.sources,coverage:'reviewed_summary'};
+ }
  if(!food || (!Object.keys(food.roles).length&&!food.hazards.length))return null;
- const requested=requestedFood(ingredientText(id,q)),hazard=food.hazards.find(i=>i.id===requested);
+ const hazard=food.hazards.find(i=>i.id===requested);
  const withheld=food.withheld?.find(i=>i.id===requested);
  if(withheld)return {status:'unknown',answer:withheld.answer,subject:id,topic:'diet',sources:food.sources};
  if(hazard&&id==='minecraft:parrot'&&requested==='minecraft:cookie'&&row.topics.food_safety)return {status:'conditional',answer:row.topics.food_safety.answer,subject:id,topic:'diet',sources:row.topics.food_safety.sources};
  if(hazard)return {status:'conditional',answer:`Do not feed it ${hazard.name}; that interaction applies a harmful effect rather than healing it.`,subject:id,topic:'diet',sources:food.sources};
- const role=/\b(heal|healing|restore|recover)\b/.test(q)?'healing':(topic==='growth'||/\b(grow|growth|baby|babies)\b/.test(q))&&topic!=='breeding'?'growth':topic==='taming'?'taming':topic==='breeding'?'breeding':null;
  const selected=role?[[role,food.roles[role]??[]]]:Object.entries(food.roles);
  if(!selected.some(([,items])=>items.length))return null;
  const lines=[];

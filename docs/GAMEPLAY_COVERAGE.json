@@ -28,7 +28,7 @@
     "biomes:spawning_summary_partial_biome_guidance": 127,
     "health:unresolved": 34,
     "attacks:unresolved": 29,
-    "diet:unresolved": 94,
+    "diet:unresolved": 90,
     "taming:unresolved": 39,
     "breeding:unresolved": 39,
     "environmental_reactions:reviewed_summary": 75,
@@ -36,9 +36,9 @@
     "health:sample_component_summary": 60,
     "attacks:basic_behavior_classification": 42,
     "drops:reviewed_summary": 100,
+    "diet:reviewed_summary": 39,
     "taming:reviewed_summary": 90,
     "breeding:reviewed_summary": 90,
-    "diet:scoped_sample_interactions": 35,
     "spawn_conditions:unresolved": 2,
     "health:reviewed_summary": 32,
     "attacks:reviewed_summary": 58,
@@ -64976,8 +64976,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -65099,7 +65100,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -65283,7 +65284,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -65412,7 +65413,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -65785,7 +65786,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -65849,7 +65850,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -65914,7 +65915,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -66160,7 +66161,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -66413,7 +66414,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -66664,7 +66665,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -66729,7 +66730,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -67650,7 +67651,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -67715,7 +67716,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -67906,7 +67907,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68034,7 +68035,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68099,7 +68100,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68224,7 +68225,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68535,7 +68536,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68780,7 +68781,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68845,7 +68846,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -68909,7 +68910,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -69032,7 +69033,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -69156,7 +69157,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -69284,7 +69285,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -69413,7 +69414,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -69478,8 +69479,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69855,7 +69857,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -70045,7 +70047,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -70546,7 +70548,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -70984,7 +70986,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -71048,7 +71050,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -71113,7 +71115,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -71356,7 +71358,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -71542,7 +71544,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -71670,8 +71672,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71733,8 +71736,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72352,7 +72356,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -72662,7 +72666,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },
@@ -72726,7 +72730,7 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "scoped_sample_interactions",
+          "status": "reviewed_summary",
           "answer_connected": true,
           "exhaustive": false
         },

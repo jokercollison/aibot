@@ -28,7 +28,7 @@ export function entityTopic(q) {
   if (/\b(ride|riding|saddle|control|mount)\b/.test(q)) return 'transport';
   if(/\b(?:golden dandelion|pause aging|stop growing|stay a baby|stop aging|resume aging)\b/.test(q))return 'age_lock';
   if (/\b(?:grow|grows|growing|growth|mature|matures|maturing|maturity|adulthood)\b/.test(q) || /\b(?:speed up|accelerate)\b.*\b(?:baby|babies|foal|snifflet|ghastling)\b/.test(q) || /\b(?:baby|babies)\b.*\b(?:become adults?|get bigger)\b/.test(q))return 'growth';
-  if (/\b(eat|eats|food|diet|feed|feeding)\b/.test(q)) return 'diet';
+  if (/\b(eat|eats|food|diet|feed|feeding|swallow|swallows|hunt|hunts)\b/.test(q)) return 'diet';
   if (/^(?:what (?:is|are)|describe|tell me about)\b/.test(q)) return 'identity';
   const facet=entityFacet(q);if(facet)return facet;
   if (/\b(make|build|construct|summon|create)\b/.test(q)) return 'construction';

@@ -158,6 +158,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Giving an allay an item tells it which dropped items to collect; handing it a food item is not the same interaction as feeding a breeding animal. To duplicate an allay, give it an amethyst shard while it dances to a nearby jukebox.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/allay.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An allay is a friendly flying helper mob. Give it an item and it looks for dropped matching items to bring back. It does not mine blocks or create items for you.",
         "sources": [
@@ -200,7 +208,21 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/allay.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "diet_cases": [
+      {
+        "items": [
+          "minecraft:sugar",
+          "minecraft:bread",
+          "minecraft:apple"
+        ],
+        "answer": "An allay can hold that item and collect matching dropped items. Giving it food is an item-collection instruction, not animal breeding. Duplication uses an amethyst shard while it dances to jukebox music.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/allay.json"
+        ]
+      }
+    ]
   },
   "minecraft:area_effect_cloud": {
     "topics": {
@@ -404,6 +426,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Use spider eyes to breed adult armadillos or help babies grow. An armadillo must be unrolled to accept this feeding interaction; feeding is different from brushing it for scutes.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An armadillo is a passive animal that rolls up when it senses certain threats. Collect its scutes, including by brushing it, to make and repair wolf armor.",
         "sources": [
@@ -434,13 +464,6 @@
             "maximum": 12
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/armadillo.json"
         ]
@@ -806,6 +829,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed axolotls buckets of tropical fish to breed adults or help babies grow. Loose tropical fish items do not replace the bucket. Axolotls also hunt aquatic mobs such as fish and drowned, which is different from feeding them by hand.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An axolotl is an aquatic animal that can help fight certain underwater mobs. Carry it in a water bucket and use buckets of tropical fish for breeding. It cannot stay out of water indefinitely.",
         "sources": [
@@ -836,13 +867,6 @@
             "maximum": 14
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/axolotl.json"
         ]
@@ -1328,6 +1352,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Suitable flowers such as dandelions and poppies let you breed adult bees or help babies grow. Bees also visit flowers to collect pollen; pollination and feeding are different interactions. Avoid wither roses and poisonous eyeblossoms.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A bee is a flying animal that visits flowers and returns to a nest or hive. It helps produce honey and can pollinate crops. Disturbing bees or harvesting carelessly can make them attack.",
         "sources": [
@@ -1358,13 +1390,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bee.json"
         ]
@@ -2439,6 +2464,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Cactus can heal camels, help baby camels grow and breed adults. Camels can be ridden without taming, so cactus is not a taming requirement.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel is a tall rideable desert animal. Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
         "sources": [
@@ -2469,13 +2502,6 @@
             "maximum": 32
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel.json"
         ]
@@ -2608,6 +2634,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "A rabbit’s foot can tempt and heal a camel husk. This undead mount does not use the cactus feeding interaction of an ordinary camel.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel husk is an undead camel variant. It can carry riders, including hostile ones under suitable conditions. Its undead behavior differs from an ordinary camel.",
         "sources": [
@@ -2631,13 +2665,6 @@
             "maximum": 32
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/camel_husk.json"
         ]
@@ -2869,6 +2896,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Raw cod and raw salmon are useful for cats. They can tame a stray cat, heal a cat, help kittens grow and breed tamed adults when the breeding requirements are met. Cooked fish is not a substitute for the raw fish used to tame cats.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cat is a tameable animal often found around villages. Tame it with suitable raw fish to gain a companion. Cats also help keep creepers away.",
         "sources": [
@@ -2888,13 +2923,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853626"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cat.json"
         ]
       },
       "fall_damage": {
@@ -3706,6 +3734,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Chickens accept suitable seeds, including wheat seeds, beetroot seeds, melon seeds, pumpkin seeds, torchflower seeds and pitcher pods. Feed adults to breed them or chicks to help them grow. Wheat itself is not the same item as wheat seeds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A chicken is a passive farm animal that lays eggs. Raise chickens for eggs, feathers, and food, and breed compatible adults using seeds.",
         "sources": [
@@ -3736,13 +3772,6 @@
             "maximum": 4
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/chicken.json"
         ]
@@ -4476,6 +4505,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed wheat to adult cows for breeding or to calves to help them grow. Wheat also attracts cows. You do not tame a cow by feeding it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A cow is a passive farm animal. Milk it with a bucket, breed adults with wheat, and raise cows as a source of leather and beef.",
         "sources": [
@@ -4506,13 +4543,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cow.json"
         ]
@@ -5189,6 +5219,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed raw cod or raw salmon to a dolphin. Adults can lead you toward nearby underwater treasure locations, and feeding a baby helps it grow. Feeding dolphins does not make them breed or become tame pets.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A dolphin is a neutral aquatic mammal found in oceans. Swimming nearby can help with movement in water, and feeding it raw fish can help guide you toward certain underwater loot locations. It needs air as well as water.",
         "sources": [
@@ -5212,13 +5250,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/dolphin.json"
         ]
@@ -5426,6 +5457,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Donkeys accept wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples and hay bales for feeding uses such as growth or adult healing. Breeding tamed adults specifically uses golden carrots or golden apples, including enchanted ones; ordinary apples and wheat do not start breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A donkey is a tameable riding animal. Equip it with a saddle to ride and a chest to carry supplies. It can breed with a horse to produce a mule.",
         "sources": [
@@ -5445,13 +5484,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850357"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/donkey.json"
         ]
       }
     },
@@ -7242,6 +7274,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Sweet berries and glow berries breed adult foxes and help cubs grow. A fox can also eat edible items it picks up in its mouth, such as chicken; eating a carried food item is different from the berries used for breeding. Food already eaten cannot be recovered as a held-item drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A fox is an animal that can carry an item in its mouth. It hunts some smaller animals and can pick up dropped items. A fox bred by players can trust them, but is not a wolf-style tamed follower.",
         "sources": [
@@ -7265,13 +7305,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
         ]
@@ -7357,6 +7390,25 @@
             ]
           }
         }
+      }
+    ],
+    "diet_cases": [
+      {
+        "items": [
+          "minecraft:chicken",
+          "minecraft:cooked_chicken",
+          "minecraft:beef",
+          "minecraft:cooked_beef",
+          "minecraft:apple",
+          "minecraft:porkchop",
+          "minecraft:cooked_porkchop",
+          "minecraft:rotten_flesh"
+        ],
+        "answer": "A fox can eat an edible item it picks up and holds in its mouth. That is different from breeding it: use sweet berries or glow berries for breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fox.json"
+        ]
       }
     ]
   },
@@ -7475,6 +7527,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed slimeballs to adult frogs for breeding. Frogs also swallow small slimes and small magma cubes; eating a small magma cube produces a froglight. Tadpoles use slimeballs to help them grow, and are a separate life stage from adult frogs.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A frog is an amphibian that can eat small slimes and small magma cubes. When it eats a small magma cube it produces a froglight; the frog variant determines the light's color.",
         "sources": [
@@ -7505,13 +7565,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
         ]
@@ -7651,6 +7704,32 @@
             ]
           }
         }
+      }
+    ],
+    "prey_cases": [
+      {
+        "aliases": [
+          "slime",
+          "slimes"
+        ],
+        "small_answer": "Frogs swallow small slimes, which drop a slimeball when eaten. Medium and large slimes are too big for frogs to swallow.",
+        "large_answer": "No. Frogs only swallow the smallest slimes, not medium or large ones.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+        ]
+      },
+      {
+        "aliases": [
+          "magma cube",
+          "magma cubes"
+        ],
+        "small_answer": "Frogs swallow small magma cubes and produce a froglight. Medium and large magma cubes are too big for them to swallow.",
+        "large_answer": "No. Frogs only swallow the smallest magma cubes, not medium or large ones.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/frog.json"
+        ]
       }
     ]
   },
@@ -8121,6 +8200,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed wheat to adult goats for breeding or to baby goats to help them grow. This does not tame a goat or stop its occasional ramming behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A goat is a mountain animal that jumps and sometimes rams entities. Give it space near cliffs. Certain ramming interactions can produce goat horns.",
         "sources": [
@@ -8151,13 +8238,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/goat.json"
         ]
@@ -8503,6 +8583,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed snowballs to a ghastling to help it become an adult happy ghast. In Bedrock, 10 snowballs can fully grow a newly spawned ghastling. Snowballs also tempt happy ghasts, but happy ghasts do not breed as a pair.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A happy ghast is a large friendly flying mob that players can ride with a harness. Use it for aerial transport and building work; it can carry multiple players.",
         "sources": [
@@ -8537,13 +8625,6 @@
             "maximum": 20
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/happy_ghast.json"
         ]
@@ -8750,6 +8831,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Crimson fungus is the breeding food for adult hoglins and helps babies grow. Warped fungus is different: hoglins avoid it instead of using it as breeding food. Feeding does not make a hoglin a tame, harmless pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A hoglin is a hostile Nether animal found in crimson environments. It attacks at close range and can be bred with crimson fungus. Outside the Nether it can transform into a zoglin.",
         "sources": [
@@ -8773,13 +8862,6 @@
             "maximum": 40
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/hoglin.json"
         ]
@@ -9054,6 +9136,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Living horses accept wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples and hay bales for feeding uses such as growth, healing or temper. Only golden carrots and golden apples, including enchanted ones, breed tamed adults. Feeding does not replace mounting a horse to tame it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A horse is a tameable riding animal. Tame it, equip a saddle to control riding, and use it for fast ground travel. Compatible horses can also wear horse armor.",
         "sources": [
@@ -9073,13 +9163,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850329"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/horse.json"
         ]
       }
     },
@@ -11135,6 +11218,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Wheat and hay bales can heal llamas and help babies grow. To breed tamed adult llamas, use hay bales; wheat is not a breeding substitute.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A llama is a tameable pack animal. Equip it with a chest for cargo and use a lead to guide a caravan. It can spit at targets when provoked.",
         "sources": [
@@ -11154,13 +11245,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844667"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/llama.json"
         ]
       }
     },
@@ -11861,6 +11945,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Wheat breeds adult mooshrooms and helps babies grow. A brown mooshroom can also accept a suitable small flower to set the effect of its next suspicious stew; that flower interaction is separate from wheat breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mooshroom is a mushroom-covered cow variant. It can be milked and can provide mushroom stew when used with a bowl. Shearing it changes it into an ordinary cow.",
         "sources": [
@@ -11891,13 +11983,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mooshroom.json"
         ]
@@ -12204,6 +12289,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Mules accept wheat, sugar, apples, carrots, golden carrots, golden apples, enchanted golden apples and hay bales for growth or adult healing. A mule cannot breed even if it accepts a golden carrot or golden apple.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mule is a rideable pack animal produced by breeding a horse and donkey. Tame and saddle it for travel, or add a chest for supplies. Mules cannot breed.",
         "sources": [
@@ -12223,13 +12316,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850352"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/mule.json"
         ]
       }
     },
@@ -12488,6 +12574,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Nautiluses accept fish and buckets of fish for healing, growth and breeding. Taming specifically needs pufferfish or a bucket of pufferfish. Cod, salmon or tropical fish can have feeding uses without being taming food.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A nautilus is an aquatic animal that can become a rideable mount. Tame and equip a suitable adult to travel underwater; keep it in appropriate water conditions.",
         "sources": [
@@ -12511,13 +12605,6 @@
             "maximum": 15
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/nautilus.json"
         ]
@@ -12969,6 +13056,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Raw cod and raw salmon can gain an ocelot’s trust, breed adults or help kittens grow. A trusting ocelot does not turn into a tamed cat.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An ocelot is a wild jungle cat. Feeding suitable raw fish can gain its trust, but it does not become a domestic cat. Ocelots help keep creepers away.",
         "sources": [
@@ -12988,13 +13083,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851711"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ocelot.json"
         ]
       },
       "fall_damage": {
@@ -13284,6 +13372,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Pandas eat bamboo and cake. Bamboo is used for breeding and helping babies grow; cake cannot breed pandas. Adult breeding also needs enough planted bamboo nearby, not merely a bamboo item in your hand.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A panda is a jungle animal with several personality variants. It eats bamboo and has special breeding conditions involving nearby bamboo and willing adults.",
         "sources": [
@@ -13297,13 +13393,6 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3846509"
         ],
         "coverage": "editorial_basic_summary"
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
-        ]
       }
     },
     "feeding": {
@@ -13539,6 +13628,28 @@
             ]
           }
         }
+      }
+    ],
+    "diet_cases": [
+      {
+        "items": [
+          "minecraft:cake"
+        ],
+        "answer": "Adult pandas can eat cake, but cake does not breed pandas. Use bamboo for breeding and meet the planted-bamboo requirement.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+        ]
+      },
+      {
+        "items": [
+          "minecraft:bamboo"
+        ],
+        "answer": "Pandas eat bamboo. It can also help babies grow and breed adults when enough planted bamboo is nearby.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/panda.json"
+        ]
       }
     ]
   },
@@ -13851,6 +13962,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Use suitable seeds, such as wheat, melon, pumpkin or beetroot seeds, to tame a parrot. Pitcher pods and torchflower seeds are also accepted. Do not feed cookies to parrots: cookies are dangerous and can kill them. Seed taming does not make parrots breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A parrot is a tameable jungle bird. Tame it with suitable seeds, let it perch on your shoulder, and listen to its imitations of nearby mobs. Cookies are poisonous to parrots.",
         "sources": [
@@ -13881,13 +14000,6 @@
             "maximum": 6
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parrot.json"
         ]
@@ -14382,6 +14494,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Carrots, potatoes and beetroot breed adult pigs and help piglets grow. These foods do not tame pigs; riding uses a saddle and steering uses a carrot on a stick.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A pig is a passive farm animal. Raise it for porkchops or ride a saddled pig using a carrot on a stick to steer.",
         "sources": [
@@ -14412,13 +14532,6 @@
             "maximum": 10
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pig.json"
         ]
@@ -14710,6 +14823,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Piglins pick up raw or cooked porkchops, including porkchops from hoglin hunts. Giving porkchops is not bartering: adult piglins barter for gold ingots. Picked-up porkchops are not returned as held-item drops when the piglin dies.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A piglin is a Nether mob that can barter gold ingots for items. Wearing gold armor helps avoid ordinary piglin hostility, but certain actions still anger it. Piglin brutes do not follow the same rules.",
         "sources": [
@@ -14745,7 +14866,20 @@
         "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin.json"
       ]
     },
-    "variants": []
+    "variants": [],
+    "diet_cases": [
+      {
+        "items": [
+          "minecraft:porkchop",
+          "minecraft:cooked_porkchop"
+        ],
+        "answer": "Piglins pick up raw or cooked porkchops. This is not bartering or breeding, and picked-up porkchops are not returned as drops after death.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin.json"
+        ]
+      }
+    ]
   },
   "minecraft:piglin_brute": {
     "topics": {
@@ -15607,6 +15741,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Carrots, golden carrots and dandelions breed adult rabbits and help babies grow. Those food interactions do not tame a rabbit.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A rabbit is a small passive animal. Breed it with suitable food and raise rabbits for hide, meat, and occasional rabbit's feet.",
         "sources": [
@@ -15630,13 +15772,6 @@
             "maximum": 3
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/rabbit.json"
         ]
@@ -16406,6 +16541,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Wheat breeds adult sheep and helps lambs grow. Sheep also eat grass to regrow wool, and grass helps lambs grow. Wheat feeding and grazing are separate interactions; shearing is how you collect wool without killing the sheep.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sheep is a passive farm animal that provides wool. Use shears to collect wool, dye it to change wool color, and feed adult sheep wheat to breed them.",
         "sources": [
@@ -16436,13 +16579,6 @@
             "maximum": 8
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sheep.json"
         ]
@@ -18120,6 +18256,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Torchflower seeds breed adult sniffers and help snifflets grow. In Bedrock they can also heal sniffers. Sniffers need full health for breeding, and snifflets must grow up before they can dig for seeds.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sniffer is an ancient passive animal hatched from a sniffer egg. It digs up special ancient plant seeds or pods from suitable ground, helping players grow decorative plants.",
         "sources": [
@@ -18150,13 +18294,6 @@
             "maximum": 14
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sniffer.json"
         ]
@@ -19115,6 +19252,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Warped fungus breeds adult striders and helps babies grow. For riding, use a saddle and steer with warped fungus on a stick; feeding plain warped fungus is a different interaction.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A strider is a passive Nether animal that walks on lava. Saddle it and steer with a warped fungus on a stick for lava travel. It becomes cold and slower away from lava.",
         "sources": [
@@ -19145,13 +19290,6 @@
             "maximum": 20
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/strider.json"
         ]
@@ -19367,6 +19505,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed slimeballs to a small sulfur cube to help it grow into a large one. Large sulfur cubes can absorb blocks, but absorbing a block is different from eating a slimeball or breeding a pair of animals.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sulfur_cube.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sulfur cube is a cube-shaped animal that can carry a suitable block. The block it holds can change its movement and other behavior. Some interactions can make it dangerous, including explosive behavior.",
         "sources": [
@@ -19386,13 +19532,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853726"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/sulfur_cube.json"
         ]
       }
     },
@@ -19538,6 +19677,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed slimeballs to a tadpole to help it grow into a frog. The biome where it grows up determines its frog variant; feeding does not make it breed while it is still a tadpole.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A tadpole is the young aquatic stage of a frog. Carry it in a water bucket and raise it into a frog. Its growing environment affects which frog variant it becomes.",
         "sources": [
@@ -19568,13 +19715,6 @@
             "maximum": 6
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tadpole.json"
         ]
@@ -19985,6 +20125,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Wheat and hay bales can heal trader llamas and help babies grow. Breeding needs tamed adults and hay bales, rather than wheat. Feeding does not by itself remove the wandering trader’s leash.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A trader llama is a llama associated with a wandering trader. It carries the trader's decorations and can defend itself by spitting. It follows llama-style handling rules rather than villager trading rules.",
         "sources": [
@@ -20004,13 +20152,6 @@
         "coverage": "basic_behavior_classification",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849739"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/trader_llama.json"
         ]
       }
     },
@@ -20903,6 +21044,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed seagrass to adult turtles for breeding or to babies to help them grow. A baby drops a turtle scute when it becomes an adult; you do not get that growth scute by killing it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A turtle is a passive coastal animal. Breed it with seagrass to produce eggs on its home beach. Babies shed turtle scutes when they grow up.",
         "sources": [
@@ -20933,13 +21082,6 @@
             "maximum": 30
           }
         ],
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
-        ]
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
         "sources": [
           "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/turtle.json"
         ]
@@ -21287,6 +21429,14 @@
         "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Villagers use bread, carrots, potatoes and beetroot as breeding food in their inventories. Each adult needs 3 bread or 12 carrots, potatoes or beetroot, or an equivalent mixture. Throw food for them to pick up rather than feeding them like cows. Food alone is not enough: the village also needs suitable spare beds. Feeding cannot speed a baby villager’s growth.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -22064,6 +22214,33 @@
           }
         }
       }
+    ],
+    "diet_cases": [
+      {
+        "items": [
+          "minecraft:bread",
+          "minecraft:carrot",
+          "minecraft:potato",
+          "minecraft:beetroot"
+        ],
+        "answer": "Villagers use bread, carrots, potatoes and beetroot as breeding food in their inventories. Each adult needs 3 bread or 12 carrots, potatoes or beetroot, or an equivalent mixture. Throw food for them to pick up rather than feeding them like cows. Food alone is not enough: the village also needs suitable spare beds. Feeding cannot speed a baby villager’s growth.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
+        ]
+      },
+      {
+        "items": [
+          "minecraft:wheat",
+          "minecraft:wheat_seeds",
+          "minecraft:beetroot_seeds"
+        ],
+        "answer": "Farmers can collect wheat and seeds for farming, but seeds and wheat are not the same as ready breeding food. Farmers can turn wheat into bread; villagers use bread, carrots, potatoes or beetroot for breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager.json"
+        ]
+      }
     ]
   },
   "minecraft:villager_v2": {
@@ -22236,6 +22413,14 @@
         "answer": "No. A baby cannot breed; it must grow into an adult first. Food that helps it grow is not the same as breeding food being used on an adult.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "diet": {
+        "answer": "Villagers use bread, carrots, potatoes and beetroot as breeding food in their inventories. Each adult needs 3 bread or 12 carrots, potatoes or beetroot, or an equivalent mixture. Throw food for them to pick up rather than feeding them like cows. Food alone is not enough: the village also needs suitable spare beds. Feeding cannot speed a baby villager’s growth.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager_v2.json"
         ],
         "coverage": "reviewed_summary"
       },
@@ -23012,6 +23197,33 @@
             ]
           }
         }
+      }
+    ],
+    "diet_cases": [
+      {
+        "items": [
+          "minecraft:bread",
+          "minecraft:carrot",
+          "minecraft:potato",
+          "minecraft:beetroot"
+        ],
+        "answer": "Villagers use bread, carrots, potatoes and beetroot as breeding food in their inventories. Each adult needs 3 bread or 12 carrots, potatoes or beetroot, or an equivalent mixture. Throw food for them to pick up rather than feeding them like cows. Food alone is not enough: the village also needs suitable spare beds. Feeding cannot speed a baby villager’s growth.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager_v2.json"
+        ]
+      },
+      {
+        "items": [
+          "minecraft:wheat",
+          "minecraft:wheat_seeds",
+          "minecraft:beetroot_seeds"
+        ],
+        "answer": "Farmers can collect wheat and seeds for farming, but seeds and wheat are not the same as ready breeding food. Farmers can turn wheat into bread; villagers use bread, carrots, potatoes or beetroot for breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/villager_v2.json"
+        ]
       }
     ],
     "variant_alias_owner": "minecraft:villager"
@@ -24274,6 +24486,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Bones tame wild, non-angry wolves. Meat such as beef or rotten flesh can breed tamed adults and help pups grow. Meat, fish and rabbit stew have healing uses in Bedrock, but fish and rabbit stew do not breed wolves. Food for healing is not automatically food for taming or breeding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A wolf is a neutral animal that can be tamed into a companion. Tame it with bones, then have it follow or sit. Tamed wolves help defend their owner and can wear wolf armor.",
         "sources": [
@@ -24287,13 +24507,6 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],
         "coverage": "editorial_basic_summary"
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wolf.json"
-        ]
       }
     },
     "feeding": {
@@ -25283,6 +25496,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Feed red mushrooms to heal a zombie horse. It uses a different feeding interaction from a living horse, and red mushrooms do not make zombie horses breed.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_horse.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie horse is an undead horse variant. Its availability and riding rules depend on the game version and how it was obtained; do not assume ordinary horse breeding works.",
         "sources": [
@@ -25296,13 +25517,6 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3854012"
         ],
         "coverage": "editorial_basic_summary"
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_horse.json"
-        ]
       },
       "sunlight": {
         "answer": "It can burn in direct sunlight when unprotected. Suitable body armor can protect it from sunlight; that is different from fire or lava immunity.",
@@ -25445,6 +25659,14 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "diet": {
+        "answer": "Pufferfish or a bucket of pufferfish can tame a zombie nautilus. Other fish and buckets of fish can heal it, but healing food is not automatically taming food. Zombie nautiluses do not breed like living nautiluses.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_nautilus.json"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie nautilus is an undead aquatic nautilus variant. It can carry riders and has taming and saddling interactions under suitable conditions. Its undead behavior differs from an ordinary nautilus.",
         "sources": [
@@ -25458,13 +25680,6 @@
           "https://minecraft.wiki/w/Special:PermanentLink/3845839"
         ],
         "coverage": "editorial_basic_summary"
-      },
-      "diet": {
-        "answer": "Food has different uses for breeding, taming, healing and growth.",
-        "coverage": "scoped_sample_interactions",
-        "sources": [
-          "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_nautilus.json"
-        ]
       },
       "sunlight": {
         "answer": "It can burn in direct sunlight when unprotected. Suitable body armor can protect it from sunlight; that is different from fire or lava immunity.",
