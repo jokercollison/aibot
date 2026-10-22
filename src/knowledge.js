@@ -1,3 +1,4 @@
+import {blockAnswer, blockTopic} from './blocks.js';
 import {affinityTopics} from './entity-affinities.js';
 import {objectTopics} from './entity-objects.js';
 import {movementTopics} from './entity-movement.js';
@@ -251,6 +252,10 @@ export function createConversation() {
         }
         matches.sort((a,b)=>b.size-a.size||a.start-b.start);
       }
+      if(blockTopic(q)==='mining' && !['recipe','uses'].includes(intent)) {
+        const blocks=matches.filter(m=>m.record.kind==='block');
+        if(blocks.length)matches.splice(0,matches.length,...blocks);
+      }
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
       let scopedInteraction=false;
@@ -348,6 +353,11 @@ export function createConversation() {
       previous = r;
       previousEntityTopic=r.kind==='entity'?(intent==='danger'&&!entityTopic(q)?'combat':entityTopic(q)):undefined;
       pendingChoice=undefined;
+      if(r.kind==='block' && intent!=='recipe' && intent!=='uses') {
+        const answer=blockAnswer(r.minecraft_id,q);
+        const existingLocation=locationFacts[r.minecraft_id]??Object.values(locationFacts).find(f=>f.related_ids?.includes(r.minecraft_id));
+        if(answer && !(answer.topic==='location' && existingLocation))return answer;
+      }
       if(r.kind!=='entity') {const related=relatedEntityAnswer(r.minecraft_id,q);if(related)return related;}
       if((r.kind==='entity' || entityReferences[r.minecraft_id]) && intent!=='fear' && (r.kind==='entity' || !['identity','behavior'].includes(entityTopic(q)))) {
         const answer=entityAnswer(r.minecraft_id,q,previousVariant,intent==='danger'&&!entityTopic(q)?'combat':undefined);
@@ -379,6 +389,7 @@ export function createConversation() {
       if (f) return {status: f.status, answer: f.text, sources: [f.source]};
       if(r.kind==='entity' && entityTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:entityTopic(q),answer:`I'm not sure about that yet. Could you ask me something else about ${clean(r.name)}?`};
       if(r.kind==='entity' && !entityTopic(q) && /^(?:can|could|will|would|does|do|is|are|why|when|how|what (?:does|do|can))\b/.test(q)) return {status:'unknown',subject:r.minecraft_id,answer:unknown};
+      if(r.kind==='block' && blockTopic(q)==='mining') return {status:'unknown',subject:r.minecraft_id,topic:'mining',answer:`I'm still learning how to mine ${clean(r.name)}. Could you ask me something else about it?`};
       if (intent !== 'describe') return {status: 'unknown', answer: unknown};
       if (r.kind === 'enchantment' && r.effect) {
         const equipment = (r.equipment ?? []).map(e => e === 'durable_equipment' ? 'items with durability' : clean(e));

@@ -1,0 +1,247 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "scope": "Initial reviewed terrain and resource block batch; not full block coverage.",
+  "subjects": {
+    "minecraft:stone": {
+      "topics": {
+        "mining": "A pickaxe drops cobblestone from stone. Use a Silk Touch pickaxe to collect stone itself. Fortune does not increase its drop.",
+        "location": "Stone is widespread underground in the Overworld, especially above Y=0. It transitions into deepslate toward the bottom. You can also smelt cobblestone into stone."
+      },
+      "evidence": {
+        "title": "Stone",
+        "revision": 3835217,
+        "sha256": "7e4e14df1875102fdd5d0ffc6b3fbf66faadc2d1c2ef3533f31937028bfb3a8b",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Stone?oldid=3835217"
+      }
+    },
+    "minecraft:cobblestone": {
+      "topics": {
+        "mining": "Use any pickaxe to collect cobblestone. Without a pickaxe it drops nothing. Silk Touch is unnecessary, and Fortune does not increase its drop.",
+        "location": "Mine ordinary stone with a pickaxe to get cobblestone. It also occurs in structures such as villages, monster rooms and strongholds."
+      },
+      "evidence": {
+        "title": "Cobblestone",
+        "revision": 3853757,
+        "sha256": "16a2641569abeefe186397996d8e89b85e082d2b1b08d23033e59edfc2f537af",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Cobblestone?oldid=3853757"
+      }
+    },
+    "minecraft:obsidian": {
+      "topics": {
+        "mining": "Use a diamond or netherite pickaxe to collect obsidian. Other tools drop nothing. Silk Touch is unnecessary, and Fortune does not increase its drop.",
+        "location": "Pour water over lava source blocks to make obsidian. Flowing lava produces other blocks instead. You can also find obsidian in ruined portals and the End."
+      },
+      "evidence": {
+        "title": "Obsidian",
+        "revision": 3829777,
+        "sha256": "1db5b9aa794da1c08e84790f243249470d7e9c23996f85ba376e76b3f4086c2d",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Obsidian?oldid=3829777"
+      }
+    },
+    "minecraft:glass": {
+      "topics": {
+        "mining": "Glass drops nothing unless broken with a Silk Touch tool. Fortune does not help recover it.",
+        "location": "Smelt sand or red sand to make glass. Some structures also contain glass, but you need Silk Touch to recover those blocks."
+      },
+      "evidence": {
+        "title": "Glass",
+        "revision": 3750634,
+        "sha256": "e286db5e867e864122f02f6347c5e0ba1533c40cb2386b6982fb0f93acbc20ce",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Glass?oldid=3750634"
+      }
+    },
+    "minecraft:sand": {
+      "topics": {
+        "mining": "Sand drops itself; a shovel is fastest. Silk Touch is unnecessary and Fortune does not increase the drop. Unsupported sand falls and can suffocate you.",
+        "location": "Look in deserts, beaches and shallow water for sand. Red sand is a different block found in badlands."
+      },
+      "evidence": {
+        "title": "Sand",
+        "revision": 3790085,
+        "sha256": "7cbe1c8f917c100d6e05f32c0be4b4c71834b759b927e243dc3e5463d178923c",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Sand?oldid=3790085"
+      }
+    },
+    "minecraft:gravel": {
+      "topics": {
+        "mining": "A shovel is fastest for gravel. Normally it has a 10% chance to drop flint instead of gravel. Fortune I raises this to about 14%, Fortune II to 25%, and Fortune III to 100%. Silk Touch collects gravel instead of flint.",
+        "location": "Look in rivers, oceans, underground gravel patches and windswept gravelly hills. Gravel also occurs in the Nether."
+      },
+      "evidence": {
+        "title": "Gravel",
+        "revision": 3778950,
+        "sha256": "657bfbfc81a755f7d774cca1fa838ada8d02f04b154165857177ab31ce6c4287",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Gravel?oldid=3778950"
+      }
+    },
+    "minecraft:clay": {
+      "topics": {
+        "mining": "Breaking clay normally drops 4 clay balls. A shovel is fastest. Silk Touch collects the clay block instead; Fortune does not increase the clay-ball count.",
+        "location": "Look underwater in shallow rivers and lakes, or on the floors of lush-cave ponds. You can also craft a clay block from 4 clay balls."
+      },
+      "evidence": {
+        "title": "Clay",
+        "revision": 3788507,
+        "sha256": "c2761a88ea69cc58467d367edcdacd02cc9bb67e09afccd7e9a1207a18dcaef8",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Clay?oldid=3788507"
+      }
+    },
+    "minecraft:ice": {
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect ice; a pickaxe is fastest. Without Silk Touch it drops no item and can leave water when a supporting block is underneath.",
+        "location": "Look for frozen surface water in cold biomes such as frozen rivers and frozen oceans."
+      },
+      "evidence": {
+        "title": "Ice",
+        "revision": 3853753,
+        "sha256": "793000ef8a00da45f720546e383223a97dcd830f8e1e8b03658a1700e27fb354",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Ice?oldid=3853753"
+      }
+    },
+    "minecraft:packed_ice": {
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect packed ice; a pickaxe is fastest. Without Silk Touch it drops nothing and does not turn into water.",
+        "location": "Find packed ice in ice spikes, frozen peaks and frozen-ocean icebergs, or craft it from 9 ice blocks."
+      },
+      "evidence": {
+        "title": "Packed Ice",
+        "revision": 3853310,
+        "sha256": "4b71beabe5d6559f155e399e5887b09bf5ff17bc39dfdfcb86045efff153501e",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Packed_Ice?oldid=3853310"
+      }
+    },
+    "minecraft:blue_ice": {
+      "topics": {
+        "mining": "Use a Silk Touch tool to collect blue ice; a pickaxe is fastest. Without Silk Touch it drops nothing.",
+        "location": "Find blue ice in frozen-ocean icebergs, especially their lower portions, or craft it from 9 packed ice blocks."
+      },
+      "evidence": {
+        "title": "Blue Ice",
+        "revision": 3853311,
+        "sha256": "fc9a89b607b6eb14c3b889404bb051abdd89119647ba6ab4df298360183ec31d",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Blue_Ice?oldid=3853311"
+      }
+    },
+    "minecraft:snow": {
+      "topics": {
+        "mining": "Use a shovel to collect 4 snowballs from a snow block. A Silk Touch shovel collects the block itself. Other ordinary tools do not collect snowballs.",
+        "location": "Find snow blocks in snowy mountains, ice spikes and igloos, or craft them from 4 snowballs."
+      },
+      "evidence": {
+        "title": "Snow Block",
+        "revision": 3778981,
+        "sha256": "881519523967fae6155c96d03eb65dc1e2406e9075ca67a9b05aabbd842479ec",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Snow_Block?oldid=3778981"
+      }
+    },
+    "minecraft:bookshelf": {
+      "topics": {
+        "mining": "A bookshelf normally drops 3 books; an axe is fastest. Silk Touch collects the bookshelf itself. Fortune does not add more books.",
+        "location": "Find bookshelves in stronghold libraries, village libraries and some woodland-mansion rooms, or craft them from books and wooden planks."
+      },
+      "evidence": {
+        "title": "Bookshelf",
+        "revision": 3775299,
+        "sha256": "9b7815de661d44a49a7a7527a8bc9687cfb3470f2e47404aedf2f219b4c6b296",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Bookshelf?oldid=3775299"
+      }
+    },
+    "minecraft:ender_chest": {
+      "topics": {
+        "mining": "Use a Silk Touch pickaxe to collect an ender chest. A pickaxe without Silk Touch drops 8 obsidian, without returning the eye of ender. Stored items remain in your personal ender-chest inventory.",
+        "location": "Find ender chests in some End-city treasure rooms, or craft one from 8 obsidian and 1 eye of ender."
+      },
+      "evidence": {
+        "title": "Ender Chest",
+        "revision": 3818581,
+        "sha256": "e66f65094adbb33d4e7659f29fb503a030aae5aaf56fbd5bcd046dc3a5016876",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Ender_Chest?oldid=3818581"
+      }
+    },
+    "minecraft:budding_amethyst": {
+      "topics": {
+        "mining": "Budding amethyst drops nothing, even with Silk Touch. Leave it in place if you want it to keep growing amethyst buds. It cannot be collected normally in Survival.",
+        "location": "Find budding amethyst in the inner layer of amethyst geodes underground in the Overworld. You cannot craft it or collect it normally in Survival."
+      },
+      "evidence": {
+        "title": "Budding Amethyst",
+        "revision": 3776708,
+        "sha256": "8884d240dbdced010ab2a7482fa2291dba50fb01b43d6d09e3159a0ea3029adc",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Budding_Amethyst?oldid=3776708"
+      }
+    },
+    "minecraft:ancient_debris": {
+      "topics": {
+        "mining": "Use a diamond or netherite pickaxe to collect ancient debris. Other tools drop nothing. It drops itself without Silk Touch; Fortune does not multiply it.",
+        "location": "Look underground in the Nether; around Y=16 is a useful search level. Ancient debris is rare and normally buried rather than exposed to air. Smelt it into netherite scrap."
+      },
+      "evidence": {
+        "title": "Ancient Debris",
+        "revision": 3773886,
+        "sha256": "bea69ee62b64d5aac864ff8ae9a4ec5612739fb9790830c9e82cd08c11380bd3",
+        "sections": [
+          "Obtaining/Breaking",
+          "Obtaining/Natural generation"
+        ],
+        "source": "https://minecraft.wiki/w/Ancient_Debris?oldid=3773886"
+      }
+    }
+  }
+}

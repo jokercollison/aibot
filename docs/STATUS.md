@@ -1,3 +1,10 @@
+# Current release: 0.2.18 — first block facets
+
+Adds 30 reviewed mining/location summaries across 15 terrain and resource blocks.
+Preserves existing detailed ore locations. Namespaced pack identities are fresh.
+The block phase is in progress; entity closeout remains the 0.2.17 milestone.
+Actual Minecraft testing is pending. See BLOCK_PROGRESS.md and RELEASE_0.2.18.md.
+
 # Current release: 0.2.17 — normal entity phase closeout
 
 The agreed normal entity pass is complete for all 129 pinned catalog profiles.

@@ -1,6 +1,6 @@
 # Current release checks
 
-For 0.2.17, use only the [short changed-feature checklist](../downloads/Robot_Test_Checklist-0.2.17.txt). The list below is retained as a historical full-system reference, not a request to repeat completed checks. Multiplayer remains untested.
+For 0.2.18, use only the [short changed-feature checklist](../downloads/Robot_Test_Checklist-0.2.18.txt). The list below is retained as a historical full-system reference, not a request to repeat completed checks. Multiplayer remains untested.
 
 # Actual Minecraft test checklist — not run in cloud
 

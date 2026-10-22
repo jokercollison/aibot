@@ -1,3 +1,8 @@
+# Current testing status: 0.2.18 pending
+
+New block answers and import checks require actual Minecraft testing. The user is
+testing 0.2.17; no result is inferred. Multiplayer remains untested.
+
 # Current testing status: 0.2.17 pending
 
 Automated validation closes the agreed entity implementation scope, not actual
