@@ -151,3 +151,37 @@ natural phrasing, context and exception tests. Existing 5,780 entity requests
 remain green. Temporary readable bundle: 6,322,270 bytes, maximum line 1,607
 characters. No new release or Minecraft pass is claimed. Published 0.2.19 and
 all earlier downloads remain unchanged.
+
+## Storage, workstation and redstone batch (development after 0.2.19)
+
+Adds 182 device variants with 184 authored shared summaries applied to 623
+catalog/topic combinations. Coverage includes chests, barrels, shulker boxes,
+hoppers, droppers/dispensers, furnaces/smokers/blast furnaces, workstations,
+comparators/repeaters, observers, pistons, switches, plates, doors/gates/trapdoors,
+copper devices, crafters and selected lighting. Exact membership is in
+BLOCK_DEVICE_AUDIT.json; revision/hash evidence is in data/blocks/devices.json.
+Device behavior is not inferred solely from material: copper doors/lanterns,
+trapdoors/grates/bulbs and chest contents have distinct harvesting rules.
+
+Adds operation, storage and redstone question facets. Basic what-is descriptions
+remain intact. Ordinary use questions retain a basic description if no more
+specific operation was reviewed; detailed unsupported mechanics still admit the
+gap. Block pronoun followups retain the selected device even when redstone dust
+would otherwise be detected as a new subject. Powered/unpowered state names are
+not treated as the question topic, and plural boxes resolve to box subjects.
+
+Exceptions include hopper power locking, dispenser item actions versus dropper
+transport, fuel/input/output hopper sides, preserved shulker contents, composter
+contents lost on breaking, grindstone curses, fletching table without player UI,
+crafter comparator slot counting, copper bulb toggling versus lamp power,
+manual copper doors versus iron control, button arrow activation, plate entity
+classes, copper chest sneaking for axe use and comparator/container differences.
+Weighted pressure plates use their actual light/heavy source articles rather than
+the generic disambiguation page. All statements are Bedrock player-facing prose.
+
+Validation: TypeScript and all 240 automated tests pass, including all 623 device
+facet applications, natural names, pronouns, drop exceptions and entity regression
+requests. The temporary readable bundle is 6,374,081 bytes; maximum line remains
+1,607 characters. Cloud tests are not actual Minecraft/device execution. Saved in
+development alongside the 134-variant plant batch; no new release is packaged.
+All published 0.2.19 and earlier downloads remain unchanged.

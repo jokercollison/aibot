@@ -35,6 +35,6 @@ test('block facet follow-ups retain subject and keep recipe presentation intact'
  assert.doesNotMatch(ask('How do I craft a bookshelf?').answer,/Grid|shaped|Station/);
 });
 test('unreviewed mining mechanics do not masquerade as definitions',()=>{
- assert.equal(ask('How do I mine a hopper?').status,'unknown');
+ assert.equal(ask('How do I mine reinforced deepslate?').status,'unknown');
  assert.match(ask('What is a hopper?').answer,/collects and moves/);
 });

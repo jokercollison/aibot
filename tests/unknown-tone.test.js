@@ -4,7 +4,7 @@ import {createConversation} from '../src/knowledge.js';
 test('unknown answers keep a friendly uncertainty opening and retain contextual guidance',()=>{
  const c=createConversation();
  assert.match(c.ask('What is a flibbertigibbet?').answer,/^Hmm, I'm not sure about that one yet/);
- const r=c.ask('How do I mine a hopper?');
+ const r=c.ask('How do I grow a hopper?');
  assert.equal(r.status,'unknown');assert.match(r.answer,/^Hmm, .*hopper/);
  assert.match(c.ask('How do I craft it?').answer,/5 iron ingots/);
 });

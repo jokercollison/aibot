@@ -52,7 +52,7 @@ function subjects(text) {
   for (let i = 0; i < words.length; i++) {
     for (let size = Math.min(maxAliasWords, words.length - i); size > 0; size--) {
       const term = words.slice(i, i + size).join(' ');
-      const singular = term.endsWith('ies') ? term.slice(0, -3) + 'y' : term.endsWith('s') ? term.slice(0, -1) : term;
+      const singular = term.endsWith('boxes') ? term.slice(0,-2) : term.endsWith('ies') ? term.slice(0, -3) + 'y' : term.endsWith('s') ? term.slice(0, -1) : term;
       const irregular = {wolves:'wolf',vexes:'vex',foxes:'fox',witches:'witch',endermen:'enderman',nautiluses:'nautilus','zombie nautiluses':'zombie nautilus','zombified pigmen':'zombified piglin','zombie pigmen':'zombified piglin'};
       const ids = aliasIndex.get(term) ?? aliasIndex.get(irregular[term] ?? singular) ?? aliasIndex.get(term + 's') ?? [];
       for (const id of ids) if (records[id]) found.push({record: records[id], size, start: i});
@@ -261,6 +261,7 @@ export function createConversation() {
         const blocks=matches.filter(m=>m.record.kind==='block');
         if(blocks.length)matches.splice(0,matches.length,...blocks);
       }
+      if(previous?.kind==='block' && blockTopic(q) && /\b(?:it|its|them|they)\b/.test(q)) matches.splice(0,matches.length,{record:previous,size:1,start:0});
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
       let scopedInteraction=false;
@@ -394,7 +395,7 @@ export function createConversation() {
       if (f) return {status: f.status, answer: f.text, sources: [f.source]};
       if(r.kind==='entity' && entityTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:entityTopic(q),answer:`I'm not sure about that yet. Could you ask me something else about ${clean(r.name)}?`};
       if(r.kind==='entity' && !entityTopic(q) && /^(?:can|could|will|would|does|do|is|are|why|when|how|what (?:does|do|can))\b/.test(q)) return {status:'unknown',subject:r.minecraft_id,answer:unknown};
-      if(r.kind==='block' && blockTopic(q)) return {status:'unknown',subject:r.minecraft_id,topic:blockTopic(q),answer:`I'm still learning about that part of ${clean(r.name)}. Could you ask me something else about it?`};
+      if(r.kind==='block' && blockTopic(q) && blockTopic(q)!=='operation') return {status:'unknown',subject:r.minecraft_id,topic:blockTopic(q),answer:`I'm still learning about that part of ${clean(r.name)}. Could you ask me something else about it?`};
       if (intent !== 'describe') return {status: 'unknown', answer: unknown};
       if (r.kind === 'enchantment' && r.effect) {
         const equipment = (r.equipment ?? []).map(e => e === 'durable_equipment' ? 'items with durability' : clean(e));

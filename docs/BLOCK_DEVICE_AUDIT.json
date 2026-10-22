@@ -1,0 +1,879 @@
+{
+  "scope": "data/blocks/devices.json",
+  "families": [
+    {
+      "family": "chest",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:chest"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "trapped_chest",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:trapped_chest"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "barrel",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:barrel"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "shulker_box",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:black_shulker_box",
+        "minecraft:blue_shulker_box",
+        "minecraft:brown_shulker_box",
+        "minecraft:cyan_shulker_box",
+        "minecraft:gray_shulker_box",
+        "minecraft:green_shulker_box",
+        "minecraft:light_blue_shulker_box",
+        "minecraft:light_gray_shulker_box",
+        "minecraft:lime_shulker_box",
+        "minecraft:magenta_shulker_box",
+        "minecraft:orange_shulker_box",
+        "minecraft:pink_shulker_box",
+        "minecraft:purple_shulker_box",
+        "minecraft:red_shulker_box",
+        "minecraft:undyed_shulker_box",
+        "minecraft:white_shulker_box",
+        "minecraft:yellow_shulker_box"
+      ],
+      "subject_count": 17,
+      "facet_applications": 68
+    },
+    {
+      "family": "hopper",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:hopper"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "dispenser",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:dispenser"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "dropper",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:dropper"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "furnace",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:furnace",
+        "minecraft:lit_furnace"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "blast_furnace",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:blast_furnace",
+        "minecraft:lit_blast_furnace"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "smoker",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:lit_smoker",
+        "minecraft:smoker"
+      ],
+      "subject_count": 2,
+      "facet_applications": 8
+    },
+    {
+      "family": "crafting_table",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:crafting_table"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "smithing_table",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:smithing_table"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "cartography_table",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:cartography_table"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "loom",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:loom"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "fletching_table",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:fletching_table"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "grindstone",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:grindstone"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "stonecutter_block",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:stonecutter_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "enchanting_table",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:enchanting_table"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "brewing_stand",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:brewing_stand"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "composter",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:composter"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "lectern",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:lectern"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "jukebox",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:jukebox"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "noteblock",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:noteblock"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "anvil",
+      "topics": [
+        "mining",
+        "operation",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil"
+      ],
+      "subject_count": 3,
+      "facet_applications": 9
+    },
+    {
+      "family": "crafter",
+      "topics": [
+        "mining",
+        "operation",
+        "storage",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:crafter"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "cauldron",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:cauldron"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "observer",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:observer"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "piston",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:piston",
+        "minecraft:sticky_piston"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "comparator",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:powered_comparator",
+        "minecraft:unpowered_comparator"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "repeater",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:powered_repeater",
+        "minecraft:unpowered_repeater"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "daylight",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:daylight_detector",
+        "minecraft:daylight_detector_inverted"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "lever",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:lever"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "lamp",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:lit_redstone_lamp",
+        "minecraft:redstone_lamp"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "redstone_torch",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:redstone_torch",
+        "minecraft:unlit_redstone_torch"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "wood_buttons",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:acacia_button",
+        "minecraft:bamboo_button",
+        "minecraft:birch_button",
+        "minecraft:cherry_button",
+        "minecraft:crimson_button",
+        "minecraft:dark_oak_button",
+        "minecraft:jungle_button",
+        "minecraft:mangrove_button",
+        "minecraft:pale_oak_button",
+        "minecraft:poplar_button",
+        "minecraft:spruce_button",
+        "minecraft:warped_button",
+        "minecraft:wooden_button"
+      ],
+      "subject_count": 13,
+      "facet_applications": 39
+    },
+    {
+      "family": "stone_buttons",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:polished_blackstone_button",
+        "minecraft:stone_button"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "wood_plates",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:acacia_pressure_plate",
+        "minecraft:bamboo_pressure_plate",
+        "minecraft:birch_pressure_plate",
+        "minecraft:cherry_pressure_plate",
+        "minecraft:crimson_pressure_plate",
+        "minecraft:dark_oak_pressure_plate",
+        "minecraft:jungle_pressure_plate",
+        "minecraft:mangrove_pressure_plate",
+        "minecraft:pale_oak_pressure_plate",
+        "minecraft:poplar_pressure_plate",
+        "minecraft:spruce_pressure_plate",
+        "minecraft:warped_pressure_plate",
+        "minecraft:wooden_pressure_plate"
+      ],
+      "subject_count": 13,
+      "facet_applications": 39
+    },
+    {
+      "family": "stone_plates",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:polished_blackstone_pressure_plate",
+        "minecraft:stone_pressure_plate"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "weighted_plates",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:light_weighted_pressure_plate"
+      ],
+      "subject_count": 2,
+      "facet_applications": 6
+    },
+    {
+      "family": "wood_doors",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:acacia_door",
+        "minecraft:bamboo_door",
+        "minecraft:birch_door",
+        "minecraft:cherry_door",
+        "minecraft:crimson_door",
+        "minecraft:dark_oak_door",
+        "minecraft:jungle_door",
+        "minecraft:mangrove_door",
+        "minecraft:pale_oak_door",
+        "minecraft:poplar_door",
+        "minecraft:spruce_door",
+        "minecraft:warped_door",
+        "minecraft:wooden_door"
+      ],
+      "subject_count": 13,
+      "facet_applications": 39
+    },
+    {
+      "family": "wood_trapdoors",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:acacia_trapdoor",
+        "minecraft:bamboo_trapdoor",
+        "minecraft:birch_trapdoor",
+        "minecraft:cherry_trapdoor",
+        "minecraft:crimson_trapdoor",
+        "minecraft:dark_oak_trapdoor",
+        "minecraft:jungle_trapdoor",
+        "minecraft:mangrove_trapdoor",
+        "minecraft:pale_oak_trapdoor",
+        "minecraft:poplar_trapdoor",
+        "minecraft:spruce_trapdoor",
+        "minecraft:trapdoor",
+        "minecraft:warped_trapdoor"
+      ],
+      "subject_count": 13,
+      "facet_applications": 39
+    },
+    {
+      "family": "wood_gates",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:acacia_fence_gate",
+        "minecraft:bamboo_fence_gate",
+        "minecraft:birch_fence_gate",
+        "minecraft:cherry_fence_gate",
+        "minecraft:crimson_fence_gate",
+        "minecraft:dark_oak_fence_gate",
+        "minecraft:fence_gate",
+        "minecraft:jungle_fence_gate",
+        "minecraft:mangrove_fence_gate",
+        "minecraft:pale_oak_fence_gate",
+        "minecraft:poplar_fence_gate",
+        "minecraft:spruce_fence_gate",
+        "minecraft:warped_fence_gate"
+      ],
+      "subject_count": 13,
+      "facet_applications": 39
+    },
+    {
+      "family": "iron_door",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:iron_door"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "iron_trapdoor",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:iron_trapdoor"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "copper_chest",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation",
+        "storage"
+      ],
+      "members": [
+        "minecraft:copper_chest",
+        "minecraft:exposed_copper_chest",
+        "minecraft:oxidized_copper_chest",
+        "minecraft:weathered_copper_chest"
+      ],
+      "subject_count": 4,
+      "facet_applications": 20
+    },
+    {
+      "family": "waxed_copper_chest",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation",
+        "storage"
+      ],
+      "members": [
+        "minecraft:waxed_copper_chest",
+        "minecraft:waxed_exposed_copper_chest",
+        "minecraft:waxed_oxidized_copper_chest",
+        "minecraft:waxed_weathered_copper_chest"
+      ],
+      "subject_count": 4,
+      "facet_applications": 20
+    },
+    {
+      "family": "copper_bulb",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_bulb",
+        "minecraft:exposed_copper_bulb",
+        "minecraft:oxidized_copper_bulb",
+        "minecraft:weathered_copper_bulb"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_bulb",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_bulb",
+        "minecraft:waxed_exposed_copper_bulb",
+        "minecraft:waxed_oxidized_copper_bulb",
+        "minecraft:waxed_weathered_copper_bulb"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "copper_door",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_door",
+        "minecraft:exposed_copper_door",
+        "minecraft:oxidized_copper_door",
+        "minecraft:weathered_copper_door"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_door",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_door",
+        "minecraft:waxed_exposed_copper_door",
+        "minecraft:waxed_oxidized_copper_door",
+        "minecraft:waxed_weathered_copper_door"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "copper_trapdoor",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_trapdoor",
+        "minecraft:exposed_copper_trapdoor",
+        "minecraft:oxidized_copper_trapdoor",
+        "minecraft:weathered_copper_trapdoor"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_trapdoor",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_trapdoor",
+        "minecraft:waxed_exposed_copper_trapdoor",
+        "minecraft:waxed_oxidized_copper_trapdoor",
+        "minecraft:waxed_weathered_copper_trapdoor"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "copper_lantern",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_lantern",
+        "minecraft:exposed_copper_lantern",
+        "minecraft:oxidized_copper_lantern",
+        "minecraft:weathered_copper_lantern"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_lantern",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_lantern",
+        "minecraft:waxed_exposed_copper_lantern",
+        "minecraft:waxed_oxidized_copper_lantern",
+        "minecraft:waxed_weathered_copper_lantern"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "copper_grate",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_grate",
+        "minecraft:exposed_copper_grate",
+        "minecraft:oxidized_copper_grate",
+        "minecraft:weathered_copper_grate"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_grate",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_grate",
+        "minecraft:waxed_exposed_copper_grate",
+        "minecraft:waxed_oxidized_copper_grate",
+        "minecraft:waxed_weathered_copper_grate"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 182,
+  "facet_applications": 623,
+  "independent_family_summaries": 184
+}

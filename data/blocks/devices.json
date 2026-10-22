@@ -1,0 +1,1094 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "chest",
+      "pattern": "chest",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary. Its contents spill out when it is broken.",
+        "operation": "Open a chest to store items. Two compatible adjacent chests can join into a large chest. Keep the lid clear so it can open.",
+        "storage": "A single chest holds 27 stacks; a double chest holds 54. Items stay in the placed chest, and spill out when it is broken.",
+        "redstone": "Hoppers can insert and remove chest items. A comparator reads how full the chest is; powering an ordinary chest does not lock its lid."
+      },
+      "evidence": {
+        "title": "Chest",
+        "revision": 3818487,
+        "sha256": "84c9247937b96c45f3d53a2d95b49b4c62a8a957b1d8d7149e7efdd630b82bc7",
+        "source": "https://minecraft.wiki/w/Chest?oldid=3818487",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "trapped_chest",
+      "pattern": "trapped_chest",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary. Its contents spill out when it is broken.",
+        "operation": "A trapped chest stores items like a chest but emits redstone power while players have it open.",
+        "storage": "A single trapped chest has 27 slots. It only joins with another trapped chest, not an ordinary chest.",
+        "redstone": "Opening a trapped chest produces a signal based on how many players are viewing it. A comparator can separately measure its inventory fullness."
+      },
+      "evidence": {
+        "title": "Trapped Chest",
+        "revision": 3823008,
+        "sha256": "1dc079040c01cf4505e4b80fae8b7f506f9eeff5a150df3a8865d8d3b3138502",
+        "source": "https://minecraft.wiki/w/Trapped_Chest?oldid=3823008",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "barrel",
+      "pattern": "barrel",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary. Its contents spill out when it is broken.",
+        "operation": "Use a barrel for storage where a chest lid would be blocked. A barrel can still open with a solid block above it. It is also a fisherman job-site block.",
+        "storage": "A barrel has 27 inventory slots. Adjacent barrels remain separate rather than combining.",
+        "redstone": "Hoppers can insert and remove items. A comparator measures inventory fullness; redstone power does not lock the barrel."
+      },
+      "evidence": {
+        "title": "Barrel",
+        "revision": 3832972,
+        "sha256": "437c55ccfb63c93498ed5c5e2633d59368154eabdc402627fcc681ba1e7304de",
+        "source": "https://minecraft.wiki/w/Barrel?oldid=3832972",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "shulker_box",
+      "pattern": "(?:(?:white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black|undyed)_shulker_box)",
+      "topics": {
+        "mining": "Break a shulker box by hand or with any tool; a pickaxe is fastest. It drops as a box item with its inventory still inside. Silk Touch is unnecessary.",
+        "operation": "Place a shulker box to access it, then break it to carry the stored items. Leave room on its opening side for the lid.",
+        "storage": "Shulker boxes have 27 slots and retain contents when broken. You cannot put a shulker box inside another shulker box.",
+        "redstone": "Hoppers can transfer items into and out of placed shulker boxes. Comparators can read their inventory fullness."
+      },
+      "evidence": {
+        "title": "Shulker Box",
+        "revision": 3818767,
+        "sha256": "dc9f91bb23b51881487687544530e225142fda486d2f0caefe796ca4c461e1aa",
+        "source": "https://minecraft.wiki/w/Shulker_Box?oldid=3818767",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "hopper",
+      "pattern": "hopper",
+      "topics": {
+        "mining": "Use any pickaxe to collect the block and its contents. Without a pickaxe, only the contents drop.",
+        "operation": "A hopper collects and moves items automatically. It collects loose items above it, pulls items from a container above it, and transfers items into the container its spout points toward. Powering it with redstone locks its transfers. Sneak while placing it against a container to aim the spout.",
+        "storage": "A hopper has 5 slots. It pulls from above and pushes toward its output; pointing it upward does not make it push upward.",
+        "redstone": "Powering a hopper locks its own collection and transfer operations. It works automatically when unpowered; power is used to stop it, not start it."
+      },
+      "evidence": {
+        "title": "Hopper",
+        "revision": 3843353,
+        "sha256": "b6351dbd8bfb3585772a65543e0bdd735ed3b6b47eaf38d003e62eeac21108ea",
+        "source": "https://minecraft.wiki/w/Hopper?oldid=3843353",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dispenser",
+      "pattern": "dispenser",
+      "topics": {
+        "mining": "Use any pickaxe to collect the block and its contents. Without a pickaxe, only the contents drop.",
+        "operation": "A dispenser uses supported items: it can fire arrows, place water from a bucket, equip armor and perform other item-specific actions. Unsupported items are ejected as item entities.",
+        "storage": "This device has 9 slots. Each activation selects an occupied slot; fill the slots with the items your mechanism needs.",
+        "redstone": "A new redstone activation triggers one item action. Continuous power does not repeatedly dispense; use repeated pulses for repeated actions."
+      },
+      "evidence": {
+        "title": "Dispenser",
+        "revision": 3823011,
+        "sha256": "8de05491dc51fd50ec993b08c420f68f3d84b1202172ef1069c0e890d62386d8",
+        "source": "https://minecraft.wiki/w/Dispenser?oldid=3823011",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "dropper",
+      "pattern": "dropper",
+      "topics": {
+        "mining": "Use any pickaxe to collect the block and its contents. Without a pickaxe, only the contents drop.",
+        "operation": "A dropper ejects an item as an item entity, or transfers it into an inventory directly in front of its output. It does not fire arrows or use buckets like a dispenser.",
+        "storage": "This device has 9 slots. Each activation selects an occupied slot; fill the slots with the items your mechanism needs.",
+        "redstone": "A new redstone activation triggers one item action. Continuous power does not repeatedly dispense; use repeated pulses for repeated actions."
+      },
+      "evidence": {
+        "title": "Dropper",
+        "revision": 3822999,
+        "sha256": "5424de0ea3887666934f82d062b5d985e49c8a090dda830dce8be10b1cbdd612",
+        "source": "https://minecraft.wiki/w/Dropper?oldid=3822999",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "furnace",
+      "pattern": "(?:lit_)?furnace",
+      "topics": {
+        "mining": "Use any pickaxe to collect the block and its contents. Without a pickaxe, only the contents drop.",
+        "operation": "A furnace smelts ores and materials and cooks food. Put the input in the top slot, valid fuel below and take the finished output.",
+        "storage": "The three slots hold input, fuel and output. Outputs must have room before processing can continue.",
+        "redstone": "A hopper above inserts input, a hopper from the side inserts fuel, and a hopper below extracts output. A comparator can measure the inventory; the block does not require redstone power to run."
+      },
+      "evidence": {
+        "title": "Furnace",
+        "revision": 3823010,
+        "sha256": "227576904ba12f22c2b3c8221cbcdd81fb2181e18aeae7260b95678fa31317d3",
+        "source": "https://minecraft.wiki/w/Furnace?oldid=3823010",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "blast_furnace",
+      "pattern": "(?:lit_)?blast_furnace",
+      "topics": {
+        "mining": "Use any pickaxe to collect the block and its contents. Without a pickaxe, only the contents drop.",
+        "operation": "A blast furnace smelts supported ores, raw metals and metal equipment faster than a furnace. It does not cook food or smelt every furnace recipe. It is an armorer job-site block.",
+        "storage": "The three slots hold input, fuel and output. Outputs must have room before processing can continue.",
+        "redstone": "A hopper above inserts input, a hopper from the side inserts fuel, and a hopper below extracts output. A comparator can measure the inventory; the block does not require redstone power to run."
+      },
+      "evidence": {
+        "title": "Blast Furnace",
+        "revision": 3823002,
+        "sha256": "45cf88156d5627dfe058858f4022f155dc630216bcab201ff033e144871d3ebf",
+        "source": "https://minecraft.wiki/w/Blast_Furnace?oldid=3823002",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "smoker",
+      "pattern": "(?:lit_)?smoker",
+      "topics": {
+        "mining": "Use any pickaxe to collect the block and its contents. Without a pickaxe, only the contents drop.",
+        "operation": "A smoker cooks supported foods faster than a furnace. It does not smelt ores. It is a butcher job-site block.",
+        "storage": "The three slots hold input, fuel and output. Outputs must have room before processing can continue.",
+        "redstone": "A hopper above inserts input, a hopper from the side inserts fuel, and a hopper below extracts output. A comparator can measure the inventory; the block does not require redstone power to run."
+      },
+      "evidence": {
+        "title": "Smoker",
+        "revision": 3823000,
+        "sha256": "d5acdb54cda42d8ca526da0942f93a0004fedf2f4b9b634a5feffbd84a00929c",
+        "source": "https://minecraft.wiki/w/Smoker?oldid=3823000",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "crafting_table",
+      "pattern": "crafting_table",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Use a crafting table to access recipes that need more than your small inventory crafting area. Choose a recipe and supply the ingredients."
+      },
+      "evidence": {
+        "title": "Crafting Table",
+        "revision": 3853756,
+        "sha256": "647147000f1be7dd3c02a14dadfc4d5a8cf4f03ec23755142cd4098b9e774be6",
+        "source": "https://minecraft.wiki/w/Crafting_Table?oldid=3853756",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "smithing_table",
+      "pattern": "smithing_table",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Use a smithing table with the appropriate smithing template, equipment and material for an upgrade or armor trim. It is also the toolsmith job-site block."
+      },
+      "evidence": {
+        "title": "Smithing Table",
+        "revision": 3822948,
+        "sha256": "698cd29ff245839b12800ca9a54542e64f18f65046b1c8823d5bcc0b97924312",
+        "source": "https://minecraft.wiki/w/Smithing_Table?oldid=3822948",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cartography_table",
+      "pattern": "cartography_table",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Use a cartography table with a map and the appropriate material to expand, clone or lock a map. It is also the cartographer job-site block."
+      },
+      "evidence": {
+        "title": "Cartography Table",
+        "revision": 3822942,
+        "sha256": "df3f72419e85a4522475fd4caa48589045289e7cfd55ab32899798cc7617ccc1",
+        "source": "https://minecraft.wiki/w/Cartography_Table?oldid=3822942",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "loom",
+      "pattern": "loom",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Put a banner and dye into a loom, then choose a pattern. Some designs also require a banner pattern item. It is the shepherd job-site block."
+      },
+      "evidence": {
+        "title": "Loom",
+        "revision": 3822946,
+        "sha256": "07cb81456d004b3e7c182a081e9a32c45026d72f7721f544ab903672da196360",
+        "source": "https://minecraft.wiki/w/Loom?oldid=3822946",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "fletching_table",
+      "pattern": "fletching_table",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "A fletching table is a fletcher job-site block. It currently has no player crafting interface; use ordinary crafting recipes to make arrows."
+      },
+      "evidence": {
+        "title": "Fletching Table",
+        "revision": 3782359,
+        "sha256": "841325a83e165876b9ee76c56f69e6aa525ee684acb2ab1369327e69004142e6",
+        "source": "https://minecraft.wiki/w/Fletching_Table?oldid=3782359",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "grindstone",
+      "pattern": "grindstone",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use a grindstone to repair matching items or remove ordinary enchantments for some experience. It does not remove curses. It is also the weaponsmith job-site block."
+      },
+      "evidence": {
+        "title": "Grindstone",
+        "revision": 3822945,
+        "sha256": "fbd985ef0fe1c6cfd348c80fb2cf29a8721691f281caf3c24cffe26044d9b13b",
+        "source": "https://minecraft.wiki/w/Grindstone?oldid=3822945",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "stonecutter_block",
+      "pattern": "stonecutter_block",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Choose a supported stone or masonry input in a stonecutter, then select its output variant. It is also the mason job-site block."
+      },
+      "evidence": {
+        "title": "Stonecutter",
+        "revision": 3822952,
+        "sha256": "bb47a3b54aecb92c80877ab3790059df382a282e36f7a50fbd62ef753a4b3d8c",
+        "source": "https://minecraft.wiki/w/Stonecutter?oldid=3822952",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "enchanting_table",
+      "pattern": "enchanting_table",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use lapis lazuli and experience levels to enchant a supported item. Up to 15 properly placed bookshelves unlock the highest offers; leave the gap between table and shelves unobstructed."
+      },
+      "evidence": {
+        "title": "Enchanting Table",
+        "revision": 3844086,
+        "sha256": "d6342662b6b144f9d489235702bdb4ad126756fec68ade6103d8ecf50a5638d6",
+        "source": "https://minecraft.wiki/w/Enchanting_Table?oldid=3844086",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "brewing_stand",
+      "pattern": "brewing_stand",
+      "topics": {
+        "mining": "Break a brewing stand by hand or with a tool to collect it and its contents; a pickaxe is fastest.",
+        "operation": "Put bottles in a brewing stand, supply blaze powder as fuel, and add the appropriate ingredient. Nether wart makes awkward potions for many potion recipes. It is the cleric job-site block."
+      },
+      "evidence": {
+        "title": "Brewing Stand",
+        "revision": 3836602,
+        "sha256": "38901e10ee8d584ba24d2311d5fe4d33b679ca2aa3d1f6542da360cd0176ad9f",
+        "source": "https://minecraft.wiki/w/Brewing_Stand?oldid=3836602",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "composter",
+      "pattern": "composter",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary. Stored compost is lost; the block drops empty.",
+        "operation": "Add compostable plants or foods until the composter fills and produces bone meal. Different inputs have different success chances. It is the farmer job-site block.",
+        "redstone": "A comparator reads the compost level. A hopper above can insert compostable items; a hopper below can collect finished bone meal."
+      },
+      "evidence": {
+        "title": "Composter",
+        "revision": 3816852,
+        "sha256": "00003217a018fb0e1090c1832abe21cc289700b6192b308cb6d12a91a66fca21",
+        "source": "https://minecraft.wiki/w/Composter?oldid=3816852",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lectern",
+      "pattern": "lectern",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Place a book and quill or written book on a lectern for players to read. It is also the librarian job-site block.",
+        "redstone": "A comparator can read the current page of a book on a lectern. Turning pages also produces a brief redstone pulse."
+      },
+      "evidence": {
+        "title": "Lectern",
+        "revision": 3818686,
+        "sha256": "0f7435616769c27ca9640a4fc09118421b2e55a03ddd1e6c08269b70198b597a",
+        "source": "https://minecraft.wiki/w/Lectern?oldid=3818686",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "jukebox",
+      "pattern": "jukebox",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Insert a music disc to play its recording; interact to remove the disc. The music depends on the disc, not on redstone signal strength.",
+        "redstone": "A playing jukebox produces redstone output. A comparator identifies the inserted disc by signal strength; it is not a volume control."
+      },
+      "evidence": {
+        "title": "Jukebox",
+        "revision": 3853787,
+        "sha256": "a81c9fe58f3b25b1ac4d4a79597659788dadc795d88046f85445cc0106e88360",
+        "source": "https://minecraft.wiki/w/Jukebox?oldid=3853787",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "noteblock",
+      "pattern": "noteblock",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Use the note block to change its pitch. A redstone activation plays its note. The block beneath controls the instrument; leave air above so it can play.",
+        "redstone": "A new redstone activation plays the selected note if the space above is clear. Continuous power does not play the note repeatedly."
+      },
+      "evidence": {
+        "title": "Note Block",
+        "revision": 3840927,
+        "sha256": "9e136ee495e4dfb01d79d357890bf1d213cf86e45b11f377334f21dd5f1840e0",
+        "source": "https://minecraft.wiki/w/Note_Block?oldid=3840927",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "anvil",
+      "pattern": "(?:(?:chipped|damaged)_)?anvil",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use an anvil to rename items, repair with compatible materials or combine items and enchantments. These actions cost experience and repeated work can become too expensive.",
+        "gravity": "Anvils fall when unsupported and can hurt entities below. Anvils can become damaged through use or falling and eventually break."
+      },
+      "evidence": {
+        "title": "Anvil",
+        "revision": 3841165,
+        "sha256": "9a67324f2546d5dcfdf22951834def1467cd0405d443bb3425ff8f72a872da4f",
+        "source": "https://minecraft.wiki/w/Anvil?oldid=3841165",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "crafter",
+      "pattern": "crafter",
+      "topics": {
+        "mining": "A crafter drops itself by hand or with any tool; a pickaxe is fastest. Stored items also drop.",
+        "operation": "Put ingredients in a crafter, disable slots you do not want filled, and send a redstone pulse to craft the matching recipe. The output is sent out its front.",
+        "storage": "A crafter has 9 ingredient slots; individual slots can be disabled to guide automated filling.",
+        "redstone": "Each new redstone activation attempts one craft. A comparator reports the number of occupied or disabled slots, not ordinary container fullness."
+      },
+      "evidence": {
+        "title": "Crafter",
+        "revision": 3823006,
+        "sha256": "1f7c4b97cbe1b9e085a318734df8bd6b9b00af81f1b9af5dd13e87d8d3363095",
+        "source": "https://minecraft.wiki/w/Crafter?oldid=3823006",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cauldron",
+      "pattern": "cauldron",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Cauldrons can hold water, lava or powder snow. Water cauldrons can wash compatible dyed items. You can also store potions and dye water for compatible coloring actions.",
+        "redstone": "A comparator can read a cauldron fill level. A cauldron is not a general item inventory and cannot be emptied with a hopper."
+      },
+      "evidence": {
+        "title": "Cauldron",
+        "revision": 3839255,
+        "sha256": "e3b51b1bc07a4375827b85948e8522e1a03bac639db4deddda1bbec72f0a2a80",
+        "source": "https://minecraft.wiki/w/Cauldron?oldid=3839255",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "observer",
+      "pattern": "observer",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Point the observer face with the eyes toward the block you want to watch. The red-dot side is the redstone output.",
+        "redstone": "An observer produces a short pulse when it detects a relevant change in the block in front. Its output comes from the opposite side. Detection depends on the kind of block update, so it does not detect every imaginable change."
+      },
+      "evidence": {
+        "title": "Observer",
+        "revision": 3786373,
+        "sha256": "6a327dde661f1d9788ad963b5ae8c2bbe7ce936cefa0ff974bf8bdcd21721bbe",
+        "source": "https://minecraft.wiki/w/Observer?oldid=3786373",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "piston",
+      "pattern": "(?:sticky_)?piston",
+      "topics": {
+        "mining": "Pistons drop themselves by hand or with any tool; a pickaxe is fastest. Silk Touch is unnecessary.",
+        "operation": "Power a piston to push movable blocks in front of its face. A sticky piston can also pull a suitable block back when it retracts. Some blocks cannot be moved.",
+        "redstone": "A piston extends while powered and retracts when power is removed. It can push at most 12 movable blocks; connected slime or honey arrangements still have to respect this limit."
+      },
+      "evidence": {
+        "title": "Piston",
+        "revision": 3820809,
+        "sha256": "325efe0835552a384af40a1aa9d6e46e353915b3d995fcf48659715e3410f7ff",
+        "source": "https://minecraft.wiki/w/Piston?oldid=3820809",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "comparator",
+      "pattern": "(?:powered|unpowered)_comparator",
+      "topics": {
+        "mining": "A comparator drops as a comparator item when broken by hand or with any tool. Powered and unpowered forms are not different collectible items.",
+        "operation": "A comparator can read supported container fullness and compare or subtract side-input signal strengths. Use it to switch between comparison and subtraction mode.",
+        "redstone": "In comparison mode it passes the rear strength if neither side input is stronger. In subtraction mode it outputs rear strength minus the stronger side input, with a minimum of zero."
+      },
+      "evidence": {
+        "title": "Redstone Comparator",
+        "revision": 3825889,
+        "sha256": "a7a20f7e6e631a6042745b2dcee715e31b377efb2e80deb5977262c286be83d8",
+        "source": "https://minecraft.wiki/w/Redstone_Comparator?oldid=3825889",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "repeater",
+      "pattern": "(?:powered|unpowered)_repeater",
+      "topics": {
+        "mining": "A repeater drops as a repeater item when broken by hand or with any tool. Powered and unpowered forms are not different collectible items.",
+        "operation": "Use a repeater to extend a redstone line, make power travel one way and add an adjustable delay.",
+        "redstone": "A repeater restores an incoming signal to full strength. Interact to select one of four delays. A powered repeater or comparator pointing into its side can lock its current output."
+      },
+      "evidence": {
+        "title": "Redstone Repeater",
+        "revision": 3842434,
+        "sha256": "b1f26f742ce873daa013fe207f9b0292ecd62cea16cd7abadf5f915f2f06c4f3",
+        "source": "https://minecraft.wiki/w/Redstone_Repeater?oldid=3842434",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "daylight",
+      "pattern": "daylight_detector(?:_inverted)?",
+      "topics": {
+        "mining": "Daylight detectors drop themselves by hand or with any tool; an axe is fastest. An inverted detector drops a regular detector item.",
+        "operation": "Place a daylight detector where it can receive sky light. Interact with it to switch between ordinary and inverted operation.",
+        "redstone": "A daylight detector outputs a varying signal based on daylight. Inverted mode is useful for night-controlled circuits. Covering the detector or changing the weather can affect output."
+      },
+      "evidence": {
+        "title": "Daylight Detector",
+        "revision": 3839136,
+        "sha256": "ece077ea530933554f05754aea0761f3616233826ae7e129c4096ef27c955b97",
+        "source": "https://minecraft.wiki/w/Daylight_Detector?oldid=3839136",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lever",
+      "pattern": "lever",
+      "topics": {
+        "mining": "Levers drop themselves by hand or with any tool.",
+        "operation": "Use a lever to toggle redstone power on and off. It stays in the selected position until used again.",
+        "redstone": "An on lever supplies strength 15. An off lever supplies no power. Unlike a button, it does not automatically spring back."
+      },
+      "evidence": {
+        "title": "Lever",
+        "revision": 3810412,
+        "sha256": "96605eb73de2b5b0c51d970f499bdebb777522ea18c338fc0a44ac59f3041900",
+        "source": "https://minecraft.wiki/w/Lever?oldid=3810412",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lamp",
+      "pattern": "(?:lit_)?redstone_lamp",
+      "topics": {
+        "mining": "Redstone lamps drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Use a redstone lamp as a light controlled by a redstone circuit.",
+        "redstone": "A redstone lamp lights while powered and goes dark after power is removed; it does not toggle permanently on each pulse like a copper bulb."
+      },
+      "evidence": {
+        "title": "Redstone Lamp",
+        "revision": 3844060,
+        "sha256": "6864c595e947cf28e55ced1ff699eb28c2b20c10140ab947ef6770afe4c353ff",
+        "source": "https://minecraft.wiki/w/Redstone_Lamp?oldid=3844060",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "redstone_torch",
+      "pattern": "(?:unlit_)?redstone_torch",
+      "topics": {
+        "mining": "Break a redstone torch by hand or with any tool to collect the torch item.",
+        "operation": "A redstone torch is a small power source that can also invert a signal. It turns off when the block it is attached to receives power.",
+        "redstone": "A lit redstone torch powers nearby compatible components. Rapid repeated switching can burn it out temporarily; it is not an unlimited-speed clock."
+      },
+      "evidence": {
+        "title": "Redstone Torch",
+        "revision": 3799785,
+        "sha256": "fea3665f5552ed2a1405e16b29eb34b19335a7888b53b6992cdb983aa74ea33f",
+        "source": "https://minecraft.wiki/w/Redstone_Torch?oldid=3799785",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_buttons",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_button|wooden_button)",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Press a wooden button for a temporary redstone signal. Arrows can also hold a wooden button active.",
+        "redstone": "A wooden button emits power briefly after being pressed, then resets. An arrow lodged against it keeps it activated until the arrow leaves."
+      },
+      "evidence": {
+        "title": "Wooden Button",
+        "revision": 3849675,
+        "sha256": "8c3ff415ca1f609f3b2d8279ce95842d96035af1188fba5cb7bd81a15c6c1b50",
+        "source": "https://minecraft.wiki/w/Wooden_Button?oldid=3849675",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "stone_buttons",
+      "pattern": "(?:stone|polished_blackstone)_button",
+      "topics": {
+        "mining": "Stone and polished blackstone buttons drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Press a stone button for a short redstone pulse. Arrows do not activate it.",
+        "redstone": "A stone button produces a temporary signal and resets automatically. Use a lever if you need power to stay on."
+      },
+      "evidence": {
+        "title": "Stone Button",
+        "revision": 3810417,
+        "sha256": "380bf48d9b9d57b69920505d47a8c08db56d8fb3d0d36161f9a1c3c8011da5db",
+        "source": "https://minecraft.wiki/w/Stone_Button?oldid=3810417",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_plates",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_pressure_plate|wooden_pressure_plate)",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "A wooden pressure plate detects entities on it, including dropped items. Use it for a floor trigger.",
+        "redstone": "While an entity is pressing it, a wooden pressure plate emits full-strength power. It turns off when no longer pressed."
+      },
+      "evidence": {
+        "title": "Wooden Pressure Plate",
+        "revision": 3849674,
+        "sha256": "08d78028427db6ad1d16d0e4a78875c0dd15a7f5719cb2c6a7228a3dfa22ecc5",
+        "source": "https://minecraft.wiki/w/Wooden_Pressure_Plate?oldid=3849674",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "stone_plates",
+      "pattern": "(?:stone|polished_blackstone)_pressure_plate",
+      "topics": {
+        "mining": "Stone pressure plates drop themselves by hand or with a tool; a pickaxe is fastest.",
+        "operation": "A stone pressure plate detects players and mobs standing on it; dropped items do not trigger it.",
+        "redstone": "A stone pressure plate supplies full-strength power while a player or mob presses it, then resets."
+      },
+      "evidence": {
+        "title": "Stone Pressure Plate",
+        "revision": 3739460,
+        "sha256": "50b009e38844f959716bffde6dac72d71a3203c5e4e3415bef472c48a7c833e8",
+        "source": "https://minecraft.wiki/w/Stone_Pressure_Plate?oldid=3739460",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "weighted_plates",
+      "pattern": "(?:light|heavy)_weighted_pressure_plate",
+      "topics": {
+        "mining": "Weighted pressure plates drop themselves when broken by hand or with any tool; a pickaxe is fastest. Silk Touch is unnecessary.",
+        "operation": "Weighted pressure plates detect entities and vary their signal with the number present. Light gold plates reach strong signals with fewer entities than heavy iron plates.",
+        "redstone": "The signal depends on entity count rather than simply being on or off. Both dropped item entities and living entities can contribute."
+      },
+      "evidence": {
+        "title": "Light Weighted Pressure Plate",
+        "revision": 3839265,
+        "sha256": "65866448555a0a758558a9972d09d1fd438336c4337e0f403aad169abdf5dbf7",
+        "source": "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate?oldid=3839265",
+        "dependencies": [
+          {
+            "title": "Heavy Weighted Pressure Plate",
+            "revision": 3839266,
+            "sha256": "dcab4dbd6764e26e811793cebe8cf1c951f80d2f41086e3fff691ec96b5715d4",
+            "source": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate?oldid=3839266"
+          }
+        ],
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_doors",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_door|wooden_door)",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Open or close a wooden door by hand or with redstone power. Hard-mode zombies can break susceptible wooden doors.",
+        "redstone": "Redstone power opens the door; removing power closes it. Wooden doors can also be operated directly by hand."
+      },
+      "evidence": {
+        "title": "Wooden Door",
+        "revision": 3849671,
+        "sha256": "d85c197722c5c84c557c5ef0ae43c6f759aa1f009e525e24af0aeeca4be91cea",
+        "source": "https://minecraft.wiki/w/Wooden_Door?oldid=3849671",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_trapdoors",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_trapdoor|trapdoor)",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Open or close a wooden trapdoor by hand or with redstone. It changes between a flat cover and an upright panel.",
+        "redstone": "Redstone power opens the trapdoor; removing power closes it. You can also operate wooden trapdoors by hand."
+      },
+      "evidence": {
+        "title": "Wooden Trapdoor",
+        "revision": 3849673,
+        "sha256": "936b1c757c22e2e2749cbbf1fc5016936afcc7f6e97659a09845b77de3c88216",
+        "source": "https://minecraft.wiki/w/Wooden_Trapdoor?oldid=3849673",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_gates",
+      "pattern": "(?:(?:acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_fence_gate|fence_gate)",
+      "topics": {
+        "mining": "Break this block by hand or with any tool to collect it; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Open a fence gate by hand or with redstone to make a passage in a fence. Closed gates stop ordinary walking passage.",
+        "redstone": "Power opens a fence gate and removing power closes it. Gates can also be operated directly by hand."
+      },
+      "evidence": {
+        "title": "Fence Gate",
+        "revision": 3849670,
+        "sha256": "3526d9e6c95f14a40ef64b207c7f5a21513a684a0413b27efc1f6a674f029ac3",
+        "source": "https://minecraft.wiki/w/Fence_Gate?oldid=3849670",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "iron_door",
+      "pattern": "iron_door",
+      "topics": {
+        "mining": "An iron door drops itself when broken by hand or with a tool; a pickaxe is fastest.",
+        "operation": "An iron door needs redstone control, such as a button, lever or pressure plate. It cannot be opened directly by hand.",
+        "redstone": "Power opens an iron door; removing power closes it. Use a button or lever beside the door for player access."
+      },
+      "evidence": {
+        "title": "Iron Door",
+        "revision": 3810415,
+        "sha256": "c8a9798dd8cd563b1933355294ce63c701e075dd0974d2b40e3ede03e64b7c21",
+        "source": "https://minecraft.wiki/w/Iron_Door?oldid=3810415",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "iron_trapdoor",
+      "pattern": "iron_trapdoor",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use redstone to open and close an iron trapdoor. It cannot be operated directly by hand.",
+        "redstone": "Power opens the iron trapdoor; removing power closes it."
+      },
+      "evidence": {
+        "title": "Iron Trapdoor",
+        "revision": 3810455,
+        "sha256": "9896e688d858b24a1affad9397cde0be1669f051a4b8cd6478f66d400ce1ba02",
+        "source": "https://minecraft.wiki/w/Iron_Trapdoor?oldid=3810455",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_chest",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_chest",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect a copper chest. A weaker tool drops only its contents.",
+        "operation": "Copper chests store items and serve as pickup sources for copper golems that sort items into other chests. Leave opening space above the lid.",
+        "redstone": "Hoppers can transfer items. A comparator can read inventory fullness.",
+        "oxidation": "Unwaxed copper oxidizes through exposed, weathered and oxidized stages. Apply honeycomb to preserve the stage, or use an axe to scrape oxidation back one stage at a time. Sneak while using the axe on a copper chest so you scrape it instead of opening it.",
+        "storage": "A single copper chest has 27 slots; a large copper chest has 54. Copper golems can take items from copper chests for sorting."
+      },
+      "evidence": {
+        "title": "Copper Chest",
+        "revision": 3818493,
+        "sha256": "7b4e0acf3ccf2a3981b5fc791cf5fa16a6ca326470cb6a64dfe8f089d0f41aab",
+        "source": "https://minecraft.wiki/w/Copper_Chest?oldid=3818493",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_chest",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_chest",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect a copper chest. A weaker tool drops only its contents.",
+        "operation": "Copper chests store items and serve as pickup sources for copper golems that sort items into other chests. Leave opening space above the lid.",
+        "redstone": "Hoppers can transfer items. A comparator can read inventory fullness.",
+        "oxidation": "Waxed copper stays at its current oxidation stage. Use an axe to remove wax, then use the axe again to scrape oxidation back one stage at a time. Sneak while using the axe on a copper chest so you scrape it instead of opening it.",
+        "storage": "A single copper chest has 27 slots; a large copper chest has 54. Copper golems can take items from copper chests for sorting."
+      },
+      "evidence": {
+        "title": "Copper Chest",
+        "revision": 3818493,
+        "sha256": "7b4e0acf3ccf2a3981b5fc791cf5fa16a6ca326470cb6a64dfe8f089d0f41aab",
+        "source": "https://minecraft.wiki/w/Copper_Chest?oldid=3818493",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_bulb",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_bulb",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the copper bulb; weaker tools drop nothing.",
+        "operation": "A copper bulb is a toggleable light. Its brightness decreases as it oxidizes. Waxing preserves its current oxidation stage.",
+        "redstone": "Each new power activation toggles the bulb between lit and unlit. It keeps that state after power is removed. A comparator can detect whether it is lit.",
+        "oxidation": "Unwaxed copper oxidizes through exposed, weathered and oxidized stages. Apply honeycomb to preserve the stage, or use an axe to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Bulb",
+        "revision": 3850560,
+        "sha256": "7ecb2bd6d2c84bfaa6e72874e0e69c09cc1d8db9d0ce382119c8e42c36aa6691",
+        "source": "https://minecraft.wiki/w/Copper_Bulb?oldid=3850560",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_bulb",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_bulb",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the copper bulb; weaker tools drop nothing.",
+        "operation": "A copper bulb is a toggleable light. Its brightness decreases as it oxidizes. Waxing preserves its current oxidation stage.",
+        "redstone": "Each new power activation toggles the bulb between lit and unlit. It keeps that state after power is removed. A comparator can detect whether it is lit.",
+        "oxidation": "Waxed copper stays at its current oxidation stage. Use an axe to remove wax, then use the axe again to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Bulb",
+        "revision": 3850560,
+        "sha256": "7ecb2bd6d2c84bfaa6e72874e0e69c09cc1d8db9d0ce382119c8e42c36aa6691",
+        "source": "https://minecraft.wiki/w/Copper_Bulb?oldid=3850560",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_door",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_door",
+      "topics": {
+        "mining": "Copper doors drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Copper doors can be opened by hand as well as with redstone power. They are not redstone-only like iron doors.",
+        "redstone": "Power opens the copper door; removing power closes it. Manual use also works.",
+        "oxidation": "Unwaxed copper oxidizes through exposed, weathered and oxidized stages. Apply honeycomb to preserve the stage, or use an axe to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Door",
+        "revision": 3826042,
+        "sha256": "e3976a26685489823182d68562c613b21cf150f98cb7c7d6283a3a1816d032cf",
+        "source": "https://minecraft.wiki/w/Copper_Door?oldid=3826042",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_door",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_door",
+      "topics": {
+        "mining": "Copper doors drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Copper doors can be opened by hand as well as with redstone power. They are not redstone-only like iron doors.",
+        "redstone": "Power opens the copper door; removing power closes it. Manual use also works.",
+        "oxidation": "Waxed copper stays at its current oxidation stage. Use an axe to remove wax, then use the axe again to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Door",
+        "revision": 3826042,
+        "sha256": "e3976a26685489823182d68562c613b21cf150f98cb7c7d6283a3a1816d032cf",
+        "source": "https://minecraft.wiki/w/Copper_Door?oldid=3826042",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_trapdoor",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_trapdoor",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the copper trapdoor; weaker tools drop nothing.",
+        "operation": "Copper trapdoors can be opened by hand or with redstone, unlike iron trapdoors.",
+        "redstone": "Power opens the copper trapdoor; removing power closes it. Manual use also works.",
+        "oxidation": "Unwaxed copper oxidizes through exposed, weathered and oxidized stages. Apply honeycomb to preserve the stage, or use an axe to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Trapdoor",
+        "revision": 3792708,
+        "sha256": "98732851003fd5ea59af2ed4cca5e59fcfe80a78d74d1f207868e2dac5bfce02",
+        "source": "https://minecraft.wiki/w/Copper_Trapdoor?oldid=3792708",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_trapdoor",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_trapdoor",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect the copper trapdoor; weaker tools drop nothing.",
+        "operation": "Copper trapdoors can be opened by hand or with redstone, unlike iron trapdoors.",
+        "redstone": "Power opens the copper trapdoor; removing power closes it. Manual use also works.",
+        "oxidation": "Waxed copper stays at its current oxidation stage. Use an axe to remove wax, then use the axe again to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Trapdoor",
+        "revision": 3792708,
+        "sha256": "98732851003fd5ea59af2ed4cca5e59fcfe80a78d74d1f207868e2dac5bfce02",
+        "source": "https://minecraft.wiki/w/Copper_Trapdoor?oldid=3792708",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_lantern",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_lantern",
+      "topics": {
+        "mining": "Copper lanterns drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Place or hang a copper lantern as a light source. It does not need redstone power.",
+        "redstone": "Redstone does not switch a copper lantern on and off. Use a copper bulb for a toggled light.",
+        "oxidation": "Unwaxed copper oxidizes through exposed, weathered and oxidized stages. Apply honeycomb to preserve the stage, or use an axe to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Lantern",
+        "revision": 3844114,
+        "sha256": "89ebadc8e776e58c056d1d55e6e87f887ffc40468313e39957e458e31fc0453d",
+        "source": "https://minecraft.wiki/w/Copper_Lantern?oldid=3844114",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_lantern",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_lantern",
+      "topics": {
+        "mining": "Copper lanterns drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Place or hang a copper lantern as a light source. It does not need redstone power.",
+        "redstone": "Redstone does not switch a copper lantern on and off. Use a copper bulb for a toggled light.",
+        "oxidation": "Waxed copper stays at its current oxidation stage. Use an axe to remove wax, then use the axe again to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Lantern",
+        "revision": 3844114,
+        "sha256": "89ebadc8e776e58c056d1d55e6e87f887ffc40468313e39957e458e31fc0453d",
+        "source": "https://minecraft.wiki/w/Copper_Lantern?oldid=3844114",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_grate",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_grate",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect a copper grate; weaker tools drop nothing.",
+        "operation": "Copper grates are open-looking decorative building blocks. They can be waterlogged.",
+        "redstone": "A copper grate does not conduct redstone like an ordinary opaque solid block.",
+        "oxidation": "Unwaxed copper oxidizes through exposed, weathered and oxidized stages. Apply honeycomb to preserve the stage, or use an axe to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Grate",
+        "revision": 3789788,
+        "sha256": "09d3411ab07050bad2e77b2d778973157a63fea8a40a16d8a0131c5e1afea27b",
+        "source": "https://minecraft.wiki/w/Copper_Grate?oldid=3789788",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_grate",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_grate",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect a copper grate; weaker tools drop nothing.",
+        "operation": "Copper grates are open-looking decorative building blocks. They can be waterlogged.",
+        "redstone": "A copper grate does not conduct redstone like an ordinary opaque solid block.",
+        "oxidation": "Waxed copper stays at its current oxidation stage. Use an axe to remove wax, then use the axe again to scrape oxidation back one stage at a time."
+      },
+      "evidence": {
+        "title": "Copper Grate",
+        "revision": 3789788,
+        "sha256": "09d3411ab07050bad2e77b2d778973157a63fea8a40a16d8a0131c5e1afea27b",
+        "source": "https://minecraft.wiki/w/Copper_Grate?oldid=3789788",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    }
+  ]
+}
