@@ -1,3 +1,4 @@
+import utility from '../data/blocks/utility.json' with {type:'json'};
 import devices from '../data/blocks/devices.json' with {type:'json'};
 import plants from '../data/blocks/plants.json' with {type:'json'};
 import masonry from '../data/blocks/masonry.json' with {type:'json'};
@@ -5,11 +6,11 @@ import ground from '../data/blocks/ground.json' with {type:'json'};
 import families from '../data/blocks/families.json' with {type:'json'};
 import terrain from '../data/blocks/terrain.json' with {type:'json'};
 
-const rules=[...families.rules,...ground.rules,...masonry.rules,...plants.rules,...devices.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
+const rules=[...families.rules,...ground.rules,...masonry.rules,...plants.rules,...devices.rules,...utility.rules].map(rule=>({...rule,match:new RegExp('^(?:'+rule.pattern+')$')}));
 
 // Keep the question facet separate from the catalog's basic definition.
 export function blockTopic(q) {
-  q=q.replace(/\bfire coral\b/g,'coral').replace(/\b(?:powered|unpowered) (?=comparator|repeater)/g,'').replace(/\bredstone (?=lamp|torch|comparator|repeater|wire|block)/g,'');
+  q=q.replace(/\bhoneycomb blocks?\b/g,'decorative block').replace(/\bfire coral\b/g,'coral').replace(/\b(?:powered|unpowered) (?=comparator|repeater)/g,'').replace(/\bredstone (?=lamp|torch|comparator|repeater|wire|block)/g,'');
   if (/^(?:what is|what are|describe|tell me about)\b/.test(q) && !/\b(?:tool|pickaxe|shovel|silk touch|fortune|happens|growth|growing|planting)\b/.test(q)) return undefined;
   if (/\b(?:where|find|found|locate|obtain|biomes?|depth|deep|height)\b/.test(q)) return 'location';
   if (/\b(?:grow|grows|growing|growth|planting|bone meal|bonemeal|fertili[sz]e|mature|maturing|hydrate|hydration|trample|trampling)\b/.test(q) || /\b(?:do i|can i|should i|to|you) plant\b/.test(q)) return 'growth';
@@ -19,6 +20,7 @@ export function blockTopic(q) {
   if (/\b(?:gravity|fall|falls|falling|unsupported|support)\b/.test(q)) return 'gravity';
   if (/\b(?:water|waterlogged|waterlogging|harden|hardens|rain|dissolve)\b/.test(q)) return 'water';
   if (/\b(?:silk touch|fortune|mine|mining|break|breaking|harvest|pickaxe|shovel|tool|drops?|loot)\b/.test(q)) return 'mining';
+  if (/\b(?:explode|explodes|explosion|explosions|dangerous|danger)\b/.test(q)) return 'danger';
   if (/\b(?:slots?|capacity|inventory|store|storage|hold|holds|put in|insert|accept|accepts)\b/.test(q)) return 'storage';
   if (/\b(?:redstone|power|powered|signal|pulse|pulses|activate|activation|lock|locking)\b/.test(q)) return 'redstone';
   if (/\b(?:use|using|work|works|function|operate|operation|do|does)\b/.test(q)) return 'operation';

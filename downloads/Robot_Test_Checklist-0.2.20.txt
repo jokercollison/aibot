@@ -1,0 +1,77 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.20
+Bedrock 1.26.52 — changed features only
+
+INSTALL
+Open TimeTrapRobot-0.2.20.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.20
+  Time Trap Studios AI Bot — Resources 0.2.20
+Both descriptions and the robot menu must show 0.2.20.
+Optional summon: /summon tts_ai_bot_v0_2_20:robot
+Confirm both packs import with no missing dependencies or content-log errors.
+
+PLANTS AND FARMING
+1. What is a cherry sapling?
+   Follow up: How do I grow it? / Where can I find it?
+   Expect bone meal/space guidance and cherry groves.
+   How do I grow dark oak saplings?
+   Expect four matching saplings in a 2-by-2 square.
+2. How do I grow Nether wart?
+   Expect soul sand, not soul soil; no water/light requirement; no bone meal.
+   How do I grow sugar cane?
+   Expect water beside soil and bone meal support.
+3. How do I harvest mangrove propagules?
+   Expect mature hanging propagules only; immature ones drop nothing.
+   How do I harvest seagrass? / How do I harvest hanging roots?
+   Expect shears for seagrass; shears or Silk Touch for hanging roots.
+4. How do I grow small dripleaf?
+   Expect bone meal makes big dripleaf, not more small dripleaves.
+   How do I harvest glow berries?
+   Expect use a berry-bearing vine; no Fortune increase.
+5. How do I harvest brain coral blocks?
+   Expect Silk Touch pickaxe for live blocks.
+   What happens with water and dead brain coral?
+   Expect water does not revive dead coral.
+
+STORAGE, WORKSTATIONS AND REDSTONE
+6. What is a hopper?
+   Follow up: Does it need redstone power?
+   Expect power locks/stops the hopper; it runs unpowered.
+7. How do I mine blue shulker boxes?
+   Expect contents remain inside the dropped box.
+   How many slots does a barrel hold?
+   Expect 27.
+8. How do I use a blast furnace? / How do I use a smoker?
+   Expect restricted smelting versus food cooking.
+   How do I use a fletching table?
+   Expect fletcher job site; no player crafting interface.
+9. How does redstone affect a copper bulb?
+   Expect toggles once per new activation and keeps its state.
+   How does redstone affect a redstone lamp?
+   Expect lit while powered, rather than permanent toggle.
+10. How do I mine copper doors? / How do I mine copper trapdoors?
+    Expect doors collectible by hand; trapdoors need stone pickaxe or better.
+    How do I use iron doors? / How do I use copper doors?
+    Expect iron redstone-only; copper also opens by hand.
+
+LIGHTING, TRANSPORT AND SPECIAL BLOCKS
+11. How do I mine a campfire? / How do I mine a soul campfire?
+    Expect Silk Touch for the block; otherwise charcoal versus soul soil.
+    How do I mine a chiseled bookshelf?
+    Expect Silk Touch for the block, stored books drop separately.
+12. How do I use powered rails? / How do I use detector rails?
+    Expect acceleration/braking versus a cart sensor.
+    How do I use activator rails?
+    Expect special cart actions, not acceleration.
+13. How do I use a beacon? / How do I use a conduit?
+    Expect mineral pyramid/clear beam versus water/prismarine frame.
+14. Is a bed dangerous? / Is a respawn anchor dangerous?
+    Expect bed explosions in Nether/End; charged anchor explosions outside Nether.
+    How do I mine a monster spawner? / How do I mine a vault?
+    Expect no collectible block, even with Silk Touch.
+15. How do I mine copper bars? / How do I mine copper chains?
+    Expect any pickaxe, unlike copper blocks needing stone or better.
+    How do I mine oak double slabs?
+    Expect two slabs, not a separate double-slab item.
+
+No need to repeat old checklists. Report incorrect answers or content-log errors.
+This release expands coverage; it does not claim every block topic is finished.

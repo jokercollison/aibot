@@ -185,3 +185,23 @@ requests. The temporary readable bundle is 6,374,081 bytes; maximum line remains
 1,607 characters. Cloud tests are not actual Minecraft/device execution. Saved in
 development alongside the 134-variant plant batch; no new release is packaged.
 All published 0.2.19 and earlier downloads remain unchanged.
+
+## Utility pass and packaging update: 0.2.20
+
+The utility pass adds 121 variants with 135 shared summaries applied to 405
+catalog/topic combinations. Inventory: BLOCK_UTILITY_AUDIT.json. Evidence:
+data/blocks/utility.json. Includes lighting, rails, beacons/conduits, beds/anchors,
+sponges, movement materials, shelves, uncollectible spawners/vaults, copper
+chains/bars/rods and conventional wooden slabs/stairs/fences. Education variants,
+straw beds and unsupported custom derivatives are excluded from these patterns.
+
+Ordinary aliases include powered rail, cobweb, monster spawner and slime block.
+Honeycomb block names do not accidentally select copper waxing questions.
+Utility tests cover every 405 facet application plus natural-name exceptions.
+
+Plant, device and utility batches are now packaged as isolated release 0.2.20:
+437 variants, 583 shared summaries, 1,433 applications. Historical development-only
+notes above describe preparation status at that time. The full suite has 244
+passing tests and the entity audit remains green. Actual Minecraft testing is
+pending; the focused release checklist contains only changed-feature examples.
+All 0.2.19 and earlier downloads are unchanged.

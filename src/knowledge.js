@@ -42,7 +42,7 @@ for(const {id,alias} of [...entitySubjectAliases,...entityVariantAliases]) {
  const targets=(byMinecraftId.get(id)??[]).filter(r=>r.kind==='entity').map(r=>r.id);
  if(targets.length)aliasIndex.set(clean(alias),targets);
 }
-for(const [alias,id] of [['small dripleaf','minecraft:small_dripleaf_block'],['lily pad','minecraft:waterlily']]) {
+for(const [alias,id] of [['small dripleaf','minecraft:small_dripleaf_block'],['lily pad','minecraft:waterlily'],['powered rail','minecraft:golden_rail'],['slime block','minecraft:slime'],['monster spawner','minecraft:mob_spawner'],['cobweb','minecraft:web']]) {
   const targets=(byMinecraftId.get(id)??[]).map(r=>r.id);
   if(targets.length)aliasIndex.set(alias,targets);
 }

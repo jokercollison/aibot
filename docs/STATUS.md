@@ -1,3 +1,11 @@
+# Current release: 0.2.20 — plants, devices and utility blocks
+
+Adds 437 block variants in the plant, device and utility batches. They contain
+583 shared summaries with 1,433 catalog/topic applications. Growth, harvesting,
+operation, storage, redstone and relevant safety exceptions are connected.
+Full block coverage remains in progress. Actual Minecraft testing is pending.
+See RELEASE_0.2.20.md and the focused checklist.
+
 # Current release: 0.2.19 — broad block families and uncertainty tone
 
 Combines three development batches across 463 additional block variants, with

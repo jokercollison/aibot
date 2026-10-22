@@ -1,0 +1,797 @@
+{
+  "edition": "bedrock",
+  "target_version": "1.26.52",
+  "rules": [
+    {
+      "id": "torch",
+      "pattern": "torch",
+      "topics": {
+        "mining": "Torches drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Place this torch on a suitable support for steady light. It does not need fuel after placement or redstone power.",
+        "redstone": "This light torch does not supply redstone power or switch off when powered. Use a redstone torch for a circuit component."
+      },
+      "evidence": {
+        "title": "Torch",
+        "revision": 3832470,
+        "sha256": "00f57a37eda1648901db1c25b90a61120e90c9525458e21d7e186357791d6248",
+        "source": "https://minecraft.wiki/w/Torch?oldid=3832470",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "soul_torch",
+      "pattern": "soul_torch",
+      "topics": {
+        "mining": "Torches drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Place this torch on a suitable support for steady light. It does not need fuel after placement or redstone power.",
+        "redstone": "This light torch does not supply redstone power or switch off when powered. Use a redstone torch for a circuit component."
+      },
+      "evidence": {
+        "title": "Soul Torch",
+        "revision": 3844095,
+        "sha256": "c290c461f483d50f53685f085e4c4f3ece08db2393aff1967939e6ffed4ce4d2",
+        "source": "https://minecraft.wiki/w/Soul_Torch?oldid=3844095",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_torch",
+      "pattern": "copper_torch",
+      "topics": {
+        "mining": "Torches drop themselves when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Place this torch on a suitable support for steady light. It does not need fuel after placement or redstone power.",
+        "redstone": "This light torch does not supply redstone power or switch off when powered. Use a redstone torch for a circuit component."
+      },
+      "evidence": {
+        "title": "Copper Torch",
+        "revision": 3849155,
+        "sha256": "0af5094125b569f7a6f3603497278d02984f35637e01eb582f61bd7ff094358c",
+        "source": "https://minecraft.wiki/w/Copper_Torch?oldid=3849155",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lantern",
+      "pattern": "lantern",
+      "topics": {
+        "mining": "Lanterns drop themselves by hand or with any tool; a pickaxe is fastest. Silk Touch is unnecessary.",
+        "operation": "Place a lantern on top of a support or hang it below one. It gives steady light without fuel or power.",
+        "redstone": "This lantern is always lit. Redstone power does not toggle it; use a redstone lamp or copper bulb for controlled lighting."
+      },
+      "evidence": {
+        "title": "Lantern",
+        "revision": 3810567,
+        "sha256": "139036d546cc62180ed851f765e8c7bd6609632eb2db4f6d58456aa413e2fe84",
+        "source": "https://minecraft.wiki/w/Lantern?oldid=3810567",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "soul_lantern",
+      "pattern": "soul_lantern",
+      "topics": {
+        "mining": "Lanterns drop themselves by hand or with any tool; a pickaxe is fastest. Silk Touch is unnecessary.",
+        "operation": "Place a lantern on top of a support or hang it below one. It gives steady light without fuel or power.",
+        "redstone": "This lantern is always lit. Redstone power does not toggle it; use a redstone lamp or copper bulb for controlled lighting."
+      },
+      "evidence": {
+        "title": "Soul Lantern",
+        "revision": 3844096,
+        "sha256": "11d879f53379e5bb7e23c127d222e67da8ae5e83eeb45936ee490657df137add",
+        "source": "https://minecraft.wiki/w/Soul_Lantern?oldid=3844096",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "end_rod",
+      "pattern": "end_rod",
+      "topics": {
+        "mining": "End rods drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "location": "Find end rods in End cities, or craft them from blaze rods and popped chorus fruit.",
+        "operation": "End rods are steady light sources that can be placed in different orientations. They do not need redstone power."
+      },
+      "evidence": {
+        "title": "End Rod",
+        "revision": 3844098,
+        "sha256": "abfbd6dbdf8874a5e06b998a7f5d12f0b654b822b6121e476396984ce28380bf",
+        "source": "https://minecraft.wiki/w/End_Rod?oldid=3844098",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "campfire",
+      "pattern": "campfire",
+      "topics": {
+        "mining": "Use Silk Touch to collect the campfire itself. Without Silk Touch it drops 2 charcoal, along with items cooking on it. An axe is fastest.",
+        "operation": "Place up to 4 raw food items on a lit campfire to cook without adding fuel. Extinguish it with a shovel or water, and relight it with flint and steel or another suitable ignition method.",
+        "water": "Water extinguishes the campfire. A waterlogged campfire cannot be lit until its water is removed.",
+        "fire": "A lit campfire hurts entities standing on it. It cooks food without being consumed and does not spread fire to surrounding blocks."
+      },
+      "evidence": {
+        "title": "Campfire",
+        "revision": 3844058,
+        "sha256": "690fa1ecdc0149475f3e1d0445f27d96bc9ea9c0d680438c22ccb6674ba3aa47",
+        "source": "https://minecraft.wiki/w/Campfire?oldid=3844058",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "soul_campfire",
+      "pattern": "soul_campfire",
+      "topics": {
+        "mining": "Use Silk Touch to collect the campfire itself. Without Silk Touch it drops soul soil, along with items cooking on it. An axe is fastest.",
+        "operation": "Place up to 4 raw food items on a lit campfire to cook without adding fuel. Extinguish it with a shovel or water, and relight it with flint and steel or another suitable ignition method.",
+        "water": "Water extinguishes the campfire. A waterlogged campfire cannot be lit until its water is removed.",
+        "fire": "A lit campfire hurts entities standing on it. It cooks food without being consumed and does not spread fire to surrounding blocks."
+      },
+      "evidence": {
+        "title": "Soul Campfire",
+        "revision": 3844076,
+        "sha256": "81912f5f45fea1f71592d4cfced1523143e11873fa2d33eaaf0accfd304f8097",
+        "source": "https://minecraft.wiki/w/Soul_Campfire?oldid=3844076",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "beacon",
+      "pattern": "beacon",
+      "topics": {
+        "mining": "A beacon drops itself when broken by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Build a pyramid of iron, gold, emerald, diamond or netherite blocks under the beacon and keep a clear beam path to the sky. Open it, select an unlocked effect and pay an accepted mineral item to activate the selection.",
+        "location": "Craft a beacon using a Nether star from the Wither, glass and obsidian.",
+        "redstone": "Beacons do not need redstone power. Their activation depends on a valid mineral pyramid and unobstructed beam; copper blocks cannot power the pyramid."
+      },
+      "evidence": {
+        "title": "Beacon",
+        "revision": 3837755,
+        "sha256": "e955cb1556664466d1d5fc4f796325d43e1359e89d6fb7c245aa3ab84d63531b",
+        "source": "https://minecraft.wiki/w/Beacon?oldid=3837755",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "conduit",
+      "pattern": "conduit",
+      "topics": {
+        "mining": "A conduit drops itself by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Surround the conduit with water and build a valid frame of prismarine variants or sea lanterns. At least 16 frame blocks activate Conduit Power; larger valid frames extend its range. It helps wet players breathe, see and mine underwater.",
+        "water": "The conduit needs the surrounding 3-by-3-by-3 space filled with water. Its frame sits outside that central water space. A dry conduit does not grant Conduit Power.",
+        "location": "Craft a conduit from a heart of the sea and 8 nautilus shells."
+      },
+      "evidence": {
+        "title": "Conduit",
+        "revision": 3818492,
+        "sha256": "6c054b1c6280f35445a3eb7c0271d6b174b9bf17ba05056e9d1d8b802c20322d",
+        "source": "https://minecraft.wiki/w/Conduit?oldid=3818492",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "respawn_anchor",
+      "pattern": "respawn_anchor",
+      "topics": {
+        "mining": "Use a diamond or netherite pickaxe to collect a respawn anchor. It loses its stored glowstone charges when broken. Weaker tools drop nothing.",
+        "operation": "In the Nether, add glowstone to charge a respawn anchor, then use it to set your respawn point. Respawning consumes a charge; keep it charged and leave safe space nearby. Using a charged anchor outside the Nether makes it explode.",
+        "redstone": "A comparator reads the charge level. Redstone power alone does not recharge the anchor; it needs glowstone.",
+        "danger": "Using a charged respawn anchor outside the Nether causes a dangerous explosion. Use a bed for ordinary Overworld respawning instead."
+      },
+      "evidence": {
+        "title": "Respawn Anchor",
+        "revision": 3844082,
+        "sha256": "a568eb79f12935a6e23936d57dfd8df210bfb0c36d7b230307877a2861279807",
+        "source": "https://minecraft.wiki/w/Respawn_Anchor?oldid=3844082",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "bed",
+      "pattern": "bed",
+      "topics": {
+        "mining": "Beds drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Use a bed in the Overworld at night or during a thunderstorm to sleep when conditions permit. Using it can set your respawn point; leave safe room around it. Never try to sleep in one in the Nether or the End; it explodes there.",
+        "danger": "Trying to sleep in a bed in the Nether or the End causes a dangerous explosion. Use a charged respawn anchor for Nether respawning instead."
+      },
+      "evidence": {
+        "title": "Bed",
+        "revision": 3849823,
+        "sha256": "0dffdb099f1291cfc690598bbbf25b47b46696a2226b44e9a25431be7e5220d6",
+        "source": "https://minecraft.wiki/w/Bed?oldid=3849823",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "sponge",
+      "pattern": "sponge",
+      "topics": {
+        "mining": "Sponges drop themselves by hand or with any tool; a hoe is fastest.",
+        "location": "Look in ocean monument sponge rooms and obtain wet sponges from elder guardians, then dry them.",
+        "water": "A dry sponge absorbs nearby water and becomes a wet sponge. It cannot keep absorbing indefinitely; dry it before using it again."
+      },
+      "evidence": {
+        "title": "Sponge",
+        "revision": 3843290,
+        "sha256": "3d50e4ad5e100b10cd90f9c430b838de134263f0bbe755599c145c50340ede16",
+        "source": "https://minecraft.wiki/w/Sponge?oldid=3843290",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wet_sponge",
+      "pattern": "wet_sponge",
+      "topics": {
+        "mining": "Wet sponges drop themselves by hand or with any tool; a hoe is fastest.",
+        "location": "Find wet sponges in some ocean monument sponge rooms or from elder guardians.",
+        "water": "Wet sponges cannot absorb more water. Dry one in a furnace, or place it in the Nether to dry it instantly."
+      },
+      "evidence": {
+        "title": "Wet Sponge",
+        "revision": 3847950,
+        "sha256": "22f3e43d60bf725865d29117d7aa17a734cd63379b1a026ca364a57a6ab0fc87",
+        "source": "https://minecraft.wiki/w/Wet_Sponge?oldid=3847950",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "rail",
+      "pattern": "rail",
+      "topics": {
+        "mining": "Rails drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Ordinary rails guide minecarts and can form curves and slopes. They do not accelerate a cart by themselves.",
+        "redstone": "Ordinary rails are not boosters or power sources. Power can affect which way certain rail junctions connect."
+      },
+      "evidence": {
+        "title": "Rail",
+        "revision": 3783819,
+        "sha256": "da1a78fb5fd368a89bbe86b19520bb06c7d5ebb8bda03bc7612d3203a00591b2",
+        "source": "https://minecraft.wiki/w/Rail?oldid=3783819",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "golden_rail",
+      "pattern": "golden_rail",
+      "topics": {
+        "mining": "Rails drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Powered rails accelerate minecarts while powered and brake carts when unpowered. They do not form curves.",
+        "redstone": "Supply redstone power to enable acceleration. Powered rails can pass power along a limited connected run; longer tracks need more power sources."
+      },
+      "evidence": {
+        "title": "Powered Rail",
+        "revision": 3771097,
+        "sha256": "6aff6489035b4f842826de0cf2e0f881dc1fe0a9d7c7adfee0e738b16ecad5d1",
+        "source": "https://minecraft.wiki/w/Powered_Rail?oldid=3771097",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "detector_rail",
+      "pattern": "detector_rail",
+      "topics": {
+        "mining": "Rails drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Detector rails emit redstone power while a minecart is on them. Use them as track sensors rather than as powered-rail boosters.",
+        "redstone": "A minecart activates the detector rail. A comparator can read compatible minecart cargo when the cart is on the detector."
+      },
+      "evidence": {
+        "title": "Detector Rail",
+        "revision": 3800846,
+        "sha256": "843ddfaeb1cf19210895fa7c73aa42ffb48ea3c4f9bf3dd11499838af50d61fd",
+        "source": "https://minecraft.wiki/w/Detector_Rail?oldid=3800846",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "activator_rail",
+      "pattern": "activator_rail",
+      "topics": {
+        "mining": "Rails drop themselves by hand or with any tool; a pickaxe is fastest.",
+        "operation": "Powered activator rails trigger special minecart behavior, such as ejecting passengers, priming TNT minecarts or disabling hopper-minecart collection.",
+        "redstone": "Redstone power enables the rail activation effect. It does not speed carts up; use powered rails for acceleration."
+      },
+      "evidence": {
+        "title": "Activator Rail",
+        "revision": 3850565,
+        "sha256": "17c1890a09c2322d513afc70b617786dcc31eb06595f6ae378a7c29cc282d758",
+        "source": "https://minecraft.wiki/w/Activator_Rail?oldid=3850565",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "ladder",
+      "pattern": "ladder",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary.",
+        "operation": "Place ladders against a suitable vertical support. Move into the ladder to climb; sneaking lets you hold position."
+      },
+      "evidence": {
+        "title": "Ladder",
+        "revision": 3752395,
+        "sha256": "a96db5ab4e486a46402a16c2e681a28a02f80120daf166cb26c337e885819940",
+        "source": "https://minecraft.wiki/w/Ladder?oldid=3752395",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "scaffolding",
+      "pattern": "scaffolding",
+      "topics": {
+        "mining": "Scaffolding breaks instantly and drops itself. Removing support can make connected scaffolding collapse.",
+        "operation": "Use scaffolding as a temporary climbable building platform. Jump to climb and sneak to descend. Build outward from supported scaffolding, respecting its support limit.",
+        "gravity": "Unsupported scaffolding falls or collapses. Breaking a base can bring down dependent scaffolding above and beside it."
+      },
+      "evidence": {
+        "title": "Scaffolding",
+        "revision": 3849192,
+        "sha256": "44ddac3272ef9ca5d6a67e267b7651dfa6838da5b126ca25e0cafad2505f324d",
+        "source": "https://minecraft.wiki/w/Scaffolding?oldid=3849192",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "cobweb",
+      "pattern": "web",
+      "topics": {
+        "mining": "Use shears to collect the cobweb block. A sword without Silk Touch gives 1 string instead. Most other ordinary tools drop nothing.",
+        "location": "Find cobwebs in places such as abandoned mineshafts, abandoned villages and stronghold libraries.",
+        "operation": "Cobwebs slow entities that move through them, including falling entities. Use them for traps or collect them for string."
+      },
+      "evidence": {
+        "title": "Cobweb",
+        "revision": 3845058,
+        "sha256": "50a7ea9147a861faddddb66a9bd6b9a6d3179abdfdb9abe85bf55d33bcd1416c",
+        "source": "https://minecraft.wiki/w/Cobweb?oldid=3845058",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "slime",
+      "pattern": "slime",
+      "topics": {
+        "mining": "Slime blocks drop themselves instantly by hand or with any tool.",
+        "operation": "Slime blocks bounce entities landing on them unless the bounce is suppressed, such as by sneaking. They also stick to compatible neighboring blocks when moved by pistons.",
+        "redstone": "Pistons can move attached compatible blocks with a slime block, subject to piston limits and immovable blocks. Slime blocks do not stick to honey blocks."
+      },
+      "evidence": {
+        "title": "Slime Block",
+        "revision": 3779236,
+        "sha256": "082be5fbfd223edb175f4ff417eeb36be56ec7aeb42dfae8202992008dbe6955",
+        "source": "https://minecraft.wiki/w/Slime_Block?oldid=3779236",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "honey",
+      "pattern": "honey_block",
+      "topics": {
+        "mining": "Honey blocks drop themselves instantly by hand or with any tool.",
+        "operation": "Honey blocks slow movement and jumping, cushion falls and let entities slide down their sides. They can carry compatible blocks in piston mechanisms.",
+        "redstone": "Honey blocks stick to compatible neighboring blocks when moved by a piston. They do not stick to slime blocks, so the two can be used in adjacent moving sections."
+      },
+      "evidence": {
+        "title": "Honey Block",
+        "revision": 3843179,
+        "sha256": "5a722a561694b811daeb5f6929a188df48f1e71a5c02822d424bdd6f4497b540",
+        "source": "https://minecraft.wiki/w/Honey_Block?oldid=3843179",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "honeycomb",
+      "pattern": "honeycomb_block",
+      "topics": {
+        "mining": "Honeycomb blocks drop themselves by hand or with any tool. Silk Touch is unnecessary.",
+        "operation": "Honeycomb blocks are decorative blocks made from honeycomb. They are not sticky honey blocks and cannot be unpacked into honeycomb."
+      },
+      "evidence": {
+        "title": "Honeycomb Block",
+        "revision": 3750997,
+        "sha256": "09ad66fc01e49f40a7b13c17d8f47ecbe393e748387f1211c0980604367df2fa",
+        "source": "https://minecraft.wiki/w/Honeycomb_Block?oldid=3750997",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "tnt",
+      "pattern": "tnt",
+      "topics": {
+        "mining": "Unprimed TNT normally drops itself when broken by hand or with a tool. Ignition or an explosion primes it instead of collecting it.",
+        "operation": "Ignite TNT using an appropriate ignition method or redstone power. Once primed it becomes a timed explosive, so move to safety.",
+        "redstone": "Redstone power primes TNT. Removing power afterward does not cancel its fuse.",
+        "danger": "TNT explosions can hurt entities and destroy blocks. Water changes how block damage works, but it does not make standing beside an explosion safe."
+      },
+      "evidence": {
+        "title": "TNT",
+        "revision": 3822891,
+        "sha256": "ab7fa0e1e79eecdb476a43ddbe9f6a2f83b8b1d73e585006b8b31bee8f31498a",
+        "source": "https://minecraft.wiki/w/TNT?oldid=3822891",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "spawner",
+      "pattern": "mob_spawner",
+      "topics": {
+        "mining": "A monster spawner cannot be collected in normal Survival, even with Silk Touch. A pickaxe destroys it for experience; it does not drop a spawner item.",
+        "location": "Find monster spawners in structures such as monster rooms, mineshafts, Nether fortresses and strongholds.",
+        "operation": "An ordinary monster spawner needs a nearby player and valid space and conditions for its configured mob. Keep or disable it in place; you cannot pick it up with Silk Touch."
+      },
+      "evidence": {
+        "title": "Monster Spawner",
+        "revision": 3849793,
+        "sha256": "12e8751f711a881d81da2e7e01a8cdd05b7f0d390d4e0366be3fb0d632160ad3",
+        "source": "https://minecraft.wiki/w/Monster_Spawner?oldid=3849793",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "trial_spawner",
+      "pattern": "trial_spawner",
+      "topics": {
+        "mining": "Trial spawners drop nothing, even with Silk Touch. Do not break one if you want to use its encounters again.",
+        "location": "Find trial spawners in trial chambers underground in the Overworld.",
+        "operation": "Approach a trial spawner to start a limited mob encounter. Defeat its mobs for rewards, then wait for its cooldown. Ominous trials have additional conditions and rewards."
+      },
+      "evidence": {
+        "title": "Trial Spawner",
+        "revision": 3849789,
+        "sha256": "94925749eb6d00de6e4fa879b1f1aae2e9019193fd0285cc01595e32f9d0c5c5",
+        "source": "https://minecraft.wiki/w/Trial_Spawner?oldid=3849789",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "vault",
+      "pattern": "vault",
+      "topics": {
+        "mining": "Vaults drop nothing when broken, even with Silk Touch. They cannot be collected normally in Survival.",
+        "location": "Find vaults in trial chambers.",
+        "operation": "Use the appropriate trial key on a vault to claim your reward. Ordinary vaults use trial keys; ominous vaults need ominous trial keys. Each player can unlock a particular vault only once."
+      },
+      "evidence": {
+        "title": "Vault",
+        "revision": 3844425,
+        "sha256": "c6ad133317330463e47330174acfb3ca62606f2f6ce9d81872e937fdad0c10e8",
+        "source": "https://minecraft.wiki/w/Vault?oldid=3844425",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "bell",
+      "pattern": "bell",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Ring a bell to alert nearby villagers to seek shelter at the appropriate times. During a raid it can also help reveal nearby raiders.",
+        "redstone": "A redstone signal can ring a bell. You can also strike it manually or with suitable projectiles."
+      },
+      "evidence": {
+        "title": "Bell",
+        "revision": 3818462,
+        "sha256": "29bebfb25aeae97a9681ad7dd350962f7f287810dd3c3d6e9d69e0bbb9c9e1ca",
+        "source": "https://minecraft.wiki/w/Bell?oldid=3818462",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "chiseled_bookshelf",
+      "pattern": "chiseled_bookshelf",
+      "topics": {
+        "mining": "Use Silk Touch to collect the chiseled bookshelf itself. Without Silk Touch only the stored books drop; an axe is fastest.",
+        "storage": "A chiseled bookshelf holds 6 books, including ordinary books, written books, books and quills, and enchanted books.",
+        "operation": "Use an individual slot to insert or remove a book. Unlike ordinary bookshelves, chiseled bookshelves do not boost an enchanting table.",
+        "redstone": "A comparator reads which bookshelf slot was most recently interacted with, not how many books are stored."
+      },
+      "evidence": {
+        "title": "Chiseled Bookshelf",
+        "revision": 3822905,
+        "sha256": "4ead8b5a1074ca3869721e1d451e9be8139a973715acbcd16212c6068098a91f",
+        "source": "https://minecraft.wiki/w/Chiseled_Bookshelf?oldid=3822905",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "shelves",
+      "pattern": "(?:oak|acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_shelf",
+      "topics": {
+        "mining": "This block drops itself by hand or with any tool; an axe is fastest. Silk Touch is unnecessary. Stored items also drop.",
+        "storage": "A shelf displays up to 3 item stacks. It is a quick-access display, not a 27-slot chest.",
+        "operation": "Use a shelf to place, remove or swap displayed items. Powered connected shelves provide quick hotbar swapping.",
+        "redstone": "Power enables shelf hotbar-swapping behavior. Adjacent compatible shelves can form a connected group for swapping more hotbar slots."
+      },
+      "evidence": {
+        "title": "Shelf",
+        "revision": 3849677,
+        "sha256": "2254d565ac2214c8e2fe232ae3663debb3ca229e239ef708fad9e559a195ce3e",
+        "source": "https://minecraft.wiki/w/Shelf?oldid=3849677",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "iron_chain",
+      "pattern": "iron_chain",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use this block for decorative supports, grilles or barriers. It is not a redstone power source.",
+        "water": "This block can be waterlogged."
+      },
+      "evidence": {
+        "title": "Iron Chain",
+        "revision": 3850719,
+        "sha256": "990ec9ca740038d2b0ad368eff4d8b15ce9b35d611831573a222535f87b65f81",
+        "source": "https://minecraft.wiki/w/Iron_Chain?oldid=3850719",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "iron_bars",
+      "pattern": "iron_bars",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use this block for decorative supports, grilles or barriers. It is not a redstone power source.",
+        "water": "This block can be waterlogged."
+      },
+      "evidence": {
+        "title": "Iron Bars",
+        "revision": 3750593,
+        "sha256": "37bcd13fb0f17f6c68b837f15dc0e113274b074644a244c92fd2a82a2aadfeb3",
+        "source": "https://minecraft.wiki/w/Iron_Bars?oldid=3750593",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_chain",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_chain",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use these copper blocks for decorative building. Their appearance depends on oxidation stage.",
+        "water": "This copper building block can be waterlogged.",
+        "oxidation": "Unwaxed copper oxidizes over time. Apply honeycomb to preserve its current stage, or scrape oxidation back with an axe."
+      },
+      "evidence": {
+        "title": "Copper Chain",
+        "revision": 3849999,
+        "sha256": "91084ca45b83ec49e7b9d2715a99bfee0ff56600281eb9274188a5685a87c4ba",
+        "source": "https://minecraft.wiki/w/Copper_Chain?oldid=3849999",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_chain",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_chain",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use these copper blocks for decorative building. Their appearance depends on oxidation stage.",
+        "water": "This copper building block can be waterlogged.",
+        "oxidation": "Waxed copper keeps its current oxidation stage. An axe removes wax, then can scrape oxidation back one stage per use."
+      },
+      "evidence": {
+        "title": "Copper Chain",
+        "revision": 3849999,
+        "sha256": "91084ca45b83ec49e7b9d2715a99bfee0ff56600281eb9274188a5685a87c4ba",
+        "source": "https://minecraft.wiki/w/Copper_Chain?oldid=3849999",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "copper_bars",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?copper_bars",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use these copper blocks for decorative building. Their appearance depends on oxidation stage.",
+        "water": "This copper building block can be waterlogged.",
+        "oxidation": "Unwaxed copper oxidizes over time. Apply honeycomb to preserve its current stage, or scrape oxidation back with an axe."
+      },
+      "evidence": {
+        "title": "Copper Bars",
+        "revision": 3830468,
+        "sha256": "27f003708b1e0a9ca870aece816034374b9d5614916b6f0ad011d13ec9d4f7dc",
+        "source": "https://minecraft.wiki/w/Copper_Bars?oldid=3830468",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_copper_bars",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?copper_bars",
+      "topics": {
+        "mining": "Use any pickaxe to collect this block. Without a pickaxe it drops nothing. Silk Touch is unnecessary.",
+        "operation": "Use these copper blocks for decorative building. Their appearance depends on oxidation stage.",
+        "water": "This copper building block can be waterlogged.",
+        "oxidation": "Waxed copper keeps its current oxidation stage. An axe removes wax, then can scrape oxidation back one stage per use."
+      },
+      "evidence": {
+        "title": "Copper Bars",
+        "revision": 3830468,
+        "sha256": "27f003708b1e0a9ca870aece816034374b9d5614916b6f0ad011d13ec9d4f7dc",
+        "source": "https://minecraft.wiki/w/Copper_Bars?oldid=3830468",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "lightning_rod",
+      "pattern": "(?:exposed_|weathered_|oxidized_)?lightning_rod",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect a lightning rod. Weaker tools drop nothing.",
+        "operation": "Place a lightning rod to attract nearby lightning strikes to its tip. Give the strike a safe landing area; a rod does not prevent every kind of fire hazard.",
+        "redstone": "A lightning strike produces a brief redstone signal from the rod.",
+        "oxidation": "Unwaxed lightning rods oxidize over time. Honeycomb preserves the stage and an axe can scrape oxidation back."
+      },
+      "evidence": {
+        "title": "Lightning Rod",
+        "revision": 3824612,
+        "sha256": "69286713937e034fd353e967524f830d5299819a3aa08547f16cb0a851038b66",
+        "source": "https://minecraft.wiki/w/Lightning_Rod?oldid=3824612",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "waxed_lightning_rod",
+      "pattern": "waxed_(?:exposed_|weathered_|oxidized_)?lightning_rod",
+      "topics": {
+        "mining": "Use a stone pickaxe or better to collect a lightning rod. Weaker tools drop nothing.",
+        "operation": "Place a lightning rod to attract nearby lightning strikes to its tip. Give the strike a safe landing area; a rod does not prevent every kind of fire hazard.",
+        "redstone": "A lightning strike produces a brief redstone signal from the rod.",
+        "oxidation": "Waxed lightning rods preserve their oxidation stage. Remove wax with an axe before scraping oxidation."
+      },
+      "evidence": {
+        "title": "Lightning Rod",
+        "revision": 3824612,
+        "sha256": "69286713937e034fd353e967524f830d5299819a3aa08547f16cb0a851038b66",
+        "source": "https://minecraft.wiki/w/Lightning_Rod?oldid=3824612",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_shapes",
+      "pattern": "(?:oak|acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_(?:slab|stairs|fence)",
+      "topics": {
+        "mining": "Wooden slabs, stairs and fences drop themselves when broken by hand or with any tool; an axe is fastest.",
+        "operation": "Use this wooden shape for building. It does not fall when unsupported.",
+        "water": "Single wooden slabs, stairs and fences can be waterlogged."
+      },
+      "evidence": {
+        "title": "Stairs",
+        "revision": 3852643,
+        "sha256": "27278246b95d586cdd2b8acff57ec12b879ad5c372f72fa2cf00ab9ed2097158",
+        "source": "https://minecraft.wiki/w/Stairs?oldid=3852643",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    },
+    {
+      "id": "wood_double_slabs",
+      "pattern": "(?:oak|acacia|bamboo|birch|cherry|crimson|dark_oak|jungle|mangrove|pale_oak|poplar|spruce|warped)_double_slab",
+      "topics": {
+        "mining": "A double wooden slab drops 2 matching slabs when broken, not one double-slab item. An axe is fastest. Silk Touch does not keep it as a double slab.",
+        "operation": "Use this wooden shape for building. It does not fall when unsupported.",
+        "water": "A double slab cannot be waterlogged."
+      },
+      "evidence": {
+        "title": "Slab",
+        "revision": 3853825,
+        "sha256": "6c21da7d26b783389a019835dc4ce4c7f42402d8f3694ce2352b17ce2ae38391",
+        "source": "https://minecraft.wiki/w/Slab?oldid=3853825",
+        "reviewed_sections": [
+          "Obtaining",
+          "Usage"
+        ]
+      }
+    }
+  ]
+}

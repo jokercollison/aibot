@@ -44,3 +44,5 @@ if __name__ == '__main__':
     audit('data/blocks/plants.json', 'docs/BLOCK_PLANT_AUDIT.json')
 
     audit('data/blocks/devices.json', 'docs/BLOCK_DEVICE_AUDIT.json')
+
+    audit('data/blocks/utility.json', 'docs/BLOCK_UTILITY_AUDIT.json')

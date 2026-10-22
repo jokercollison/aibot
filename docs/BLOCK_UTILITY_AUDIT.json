@@ -1,0 +1,634 @@
+{
+  "scope": "data/blocks/utility.json",
+  "families": [
+    {
+      "family": "torch",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:torch"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "soul_torch",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:soul_torch"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "copper_torch",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:copper_torch"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "lantern",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:lantern"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "soul_lantern",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:soul_lantern"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "end_rod",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:end_rod"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "campfire",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "fire"
+      ],
+      "members": [
+        "minecraft:campfire"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "soul_campfire",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "fire"
+      ],
+      "members": [
+        "minecraft:soul_campfire"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "beacon",
+      "topics": [
+        "mining",
+        "operation",
+        "location",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:beacon"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "conduit",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "location"
+      ],
+      "members": [
+        "minecraft:conduit"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "respawn_anchor",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "danger"
+      ],
+      "members": [
+        "minecraft:respawn_anchor"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "bed",
+      "topics": [
+        "mining",
+        "operation",
+        "danger"
+      ],
+      "members": [
+        "minecraft:bed"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "sponge",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:sponge"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "wet_sponge",
+      "topics": [
+        "mining",
+        "location",
+        "water"
+      ],
+      "members": [
+        "minecraft:wet_sponge"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "rail",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:rail"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "golden_rail",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:golden_rail"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "detector_rail",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:detector_rail"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "activator_rail",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:activator_rail"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "ladder",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:ladder"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "scaffolding",
+      "topics": [
+        "mining",
+        "operation",
+        "gravity"
+      ],
+      "members": [
+        "minecraft:scaffolding"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "cobweb",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:web"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "slime",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:slime"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "honey",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:honey_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "honeycomb",
+      "topics": [
+        "mining",
+        "operation"
+      ],
+      "members": [
+        "minecraft:honeycomb_block"
+      ],
+      "subject_count": 1,
+      "facet_applications": 2
+    },
+    {
+      "family": "tnt",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "danger"
+      ],
+      "members": [
+        "minecraft:tnt"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "spawner",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:mob_spawner"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "trial_spawner",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:trial_spawner"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "vault",
+      "topics": [
+        "mining",
+        "location",
+        "operation"
+      ],
+      "members": [
+        "minecraft:vault"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "bell",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:bell"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "chiseled_bookshelf",
+      "topics": [
+        "mining",
+        "storage",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:chiseled_bookshelf"
+      ],
+      "subject_count": 1,
+      "facet_applications": 4
+    },
+    {
+      "family": "shelves",
+      "topics": [
+        "mining",
+        "storage",
+        "operation",
+        "redstone"
+      ],
+      "members": [
+        "minecraft:acacia_shelf",
+        "minecraft:bamboo_shelf",
+        "minecraft:birch_shelf",
+        "minecraft:cherry_shelf",
+        "minecraft:crimson_shelf",
+        "minecraft:dark_oak_shelf",
+        "minecraft:jungle_shelf",
+        "minecraft:mangrove_shelf",
+        "minecraft:oak_shelf",
+        "minecraft:pale_oak_shelf",
+        "minecraft:poplar_shelf",
+        "minecraft:spruce_shelf",
+        "minecraft:warped_shelf"
+      ],
+      "subject_count": 13,
+      "facet_applications": 52
+    },
+    {
+      "family": "iron_chain",
+      "topics": [
+        "mining",
+        "operation",
+        "water"
+      ],
+      "members": [
+        "minecraft:iron_chain"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "iron_bars",
+      "topics": [
+        "mining",
+        "operation",
+        "water"
+      ],
+      "members": [
+        "minecraft:iron_bars"
+      ],
+      "subject_count": 1,
+      "facet_applications": 3
+    },
+    {
+      "family": "copper_chain",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_chain",
+        "minecraft:exposed_copper_chain",
+        "minecraft:oxidized_copper_chain",
+        "minecraft:weathered_copper_chain"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_chain",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_chain",
+        "minecraft:waxed_exposed_copper_chain",
+        "minecraft:waxed_oxidized_copper_chain",
+        "minecraft:waxed_weathered_copper_chain"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "copper_bars",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:copper_bars",
+        "minecraft:exposed_copper_bars",
+        "minecraft:oxidized_copper_bars",
+        "minecraft:weathered_copper_bars"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_copper_bars",
+      "topics": [
+        "mining",
+        "operation",
+        "water",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_copper_bars",
+        "minecraft:waxed_exposed_copper_bars",
+        "minecraft:waxed_oxidized_copper_bars",
+        "minecraft:waxed_weathered_copper_bars"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "lightning_rod",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:exposed_lightning_rod",
+        "minecraft:lightning_rod",
+        "minecraft:oxidized_lightning_rod",
+        "minecraft:weathered_lightning_rod"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "waxed_lightning_rod",
+      "topics": [
+        "mining",
+        "operation",
+        "redstone",
+        "oxidation"
+      ],
+      "members": [
+        "minecraft:waxed_exposed_lightning_rod",
+        "minecraft:waxed_lightning_rod",
+        "minecraft:waxed_oxidized_lightning_rod",
+        "minecraft:waxed_weathered_lightning_rod"
+      ],
+      "subject_count": 4,
+      "facet_applications": 16
+    },
+    {
+      "family": "wood_shapes",
+      "topics": [
+        "mining",
+        "operation",
+        "water"
+      ],
+      "members": [
+        "minecraft:acacia_fence",
+        "minecraft:acacia_slab",
+        "minecraft:acacia_stairs",
+        "minecraft:bamboo_fence",
+        "minecraft:bamboo_slab",
+        "minecraft:bamboo_stairs",
+        "minecraft:birch_fence",
+        "minecraft:birch_slab",
+        "minecraft:birch_stairs",
+        "minecraft:cherry_fence",
+        "minecraft:cherry_slab",
+        "minecraft:cherry_stairs",
+        "minecraft:crimson_fence",
+        "minecraft:crimson_slab",
+        "minecraft:crimson_stairs",
+        "minecraft:dark_oak_fence",
+        "minecraft:dark_oak_slab",
+        "minecraft:dark_oak_stairs",
+        "minecraft:jungle_fence",
+        "minecraft:jungle_slab",
+        "minecraft:jungle_stairs",
+        "minecraft:mangrove_fence",
+        "minecraft:mangrove_slab",
+        "minecraft:mangrove_stairs",
+        "minecraft:oak_fence",
+        "minecraft:oak_slab",
+        "minecraft:oak_stairs",
+        "minecraft:pale_oak_fence",
+        "minecraft:pale_oak_slab",
+        "minecraft:pale_oak_stairs",
+        "minecraft:poplar_fence",
+        "minecraft:poplar_slab",
+        "minecraft:poplar_stairs",
+        "minecraft:spruce_fence",
+        "minecraft:spruce_slab",
+        "minecraft:spruce_stairs",
+        "minecraft:warped_fence",
+        "minecraft:warped_slab",
+        "minecraft:warped_stairs"
+      ],
+      "subject_count": 39,
+      "facet_applications": 117
+    },
+    {
+      "family": "wood_double_slabs",
+      "topics": [
+        "mining",
+        "operation",
+        "water"
+      ],
+      "members": [
+        "minecraft:acacia_double_slab",
+        "minecraft:bamboo_double_slab",
+        "minecraft:birch_double_slab",
+        "minecraft:cherry_double_slab",
+        "minecraft:crimson_double_slab",
+        "minecraft:dark_oak_double_slab",
+        "minecraft:jungle_double_slab",
+        "minecraft:mangrove_double_slab",
+        "minecraft:oak_double_slab",
+        "minecraft:pale_oak_double_slab",
+        "minecraft:poplar_double_slab",
+        "minecraft:spruce_double_slab",
+        "minecraft:warped_double_slab"
+      ],
+      "subject_count": 13,
+      "facet_applications": 39
+    }
+  ],
+  "full_block_phase_complete": false,
+  "subject_count": 121,
+  "facet_applications": 405,
+  "independent_family_summaries": 135
+}

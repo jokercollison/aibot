@@ -1,3 +1,9 @@
+# Current testing status: 0.2.20 pending
+
+New plant/device/utility answers and pack import require actual Minecraft testing.
+No pass is inferred for 0.2.19 or earlier releases. Multiplayer and low-end device
+performance remain separate from automated cloud validation.
+
 # Current testing status: 0.2.19 pending
 
 The new family answers, lower uncertainty chirp and import checks require actual
