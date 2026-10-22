@@ -677,6 +677,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3774449"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "An axolotl is an aquatic animal that can help fight certain underwater mobs. Carry it in a water bucket and use buckets of tropical fish for breeding. It cannot stay out of water indefinitely.",
         "sources": [
@@ -2239,6 +2253,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "Equip an adult camel with a saddle for controlled riding. It can carry two players; sitting and standing are different movement states. A lead can guide it without riding.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A camel is a tall rideable desert animal. Use a saddle to ride it with up to two players, and use its dash to cross suitable gaps.",
         "sources": [
@@ -2388,7 +2409,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Bedrock camel husks use desert monster spawning and appear with riders, not as ordinary passive desert camels. They do not naturally spawn in Peaceful. Do not apply Java’s exact husk-pack chance to Bedrock.",
+        "answer": "Bedrock camel husks use desert monster spawning and appear with riders, not as ordinary passive desert camels. They do not naturally spawn in Peaceful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845813"
         ],
@@ -2403,6 +2424,13 @@
       },
       "experience": {
         "answer": "A camel husk gives 1–3 experience points after a player or tamed-wolf kill. The mount and any riders are separate mobs with separate rewards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A camel husk can despawn before player interaction makes it persistent. Riding it makes it persistent. Any hostile riders are separate mobs, and the mount’s persistence does not make the riders friendly.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845813"
         ],
@@ -2620,6 +2648,27 @@
       },
       "experience_breeding": {
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A tamed cat does not naturally despawn. Stray cats can have different persistence depending on how they spawned; the original swamp-hut cat is persistent. Tame the cat you want to keep and protect it from hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Tame it, tell it to stand and let it follow, or use a lead. A sitting cat is not following. Provide safe footing and do not rely on pet teleporting to prevent every travel accident.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "teleportation": {
+        "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853626"
         ],
@@ -3637,7 +3686,7 @@
         "coverage": "reviewed_summary"
       },
       "drops": {
-        "answer": "Cod drop raw cod, or cooked cod when killed while burning. In Bedrock a cod can also drop bones; do not substitute Java’s bone-meal drop.",
+        "answer": "Cod drop raw cod, or cooked cod when killed while burning. In Bedrock a cod can also drop bones.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844471"
         ],
@@ -3696,6 +3745,20 @@
         "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
         ],
         "coverage": "reviewed_summary"
       },
@@ -3821,7 +3884,7 @@
         "coverage": "reviewed_summary"
       },
       "drops": {
-        "answer": "A copper golem can drop 1–3 copper ingots. Bedrock does not apply Java’s extra Looting increase to this drop.",
+        "answer": "A copper golem can drop 1–3 copper ingots. Looting does not increase this copper-ingot drop.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845018"
         ],
@@ -4403,6 +4466,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A naturally heart-linked creaking normally leaves during daytime and depends on its linked heart and range. Naming it is not a reliable promise of keeping that heart-linked creature forever. Command-created creakings have different behavior.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A creaking is a hostile tree-like mob linked to a creaking heart. It moves when players are not looking at it. Deal with the linked heart rather than relying on ordinary attacks against the mob.",
         "sources": [
@@ -4681,7 +4751,7 @@
         "coverage": "reviewed_summary"
       },
       "interactions": {
-        "answer": "Feed raw cod or salmon to have a dolphin lead toward a nearby shipwreck or ocean ruins. It does not guarantee treasure remains there. Bedrock swimming boosts are not displayed as the Java Dolphin’s Grace status effect.",
+        "answer": "Feed raw cod or salmon to have a dolphin lead toward a nearby shipwreck or ocean ruins. It does not guarantee treasure remains there. The swimming boost is not shown as a Dolphin’s Grace status effect.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844640"
         ],
@@ -4795,6 +4865,20 @@
       },
       "counterplay": {
         "answer": "Do not strike dolphins while swimming with them. Feeding is for other interactions, not a guaranteed peace offering once the pod is hostile.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Dolphins can naturally despawn when players leave. A name tag can prevent ordinary despawning, but a dolphin still needs water and access to air. A named dolphin trapped underwater can drown.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can tow a dolphin with a lead, but keep it in suitable water with access to air. It cannot ride in a boat like an ordinary land animal, and naming it will not prevent suffocation or drowning.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844640"
         ],
@@ -5009,6 +5093,13 @@
       },
       "equipment_drops": {
         "answer": "An equipped donkey drops its saddle, attached chest and chest contents when killed. These are carried items, not extra guaranteed contents generated by Looting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Tame and saddle it for controlled riding, or lead it. A chest can carry supplies, but does not make it follow a player automatically; keep track of the animal and its cargo.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850357"
         ],
@@ -5295,7 +5386,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Natural spawning needs water with no emitted block light and sky light 7 or less. Bedrock uses surface spawning checks, not Java’s universal below-Y=58 rule. Rivers and dripstone caves have higher rates than oceans. Zombie conversion and ocean-ruin generation are separate sources.",
+        "answer": "Natural spawning needs water with no emitted block light and sky light 7 or less. Surface spawning checks matter; do not assume every dark water-filled cave qualifies. Rivers and dripstone caves have higher rates than oceans. Zombie conversion and ocean-ruin generation are separate sources.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851909"
         ],
@@ -5510,6 +5601,13 @@
       },
       "counterplay": {
         "answer": "Use cover against the beam and prepare underwater breathing. Milk removes Mining Fatigue but also removes your beneficial status effects, and the elder guardian can apply fatigue again.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "The original elder guardians generate with the ocean monument and do not naturally respawn after death. Protecting one from ordinary despawning is different from keeping it alive; Peaceful can remove hostile monument mobs.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853190"
         ],
@@ -5846,7 +5944,7 @@
         "coverage": "reviewed_summary"
       },
       "teleportation": {
-        "answer": "Endermen can teleport to suitable nearby locations, especially when threatened. They cannot teleport to every block or through every environmental restriction.",
+        "answer": "Endermen teleport as part of movement and to avoid threats such as projectiles and water. A name tag prevents ordinary despawning but does not disable their teleportation; a missing enderman may have moved rather than been deleted.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850886"
         ],
@@ -6021,6 +6119,13 @@
       },
       "experience": {
         "answer": "It gives 3 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "An unnamed endermite despawns after about two minutes even in a boat or minecart. Apply a renamed name tag to prevent that ordinary timer. Naming does not protect a hostile mob from removal on Peaceful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843703"
         ],
@@ -6496,6 +6601,13 @@
       },
       "equipment_drops": {
         "answer": "A fox drops an item it is still carrying when it dies. Food it already ate cannot be recovered as a held-item drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Use a lead to guide it. A trusting fox is not a wolf-style pet that follows your movement commands; young foxes may follow nearby adult foxes. Avoid exposing carried food or valuables to loss.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851723"
         ],
@@ -7456,7 +7568,7 @@
         "coverage": "reviewed_summary"
       },
       "drops": {
-        "answer": "Guardians can drop prismarine shards, prismarine crystals or cod under their loot conditions. Bedrock does not use Java’s extra random-fish drop in the same way.",
+        "answer": "Guardians can drop prismarine shards, prismarine crystals or cod under their loot conditions. The possible outcomes depend on the kill and loot conditions.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853189"
         ],
@@ -7507,7 +7619,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Bedrock guardians use 25 predetermined columns with water-source checks, rather than spawning anywhere across a Java-style monument volume. Removing the monument blocks alone does not remove those spawning positions. Check the column, water and obstructions.",
+        "answer": "Bedrock guardians use 25 predetermined columns with water-source checks. Removing the monument blocks alone does not remove those spawning positions. Check the column, water and obstructions.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853189"
         ],
@@ -7709,6 +7821,13 @@
       },
       "equipment_drops": {
         "answer": "A happy ghast drops its equipped harness when killed, if it had one. An unequipped ghast does not create a harness as a random drop.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Equip an adult with a harness for flight; up to four players can ride, and the front rider controls it. Leads can also carry supported mobs or boats below it. A ghastling cannot be harnessed and flown yet.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3853633"
         ],
@@ -8203,6 +8322,13 @@
       },
       "experience_breeding": {
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Tame an adult and equip a saddle for controlled riding, or use a lead. Coat color does not guarantee speed or jump strength. Keep the route safe for both rider and mount.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850329"
         ],
@@ -9785,7 +9911,7 @@
   "minecraft:iron_golem": {
     "topics": {
       "spawning": {
-        "answer": "Find iron golems in villages, or construct one. Bedrock village spawning has bed, villager and working requirements; it does not use Java’s three-panicking-villager setup.",
+        "answer": "Find iron golems in villages, or construct one. Bedrock village spawning has bed, villager and working requirements. Three frightened villagers alone are not enough.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851102"
         ],
@@ -10196,6 +10322,13 @@
       },
       "counterplay": {
         "answer": "Avoid provoking it or standing between fighting llamas. Taming a llama gives transport-related interactions, not a commandable combat pet.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Use a lead to guide it and its caravan. Taming lets you interact and ride, but does not give direct saddle-style steering. Carpets are decoration, not steering equipment.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844667"
         ],
@@ -11208,6 +11341,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "Tame and saddle it for controlled riding, or use a lead. Its attached chest and contents travel with it, but carrying cargo does not protect it from hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A mule is a rideable pack animal produced by breeding a horse and donkey. Tame and saddle it for travel, or add a chest for supplies. Mules cannot breed.",
         "sources": [
@@ -11464,6 +11604,20 @@
       },
       "equipment_drops": {
         "answer": "A nautilus drops its equipped saddle and nautilus armor when killed, if it had them. It does not generate armor merely because you used Looting.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Wild nautiluses can despawn. A player interaction makes a nautilus persistent; taming and riding are separate interactions. Persistence does not stop it suffocating on land or dying from damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Tame it and equip a saddle for controlled underwater riding, or use a lead while it is calm. Keep it in water; it can suffocate on land. Your rider breathing protection does not mean the mount is safe everywhere.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844669"
         ],
@@ -11885,7 +12039,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Bedrock ocelots can naturally spawn in all jungle types at light level 7 or above. Grass blocks matter. Do not apply Java’s sparse-jungle exclusion to Bedrock.",
+        "answer": "Bedrock ocelots can naturally spawn in all jungle types at light level 7 or above. Grass blocks matter. Sparse jungle is an eligible habitat.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851711"
         ],
@@ -11921,6 +12075,13 @@
       },
       "experience_breeding": {
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A trusting ocelot does not naturally despawn. Gain its trust with raw cod or raw salmon. Trust does not make it a commandable pet cat or keep it safe from attacks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851711"
         ],
@@ -12631,7 +12792,7 @@
         "coverage": "reviewed_summary"
       },
       "drops": {
-        "answer": "In Bedrock, parrots drop 1–2 feathers when killed. Java’s Looting increase should not be applied to this Bedrock drop.",
+        "answer": "In Bedrock, parrots drop 1–2 feathers when killed. Looting does not increase this feather drop.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849952"
         ],
@@ -12758,6 +12919,27 @@
       },
       "experience": {
         "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A tamed parrot does not naturally despawn. Check whether it was told to sit, left behind or moved onto a shoulder. Taming does not protect it from damage or dangerous food.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A tamed, standing parrot can follow or perch on your shoulder; a lead is another option. Check it after transitions or dismounting rather than assuming it is still on your shoulder.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "teleportation": {
+        "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849952"
         ],
@@ -12984,7 +13166,7 @@
   "minecraft:phantom": {
     "topics": {
       "spawning": {
-        "answer": "Phantoms appear above players who have gone a long time without resting. In Bedrock, suitable dark surface spawning locations and access to the sky matter; they are not restricted to Java’s night-only rule.",
+        "answer": "Phantoms appear above players who have gone a long time without resting. In Bedrock, suitable dark surface spawning locations and access to the sky matter. They can also appear during daytime when the required conditions are met.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
         ],
@@ -13070,7 +13252,7 @@
         "coverage": "reviewed_summary"
       },
       "counterplay": {
-        "answer": "Enter a bed to reset the rest timer and use shelter against swoops. Cats can repel phantoms, but shelter and rest remain useful; the Bedrock spawning rules are not simply Java’s night-only rules.",
+        "answer": "Enter a bed to reset the rest timer and use shelter against swoops. Cats can repel phantoms, but shelter and rest remain useful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851156"
         ],
@@ -13266,6 +13448,13 @@
       },
       "experience_breeding": {
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Use a saddle and a carrot on a stick for controlled riding, or use an ordinary lead. A saddle alone does not make it steer toward your intended destination.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3847785"
         ],
@@ -13558,7 +13747,7 @@
         "coverage": "reviewed_summary"
       },
       "experience_baby": {
-        "answer": "A baby piglin’s base reward is 1 experience point in Bedrock after a player or tamed-wolf kill. Do not use Java’s baby-piglin value of 5.",
+        "answer": "A baby piglin’s base reward is 1 experience point in Bedrock after a player or tamed-wolf kill.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851223"
         ],
@@ -13745,6 +13934,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "The original piglin brutes generated with bastions are persistent and do not naturally replenish after being killed. Persistence does not stop zombification outside the Nether or protect them from damage.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A piglin brute is an aggressive axe-wielding mob found in bastion remnants. It does not become friendly because you wear gold and does not barter like ordinary piglins.",
         "sources": [
@@ -13799,7 +13995,7 @@
         "coverage": "reviewed_summary"
       },
       "combat": {
-        "answer": "Pillagers use crossbows and attack from range. Shielding, solid cover and separating a group can help. Do not assume Java-only disarmed-pillager tricks work in Bedrock.",
+        "answer": "Pillagers use crossbows and attack from range. Shielding, solid cover and separating a group can help. Do not assume taking away a weapon makes a pillager harmless.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843714"
         ],
@@ -13850,7 +14046,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Pillagers have different sources: outposts, patrols and raids. Bedrock patrols can start after five and a half in-game days and use light 0–7. Bedrock outpost spawning is tied to particular positions; do not copy a Java whole-volume outpost platform without checking the Bedrock positions.",
+        "answer": "Pillagers have different sources: outposts, patrols and raids. Bedrock patrols can start after five and a half in-game days and use light 0–7. Bedrock outpost spawning is tied to particular positions. Check those positions before building a farm.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843714"
         ],
@@ -14144,7 +14340,7 @@
         "coverage": "reviewed_summary"
       },
       "drops": {
-        "answer": "Pufferfish drop the pufferfish item and can also drop bones in Bedrock. Java’s bone-meal drop is a different edition rule.",
+        "answer": "Pufferfish drop the pufferfish item and can also drop bones in Bedrock.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
         ],
@@ -14193,7 +14389,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Bedrock pufferfish require warm-ocean surface water, with suitable player distance around 12–32 blocks. Do not substitute Java’s lukewarm/deep-lukewarm spawning list or roof over the spawning water.",
+        "answer": "Bedrock pufferfish require warm-ocean surface water, with suitable player distance around 12–32 blocks. Do not roof over the spawning water.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
         ],
@@ -14217,6 +14413,20 @@
         "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
         ],
         "coverage": "reviewed_summary"
       },
@@ -14302,14 +14512,14 @@
         "coverage": "reviewed_summary"
       },
       "variants": {
-        "answer": "Natural rabbit coats are brown, black, salt, white, white splotched and gold. Gold is the desert form; white forms occur in snowy biomes. Toast is a name-tag appearance. The killer bunny is Java-only.",
+        "answer": "Natural rabbit coats are brown, black, salt, white, white splotched and gold. Gold is the desert form; white forms occur in snowy biomes. Toast is a name-tag appearance. A hostile killer bunny is not available in ordinary Bedrock gameplay.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844604"
         ],
         "coverage": "reviewed_summary"
       },
       "combat": {
-        "answer": "Ordinary Bedrock rabbits are passive toward players. The hostile killer bunny is a Java-only feature, not an ordinary Bedrock rabbit variant.",
+        "answer": "Ordinary Bedrock rabbits are passive toward players. There is no ordinary hostile killer-bunny variant available here.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844604"
         ],
@@ -14495,7 +14705,7 @@
             ]
           },
           "spawning": {
-            "answer": "Look in flower forests, taigas, meadows, cherry groves and dappled forests. Do not import Java-only old-growth-taiga spawning into Bedrock.",
+            "answer": "Look in flower forests, taigas, meadows, cherry groves and dappled forests.",
             "coverage": "reviewed_summary",
             "sources": [
               "https://minecraft.wiki/w/Special:PermanentLink/3844604"
@@ -14517,7 +14727,7 @@
             ]
           },
           "spawning": {
-            "answer": "Look in flower forests, taigas, meadows, cherry groves and dappled forests. Do not import Java-only old-growth-taiga spawning into Bedrock.",
+            "answer": "Look in flower forests, taigas, meadows, cherry groves and dappled forests.",
             "coverage": "reviewed_summary",
             "sources": [
               "https://minecraft.wiki/w/Special:PermanentLink/3844604"
@@ -14539,7 +14749,7 @@
             ]
           },
           "spawning": {
-            "answer": "Look in flower forests, taigas, meadows, cherry groves and dappled forests. Do not import Java-only old-growth-taiga spawning into Bedrock.",
+            "answer": "Look in flower forests, taigas, meadows, cherry groves and dappled forests.",
             "coverage": "reviewed_summary",
             "sources": [
               "https://minecraft.wiki/w/Special:PermanentLink/3844604"
@@ -14652,7 +14862,7 @@
         ],
         "topics": {
           "identity": {
-            "answer": "The killer bunny is a Java-only hostile rabbit feature.",
+            "answer": "A hostile killer bunny is not available in ordinary Bedrock gameplay.",
             "coverage": "reviewed_summary",
             "sources": [
               "https://minecraft.wiki/w/Special:PermanentLink/3844604"
@@ -14666,7 +14876,7 @@
             ]
           },
           "combat": {
-            "answer": "Normal Bedrock rabbits are passive. Do not confuse them with the Java-only killer bunny.",
+            "answer": "Normal Bedrock rabbits are passive. There is no ordinary hostile killer-bunny variant available here.",
             "coverage": "reviewed_summary",
             "sources": [
               "https://minecraft.wiki/w/Special:PermanentLink/3844604"
@@ -14736,7 +14946,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Ravagers come from raids beginning at wave three, not ordinary dark-platform spawning. Riders depend on the raid wave and difficulty. Bedrock raids do not have Java’s extra-wave system.",
+        "answer": "Ravagers come from raids beginning at wave three, not ordinary dark-platform spawning. Riders depend on the raid wave and difficulty. Raids do not add extra waves beyond their normal difficulty-based sequence.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843713"
         ],
@@ -14883,6 +15093,20 @@
         "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
         ],
         "coverage": "reviewed_summary"
       },
@@ -15756,7 +15980,7 @@
         "coverage": "reviewed_summary"
       },
       "drops": {
-        "answer": "In Bedrock, shulkers can drop shulker shells with a quantity-based Looting increase. Do not substitute Java’s shell drop-chance formula.",
+        "answer": "In Bedrock, shulkers can drop shulker shells with a quantity-based Looting increase.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843708"
         ],
@@ -15792,7 +16016,7 @@
         "coverage": "reviewed_summary"
       },
       "teleportation": {
-        "answer": "Shulkers can teleport to suitable attachment surfaces when threatened. Their bullet-based duplication has separate conditions; simply feeding them does not breed them.",
+        "answer": "A shulker can teleport when its attachment or position becomes unsuitable and under some combat conditions. A name tag does not disable that movement. Keep suitable nearby attachment surfaces in mind rather than assuming one small enclosure guarantees it stays put.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843708"
         ],
@@ -15842,6 +16066,13 @@
       },
       "counterplay": {
         "answer": "Destroy incoming bullets or use cover. In Bedrock a shield can stop the bullet’s damage while Levitation still applies, so prepare a safe landing rather than assuming the shield prevents the effect.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Shulkers do not naturally despawn, including in Peaceful. They can teleport, so a missing shulker may have moved rather than despawned. Persistence does not mean it cannot be killed.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3843708"
         ],
@@ -16254,7 +16485,7 @@
         "coverage": "reviewed_summary"
       },
       "transport": {
-        "answer": "In Bedrock, skeleton horses can be ridden and controlled without a saddle. Java’s saddle requirement is not the Bedrock rule.",
+        "answer": "In Bedrock, skeleton horses can be ridden and controlled without a saddle.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849906"
         ],
@@ -16275,7 +16506,7 @@
         "coverage": "reviewed_summary"
       },
       "equipment": {
-        "answer": "In Bedrock, skeleton horses can be controlled while riding without a saddle. Do not apply Java’s saddle requirement.",
+        "answer": "In Bedrock, skeleton horses can be controlled while riding without a saddle.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849906"
         ],
@@ -16320,6 +16551,13 @@
         "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "An untriggered skeleton trap horse has a 15-minute timer even if named. Triggering the trap is a different state; the resulting horses and riders have their own persistence. Do not assume naming an untriggered trap freezes its timer.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849906"
         ],
         "coverage": "reviewed_summary"
       },
@@ -16767,6 +17005,13 @@
       },
       "experience_breeding": {
         "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "You can lead a sniffer, but it cannot dig while leashed. Set up safe, reachable diggable ground at the destination and release the lead before expecting seed digging.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3847160"
         ],
@@ -17317,7 +17562,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "A Bedrock squid spawn must not have a solid or spawnable block above the location. Do not automatically apply Java’s Y=50–63 range. A roofed tank can fail even though it contains water.",
+        "answer": "A Bedrock squid spawn must not have a solid or spawnable block above the location. Do not assume all squid need the same height range as ocean fish. A roofed tank can fail even though it contains water.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844578"
         ],
@@ -17684,6 +17929,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "Use a saddle and warped fungus on a stick to control it, or guide it with a lead. Lava travel suits a strider; bringing it into water or rain is dangerous.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A strider is a passive Nether animal that walks on lava. Saddle it and steer with a warped fungus on a stick for lava travel. It becomes cold and slower away from lava.",
         "sources": [
@@ -17920,6 +18172,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A large sulfur cube that has been bucketed and released does not ordinarily despawn. If it splits, the resulting small cubes can despawn; do not assume the parent’s bucket history preserves every offspring.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Use an empty bucket on a large sulfur cube for compact transport. Small cubes and cubes carrying ignited TNT cannot be captured. This uses an empty bucket, unlike aquatic creatures needing water buckets.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A sulfur cube is a cube-shaped animal that can carry a suitable block. The block it holds can change its movement and other behavior. Some interactions can make it dangerous, including explosive behavior.",
         "sources": [
@@ -18065,6 +18331,20 @@
         "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3791954"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
         ],
         "coverage": "reviewed_summary"
       },
@@ -18411,6 +18691,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A trader llama tied to a wandering trader can leave with the trader. In Bedrock, removing its lead from the trader makes it tamed and prevents that ordinary trader-linked despawn. Protect it from damage afterward.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A trader llama is a llama associated with a wandering trader. It carries the trader's decorations and can defend itself by spitting. It follows llama-style handling rules rather than villager trading rules.",
         "sources": [
@@ -18682,7 +18969,7 @@
         "coverage": "reviewed_summary"
       },
       "variants": {
-        "answer": "Bedrock has 2,700 naturally occurring tropical-fish color/pattern combinations; Java’s 3,072 count is different. Bucketed fish retain their appearance, while the ordinary dropped tropical-fish item does not encode every visual combination.",
+        "answer": "Bedrock has 2,700 naturally occurring tropical-fish color/pattern combinations. Bucketed fish retain their appearance, while the ordinary dropped tropical-fish item does not encode every visual combination.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844607"
         ],
@@ -18727,6 +19014,20 @@
         "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3835188"
         ],
         "coverage": "reviewed_summary"
       },
@@ -19289,6 +19590,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "relocation": {
+        "answer": "You cannot attach a normal lead. Seagrass can guide it, but a breeding adult may return to its remembered home beach. Moving eggs with Silk Touch and hatching them at a new beach establishes a home there for the new turtles.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A turtle is a passive coastal animal. Breed it with seagrass to produce eggs on its home beach. Babies shed turtle scutes when they grow up.",
         "sources": [
@@ -19424,7 +19732,7 @@
         "coverage": "reviewed_summary"
       },
       "lifetime": {
-        "answer": "Vexes summoned by an evoker begin taking damage after 30 to 119 seconds and eventually die. Vexes created with spawn eggs or commands do not take this automatic lifetime damage.",
+        "answer": "An evoker-summoned vex starts taking lifetime damage after 30 to 119 seconds and eventually dies, even in a boat or minecart. This is lifetime damage rather than ordinary distance despawning. Vexes created with spawn eggs or commands do not take that automatic lifetime damage.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845919"
         ],
@@ -19657,6 +19965,20 @@
         "answer": "Breeding villagers does not give the player the usual animal-breeding experience reward. Trading with villagers is a separate source of experience.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Villagers do not naturally despawn, even outside a village. If one is missing, check escape routes, attacks, conversion and other hazards rather than assuming that walking away deleted it.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Use a boat or minecart for ordinary transport. You cannot attach an ordinary lead to a villager. At the destination, provide safe housing and check its bed and workstation links rather than assuming they transferred correctly.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
         ],
         "coverage": "reviewed_summary"
       },
@@ -20583,6 +20905,20 @@
         "answer": "Breeding villagers does not give the player the usual animal-breeding experience reward. Trading with villagers is a separate source of experience.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Villagers do not naturally despawn, even outside a village. Check escape routes, attacks and conversion if one is missing; adding a name is not a substitute for keeping the village safe.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Use a boat or minecart; an ordinary player lead does not attach to a villager. Protect the route and review bed/workstation links after arrival.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849427"
         ],
         "coverage": "reviewed_summary"
       },
@@ -21569,6 +21905,20 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A wandering trader can still despawn after its special lifetime even if named or put in a boat or minecart. In Bedrock, the timer and whether players are within 24 blocks matter; exhausting all its trades can also make it leave when players are farther away. Do not plan on a name tag keeping it forever.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "A boat or minecart can move it, but does not stop its special despawn timer. Ordinary leads cannot attach directly to the trader; its llamas have separate lead connections.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A wandering trader is a travelling merchant that appears with trader llamas. Trade emeralds for its rotating selection of goods before it leaves.",
         "sources": [
@@ -21690,6 +22040,13 @@
       },
       "counterplay": {
         "answer": "Avoid triggering shriekers and retreat quietly. Wool can block vibration paths, but does not stop the warden’s smell or sonic boom. Walls, armor and shields are not protection from that sonic attack.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "An unnamed calm warden can dig away after about 60 seconds without detecting targets or vibrations. Named wardens do not use that ordinary digging-away behavior. It is not governed by the usual distance-based monster despawn checks.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851707"
         ],
@@ -21834,7 +22191,7 @@
         "coverage": "reviewed_summary"
       },
       "spawn_conditions": {
-        "answer": "Bedrock witches avoid natural spawning in mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Swamp huts use a particular hardcoded spawning spot, not Java’s whole-hut spawning volume. Raid spawning and lightning conversion are separate routes.",
+        "answer": "Bedrock witches avoid natural spawning in mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Swamp huts use a particular hardcoded spawning spot. Raid spawning and lightning conversion are separate routes.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3850494"
         ],
@@ -21930,7 +22287,7 @@
         "coverage": "reviewed_summary"
       },
       "combat": {
-        "answer": "The Bedrock wither fires explosive skulls and becomes more dangerous during its later phase. Prepare a secure fighting area and healing; its behavior and health differ from Java.",
+        "answer": "The Bedrock wither fires explosive skulls and becomes more dangerous during its later phase. Prepare a secure fighting area and healing.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3846728"
         ],
@@ -22283,7 +22640,7 @@
         "coverage": "reviewed_summary"
       },
       "breeding": {
-        "answer": "Feed meat to two standing, tamed adult wolves at full health. Rotten flesh and raw chicken work. Bedrock has a one-minute breeding cooldown; do not use Java-only fish breeding rules.",
+        "answer": "Feed meat to two standing, tamed adult wolves at full health. Rotten flesh and raw chicken work. Bedrock has a one-minute breeding cooldown.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],
@@ -22432,6 +22789,27 @@
       },
       "counterplay": {
         "answer": "Do not provoke a wild pack. Tamed wolves do not normally attack creepers or ghasts for you, so keep them away from explosions and do not assume they counter every hostile mob.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Wolves do not naturally despawn, and a tamed wolf remains yours when you leave. Missing from sight is not proof of despawning: it may be sitting, blocked, outside loaded chunks or dead. Taming does not protect it from ordinary hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Tame it and let it follow while standing, or use a lead while it is calm. Sitting stops normal following. Do not assume teleporting will rescue it from every unloaded area, dimension boundary or hazard.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "teleportation": {
+        "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3849342"
         ],
@@ -23371,6 +23749,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "A wild zombie horse can despawn until player interaction makes it persistent. Its zombie rider is a separate mob. Keeping the horse does not protect it from fire, damage or other hazards.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie horse is an undead horse variant. Its availability and riding rules depend on the game version and how it was obtained; do not assume ordinary horse breeding works.",
         "sources": [
@@ -23514,6 +23899,20 @@
       },
       "equipment_drops": {
         "answer": "A zombie nautilus drops its equipped saddle and nautilus armor when killed, if present. The drowned rider’s equipment is a separate mob’s loot.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "A naturally spawned zombie nautilus can despawn unless made persistent by player interaction; structure-generated ones are already persistent. The drowned rider is a separate mob, so keeping the mount does not automatically preserve the rider.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "relocation": {
+        "answer": "Remove the hostile drowned rider, let the mount become calm, then tame and saddle it for riding or attach a lead. The rider and mount are separate; keep the travel route underwater and safe.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3845839"
         ],
@@ -23947,6 +24346,13 @@
         ],
         "coverage": "reviewed_summary"
       },
+      "lifetime": {
+        "answer": "In Bedrock, zombie villagers created by converting villagers are persistent. Abandoned-village and igloo-basement examples are also persistent. Ordinary naturally spawned zombie villagers can need a name tag to prevent normal despawning. Peaceful can still remove them.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
       "identity": {
         "answer": "A zombie villager is an undead villager variant. Apply the appropriate Weakness effect and use a golden apple to begin curing it under suitable conditions.",
         "sources": [
@@ -24096,6 +24502,13 @@
       },
       "equipment_drops": {
         "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ],
+        "coverage": "reviewed_summary"
+      },
+      "lifetime": {
+        "answer": "Bedrock converted zombie villagers and those generated in abandoned villages or igloo basements are persistent. Other natural examples may despawn unless kept persistent. Naming does not protect a hostile mob from removal on Peaceful.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3851910"
         ],
@@ -24552,7 +24965,7 @@
         "coverage": "reviewed_summary"
       },
       "interactions": {
-        "answer": "The mount and rider can be separated. Bedrock natural rider spawning has version-specific issues, so do not assume Java spawning odds apply.",
+        "answer": "The mount and rider can be separated. Keep the mount and rider’s spawning and movement rules separate.",
         "sources": [
           "https://minecraft.wiki/w/Special:PermanentLink/3831550"
         ],

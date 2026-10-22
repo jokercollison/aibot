@@ -1,3 +1,10 @@
+# User report: 0.2.11 baby piglin XP response
+
+The user tested “How much XP does a baby piglin drop?” and reported the unwanted
+Java comparison after the correct Bedrock base amount. This is one reported
+question result, not completion of the full checklist. Version 0.2.12 removes
+those player-facing edition comparisons. Its actual-game checks remain pending.
+
 # User report: October 22, 2026 — 0.2.10 pending
 
 The user explicitly reports they have not tested the latest version yet.

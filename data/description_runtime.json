@@ -6091,7 +6091,7 @@
   },
   "block:minecraft:sticky_piston": {
     "what": "A sticky piston pushes blocks and can pull a block back when it retracts.",
-    "does": "Use it for retracting doors and other moving mechanisms. Bedrock piston behavior differs from Java in some situations.",
+    "does": "Use it for retracting doors and other moving mechanisms. Check the available space and redstone timing when building a piston mechanism.",
     "coverage": "specific"
   },
   "block:minecraft:sticky_piston_arm_collision": {
@@ -14701,7 +14701,7 @@
   },
   "item:minecraft:sticky_piston": {
     "what": "A sticky piston pushes blocks and can pull a block back when it retracts.",
-    "does": "Use it for retracting doors and other moving mechanisms. Bedrock piston behavior differs from Java in some situations.",
+    "does": "Use it for retracting doors and other moving mechanisms. Check the available space and redstone timing when building a piston mechanism.",
     "coverage": "specific"
   },
   "item:minecraft:stone": {

@@ -80,3 +80,9 @@ These preferences were explicitly requested by the user during in-game testing.
   required license/attribution notices separate from runtime answer metadata.
   Verify final stripped output still answers correctly. Do not modify historical
   test downloads to apply this future packaging requirement.
+
+- Player-facing replies are for Bedrock. Do not include Java comparisons, Java
+  values, Java-only caveats or instructions to ignore Java rules in ordinary
+  answers. State the applicable Bedrock fact directly; keep edition comparisons
+  in development evidence. Unknown/unavailable variants should be explained
+  without advertising another edition.

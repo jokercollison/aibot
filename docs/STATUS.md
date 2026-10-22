@@ -1,3 +1,14 @@
+# Current test release: 0.2.12 — Bedrock replies and entity movement
+
+Removes Java comparisons from 39 player-facing answers and connects 62 reviewed
+movement/persistence summaries across 42 subjects. Total reviewed entity summaries:
+1,610. All 161 automated tests pass. See RELEASE_0.2.12.md and its focused checklist.
+User reported the 0.2.11 baby-piglin reply issue; 0.2.12 actual-game checks remain
+pending. Scripts remain vertically formatted; production metadata cleanup remains
+reserved for the final package.
+
+## Previous records
+
 # Current test release: 0.2.11 — readable script, rewards and combat
 
 Formats the shipped main.js vertically and retains descriptive identifiers.

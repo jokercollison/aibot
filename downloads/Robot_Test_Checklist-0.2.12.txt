@@ -1,0 +1,52 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.12
+CHANGED CHECKS ONLY — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.12.mcaddon.
+Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.12
+  Time Trap Studios AI Bot — Resources 0.2.12
+Both descriptions and the robot menu must show 0.2.12.
+Optional summon: /summon tts_ai_bot_v0_2_12:robot
+
+BEDROCK REPLIES
+1. How much XP does a baby piglin drop?
+   Expect base 1 XP with applicable kill condition. No Java comparison.
+2. Why does a guardian not spawn?
+   Expect its 25 monument columns and water/obstruction checks; no Java advice.
+3. Are rabbits dangerous?
+   Expect ordinary rabbits are passive; no other-edition explanation.
+
+PERSISTENCE AND MOVEMENT
+4. Can I keep a wandering trader forever with a name tag?
+   Expect No: naming or putting it in a vehicle does not remove its special timer.
+5. Can an endermite despawn in a boat?
+   Expect about two minutes unless named; a boat is not enough.
+6. Can a vex despawn in a minecart?
+   Expect summoned-vex lifetime damage after 30 to 119 seconds;
+   spawn-egg/command vexes do not have that automatic damage.
+7. Can a zombie villager despawn?
+   Expect Bedrock converted villagers and structure examples are persistent;
+   ordinary natural examples differ, and Peaceful removal is separate.
+8. Can a dolphin despawn?
+   Expect natural despawning; a name can prevent that, but it still needs air/water.
+9. What is a cat?
+   Then: Can it disappear?
+   Then: Can it teleport?
+   Then: How do I move it?
+   Expect the cat remains the subject, with tame/sit/follow requirements.
+10. What is a villager?
+    Then: How do I transport it in a boat?
+    Then: Why won’t it restock?
+    Expect transport then workstation guidance, without switching subject to boat.
+11. How do I move a llama?
+    Expect leads/caravan, not direct saddle-style steering.
+12. How do I move a turtle?
+    Expect seagrass/home-beach guidance; eggs can establish a new hatching home.
+13. Can a sulfur cube despawn?
+    Expect bucketed large cube persists, but split small cubes can despawn.
+
+main.js remains vertically formatted. Source metadata remains for test builds;
+removal is reserved for the final production package. No need to repeat all older
+checklists. Report exact questions/answers. Actual phone/console performance and
+multiplayer still need device testing; entity knowledge is not exhaustive.

@@ -97,7 +97,7 @@ test('each catalog mob has connected core topics, with basic classification kept
  }
  assert.match(ask('Are cows dangerous?').answer,/does not normally attack players/);
  assert.match(ask('Are wolves dangerous?').answer,/provoked/);
- assert.match(ask('Are rabbits dangerous?').answer,/Java-only/);
+ assert.match(ask('Are rabbits dangerous?').answer,/passive/);
 });
 test('new wiki references are distinct from natural mob spawning and retain follow-ups',()=>{
  const c=createConversation();assert.match(c.ask('What is an elder guardian ghost?').answer,/technical entity/);
@@ -117,7 +117,7 @@ test('each catalog mob has connected core topics, with basic classification kept
  }
  assert.match(ask('Are cows dangerous?').answer,/does not normally attack players/);
  assert.match(ask('Are wolves dangerous?').answer,/provoked/);
- assert.match(ask('Are rabbits dangerous?').answer,/Java-only/);
+ assert.match(ask('Are rabbits dangerous?').answer,/passive/);
 });
 test('withheld special-killer conditions cannot leak through a general Looting question',()=>{
  assert.doesNotMatch(ask('What does a creeper drop with Looting III?').answer,/parched/);

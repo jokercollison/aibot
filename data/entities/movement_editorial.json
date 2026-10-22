@@ -1,0 +1,796 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Reviewed persistence, relocation and teleportation summaries; not a live diagnosis of a missing mob.",
+  "references": {
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    },
+    "Cat": {
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+    },
+    "Parrot": {
+      "revision_id": 3849952,
+      "sha256": "f547aaf994d25e0c0fbd949e5b5fa94df1e6709375c255be35111564417dfcb4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+    },
+    "Ocelot": {
+      "revision_id": 3851711,
+      "sha256": "1fe59c7626abc811c7b06f63805435bef605a8bd666dbbd01e422908ccb2f6ce",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+    },
+    "Villager": {
+      "revision_id": 3849427,
+      "sha256": "84e96339f1a286cf12398f20bdca38f9b3341475f2d34dc308229829bfdccf72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+    },
+    "Wandering Trader": {
+      "revision_id": 3846633,
+      "sha256": "066104b0b24ccb4816eebc36f0691786e2548c65173d873a0f7d93a20879eabe",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+    },
+    "Endermite": {
+      "revision_id": 3843703,
+      "sha256": "725d08bd3d3e09c85350574e15b165a66740a9cdd09579c736cee6bea8c5aa3f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+    },
+    "Vex": {
+      "revision_id": 3845919,
+      "sha256": "65287f86c8ba8a2af43a1039a66527ba38a7aaed15234ad145d9f2fb187dc2c7",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+    },
+    "Skeleton Horse": {
+      "revision_id": 3849906,
+      "sha256": "962395157889caa503483ffeb0b637a5fabb9001d0cd191f567ec44597c71dd3",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+    },
+    "Shulker": {
+      "revision_id": 3843708,
+      "sha256": "9799c73e5648d1c09c14f1ba7fb75fc1818b7da1b56d8f220d50d7407798799a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+    },
+    "Warden": {
+      "revision_id": 3851707,
+      "sha256": "fd347768ba8230a7864d62780e6ce686f79ea12503ac923f64c35bfcd7a5e6a0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+    },
+    "Creaking": {
+      "revision_id": 3852706,
+      "sha256": "00e066c59993117d89588e612275adaf9dfffe75dbedce51e03be44e8b4479bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+    },
+    "Nautilus": {
+      "revision_id": 3844669,
+      "sha256": "25558e8f7681fef8556d4221e5ee17551133da4db086bf23ccecad0153faea35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+    },
+    "Zombie Nautilus": {
+      "revision_id": 3845839,
+      "sha256": "b9646d3d48fe19f907e8966c30e7f94e1ec0dd403a4ae76fbeed5f118a2805f0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+    },
+    "Camel Husk": {
+      "revision_id": 3845813,
+      "sha256": "cfbb399e7ca99b16b7baa7ea9cbb58fda2b126f38281254d2cabf29d333e6d40",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+    },
+    "Zombie Horse": {
+      "revision_id": 3854012,
+      "sha256": "0b0c7debf2e279a9ba887885a6447dee2377ddd4066b7e78243cd88b2eac11ee",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+    },
+    "Dolphin": {
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+    },
+    "Sulfur Cube": {
+      "revision_id": 3853726,
+      "sha256": "31c7803b75cf0517a3664f52e194077b3838a45060323cfbc39e693fe91fb756",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+    },
+    "Zombie Villager": {
+      "revision_id": 3851910,
+      "sha256": "3053b3baaeaf5f67f94b9d6b4936c59de66765b0d915a64dcfaf3cc903881e2b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+    },
+    "Piglin Brute": {
+      "revision_id": 3848820,
+      "sha256": "41f41186fdd1478cd07ccbfe4c2b6fc89adcf9f48d37de09f9db637f5114f836",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+    },
+    "Elder Guardian": {
+      "revision_id": 3853190,
+      "sha256": "ca80c9a285846b0ac3fb48a6e5d6b9c7b8ef8d52a062668c248593d270ee4cf2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+    },
+    "Bucket of Axolotl": {
+      "revision_id": 3774449,
+      "sha256": "4d981d3922dd5a6ab272ef4e50905ceb7403acb78ac8fc005fe8dbd3c15b0d1a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3774449"
+    },
+    "Bucket of mob": {
+      "revision_id": 3835188,
+      "sha256": "36f23ab4503e18e56ad98b3e41234adfa9e1e476fb5a2cf734ed9a8cb29cb3d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+    },
+    "Bucket of Tadpole": {
+      "revision_id": 3791954,
+      "sha256": "cea82aefebded8485c541577d35f0622fd4a8503d866572aab3626ac2ccd25f6",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3791954"
+    },
+    "Trader Llama": {
+      "revision_id": 3849739,
+      "sha256": "37df095b0f11351fcc086eca588fc7ae22f14a4d6c8056b8a1a7fb802be484fd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+    },
+    "Fox": {
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+    },
+    "Horse": {
+      "revision_id": 3850329,
+      "sha256": "4d7e566bd6c56ef335e2b0df6a46255558e6b00d3ee4c858583e1f4721abe147",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+    },
+    "Donkey": {
+      "revision_id": 3850357,
+      "sha256": "fae56e9d56f614afbc3aa8b8d5c82d1f996c602dac1f78b4c64e2b7c2a2a8b9c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+    },
+    "Mule": {
+      "revision_id": 3850352,
+      "sha256": "596632d61aa0bf365e43468ff48c94735964987d375be25cead17727adc2abd4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+    },
+    "Llama": {
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+    },
+    "Camel": {
+      "revision_id": 3853630,
+      "sha256": "570d45627ef5a9c2743c8804ac20c8c121f45eee2ebf341b445be745ffdd3d9e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+    },
+    "Pig": {
+      "revision_id": 3847785,
+      "sha256": "41b0bff50a942df1b1335e949f5cfc025dcfadc71c876a012172ecb09261c968",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+    },
+    "Strider": {
+      "revision_id": 3844584,
+      "sha256": "415c3ec00da3a60f44e77e04e80da27df294515ebd67f2ad5c14204f74e951d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+    },
+    "Happy Ghast": {
+      "revision_id": 3853633,
+      "sha256": "e8314d1d4eb1dc39bf0de0541c3ed93c71925fd296c95c93a24945ba7d879ae9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+    },
+    "Turtle": {
+      "revision_id": 3846426,
+      "sha256": "a07edbbfee13affef2be3f02e4b394373222e9dc6d8f68c4552f4ae30e17721a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+    },
+    "Sniffer": {
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+    },
+    "Enderman": {
+      "revision_id": 3850886,
+      "sha256": "7b9495708e29fe4da3fd1f3778a23c2da97247420cf324aa16b67362e21ce724",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+    }
+  },
+  "subjects": {
+    "minecraft:wolf": {
+      "topics": {
+        "lifetime": {
+          "answer": "Wolves do not naturally despawn, and a tamed wolf remains yours when you leave. Missing from sight is not proof of despawning: it may be sitting, blocked, outside loaded chunks or dead. Taming does not protect it from ordinary hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "relocation": {
+          "answer": "Tame it and let it follow while standing, or use a lead while it is calm. Sitting stops normal following. Do not assume teleporting will rescue it from every unloaded area, dimension boundary or hazard.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "teleportation": {
+          "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        }
+      }
+    },
+    "minecraft:cat": {
+      "topics": {
+        "lifetime": {
+          "answer": "A tamed cat does not naturally despawn. Stray cats can have different persistence depending on how they spawned; the original swamp-hut cat is persistent. Tame the cat you want to keep and protect it from hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "relocation": {
+          "answer": "Tame it, tell it to stand and let it follow, or use a lead. A sitting cat is not following. Provide safe footing and do not rely on pet teleporting to prevent every travel accident.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "teleportation": {
+          "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        }
+      }
+    },
+    "minecraft:parrot": {
+      "topics": {
+        "lifetime": {
+          "answer": "A tamed parrot does not naturally despawn. Check whether it was told to sit, left behind or moved onto a shoulder. Taming does not protect it from damage or dangerous food.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "relocation": {
+          "answer": "A tamed, standing parrot can follow or perch on your shoulder; a lead is another option. Check it after transitions or dismounting rather than assuming it is still on your shoulder.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        },
+        "teleportation": {
+          "answer": "A tamed pet that is standing can follow and teleport closer when far enough away if a valid destination is available. Sitting and other travel states can prevent normal following. Do not assume it can teleport out of an unloaded area or automatically cross dimensions; move carefully and check it arrives.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        }
+      }
+    },
+    "minecraft:ocelot": {
+      "topics": {
+        "lifetime": {
+          "answer": "A trusting ocelot does not naturally despawn. Gain its trust with raw cod or raw salmon. Trust does not make it a commandable pet cat or keep it safe from attacks.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        }
+      }
+    },
+    "minecraft:villager": {
+      "topics": {
+        "lifetime": {
+          "answer": "Villagers do not naturally despawn, even outside a village. If one is missing, check escape routes, attacks, conversion and other hazards rather than assuming that walking away deleted it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "relocation": {
+          "answer": "Use a boat or minecart for ordinary transport. You cannot attach an ordinary lead to a villager. At the destination, provide safe housing and check its bed and workstation links rather than assuming they transferred correctly.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        }
+      }
+    },
+    "minecraft:villager_v2": {
+      "topics": {
+        "lifetime": {
+          "answer": "Villagers do not naturally despawn, even outside a village. Check escape routes, attacks and conversion if one is missing; adding a name is not a substitute for keeping the village safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        },
+        "relocation": {
+          "answer": "Use a boat or minecart; an ordinary player lead does not attach to a villager. Protect the route and review bed/workstation links after arrival.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+          ]
+        }
+      }
+    },
+    "minecraft:wandering_trader": {
+      "topics": {
+        "lifetime": {
+          "answer": "A wandering trader can still despawn after its special lifetime even if named or put in a boat or minecart. In Bedrock, the timer and whether players are within 24 blocks matter; exhausting all its trades can also make it leave when players are farther away. Do not plan on a name tag keeping it forever.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+          ]
+        },
+        "relocation": {
+          "answer": "A boat or minecart can move it, but does not stop its special despawn timer. Ordinary leads cannot attach directly to the trader; its llamas have separate lead connections.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+          ]
+        }
+      }
+    },
+    "minecraft:endermite": {
+      "topics": {
+        "lifetime": {
+          "answer": "An unnamed endermite despawns after about two minutes even in a boat or minecart. Apply a renamed name tag to prevent that ordinary timer. Naming does not protect a hostile mob from removal on Peaceful.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        }
+      }
+    },
+    "minecraft:vex": {
+      "topics": {
+        "lifetime": {
+          "answer": "An evoker-summoned vex starts taking lifetime damage after 30 to 119 seconds and eventually dies, even in a boat or minecart. This is lifetime damage rather than ordinary distance despawning. Vexes created with spawn eggs or commands do not take that automatic lifetime damage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "topics": {
+        "lifetime": {
+          "answer": "An untriggered skeleton trap horse has a 15-minute timer even if named. Triggering the trap is a different state; the resulting horses and riders have their own persistence. Do not assume naming an untriggered trap freezes its timer.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+          ]
+        }
+      }
+    },
+    "minecraft:shulker": {
+      "topics": {
+        "lifetime": {
+          "answer": "Shulkers do not naturally despawn, including in Peaceful. They can teleport, so a missing shulker may have moved rather than despawned. Persistence does not mean it cannot be killed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        },
+        "teleportation": {
+          "answer": "A shulker can teleport when its attachment or position becomes unsuitable and under some combat conditions. A name tag does not disable that movement. Keep suitable nearby attachment surfaces in mind rather than assuming one small enclosure guarantees it stays put.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        }
+      }
+    },
+    "minecraft:warden": {
+      "topics": {
+        "lifetime": {
+          "answer": "An unnamed calm warden can dig away after about 60 seconds without detecting targets or vibrations. Named wardens do not use that ordinary digging-away behavior. It is not governed by the usual distance-based monster despawn checks.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+          ]
+        }
+      }
+    },
+    "minecraft:creaking": {
+      "topics": {
+        "lifetime": {
+          "answer": "A naturally heart-linked creaking normally leaves during daytime and depends on its linked heart and range. Naming it is not a reliable promise of keeping that heart-linked creature forever. Command-created creakings have different behavior.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        }
+      }
+    },
+    "minecraft:nautilus": {
+      "topics": {
+        "lifetime": {
+          "answer": "Wild nautiluses can despawn. A player interaction makes a nautilus persistent; taming and riding are separate interactions. Persistence does not stop it suffocating on land or dying from damage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        },
+        "relocation": {
+          "answer": "Tame it and equip a saddle for controlled underwater riding, or use a lead while it is calm. Keep it in water; it can suffocate on land. Your rider breathing protection does not mean the mount is safe everywhere.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_nautilus": {
+      "topics": {
+        "lifetime": {
+          "answer": "A naturally spawned zombie nautilus can despawn unless made persistent by player interaction; structure-generated ones are already persistent. The drowned rider is a separate mob, so keeping the mount does not automatically preserve the rider.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+          ]
+        },
+        "relocation": {
+          "answer": "Remove the hostile drowned rider, let the mount become calm, then tame and saddle it for riding or attach a lead. The rider and mount are separate; keep the travel route underwater and safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+          ]
+        }
+      }
+    },
+    "minecraft:camel_husk": {
+      "topics": {
+        "lifetime": {
+          "answer": "A camel husk can despawn before player interaction makes it persistent. Riding it makes it persistent. Any hostile riders are separate mobs, and the mount’s persistence does not make the riders friendly.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_horse": {
+      "topics": {
+        "lifetime": {
+          "answer": "A wild zombie horse can despawn until player interaction makes it persistent. Its zombie rider is a separate mob. Keeping the horse does not protect it from fire, damage or other hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+          ]
+        }
+      }
+    },
+    "minecraft:dolphin": {
+      "topics": {
+        "lifetime": {
+          "answer": "Dolphins can naturally despawn when players leave. A name tag can prevent ordinary despawning, but a dolphin still needs water and access to air. A named dolphin trapped underwater can drown.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "relocation": {
+          "answer": "You can tow a dolphin with a lead, but keep it in suitable water with access to air. It cannot ride in a boat like an ordinary land animal, and naming it will not prevent suffocation or drowning.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        }
+      }
+    },
+    "minecraft:sulfur_cube": {
+      "topics": {
+        "lifetime": {
+          "answer": "A large sulfur cube that has been bucketed and released does not ordinarily despawn. If it splits, the resulting small cubes can despawn; do not assume the parent’s bucket history preserves every offspring.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        },
+        "relocation": {
+          "answer": "Use an empty bucket on a large sulfur cube for compact transport. Small cubes and cubes carrying ignited TNT cannot be captured. This uses an empty bucket, unlike aquatic creatures needing water buckets.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager": {
+      "topics": {
+        "lifetime": {
+          "answer": "In Bedrock, zombie villagers created by converting villagers are persistent. Abandoned-village and igloo-basement examples are also persistent. Ordinary naturally spawned zombie villagers can need a name tag to prevent normal despawning. Peaceful can still remove them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "topics": {
+        "lifetime": {
+          "answer": "Bedrock converted zombie villagers and those generated in abandoned villages or igloo basements are persistent. Other natural examples may despawn unless kept persistent. Naming does not protect a hostile mob from removal on Peaceful.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin_brute": {
+      "topics": {
+        "lifetime": {
+          "answer": "The original piglin brutes generated with bastions are persistent and do not naturally replenish after being killed. Persistence does not stop zombification outside the Nether or protect them from damage.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        }
+      }
+    },
+    "minecraft:elder_guardian": {
+      "topics": {
+        "lifetime": {
+          "answer": "The original elder guardians generate with the ocean monument and do not naturally respawn after death. Protecting one from ordinary despawning is different from keeping it alive; Peaceful can remove hostile monument mobs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        }
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "lifetime": {
+          "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3774449"
+          ]
+        },
+        "relocation": {
+          "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:tadpole": {
+      "topics": {
+        "lifetime": {
+          "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3791954"
+          ]
+        },
+        "relocation": {
+          "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:cod": {
+      "topics": {
+        "lifetime": {
+          "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        },
+        "relocation": {
+          "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:salmon": {
+      "topics": {
+        "lifetime": {
+          "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        },
+        "relocation": {
+          "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:tropicalfish": {
+      "topics": {
+        "lifetime": {
+          "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        },
+        "relocation": {
+          "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:pufferfish": {
+      "topics": {
+        "lifetime": {
+          "answer": "Catching it in a water bucket and releasing it prevents ordinary natural despawning. That does not prevent damage or death. A tadpole can still grow into a frog; capture is not a command to stop aging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        },
+        "relocation": {
+          "answer": "Capture it with a water bucket, carry the filled bucket, and release it into safe water at the destination. Protect aquatic creatures from dry land. A dispenser can release a filled bucket but cannot catch a creature with a water bucket.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+          ]
+        }
+      }
+    },
+    "minecraft:trader_llama": {
+      "topics": {
+        "lifetime": {
+          "answer": "A trader llama tied to a wandering trader can leave with the trader. In Bedrock, removing its lead from the trader makes it tamed and prevents that ordinary trader-linked despawn. Protect it from damage afterward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        }
+      }
+    },
+    "minecraft:fox": {
+      "topics": {
+        "relocation": {
+          "answer": "Use a lead to guide it. A trusting fox is not a wolf-style pet that follows your movement commands; young foxes may follow nearby adult foxes. Avoid exposing carried food or valuables to loss.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        }
+      }
+    },
+    "minecraft:horse": {
+      "topics": {
+        "relocation": {
+          "answer": "Tame an adult and equip a saddle for controlled riding, or use a lead. Coat color does not guarantee speed or jump strength. Keep the route safe for both rider and mount.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        }
+      }
+    },
+    "minecraft:donkey": {
+      "topics": {
+        "relocation": {
+          "answer": "Tame and saddle it for controlled riding, or lead it. A chest can carry supplies, but does not make it follow a player automatically; keep track of the animal and its cargo.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        }
+      }
+    },
+    "minecraft:mule": {
+      "topics": {
+        "relocation": {
+          "answer": "Tame and saddle it for controlled riding, or use a lead. Its attached chest and contents travel with it, but carrying cargo does not protect it from hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        }
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "relocation": {
+          "answer": "Use a lead to guide it and its caravan. Taming lets you interact and ride, but does not give direct saddle-style steering. Carpets are decoration, not steering equipment.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        }
+      }
+    },
+    "minecraft:camel": {
+      "topics": {
+        "relocation": {
+          "answer": "Equip an adult camel with a saddle for controlled riding. It can carry two players; sitting and standing are different movement states. A lead can guide it without riding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        }
+      }
+    },
+    "minecraft:pig": {
+      "topics": {
+        "relocation": {
+          "answer": "Use a saddle and a carrot on a stick for controlled riding, or use an ordinary lead. A saddle alone does not make it steer toward your intended destination.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        }
+      }
+    },
+    "minecraft:strider": {
+      "topics": {
+        "relocation": {
+          "answer": "Use a saddle and warped fungus on a stick to control it, or guide it with a lead. Lava travel suits a strider; bringing it into water or rain is dangerous.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        }
+      }
+    },
+    "minecraft:happy_ghast": {
+      "topics": {
+        "relocation": {
+          "answer": "Equip an adult with a harness for flight; up to four players can ride, and the front rider controls it. Leads can also carry supported mobs or boats below it. A ghastling cannot be harnessed and flown yet.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        }
+      }
+    },
+    "minecraft:turtle": {
+      "topics": {
+        "relocation": {
+          "answer": "You cannot attach a normal lead. Seagrass can guide it, but a breeding adult may return to its remembered home beach. Moving eggs with Silk Touch and hatching them at a new beach establishes a home there for the new turtles.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        }
+      }
+    },
+    "minecraft:sniffer": {
+      "topics": {
+        "relocation": {
+          "answer": "You can lead a sniffer, but it cannot dig while leashed. Set up safe, reachable diggable ground at the destination and release the lead before expecting seed digging.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        }
+      }
+    },
+    "minecraft:enderman": {
+      "topics": {
+        "teleportation": {
+          "answer": "Endermen teleport as part of movement and to avoid threats such as projectiles and water. A name tag prevents ordinary despawning but does not disable their teleportation; a missing enderman may have moved rather than been deleted.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -67,7 +67,7 @@
           ]
         },
         "spawn_conditions": {
-          "answer": "Natural spawning needs water with no emitted block light and sky light 7 or less. Bedrock uses surface spawning checks, not Java’s universal below-Y=58 rule. Rivers and dripstone caves have higher rates than oceans. Zombie conversion and ocean-ruin generation are separate sources.",
+          "answer": "Natural spawning needs water with no emitted block light and sky light 7 or less. Surface spawning checks matter; do not assume every dark water-filled cave qualifies. Rivers and dripstone caves have higher rates than oceans. Zombie conversion and ocean-ruin generation are separate sources.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3851909"
@@ -78,7 +78,7 @@
     "minecraft:phantom": {
       "topics": {
         "spawning": {
-          "answer": "Phantoms appear above players who have gone a long time without resting. In Bedrock, suitable dark surface spawning locations and access to the sky matter; they are not restricted to Java’s night-only rule.",
+          "answer": "Phantoms appear above players who have gone a long time without resting. In Bedrock, suitable dark surface spawning locations and access to the sky matter. They can also appear during daytime when the required conditions are met.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3851156"
@@ -132,7 +132,7 @@
     "minecraft:iron_golem": {
       "topics": {
         "spawning": {
-          "answer": "Find iron golems in villages, or construct one. Bedrock village spawning has bed, villager and working requirements; it does not use Java’s three-panicking-villager setup.",
+          "answer": "Find iron golems in villages, or construct one. Bedrock village spawning has bed, villager and working requirements. Three frightened villagers alone are not enough.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3851102"
@@ -283,7 +283,7 @@
           ]
         },
         "spawn_conditions": {
-          "answer": "Bedrock witches avoid natural spawning in mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Swamp huts use a particular hardcoded spawning spot, not Java’s whole-hut spawning volume. Raid spawning and lightning conversion are separate routes.",
+          "answer": "Bedrock witches avoid natural spawning in mushroom fields, deep dark, rivers, frozen rivers and snowy plains. Swamp huts use a particular hardcoded spawning spot. Raid spawning and lightning conversion are separate routes.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3850494"
@@ -301,7 +301,7 @@
           ]
         },
         "spawn_conditions": {
-          "answer": "Bedrock guardians use 25 predetermined columns with water-source checks, rather than spawning anywhere across a Java-style monument volume. Removing the monument blocks alone does not remove those spawning positions. Check the column, water and obstructions.",
+          "answer": "Bedrock guardians use 25 predetermined columns with water-source checks. Removing the monument blocks alone does not remove those spawning positions. Check the column, water and obstructions.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3853189"
@@ -607,7 +607,7 @@
           ]
         },
         "spawn_conditions": {
-          "answer": "Bedrock ocelots can naturally spawn in all jungle types at light level 7 or above. Grass blocks matter. Do not apply Java’s sparse-jungle exclusion to Bedrock.",
+          "answer": "Bedrock ocelots can naturally spawn in all jungle types at light level 7 or above. Grass blocks matter. Sparse jungle is an eligible habitat.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3851711"
@@ -661,7 +661,7 @@
           ]
         },
         "spawn_conditions": {
-          "answer": "A Bedrock squid spawn must not have a solid or spawnable block above the location. Do not automatically apply Java’s Y=50–63 range. A roofed tank can fail even though it contains water.",
+          "answer": "A Bedrock squid spawn must not have a solid or spawnable block above the location. Do not assume all squid need the same height range as ocean fish. A roofed tank can fail even though it contains water.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3844578"
@@ -715,7 +715,7 @@
           ]
         },
         "spawn_conditions": {
-          "answer": "Bedrock pufferfish require warm-ocean surface water, with suitable player distance around 12–32 blocks. Do not substitute Java’s lukewarm/deep-lukewarm spawning list or roof over the spawning water.",
+          "answer": "Bedrock pufferfish require warm-ocean surface water, with suitable player distance around 12–32 blocks. Do not roof over the spawning water.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3844681"
@@ -881,7 +881,7 @@
     "minecraft:camel_husk": {
       "topics": {
         "spawn_conditions": {
-          "answer": "Bedrock camel husks use desert monster spawning and appear with riders, not as ordinary passive desert camels. They do not naturally spawn in Peaceful. Do not apply Java’s exact husk-pack chance to Bedrock.",
+          "answer": "Bedrock camel husks use desert monster spawning and appear with riders, not as ordinary passive desert camels. They do not naturally spawn in Peaceful.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3845813"
@@ -1057,7 +1057,7 @@
     "minecraft:pillager": {
       "topics": {
         "spawn_conditions": {
-          "answer": "Pillagers have different sources: outposts, patrols and raids. Bedrock patrols can start after five and a half in-game days and use light 0–7. Bedrock outpost spawning is tied to particular positions; do not copy a Java whole-volume outpost platform without checking the Bedrock positions.",
+          "answer": "Pillagers have different sources: outposts, patrols and raids. Bedrock patrols can start after five and a half in-game days and use light 0–7. Bedrock outpost spawning is tied to particular positions. Check those positions before building a farm.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3843714"
@@ -1090,7 +1090,7 @@
     "minecraft:ravager": {
       "topics": {
         "spawn_conditions": {
-          "answer": "Ravagers come from raids beginning at wave three, not ordinary dark-platform spawning. Riders depend on the raid wave and difficulty. Bedrock raids do not have Java’s extra-wave system.",
+          "answer": "Ravagers come from raids beginning at wave three, not ordinary dark-platform spawning. Riders depend on the raid wave and difficulty. Raids do not add extra waves beyond their normal difficulty-based sequence.",
           "coverage": "reviewed_summary",
           "sources": [
             "https://minecraft.wiki/w/Special:PermanentLink/3843713"

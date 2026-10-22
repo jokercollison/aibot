@@ -1,3 +1,4 @@
+import {movementTopic} from './entity-movement.js';
 import {combatTopic} from './entity-combat.js';
 import {rewardTopic} from './entity-rewards.js';
 import {conditionalLootAnswer} from './entity-loot.js';
@@ -8,6 +9,7 @@ import database from '../data/entities/runtime.json' with {type:'json'};
 export function entityTopic(q) {
   const reward=rewardTopic(q);if(reward)return reward;
   if (/\b(drop|drops|loot|looting)\b/.test(q) && !/\bfroglights?\b/.test(q)) return 'drops';
+  const movement=movementTopic(q);if(movement)return movement;
   const combat=combatTopic(q);if(combat)return combat;
   const action=specialInteraction(q);if(action)return action;
   if (/\b(?:repair|heal).*\b(?:armor|armour)\b/.test(q))return 'repair';
