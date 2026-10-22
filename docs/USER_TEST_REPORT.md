@@ -1,3 +1,10 @@
+# User report: 0.2.11 testing good
+
+The user reports “2.11 test is good.” Record this as user-reported successful
+single-player testing, with the previously reported Java-comparison wording issue
+addressed in 0.2.12. This does not establish exhaustive knowledge, multiplayer
+results or testing of the new 0.2.12 build. Its actual-game checks remain pending.
+
 # User report: 0.2.11 baby piglin XP response
 
 The user tested “How much XP does a baby piglin drop?” and reported the unwanted
