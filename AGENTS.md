@@ -67,3 +67,8 @@ These preferences were explicitly requested by the user during in-game testing.
   force another robot/menu click per question or send normal answers only to chat.
   Close/Back/Escape must stop the loop. Keep Things to try, follow-up context,
   bounded recent history, per-player/robot isolation, and per-turn access checks.
+
+- Generated playable scripts must remain readable and vertically formatted, as
+  requested after the editor froze expanding a multi-megabyte line. Keep build
+  minification disabled and retain the oversized-line validation. Formatting
+  alone is not a promise of lower memory use or faster device loading.

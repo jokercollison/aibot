@@ -35,7 +35,7 @@ async function emitTree(src,dest,relative='') {
 }
 await emitTree('Content/behavior_packs/AI_Bot','build/TimeTrapRobot_BP');
 await emitTree('Content/resource_packs/AI_Bot','build/TimeTrapRobot_RP');
-await build({entryPoints:['src/main.ts'],bundle:true,minify:true,format:'esm',target:'es2022',outfile:`build/TimeTrapRobot_BP/scripts/tts/ai_bot/${segment}/main.js`,external:['@minecraft/server','@minecraft/server-ui'],legalComments:'none'});
+await build({entryPoints:['src/main.ts'],bundle:true,minify:false,format:'esm',target:'es2022',outfile:`build/TimeTrapRobot_BP/scripts/tts/ai_bot/${segment}/main.js`,external:['@minecraft/server','@minecraft/server-ui'],legalComments:'none'});
 async function validateJson(dir) {
   for (const entry of await readdir(dir,{withFileTypes:true})) {
     const p=path.join(dir,entry.name);
@@ -52,6 +52,10 @@ for (const d of bp.dependencies.filter(d=>d.module_name)) {
   if(pkg.version!==d.version || /beta|preview/.test(d.version)) throw new Error('API dependency mismatch');
 }
 const source=await readFile(`build/TimeTrapRobot_BP/scripts/tts/ai_bot/${segment}/main.js`,'utf8');
+const lines=source.split('\n');
+const longestLine=lines.reduce((longest,line)=>Math.max(longest,line.length),0);
+if(longestLine>10000)throw new Error('Generated script contains an oversized line; keep output readable.');
+console.log(`Readable script: ${lines.length} lines; longest line ${longestLine} characters`);
 if (/from ["']node:|require\(|fetch\(|eval\(/.test(source)) throw new Error('Unsupported runtime dependency');
 await import('./validate-built.mjs');
 execFileSync('python',['tools/package.py'],{stdio:'inherit'});

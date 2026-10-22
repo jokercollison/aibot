@@ -1,3 +1,14 @@
+# Current test release: 0.2.11 — readable script, rewards and combat
+
+Formats the shipped main.js vertically and retains descriptive identifiers.
+Packages 183 reward summaries and 105 combat summaries developed after 0.2.10.
+Total reviewed entity summaries: 1,551; 154 automated tests pass. See
+RELEASE_0.2.11.md and downloads/Robot_Test_Checklist-0.2.11.txt.
+Actual-game and device performance testing remain pending; formatting is not a
+memory optimization. Previous 0.2.10 testing has not been reported.
+
+## Previous source and release records
+
 # Latest source batch: combat and protection after 0.2.10
 
 Connected 105 reviewed combat summaries across 35 subjects. Total reviewed entity

@@ -1,0 +1,56 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.11
+NEW/CHANGED CHECKS ONLY — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.11.mcaddon in Minecraft.
+Use a fresh world and NEW robot, with ONLY these matching packs:
+  Time Trap Studios AI Bot — Behavior 0.2.11
+  Time Trap Studios AI Bot — Resources 0.2.11
+Both descriptions and the robot menu must show 0.2.11.
+Optional summon: /summon tts_ai_bot_v0_2_11:robot
+
+READABILITY AND RESPONSIVENESS
+- If inspecting the addon, open its main.js. Data and code should occupy many
+  readable lines, without the multi-megabyte Show more lines from older builds.
+- In Minecraft, note the device used, world-loading responsiveness, delay on the
+  first conversation and responsiveness after several questions.
+  Formatting alone is not a promise of reduced RAM use or faster loading.
+
+EXPERIENCE AND EQUIPMENT
+1. How much XP does a baby piglin drop?
+   Expect base 1 XP in Bedrock, not Java’s 5.
+2. How much XP does a baby hoglin drop?
+   Expect 5; ordinary baby-animal zero-XP rules do not apply.
+3. How much XP does the Ender Dragon drop?
+   Expect 12,000 first defeat; 500 after resummoning. Points, not levels.
+4. How much experience does an evoker drop when killed by an iron golem?
+   Expect the EVOKER’s 10 XP regardless of death method in Bedrock.
+5. How much XP does an axolotl drop?
+   Expect honest uncertainty about the exact number; conflicting sources remain.
+6. Does a vex drop its sword with Looting III?
+   Expect No; Looting does not change it.
+7. Does a drowned drop its trident with Looting III?
+   Expect equipment/kill conditions and Bedrock 25% base, 28% with Looting III.
+
+COMBAT AND FOLLOW-UPS
+8. What is a warden?
+   Then: How does it attack?
+   Then: Can a shield protect me?
+   Expect sonic boom; ordinary shields/armor/walls do not stop that attack.
+9. Can a shield protect me from a shulker?
+   Expect damage can be blocked but Levitation still applies in Bedrock.
+10. Why is a piglin brute attacking me?
+    Expect gold armor and gold offerings do not pacify it.
+11. How do I defeat a breeze?
+    Expect projectile deflection, with melee/wind-charge counterplay.
+12. How do I defeat a creaking?
+    Expect watch it and locate/break its linked heart; command-created differs.
+13. How does a cave spider attack?
+    Expect Poison on Normal/Hard, not Easy.
+14. Why is an iron golem attacking me?
+    Expect natural-village aggression versus player-built golems not attacking players.
+
+Keep Things to try and continuous follow-ups available. Existing art, text colors
+and 500-health robot remain. Report exact questions/answers for unexpected results.
+0.2.10 testing was still pending; its separate checklist remains on GitHub if needed.
+Multiplayer remains untested; entity knowledge is not exhaustive.
