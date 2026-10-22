@@ -4,7 +4,8 @@ export function prerequisiteTopic(q) {
 export function conditionalEntityTopic(id,q,topic,topics) {
  const available=name=>topics[name]?name:null;
  if(['breeding','breeding_conditions'].includes(topic)) {
-  const baby=/\b(?:baby|babies|foal|foals|snifflet|snifflets)\b.*\b(?:breed|breeding|mate)\b|\b(?:breed|breeding|mate)\s+(?:(?:a|an|the|my|two)\s+)?(?:baby|babies|foal|foals|snifflet|snifflets)\b/.test(q);
+  const ageQuestion=q.replace(/\b(?:not|no longer|isn t|aren t) (?:(?:a|an|the) )?(?:baby|babies|foal|foals|snifflet|snifflets)\b/g,'adult').replace(/\b(?:with|has|have|having|producing|raising) (?:(?:a|an|the|their|two) )?(?:baby|babies)\b/g,'with offspring');
+  const baby=/\b(?:baby|babies|foal|foals|snifflet|snifflets)\b.*\b(?:breed|breeding|mate)\b|\b(?:breed|breeding|mate)\s+(?:(?:a|an|the|my|two)\s+)?(?:baby|babies|foal|foals|snifflet|snifflets)\b/.test(ageQuestion);
   if(baby)return available('breeding_age');
   if(/\b(?:untamed|not tamed|wild)\b/.test(q)&&topics.breeding_ownership)return 'breeding_ownership';
   if(/\b(?:health|injured|wounded|hurt)\b/.test(q)&&topics.breeding_health)return 'breeding_health';

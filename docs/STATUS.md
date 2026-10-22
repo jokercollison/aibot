@@ -1,3 +1,10 @@
+# Source development after 0.2.13: wording and follow-up audit
+
+Started the next batch with age-negation, parent/offspring wording and short
+age-follow-up fixes. Source checks pass 175 tests. Published 0.2.13 remains the
+latest download and is unchanged; its release validation was 172 tests. See
+ENTITY_WORDING_PROGRESS.md. New source work is not packaged yet.
+
 # Current test release: 0.2.13 — entity objects and conditional actions
 
 Packages source work after 0.2.12: vehicle/projectile/technical mechanics and

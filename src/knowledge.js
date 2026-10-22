@@ -162,6 +162,10 @@ export function createConversation() {
         }
         pendingVariant=undefined;
       }
+      if(previous?.kind==='entity'&&['breeding','breeding_conditions'].includes(previousEntityTopic)) {
+        const age=q.match(/^(?:and |what about |how about )?(?:the )?(adults?|bab(?:y|ies))(?: then)?$/);
+        if(age)return this.ask(`Can ${age[1]} entity:${previous.minecraft_id} breed?`);
+      }
       if(previous?.kind==='entity') {
         const chosen=shortVariant(previous.minecraft_id,q);
         const relative=q.match(/\b(?:the )?([a-z]+) one\b/);
