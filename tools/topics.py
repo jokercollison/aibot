@@ -6,6 +6,7 @@ def load(name):return json.loads((ROOT/name).read_text())
 records=load('data/catalog.json')['records'];descriptions=load('data/description_catalog.json');recipes=load('data/recipe_index.json')['by_output'];loot=load('legacy/database/structured/v65/loot_sources_by_item.json');spawn=load('legacy/database/structured/v66/spawn_evidence_compact.json');locations=load('data/location_facts.json');facts=load('data/facts.json');entity_topics=load('data/entity_knowledge.json');acquisition=load('data/acquisition_index.json');current_entities=load('data/entities/runtime.json');current_entities=load('data/entities/runtime.json')
 block_rules=[rule for path in (ROOT/'data/blocks').glob('*.json') for rule in json.loads(path.read_text()).get('rules',[])]
 block_terrain=load('data/blocks/terrain.json')['subjects']
+block_supplemental=load('data/blocks/supplemental.json')['subjects']
 location_ids={id for key,row in locations.items() for id in [key]+row.get('related_ids',[])}
 topics={
  'block':['identity','uses','recipe_or_acquisition','location','biomes','mining_tool','drops','properties','redstone'],
@@ -27,7 +28,7 @@ for id,r in records.items():
  if name in location_ids:row['location']={'status':'live_article_reviewed_not_in_game_verified','answer_connected':True}
  if kind=='block':
   matched=next((rule for rule in block_rules if re.fullmatch(rule['pattern'],name.split(':',1)[1])),None)
-  detail={**(matched or {}).get('topics',{}),**block_terrain.get(name,{}).get('topics',{})}
+  detail={**block_supplemental.get(name,{}).get('topics',{}),**(matched or {}).get('topics',{}),**block_terrain.get(name,{}).get('topics',{})}
   mapping={'mining':['mining_tool','drops'],'operation':['uses'],'location':['location'],'redstone':['redstone']}
   for facet,public_topics in mapping.items():
    if facet in detail:

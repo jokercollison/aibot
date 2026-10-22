@@ -5,7 +5,7 @@
   "reference_source": "Preserved offline wiki text databases; archive availability is distinct from runtime topic completeness",
   "topic_counts": {
     "identity:unresolved": 89,
-    "location:unresolved": 2121,
+    "location:unresolved": 1977,
     "terrain:unresolved": 89,
     "climate:unresolved": 89,
     "blocks:unresolved": 89,
@@ -15,35 +15,35 @@
     "identity:editorial_basic_summary": 3222,
     "uses:reviewed_block_facet_summary": 784,
     "recipe_or_acquisition:unresolved": 1154,
+    "location:reviewed_block_facet_summary": 1177,
     "biomes:unresolved": 3095,
     "mining_tool:reviewed_block_facet_summary": 1421,
     "drops:reviewed_block_facet_summary": 1421,
     "properties:unresolved": 668,
-    "redstone:reviewed_block_facet_summary": 232,
+    "redstone:reviewed_block_facet_summary": 235,
     "growth:unresolved": 1355,
-    "storage:unresolved": 1410,
+    "storage:unresolved": 1409,
     "water:unresolved": 907,
     "fire:unresolved": 885,
     "gravity:unresolved": 995,
-    "oxidation:unresolved": 1335,
+    "oxidation:unresolved": 1296,
     "stripping:unresolved": 1413,
     "danger:unresolved": 1445,
     "recipe_or_acquisition:sample_recipe_indexed": 1717,
     "properties:reviewed_property_subset": 795,
-    "redstone:unresolved": 1231,
+    "redstone:unresolved": 1228,
     "water:reviewed_block_facet_summary": 556,
-    "location:reviewed_block_facet_summary": 1033,
+    "oxidation:reviewed_block_facet_summary": 167,
     "uses:editorial_basic_summary": 2309,
     "growth:reviewed_block_facet_summary": 108,
     "recipe_or_acquisition:conditional_loot_category_answer": 222,
     "fire:reviewed_block_facet_summary": 578,
     "gravity:reviewed_block_facet_summary": 468,
     "stripping:reviewed_block_facet_summary": 50,
-    "storage:reviewed_block_facet_summary": 53,
+    "storage:reviewed_block_facet_summary": 54,
     "mining_tool:unresolved": 42,
     "drops:unresolved": 63,
     "danger:reviewed_block_facet_summary": 18,
-    "oxidation:reviewed_block_facet_summary": 128,
     "behavior:editorial_basic_summary": 129,
     "spawn_conditions:reviewed_summary": 127,
     "biomes:spawning_summary_partial_biome_guidance": 127,
@@ -3472,8 +3472,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -3644,8 +3645,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -3955,8 +3957,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -4246,8 +4248,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -4728,8 +4731,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -4762,8 +4765,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -4901,8 +4905,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -6816,8 +6820,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -7127,8 +7132,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -8073,8 +8078,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -8246,8 +8251,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -8623,8 +8628,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -9051,8 +9057,9 @@
           "answer_connected": true
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -9222,8 +9229,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -9394,8 +9402,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -9705,8 +9714,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -9996,8 +10005,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -10478,8 +10488,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -10512,8 +10522,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -10651,8 +10662,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -10858,8 +10869,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -11117,8 +11129,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -11547,8 +11560,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -11977,8 +11991,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -12838,8 +12853,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -13097,8 +13113,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -13697,8 +13714,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -14127,8 +14145,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -15586,8 +15605,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -15845,8 +15865,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -16445,8 +16466,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -16875,8 +16897,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -18099,8 +18122,9 @@
           "answer_connected": false
         },
         "redstone": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "growth": {
           "status": "unresolved",
@@ -18419,8 +18443,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -19442,8 +19467,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -19753,8 +19779,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -20526,8 +20552,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -20699,8 +20725,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -20905,8 +20931,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -25703,8 +25730,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -26990,8 +27018,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -27247,8 +27276,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -27643,8 +27673,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -28416,8 +28446,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -28675,8 +28705,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -29656,8 +29686,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -29915,8 +29946,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -30345,8 +30377,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -30775,8 +30808,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -31033,8 +31067,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -31204,8 +31239,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -31376,8 +31412,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -31687,8 +31724,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -31978,8 +32015,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -32407,8 +32445,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -32976,8 +33015,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -33063,8 +33102,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -33183,8 +33222,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -37997,8 +38037,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -49796,8 +49837,9 @@
           "answer_connected": false
         },
         "redstone": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "growth": {
           "status": "unresolved",
@@ -49805,8 +49847,8 @@
           "exhaustive": false
         },
         "storage": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "water": {
@@ -50031,8 +50073,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -50203,8 +50246,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -50289,8 +50333,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -50375,8 +50420,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -50461,8 +50507,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -50632,8 +50679,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -50718,8 +50766,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -51148,8 +51197,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -54409,8 +54459,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -54668,8 +54719,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -55098,8 +55150,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -55528,8 +55581,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -55873,8 +55927,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -56132,8 +56187,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -56562,8 +56618,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -56992,8 +57049,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -62655,8 +62713,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -62827,8 +62886,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -63138,8 +63198,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -63429,8 +63489,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -63911,8 +63972,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -63945,8 +64006,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -64084,8 +64146,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -66663,8 +66725,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -66922,8 +66985,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -67352,8 +67416,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -67782,8 +67847,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -68127,8 +68193,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -68386,8 +68453,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -68730,8 +68798,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -69160,8 +69229,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -69847,8 +69917,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -70106,8 +70177,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -70536,8 +70608,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -70966,8 +71039,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -71224,8 +71298,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -71396,8 +71471,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -71568,8 +71644,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -71740,8 +71817,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -72084,8 +72162,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -72343,8 +72422,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -72773,8 +72853,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -73203,8 +73284,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -73719,8 +73801,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -74030,8 +74113,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -74889,8 +74972,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -75062,8 +75145,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -78785,8 +78868,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -79010,8 +79094,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -80159,8 +80243,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -80418,8 +80503,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -80933,8 +81019,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -81448,8 +81535,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -81963,8 +82051,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -82135,8 +82224,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -82221,8 +82311,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -82307,8 +82398,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -82393,8 +82485,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -82564,8 +82657,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -82650,8 +82744,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -83080,8 +83175,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -83764,8 +83860,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -84075,8 +84172,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -84848,8 +84945,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -85021,8 +85118,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -85484,8 +85581,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -85656,8 +85754,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -85915,8 +86014,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -86430,8 +86530,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -86945,8 +87046,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -87544,8 +87646,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -91843,8 +91946,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -92154,8 +92258,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -92842,8 +92946,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -93015,8 +93119,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -93562,8 +93666,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -93648,8 +93753,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -94765,8 +94871,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -95024,8 +95131,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -95454,8 +95562,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -95884,8 +95993,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -97605,8 +97715,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -97864,8 +97975,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -99581,8 +99693,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -100096,8 +100209,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -100698,8 +100812,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -102609,8 +102724,9 @@
           "answer_connected": false
         },
         "redstone": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "growth": {
           "status": "unresolved",
@@ -103529,8 +103645,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -106361,8 +106478,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -106533,8 +106651,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -106844,8 +106963,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -107135,8 +107254,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -107617,8 +107737,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -107651,8 +107771,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -107790,8 +107911,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -108049,8 +108170,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -113490,8 +113611,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -113748,8 +113870,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -115631,8 +115754,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -115717,8 +115841,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -115803,8 +115928,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -116285,8 +116411,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -116491,8 +116617,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -116887,8 +117014,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -117660,8 +117787,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -117919,8 +118046,8 @@
           "exhaustive": false
         },
         "oxidation": {
-          "status": "unresolved",
-          "answer_connected": false,
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
           "exhaustive": false
         },
         "stripping": {
@@ -123882,8 +124009,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124054,8 +124182,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124140,8 +124269,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124226,8 +124356,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124312,8 +124443,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124483,8 +124615,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124569,8 +124702,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -124999,8 +125133,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -125514,8 +125649,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -125773,8 +125909,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -126203,8 +126340,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -126718,8 +126856,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -127147,8 +127286,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -127232,8 +127372,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -127404,8 +127545,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -127577,8 +127719,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -127836,8 +127979,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -128351,8 +128495,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -128781,8 +128926,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",
@@ -129039,8 +129185,9 @@
           "answer_connected": false
         },
         "location": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_block_facet_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "biomes": {
           "status": "unresolved",

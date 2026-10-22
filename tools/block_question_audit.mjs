@@ -7,11 +7,12 @@ const catalog=Object.values(read('data/catalog.json').records).filter(r=>r.kind=
 const files=fs.readdirSync(new URL('data/blocks/',root)).filter(f=>f.endsWith('.json'));
 const rules=files.flatMap(f=>(read('data/blocks/'+f).rules??[]).map(r=>({...r,file:f,regex:new RegExp('^(?:'+r.pattern+')$')})));
 const terrain=read('data/blocks/terrain.json').subjects;
+const supplemental=read('data/blocks/supplemental.json').subjects;
 const prompts={identity:s=>`What is ${s}?`,uses:s=>`What is ${s} used for?`,recipe:s=>`How do I craft ${s}?`,mining:s=>`How do I mine ${s}?`,location:s=>`Where can I find ${s}?`,growth:s=>`How do I grow ${s}?`,operation:s=>`How do I use ${s}?`,storage:s=>`How many slots are in ${s}?`,redstone:s=>`How does redstone affect ${s}?`,water:s=>`What happens with water and ${s}?`,fire:s=>`What happens with fire and ${s}?`,gravity:s=>`Does gravity affect ${s}?`,oxidation:s=>`How does oxidation affect ${s}?`,stripping:s=>`How do I strip ${s}?`,danger:s=>`Is it dangerous to use ${s}?`};
 const report={scope:'Every pinned catalog block, including internal and Education identifiers. Basic descriptions, detailed facets, recipes and unresolved topics are counted separately. No unknown is silently not-applicable. This audit is not complete factual validation or Minecraft execution.',catalog_blocks:catalog.length,questions:0,expected_facet_questions:0,expected_facet_failures:[],detailed_subjects:0,definition_only_subjects:0,topic_counts:{},subjects:{},full_block_phase_complete:false};
 for(const r of catalog) {
  const matching=rules.filter(rule=>rule.regex.test(r.minecraft_id.slice(10)));
- const expected=new Set([...matching.flatMap(rule=>Object.keys(rule.topics)),...Object.keys(terrain[r.minecraft_id]?.topics??{})]);
+ const expected=new Set([...matching.flatMap(rule=>Object.keys(rule.topics)),...Object.keys(terrain[r.minecraft_id]?.topics??{}),...Object.keys(supplemental[r.minecraft_id]?.topics??{})]);
  const row={name:r.name,reviewed_families:matching.map(rule=>rule.file+':'+rule.id),reviewed_topics:[...expected].sort(),topics:{},complete:false};
  if(expected.size)report.detailed_subjects++;else report.definition_only_subjects++;
  for(const [topic,question] of Object.entries(prompts)) {
@@ -19,10 +20,11 @@ for(const r of catalog) {
   report.questions++;
   const detailed=answer.topic===topic&&answer.status==='conditional';
   const basic=['identity','uses'].includes(topic)&&answer.status==='conditional';
+  const alternative=topic==='recipe'&&answer.topic==='acquisition'&&answer.status==='conditional';
   const recipe=topic==='recipe'&&answer.status==='conditional'&&!/still need to learn|not sure/i.test(answer.answer);
-  const status=detailed?'connected_facet':basic?'basic_summary':recipe?'connected_recipe':'unresolved';
+  const status=alternative?'acquisition_alternative':detailed?'connected_facet':basic?'basic_summary':recipe?'connected_recipe':'unresolved';
   row.topics[topic]={status,answer_status:answer.status};
-  report.topic_counts[topic]??={connected_facet:0,basic_summary:0,connected_recipe:0,unresolved:0};
+  report.topic_counts[topic]??={connected_facet:0,basic_summary:0,connected_recipe:0,acquisition_alternative:0,unresolved:0};
   report.topic_counts[topic][status]++;
   if(expected.has(topic)) {
    report.expected_facet_questions++;

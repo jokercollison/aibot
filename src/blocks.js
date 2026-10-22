@@ -1,3 +1,5 @@
+import supplemental from '../data/blocks/supplemental.json' with {type:'json'};
+import recipeFallbacks from '../data/blocks/recipe_fallbacks.json' with {type:'json'};
 import availability from '../data/blocks/availability.json' with {type:'json'};
 import special from '../data/blocks/special.json' with {type:'json'};
 import decorative from '../data/blocks/decorative.json' with {type:'json'};
@@ -38,7 +40,7 @@ export function blockAnswer(id, q) {
   const topic = blockTopic(q);
   if (!topic) return undefined;
   const family=rules.find(rule=>rule.match.test(id.replace(/^minecraft:/,'')));
-  const entry = terrain.subjects[id]?.topics[topic] ? terrain.subjects[id] : family;
+  const entry = terrain.subjects[id]?.topics[topic] ? terrain.subjects[id] : family?.topics[topic] ? family : supplemental.subjects[id];
   if (!entry?.topics[topic]) return undefined;
   return {
     status: 'conditional', subject: id, topic,
@@ -49,6 +51,8 @@ export function blockAnswer(id, q) {
 
 // Reviewed wiki recipe fallback for color recipes absent from pinned sample files.
 export function blockRecipe(id) {
+  const reviewed=recipeFallbacks.recipes[id];
+  if(reviewed)return {status:'conditional',subject:id,answer:reviewed.answer,sources:[reviewed.evidence.source]};
   const match=id.match(/^minecraft:(white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_wool$/);
   if(!match) {
     if(id==='minecraft:decorated_pot')return {status:'conditional',subject:id,answer:"To craft a decorated pot, you'll need 4 bricks.",sources:[decorative.rules.find(r=>r.id==='decorated_pot').evidence.source]};

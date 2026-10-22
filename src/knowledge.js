@@ -116,6 +116,11 @@ for(const id of byOutput.keys()) {
     aliasIndex.set(term,[...new Set([...(aliasIndex.get(term)??[]),record.id])]);
   }
 }
+for(const r of Object.values(records))if(r.kind==='block' && (r.minecraft_id==='minecraft:standing_sign'||r.minecraft_id.endsWith('_standing_sign'))) {
+  const name=r.minecraft_id==='minecraft:standing_sign'?'oak':r.minecraft_id.slice(10).replace(/_standing_sign$/,'').replace('darkoak','dark_oak');
+  aliasIndex.set(clean(name+' sign'),[r.id]);
+  if(name==='oak')aliasIndex.set('sign',[r.id]);
+}
 function presentationRecipes(recipes) {
   // Only replace a concrete wood choice when an actual generic-planks recipe
   // for the SAME output has the same remaining ingredients and quantities.
@@ -371,7 +376,14 @@ export function createConversation() {
         const answer=entityAnswer(r.minecraft_id,q,previousVariant,intent==='danger'&&!entityTopic(q)?'combat':undefined);
         if(answer)return ['identity','behavior'].includes(answer.topic)?{...answer,answer:answer.answer+followup(r)}:answer;
       }
-      if (intent === 'recipe') return {...recipeText(r), subject: r.minecraft_id};
+      if (intent === 'recipe') {
+        const recipe=recipeText(r);
+        if(recipe.status==='unknown' && r.kind==='block') {
+          const acquisition=blockAnswer(r.minecraft_id,'where can i find it');
+          if(acquisition)return {...acquisition,topic:'acquisition',answer:`Here's how to get ${clean(r.name)}: ${acquisition.answer}`};
+        }
+        return {...recipe,subject:r.minecraft_id};
+      }
       if (intent === 'uses') {
         const results = [...(uses.get(r.minecraft_id) ?? [])];
         return {status: results.length ? 'conditional' : 'unknown', answer: results.length ? `Here are some things you can make with ${clean(r.name)}: ${results.slice(0,12).map(clean).join(', ')}.` : unknown};
@@ -382,6 +394,10 @@ export function createConversation() {
         if(r.kind==='entity'&&/\b(drop|drops|loot)\b/.test(q)) {
           const drops=acquisitionIndex.entities[r.minecraft_id];
           if(drops?.length)return {status:'conditional',answer:`Depending on its form and the loot conditions, ${clean(r.name)} can drop ${joinList([...new Set(drops.flatMap(d=>d.possible_items))].map(display))}. These are possible drops, not a guaranteed list from every kill.`,sources:drops.map(d=>d.source)};
+        }
+        if(r.kind==='block') {
+          const crafted=recipeText(r);
+          if(crafted.status==='conditional' && crafted.coverage!=='reviewed_uncraftable')return {...crafted,subject:r.minecraft_id,topic:'location'};
         }
         const entries=acquisitionIndex.items[r.minecraft_id];
         if(entries?.length && r.kind!=='entity') {

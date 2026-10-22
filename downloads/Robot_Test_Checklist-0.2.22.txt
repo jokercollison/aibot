@@ -1,0 +1,44 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.22
+Bedrock 1.26.52 — changed features only
+
+INSTALL
+Open TimeTrapRobot-0.2.22.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.22
+  Time Trap Studios AI Bot — Resources 0.2.22
+Both descriptions and robot menu must show 0.2.22.
+Optional summon: /summon tts_ai_bot_v0_2_22:robot
+Confirm no missing dependencies or content-log errors.
+
+ACQUISITION AND RECIPES
+1. Where can I get a crafting table?
+   Expect its ingredient recipe, not an unsupported location answer.
+2. Where can I find a red candle cake?
+   Expect place a candle on an untouched cake.
+3. Where can I find exposed copper trapdoors?
+   Expect oxidation of an unwaxed copper trapdoor.
+4. Where can I find a blue shulker box?
+   Expect shells/chest for a box and dye for its color.
+5. How do I craft an acacia button? / How do I craft a spruce trapdoor?
+   Expect 1 acacia plank / 6 spruce planks.
+6. How do I craft a sea lantern?
+   Expect 4 prismarine shards and 5 prismarine crystals.
+7. How do I craft a bed?
+   Expect 3 matching wool and 3 wooden planks, no grid instructions.
+8. How do I craft oak leaves?
+   Expect a clearly labeled way to obtain leaves, not an invented recipe.
+9. Can I craft bedrock? / Can I craft a monster spawner?
+   Expect explicit no-crafting guidance.
+
+FOLLOWUPS AND SPECIAL DEVICES
+10. What is a sculk sensor?
+    Follow up: How does redstone affect it?
+    Expect vibration output and comparator frequency reading.
+11. What is a sign?
+    Follow up: How do I wax it?
+    Expect honeycomb locks editing, rather than switching to copper or another block.
+12. What is an ender chest?
+    Follow up: How many slots does it hold? / How does redstone affect it?
+    Expect 27 personal slots; no hopper transfer/comparator inventory reading.
+
+No need to repeat old checklists or find every missing fact yourself.
+This closes a bounded normal-block baseline, not every wiki detail.

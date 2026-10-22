@@ -1,3 +1,9 @@
+# Current testing status: 0.2.22 pending
+
+The normal block baseline passes automated checks; the user still needs to test
+new acquisition paths, recipe fallbacks and followups in Minecraft. No prior
+unreported pass is inferred. Multiplayer and device performance remain separate.
+
 # Current testing status: 0.2.21 pending
 
 New block answers, sign recipes and imports require actual Minecraft testing.

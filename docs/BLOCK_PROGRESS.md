@@ -219,3 +219,17 @@ applicability and topic work, and BLOCK_QUESTION_AUDIT.json records every result
 checked in tests/builds, alongside the existing entity matrix. There are 249
 passing Node tests. All prior downloads remain unchanged. This work is packaged
 as 0.2.21 for testing; actual Minecraft testing is pending.
+
+## Normal block baseline closeout: 0.2.22
+
+The normal baseline covers 1,268 identifiers and 9,163 required checks, with no
+unresolved required slots. 195 Education/creator/internal identifiers remain
+separate. All 1,463 acquisition probes answer; recipe outcomes are 812 supported
+recipes, 46 reviewed uncraftable decisions and 605 clearly labeled acquisition
+alternatives. Full wiki/advanced-topic completion is not claimed. See
+BLOCK_COMPLETION.md for scope and BLOCK_CORE_COMPLETION.json for every decision.
+
+254 automated tests and all existing audits pass. Source-backed acquisition,
+world-state assembly, legacy recipes, sign followups, sculk signals and personal
+ender-chest rules are connected. Release 0.2.22 packages this milestone for actual
+Minecraft testing, which remains pending. Historical downloads are unchanged.

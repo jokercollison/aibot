@@ -1,3 +1,11 @@
+# Current release: 0.2.22 — normal block baseline closeout
+
+1,268 normal gameplay blocks pass 9,163 required baseline checks. 195 Education,
+creator and internal identifiers remain separately inventoried. All 1,463 catalog
+identifiers have acquisition and recipe-or-acquisition responses. Authored family
+facets route correctly. This closes the bounded baseline, not every wiki topic.
+See BLOCK_COMPLETION.md. Actual Minecraft testing remains pending.
+
 # Current release: 0.2.21 — full catalog audit and block gap pass
 
 All 1,463 block identifiers are reconciled across 21,945 question paths. Focused

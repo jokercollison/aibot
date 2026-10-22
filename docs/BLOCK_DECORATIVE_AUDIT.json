@@ -7,7 +7,8 @@
         "mining",
         "operation",
         "location",
-        "water"
+        "water",
+        "oxidation"
       ],
       "members": [
         "minecraft:acacia_standing_sign",
@@ -38,7 +39,7 @@
         "minecraft:warped_wall_sign"
       ],
       "subject_count": 26,
-      "facet_applications": 104
+      "facet_applications": 130
     },
     {
       "family": "hanging_signs",
@@ -46,7 +47,8 @@
         "mining",
         "operation",
         "location",
-        "water"
+        "water",
+        "oxidation"
       ],
       "members": [
         "minecraft:acacia_hanging_sign",
@@ -64,7 +66,7 @@
         "minecraft:warped_hanging_sign"
       ],
       "subject_count": 13,
-      "facet_applications": 52
+      "facet_applications": 65
     },
     {
       "family": "banners",
@@ -806,6 +808,6 @@
   ],
   "full_block_phase_complete": false,
   "subject_count": 235,
-  "facet_applications": 879,
-  "independent_family_summaries": 153
+  "facet_applications": 918,
+  "independent_family_summaries": 155
 }

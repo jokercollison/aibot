@@ -16,6 +16,7 @@ execFileSync('python',['tools/topics.py'],{stdio:'inherit'});
 execFileSync('python',['tools/descriptions.py'],{stdio:'inherit'});
 execFileSync('python',['tools/block_family_audit.py'],{stdio:'inherit'});
 execFileSync(process.execPath,['tools/block_question_audit.mjs'],{stdio:'inherit'});
+execFileSync(process.execPath,['tools/block_core_completion.mjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['tools/entity_question_audit.mjs'],{stdio:'inherit'});
 await rm('build',{recursive:true,force:true});
 await mkdir('build',{recursive:true});
