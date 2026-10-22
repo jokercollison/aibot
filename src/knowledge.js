@@ -1,3 +1,4 @@
+import {combatTopics} from './entity-combat.js';
 import {rewardTopics} from './entity-rewards.js';
 import {specialInteractionTopics} from './entity-facets.js';
 import {entityAnswer, entityTopic, entityVariant, shortVariant, entityVariantAliases, entitySubjectAliases, entityReferences, relatedEntityAnswer} from './entities.js';
@@ -195,7 +196,10 @@ export function createConversation() {
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
       let scopedInteraction=false;
-      if([...specialInteractionTopics,...rewardTopics].includes(entityTopic(q))) {
+      const shieldFollowup=previous?.kind==='entity'&&entityTopic(q)==='counterplay'&&/^(?:can|will|does) (?:a |my |the )?shield (?:protect me|help|block (?:it|that|its attack))$/.test(q);
+      if(shieldFollowup){matches.splice(0,matches.length,{record:previous,size:1,start:0});inheritedSubject=true;}
+
+      if([...specialInteractionTopics,...rewardTopics,...combatTopics].includes(entityTopic(q))) {
         if(previous&&/\b(?:can|does|do|will|won t|doesn t|don t) (?:it|they)\b|\b(?:leash|bucket|feed|trust|collect|help|move) (?:it|them)\b/.test(q)) {matches.splice(0,matches.length);inheritedSubject=true;}
         else {
           const entities=matches.filter(m=>m.record.kind==='entity');

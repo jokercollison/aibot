@@ -1,0 +1,1059 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Reviewed combat behaviors and practical counterplay, not exact damage simulation.",
+  "references": {
+    "Creeper": {
+      "revision_id": 3848379,
+      "sha256": "44a13d77c1b80ff2a0572d8aec8d255b4fa5bf1bc6b2f16641aac1d4879f8e4a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+    },
+    "Skeleton": {
+      "revision_id": 3846446,
+      "sha256": "8b2b3c077491f8417c74cfbb8c79459bec1cf3371d418199bf4c52fcc69cb915",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+    },
+    "Cave Spider": {
+      "revision_id": 3851778,
+      "sha256": "2ac8a5598a1461ad7ce3436c7bb9bc3c133103e6aae2cc5c49ea25a5b6e6c38f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+    },
+    "Spider": {
+      "revision_id": 3844683,
+      "sha256": "570351db111bb550cb9f97c27c0fd1b72ed945a27c3949294c7d535bf7a1e999",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+    },
+    "Blaze": {
+      "revision_id": 3852956,
+      "sha256": "db7c9e072a2261f1de1bc6c4d3813e0c9db81b767ffb8798206fbe9db602640e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+    },
+    "Breeze": {
+      "revision_id": 3822417,
+      "sha256": "2e0105cc35bfc214c2cbcd75b9b74cdbea990f2da02000cdc0a6cdb26b8b0cc8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+    },
+    "Ghast": {
+      "revision_id": 3830625,
+      "sha256": "cdf30e10c6801e0aa5ca5c403fbc0d29f7343d824d25cd624f5395ce6ed48c1e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+    },
+    "Guardian": {
+      "revision_id": 3853189,
+      "sha256": "130443d2c851ed653bc1f2dccac699a4fd654473642961957a11049d6d3a3e34",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+    },
+    "Elder Guardian": {
+      "revision_id": 3853190,
+      "sha256": "ca80c9a285846b0ac3fb48a6e5d6b9c7b8ef8d52a062668c248593d270ee4cf2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+    },
+    "Shulker": {
+      "revision_id": 3843708,
+      "sha256": "9799c73e5648d1c09c14f1ba7fb75fc1818b7da1b56d8f220d50d7407798799a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+    },
+    "Warden": {
+      "revision_id": 3851707,
+      "sha256": "fd347768ba8230a7864d62780e6ce686f79ea12503ac923f64c35bfcd7a5e6a0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+    },
+    "Creaking": {
+      "revision_id": 3852706,
+      "sha256": "00e066c59993117d89588e612275adaf9dfffe75dbedce51e03be44e8b4479bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+    },
+    "Enderman": {
+      "revision_id": 3850886,
+      "sha256": "7b9495708e29fe4da3fd1f3778a23c2da97247420cf324aa16b67362e21ce724",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+    },
+    "Piglin": {
+      "revision_id": 3851223,
+      "sha256": "86ebd4c09320abe00c2773b905ee40aea87827758a246175e8d221f270b866bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+    },
+    "Piglin Brute": {
+      "revision_id": 3848820,
+      "sha256": "41f41186fdd1478cd07ccbfe4c2b6fc89adcf9f48d37de09f9db637f5114f836",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+    },
+    "Zombified Piglin": {
+      "revision_id": 3851912,
+      "sha256": "70c8f73e21bd9cb27320cd918079dd1dbcaa4f10548e6f325032f43d6d460662",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+    },
+    "Hoglin": {
+      "revision_id": 3843704,
+      "sha256": "a5d23adb55e8866b5d4c300f4d296cca138ba7f58ee1e56fe6eb9d16afe1e809",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+    },
+    "Zoglin": {
+      "revision_id": 3844793,
+      "sha256": "5ebb789feefcfca8d80f33623ee0eb0de3fac84ce2725414f10d683b66972f27",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+    },
+    "Polar Bear": {
+      "revision_id": 3853198,
+      "sha256": "572119f172a030c7ce0126166835838b3426c7f14ffd1d4f68b6867f367df405",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+    },
+    "Bee": {
+      "revision_id": 3844630,
+      "sha256": "4a8f5fda0fd26e0aa03abd7ec0f93e3412f65b2ecdb347b2380cbbec21c9d3b9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+    },
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    },
+    "Llama": {
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+    },
+    "Panda": {
+      "revision_id": 3846509,
+      "sha256": "527b3a4b259cf897373e5ba57c401ac973a6233aeea000d1653d4ae1c97a9962",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+    },
+    "Iron Golem": {
+      "revision_id": 3851102,
+      "sha256": "29260cec4722be4eb073a76f0d40254c924fb87550137173aab6259b4337123b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+    },
+    "Dolphin": {
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+    },
+    "Phantom": {
+      "revision_id": 3851156,
+      "sha256": "748adc0675f2854719249702c275cb1fb8bdee995019d64b2cf6f92d6bdf5372",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+    },
+    "Witch": {
+      "revision_id": 3850494,
+      "sha256": "f99d2a3fe5960f1373bf90851f67ce4dc4ba4127d06461331da4c100ec2e1026",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+    },
+    "Wither Skeleton": {
+      "revision_id": 3853122,
+      "sha256": "60a6a2eee743030be789fa9e853b3f47e386846eda7b35305b844cd3dcd84f7d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+    },
+    "Bogged": {
+      "revision_id": 3851713,
+      "sha256": "87efaed99b90f9dffc1899167afe21deb6c22529cd341b53057173f842fc350d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+    },
+    "Parched": {
+      "revision_id": 3845817,
+      "sha256": "8032945073c2e31cb67316035f8cf96ccddd1b6b46954576dc43851a0c7114aa",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+    },
+    "Stray": {
+      "revision_id": 3844780,
+      "sha256": "0a9d98975220c81acaebcf834e3cdaaaef235e12d8665bd307770e0ccbfbbf34",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+    },
+    "Vex": {
+      "revision_id": 3845919,
+      "sha256": "65287f86c8ba8a2af43a1039a66527ba38a7aaed15234ad145d9f2fb187dc2c7",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+    },
+    "Slime": {
+      "revision_id": 3849919,
+      "sha256": "802eb3bdb9c780c8c484c758f52984d7d00cd30301fb8a367876f0dedc560535",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+    },
+    "Magma Cube": {
+      "revision_id": 3849057,
+      "sha256": "1ae74e5ab1738a8036f5b8f7d45d70e6726b292b07e7e6aba59f9d8c2c16ad28",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+    },
+    "Ravager": {
+      "revision_id": 3843713,
+      "sha256": "be80460b2e3b47cd1bc907e33d67aff0643b2db84534a69a0c94873c8a0faa35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+    }
+  },
+  "subjects": {
+    "minecraft:creeper": {
+      "topics": {
+        "attack_style": {
+          "answer": "A creeper approaches and starts a short fuse before exploding. It does not need you to hit it first.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        },
+        "provocation": {
+          "answer": "It is hostile to nearby players without being provoked. A cat can discourage its approach, but is not a guarantee against an explosion already starting.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        },
+        "counterplay": {
+          "answer": "Back away as soon as it hisses, keep distance with ranged attacks and use cover. Do not rely on a nearby cat once detonation has begun.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton": {
+      "topics": {
+        "attack_style": {
+          "answer": "A skeleton uses its bow to shoot arrows at its target. Picking up a shield does not mean it can use that shield to block.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        },
+        "provocation": {
+          "answer": "It is a hostile mob that can target players without being hit first. Sunlight can burn an unprotected skeleton, but shade, water or headgear can change that.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use solid cover to interrupt its shots and face incoming arrows with a raised shield. Watch for other attackers while concentrating on the archer.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        }
+      }
+    },
+    "minecraft:cave_spider": {
+      "topics": {
+        "attack_style": {
+          "answer": "A cave spider bites at close range and can climb walls and fit through smaller gaps than an ordinary spider. Its bite applies Poison on Normal and Hard, not Easy.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+          ]
+        },
+        "provocation": {
+          "answer": "It behaves similarly to a spider, with close-range attacks. Do not assume a small gap that blocks ordinary spiders will keep it out.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep your distance from mineshaft webs and narrow openings. Milk can remove Poison but does not prevent another bite from poisoning you again.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+          ]
+        }
+      }
+    },
+    "minecraft:spider": {
+      "topics": {
+        "attack_style": {
+          "answer": "A spider closes the distance, jumps and bites. It can climb walls, so a simple vertical barrier may not stop it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+          ]
+        },
+        "provocation": {
+          "answer": "Spiders attack on sight in dark conditions and are normally neutral in bright conditions unless provoked. Bright surroundings do not make an already hostile encounter automatically safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use barriers with space and overhangs rather than assuming a plain wall stops it. Avoid provoking a neutral spider while dealing with other threats.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+          ]
+        }
+      }
+    },
+    "minecraft:blaze": {
+      "topics": {
+        "attack_style": {
+          "answer": "A blaze launches small fireballs that can ignite its target, and can hurt you at close range. Its fireballs differ from the large ghast fireballs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        },
+        "provocation": {
+          "answer": "Blazes are hostile and can attack without being hit first. They are immune to fire, so fire and lava are not useful ways to defeat them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover between bursts. A shield can block the fireball damage and ignition. Snowballs can damage blazes; Fire Resistance helps against fire but does not make every close-range hit harmless.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        }
+      }
+    },
+    "minecraft:breeze": {
+      "topics": {
+        "attack_style": {
+          "answer": "A breeze jumps around and fires wind charges that knock targets around and can activate nearby mechanisms.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+          ]
+        },
+        "provocation": {
+          "answer": "Breezes are hostile trial-chamber mobs. They automatically deflect most direct projectiles, so firing ordinary arrows is not a reliable solution.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover and watch your footing. Melee attacks or wind charges are useful options because ordinary direct projectiles are deflected. Area effects from splash potions differ from direct projectile hits.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+          ]
+        }
+      }
+    },
+    "minecraft:ghast": {
+      "topics": {
+        "attack_style": {
+          "answer": "A ghast fires large explosive fireballs while hovering at range. It needs line of sight to fire.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+          ]
+        },
+        "provocation": {
+          "answer": "Ghasts are hostile toward players in range. A ghast can keep its charge when it loses sight of you in Bedrock, so do not assume a brief interruption resets the attack.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use solid cover or a ranged weapon. You can strike a large ghast fireball back toward it; this is different from blaze small fireballs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+          ]
+        }
+      }
+    },
+    "minecraft:guardian": {
+      "topics": {
+        "attack_style": {
+          "answer": "A guardian charges a beam attack and has a defensive spike response to melee hits while its spikes are extended.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+          ]
+        },
+        "provocation": {
+          "answer": "Guardians attack players and certain aquatic mobs. Hitting one at close range can hurt you through its defensive spikes, even while you are trying to attack it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+          ]
+        },
+        "counterplay": {
+          "answer": "Break line of sight with solid cover before the beam finishes charging. Prepare air or Water Breathing and do not treat a shield as complete immunity to its beam or spikes.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+          ]
+        }
+      }
+    },
+    "minecraft:elder_guardian": {
+      "topics": {
+        "attack_style": {
+          "answer": "An elder guardian uses guardian-style beam and spike attacks and can apply Mining Fatigue around its monument.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        },
+        "provocation": {
+          "answer": "Elder guardians are hostile. Mining Fatigue slows your mining; it is a separate effect from the guardian’s direct attacks.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover against the beam and prepare underwater breathing. Milk removes Mining Fatigue but also removes your beneficial status effects, and the elder guardian can apply fatigue again.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        }
+      }
+    },
+    "minecraft:shulker": {
+      "topics": {
+        "attack_style": {
+          "answer": "A shulker opens its shell and fires a guided bullet that causes Levitation. It can teleport when threatened.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        },
+        "provocation": {
+          "answer": "Shulkers are hostile to players they detect. Their closed shell protects them more than their open state.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        },
+        "counterplay": {
+          "answer": "Destroy incoming bullets or use cover. In Bedrock a shield can stop the bullet’s damage while Levitation still applies, so prepare a safe landing rather than assuming the shield prevents the effect.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        }
+      }
+    },
+    "minecraft:warden": {
+      "topics": {
+        "attack_style": {
+          "answer": "A warden uses powerful close-range strikes and a sonic boom that passes through blocks. It detects vibrations and can smell targets rather than seeing them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+          ]
+        },
+        "provocation": {
+          "answer": "Vibrations and nearby targets can raise its anger. Sneaking avoids many movement vibrations, but does not prevent it from smelling you at close range.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+          ]
+        },
+        "counterplay": {
+          "answer": "Avoid triggering shriekers and retreat quietly. Wool can block vibration paths, but does not stop the warden’s smell or sonic boom. Walls, armor and shields are not protection from that sonic attack.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+          ]
+        }
+      }
+    },
+    "minecraft:creaking": {
+      "topics": {
+        "attack_style": {
+          "answer": "A heart-linked creaking moves to headbutt players when it is not being watched. Looking at it can stop its movement.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        },
+        "provocation": {
+          "answer": "An active heart-linked creaking is hostile. Ordinary attacks cannot defeat the protected mob as long as its heart remains linked.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep it in view while locating its linked creaking heart, then break the heart. Command-created creakings are different and need not have that protection.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+          ]
+        }
+      }
+    },
+    "minecraft:enderman": {
+      "topics": {
+        "attack_style": {
+          "answer": "An angry enderman chases and hits at close range, using teleportation to move around and escape hazards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "provocation": {
+          "answer": "An enderman can become angry if you attack it or look directly into its face. Wearing a carved pumpkin prevents the eye-contact trigger, not retaliation for hitting it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        },
+        "counterplay": {
+          "answer": "Avoid eye contact or wear a carved pumpkin before approaching. Use shelter too low for its tall body; ordinary arrows are unreliable because it teleports away from projectiles.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin": {
+      "topics": {
+        "attack_style": {
+          "answer": "An adult piglin fights using its held weapon, such as a golden melee weapon or crossbow.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "provocation": {
+          "answer": "Ordinary piglins can attack players who are not wearing gold armor. Attacking piglins or angering them through protected-container or gold-related actions can provoke them even if you wear gold.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "counterplay": {
+          "answer": "Wear at least one piece of gold armor for ordinary appearance-based hostility, avoid provoking protected interactions and use cover. Gold does not protect you from piglin brutes.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin_brute": {
+      "topics": {
+        "attack_style": {
+          "answer": "A piglin brute pursues its target and attacks with a golden axe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        },
+        "provocation": {
+          "answer": "Piglin brutes are hostile without being provoked. They do not become friendly because you wear gold, offer gold or try to barter.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep distance and use solid cover or ranged attacks. Do not walk into axe range expecting gold armor or a gold ingot to pacify it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_pigman": {
+      "topics": {
+        "attack_style": {
+          "answer": "An angry zombified piglin closes in and attacks with its weapon. Nearby zombified piglins can join the fight.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        },
+        "provocation": {
+          "answer": "They normally ignore players, but attacking one can provoke nearby group members. Gold armor is not a way to cancel that anger.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        },
+        "counterplay": {
+          "answer": "Avoid hitting one while fighting other mobs. If a group becomes angry, retreat to cover rather than treating each piglin as an isolated opponent.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "topics": {
+        "attack_style": {
+          "answer": "An adult hoglin attacks at close range with its tusks. Young hoglins behave differently from adults.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        },
+        "provocation": {
+          "answer": "Hoglins are hostile animals: being breedable does not make them harmless. They can attack without being hit first.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        },
+        "counterplay": {
+          "answer": "Placed warped fungus, active Nether portals and respawn anchors can repel hoglins. A hoglin already attacking may not stop immediately; maintain space rather than relying on a single repellent block.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        }
+      }
+    },
+    "minecraft:zoglin": {
+      "topics": {
+        "attack_style": {
+          "answer": "A zoglin rushes nearby targets and attacks at close range. It is an undead mob, not an ordinary tameable hoglin.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+          ]
+        },
+        "provocation": {
+          "answer": "Zoglins attack many nearby creatures and players. Hoglin breeding food does not make them friendly.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep your distance and contain it with solid barriers. Do not rely on the warped-fungus repellent used for ordinary hoglins; zoglins behave differently.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+          ]
+        }
+      }
+    },
+    "minecraft:polar_bear": {
+      "topics": {
+        "attack_style": {
+          "answer": "Adult polar bears use close-range attacks. Cubs are passive rather than miniature attacking adults.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "provocation": {
+          "answer": "An adult can attack if provoked or if you approach or hurt a nearby cub. Seeing a cub is a reason to keep extra distance.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "counterplay": {
+          "answer": "Give adults with cubs a wide berth. Fish does not tame or breed polar bears, so do not approach expecting food to make them safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        }
+      }
+    },
+    "minecraft:bee": {
+      "topics": {
+        "attack_style": {
+          "answer": "An angry bee approaches and stings. Other nearby bees can join the attack.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "provocation": {
+          "answer": "Attacking bees, destroying their home or harvesting honey without suitable smoke can anger them. Hitting a hive and breaking it are different actions.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "counterplay": {
+          "answer": "Avoid provoking the colony. Use a correctly placed lit campfire for honey harvesting and protect bees from the flames. Smoke is not a blanket guarantee against every other provocation.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        }
+      }
+    },
+    "minecraft:wolf": {
+      "topics": {
+        "attack_style": {
+          "answer": "Wild angry wolves bite at close range. Tamed wolves can defend their owner and attack some targets for them.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "provocation": {
+          "answer": "Hitting a wild wolf can anger it and nearby wolves. Tamed wolves have owner-related behavior; taming is different from merely giving an angry wolf another food.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "counterplay": {
+          "answer": "Do not provoke a wild pack. Tamed wolves do not normally attack creepers or ghasts for you, so keep them away from explosions and do not assume they counter every hostile mob.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        }
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "attack_style": {
+          "answer": "A llama retaliates with spit when attacked. Its spit can also accidentally hit other nearby creatures.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "provocation": {
+          "answer": "Llamas are normally neutral to players, but retaliate if hurt. They can also react to wolves; a tamed wolf is not treated identically to a wild one.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "counterplay": {
+          "answer": "Avoid provoking it or standing between fighting llamas. Taming a llama gives transport-related interactions, not a commandable combat pet.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        }
+      }
+    },
+    "minecraft:panda": {
+      "topics": {
+        "attack_style": {
+          "answer": "A panda can strike back when hurt. The aggressive personality can keep attacking longer than an ordinary panda.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "provocation": {
+          "answer": "Pandas are not generally hostile hunters of players. Hurting one can provoke retaliation; aggressive personality changes that response.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "counterplay": {
+          "answer": "Do not hit a panda to make it move or breed. Use suitable bamboo interactions, and give an aggressive panda space rather than assuming every panda gives only one harmless response.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        }
+      }
+    },
+    "minecraft:iron_golem": {
+      "topics": {
+        "attack_style": {
+          "answer": "An iron golem hits at close range and can launch its target upward. It fights many hostile mobs but does not normally target creepers.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        },
+        "provocation": {
+          "answer": "A naturally occurring village golem can become hostile after player aggression or poor village popularity. A player-built iron golem does not attack players even if hit.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        },
+        "counterplay": {
+          "answer": "Avoid provoking village golems. Do not assume your ordinary armor makes their melee attacks safe, or that a village golem will handle a creeper for you.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+          ]
+        }
+      }
+    },
+    "minecraft:dolphin": {
+      "topics": {
+        "attack_style": {
+          "answer": "A provoked dolphin attacks at close range, and other dolphins in its pod can retaliate too.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "provocation": {
+          "answer": "Dolphins are normally neutral to players. Hitting one can provoke the group; feeding fish to an already hostile dolphin does not cancel its hostility.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "counterplay": {
+          "answer": "Do not strike dolphins while swimming with them. Feeding is for other interactions, not a guaranteed peace offering once the pod is hostile.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        }
+      }
+    },
+    "minecraft:phantom": {
+      "topics": {
+        "attack_style": {
+          "answer": "A phantom circles overhead and swoops down to hit its target.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+          ]
+        },
+        "provocation": {
+          "answer": "Phantoms are hostile toward eligible players who have gone too long without rest. Their appearance is not caused by attacking another phantom first.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+          ]
+        },
+        "counterplay": {
+          "answer": "Enter a bed to reset the rest timer and use shelter against swoops. Cats can repel phantoms, but shelter and rest remain useful; the Bedrock spawning rules are not simply Java’s night-only rules.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+          ]
+        }
+      }
+    },
+    "minecraft:witch": {
+      "topics": {
+        "attack_style": {
+          "answer": "A witch throws harmful splash potions and can drink potions to heal or protect itself.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+          ]
+        },
+        "provocation": {
+          "answer": "Witches are hostile to players. A witch pausing to drink is not becoming friendly or offering that potion to you.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover and keep track of poison and other effects. Milk removes status effects but does not prevent another potion hit, and also clears useful effects you may want to keep.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+          ]
+        }
+      }
+    },
+    "minecraft:wither_skeleton": {
+      "topics": {
+        "attack_style": {
+          "answer": "A wither skeleton attacks at close range with its sword and can inflict the Wither effect.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+          ]
+        },
+        "provocation": {
+          "answer": "Wither skeletons are hostile; they do not need you to attack first. They are different from ordinary bow-using skeletons.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover and space that accounts for their tall body. Milk can clear Wither, but unlike ordinary Poison the Wither effect can be fatal; another hit can apply it again.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+          ]
+        }
+      }
+    },
+    "minecraft:bogged": {
+      "topics": {
+        "attack_style": {
+          "answer": "A bogged uses a bow and can inflict Poison with its arrows. Shearing its mushrooms does not remove its ability to attack.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        },
+        "provocation": {
+          "answer": "Bogged are hostile skeleton-type mobs. Removing their head mushrooms is a harvesting action, not taming or disarming.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover and a shield against arrows. Poison management does not replace avoiding the next shot; shearing one does not make it safe.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        }
+      }
+    },
+    "minecraft:parched": {
+      "topics": {
+        "attack_style": {
+          "answer": "A parched uses a bow and can inflict Weakness with its arrows.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        },
+        "provocation": {
+          "answer": "Parched are hostile skeleton-type mobs. Their desert appearance does not make them an ordinary passive villager or an animal to tame.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover and block incoming arrows. Weakness reduces your melee effectiveness, so avoid charging into other enemies while affected.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        }
+      }
+    },
+    "minecraft:stray": {
+      "topics": {
+        "attack_style": {
+          "answer": "A stray fires arrows that can apply Slowness, making it harder to escape.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        },
+        "provocation": {
+          "answer": "Strays are hostile skeleton-type mobs and can attack without being hit first.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use cover and block arrows. Watch your movement when slowed, particularly near ledges or other hostile mobs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        }
+      }
+    },
+    "minecraft:vex": {
+      "topics": {
+        "attack_style": {
+          "answer": "A vex flies through blocks and lunges at close range, glowing red while attacking.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+          ]
+        },
+        "provocation": {
+          "answer": "Evoker-summoned vexes attack on behalf of their summoner. Their red appearance is an attack state, not a separate breed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+          ]
+        },
+        "counterplay": {
+          "answer": "A simple solid wall is not a reliable cage because vexes can pass through blocks. Keep track of the evoker and incoming vexes rather than hiding behind one thin wall.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+          ]
+        }
+      }
+    },
+    "minecraft:slime": {
+      "topics": {
+        "attack_style": {
+          "answer": "Larger slimes hop into targets and split into smaller slimes when killed. The smallest slimes cannot damage players.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+          ]
+        },
+        "provocation": {
+          "answer": "Slimes are hostile mobs, but their danger depends on size. Killing a large slime can leave more moving targets instead of ending the encounter.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+          ]
+        },
+        "counterplay": {
+          "answer": "Leave room to deal with split offspring. Do not treat the original large slime’s death as proof that every smaller slime is gone.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+          ]
+        }
+      }
+    },
+    "minecraft:magma_cube": {
+      "topics": {
+        "attack_style": {
+          "answer": "Magma cubes hop into targets and split into smaller cubes when killed. Even the small form can hurt players.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+          ]
+        },
+        "provocation": {
+          "answer": "Magma cubes are hostile and fire-immune. Small magma cubes are not harmless like the smallest ordinary slimes.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+          ]
+        },
+        "counterplay": {
+          "answer": "Use room and cover to handle split offspring, and do not use fire as your main attack. Watch for lava around the fight; killing one large cube may leave several smaller threats.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+          ]
+        }
+      }
+    },
+    "minecraft:ravager": {
+      "topics": {
+        "attack_style": {
+          "answer": "A ravager charges into close-range attacks, can knock targets back and may have a separate illager rider.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        },
+        "provocation": {
+          "answer": "Ravagers are hostile raid mobs. A rider is a separate attacker rather than part of the same health pool.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        },
+        "counterplay": {
+          "answer": "Keep a strong barrier and distance from its melee reach. Track any rider separately; defeating one of them does not automatically defeat the other.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        }
+      }
+    }
+  }
+}

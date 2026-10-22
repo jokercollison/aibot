@@ -1,3 +1,10 @@
+# Latest source batch: combat and protection after 0.2.10
+
+Connected 105 reviewed combat summaries across 35 subjects. Total reviewed entity
+summaries: 1,551. See ENTITY_COMBAT.md and ENTITY_COMBAT_COVERAGE.json. Editable
+source remains formatted and modular; see RUNTIME_DATA_LAYOUT.md for runtime size
+and loading limits. Published 0.2.10 is unchanged and awaits user testing.
+
 # Latest source batch: experience and equipment rewards after 0.2.10
 
 Connected 183 reviewed reward summaries across 90 catalog mobs. Total reviewed

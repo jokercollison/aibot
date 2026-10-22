@@ -19,6 +19,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ combat_data=json.loads((ROOT/'data/entities/combat_editorial.json').read_text())
  reward_data=json.loads((ROOT/'data/entities/reward_editorial.json').read_text())
  special_data=json.loads((ROOT/'data/entities/special_editorial.json').read_text())['subjects']
  spawn_data=json.loads((ROOT/'data/entities/spawn_editorial.json').read_text())['subjects']
@@ -29,7 +30,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{}),**combat_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -74,6 +75,8 @@ def build():
  (ROOT/'docs/ENTITY_INTERACTION_COVERAGE.json').write_text(json.dumps(interaction_audit,indent=2)+'\n')
  reward_audit={'scope':reward_data['scope'],'subjects_in_batch':len(reward_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in reward_data['subjects'].values()),'conflicts':reward_data['conflicts'],'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in reward_data['subjects'].items()}}
  (ROOT/'docs/ENTITY_REWARD_COVERAGE.json').write_text(json.dumps(reward_audit,indent=2)+'\n')
+ combat_audit={'scope':combat_data['scope'],'reviewed_subjects':len(combat_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in combat_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':{topic:('reviewed_summary' if topic in combat_data['subjects'].get(key,{}).get('topics',{}) else 'pending_detailed_review') for topic in ['attack_style','provocation','counterplay']},'complete':False} for key,row in evidence.items() if row['category']=='mob'}}
+ (ROOT/'docs/ENTITY_COMBAT_COVERAGE.json').write_text(json.dumps(combat_audit,indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")
 if __name__=='__main__':build()
