@@ -1,0 +1,2077 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Reviewed death/breeding experience and equipment rewards; quantities are XP points, not player levels.",
+  "references": {
+    "Armadillo": {
+      "revision_id": 3844454,
+      "sha256": "5edcd142ae9849ce74698289716a904e597c4a5a487d8a4c9fe45ddffd012713",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+    },
+    "Experience": {
+      "revision_id": 3848638,
+      "sha256": "75744d6f7efb43ab5d1c34409460c4f92d61d4c47d4b2e741ac5ef869c86c564",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+    },
+    "Bee": {
+      "revision_id": 3844630,
+      "sha256": "4a8f5fda0fd26e0aa03abd7ec0f93e3412f65b2ecdb347b2380cbbec21c9d3b9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+    },
+    "Camel": {
+      "revision_id": 3853630,
+      "sha256": "570d45627ef5a9c2743c8804ac20c8c121f45eee2ebf341b445be745ffdd3d9e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+    },
+    "Cat": {
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+    },
+    "Chicken": {
+      "revision_id": 3850656,
+      "sha256": "f63f4a56a7552145ccdc74700eef465c8bca094756b019d99222a1b9ead4c648",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+    },
+    "Cow": {
+      "revision_id": 3851210,
+      "sha256": "3f0b4febbc9c94cd6b130416afc7877830dcc84086fe931d1be638358334b949",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+    },
+    "Dolphin": {
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+    },
+    "Donkey": {
+      "revision_id": 3850357,
+      "sha256": "fae56e9d56f614afbc3aa8b8d5c82d1f996c602dac1f78b4c64e2b7c2a2a8b9c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+    },
+    "Fox": {
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+    },
+    "Goat": {
+      "revision_id": 3844651,
+      "sha256": "698c6e1b5f9787eceb1e68a4beb2b36ee1cefacfe7659dd831e43b4def8dad1f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+    },
+    "Happy Ghast": {
+      "revision_id": 3853633,
+      "sha256": "e8314d1d4eb1dc39bf0de0541c3ed93c71925fd296c95c93a24945ba7d879ae9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+    },
+    "Horse": {
+      "revision_id": 3850329,
+      "sha256": "4d7e566bd6c56ef335e2b0df6a46255558e6b00d3ee4c858583e1f4721abe147",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+    },
+    "Llama": {
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+    },
+    "Mooshroom": {
+      "revision_id": 3844535,
+      "sha256": "5641a0c9e3944241e0882871a3e18e057f45a707cc36826236b0bef92f740add",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+    },
+    "Mule": {
+      "revision_id": 3850352,
+      "sha256": "596632d61aa0bf365e43468ff48c94735964987d375be25cead17727adc2abd4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+    },
+    "Nautilus": {
+      "revision_id": 3844669,
+      "sha256": "25558e8f7681fef8556d4221e5ee17551133da4db086bf23ccecad0153faea35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+    },
+    "Ocelot": {
+      "revision_id": 3851711,
+      "sha256": "1fe59c7626abc811c7b06f63805435bef605a8bd666dbbd01e422908ccb2f6ce",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+    },
+    "Panda": {
+      "revision_id": 3846509,
+      "sha256": "527b3a4b259cf897373e5ba57c401ac973a6233aeea000d1653d4ae1c97a9962",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+    },
+    "Pig": {
+      "revision_id": 3847785,
+      "sha256": "41b0bff50a942df1b1335e949f5cfc025dcfadc71c876a012172ecb09261c968",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+    },
+    "Polar Bear": {
+      "revision_id": 3853198,
+      "sha256": "572119f172a030c7ce0126166835838b3426c7f14ffd1d4f68b6867f367df405",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+    },
+    "Rabbit": {
+      "revision_id": 3844604,
+      "sha256": "9d36ef20fb7e1a508371a93ec44352fbcbe9d2177b93f621a5f91cf51132e67f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+    },
+    "Sheep": {
+      "revision_id": 3848879,
+      "sha256": "0510096b093b9a16abe87b903681f0661a074c196fd1db291ae0ce47abea9bca",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+    },
+    "Skeleton Horse": {
+      "revision_id": 3849906,
+      "sha256": "962395157889caa503483ffeb0b637a5fabb9001d0cd191f567ec44597c71dd3",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+    },
+    "Sniffer": {
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+    },
+    "Strider": {
+      "revision_id": 3844584,
+      "sha256": "415c3ec00da3a60f44e77e04e80da27df294515ebd67f2ad5c14204f74e951d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+    },
+    "Trader Llama": {
+      "revision_id": 3849739,
+      "sha256": "37df095b0f11351fcc086eca588fc7ae22f14a4d6c8056b8a1a7fb802be484fd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+    },
+    "Turtle": {
+      "revision_id": 3846426,
+      "sha256": "a07edbbfee13affef2be3f02e4b394373222e9dc6d8f68c4552f4ae30e17721a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+    },
+    "Zombie Horse": {
+      "revision_id": 3854012,
+      "sha256": "0b0c7debf2e279a9ba887885a6447dee2377ddd4066b7e78243cd88b2eac11ee",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+    },
+    "Cod": {
+      "revision_id": 3844471,
+      "sha256": "ccd000908f80414a8807ac46c18a818fd26ee20574ec9ac92e2b9e790762f023",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+    },
+    "Salmon": {
+      "revision_id": 3844555,
+      "sha256": "93fbf57ed77d35b932df407e0117b73f395545bf06a284ef5aab4c7b6fbafda9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+    },
+    "Tropical Fish": {
+      "revision_id": 3844607,
+      "sha256": "9202120d1495824b1d89b4f87442517dfe117ab308cc5cfa1b25dbb2bdee5dc1",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+    },
+    "Pufferfish": {
+      "revision_id": 3844681,
+      "sha256": "d666017b6a0e508158626c768cfaa90cb6e4d7a67213902a89734cb9e61d9c72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+    },
+    "Parrot": {
+      "revision_id": 3849952,
+      "sha256": "f547aaf994d25e0c0fbd949e5b5fa94df1e6709375c255be35111564417dfcb4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+    },
+    "Frog": {
+      "revision_id": 3844499,
+      "sha256": "aa870d59ebc36139afd37b6637ab4d4c836a521bdf46c0b06f58cdb0e5c45979",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+    },
+    "Zombie Nautilus": {
+      "revision_id": 3845839,
+      "sha256": "b9646d3d48fe19f907e8966c30e7f94e1ec0dd403a4ae76fbeed5f118a2805f0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+    },
+    "Squid": {
+      "revision_id": 3844578,
+      "sha256": "8ed0c5b83d0e50887a823bb9d8d5466e8e1da09499eb3a12b0d6385847d39849",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+    },
+    "Glow Squid": {
+      "revision_id": 3844507,
+      "sha256": "902c9228a1563c46da21a52f66ca9f3cb34117938bec23d22d452ddc77fb81ea",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+    },
+    "Blaze": {
+      "revision_id": 3852956,
+      "sha256": "db7c9e072a2261f1de1bc6c4d3813e0c9db81b767ffb8798206fbe9db602640e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+    },
+    "Breeze": {
+      "revision_id": 3822417,
+      "sha256": "2e0105cc35bfc214c2cbcd75b9b74cdbea990f2da02000cdc0a6cdb26b8b0cc8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+    },
+    "Cave Spider": {
+      "revision_id": 3851778,
+      "sha256": "2ac8a5598a1461ad7ce3436c7bb9bc3c133103e6aae2cc5c49ea25a5b6e6c38f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+    },
+    "Creeper": {
+      "revision_id": 3848379,
+      "sha256": "44a13d77c1b80ff2a0572d8aec8d255b4fa5bf1bc6b2f16641aac1d4879f8e4a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+    },
+    "Elder Guardian": {
+      "revision_id": 3853190,
+      "sha256": "ca80c9a285846b0ac3fb48a6e5d6b9c7b8ef8d52a062668c248593d270ee4cf2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+    },
+    "Enderman": {
+      "revision_id": 3850886,
+      "sha256": "7b9495708e29fe4da3fd1f3778a23c2da97247420cf324aa16b67362e21ce724",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+    },
+    "Endermite": {
+      "revision_id": 3843703,
+      "sha256": "725d08bd3d3e09c85350574e15b165a66740a9cdd09579c736cee6bea8c5aa3f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+    },
+    "Ghast": {
+      "revision_id": 3830625,
+      "sha256": "cdf30e10c6801e0aa5ca5c403fbc0d29f7343d824d25cd624f5395ce6ed48c1e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+    },
+    "Guardian": {
+      "revision_id": 3853189,
+      "sha256": "130443d2c851ed653bc1f2dccac699a4fd654473642961957a11049d6d3a3e34",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+    },
+    "Phantom": {
+      "revision_id": 3851156,
+      "sha256": "748adc0675f2854719249702c275cb1fb8bdee995019d64b2cf6f92d6bdf5372",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+    },
+    "Piglin Brute": {
+      "revision_id": 3848820,
+      "sha256": "41f41186fdd1478cd07ccbfe4c2b6fc89adcf9f48d37de09f9db637f5114f836",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+    },
+    "Ravager": {
+      "revision_id": 3843713,
+      "sha256": "be80460b2e3b47cd1bc907e33d67aff0643b2db84534a69a0c94873c8a0faa35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+    },
+    "Shulker": {
+      "revision_id": 3843708,
+      "sha256": "9799c73e5648d1c09c14f1ba7fb75fc1818b7da1b56d8f220d50d7407798799a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+    },
+    "Silverfish": {
+      "revision_id": 3843709,
+      "sha256": "ebcc09c8f3749393963f45c426c95de23f9a842195ca2e241e9d7447890eec60",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+    },
+    "Spider": {
+      "revision_id": 3844683,
+      "sha256": "570351db111bb550cb9f97c27c0fd1b72ed945a27c3949294c7d535bf7a1e999",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+    },
+    "Warden": {
+      "revision_id": 3851707,
+      "sha256": "fd347768ba8230a7864d62780e6ce686f79ea12503ac923f64c35bfcd7a5e6a0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+    },
+    "Witch": {
+      "revision_id": 3850494,
+      "sha256": "f99d2a3fe5960f1373bf90851f67ce4dc4ba4127d06461331da4c100ec2e1026",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+    },
+    "Hoglin": {
+      "revision_id": 3843704,
+      "sha256": "a5d23adb55e8866b5d4c300f4d296cca138ba7f58ee1e56fe6eb9d16afe1e809",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+    },
+    "Zoglin": {
+      "revision_id": 3844793,
+      "sha256": "5ebb789feefcfca8d80f33623ee0eb0de3fac84ce2725414f10d683b66972f27",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+    },
+    "Zombie": {
+      "revision_id": 3851907,
+      "sha256": "a09aad980011a31e335cbe861e87d135f3c0b2eae9123d70a43f510dd50860a9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+    },
+    "Husk": {
+      "revision_id": 3851908,
+      "sha256": "e600ebc5b5c2d12a6b77168d4a8fbf200bff6d96e7a7d59149a41a76d3632c44",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+    },
+    "Drowned": {
+      "revision_id": 3851909,
+      "sha256": "cbdd5a06530ac56754002e954e2b306550b4cc1737a13779011bf90055f87973",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+    },
+    "Zombie Villager": {
+      "revision_id": 3851910,
+      "sha256": "3053b3baaeaf5f67f94b9d6b4936c59de66765b0d915a64dcfaf3cc903881e2b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+    },
+    "Skeleton": {
+      "revision_id": 3846446,
+      "sha256": "8b2b3c077491f8417c74cfbb8c79459bec1cf3371d418199bf4c52fcc69cb915",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+    },
+    "Bogged": {
+      "revision_id": 3851713,
+      "sha256": "87efaed99b90f9dffc1899167afe21deb6c22529cd341b53057173f842fc350d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+    },
+    "Parched": {
+      "revision_id": 3845817,
+      "sha256": "8032945073c2e31cb67316035f8cf96ccddd1b6b46954576dc43851a0c7114aa",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+    },
+    "Stray": {
+      "revision_id": 3844780,
+      "sha256": "0a9d98975220c81acaebcf834e3cdaaaef235e12d8665bd307770e0ccbfbbf34",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+    },
+    "Wither Skeleton": {
+      "revision_id": 3853122,
+      "sha256": "60a6a2eee743030be789fa9e853b3f47e386846eda7b35305b844cd3dcd84f7d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+    },
+    "Pillager": {
+      "revision_id": 3843714,
+      "sha256": "8d5480e4b607a3a7bf85765e3fa70efc20b7009e8762342001111f1ff620630c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+    },
+    "Vindicator": {
+      "revision_id": 3848438,
+      "sha256": "5dd9eebfebd1b212597ae1b96e4100241c7c101e6a02de9fe21944d082b0f81d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+    },
+    "Vex": {
+      "revision_id": 3845919,
+      "sha256": "65287f86c8ba8a2af43a1039a66527ba38a7aaed15234ad145d9f2fb187dc2c7",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+    },
+    "Zombified Piglin": {
+      "revision_id": 3851912,
+      "sha256": "70c8f73e21bd9cb27320cd918079dd1dbcaa4f10548e6f325032f43d6d460662",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+    },
+    "Piglin": {
+      "revision_id": 3851223,
+      "sha256": "86ebd4c09320abe00c2773b905ee40aea87827758a246175e8d221f270b866bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+    },
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    },
+    "Slime": {
+      "revision_id": 3849919,
+      "sha256": "802eb3bdb9c780c8c484c758f52984d7d00cd30301fb8a367876f0dedc560535",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+    },
+    "Magma Cube": {
+      "revision_id": 3849057,
+      "sha256": "1ae74e5ab1738a8036f5b8f7d45d70e6726b292b07e7e6aba59f9d8c2c16ad28",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+    },
+    "Evoker": {
+      "revision_id": 3853175,
+      "sha256": "e74c10d67daa7e526b18174ebfe7ad902534d611ed2bcae58ca22fab98600897",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+    },
+    "Wither": {
+      "revision_id": 3846728,
+      "sha256": "1b2c7688549032715caa147b97704cf8e34f3a0987454339005448594e9d721c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+    },
+    "Ender Dragon": {
+      "revision_id": 3851987,
+      "sha256": "35cbcc55b0d177cb7f5389d80a6dad87b1846d9b4db421e118562f49aa9cb277",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+    },
+    "Sulfur Cube": {
+      "revision_id": 3853726,
+      "sha256": "31c7803b75cf0517a3664f52e194077b3838a45060323cfbc39e693fe91fb756",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+    },
+    "Camel Husk": {
+      "revision_id": 3845813,
+      "sha256": "cfbb399e7ca99b16b7baa7ea9cbb58fda2b126f38281254d2cabf29d333e6d40",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+    },
+    "Wandering Trader": {
+      "revision_id": 3846633,
+      "sha256": "066104b0b24ccb4816eebc36f0691786e2548c65173d873a0f7d93a20879eabe",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+    },
+    "Axolotl": {
+      "revision_id": 3844455,
+      "sha256": "53d5d3d09e872220bebdd4f7f7127145ceaefdbaf6ab01c7ef012635e678e057",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+    },
+    "Allay": {
+      "revision_id": 3852359,
+      "sha256": "486b7c8dc84db4d3b660183829a4d82166a1f0d559f3d161c33f79e946c227c1",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+    }
+  },
+  "subjects": {
+    "minecraft:armadillo": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+          ]
+        }
+      }
+    },
+    "minecraft:bee": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+          ]
+        }
+      }
+    },
+    "minecraft:camel": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+          ]
+        }
+      }
+    },
+    "minecraft:cat": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+          ]
+        }
+      }
+    },
+    "minecraft:chicken": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+          ]
+        }
+      }
+    },
+    "minecraft:cow": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+          ]
+        }
+      }
+    },
+    "minecraft:dolphin": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:donkey": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "An equipped donkey drops its saddle, attached chest and chest contents when killed. These are carried items, not extra guaranteed contents generated by Looting.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+          ]
+        }
+      }
+    },
+    "minecraft:fox": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "A fox drops an item it is still carrying when it dies. Food it already ate cannot be recovered as a held-item drop.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+          ]
+        }
+      }
+    },
+    "minecraft:goat": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+          ]
+        }
+      }
+    },
+    "minecraft:happy_ghast": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "A happy ghast drops its equipped harness when killed, if it had one. An unequipped ghast does not create a harness as a random drop.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+          ]
+        }
+      }
+    },
+    "minecraft:horse": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+          ]
+        }
+      }
+    },
+    "minecraft:llama": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful llama breeding can give experience, but I am not sure of the exact amount. This is separate from the adult’s death reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "A llama drops its equipped carpet, attached chest and stored contents when killed. These are separate from ordinary leather drops.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+          ]
+        }
+      }
+    },
+    "minecraft:mooshroom": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+          ]
+        }
+      }
+    },
+    "minecraft:mule": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "An equipped mule drops its saddle, attached chest and stored contents when killed. It does not create a second copy of those items.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+          ]
+        }
+      }
+    },
+    "minecraft:nautilus": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "A nautilus drops its equipped saddle and nautilus armor when killed, if it had them. It does not generate armor merely because you used Looting.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+          ]
+        }
+      }
+    },
+    "minecraft:ocelot": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+          ]
+        }
+      }
+    },
+    "minecraft:panda": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+          ]
+        }
+      }
+    },
+    "minecraft:pig": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+          ]
+        }
+      }
+    },
+    "minecraft:polar_bear": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:rabbit": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+          ]
+        }
+      }
+    },
+    "minecraft:sheep": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:sniffer": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+          ]
+        }
+      }
+    },
+    "minecraft:strider": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+          ]
+        }
+      }
+    },
+    "minecraft:trader_llama": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+          ]
+        }
+      }
+    },
+    "minecraft:turtle": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_horse": {
+      "topics": {
+        "experience": {
+          "answer": "An adult can drop 1–3 experience points after a player or tamed-wolf kill. Babies do not give death experience. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The baby does not give experience when killed. Growing into an adult changes its death reward; it is separate from experience earned by successful breeding.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:cod": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+          ]
+        }
+      }
+    },
+    "minecraft:salmon": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+          ]
+        }
+      }
+    },
+    "minecraft:tropicalfish": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+          ]
+        }
+      }
+    },
+    "minecraft:pufferfish": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+          ]
+        }
+      }
+    },
+    "minecraft:parrot": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+          ]
+        }
+      }
+    },
+    "minecraft:frog": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_nautilus": {
+      "topics": {
+        "experience": {
+          "answer": "It drops 1–3 experience points after a player or tamed-wolf kill. These are experience points, not player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "A zombie nautilus drops its equipped saddle and nautilus armor when killed, if present. The drowned rider’s equipment is a separate mob’s loot.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+          ]
+        }
+      }
+    },
+    "minecraft:squid": {
+      "topics": {
+        "experience": {
+          "answer": "An adult gives 1–3 experience points after a player or tamed-wolf kill. Baby squid give no death experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+          ]
+        },
+        "experience_baby": {
+          "answer": "Baby squid give no experience when killed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:glow_squid": {
+      "topics": {
+        "experience": {
+          "answer": "An adult gives 1–3 experience points after a player or tamed-wolf kill. Baby squid give no death experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+          ]
+        },
+        "experience_baby": {
+          "answer": "Baby squid give no experience when killed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:blaze": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 10 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+          ]
+        }
+      }
+    },
+    "minecraft:breeze": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 10 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+          ]
+        }
+      }
+    },
+    "minecraft:cave_spider": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+          ]
+        }
+      }
+    },
+    "minecraft:creeper": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+          ]
+        }
+      }
+    },
+    "minecraft:elder_guardian": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 10 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+          ]
+        }
+      }
+    },
+    "minecraft:enderman": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+          ]
+        }
+      }
+    },
+    "minecraft:endermite": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 3 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+          ]
+        }
+      }
+    },
+    "minecraft:ghast": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+          ]
+        }
+      }
+    },
+    "minecraft:guardian": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 10 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+          ]
+        }
+      }
+    },
+    "minecraft:phantom": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin_brute": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 20 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "In Bedrock, its naturally held golden axe has a 25% drop chance after a player or tamed-wolf kill, plus one percentage point per Looting level, up to 28% with Looting III. The creature must actually hold or wear that item; picked-up equipment is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+          ]
+        }
+      }
+    },
+    "minecraft:ravager": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 20 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+          ]
+        }
+      }
+    },
+    "minecraft:shulker": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+          ]
+        }
+      }
+    },
+    "minecraft:silverfish": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+          ]
+        }
+      }
+    },
+    "minecraft:spider": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+          ]
+        }
+      }
+    },
+    "minecraft:warden": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+          ]
+        }
+      }
+    },
+    "minecraft:witch": {
+      "topics": {
+        "experience": {
+          "answer": "It gives 5 experience points after a player or tamed-wolf kill. Looting affects certain item drops, not this experience reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "In Bedrock, killing a witch while it is drinking a potion can drop that potion if a player or tamed wolf gets kill credit. The chance is 25%, plus one percentage point per Looting level, up to 28% with Looting III. It is the potion being drunk, not every potion the witch can use.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+          ]
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "topics": {
+        "experience": {
+          "answer": "Both adults and babies give 5 experience points after a player or tamed-wolf kill. Do not apply the usual baby-animal zero-experience rule here.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        },
+        "experience_baby": {
+          "answer": "A baby gives 5 experience points after a player or tamed-wolf kill, just like an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+          ]
+        }
+      }
+    },
+    "minecraft:zoglin": {
+      "topics": {
+        "experience": {
+          "answer": "Both adults and babies give 5 experience points after a player or tamed-wolf kill. Do not apply the usual baby-animal zero-experience rule here.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+          ]
+        },
+        "experience_baby": {
+          "answer": "A baby gives 5 experience points after a player or tamed-wolf kill, just like an adult.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 12 for a baby after an eligible player or tamed-wolf kill. Naturally spawned equipment can add experience; items picked up later are a separate category.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The base baby reward is 12 experience points after a player or tamed-wolf kill. Naturally spawned equipment can add more; this is different from ordinary baby animals giving no experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+          ]
+        }
+      }
+    },
+    "minecraft:husk": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 12 for a baby after an eligible player or tamed-wolf kill. Naturally spawned equipment can add experience; items picked up later are a separate category.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The base baby reward is 12 experience points after a player or tamed-wolf kill. Naturally spawned equipment can add more; this is different from ordinary baby animals giving no experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+          ]
+        }
+      }
+    },
+    "minecraft:drowned": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 12 for a baby after an eligible player or tamed-wolf kill. Naturally spawned equipment can add experience; items picked up later are a separate category.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The base baby reward is 12 experience points after a player or tamed-wolf kill. Naturally spawned equipment can add more; this is different from ordinary baby animals giving no experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "In Bedrock, its naturally held trident or fishing rod has a 25% drop chance after a player or tamed-wolf kill, plus one percentage point per Looting level, up to 28% with Looting III. The creature must actually hold or wear that item; picked-up equipment is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 12 for a baby after an eligible player or tamed-wolf kill. Naturally spawned equipment can add experience; items picked up later are a separate category.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The base baby reward is 12 experience points after a player or tamed-wolf kill. Naturally spawned equipment can add more; this is different from ordinary baby animals giving no experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 12 for a baby after an eligible player or tamed-wolf kill. Naturally spawned equipment can add experience; items picked up later are a separate category.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "experience_baby": {
+          "answer": "The base baby reward is 12 experience points after a player or tamed-wolf kill. Naturally spawned equipment can add more; this is different from ordinary baby animals giving no experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+          ]
+        }
+      }
+    },
+    "minecraft:skeleton": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+          ]
+        }
+      }
+    },
+    "minecraft:bogged": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+          ]
+        }
+      }
+    },
+    "minecraft:parched": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+          ]
+        }
+      }
+    },
+    "minecraft:stray": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+          ]
+        }
+      }
+    },
+    "minecraft:wither_skeleton": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+          ]
+        }
+      }
+    },
+    "minecraft:pillager": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+          ]
+        }
+      }
+    },
+    "minecraft:vindicator": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points after a player or tamed-wolf kill. Naturally spawned equipment can affect the total; picked-up equipment and whether the gear itself drops are separate conditions. Looting does not multiply experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "Naturally spawned weapons or armor are not guaranteed drops. Qualifying player or tamed-wolf kills and Looting can matter. Equipment the mob picked up later is a different category; do not assume one chance covers both. Its ordinary body loot is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+          ]
+        }
+      }
+    },
+    "minecraft:vex": {
+      "topics": {
+        "experience": {
+          "answer": "A vex gives 5 experience points after a player or tamed-wolf kill. Its natural iron sword is not a dropped reward, even with Looting.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "A vex does not drop its naturally held iron sword. Looting does not change that. Its death experience is a separate reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+          ]
+        }
+      }
+    },
+    "minecraft:zombie_pigman": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 12 for a baby after a player or tamed-wolf kill. Naturally spawned equipment that is not dropped can add experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        },
+        "experience_baby": {
+          "answer": "A baby zombified piglin gives a base 12 experience points after a player or tamed-wolf kill, with equipment-related conditions separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+          ]
+        }
+      }
+    },
+    "minecraft:piglin": {
+      "topics": {
+        "experience": {
+          "answer": "The base reward is 5 experience points for an adult or 1 for a baby in Bedrock after a player or tamed-wolf kill. Equipment-related bonuses are not included in those base values.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "experience_baby": {
+          "answer": "A baby piglin’s base reward is 1 experience point in Bedrock after a player or tamed-wolf kill. Do not use Java’s baby-piglin value of 5.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "In Bedrock, its naturally held or worn equipment has a 25% drop chance after a player or tamed-wolf kill, plus one percentage point per Looting level, up to 28% with Looting III. The creature must actually hold or wear that item; picked-up equipment is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+          ]
+        }
+      }
+    },
+    "minecraft:wolf": {
+      "topics": {
+        "experience": {
+          "answer": "An adult wolf normally gives 1–3 experience points after an eligible player or tamed-wolf kill. In Bedrock, a tamed wolf killed by its own owner gives no experience. Baby wolves give none.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "experience_baby": {
+          "answer": "A baby wolf gives no experience when killed.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+          ]
+        }
+      }
+    },
+    "minecraft:slime": {
+      "topics": {
+        "experience": {
+          "answer": "Small, medium and large cubes give 1, 2 and 4 experience points respectively after a qualifying player kill. Those values are per cube killed, not a combined total for every smaller cube that might split from it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+          ]
+        }
+      }
+    },
+    "minecraft:magma_cube": {
+      "topics": {
+        "experience": {
+          "answer": "Small, medium and large cubes give 1, 2 and 4 experience points respectively after a qualifying player kill. Those values are per cube killed, not a combined total for every smaller cube that might split from it.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+          ]
+        }
+      }
+    },
+    "minecraft:evocation_illager": {
+      "topics": {
+        "experience": {
+          "answer": "In Bedrock an evoker gives 10 experience points regardless of how it dies. This differs from the usual player-kill requirement for many mobs.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+          ]
+        }
+      }
+    },
+    "minecraft:wither": {
+      "topics": {
+        "experience": {
+          "answer": "In Bedrock the Wither gives 50 experience points regardless of how it dies. This is experience, separate from its Nether star.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+          ]
+        }
+      }
+    },
+    "minecraft:ender_dragon": {
+      "topics": {
+        "experience": {
+          "answer": "The first defeated Ender Dragon gives 12,000 experience points. A resummoned dragon gives 500, not another 12,000. Experience points are not the same as player levels.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+          ]
+        }
+      }
+    },
+    "minecraft:sulfur_cube": {
+      "topics": {
+        "experience": {
+          "answer": "A large sulfur cube can give 1–2 experience points after a player kill. Small sulfur cubes give no experience; a block it was carrying is a separate item drop.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        },
+        "experience_baby": {
+          "answer": "Small sulfur cubes give no experience when killed; the large form has a different reward.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+          ]
+        }
+      }
+    },
+    "minecraft:camel_husk": {
+      "topics": {
+        "experience": {
+          "answer": "A camel husk gives 1–3 experience points after a player or tamed-wolf kill. The mount and any riders are separate mobs with separate rewards.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+          ]
+        }
+      }
+    },
+    "minecraft:allay": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "An allay drops the item it was holding. This returns a carried item; it does not duplicate the item or drop an entire invented inventory.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+          ]
+        }
+      }
+    },
+    "minecraft:bat": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:copper_golem": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:creaking": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:iron_golem": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:snow_golem": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:tadpole": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:villager": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Breeding villagers does not give the player the usual animal-breeding experience reward. Trading with villagers is a separate source of experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:villager_v2": {
+      "topics": {
+        "experience": {
+          "answer": "It gives no experience when killed. Item drops and rewards from other interactions are separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Breeding villagers does not give the player the usual animal-breeding experience reward. Trading with villagers is a separate source of experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        }
+      }
+    },
+    "minecraft:wandering_trader": {
+      "topics": {
+        "experience": {
+          "answer": "Killing a wandering trader gives no experience. Successful trading can reward experience in Bedrock; killing it is not the same interaction.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+          ]
+        },
+        "equipment_drops": {
+          "answer": "In Bedrock, a wandering trader holding its milk bucket or Invisibility potion can drop that held consumable when killed: 25%, plus one percentage point per Looting level, up to 28% with Looting III. It must be holding or drinking the item at the time; the two consumables are not both guaranteed drops.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+          ]
+        }
+      }
+    },
+    "minecraft:axolotl": {
+      "topics": {
+        "experience": {
+          "answer": "An axolotl can give experience after a player or tamed-wolf kill, but I am not sure of the exact amount. Its breeding reward is separate.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        },
+        "experience_baby": {
+          "answer": "A baby axolotl gives no death experience.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3848638"
+          ]
+        },
+        "experience_breeding": {
+          "answer": "Successful breeding gives 1–7 experience points. That reward comes from breeding, not from killing the baby. The animal’s own breeding requirements still apply.",
+          "coverage": "reviewed_summary",
+          "sources": [
+            "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+          ]
+        }
+      }
+    }
+  },
+  "conflicts": [
+    {
+      "subject": "minecraft:axolotl",
+      "topic": "experience",
+      "detail": "Archived wiki states 1 XP; pinned adult component gives random 1–3. Exact amount withheld."
+    },
+    {
+      "subject": "minecraft:llama",
+      "topic": "experience_breeding",
+      "detail": "Archived wiki states 1–8; pinned component gives random 1–7. Exact amount withheld."
+    },
+    {
+      "subject": "minecraft:piglin",
+      "topic": "experience",
+      "detail": "Archived wiki says armor does not change XP; pinned component includes equipment_count bonus. Only base rewards are stated."
+    }
+  ]
+}

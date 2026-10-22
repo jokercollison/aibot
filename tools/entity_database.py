@@ -19,6 +19,7 @@ def build():
  variant_data=json.loads((ROOT/'data/entities/variant_editorial.json').read_text())['subjects']
  interaction_source=json.loads((ROOT/'data/entities/interaction_editorial.json').read_text())
  interaction_data=interaction_source['subjects']
+ reward_data=json.loads((ROOT/'data/entities/reward_editorial.json').read_text())
  special_data=json.loads((ROOT/'data/entities/special_editorial.json').read_text())['subjects']
  spawn_data=json.loads((ROOT/'data/entities/spawn_editorial.json').read_text())['subjects']
  environment_data=json.loads((ROOT/'data/entities/environment_components.json').read_text())
@@ -28,7 +29,7 @@ def build():
   if key in references:row={'topics':references[key]['topics'],'variants':[]}
   canonical='minecraft:villager' if key=='minecraft:villager_v2' else key
   variants=variant_data.get(canonical,{})
-  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{})}
+  reviewed={**row['topics'],**variants.get('topics',{}),**interaction_data.get(key,{}).get('topics',{}),**spawn_data.get(key,{}).get('topics',{}),**special_data.get(key,{}).get('topics',{}),**reward_data['subjects'].get(key,{}).get('topics',{})}
   topics={}
   for name,fact in reviewed.items():
    assert fact['answer'].strip(),(key,name)
@@ -61,6 +62,7 @@ def build():
   for v in compiled_variants.values():
    v['topics']={name:{**fact,'sources':fact.get('sources',fact.get('reference_urls',[subject['wiki']['url']]))} for name,fact in v['topics'].items()}
   runtime[key]={'topics':topics,'feeding':food,'variants':list(compiled_variants.values())}
+  if subject['category']=='mob' and not key.endswith('_v2') and subject['wiki']['title'].lower()!=subject['name'].lower():runtime[key]['subject_aliases']=[subject['wiki']['title']]
   if key!=canonical:runtime[key]['variant_alias_owner']=canonical
   if key=='minecraft:mooshroom':runtime[key]['flower_effects']=interaction_source['mooshroom_flowers']
   if key in references:runtime[key]['reference']={k:references[key][k] for k in ['id','name','what','does','aliases']}
@@ -70,6 +72,8 @@ def build():
  report={'scope':'Catalog entities; wiki-only candidates require availability reconciliation. Summaries are not exhaustive topic coverage.','entities':len(runtime),'catalog_entities':catalog_entities,'additional_reference_subjects':len(references),'entities_with_curated_topics':sum(bool(r['topics']) for r in runtime.values()),'curated_topic_summaries':sum(sum(t['coverage']=='reviewed_summary' for t in r['topics'].values()) for r in runtime.values()),'component_topic_summaries':sum(sum(t['coverage'] in ['sample_component_summary','scoped_sample_interactions','explicit_sample_environment'] for t in r['topics'].values()) for r in runtime.values()),'basic_topic_summaries':sum(sum(t['coverage'] in ['editorial_basic_summary','basic_behavior_classification'] for t in r['topics'].values()) for r in runtime.values()),'named_variant_records':sum(len(r['variants']) for k,r in runtime.items() if not r.get('variant_alias_owner')),'variant_topic_summaries':sum(sum(len(v['topics']) for v in r['variants']) for r in runtime.values() if not r.get('variant_alias_owner')),'complete':False,'source_conflicts':conflicts,'subjects':audit}
  interaction_audit={'scope':'Reviewed special interaction batch; topic absence is pending review, not proof an action is impossible.','subjects_in_batch':len(special_data),'batch_topic_summaries':sum(len(r['topics']) for r in special_data.values()),'complete':False,'subjects':{key:{'name':subject['name'],'reviewed_batch_topics':sorted(special_data.get(key,{}).get('topics',{})),'complete':False} for key,subject in evidence.items() if subject['category']=='mob'}}
  (ROOT/'docs/ENTITY_INTERACTION_COVERAGE.json').write_text(json.dumps(interaction_audit,indent=2)+'\n')
+ reward_audit={'scope':reward_data['scope'],'subjects_in_batch':len(reward_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in reward_data['subjects'].values()),'conflicts':reward_data['conflicts'],'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in reward_data['subjects'].items()}}
+ (ROOT/'docs/ENTITY_REWARD_COVERAGE.json').write_text(json.dumps(reward_audit,indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")
 if __name__=='__main__':build()

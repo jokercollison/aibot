@@ -1,3 +1,9 @@
+# User report: October 22, 2026 — 0.2.10 pending
+
+The user explicitly reports they have not tested the latest version yet.
+Record 0.2.10 actual-game checks as pending. New source work after that release
+has automated checks only; no multiplayer results have been reported.
+
 # User report: previous 0.2.8 test build
 
 The user reports that everything on the last tested version looked pretty good.

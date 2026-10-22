@@ -1,9 +1,11 @@
+import {rewardTopic} from './entity-rewards.js';
 import {conditionalLootAnswer} from './entity-loot.js';
 import {feedingAnswer} from './entity-feeding.js';
 import {entityFacet,flowerStewAnswer,specialInteraction} from './entity-facets.js';
 import database from '../data/entities/runtime.json' with {type:'json'};
 
 export function entityTopic(q) {
+  const reward=rewardTopic(q);if(reward)return reward;
   if (/\b(drop|drops|loot|looting)\b/.test(q) && !/\bfroglights?\b/.test(q)) return 'drops';
   const action=specialInteraction(q);if(action)return action;
   if (/\b(?:repair|heal).*\b(?:armor|armour)\b/.test(q))return 'repair';
@@ -75,3 +77,5 @@ export function relatedEntityAnswer(id,q) {
  const answer=entityAnswer(relatedEggs[id],q,undefined,'hatching');
  return answer?{...answer,subject:id,entity_reference:relatedEggs[id]}:null;
 }
+
+export const entitySubjectAliases=Object.entries(database).flatMap(([id,row])=>(row.subject_aliases??[]).map(alias=>({id,alias})));

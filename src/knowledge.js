@@ -1,5 +1,6 @@
+import {rewardTopics} from './entity-rewards.js';
 import {specialInteractionTopics} from './entity-facets.js';
-import {entityAnswer, entityTopic, entityVariant, shortVariant, entityVariantAliases, entityReferences, relatedEntityAnswer} from './entities.js';
+import {entityAnswer, entityTopic, entityVariant, shortVariant, entityVariantAliases, entitySubjectAliases, entityReferences, relatedEntityAnswer} from './entities.js';
 import acquisitionIndex from '../data/acquisition_index.json' with {type:'json'};
 import entityKnowledge from '../data/entity_knowledge.json' with {type:'json'};
 import locationFacts from '../data/location_facts.json' with {type:'json'};
@@ -32,7 +33,7 @@ for (const record of Object.values(records)) {
     aliasIndex.set(term,[...new Set([...(aliasIndex.get(term) ?? []),record.id])]);
   }
 }
-for(const {id,alias} of entityVariantAliases) {
+for(const {id,alias} of [...entitySubjectAliases,...entityVariantAliases]) {
  const targets=(byMinecraftId.get(id)??[]).filter(r=>r.kind==='entity').map(r=>r.id);
  if(targets.length)aliasIndex.set(clean(alias),targets);
 }
@@ -194,7 +195,7 @@ export function createConversation() {
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
       let scopedInteraction=false;
-      if(specialInteractionTopics.includes(entityTopic(q))) {
+      if([...specialInteractionTopics,...rewardTopics].includes(entityTopic(q))) {
         if(previous&&/\b(?:can|does|do|will|won t|doesn t|don t) (?:it|they)\b|\b(?:leash|bucket|feed|trust|collect|help|move) (?:it|them)\b/.test(q)) {matches.splice(0,matches.length);inheritedSubject=true;}
         else {
           const entities=matches.filter(m=>m.record.kind==='entity');

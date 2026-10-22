@@ -1,0 +1,658 @@
+{
+  "scope": "Reviewed death/breeding experience and equipment rewards; quantities are XP points, not player levels.",
+  "subjects_in_batch": 90,
+  "reviewed_topic_summaries": 183,
+  "conflicts": [
+    {
+      "subject": "minecraft:axolotl",
+      "topic": "experience",
+      "detail": "Archived wiki states 1 XP; pinned adult component gives random 1\u20133. Exact amount withheld."
+    },
+    {
+      "subject": "minecraft:llama",
+      "topic": "experience_breeding",
+      "detail": "Archived wiki states 1\u20138; pinned component gives random 1\u20137. Exact amount withheld."
+    },
+    {
+      "subject": "minecraft:piglin",
+      "topic": "experience",
+      "detail": "Archived wiki says armor does not change XP; pinned component includes equipment_count bonus. Only base rewards are stated."
+    }
+  ],
+  "complete": false,
+  "subjects": {
+    "minecraft:armadillo": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:bee": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:camel": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:cat": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:chicken": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:cow": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:dolphin": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:donkey": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:fox": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:goat": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:happy_ghast": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:horse": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:llama": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:mooshroom": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:mule": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:nautilus": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:ocelot": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:panda": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:pig": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:polar_bear": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:rabbit": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:sheep": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:skeleton_horse": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:sniffer": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:strider": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:trader_llama": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:turtle": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_horse": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:cod": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:salmon": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:tropicalfish": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:pufferfish": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:parrot": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:frog": {
+      "topics": [
+        "experience",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_nautilus": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:squid": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:glow_squid": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:blaze": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:breeze": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:cave_spider": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:creeper": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:elder_guardian": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:enderman": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:endermite": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:ghast": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:guardian": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:phantom": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:piglin_brute": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:ravager": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:shulker": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:silverfish": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:spider": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:warden": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:witch": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:hoglin": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:zoglin": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:husk": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:drowned": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_villager": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_villager_v2": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:skeleton": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:bogged": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:parched": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:stray": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:wither_skeleton": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:pillager": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:vindicator": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:vex": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:zombie_pigman": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:piglin": {
+      "topics": [
+        "equipment_drops",
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:wolf": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:slime": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:magma_cube": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:evocation_illager": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:wither": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:ender_dragon": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:sulfur_cube": {
+      "topics": [
+        "experience",
+        "experience_baby"
+      ],
+      "complete": false
+    },
+    "minecraft:camel_husk": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:allay": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:bat": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:copper_golem": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:creaking": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:iron_golem": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:snow_golem": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:tadpole": {
+      "topics": [
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:villager": {
+      "topics": [
+        "experience",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:villager_v2": {
+      "topics": [
+        "experience",
+        "experience_breeding"
+      ],
+      "complete": false
+    },
+    "minecraft:wandering_trader": {
+      "topics": [
+        "equipment_drops",
+        "experience"
+      ],
+      "complete": false
+    },
+    "minecraft:axolotl": {
+      "topics": [
+        "experience",
+        "experience_baby",
+        "experience_breeding"
+      ],
+      "complete": false
+    }
+  }
+}

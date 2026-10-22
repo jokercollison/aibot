@@ -1,3 +1,10 @@
+# Latest source batch: experience and equipment rewards after 0.2.10
+
+Connected 183 reviewed reward summaries across 90 catalog mobs. Total reviewed
+entity topic summaries: 1,446. All 149 automated tests pass. See ENTITY_REWARDS.md
+and ENTITY_REWARD_COVERAGE.json for limits and conflicts. Downloadable 0.2.10 is
+unchanged and still awaiting user testing; this source work is not packaged yet.
+
 # Current test release: 0.2.10 — spawning and special interactions
 
 Packages both source batches after 0.2.9: 90 mob spawning-troubleshooting
