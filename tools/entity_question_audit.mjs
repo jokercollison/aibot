@@ -20,10 +20,25 @@ export const questions={
  attack_style:id=>`How does entity:${id} attack?`,
  provocation:id=>`Why is entity:${id} attacking me?`,
  counterplay:id=>`How can you defeat entity:${id}?`,
- diet:id=>`What does entity:${id} eat?`
+ diet:id=>`What does entity:${id} eat?`,
+ interactions:id=>`How do I interact with entity:${id}?`,
+ leashing:id=>`Can I leash entity:${id}?`,
+ bucketing:id=>`Can I bucket entity:${id}?`,
+ transport:id=>`Can I ride entity:${id}?`,
+ trading:id=>`Can I trade with entity:${id}?`,
+ milking:id=>`Can I milk entity:${id}?`,
+ smite:id=>`Does Smite work against entity:${id}?`,
+ bane_of_arthropods:id=>`Does Bane of Arthropods work against entity:${id}?`,
+ impaling:id=>`Does Impaling work against entity:${id}?`,
+ poison_reaction:id=>`Can I poison entity:${id}?`,
+ regeneration_reaction:id=>`Does Regeneration work on entity:${id}?`,
+ healing_magic:id=>`Does a Healing potion affect entity:${id}?`,
+ harming_magic:id=>`Does a Harming potion affect entity:${id}?`,
+ healing:id=>`How do I heal entity:${id}?`,
+ naming:id=>`How do I name entity:${id}?`
 };
 export function runAudit() {
- const report={scope:'90 catalog mobs x 16 representative core questions x explicit-ID and natural-name forms through the real conversation engine. Plus 112 reviewed mechanics across all 39 non-mob catalog entities. This is not every wording, complete factual validation, or Minecraft execution.',questions:0,answered:0,partial:0,unsupported:0,failures:[],subjects:{},objects:{}};
+ const report={scope:'90 catalog mobs x 31 representative normal-gameplay questions x explicit-ID and natural-name forms through the real conversation engine. Plus 112 reviewed mechanics across all 39 non-mob catalog entities, the final special-mechanic summaries, and trade inventories. This is not every wording, complete factual validation, or Minecraft execution.',questions:0,answered:0,partial:0,unsupported:0,failures:[],subjects:{},objects:{}};
  for(const [id,subject] of Object.entries(catalog).filter(([,r])=>r.category==='mob')) {
   const outcomes={};
   for(const [topic,buildQuestion] of Object.entries(questions)) {
@@ -31,7 +46,7 @@ export function runAudit() {
    const expected=runtime[id].topics[topic];
    let outcome;
    if(!expected)outcome=answer.status==='unknown'?'unsupported':'failure';
-   else if(answer.status==='unknown'||answer.subject!==id||answer.topic!==topic||!answer.answer?.trim()||!answer.sources?.length)outcome='failure';
+   else if(answer.status==='unknown'||answer.subject!==id||!(answer.topic===topic||topic==='healing'&&answer.topic==='repair')||!answer.answer?.trim()||!answer.sources?.length)outcome='failure';
    else outcome=expected.coverage==='partial_summary'?'partial':'answered';
    outcomes[topic]=outcome;report.questions++;
    if(outcome==='failure')report.failures.push({id,topic,question,actual:answer});
@@ -45,7 +60,7 @@ export function runAudit() {
    const expected=runtime[id].topics[topic];
    let outcome;
    if(!expected)outcome=answer.status==='unknown'?'unsupported':'failure';
-   else if(answer.status==='unknown'||![id,canonical].includes(answer.subject)||answer.topic!==topic||!answer.answer?.trim()||!answer.sources?.length)outcome='failure';
+   else if(answer.status==='unknown'||![id,canonical].includes(answer.subject)||!(answer.topic===topic||topic==='healing'&&answer.topic==='repair')||!answer.answer?.trim()||!answer.sources?.length)outcome='failure';
    else outcome=expected.coverage==='partial_summary'?'partial':'answered';
    naturalOutcomes[topic]=outcome;report.questions++;
    if(outcome==='failure')report.failures.push({id,topic,question,actual:answer});
@@ -64,6 +79,23 @@ export function runAudit() {
    if(outcome==='failure')report.failures.push({id,topic,question,actual:answer});else report.answered++;
   }
   report.objects[id]={outcomes};
+ }
+ const finish=JSON.parse(fs.readFileSync(new URL('../data/entities/finish_editorial.json',import.meta.url)));
+ const specialPrompts={nesting:'How often does SUBJECT lay an egg?',housing:'How many SUBJECT fit in a hive?',item_holding:'How does SUBJECT hold blocks?',support:'Why does SUBJECT cause Mining Fatigue?',naming:'How do I name SUBJECT?',infestation:'How does SUBJECT infest blocks?',caravan:'How does SUBJECT form a caravan?',breeding_conditions:'Why can SUBJECT not breed?',infection:'What is the chance SUBJECT infects a villager?',curing:'How do I cure SUBJECT?'};
+ report.special_questions=0;report.trade_questions=0;
+ for(const [id,row] of Object.entries(finish.special_topics))for(const [topic,fact] of Object.entries(row)) {
+  const question=specialPrompts[topic].replace('SUBJECT','entity:'+id),answer=createConversation().ask(question);
+  report.questions++;report.special_questions++;
+  if(answer.subject===id&&answer.topic===topic&&answer.answer===fact.answer)report.answered++;
+  else report.failures.push({id,topic,question,actual:answer});
+ }
+ const trades=JSON.parse(fs.readFileSync(new URL('../data/entities/trade_inventory.json',import.meta.url)));
+ for(const [profession,levels] of Object.entries(trades))for(const [level,fact] of Object.entries(levels)) {
+  const id=profession==='wandering trader'?'minecraft:wandering_trader':'minecraft:villager';
+  const question=profession==='wandering trader'?'What does a wandering trader sell?':`What does a ${level} ${profession} sell?`;
+  const answer=createConversation().ask(question);report.questions++;report.trade_questions++;
+  if(answer.subject===id&&answer.topic==='trading'&&answer.answer===fact.answer)report.answered++;
+  else report.failures.push({id,topic:'trading',question,actual:answer});
  }
  report.catalog_entities=Object.keys(report.subjects).length+Object.keys(report.objects).length;
  return report;

@@ -1,3 +1,9 @@
+# Historical 0.2.16 baseline
+
+This earlier milestone is superseded by the [0.2.17 entity closeout](ENTITY_COMPLETION.md).
+The feeding gaps and capability coverage described below record the 0.2.16 state,
+not the current completion report. Its published download remains unchanged.
+
 # Entity core baseline — test release 0.2.16
 
 This release closes the broad core pass so entity work does not continue as an

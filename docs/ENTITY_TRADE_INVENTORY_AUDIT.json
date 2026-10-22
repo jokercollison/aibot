@@ -1,0 +1,993 @@
+{
+  "scope": "Possible item inventories by profession/level from pinned standard economy trade tables; not fixed prices or guaranteed selections.",
+  "sample_commit": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+  "profiles": 14,
+  "villager_professions": 13,
+  "wandering_trader_profiles": 1,
+  "tiers": 66,
+  "complete_price_simulation": false,
+  "table_sha256": {
+    "armorer": "2506ca3fc1db497e6770574472612c93f05e8301051e7c3a77849aa8966792be",
+    "butcher": "aed4dd103b65151a7cb99014aa2beea0892a4378ba08374ad5949bce8a03178e",
+    "cartographer": "b9b8ac55881d39ef4e6c8e8b0d20b459a20de5fa95d4cfae50833959544c4d6d",
+    "cleric": "dc498d09de1bb6ef75fe7390a3429ed472afeec4754e243b12b74c1e8f2d36d2",
+    "farmer": "4ca2c74b9e6d625b8f85d7a29d8d2b09e0584318e96582766f1d63678a659f98",
+    "fisherman": "57c44150697850eb3322ada0b3da0cf65ec04a3980e603e398a2d57746f56dd9",
+    "fletcher": "03ab86a0088676fde8e6faff6702e7d3f8a8a49d44ff4714e7b3b1d18fcc0043",
+    "leatherworker": "9430957c92bf9caaf550e113518c24dc4fe86bf03cdec2010dd9e789c98b7276",
+    "librarian": "fbb59a89eb28c40164a71df5e64612425ce70f1ad0ce6f68f3e2efae75d0b55a",
+    "mason": "e693d0a0162bc422c4d4cc805ffe1516ea8b7b98d24fe571a297655f58492737",
+    "shepherd": "a2aa58b2d69cf0b61e5254e80581ecabc1436b4654e71e1d85ae59bf2224b051",
+    "toolsmith": "cefbc25b26f8bb6565183b2dd54eeb7d6fc75331960973df513ed7e3e61145a5",
+    "weaponsmith": "78e5515b09526d131c6bb643ecafecf7f2cc50a8dae844f83a19f973b50ddfd4",
+    "wandering trader": "28d6980b7204148889e0b3fa855f875844581a248451fe2ce5670b656e1c914a"
+  },
+  "evidence": {
+    "armorer:novice": {
+      "groups": 2,
+      "candidate_trades": 5,
+      "buys": [
+        "coal"
+      ],
+      "sells": [
+        "iron boots",
+        "iron chestplate",
+        "iron helmet",
+        "iron leggings"
+      ],
+      "additional_inputs": []
+    },
+    "armorer:apprentice": {
+      "groups": 2,
+      "candidate_trades": 4,
+      "buys": [
+        "iron ingot"
+      ],
+      "sells": [
+        "bell",
+        "chainmail boots",
+        "chainmail leggings"
+      ],
+      "additional_inputs": []
+    },
+    "armorer:journeyman": {
+      "groups": 3,
+      "candidate_trades": 5,
+      "buys": [
+        "diamond",
+        "lava bucket"
+      ],
+      "sells": [
+        "chainmail chestplate",
+        "chainmail helmet",
+        "shield"
+      ],
+      "additional_inputs": []
+    },
+    "armorer:expert": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [],
+      "sells": [
+        "enchanted diamond boots",
+        "enchanted diamond leggings"
+      ],
+      "additional_inputs": []
+    },
+    "armorer:master": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [],
+      "sells": [
+        "enchanted diamond chestplate",
+        "enchanted diamond helmet"
+      ],
+      "additional_inputs": []
+    },
+    "butcher:novice": {
+      "groups": 2,
+      "candidate_trades": 4,
+      "buys": [
+        "raw chicken",
+        "raw porkchop",
+        "raw rabbit"
+      ],
+      "sells": [
+        "rabbit stew"
+      ],
+      "additional_inputs": []
+    },
+    "butcher:apprentice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "coal"
+      ],
+      "sells": [
+        "cooked chicken",
+        "cooked porkchop"
+      ],
+      "additional_inputs": []
+    },
+    "butcher:journeyman": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "mutton",
+        "raw beef"
+      ],
+      "sells": [],
+      "additional_inputs": []
+    },
+    "butcher:expert": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [
+        "dried kelp block"
+      ],
+      "sells": [],
+      "additional_inputs": []
+    },
+    "butcher:master": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [
+        "sweet berries"
+      ],
+      "sells": [],
+      "additional_inputs": []
+    },
+    "cartographer:novice": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "paper"
+      ],
+      "sells": [
+        "empty map"
+      ],
+      "additional_inputs": []
+    },
+    "cartographer:apprentice": {
+      "groups": 1,
+      "candidate_trades": 8,
+      "buys": [
+        "glass pane"
+      ],
+      "sells": [
+        "desert village map",
+        "jungle explorer map",
+        "plains village map",
+        "savanna village map",
+        "snowy village map",
+        "swamp explorer map",
+        "taiga village map"
+      ],
+      "additional_inputs": [
+        "compass"
+      ]
+    },
+    "cartographer:journeyman": {
+      "groups": 1,
+      "candidate_trades": 3,
+      "buys": [
+        "compass"
+      ],
+      "sells": [
+        "ocean explorer map",
+        "trial explorer map"
+      ],
+      "additional_inputs": [
+        "compass"
+      ]
+    },
+    "cartographer:expert": {
+      "groups": 1,
+      "candidate_trades": 16,
+      "buys": [],
+      "sells": [
+        "banner",
+        "blue banner",
+        "brown banner",
+        "cyan banner",
+        "frame",
+        "gray banner",
+        "green banner",
+        "light blue banner",
+        "lime banner",
+        "magenta banner",
+        "orange banner",
+        "pink banner",
+        "purple banner",
+        "red banner",
+        "white banner",
+        "yellow banner"
+      ],
+      "additional_inputs": []
+    },
+    "cartographer:master": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [],
+      "sells": [
+        "globe banner pattern",
+        "woodland explorer map"
+      ],
+      "additional_inputs": [
+        "compass"
+      ]
+    },
+    "cleric:novice": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "rotten flesh"
+      ],
+      "sells": [
+        "redstone"
+      ],
+      "additional_inputs": []
+    },
+    "cleric:apprentice": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "gold ingot"
+      ],
+      "sells": [
+        "lapis lazuli"
+      ],
+      "additional_inputs": []
+    },
+    "cleric:journeyman": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "rabbit foot"
+      ],
+      "sells": [
+        "glowstone"
+      ],
+      "additional_inputs": []
+    },
+    "cleric:expert": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "glass bottle",
+        "turtle shell piece"
+      ],
+      "sells": [
+        "ender pearl"
+      ],
+      "additional_inputs": []
+    },
+    "cleric:master": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "nether wart"
+      ],
+      "sells": [
+        "experience bottle"
+      ],
+      "additional_inputs": []
+    },
+    "farmer:novice": {
+      "groups": 2,
+      "candidate_trades": 5,
+      "buys": [
+        "beetroot",
+        "carrot",
+        "potato",
+        "wheat"
+      ],
+      "sells": [
+        "bread"
+      ],
+      "additional_inputs": []
+    },
+    "farmer:apprentice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "pumpkin"
+      ],
+      "sells": [
+        "apple",
+        "pumpkin pie"
+      ],
+      "additional_inputs": []
+    },
+    "farmer:journeyman": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "melon block"
+      ],
+      "sells": [
+        "cookie"
+      ],
+      "additional_inputs": []
+    },
+    "farmer:expert": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [],
+      "sells": [
+        "cake",
+        "suspicious stew"
+      ],
+      "additional_inputs": []
+    },
+    "farmer:master": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [],
+      "sells": [
+        "golden carrot",
+        "speckled melon"
+      ],
+      "additional_inputs": []
+    },
+    "fisherman:novice": {
+      "groups": 2,
+      "candidate_trades": 4,
+      "buys": [
+        "coal",
+        "string"
+      ],
+      "sells": [
+        "bucket of cod",
+        "cooked cod"
+      ],
+      "additional_inputs": [
+        "raw cod"
+      ]
+    },
+    "fisherman:apprentice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "raw cod"
+      ],
+      "sells": [
+        "campfire",
+        "cooked salmon"
+      ],
+      "additional_inputs": [
+        "raw salmon"
+      ]
+    },
+    "fisherman:journeyman": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "raw salmon"
+      ],
+      "sells": [
+        "enchanted fishing rod"
+      ],
+      "additional_inputs": []
+    },
+    "fisherman:expert": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [
+        "tropical fish"
+      ],
+      "sells": [],
+      "additional_inputs": []
+    },
+    "fisherman:master": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "acacia boat",
+        "dark oak boat",
+        "jungle boat",
+        "oak boat",
+        "pufferfish",
+        "spruce boat"
+      ],
+      "sells": [],
+      "additional_inputs": []
+    },
+    "fletcher:novice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "stick"
+      ],
+      "sells": [
+        "arrow",
+        "flint"
+      ],
+      "additional_inputs": [
+        "gravel"
+      ]
+    },
+    "fletcher:apprentice": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "flint"
+      ],
+      "sells": [
+        "bow"
+      ],
+      "additional_inputs": []
+    },
+    "fletcher:journeyman": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "string"
+      ],
+      "sells": [
+        "crossbow"
+      ],
+      "additional_inputs": []
+    },
+    "fletcher:expert": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "feather"
+      ],
+      "sells": [
+        "enchanted bow"
+      ],
+      "additional_inputs": []
+    },
+    "fletcher:master": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "tripwire hook"
+      ],
+      "sells": [
+        "arrow",
+        "enchanted crossbow"
+      ],
+      "additional_inputs": [
+        "arrow"
+      ]
+    },
+    "leatherworker:novice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "leather"
+      ],
+      "sells": [
+        "leather chestplate",
+        "leather leggings"
+      ],
+      "additional_inputs": []
+    },
+    "leatherworker:apprentice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "flint"
+      ],
+      "sells": [
+        "leather boots",
+        "leather helmet"
+      ],
+      "additional_inputs": []
+    },
+    "leatherworker:journeyman": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "rabbit hide"
+      ],
+      "sells": [
+        "leather chestplate"
+      ],
+      "additional_inputs": []
+    },
+    "leatherworker:expert": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "turtle shell piece"
+      ],
+      "sells": [
+        "horsearmorleather"
+      ],
+      "additional_inputs": []
+    },
+    "leatherworker:master": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [],
+      "sells": [
+        "leather helmet",
+        "saddle"
+      ],
+      "additional_inputs": []
+    },
+    "librarian:novice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "paper"
+      ],
+      "sells": [
+        "bookshelf",
+        "enchanted book"
+      ],
+      "additional_inputs": [
+        "book"
+      ]
+    },
+    "librarian:apprentice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "book"
+      ],
+      "sells": [
+        "enchanted book",
+        "lantern"
+      ],
+      "additional_inputs": [
+        "book"
+      ]
+    },
+    "librarian:journeyman": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "ink sac"
+      ],
+      "sells": [
+        "enchanted book",
+        "glass"
+      ],
+      "additional_inputs": [
+        "book"
+      ]
+    },
+    "librarian:expert": {
+      "groups": 2,
+      "candidate_trades": 4,
+      "buys": [
+        "writable book"
+      ],
+      "sells": [
+        "clock",
+        "compass",
+        "enchanted book"
+      ],
+      "additional_inputs": [
+        "book"
+      ]
+    },
+    "librarian:master": {
+      "groups": 1,
+      "candidate_trades": 4,
+      "buys": [],
+      "sells": [
+        "red candle",
+        "yellow candle"
+      ],
+      "additional_inputs": []
+    },
+    "mason:novice": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "clay ball"
+      ],
+      "sells": [
+        "brick"
+      ],
+      "additional_inputs": []
+    },
+    "mason:apprentice": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "stone"
+      ],
+      "sells": [
+        "chiseled stone bricks"
+      ],
+      "additional_inputs": []
+    },
+    "mason:journeyman": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "andesite",
+        "diorite",
+        "granite"
+      ],
+      "sells": [
+        "dripstone block",
+        "polished andesite",
+        "polished diorite",
+        "polished granite"
+      ],
+      "additional_inputs": []
+    },
+    "mason:expert": {
+      "groups": 1,
+      "candidate_trades": 2,
+      "buys": [
+        "quartz"
+      ],
+      "sells": [
+        "black glazed terracotta",
+        "black terracotta",
+        "blue glazed terracotta",
+        "blue terracotta",
+        "brown glazed terracotta",
+        "brown terracotta",
+        "cyan glazed terracotta",
+        "cyan terracotta",
+        "gray glazed terracotta",
+        "gray terracotta",
+        "green glazed terracotta",
+        "green terracotta",
+        "light blue glazed terracotta",
+        "light blue terracotta",
+        "light gray terracotta",
+        "lime glazed terracotta",
+        "lime terracotta",
+        "magenta glazed terracotta",
+        "magenta terracotta",
+        "orange glazed terracotta",
+        "orange terracotta",
+        "pink glazed terracotta",
+        "pink terracotta",
+        "purple glazed terracotta",
+        "purple terracotta",
+        "red glazed terracotta",
+        "red terracotta",
+        "silver glazed terracotta",
+        "white glazed terracotta",
+        "white terracotta",
+        "yellow glazed terracotta",
+        "yellow terracotta"
+      ],
+      "additional_inputs": []
+    },
+    "mason:master": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [],
+      "sells": [
+        "quartz block",
+        "quartz pillar"
+      ],
+      "additional_inputs": []
+    },
+    "shepherd:novice": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "black wool",
+        "brown wool",
+        "gray wool",
+        "white wool"
+      ],
+      "sells": [
+        "shears"
+      ],
+      "additional_inputs": []
+    },
+    "shepherd:apprentice": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "black dye",
+        "gray dye",
+        "light blue dye",
+        "lime dye",
+        "white dye"
+      ],
+      "sells": [
+        "black carpet",
+        "black wool",
+        "blue carpet",
+        "blue wool",
+        "brown carpet",
+        "brown wool",
+        "cyan carpet",
+        "cyan wool",
+        "gray carpet",
+        "gray wool",
+        "green carpet",
+        "green wool",
+        "light blue carpet",
+        "light blue wool",
+        "light gray carpet",
+        "light gray wool",
+        "lime carpet",
+        "lime wool",
+        "magenta carpet",
+        "magenta wool",
+        "orange carpet",
+        "orange wool",
+        "pink carpet",
+        "pink wool",
+        "purple carpet",
+        "purple wool",
+        "red carpet",
+        "red wool",
+        "white carpet",
+        "white wool",
+        "yellow carpet",
+        "yellow wool"
+      ],
+      "additional_inputs": []
+    },
+    "shepherd:journeyman": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "light gray dye",
+        "orange dye",
+        "pink dye",
+        "red dye",
+        "yellow dye"
+      ],
+      "sells": [
+        "bed"
+      ],
+      "additional_inputs": []
+    },
+    "shepherd:expert": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "blue dye",
+        "brown dye",
+        "cyan dye",
+        "green dye",
+        "magenta dye",
+        "purple dye"
+      ],
+      "sells": [
+        "banner"
+      ],
+      "additional_inputs": []
+    },
+    "shepherd:master": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [],
+      "sells": [
+        "painting"
+      ],
+      "additional_inputs": []
+    },
+    "toolsmith:novice": {
+      "groups": 2,
+      "candidate_trades": 5,
+      "buys": [
+        "coal"
+      ],
+      "sells": [
+        "stone axe",
+        "stone hoe",
+        "stone pickaxe",
+        "stone shovel"
+      ],
+      "additional_inputs": []
+    },
+    "toolsmith:apprentice": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "iron ingot"
+      ],
+      "sells": [
+        "bell"
+      ],
+      "additional_inputs": []
+    },
+    "toolsmith:journeyman": {
+      "groups": 2,
+      "candidate_trades": 5,
+      "buys": [
+        "flint"
+      ],
+      "sells": [
+        "diamond hoe",
+        "enchanted iron axe",
+        "enchanted iron pickaxe",
+        "enchanted iron shovel"
+      ],
+      "additional_inputs": []
+    },
+    "toolsmith:expert": {
+      "groups": 2,
+      "candidate_trades": 3,
+      "buys": [
+        "diamond"
+      ],
+      "sells": [
+        "enchanted diamond axe",
+        "enchanted diamond shovel"
+      ],
+      "additional_inputs": []
+    },
+    "toolsmith:master": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [],
+      "sells": [
+        "enchanted diamond pickaxe"
+      ],
+      "additional_inputs": []
+    },
+    "weaponsmith:novice": {
+      "groups": 3,
+      "candidate_trades": 3,
+      "buys": [
+        "coal"
+      ],
+      "sells": [
+        "enchanted iron sword",
+        "iron axe"
+      ],
+      "additional_inputs": []
+    },
+    "weaponsmith:apprentice": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "iron ingot"
+      ],
+      "sells": [
+        "bell"
+      ],
+      "additional_inputs": []
+    },
+    "weaponsmith:journeyman": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [
+        "flint"
+      ],
+      "sells": [],
+      "additional_inputs": []
+    },
+    "weaponsmith:expert": {
+      "groups": 2,
+      "candidate_trades": 2,
+      "buys": [
+        "diamond"
+      ],
+      "sells": [
+        "enchanted diamond axe"
+      ],
+      "additional_inputs": []
+    },
+    "weaponsmith:master": {
+      "groups": 1,
+      "candidate_trades": 1,
+      "buys": [],
+      "sells": [
+        "enchanted diamond sword"
+      ],
+      "additional_inputs": []
+    },
+    "wandering trader:rotating": {
+      "groups": 3,
+      "candidate_trades": 100,
+      "buys": [
+        "baked potato",
+        "fermented spider eye",
+        "hay bale",
+        "milk bucket",
+        "water bottle",
+        "water bucket"
+      ],
+      "sells": [
+        "Invisibility potion",
+        "acacia log",
+        "acacia sapling",
+        "allium",
+        "azure bluet",
+        "beetroot seeds",
+        "birch log",
+        "birch sapling",
+        "black dye",
+        "blue dye",
+        "blue ice",
+        "blue orchid",
+        "brain coral block",
+        "brown dye",
+        "brown mushroom",
+        "bubble coral block",
+        "bucket of pufferfish",
+        "bucket of tropical fish",
+        "cactus",
+        "cherry log",
+        "cherry sapling",
+        "cornflower",
+        "cyan dye",
+        "dandelion",
+        "dark oak log",
+        "dark oak sapling",
+        "dirt with roots",
+        "enchanted iron pickaxe",
+        "fern",
+        "fire coral block",
+        "firefly bush",
+        "glowstone",
+        "golden dandelion",
+        "gray dye",
+        "green dye",
+        "gunpowder",
+        "horn coral block",
+        "jungle log",
+        "jungle sapling",
+        "kelp",
+        "light blue dye",
+        "light gray dye",
+        "lily of the valley",
+        "lime dye",
+        "magenta dye",
+        "mangrove log",
+        "mangrove propagule",
+        "melon seeds",
+        "moss block",
+        "name tag",
+        "nautilus shell",
+        "oak log",
+        "oak sapling",
+        "open eyeblossom",
+        "orange dye",
+        "orange tulip",
+        "oxeye daisy",
+        "packed ice",
+        "pale hanging moss",
+        "pale moss block",
+        "pale oak log",
+        "pale oak sapling",
+        "pink dye",
+        "pink tulip",
+        "podzol",
+        "pointed dripstone",
+        "poplar log",
+        "poplar sapling",
+        "poppy",
+        "pumpkin",
+        "pumpkin seeds",
+        "purple dye",
+        "red dye",
+        "red mushroom",
+        "red sand",
+        "red tulip",
+        "sand",
+        "sea pickle",
+        "shelf mushroom",
+        "slimeball",
+        "small dripleaf block",
+        "spruce log",
+        "spruce sapling",
+        "sugar cane",
+        "sulfur spike",
+        "tall dry grass",
+        "tube coral block",
+        "vine",
+        "waterlily",
+        "wheat seeds",
+        "white dye",
+        "white tulip",
+        "wildflowers",
+        "yellow dye"
+      ],
+      "additional_inputs": []
+    }
+  },
+  "runtime_sha256": "dc92cb29d2c5bc861d76f8614136217f8c502ff8b238506cbc6acbbb21d04aaa"
+}

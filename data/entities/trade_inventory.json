@@ -1,0 +1,492 @@
+{
+  "armorer": {
+    "novice": {
+      "answer": "Possible novice armorer offers, chosen from its available trade groups: Buys: coal. Sells: iron boots, iron chestplate, iron helmet, iron leggings. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/armorer_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice armorer offers, chosen from its available trade groups: Buys: iron ingot. Sells: bell, chainmail boots, chainmail leggings. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/armorer_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman armorer offers, chosen from its available trade groups: Buys: diamond, lava bucket. Sells: chainmail chestplate, chainmail helmet, shield. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/armorer_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert armorer offers, chosen from its available trade groups: Sells: enchanted diamond boots, enchanted diamond leggings. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/armorer_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master armorer offers, chosen from its available trade groups: Sells: enchanted diamond chestplate, enchanted diamond helmet. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/armorer_trades.json"
+      ]
+    }
+  },
+  "butcher": {
+    "novice": {
+      "answer": "Possible novice butcher offers, chosen from its available trade groups: Buys: raw chicken, raw porkchop, raw rabbit. Sells: rabbit stew. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/butcher_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice butcher offers, chosen from its available trade groups: Buys: coal. Sells: cooked chicken, cooked porkchop. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/butcher_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman butcher offers, chosen from its available trade groups: Buys: mutton, raw beef. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/butcher_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert butcher offers, chosen from its available trade groups: Buys: dried kelp block. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/butcher_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master butcher offers, chosen from its available trade groups: Buys: sweet berries. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/butcher_trades.json"
+      ]
+    }
+  },
+  "cartographer": {
+    "novice": {
+      "answer": "Possible novice cartographer offers, chosen from its available trade groups: Buys: paper. Sells: empty map. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cartographer_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice cartographer offers, chosen from its available trade groups: Buys: glass pane. Sells: desert village map, jungle explorer map, plains village map, savanna village map, snowy village map, swamp explorer map, taiga village map. Some offers also require: compass. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cartographer_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman cartographer offers, chosen from its available trade groups: Buys: compass. Sells: ocean explorer map, trial explorer map. Some offers also require: compass. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cartographer_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert cartographer offers, chosen from its available trade groups: Sells: banner, blue banner, brown banner, cyan banner, frame, gray banner, green banner, light blue banner, lime banner, magenta banner, orange banner, pink banner, purple banner, red banner, white banner, yellow banner. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cartographer_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master cartographer offers, chosen from its available trade groups: Sells: globe banner pattern, woodland explorer map. Some offers also require: compass. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cartographer_trades.json"
+      ]
+    }
+  },
+  "cleric": {
+    "novice": {
+      "answer": "Possible novice cleric offers, chosen from its available trade groups: Buys: rotten flesh. Sells: redstone. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cleric_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice cleric offers, chosen from its available trade groups: Buys: gold ingot. Sells: lapis lazuli. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cleric_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman cleric offers, chosen from its available trade groups: Buys: rabbit foot. Sells: glowstone. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cleric_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert cleric offers, chosen from its available trade groups: Buys: glass bottle, turtle shell piece. Sells: ender pearl. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cleric_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master cleric offers, chosen from its available trade groups: Buys: nether wart. Sells: experience bottle. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/cleric_trades.json"
+      ]
+    }
+  },
+  "farmer": {
+    "novice": {
+      "answer": "Possible novice farmer offers, chosen from its available trade groups: Buys: beetroot, carrot, potato, wheat. Sells: bread. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/farmer_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice farmer offers, chosen from its available trade groups: Buys: pumpkin. Sells: apple, pumpkin pie. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/farmer_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman farmer offers, chosen from its available trade groups: Buys: melon block. Sells: cookie. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/farmer_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert farmer offers, chosen from its available trade groups: Sells: cake, suspicious stew. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/farmer_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master farmer offers, chosen from its available trade groups: Sells: golden carrot, speckled melon. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/farmer_trades.json"
+      ]
+    }
+  },
+  "fisherman": {
+    "novice": {
+      "answer": "Possible novice fisherman offers, chosen from its available trade groups: Buys: coal, string. Sells: bucket of cod, cooked cod. Some offers also require: raw cod. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fisherman_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice fisherman offers, chosen from its available trade groups: Buys: raw cod. Sells: campfire, cooked salmon. Some offers also require: raw salmon. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fisherman_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman fisherman offers, chosen from its available trade groups: Buys: raw salmon. Sells: enchanted fishing rod. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fisherman_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert fisherman offers, chosen from its available trade groups: Buys: tropical fish. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fisherman_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master fisherman offers, chosen from its available trade groups: Buys: acacia boat, dark oak boat, jungle boat, oak boat, pufferfish, spruce boat. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fisherman_trades.json"
+      ]
+    }
+  },
+  "fletcher": {
+    "novice": {
+      "answer": "Possible novice fletcher offers, chosen from its available trade groups: Buys: stick. Sells: arrow, flint. Some offers also require: gravel. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fletcher_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice fletcher offers, chosen from its available trade groups: Buys: flint. Sells: bow. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fletcher_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman fletcher offers, chosen from its available trade groups: Buys: string. Sells: crossbow. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fletcher_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert fletcher offers, chosen from its available trade groups: Buys: feather. Sells: enchanted bow. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fletcher_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master fletcher offers, chosen from its available trade groups: Buys: tripwire hook. Sells: arrow, enchanted crossbow. Some offers also require: arrow. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/fletcher_trades.json"
+      ]
+    }
+  },
+  "leatherworker": {
+    "novice": {
+      "answer": "Possible novice leatherworker offers, chosen from its available trade groups: Buys: leather. Sells: leather chestplate, leather leggings. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/leather_worker_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice leatherworker offers, chosen from its available trade groups: Buys: flint. Sells: leather boots, leather helmet. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/leather_worker_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman leatherworker offers, chosen from its available trade groups: Buys: rabbit hide. Sells: leather chestplate. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/leather_worker_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert leatherworker offers, chosen from its available trade groups: Buys: turtle shell piece. Sells: horsearmorleather. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/leather_worker_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master leatherworker offers, chosen from its available trade groups: Sells: leather helmet, saddle. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/leather_worker_trades.json"
+      ]
+    }
+  },
+  "librarian": {
+    "novice": {
+      "answer": "Possible novice librarian offers, chosen from its available trade groups: Buys: paper. Sells: bookshelf, enchanted book. Some offers also require: book. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/librarian_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice librarian offers, chosen from its available trade groups: Buys: book. Sells: enchanted book, lantern. Some offers also require: book. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/librarian_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman librarian offers, chosen from its available trade groups: Buys: ink sac. Sells: enchanted book, glass. Some offers also require: book. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/librarian_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert librarian offers, chosen from its available trade groups: Buys: writable book. Sells: clock, compass, enchanted book. Some offers also require: book. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/librarian_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master librarian offers, chosen from its available trade groups: Sells: red candle, yellow candle. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/librarian_trades.json"
+      ]
+    }
+  },
+  "mason": {
+    "novice": {
+      "answer": "Possible novice mason offers, chosen from its available trade groups: Buys: clay ball. Sells: brick. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/stone_mason_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice mason offers, chosen from its available trade groups: Buys: stone. Sells: chiseled stone bricks. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/stone_mason_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman mason offers, chosen from its available trade groups: Buys: andesite, diorite, granite. Sells: dripstone block, polished andesite, polished diorite, polished granite. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/stone_mason_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert mason offers, chosen from its available trade groups: Buys: quartz. Sells: black glazed terracotta, black terracotta, blue glazed terracotta, blue terracotta, brown glazed terracotta, brown terracotta, cyan glazed terracotta, cyan terracotta, gray glazed terracotta, gray terracotta, green glazed terracotta, green terracotta, light blue glazed terracotta, light blue terracotta, light gray terracotta, lime glazed terracotta, lime terracotta, magenta glazed terracotta, magenta terracotta, orange glazed terracotta, orange terracotta, pink glazed terracotta, pink terracotta, purple glazed terracotta, purple terracotta, red glazed terracotta, red terracotta, silver glazed terracotta, white glazed terracotta, white terracotta, yellow glazed terracotta, yellow terracotta. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/stone_mason_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master mason offers, chosen from its available trade groups: Sells: quartz block, quartz pillar. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/stone_mason_trades.json"
+      ]
+    }
+  },
+  "shepherd": {
+    "novice": {
+      "answer": "Possible novice shepherd offers, chosen from its available trade groups: Buys: black wool, brown wool, gray wool, white wool. Sells: shears. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/shepherd_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice shepherd offers, chosen from its available trade groups: Buys: black dye, gray dye, light blue dye, lime dye, white dye. Sells: black carpet, black wool, blue carpet, blue wool, brown carpet, brown wool, cyan carpet, cyan wool, gray carpet, gray wool, green carpet, green wool, light blue carpet, light blue wool, light gray carpet, light gray wool, lime carpet, lime wool, magenta carpet, magenta wool, orange carpet, orange wool, pink carpet, pink wool, purple carpet, purple wool, red carpet, red wool, white carpet, white wool, yellow carpet, yellow wool. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/shepherd_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman shepherd offers, chosen from its available trade groups: Buys: light gray dye, orange dye, pink dye, red dye, yellow dye. Sells: bed. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/shepherd_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert shepherd offers, chosen from its available trade groups: Buys: blue dye, brown dye, cyan dye, green dye, magenta dye, purple dye. Sells: banner. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/shepherd_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master shepherd offers, chosen from its available trade groups: Sells: painting. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/shepherd_trades.json"
+      ]
+    }
+  },
+  "toolsmith": {
+    "novice": {
+      "answer": "Possible novice toolsmith offers, chosen from its available trade groups: Buys: coal. Sells: stone axe, stone hoe, stone pickaxe, stone shovel. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/tool_smith_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice toolsmith offers, chosen from its available trade groups: Buys: iron ingot. Sells: bell. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/tool_smith_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman toolsmith offers, chosen from its available trade groups: Buys: flint. Sells: diamond hoe, enchanted iron axe, enchanted iron pickaxe, enchanted iron shovel. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/tool_smith_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert toolsmith offers, chosen from its available trade groups: Buys: diamond. Sells: enchanted diamond axe, enchanted diamond shovel. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/tool_smith_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master toolsmith offers, chosen from its available trade groups: Sells: enchanted diamond pickaxe. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/tool_smith_trades.json"
+      ]
+    }
+  },
+  "weaponsmith": {
+    "novice": {
+      "answer": "Possible novice weaponsmith offers, chosen from its available trade groups: Buys: coal. Sells: enchanted iron sword, iron axe. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/weapon_smith_trades.json"
+      ]
+    },
+    "apprentice": {
+      "answer": "Possible apprentice weaponsmith offers, chosen from its available trade groups: Buys: iron ingot. Sells: bell. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/weapon_smith_trades.json"
+      ]
+    },
+    "journeyman": {
+      "answer": "Possible journeyman weaponsmith offers, chosen from its available trade groups: Buys: flint. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/weapon_smith_trades.json"
+      ]
+    },
+    "expert": {
+      "answer": "Possible expert weaponsmith offers, chosen from its available trade groups: Buys: diamond. Sells: enchanted diamond axe. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/weapon_smith_trades.json"
+      ]
+    },
+    "master": {
+      "answer": "Possible master weaponsmith offers, chosen from its available trade groups: Sells: enchanted diamond sword. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/weapon_smith_trades.json"
+      ]
+    }
+  },
+  "wandering trader": {
+    "rotating": {
+      "answer": "Possible rotating wandering trader offers, chosen from its available trade groups: Buys: baked potato, fermented spider eye, hay bale, milk bucket, water bottle, water bucket. Sells: Invisibility potion, acacia log, acacia sapling, allium, azure bluet, beetroot seeds, birch log, birch sapling, black dye, blue dye, blue ice, blue orchid, brain coral block, brown dye, brown mushroom, bubble coral block, bucket of pufferfish, bucket of tropical fish, cactus, cherry log, cherry sapling, cornflower, cyan dye, dandelion, dark oak log, dark oak sapling, dirt with roots, enchanted iron pickaxe, fern, fire coral block, firefly bush, glowstone, golden dandelion, gray dye, green dye, gunpowder, horn coral block, jungle log, jungle sapling, kelp, light blue dye, light gray dye, lily of the valley, lime dye, magenta dye, mangrove log, mangrove propagule, melon seeds, moss block, name tag, nautilus shell, oak log, oak sapling, open eyeblossom, orange dye, orange tulip, oxeye daisy, packed ice, pale hanging moss, pale moss block, pale oak log, pale oak sapling, pink dye, pink tulip, podzol, pointed dripstone, poplar log, poplar sapling, poppy, pumpkin, pumpkin seeds, purple dye, red dye, red mushroom, red sand, red tulip, sand, sea pickle, shelf mushroom, slimeball, small dripleaf block, spruce log, spruce sapling, sugar cane, sulfur spike, tall dry grass, tube coral block, vine, waterlily, wheat seeds, white dye, white tulip, wildflowers, yellow dye. An individual trader may not offer every listed item. Prices and available uses can change; some offers depend on world settings.",
+      "coverage": "sample_trade_inventory",
+      "sources": [
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/trading/economy_trades/wandering_trader_trades.json"
+      ]
+    }
+  }
+}

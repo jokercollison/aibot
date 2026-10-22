@@ -1,3 +1,22 @@
+# Current release: 0.2.17 — normal entity phase closeout
+
+The agreed normal entity pass is complete for all 129 pinned catalog profiles.
+All 90 mobs have the required 31 core topic decisions and their listed special
+mechanics. Feeding gaps are replaced with scoped explanations, shared capability
+and effect rules are connected, and 66 trade inventories cover 13 professions
+plus wandering traders. See ENTITY_COMPLETION.md and ENTITY_COMPLETION_REPORT.json.
+
+Full wiki completeness is not claimed. Two command-created growth timers are
+excluded; eight narrow evidence limits remain documented. They do not keep this
+phase open. Blocks are next, with future entity bug fixes/additions handled as needed.
+
+209 tests and release validation pass. The actual conversation audit checks 5,780
+representative questions: 5,776 routed answers, four excluded partial cases, zero
+unexpected failures. Actual Minecraft testing remains pending. Use only the
+0.2.17 changed-feature checklist. Historical downloads remain unchanged.
+
+## Earlier milestones and release records
+
 # Current baseline release: 0.2.16 — large entity core pass
 
 289 new answers across 87 mob profiles; 287 reviewed summaries and two partial

@@ -1,3 +1,10 @@
+# Current testing status: 0.2.17 pending
+
+Automated validation closes the agreed entity implementation scope, not actual
+Minecraft testing. The new capability, effect, special and trade answers need
+the focused 0.2.17 checklist. Multiplayer and actual device performance remain
+separate. No prior or new in-game pass is inferred from code tests.
+
 # Current testing status: 0.2.16 pending
 
 Automated validation and the question matrix do not execute Minecraft. No pass

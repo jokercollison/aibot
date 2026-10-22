@@ -4,9 +4,13 @@ from entity_topics import feeding, health, sample_url
 from entity_environment import compile as compile_environment
 from entity_spawning import compile as compile_spawning
 from entity_audit import compile_audit
+from entity_finish import extend as extend_finish
+from entity_completion import compile_report as compile_completion
+from entity_trade_inventory import compile_inventory
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def build():
+ compile_inventory()
  compile_environment()
  compile_spawning()
  evidence=json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects']
@@ -78,9 +82,12 @@ def build():
   if key=='minecraft:mooshroom':runtime[key]['flower_effects']=interaction_source['mooshroom_flowers']
   if key in references:runtime[key]['reference']={k:references[key][k] for k in ['id','name','what','does','aliases']}
   audit[key]={'name':subject['name'],'category':subject['category'],'source':subject['wiki']['url'],'topics':{name:(topics[name]['coverage'] if name in topics else 'pending_review') for name in sorted(set(subject['topics'])|set(topics))},'complete':False}
+ finish_counts=extend_finish(runtime)
+ for key in audit:
+  audit[key]['topics']={name:(runtime[key]['topics'][name]['coverage'] if name in runtime[key]['topics'] else 'pending_review') for name in sorted(set(audit[key]['topics'])|set(runtime[key]['topics']))}
  assert not set(editorial)-set(evidence)
  (ROOT/'data/entities/runtime.json').write_text(json.dumps(runtime,indent=2,ensure_ascii=False)+'\n')
- report={'scope':'Catalog entities; wiki-only candidates require availability reconciliation. Summaries are not exhaustive topic coverage.','entities':len(runtime),'catalog_entities':catalog_entities,'additional_reference_subjects':len(references),'entities_with_curated_topics':sum(bool(r['topics']) for r in runtime.values()),'curated_topic_summaries':sum(sum(t['coverage']=='reviewed_summary' for t in r['topics'].values()) for r in runtime.values()),'component_topic_summaries':sum(sum(t['coverage'] in ['sample_component_summary','scoped_sample_interactions','explicit_sample_environment'] for t in r['topics'].values()) for r in runtime.values()),'basic_topic_summaries':sum(sum(t['coverage'] in ['editorial_basic_summary','basic_behavior_classification'] for t in r['topics'].values()) for r in runtime.values()),'named_variant_records':sum(len(r['variants']) for k,r in runtime.items() if not r.get('variant_alias_owner')),'variant_topic_summaries':sum(sum(len(v['topics']) for v in r['variants']) for r in runtime.values() if not r.get('variant_alias_owner')),'complete':False,'source_conflicts':conflicts,'subjects':audit}
+ report={'scope':'Catalog entities; wiki-only candidates require availability reconciliation. Summaries are not exhaustive topic coverage.','entities':len(runtime),'catalog_entities':catalog_entities,'additional_reference_subjects':len(references),'entities_with_curated_topics':sum(bool(r['topics']) for r in runtime.values()),'curated_topic_summaries':sum(sum(t['coverage']=='reviewed_summary' for t in r['topics'].values()) for r in runtime.values()),'component_topic_summaries':sum(sum(t['coverage'] in ['sample_component_summary','scoped_sample_interactions','explicit_sample_environment'] for t in r['topics'].values()) for r in runtime.values()),'basic_topic_summaries':sum(sum(t['coverage'] in ['editorial_basic_summary','basic_behavior_classification'] for t in r['topics'].values()) for r in runtime.values()),'named_variant_records':sum(len(r['variants']) for k,r in runtime.items() if not r.get('variant_alias_owner')),'variant_topic_summaries':sum(sum(len(v['topics']) for v in r['variants']) for r in runtime.values() if not r.get('variant_alias_owner')),'complete':False,'rule_topic_summaries':sum(t['coverage']=='reviewed_rule' for r in runtime.values() for t in r['topics'].values()),'capability_topic_summaries':sum(t['coverage']=='reviewed_capability' for r in runtime.values() for t in r['topics'].values()),'finish_batch':finish_counts,'source_conflicts':conflicts,'subjects':audit}
  interaction_audit={'scope':'Reviewed special interaction batch; topic absence is pending review, not proof an action is impossible.','subjects_in_batch':len(special_data),'batch_topic_summaries':sum(len(r['topics']) for r in special_data.values()),'complete':False,'subjects':{key:{'name':subject['name'],'reviewed_batch_topics':sorted(special_data.get(key,{}).get('topics',{})),'complete':False} for key,subject in evidence.items() if subject['category']=='mob'}}
  (ROOT/'docs/ENTITY_INTERACTION_COVERAGE.json').write_text(json.dumps(interaction_audit,indent=2)+'\n')
  reward_audit={'scope':reward_data['scope'],'subjects_in_batch':len(reward_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in reward_data['subjects'].values()),'conflicts':reward_data['conflicts'],'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in reward_data['subjects'].items()}}
@@ -96,6 +103,7 @@ def build():
  (ROOT/'docs/ENTITY_OBJECT_COVERAGE.json').write_text(json.dumps(object_audit,indent=2)+'\n')
  condition_audit={'scope':condition_data['scope'],'reviewed_subjects':len(condition_data['subjects']),'reviewed_topic_summaries':sum(len(r['topics']) for r in condition_data['subjects'].values()),'complete':False,'subjects':{key:{'topics':sorted(row['topics']),'complete':False} for key,row in condition_data['subjects'].items()}}
  (ROOT/'docs/ENTITY_CONDITION_COVERAGE.json').write_text(json.dumps(condition_audit,indent=2)+'\n')
+ (ROOT/'docs/ENTITY_COMPLETION_REPORT.json').write_text(json.dumps(compile_completion(json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects'],runtime),indent=2)+'\n')
  (ROOT/'docs/ENTITY_CORE_TOPIC_AUDIT.json').write_text(json.dumps(compile_audit(json.loads((ROOT/'data/entities/subjects.json').read_text())['subjects'],runtime),indent=2)+'\n')
  (ROOT/'docs/ENTITY_KNOWLEDGE_COVERAGE.json').write_text(json.dumps(report,indent=2)+'\n')
  print(f"Entity database: {report['entities']} subjects, {report['curated_topic_summaries']} curated topic summaries; completeness remains pending")

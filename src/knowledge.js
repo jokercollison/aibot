@@ -1,3 +1,4 @@
+import {affinityTopics} from './entity-affinities.js';
 import {objectTopics} from './entity-objects.js';
 import {movementTopics} from './entity-movement.js';
 import {combatTopics} from './entity-combat.js';
@@ -47,7 +48,7 @@ function subjects(text) {
     for (let size = Math.min(maxAliasWords, words.length - i); size > 0; size--) {
       const term = words.slice(i, i + size).join(' ');
       const singular = term.endsWith('ies') ? term.slice(0, -3) + 'y' : term.endsWith('s') ? term.slice(0, -1) : term;
-      const irregular = {wolves:'wolf',vexes:'vex',foxes:'fox'};
+      const irregular = {wolves:'wolf',vexes:'vex',foxes:'fox',witches:'witch',endermen:'enderman',nautiluses:'nautilus','zombie nautiluses':'zombie nautilus','zombified pigmen':'zombified piglin','zombie pigmen':'zombified piglin'};
       const ids = aliasIndex.get(term) ?? aliasIndex.get(irregular[term] ?? singular) ?? aliasIndex.get(term + 's') ?? [];
       for (const id of ids) if (records[id]) found.push({record: records[id], size, start: i});
     }
@@ -162,6 +163,14 @@ export function createConversation() {
         }
         pendingVariant=undefined;
       }
+      if(previous?.kind==='entity'&&['minecraft:villager','minecraft:villager_v2'].includes(previous.minecraft_id)&&previousEntityTopic==='trading') {
+        const level=q.match(/^(?:and |what about |how about )?(?:a |an |the )?(novice|apprentice|journeyman|expert|master|level [1-5])$/);
+        if(level&&previousVariant)return this.ask(`What does ${level[1]} ${previousVariant} sell?`);
+      }
+      if(previous?.kind==='entity') {
+        const effect=q.match(/^(?:and |what about |how about )(smite|bane of arthropods|impaling|poison|regeneration|regen)(?: then)?$/);
+        if(effect)return this.ask(`Does ${effect[1]} work against entity:${previous.minecraft_id}?`);
+      }
       if(previous?.kind==='entity'&&['breeding','breeding_conditions'].includes(previousEntityTopic)) {
         const age=q.match(/^(?:and |what about |how about )?(?:the )?(adults?|bab(?:y|ies))(?: then)?$/);
         if(age)return this.ask(`Can ${age[1]} entity:${previous.minecraft_id} breed?`);
@@ -245,10 +254,14 @@ export function createConversation() {
       let inheritedSubject=false;
       let scopedSpawnSubject=false;
       let scopedInteraction=false;
+      if(previous?.kind!=='entity'&&affinityTopics.includes(entityTopic(q))&&/\b(?:on|against|to|hurt|heal|poison) (?:it|them)\b/.test(q))return {status:'unknown',answer:unknown};
+      if(previous?.kind==='entity'&&affinityTopics.includes(entityTopic(q))&&/\b(?:on|against|to|hurt|heal|poison) (?:it|them)\b/.test(q)) {
+        matches.splice(0,matches.length,{record:previous,size:1,start:0});inheritedSubject=true;
+      }
       const shieldFollowup=previous?.kind==='entity'&&entityTopic(q)==='counterplay'&&/^(?:can|will|does) (?:a |my |the )?shield (?:protect me|help|block (?:it|that|its attack))$/.test(q);
       if(shieldFollowup){matches.splice(0,matches.length,{record:previous,size:1,start:0});inheritedSubject=true;}
 
-      if([...specialInteractionTopics,...rewardTopics,...combatTopics,...movementTopics,...objectTopics].includes(entityTopic(q))) {
+      if(['trading','naming',...affinityTopics,...specialInteractionTopics,...rewardTopics,...combatTopics,...movementTopics,...objectTopics].includes(entityTopic(q))) {
         if(previous&&/\b(?:can|does|do|will|won t|doesn t|don t) (?:it|they)\b|\b(?:leash|bucket|feed|trust|collect|help|move|transport|relocate|bring) (?:it|them)\b/.test(q)) {matches.splice(0,matches.length);inheritedSubject=true;}
         else {
           const entities=matches.filter(m=>m.record.kind==='entity');

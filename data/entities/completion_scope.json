@@ -1,0 +1,712 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "milestone": "Normal entity gameplay closeout",
+  "full_wiki_completeness": false,
+  "mob_topics": [
+    "identity",
+    "spawning",
+    "spawn_conditions",
+    "health",
+    "diet",
+    "taming",
+    "breeding",
+    "growth",
+    "drops",
+    "experience",
+    "interactions",
+    "variants",
+    "attack_style",
+    "provocation",
+    "counterplay",
+    "lifetime",
+    "relocation",
+    "leashing",
+    "bucketing",
+    "transport",
+    "trading",
+    "milking",
+    "healing",
+    "smite",
+    "bane_of_arthropods",
+    "impaling",
+    "poison_reaction",
+    "regeneration_reaction",
+    "healing_magic",
+    "harming_magic",
+    "naming"
+  ],
+  "mob_special_topics": {
+    "minecraft:allay": [
+      "breeding",
+      "delivery",
+      "music",
+      "storage",
+      "item_holding"
+    ],
+    "minecraft:armadillo": [
+      "brushing",
+      "rolling",
+      "defense"
+    ],
+    "minecraft:axolotl": [
+      "playing_dead",
+      "support",
+      "water",
+      "land"
+    ],
+    "minecraft:bat": [],
+    "minecraft:bee": [
+      "housing",
+      "harvesting",
+      "pollination",
+      "anger"
+    ],
+    "minecraft:blaze": [
+      "fire",
+      "water"
+    ],
+    "minecraft:bogged": [
+      "shearing",
+      "equipment_drops"
+    ],
+    "minecraft:breeze": [
+      "counterplay"
+    ],
+    "minecraft:camel": [
+      "equipment",
+      "breeding_age"
+    ],
+    "minecraft:camel_husk": [
+      "counterplay"
+    ],
+    "minecraft:cat": [
+      "sitting",
+      "collar",
+      "sleeping",
+      "defense",
+      "teleportation"
+    ],
+    "minecraft:cave_spider": [
+      "attack_style"
+    ],
+    "minecraft:chicken": [
+      "nesting"
+    ],
+    "minecraft:cod": [
+      "water"
+    ],
+    "minecraft:copper_golem": [
+      "construction",
+      "oxidation",
+      "delivery",
+      "storage",
+      "reactivation"
+    ],
+    "minecraft:cow": [
+      "milking"
+    ],
+    "minecraft:creaking": [
+      "vibrations",
+      "health",
+      "counterplay"
+    ],
+    "minecraft:creeper": [
+      "lightning",
+      "drops"
+    ],
+    "minecraft:dolphin": [
+      "treasure",
+      "speed",
+      "water",
+      "land"
+    ],
+    "minecraft:donkey": [
+      "storage",
+      "equipment"
+    ],
+    "minecraft:drowned": [
+      "equipment_drops",
+      "drops_conversion",
+      "drops_shell",
+      "infection"
+    ],
+    "minecraft:elder_guardian": [
+      "support"
+    ],
+    "minecraft:ender_dragon": [
+      "construction",
+      "drops"
+    ],
+    "minecraft:enderman": [
+      "anger",
+      "teleportation",
+      "item_holding"
+    ],
+    "minecraft:endermite": [
+      "lifetime"
+    ],
+    "minecraft:evocation_illager": [
+      "attack_style",
+      "counterplay"
+    ],
+    "minecraft:fox": [
+      "trust",
+      "item_holding",
+      "drops_totem",
+      "drops_consumed_food"
+    ],
+    "minecraft:frog": [
+      "froglights",
+      "hatching"
+    ],
+    "minecraft:ghast": [
+      "counterplay"
+    ],
+    "minecraft:glow_squid": [
+      "land",
+      "growth"
+    ],
+    "minecraft:goat": [
+      "horns"
+    ],
+    "minecraft:guardian": [
+      "attack_style",
+      "counterplay"
+    ],
+    "minecraft:happy_ghast": [
+      "equipment",
+      "growth"
+    ],
+    "minecraft:hoglin": [
+      "conversion"
+    ],
+    "minecraft:horse": [
+      "equipment",
+      "breeding_ownership"
+    ],
+    "minecraft:husk": [
+      "conversion",
+      "infection"
+    ],
+    "minecraft:iron_golem": [
+      "construction",
+      "repair"
+    ],
+    "minecraft:llama": [
+      "storage",
+      "equipment",
+      "caravan",
+      "breeding_conditions"
+    ],
+    "minecraft:magma_cube": [
+      "attack_style",
+      "growth"
+    ],
+    "minecraft:mooshroom": [
+      "milking",
+      "shearing",
+      "lightning",
+      "conversion"
+    ],
+    "minecraft:mule": [
+      "storage",
+      "equipment",
+      "breeding"
+    ],
+    "minecraft:nautilus": [
+      "equipment"
+    ],
+    "minecraft:ocelot": [
+      "trust"
+    ],
+    "minecraft:panda": [
+      "breeding_conditions"
+    ],
+    "minecraft:parched": [
+      "equipment_drops"
+    ],
+    "minecraft:parrot": [
+      "food_safety",
+      "shoulder",
+      "imitation",
+      "music",
+      "sitting"
+    ],
+    "minecraft:phantom": [
+      "spawn_conditions"
+    ],
+    "minecraft:pig": [
+      "equipment",
+      "lightning"
+    ],
+    "minecraft:piglin": [
+      "trading",
+      "conversion",
+      "drops_gold",
+      "drops_pork"
+    ],
+    "minecraft:piglin_brute": [
+      "trading",
+      "conversion"
+    ],
+    "minecraft:pillager": [
+      "equipment_drops"
+    ],
+    "minecraft:polar_bear": [
+      "provocation",
+      "growth"
+    ],
+    "minecraft:pufferfish": [
+      "poison_reaction",
+      "attack_style"
+    ],
+    "minecraft:rabbit": [
+      "naming"
+    ],
+    "minecraft:ravager": [
+      "counterplay"
+    ],
+    "minecraft:salmon": [
+      "variants",
+      "growth"
+    ],
+    "minecraft:sheep": [
+      "shearing",
+      "naming"
+    ],
+    "minecraft:shulker": [
+      "breeding",
+      "teleportation"
+    ],
+    "minecraft:silverfish": [
+      "infestation"
+    ],
+    "minecraft:skeleton": [
+      "conversion",
+      "equipment_drops"
+    ],
+    "minecraft:skeleton_horse": [
+      "equipment",
+      "transport"
+    ],
+    "minecraft:slime": [
+      "growth",
+      "spawning"
+    ],
+    "minecraft:sniffer": [
+      "digging",
+      "hatching",
+      "breeding_health",
+      "digging_age"
+    ],
+    "minecraft:snow_golem": [
+      "construction",
+      "shearing",
+      "temperature"
+    ],
+    "minecraft:spider": [
+      "attack_style"
+    ],
+    "minecraft:squid": [
+      "land",
+      "growth"
+    ],
+    "minecraft:stray": [
+      "equipment_drops"
+    ],
+    "minecraft:strider": [
+      "equipment",
+      "temperature"
+    ],
+    "minecraft:sulfur_cube": [
+      "interactions",
+      "growth",
+      "bucketing"
+    ],
+    "minecraft:tadpole": [
+      "growth"
+    ],
+    "minecraft:trader_llama": [
+      "storage",
+      "caravan",
+      "breeding_conditions"
+    ],
+    "minecraft:tropicalfish": [
+      "variants",
+      "bucketing"
+    ],
+    "minecraft:turtle": [
+      "nesting",
+      "hatching",
+      "harvesting"
+    ],
+    "minecraft:vex": [
+      "lifetime",
+      "equipment_drops"
+    ],
+    "minecraft:villager": [
+      "profession",
+      "restocking",
+      "breeding_conditions",
+      "infection"
+    ],
+    "minecraft:villager_v2": [
+      "profession",
+      "restocking",
+      "breeding_conditions",
+      "infection"
+    ],
+    "minecraft:vindicator": [
+      "naming"
+    ],
+    "minecraft:wandering_trader": [
+      "lifetime",
+      "trading",
+      "diet"
+    ],
+    "minecraft:warden": [
+      "vibrations",
+      "counterplay",
+      "lifetime"
+    ],
+    "minecraft:witch": [
+      "diet",
+      "curing"
+    ],
+    "minecraft:wither": [
+      "construction",
+      "counterplay"
+    ],
+    "minecraft:wither_skeleton": [
+      "equipment_drops"
+    ],
+    "minecraft:wolf": [
+      "equipment",
+      "repair",
+      "collar",
+      "sitting",
+      "teleportation",
+      "breeding_health"
+    ],
+    "minecraft:zoglin": [
+      "conversion"
+    ],
+    "minecraft:zombie": [
+      "conversion",
+      "infection"
+    ],
+    "minecraft:zombie_horse": [
+      "equipment"
+    ],
+    "minecraft:zombie_nautilus": [
+      "equipment",
+      "transport"
+    ],
+    "minecraft:zombie_pigman": [
+      "anger"
+    ],
+    "minecraft:zombie_villager": [
+      "curing",
+      "infection",
+      "conversion"
+    ],
+    "minecraft:zombie_villager_v2": [
+      "curing",
+      "infection",
+      "conversion"
+    ]
+  },
+  "non_mob_topics": {
+    "minecraft:boat": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:chest_boat": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:minecart": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:chest_minecart": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:hopper_minecart": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:command_block_minecart": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:tnt_minecart": [
+      "identity",
+      "storage",
+      "propulsion",
+      "retrieval"
+    ],
+    "minecraft:arrow": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:egg": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:snowball": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:ender_pearl": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:eye_of_ender_signal": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:xp_bottle": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval",
+      "experience"
+    ],
+    "minecraft:fireworks_rocket": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:fishing_hook": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:lingering_potion": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:splash_potion": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:wind_charge_projectile": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:breeze_wind_charge_projectile": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:fireball": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:small_fireball": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:shulker_bullet": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:dragon_fireball": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:llama_spit": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:thrown_trident": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:wither_skull": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:wither_skull_dangerous": [
+      "identity",
+      "projectile_use",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:area_effect_cloud": [
+      "identity",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:armor_stand": [
+      "identity",
+      "equipment",
+      "posing",
+      "retrieval"
+    ],
+    "minecraft:ender_crystal": [
+      "identity",
+      "activation",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:tnt": [
+      "identity",
+      "activation",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:xp_orb": [
+      "identity",
+      "experience",
+      "retrieval",
+      "storage"
+    ],
+    "minecraft:ominous_item_spawner": [
+      "identity",
+      "activation",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:lightning_bolt": [
+      "identity",
+      "activation",
+      "projectile_effects",
+      "retrieval"
+    ],
+    "minecraft:cushion": [
+      "identity",
+      "transport",
+      "retrieval"
+    ],
+    "minecraft:agent": [
+      "identity",
+      "availability",
+      "interactions"
+    ],
+    "minecraft:npc": [
+      "identity",
+      "availability",
+      "interactions"
+    ],
+    "minecraft:tripod_camera": [
+      "identity",
+      "availability",
+      "interactions"
+    ],
+    "minecraft:player": [
+      "identity",
+      "experience",
+      "retrieval"
+    ]
+  },
+  "excluded_topic_slots": [
+    {
+      "subject": "minecraft:skeleton_horse",
+      "topic": "growth",
+      "reason": "Command-created baby growth timer; normal trap horses are adults and cannot breed."
+    },
+    {
+      "subject": "minecraft:zombie_horse",
+      "topic": "growth",
+      "reason": "Command-created baby growth timer; no normal breeding cycle."
+    }
+  ],
+  "scope_limits": [
+    "Normal Bedrock 1.26.52 interactions and listed special mechanics, not every conceivable wording or complete wiki articles.",
+    "Shared rule applications are separate from individually written species summaries.",
+    "Creator/Education entities retain availability restrictions; full creator tools and command-only oddities do not block this phase.",
+    "Full player progression, block/item reference expansion and future-version mobs are separate phases.",
+    "Bug fixes and additional facts can be added after this entity pass."
+  ],
+  "narrow_unknowns": [
+    {
+      "subject": "minecraft:axolotl",
+      "topic": "experience",
+      "reason": "Archived wiki 1 XP conflicts with pinned sample 1\u20133; exact amount withheld."
+    },
+    {
+      "subject": "minecraft:llama",
+      "topic": "experience_breeding",
+      "reason": "Archived wiki 1\u20138 conflicts with pinned sample 1\u20137; exact amount withheld."
+    },
+    {
+      "subject": "minecraft:piglin",
+      "topic": "experience",
+      "reason": "Equipment bonus conflicts; base XP only is stated."
+    },
+    {
+      "subject": "minecraft:bee",
+      "topic": "diet",
+      "reason": "Wither rose suitability conflicts; safe alternative flowers are recommended."
+    },
+    {
+      "subject": "minecraft:creeper",
+      "topic": "drops",
+      "reason": "Parched-kill music-disc condition conflicts; no specific affirmative drop claim."
+    },
+    {
+      "subject": "minecraft:fox",
+      "topic": "conditional_loot",
+      "reason": "Pinned fox loot table absent; curated carried-item guidance remains, no invented exact table."
+    },
+    {
+      "subject": "minecraft:piglin",
+      "topic": "conditional_loot",
+      "reason": "Pinned piglin/brute loot table absent; curated guidance remains, no invented exact table."
+    },
+    {
+      "subject": "minecraft:happy_ghast",
+      "topic": "lifetime",
+      "reason": "Universal persistence wording conflicts between wiki and sample; verified naming/riding advice is provided instead."
+    }
+  ]
+}

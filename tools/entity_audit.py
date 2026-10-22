@@ -1,6 +1,6 @@
 """Catalog-wide topic audit. Presence and reviewed summaries never imply completeness."""
 from collections import Counter
-MOB_TOPICS=['identity','spawning','spawn_conditions','health','diet','taming','breeding','growth','drops','experience','variants','interactions','attack_style','provocation','counterplay','lifetime','relocation']
+MOB_TOPICS=['identity','spawning','spawn_conditions','health','diet','taming','breeding','growth','drops','experience','variants','interactions','attack_style','provocation','counterplay','lifetime','relocation','leashing','bucketing','transport','trading','milking','smite','bane_of_arthropods','impaling','poison_reaction','regeneration_reaction','healing_magic','harming_magic','healing','naming']
 OBJECT_TOPICS=['identity','spawning','availability','interactions','drops','health']
 def compile_audit(catalog,runtime):
  subjects={};counts={}

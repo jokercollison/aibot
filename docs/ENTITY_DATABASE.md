@@ -1,3 +1,11 @@
+# Normal entity phase closed — 0.2.17
+
+[Completion scope, evidence and exceptions](ENTITY_COMPLETION.md) now govern the
+entity phase. All 129 catalog profiles have the required normal-gameplay coverage;
+the full-wiki audit remains distinct and incomplete. There are 2,241 individually
+written reviewed summaries plus shared rule/capability applications and 66 trade
+inventories. Next category: blocks. Earlier milestone records follow.
+
 # Entity core baseline — 0.2.16
 
 The [milestone report](ENTITY_CORE_MILESTONE.md) defines the practical entity

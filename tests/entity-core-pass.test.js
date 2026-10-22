@@ -9,8 +9,8 @@ test('catalog core question matrix distinguishes answers, partial facts and hone
  const report=runAudit();
  assert.equal(Object.keys(report.subjects).length,90);
  assert.equal(Object.keys(report.objects).length,39);assert.equal(report.catalog_entities,129);
- assert.equal(report.questions,2992);
- assert.equal(report.answered,2886);assert.equal(report.partial,4);assert.equal(report.unsupported,102);
+ assert.equal(report.questions,5780);
+ assert.equal(report.answered,5776);assert.equal(report.partial,4);assert.equal(report.unsupported,0);
  assert.deepEqual(report.failures,[]);
  for(const row of Object.values(report.subjects))for(const [topic,outcome] of Object.entries(row.outcomes)) {
   assert.equal(row.natural_outcomes[topic],outcome);
@@ -59,12 +59,12 @@ test('Bedrock relocation and persistence retain explicit limitations',()=>{
  assert.match(ask('Does a breeze despawn?').answer,/persistence/);
 });
 test('unsupported questions stay honest and the latest subject survives follow-ups',()=>{
- for(const q of ['What do creepers eat?','Can a cow teleport?','Can a zombie teach calculus?']) {
+ for(const q of ['Can a cow teleport?','Can a zombie teach calculus?']) {
   const r=ask(q);assert.equal(r.status,'unknown',q);assert.ok(r.answer.trim());assert.doesNotMatch(r.answer,/pending_review|spawn_conditions|lifetime/);
  }
  const c=createConversation();c.ask('What is a creeper?');
  assert.equal(c.ask('How can you breed it?').answer,'You cannot breed a creeper.');
- assert.equal(c.ask('What does it eat?').status,'unknown');
+ assert.match(c.ask('What does it eat?').answer,/no food for taming or breeding/);
  assert.equal(c.ask('How can you move it?').subject,'minecraft:creeper');
  assert.equal(createConversation().ask('How can you move it?').status,'unknown');
 });

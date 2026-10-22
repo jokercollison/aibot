@@ -1,0 +1,61 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.17
+ENTITY PHASE CLOSEOUT — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.17.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.17
+  Time Trap Studios AI Bot — Resources 0.2.17
+Both descriptions and the robot menu must show 0.2.17.
+Optional summon: /summon tts_ai_bot_v0_2_17:robot
+
+CHANGED FEATURES ONLY
+The automated question matrix covers the catalog. You do not need to repeat
+all old checklists or find every missing fact yourself.
+
+1. What do creepers eat?
+   Expect no taming/breeding food, not a missing-knowledge message.
+   Then: How can you breed it?
+   Expect: You cannot breed a creeper.
+2. Can I feed an iron golem iron ingots?
+   Expect repair for 25 health, distinct from breeding or taming.
+3. Can I leash a creeper? / Can I bucket a bat? / Can I ride a cow?
+   Expect clear normal-gameplay limitations for each action.
+4. Can I milk a cow with a bucket?
+   Expect milk from an adult cow; not a bucket-capture answer.
+   Then ask: Can I milk a witch with a bucket?
+   Expect No, not confusion with a witch drinking its own potions.
+5. Does Smite work against a warden?
+   Expect no extra Smite damage: a warden is not undead.
+   Then ask: Does Smite work against a zombie?
+   Expect the undead bonus.
+6. What is a zombie?
+   Then: Does a Healing potion affect it?
+   Expect Healing damages undead; Harming heals them.
+   Then: What about Poison?
+   Expect undead Poison immunity.
+7. Does Impaling work against a zombie?
+   Expect Bedrock water/rain condition, not an aquatic-mobs-only rule.
+8. How often does a chicken lay an egg?
+   Expect adult chickens every 5-10 minutes while active, with jockey exception;
+   ordinary egg laying does not require a breeding partner.
+9. How many bees fit in a hive?
+   Expect three and Silk Touch guidance for moving bees inside their home.
+10. Why can a llama in a caravan not breed?
+    Expect separate suitable tamed adults from the caravan and use hay bales.
+11. What is the chance a zombie infects a villager?
+    Expect Easy 0%, Normal 50%, Hard 100%, for a qualifying attacker kill.
+12. How do I cure a witch?
+    Expect No: the zombie-villager cure cannot reverse a witch.
+13. What does an armorer sell?
+    Expect a question about the level.
+    Reply: master
+    Expect possible enchanted diamond helmet/chestplate offers, not fixed prices.
+    Then: What about novice?
+    Expect novice offers, with the same profession retained.
+14. What does a wandering trader sell?
+    Expect its possible rotating inventory, not a claim every trader has all items.
+
+Normal entity work is now closed out. Narrow source conflicts and command-only
+oddities are documented exceptions. Report exact questions/answers for bugs;
+future targeted fixes can continue while block work begins. Multiplayer and
+actual phone/console performance remain separate checks.

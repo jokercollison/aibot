@@ -1,0 +1,3371 @@
+{
+  "schema_version": 1,
+  "target_game_version": "1.26.52",
+  "scope": "Normal Bedrock entity gameplay closeout. Command-only oddities and unresolved source conflicts are excluded explicitly. Shared capability/effect rules are not counted as independently authored species facts.",
+  "references": {
+    "Lead": {
+      "revision_id": 3823154,
+      "sha256": "72c6b5bb160c0f7c3f44b1dce02664bd2c58c2f15f97c4dba9e439da3c42b610",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3823154"
+    },
+    "Bucket of mob": {
+      "revision_id": 3835188,
+      "sha256": "36f23ab4503e18e56ad98b3e41234adfa9e1e476fb5a2cf734ed9a8cb29cb3d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3835188"
+    },
+    "Riding": {
+      "revision_id": 3742606,
+      "sha256": "a3c6ad05489aa25f5bece2e4e2f1cc139bae44106d9a794ab6e0c101a355b179",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3742606"
+    },
+    "Trading": {
+      "revision_id": 3850681,
+      "sha256": "aa0038ac44346aee23c2621c71376e54aea304456eed62b66359ed43a3a47a56",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850681"
+    },
+    "Milk Bucket": {
+      "revision_id": 3846045,
+      "sha256": "a91ffe79e8cfce1aab0e554134ce554432f4af3ffb7b1f23db4fe6639e8b3c4a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846045"
+    },
+    "Smite": {
+      "revision_id": 3849336,
+      "sha256": "6440fd987fdf834c4737812f4fea421c5f6e6162a6cfb8bf8083f5da00215a72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849336"
+    },
+    "Bane of Arthropods": {
+      "revision_id": 3849335,
+      "sha256": "0cf53614cde0701e8bbfed4e1a03aa94a95e28d62a232ff37c28031de8999c74",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849335"
+    },
+    "Impaling": {
+      "revision_id": 3849344,
+      "sha256": "a547d09041c3fc54400b668d91392911ca6f2c015f0919c56f16ca15fbe01968",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849344"
+    },
+    "Undead": {
+      "revision_id": 3836020,
+      "sha256": "d34b551ae877eac100e125af1e4d93c09f9b8026397d65c68344c6b2c9e0ff3b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3836020"
+    },
+    "Poison": {
+      "revision_id": 3830116,
+      "sha256": "19f7126662c1ec1c51639bd40f3ce6275a2d1763a1e094f7885f247f978c59fd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3830116"
+    },
+    "Regeneration": {
+      "revision_id": 3849574,
+      "sha256": "019f0930b32fe854ec4a1ae1ff61785667cbb29dfd35be2bc404a3d0e638f86a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849574"
+    },
+    "Instant Health": {
+      "revision_id": 3849571,
+      "sha256": "1b4162de6b86b2ad7a7199f3169ca560eae33e424f04b1c16d511f7303a4f830",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849571"
+    },
+    "Instant Damage": {
+      "revision_id": 3815043,
+      "sha256": "1e3786bd0f9707d2f67fb0e2780cbbfdee853f9c11dd8e4236c1d940dfe167d1",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3815043"
+    },
+    "Breeding": {
+      "revision_id": 3792652,
+      "sha256": "163d1ecad98780aa236264872d7384d8167909ee2e6522f7c82de8befaab19b5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3792652"
+    },
+    "Allay": {
+      "revision_id": 3852359,
+      "sha256": "486b7c8dc84db4d3b660183829a4d82166a1f0d559f3d161c33f79e946c227c1",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852359"
+    },
+    "Armadillo": {
+      "revision_id": 3844454,
+      "sha256": "5edcd142ae9849ce74698289716a904e597c4a5a487d8a4c9fe45ddffd012713",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844454"
+    },
+    "Axolotl": {
+      "revision_id": 3844455,
+      "sha256": "53d5d3d09e872220bebdd4f7f7127145ceaefdbaf6ab01c7ef012635e678e057",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844455"
+    },
+    "Bat": {
+      "revision_id": 3844624,
+      "sha256": "e44d358930ee14906d528f85ce537a3f3ca6b0e1ab7e67e6fa46b5743a434169",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844624"
+    },
+    "Bee": {
+      "revision_id": 3844630,
+      "sha256": "4a8f5fda0fd26e0aa03abd7ec0f93e3412f65b2ecdb347b2380cbbec21c9d3b9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844630"
+    },
+    "Blaze": {
+      "revision_id": 3852956,
+      "sha256": "db7c9e072a2261f1de1bc6c4d3813e0c9db81b767ffb8798206fbe9db602640e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852956"
+    },
+    "Bogged": {
+      "revision_id": 3851713,
+      "sha256": "87efaed99b90f9dffc1899167afe21deb6c22529cd341b53057173f842fc350d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851713"
+    },
+    "Breeze": {
+      "revision_id": 3822417,
+      "sha256": "2e0105cc35bfc214c2cbcd75b9b74cdbea990f2da02000cdc0a6cdb26b8b0cc8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3822417"
+    },
+    "Camel": {
+      "revision_id": 3853630,
+      "sha256": "570d45627ef5a9c2743c8804ac20c8c121f45eee2ebf341b445be745ffdd3d9e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853630"
+    },
+    "Camel Husk": {
+      "revision_id": 3845813,
+      "sha256": "cfbb399e7ca99b16b7baa7ea9cbb58fda2b126f38281254d2cabf29d333e6d40",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845813"
+    },
+    "Cat": {
+      "revision_id": 3853626,
+      "sha256": "e41207ee3ed28a97a87cbb87721fbe685b0168470eadae4b61bcf9afc685d44b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853626"
+    },
+    "Cave Spider": {
+      "revision_id": 3851778,
+      "sha256": "2ac8a5598a1461ad7ce3436c7bb9bc3c133103e6aae2cc5c49ea25a5b6e6c38f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851778"
+    },
+    "Chicken": {
+      "revision_id": 3850656,
+      "sha256": "f63f4a56a7552145ccdc74700eef465c8bca094756b019d99222a1b9ead4c648",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+    },
+    "Cod": {
+      "revision_id": 3844471,
+      "sha256": "ccd000908f80414a8807ac46c18a818fd26ee20574ec9ac92e2b9e790762f023",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844471"
+    },
+    "Copper Golem": {
+      "revision_id": 3845018,
+      "sha256": "68735bc25a37528f1a0abb0f73c3af27d9393293caa5c33387814f459ff464c4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845018"
+    },
+    "Cow": {
+      "revision_id": 3851210,
+      "sha256": "3f0b4febbc9c94cd6b130416afc7877830dcc84086fe931d1be638358334b949",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851210"
+    },
+    "Creaking": {
+      "revision_id": 3852706,
+      "sha256": "00e066c59993117d89588e612275adaf9dfffe75dbedce51e03be44e8b4479bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3852706"
+    },
+    "Creeper": {
+      "revision_id": 3848379,
+      "sha256": "44a13d77c1b80ff2a0572d8aec8d255b4fa5bf1bc6b2f16641aac1d4879f8e4a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848379"
+    },
+    "Dolphin": {
+      "revision_id": 3844640,
+      "sha256": "f915c2260fc9010a5452b0429abb32b58a92960094b5372ba5c48b1fa321f4cf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844640"
+    },
+    "Donkey": {
+      "revision_id": 3850357,
+      "sha256": "fae56e9d56f614afbc3aa8b8d5c82d1f996c602dac1f78b4c64e2b7c2a2a8b9c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850357"
+    },
+    "Drowned": {
+      "revision_id": 3851909,
+      "sha256": "cbdd5a06530ac56754002e954e2b306550b4cc1737a13779011bf90055f87973",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851909"
+    },
+    "Elder Guardian": {
+      "revision_id": 3853190,
+      "sha256": "ca80c9a285846b0ac3fb48a6e5d6b9c7b8ef8d52a062668c248593d270ee4cf2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+    },
+    "Ender Dragon": {
+      "revision_id": 3851987,
+      "sha256": "35cbcc55b0d177cb7f5389d80a6dad87b1846d9b4db421e118562f49aa9cb277",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851987"
+    },
+    "Enderman": {
+      "revision_id": 3850886,
+      "sha256": "7b9495708e29fe4da3fd1f3778a23c2da97247420cf324aa16b67362e21ce724",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+    },
+    "Endermite": {
+      "revision_id": 3843703,
+      "sha256": "725d08bd3d3e09c85350574e15b165a66740a9cdd09579c736cee6bea8c5aa3f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843703"
+    },
+    "Evoker": {
+      "revision_id": 3853175,
+      "sha256": "e74c10d67daa7e526b18174ebfe7ad902534d611ed2bcae58ca22fab98600897",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853175"
+    },
+    "Fox": {
+      "revision_id": 3851723,
+      "sha256": "358a49ee19b49df4e196f376ee49d64fb626deb8116d6b05836929a6f891f62b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851723"
+    },
+    "Frog": {
+      "revision_id": 3844499,
+      "sha256": "aa870d59ebc36139afd37b6637ab4d4c836a521bdf46c0b06f58cdb0e5c45979",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844499"
+    },
+    "Ghast": {
+      "revision_id": 3830625,
+      "sha256": "cdf30e10c6801e0aa5ca5c403fbc0d29f7343d824d25cd624f5395ce6ed48c1e",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3830625"
+    },
+    "Glow Squid": {
+      "revision_id": 3844507,
+      "sha256": "902c9228a1563c46da21a52f66ca9f3cb34117938bec23d22d452ddc77fb81ea",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844507"
+    },
+    "Goat": {
+      "revision_id": 3844651,
+      "sha256": "698c6e1b5f9787eceb1e68a4beb2b36ee1cefacfe7659dd831e43b4def8dad1f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844651"
+    },
+    "Guardian": {
+      "revision_id": 3853189,
+      "sha256": "130443d2c851ed653bc1f2dccac699a4fd654473642961957a11049d6d3a3e34",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853189"
+    },
+    "Happy Ghast": {
+      "revision_id": 3853633,
+      "sha256": "e8314d1d4eb1dc39bf0de0541c3ed93c71925fd296c95c93a24945ba7d879ae9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853633"
+    },
+    "Hoglin": {
+      "revision_id": 3843704,
+      "sha256": "a5d23adb55e8866b5d4c300f4d296cca138ba7f58ee1e56fe6eb9d16afe1e809",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843704"
+    },
+    "Horse": {
+      "revision_id": 3850329,
+      "sha256": "4d7e566bd6c56ef335e2b0df6a46255558e6b00d3ee4c858583e1f4721abe147",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850329"
+    },
+    "Husk": {
+      "revision_id": 3851908,
+      "sha256": "e600ebc5b5c2d12a6b77168d4a8fbf200bff6d96e7a7d59149a41a76d3632c44",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851908"
+    },
+    "Iron Golem": {
+      "revision_id": 3851102,
+      "sha256": "29260cec4722be4eb073a76f0d40254c924fb87550137173aab6259b4337123b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851102"
+    },
+    "Llama": {
+      "revision_id": 3844667,
+      "sha256": "8494bfd4604e9b07fbc4b7cc880c154290249da211305a5654602e1d3e7f28e8",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+    },
+    "Magma Cube": {
+      "revision_id": 3849057,
+      "sha256": "1ae74e5ab1738a8036f5b8f7d45d70e6726b292b07e7e6aba59f9d8c2c16ad28",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849057"
+    },
+    "Mooshroom": {
+      "revision_id": 3844535,
+      "sha256": "5641a0c9e3944241e0882871a3e18e057f45a707cc36826236b0bef92f740add",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844535"
+    },
+    "Mule": {
+      "revision_id": 3850352,
+      "sha256": "596632d61aa0bf365e43468ff48c94735964987d375be25cead17727adc2abd4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850352"
+    },
+    "Nautilus": {
+      "revision_id": 3844669,
+      "sha256": "25558e8f7681fef8556d4221e5ee17551133da4db086bf23ccecad0153faea35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844669"
+    },
+    "Ocelot": {
+      "revision_id": 3851711,
+      "sha256": "1fe59c7626abc811c7b06f63805435bef605a8bd666dbbd01e422908ccb2f6ce",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851711"
+    },
+    "Panda": {
+      "revision_id": 3846509,
+      "sha256": "527b3a4b259cf897373e5ba57c401ac973a6233aeea000d1653d4ae1c97a9962",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846509"
+    },
+    "Parched": {
+      "revision_id": 3845817,
+      "sha256": "8032945073c2e31cb67316035f8cf96ccddd1b6b46954576dc43851a0c7114aa",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845817"
+    },
+    "Parrot": {
+      "revision_id": 3849952,
+      "sha256": "f547aaf994d25e0c0fbd949e5b5fa94df1e6709375c255be35111564417dfcb4",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849952"
+    },
+    "Phantom": {
+      "revision_id": 3851156,
+      "sha256": "748adc0675f2854719249702c275cb1fb8bdee995019d64b2cf6f92d6bdf5372",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851156"
+    },
+    "Pig": {
+      "revision_id": 3847785,
+      "sha256": "41b0bff50a942df1b1335e949f5cfc025dcfadc71c876a012172ecb09261c968",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847785"
+    },
+    "Piglin": {
+      "revision_id": 3851223,
+      "sha256": "86ebd4c09320abe00c2773b905ee40aea87827758a246175e8d221f270b866bf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851223"
+    },
+    "Piglin Brute": {
+      "revision_id": 3848820,
+      "sha256": "41f41186fdd1478cd07ccbfe4c2b6fc89adcf9f48d37de09f9db637f5114f836",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848820"
+    },
+    "Pillager": {
+      "revision_id": 3843714,
+      "sha256": "8d5480e4b607a3a7bf85765e3fa70efc20b7009e8762342001111f1ff620630c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843714"
+    },
+    "Polar Bear": {
+      "revision_id": 3853198,
+      "sha256": "572119f172a030c7ce0126166835838b3426c7f14ffd1d4f68b6867f367df405",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853198"
+    },
+    "Pufferfish": {
+      "revision_id": 3844681,
+      "sha256": "d666017b6a0e508158626c768cfaa90cb6e4d7a67213902a89734cb9e61d9c72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844681"
+    },
+    "Rabbit": {
+      "revision_id": 3844604,
+      "sha256": "9d36ef20fb7e1a508371a93ec44352fbcbe9d2177b93f621a5f91cf51132e67f",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+    },
+    "Ravager": {
+      "revision_id": 3843713,
+      "sha256": "be80460b2e3b47cd1bc907e33d67aff0643b2db84534a69a0c94873c8a0faa35",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843713"
+    },
+    "Salmon": {
+      "revision_id": 3844555,
+      "sha256": "93fbf57ed77d35b932df407e0117b73f395545bf06a284ef5aab4c7b6fbafda9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844555"
+    },
+    "Sheep": {
+      "revision_id": 3848879,
+      "sha256": "0510096b093b9a16abe87b903681f0661a074c196fd1db291ae0ce47abea9bca",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848879"
+    },
+    "Shulker": {
+      "revision_id": 3843708,
+      "sha256": "9799c73e5648d1c09c14f1ba7fb75fc1818b7da1b56d8f220d50d7407798799a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843708"
+    },
+    "Silverfish": {
+      "revision_id": 3843709,
+      "sha256": "ebcc09c8f3749393963f45c426c95de23f9a842195ca2e241e9d7447890eec60",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+    },
+    "Skeleton": {
+      "revision_id": 3846446,
+      "sha256": "8b2b3c077491f8417c74cfbb8c79459bec1cf3371d418199bf4c52fcc69cb915",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846446"
+    },
+    "Skeleton Horse": {
+      "revision_id": 3849906,
+      "sha256": "962395157889caa503483ffeb0b637a5fabb9001d0cd191f567ec44597c71dd3",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849906"
+    },
+    "Slime": {
+      "revision_id": 3849919,
+      "sha256": "802eb3bdb9c780c8c484c758f52984d7d00cd30301fb8a367876f0dedc560535",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849919"
+    },
+    "Sniffer": {
+      "revision_id": 3847160,
+      "sha256": "34645af8cb715df5e0219465addaaa7adeedc966eb13fd493e8d3d11f65992c2",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3847160"
+    },
+    "Snow Golem": {
+      "revision_id": 3851744,
+      "sha256": "d7303646887143ef12c56c735dd9e074b4cf32744178a07d5d884e9241c657dd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851744"
+    },
+    "Spider": {
+      "revision_id": 3844683,
+      "sha256": "570351db111bb550cb9f97c27c0fd1b72ed945a27c3949294c7d535bf7a1e999",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844683"
+    },
+    "Squid": {
+      "revision_id": 3844578,
+      "sha256": "8ed0c5b83d0e50887a823bb9d8d5466e8e1da09499eb3a12b0d6385847d39849",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844578"
+    },
+    "Stray": {
+      "revision_id": 3844780,
+      "sha256": "0a9d98975220c81acaebcf834e3cdaaaef235e12d8665bd307770e0ccbfbbf34",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844780"
+    },
+    "Strider": {
+      "revision_id": 3844584,
+      "sha256": "415c3ec00da3a60f44e77e04e80da27df294515ebd67f2ad5c14204f74e951d5",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844584"
+    },
+    "Sulfur Cube": {
+      "revision_id": 3853726,
+      "sha256": "31c7803b75cf0517a3664f52e194077b3838a45060323cfbc39e693fe91fb756",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853726"
+    },
+    "Tadpole": {
+      "revision_id": 3849184,
+      "sha256": "9a9aa222c9d1b87debe5ff7cdea32c419ab3f2299b3a8da9de91856f7bcd6655",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849184"
+    },
+    "Trader Llama": {
+      "revision_id": 3849739,
+      "sha256": "37df095b0f11351fcc086eca588fc7ae22f14a4d6c8056b8a1a7fb802be484fd",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+    },
+    "Tropical Fish": {
+      "revision_id": 3844607,
+      "sha256": "9202120d1495824b1d89b4f87442517dfe117ab308cc5cfa1b25dbb2bdee5dc1",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844607"
+    },
+    "Turtle": {
+      "revision_id": 3846426,
+      "sha256": "a07edbbfee13affef2be3f02e4b394373222e9dc6d8f68c4552f4ae30e17721a",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846426"
+    },
+    "Vex": {
+      "revision_id": 3845919,
+      "sha256": "65287f86c8ba8a2af43a1039a66527ba38a7aaed15234ad145d9f2fb187dc2c7",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845919"
+    },
+    "Villager": {
+      "revision_id": 3849427,
+      "sha256": "84e96339f1a286cf12398f20bdca38f9b3341475f2d34dc308229829bfdccf72",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849427"
+    },
+    "Vindicator": {
+      "revision_id": 3848438,
+      "sha256": "5dd9eebfebd1b212597ae1b96e4100241c7c101e6a02de9fe21944d082b0f81d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+    },
+    "Wandering Trader": {
+      "revision_id": 3846633,
+      "sha256": "066104b0b24ccb4816eebc36f0691786e2548c65173d873a0f7d93a20879eabe",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846633"
+    },
+    "Warden": {
+      "revision_id": 3851707,
+      "sha256": "fd347768ba8230a7864d62780e6ce686f79ea12503ac923f64c35bfcd7a5e6a0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851707"
+    },
+    "Witch": {
+      "revision_id": 3850494,
+      "sha256": "f99d2a3fe5960f1373bf90851f67ce4dc4ba4127d06461331da4c100ec2e1026",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+    },
+    "Wither": {
+      "revision_id": 3846728,
+      "sha256": "1b2c7688549032715caa147b97704cf8e34f3a0987454339005448594e9d721c",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846728"
+    },
+    "Wither Skeleton": {
+      "revision_id": 3853122,
+      "sha256": "60a6a2eee743030be789fa9e853b3f47e386846eda7b35305b844cd3dcd84f7d",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3853122"
+    },
+    "Wolf": {
+      "revision_id": 3849342,
+      "sha256": "ee59383d42e88fbe8abef4be1f6c29bf21e37fc18810aaada854d70d11546ddf",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3849342"
+    },
+    "Zoglin": {
+      "revision_id": 3844793,
+      "sha256": "5ebb789feefcfca8d80f33623ee0eb0de3fac84ce2725414f10d683b66972f27",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3844793"
+    },
+    "Zombie": {
+      "revision_id": 3851907,
+      "sha256": "a09aad980011a31e335cbe861e87d135f3c0b2eae9123d70a43f510dd50860a9",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851907"
+    },
+    "Zombie Horse": {
+      "revision_id": 3854012,
+      "sha256": "0b0c7debf2e279a9ba887885a6447dee2377ddd4066b7e78243cd88b2eac11ee",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3854012"
+    },
+    "Zombie Nautilus": {
+      "revision_id": 3845839,
+      "sha256": "b9646d3d48fe19f907e8966c30e7f94e1ec0dd403a4ae76fbeed5f118a2805f0",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3845839"
+    },
+    "Zombified Piglin": {
+      "revision_id": 3851912,
+      "sha256": "70c8f73e21bd9cb27320cd918079dd1dbcaa4f10548e6f325032f43d6d460662",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851912"
+    },
+    "Zombie Villager": {
+      "revision_id": 3851910,
+      "sha256": "3053b3baaeaf5f67f94b9d6b4936c59de66765b0d915a64dcfaf3cc903881e2b",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+    },
+    "Beehive/Usage": {
+      "revision_id": 3851339,
+      "sha256": "b392d7f61b70b7efafa939842a3f9a268e485035b1bb80799413feab57670e83",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3851339"
+    },
+    "Name Tag": {
+      "revision_id": 3846327,
+      "sha256": "22a032234e6ccaaf61b638c96df7a0bb057ace0463d7ef559de48cc40b498f07",
+      "url": "https://minecraft.wiki/w/Special:PermanentLink/3846327"
+    }
+  },
+  "feeding_closeout": {
+    "minecraft:bat": {
+      "answer": "Bats have no food-based taming or breeding interaction. They are passive cave animals, not companions you raise by feeding.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bat.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "ad7753062e26b01484a383ad7cb22955978bae4670d0975d471f785974fa5e83",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:blaze": {
+      "answer": "Blazes have no food for taming or breeding. They are hostile mobs; throwing food at one is not a way to stop its fire attacks.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/blaze.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "753c79c3733ef2c9a60076b2739fe0acc6cb00da6867c1c5ecea3e04aa498900",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:bogged": {
+      "answer": "Bogged have no breeding or taming food. They are undead archers, not animals that can be befriended by feeding.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/bogged.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "df7d191144b215911fa7056e53b4a84694b61a9a56ab9ef21520d161f4e7997a",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:breeze": {
+      "answer": "Breezes have no food-based taming or breeding. Their wind-charge attacks are combat behavior, not a request for food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/breeze.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "a3ea3b1f6e2dd39622682ea4c4a9777dc066d4114791937d1831116e0aa24973",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:cave_spider": {
+      "answer": "Cave spiders have no food-based taming or breeding. Spider eyes are a possible drop, not a way to tame or breed a cave spider.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/cave_spider.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "43fc95b2c2d7c1ed118e76fd80446d006ba910b081512e2156add076bd56c7fe",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:cod": {
+      "answer": "Cod cannot be bred or tamed by feeding. To keep or move a live cod, use a water bucket and give it suitable water rather than breeding food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/fish.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "61c34c891f3a5694173f2defcaafbb5274cdca01bff5f326cba037c2c1e0814e",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:copper_golem": {
+      "answer": "Copper golems sort and carry items rather than use animal breeding food. Honeycomb waxes them and an axe manages wax or oxidation; those are maintenance interactions, not meals or taming.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/copper_golem.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "230ba43400260803421a7cc140288803966cafc033c95c9ca2c4052ca6012b94",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:creaking": {
+      "answer": "Creakings have no food-based breeding or taming. A naturally heart-linked creaking is controlled by its creaking heart; food does not replace that heart mechanic.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3852706",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/creaking.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "1da22f9811c7f1dc3acfd8f13c29e51446fe81642627c37cbe9df1b226e0cf62",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:creeper": {
+      "answer": "Creepers have no food for taming or breeding: you cannot tame or breed a creeper. Offering food does not make one a pet or stop its explosion.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/creeper.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "653c8770d37c7edc8aae6963d9ffef2be66811b9fa460ed2d1a28e55e4555309",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:drowned": {
+      "answer": "Drowned have no food-based taming or breeding. Picking up an item is different from eating it or becoming tame, and a drowned can remain dangerous while holding your item.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/drowned.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "a531f2d7fb3faf7964aa3bc23ee841eb71fff4c5364d639ea94facf79f7379dc",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:elder_guardian": {
+      "answer": "Elder guardians have no food-based taming or breeding. They are monument enemies; keeping them in water is not the same as feeding or taming them.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3853190",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/elder_guardian.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "e1632d9ae1a5f43045357972ac05bf02608c2231d2e158ea4bcfb74c3f106cab",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:ender_dragon": {
+      "answer": "The Ender Dragon is healed by nearby End crystals, not animal breeding food. Crystals are part of its fight and resummoning mechanics; they do not tame it or produce a baby dragon.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ender_dragon.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "09046514c7d54ec71d860d4b150248dfe480f79791db6d9cbd8a030a5cac31ca",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:enderman": {
+      "answer": "Endermen have no food for taming or breeding. A carved pumpkin is worn by a player to avoid provoking one by looking at its face; it is not food for the enderman.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/enderman.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "34122f03b84142c70ded9f3f64d0f6231a6eeedeb249c605882a7b10beeee777",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:endermite": {
+      "answer": "Endermites have no food-based taming or breeding. A name tag can help keep one from its ordinary short despawn timer, but naming is not feeding or taming.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3843703",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/endermite.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "aa0893dd3878b0506afed624bb27cbdda24551e2308f623f3059e173f4ab7c71",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:evocation_illager": {
+      "answer": "Evokers have no breeding or taming food. They are hostile spellcasters; their fangs and vexes are combat mechanics, not animal feeding interactions.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/evocation_illager.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "991cd3d48b3b357be235b904763d8ac8d519f7ee692472f09c99acd9ac5ccdb2",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:ghast": {
+      "answer": "Hostile ghasts have no food-based taming or breeding. A ghast is different from a happy ghast: snowballs used to grow a ghastling are not breeding food for a hostile ghast.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ghast.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "fc9fa726d3b6f805933409799750c4d444c467363be929caee16cc24a683a938",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:glow_squid": {
+      "answer": "Glow squid cannot be bred or tamed with food, and feeding does not accelerate their babies’ growth. A golden dandelion can pause a baby’s age; that is separate from food that speeds growth. Keep them in water.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/glow_squid.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "82e3ea45eb1cbc060e0d1ca1a81f328fef6bce4b42e8e4b601fbe5951754f5b4",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:guardian": {
+      "answer": "Guardians have no food-based breeding or taming. Their hostility toward fish and other targets is attack behavior, not a player feeding interaction.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/guardian.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "682ed540d14e4738f66b8a430ccc72d7a67bcaa8c024b89f4de734e8c6cb3fba",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:husk": {
+      "answer": "Husks have no food-based taming or breeding. Their Hunger-inflicting attacks do not mean that you can satisfy or pacify them with food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851908",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/husk.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "9bec36fff642eb6c3954c624fc26d6d5d43efc7f6012456831a3c2829ad92b54",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:iron_golem": {
+      "answer": "Use an iron ingot on a damaged iron golem to repair 25 health points. That is repair, not animal feeding: iron golems cannot be bred or tamed with food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/iron_golem.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "ef14cf327deb5c74a07ee3503c7b1d021f7ebc493d565a6b1f0c324541c79d22",
+        "purpose": "repair"
+      }
+    },
+    "minecraft:magma_cube": {
+      "answer": "Magma cubes have no food-based breeding or taming. Small ones do not grow larger by feeding; larger cubes split on death. A frog swallowing a small magma cube is a separate prey interaction.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/magma_cube.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "d8ec96a24a4b08960be2d749f401783ed0b7012206b7eb695438ae009f8144e1",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:parched": {
+      "answer": "Parched have no food for breeding or taming. They are undead archers; their attack effects are not a hunger system you can manage by feeding them.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/parched.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "cfbb7f596c0d145eb1f1dfa6d8e1fba9d95806187d9a36e59989effc70de90e2",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:phantom": {
+      "answer": "Phantoms have no food-based taming or breeding. They appear through the insomnia-related spawning mechanic, not because a player has supplied food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/phantom.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "dbd437741c098d3eb4ed935aac71887c776112fe9446af78c11ecb2be6b6c2e6",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:piglin_brute": {
+      "answer": "Piglin brutes have no food for taming or breeding, and do not barter like adult piglins. Gold or porkchops are not a way to make a brute your tame companion.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3848820",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/piglin_brute.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "d7b00706fa0e92ec568dee0db4f2280884c554e824c033ef38baf858ab690bb7",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:pillager": {
+      "answer": "Pillagers have no food-based taming or breeding. They are hostile illagers, not traders you can befriend by supplying food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pillager.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "52a553fda4cda652db414157282d8e171d4fedd24e7d5a8ad4319268ea21e2c3",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:polar_bear": {
+      "answer": "Polar bears cannot be bred or tamed with fish or other food, and feeding does not speed a cub’s growth. A golden dandelion can pause a cub’s age, which is different from feeding it to grow faster.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/polar_bear.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "b493fb2ecee58f8adc03f9a428e67c9eb249ef17cbb0c1a426ca18e3fa9de374",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:pufferfish": {
+      "answer": "Pufferfish cannot be bred or tamed by feeding. Use a water bucket to collect one alive and keep space around loose pufferfish because their defensive inflation can poison you.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844681",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/pufferfish.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "d2139402cff688678d93c736d3d96fe524c547621b94023a25466887daff01ce",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:ravager": {
+      "answer": "Ravagers have no food for taming or breeding. Breaking plants while moving is not a feeding interaction that lets you tame or breed one.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/ravager.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "1d99d35d798ab5da30a524c295a70b0dfcb05c2236134139a0e7b8ee010e8124",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:salmon": {
+      "answer": "Salmon cannot be bred or tamed by feeding. Use a water bucket to keep one alive; its size variant is not a baby that needs food to grow.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/salmon.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "8feafbe0990acaddb643cc1134dbf0d71931e639b463d2bdf09f2636b16295f0",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:shulker": {
+      "answer": "Shulkers do not breed with food and cannot be tamed by feeding. Their duplication uses special shulker-bullet interactions rather than a pair of adults eating breeding food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3843708",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/shulker.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "e0de6397364beb75ed75180dee6824b93fae0b1387ac8df86b8ebce8c2ec7db0",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:silverfish": {
+      "answer": "Silverfish have no food-based taming or breeding. They hide in suitable infested blocks; that is not an animal feeding or farming interaction.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/silverfish.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "a5f63b5828a285faf894208b0ac3471e1fa6e30f510b2ec9b89608cba03c7089",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:skeleton": {
+      "answer": "Skeletons have no food-based taming or breeding. Being undead changes their potion reactions, but it does not give them an animal feeding interaction.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "cfffa026b8c418ccbedc33ed94eb831c62da7b9398c75e7446aaea326c320cfd",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "answer": "Skeleton horses have no breeding food and cannot be bred. Their head-lowering animation does not consume grass like a sheep’s grazing, and they can recover health naturally. Do not treat them as ordinary horses that breed with golden carrots.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/skeleton_horse.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "ddcfe3658c11b5a7a8e0046abb42fbd46a2061635f88cc2dcd956e75812cb4f1",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:slime": {
+      "answer": "Slimes have no food-based taming or breeding. Small slimes are size variants, not babies you can grow by feeding; larger slimes split into smaller ones on death.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/slime.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "e64af073bd6a262748b7ecee7b23c9754d65d289a9997103c03c236a2e4016b7",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:snow_golem": {
+      "answer": "Snow golems have no food-based taming or breeding. Snowballs are what they throw, not breeding food. Protect them from water, rain and damaging heat rather than trying to breed them with snowballs.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/snow_golem.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "1418c1eaae19d98feb192da611fa7f861f1e00e1677da65aeb3906ebfb98e65c",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:spider": {
+      "answer": "Spiders have no food-based taming or breeding. Spider eyes do not tame them; their aggression is controlled by their normal behavior rather than a food-based friendship system.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/spider.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "fafb5b83d554610c54093d7ca8a5d04ec7fb3016149871565843017096c53760",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:squid": {
+      "answer": "Squid cannot be bred or tamed with food, and feeding does not speed their babies’ growth. A golden dandelion can pause a baby’s age; keep squid in water while waiting for normal growth.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/squid.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "83e1ab2b2acbe5f379fb8d05e33a419b6fbbf601193047961eb74287215c8f67",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:stray": {
+      "answer": "Strays have no food-based breeding or taming. They are undead archers, not animals that accept food to become companions.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/stray.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "b7856e34b95efa750dd307506966eea57eede31b6da726f4c2fd6d36e51b8cb3",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:tropicalfish": {
+      "answer": "Tropical fish cannot be bred or tamed by feeding. Catch them alive with a water bucket. A bucket of tropical fish can feed an axolotl, but that is feeding the axolotl, not breeding the fish.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/tropicalfish.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "12808767e57ca1b0e7153538b612fad6ec8e3e0b4f80cfa6c865762c4d13e77d",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:vex": {
+      "answer": "Vexes have no food for taming or breeding. An evoker summons them; giving them food does not turn them into player-controlled companions.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3845919",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/vex.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "f0387145a348913b2399d272fc3dc09f0ea0daf5c9e670474ccaa6fc92e7f0f3",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:vindicator": {
+      "answer": "Vindicators have no food-based taming or breeding. Naming one Johnny changes its aggression targets, not its willingness to accept breeding food or become tame.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/vindicator.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "6fb4bb3a489f0e3547c0d8a1bfd61a3f2ca6b28d49de153789ba24d87d798d6d",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:wandering_trader": {
+      "answer": "Wandering traders drink their own Invisibility potions at night and milk to remove invisibility during the day. That is their own behavior, not a hand-feeding or breeding interaction. Use their trade menu for exchanges.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wandering_trader.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "285b766487434156aa40d49ef6db1b9c63b9cda122084bbbbffd0f4a976b6d71",
+        "purpose": "self_consumption"
+      }
+    },
+    "minecraft:warden": {
+      "answer": "Wardens have no food-based taming or breeding. Their smelling and vibration detection are threat-detection mechanics, not a way to make one friendly by feeding it.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851707",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/warden.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "d0615b0d6143719931a6f0a89a0da2614d7da0b9be0937a51bd9b0f379286e7b",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:witch": {
+      "answer": "Witches drink their own potions, including Healing when injured and protective potions when needed. Their potion drinking is different from a player feeding or breeding an animal; witches cannot be bred or tamed with food.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/witch.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "cc1808d4ca354c1a1a5317371b494646e2ad2650a45d6f95ab00ae2be7fcb271",
+        "purpose": "self_consumption"
+      }
+    },
+    "minecraft:wither": {
+      "answer": "The wither has no food-based breeding or taming. It is built and summoned as a boss; its natural recovery and undead potion reactions are separate from animal feeding.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "dc25d18ba53baee67df83001e279cf167abb27236e604ecb3b99e548342ba50b",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:wither_skeleton": {
+      "answer": "Wither skeletons have no food-based taming or breeding. They are undead enemies; carrying coal or bones does not provide a breeding food interaction.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/wither_skeleton.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "552b9ed6b38ceb31ac81f234c4747c16da5471c7fe98dc6c931965079cef866a",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:zoglin": {
+      "answer": "Zoglins cannot be bred or tamed with food. Crimson fungus used for living hoglins does not make zoglins breed, and baby zoglins do not grow into adults.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zoglin.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "b5e42c39b08ab59a3f857a67f1e54d795b8b65d9c74584496a91a0ee026a325d",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:zombie": {
+      "answer": "Zombies have no food-based taming or breeding. They may pick up items, but picking up food is not becoming tame, eating to breed, or turning into a living villager.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851907",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "68911bb898c66712e7987694df71f3a1b991c713db12b5bcff065616f84a8a59",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:zombie_pigman": {
+      "answer": "Zombified piglins have no food-based taming or breeding and do not barter like living adult piglins. Gold does not turn one into a tame bartering partner.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851912",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_pigman.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "acf39566bf7540abee12b4bb690757b4c11d2bcd53524c3ab1fdf423696af77b",
+        "purpose": "normal_feeding_not_applicable"
+      }
+    },
+    "minecraft:zombie_villager": {
+      "answer": "Zombie villagers are not bred or tamed with food. To cure one, first apply Weakness, then use a normal golden apple. That curing interaction is not the same as feeding a living villager to breed.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_villager.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "0b6b6d336584c0d0c02aeb821544e83c16e6e5bd1f3d26dc91095f8608da8c9d",
+        "purpose": "curing"
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "answer": "Zombie villagers are not bred or tamed with food. To cure one, first apply Weakness, then use a normal golden apple. That curing interaction is not the same as feeding a living villager to breed.",
+      "coverage": "reviewed_summary",
+      "sources": [
+        "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+        "https://github.com/Mojang/bedrock-samples/blob/46ba6ea985fb5a92d79a9419198f10dda14c199d/behavior_pack/entities/zombie_villager_v2.json"
+      ],
+      "evidence": {
+        "normal_gameplay_scope": "Reviewed existing breeding/taming eligibility, complete normal interaction/component scopes and the article’s actual food/maintenance behavior; no claim about real-world diet.",
+        "sample_sha256": "db7dc461ae718a17a451dadcb53dfd681f52888c6cc8e0ea65f3486a6913d1f5",
+        "purpose": "curing"
+      }
+    }
+  },
+  "capabilities": {
+    "minecraft:allay": {
+      "name": "Allay",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:armadillo": {
+      "name": "Armadillo",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:axolotl": {
+      "name": "Axolotl",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+      "leashable": true,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:bat": {
+      "name": "Bat",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:bee": {
+      "name": "Bee",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:blaze": {
+      "name": "Blaze",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:bogged": {
+      "name": "Bogged",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:breeze": {
+      "name": "Breeze",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:camel": {
+      "name": "Camel",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:camel_husk": {
+      "name": "Camel Husk",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": true,
+      "nameable": true
+    },
+    "minecraft:cat": {
+      "name": "Cat",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:cave_spider": {
+      "name": "Cave Spider",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:chicken": {
+      "name": "Chicken",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:cod": {
+      "name": "Cod",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+      "leashable": false,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:copper_golem": {
+      "name": "Copper Golem",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:cow": {
+      "name": "Cow",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": true,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:creaking": {
+      "name": "Creaking",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3852706",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:creeper": {
+      "name": "Creeper",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:dolphin": {
+      "name": "Dolphin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:donkey": {
+      "name": "Donkey",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:drowned": {
+      "name": "Drowned",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:elder_guardian": {
+      "name": "Elder Guardian",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853190",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:ender_dragon": {
+      "name": "Ender Dragon",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": false
+    },
+    "minecraft:enderman": {
+      "name": "Enderman",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:endermite": {
+      "name": "Endermite",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843703",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:evocation_illager": {
+      "name": "Evocation Illager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:fox": {
+      "name": "Fox",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:frog": {
+      "name": "Frog",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:ghast": {
+      "name": "Ghast",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:glow_squid": {
+      "name": "Glow Squid",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:goat": {
+      "name": "Goat",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": true,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:guardian": {
+      "name": "Guardian",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:happy_ghast": {
+      "name": "Happy Ghast",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:hoglin": {
+      "name": "Hoglin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:horse": {
+      "name": "Horse",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:husk": {
+      "name": "Husk",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851908",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:iron_golem": {
+      "name": "Iron Golem",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:llama": {
+      "name": "Llama",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:magma_cube": {
+      "name": "Magma Cube",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:mooshroom": {
+      "name": "Mooshroom",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": true,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:mule": {
+      "name": "Mule",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:nautilus": {
+      "name": "Nautilus",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": true,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:ocelot": {
+      "name": "Ocelot",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:panda": {
+      "name": "Panda",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:parched": {
+      "name": "Parched",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:parrot": {
+      "name": "Parrot",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:phantom": {
+      "name": "Phantom",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:pig": {
+      "name": "Pig",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:piglin": {
+      "name": "Piglin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": true,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:piglin_brute": {
+      "name": "Piglin Brute",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848820",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:pillager": {
+      "name": "Pillager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:polar_bear": {
+      "name": "Polar Bear",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:pufferfish": {
+      "name": "Pufferfish",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844681",
+      "leashable": false,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:rabbit": {
+      "name": "Rabbit",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:ravager": {
+      "name": "Ravager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:salmon": {
+      "name": "Salmon",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+      "leashable": false,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:sheep": {
+      "name": "Sheep",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:shulker": {
+      "name": "Shulker",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843708",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:silverfish": {
+      "name": "Silverfish",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:skeleton": {
+      "name": "Skeleton",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:skeleton_horse": {
+      "name": "Skeleton Horse",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:slime": {
+      "name": "Slime",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:sniffer": {
+      "name": "Sniffer",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:snow_golem": {
+      "name": "Snow Golem",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:spider": {
+      "name": "Spider",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:squid": {
+      "name": "Squid",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:stray": {
+      "name": "Stray",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:strider": {
+      "name": "Strider",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:sulfur_cube": {
+      "name": "Sulfur Cube",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+      "leashable": true,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:tadpole": {
+      "name": "Tadpole",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+      "leashable": false,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:trader_llama": {
+      "name": "Trader Llama",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:tropicalfish": {
+      "name": "Tropicalfish",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+      "leashable": false,
+      "bucketable": true,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:turtle": {
+      "name": "Turtle",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:vex": {
+      "name": "Vex",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845919",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:villager": {
+      "name": "Villager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": true,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:villager_v2": {
+      "name": "Villager V2",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": true,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:vindicator": {
+      "name": "Vindicator",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:wandering_trader": {
+      "name": "Wandering Trader",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": true,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:warden": {
+      "name": "Warden",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851707",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:witch": {
+      "name": "Witch",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:wither": {
+      "name": "Wither",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:wither_skeleton": {
+      "name": "Wither Skeleton",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:wolf": {
+      "name": "Wolf",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": true,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:zoglin": {
+      "name": "Zoglin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:zombie": {
+      "name": "Zombie",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851907",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:zombie_horse": {
+      "name": "Zombie Horse",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": true,
+      "nameable": true
+    },
+    "minecraft:zombie_nautilus": {
+      "name": "Zombie Nautilus",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+      "leashable": true,
+      "bucketable": false,
+      "player_mount": true,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": true,
+      "leash_requires_no_hostile_rider": true,
+      "nameable": true
+    },
+    "minecraft:zombie_pigman": {
+      "name": "Zombie Pigman",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851912",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:zombie_villager": {
+      "name": "Zombie Villager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    },
+    "minecraft:zombie_villager_v2": {
+      "name": "Zombie Villager V2",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+      "leashable": false,
+      "bucketable": false,
+      "player_mount": false,
+      "milkable": false,
+      "merchant": false,
+      "bartering": false,
+      "leash_requires_calm": false,
+      "leash_requires_no_hostile_rider": false,
+      "nameable": true
+    }
+  },
+  "affinities": {
+    "minecraft:allay": {
+      "name": "Allay",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3852359",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:armadillo": {
+      "name": "Armadillo",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844454",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:axolotl": {
+      "name": "Axolotl",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844455",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:bat": {
+      "name": "Bat",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844624",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:bee": {
+      "name": "Bee",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+      "undead": false,
+      "arthropod": true,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:blaze": {
+      "name": "Blaze",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3852956",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:bogged": {
+      "name": "Bogged",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851713",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:breeze": {
+      "name": "Breeze",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3822417",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:camel": {
+      "name": "Camel",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853630",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:camel_husk": {
+      "name": "Camel Husk",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845813",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:cat": {
+      "name": "Cat",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853626",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:cave_spider": {
+      "name": "Cave Spider",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851778",
+      "undead": false,
+      "arthropod": true,
+      "poison_immune": true,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:chicken": {
+      "name": "Chicken",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850656",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:cod": {
+      "name": "Cod",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844471",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:copper_golem": {
+      "name": "Copper Golem",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845018",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:cow": {
+      "name": "Cow",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851210",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:creaking": {
+      "name": "Creaking",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3852706",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": "heart_linked"
+    },
+    "minecraft:creeper": {
+      "name": "Creeper",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848379",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:dolphin": {
+      "name": "Dolphin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844640",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:donkey": {
+      "name": "Donkey",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850357",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:drowned": {
+      "name": "Drowned",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851909",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:elder_guardian": {
+      "name": "Elder Guardian",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853190",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:ender_dragon": {
+      "name": "Ender Dragon",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851987",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": "dragon"
+    },
+    "minecraft:enderman": {
+      "name": "Enderman",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850886",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:endermite": {
+      "name": "Endermite",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843703",
+      "undead": false,
+      "arthropod": true,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:evocation_illager": {
+      "name": "Evocation Illager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853175",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:fox": {
+      "name": "Fox",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851723",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:frog": {
+      "name": "Frog",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844499",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:ghast": {
+      "name": "Ghast",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3830625",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:glow_squid": {
+      "name": "Glow Squid",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844507",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:goat": {
+      "name": "Goat",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844651",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:guardian": {
+      "name": "Guardian",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853189",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:happy_ghast": {
+      "name": "Happy Ghast",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853633",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:hoglin": {
+      "name": "Hoglin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843704",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:horse": {
+      "name": "Horse",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850329",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:husk": {
+      "name": "Husk",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851908",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:iron_golem": {
+      "name": "Iron Golem",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851102",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:llama": {
+      "name": "Llama",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:magma_cube": {
+      "name": "Magma Cube",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849057",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:mooshroom": {
+      "name": "Mooshroom",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844535",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:mule": {
+      "name": "Mule",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850352",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:nautilus": {
+      "name": "Nautilus",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844669",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:ocelot": {
+      "name": "Ocelot",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851711",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:panda": {
+      "name": "Panda",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846509",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:parched": {
+      "name": "Parched",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845817",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:parrot": {
+      "name": "Parrot",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849952",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:phantom": {
+      "name": "Phantom",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851156",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:pig": {
+      "name": "Pig",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3847785",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:piglin": {
+      "name": "Piglin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851223",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:piglin_brute": {
+      "name": "Piglin Brute",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848820",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:pillager": {
+      "name": "Pillager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843714",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:polar_bear": {
+      "name": "Polar Bear",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853198",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:pufferfish": {
+      "name": "Pufferfish",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844681",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:rabbit": {
+      "name": "Rabbit",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844604",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:ravager": {
+      "name": "Ravager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843713",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:salmon": {
+      "name": "Salmon",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844555",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:sheep": {
+      "name": "Sheep",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848879",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:shulker": {
+      "name": "Shulker",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843708",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:silverfish": {
+      "name": "Silverfish",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3843709",
+      "undead": false,
+      "arthropod": true,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:skeleton": {
+      "name": "Skeleton",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846446",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:skeleton_horse": {
+      "name": "Skeleton Horse",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849906",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:slime": {
+      "name": "Slime",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849919",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:sniffer": {
+      "name": "Sniffer",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3847160",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:snow_golem": {
+      "name": "Snow Golem",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851744",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:spider": {
+      "name": "Spider",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844683",
+      "undead": false,
+      "arthropod": true,
+      "poison_immune": true,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:squid": {
+      "name": "Squid",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844578",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:stray": {
+      "name": "Stray",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844780",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:strider": {
+      "name": "Strider",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844584",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:sulfur_cube": {
+      "name": "Sulfur Cube",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853726",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:tadpole": {
+      "name": "Tadpole",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849184",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:trader_llama": {
+      "name": "Trader Llama",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849739",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:tropicalfish": {
+      "name": "Tropicalfish",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844607",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:turtle": {
+      "name": "Turtle",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846426",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:vex": {
+      "name": "Vex",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845919",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:villager": {
+      "name": "Villager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:villager_v2": {
+      "name": "Villager V2",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849427",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:vindicator": {
+      "name": "Vindicator",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3848438",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:wandering_trader": {
+      "name": "Wandering Trader",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846633",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:warden": {
+      "name": "Warden",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851707",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:witch": {
+      "name": "Witch",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3850494",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": "witch"
+    },
+    "minecraft:wither": {
+      "name": "Wither",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3846728",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:wither_skeleton": {
+      "name": "Wither Skeleton",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3853122",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:wolf": {
+      "name": "Wolf",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3849342",
+      "undead": false,
+      "arthropod": false,
+      "poison_immune": false,
+      "regeneration_immune": false,
+      "special": null
+    },
+    "minecraft:zoglin": {
+      "name": "Zoglin",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3844793",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:zombie": {
+      "name": "Zombie",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851907",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:zombie_horse": {
+      "name": "Zombie Horse",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3854012",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:zombie_nautilus": {
+      "name": "Zombie Nautilus",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3845839",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:zombie_pigman": {
+      "name": "Zombie Pigman",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851912",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": "rare_family_variant"
+    },
+    "minecraft:zombie_villager": {
+      "name": "Zombie Villager",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    },
+    "minecraft:zombie_villager_v2": {
+      "name": "Zombie Villager V2",
+      "wiki": "https://minecraft.wiki/w/Special:PermanentLink/3851910",
+      "undead": true,
+      "arthropod": false,
+      "poison_immune": true,
+      "regeneration_immune": true,
+      "special": null
+    }
+  },
+  "special_topics": {
+    "minecraft:chicken": {
+      "nesting": {
+        "answer": "An adult chicken that is not, and was not, part of a chicken jockey lays an egg every 5–10 minutes while actively simulated. It does not need another chicken or breeding food to lay that ordinary egg. Chicks do not lay eggs.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850656"
+        ]
+      }
+    },
+    "minecraft:bee": {
+      "housing": {
+        "answer": "A bee nest or beehive can hold up to three bees. Keep its entrance clear so bees can leave. To move the home with its bees, wait until the bees are inside and use Silk Touch; breaking it without Silk Touch releases the bees rather than keeping them inside the dropped home. A lit campfire can prevent harvesting anger, but protect bees from the fire.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844630",
+          "https://minecraft.wiki/w/Special:PermanentLink/3851339"
+        ]
+      }
+    },
+    "minecraft:enderman": {
+      "item_holding": {
+        "answer": "Endermen can pick up, carry and place selected blocks, such as dirt and sand; they cannot carry every block. The mobGriefing game rule controls their normal block-changing behavior. A carried block is not food, and putting the enderman in a boat does not make it safe from its attacks.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850886"
+        ]
+      }
+    },
+    "minecraft:elder_guardian": {
+      "support": {
+        "answer": "An elder guardian applies Mining Fatigue III to nearby Survival players within 50 blocks, even through walls. The effect lasts five minutes and can be applied again while an elder guardian remains nearby. Milk removes it but also removes your beneficial effects. The ghostly screen image is the effect warning, not a separate enemy to kill.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3853190"
+        ]
+      }
+    },
+    "minecraft:rabbit": {
+      "naming": {
+        "answer": "Naming a rabbit Toast gives it the special black-and-white Toast appearance. This changes the name and appearance, not its normal passive behavior. Breeding Toast rabbits does not pass on the Toast appearance; the babies use the parents’ underlying normal colors.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844604"
+        ]
+      }
+    },
+    "minecraft:vindicator": {
+      "naming": {
+        "answer": "Name a vindicator Johnny, with that spelling and capital J, to make it attack many additional kinds of mob. This does not tame it or make it safe: it remains dangerous to players and can threaten animals and villagers.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3848438"
+        ]
+      }
+    },
+    "minecraft:silverfish": {
+      "infestation": {
+        "answer": "Idle silverfish can enter suitable stone, cobblestone, stone bricks or deepslate and turn them into infested blocks when mobGriefing permits it. They do not infest every stone-looking block: slabs, stairs, granite, diorite, andesite and smooth stone are not substitutes. Silk Touch prevents releasing a silverfish when mining its infested block.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3843709"
+        ]
+      }
+    },
+    "minecraft:llama": {
+      "caravan": {
+        "answer": "Leashing one llama can make up to nine nearby llamas follow, for a caravan of up to ten. Each caravan has one leashed leader. Llamas in a caravan cannot breed; separate suitable adults from the caravan before using hay bales for breeding.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ]
+      },
+      "breeding_conditions": {
+        "answer": "Use two tamed adult llamas and hay bales. They must not be part of a caravan when breeding. Wheat can help with other feeding uses but does not replace the hay bales that start breeding.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667"
+        ]
+      }
+    },
+    "minecraft:trader_llama": {
+      "caravan": {
+        "answer": "Leashing one llama can make up to nine nearby llamas follow, for a caravan of up to ten. Each caravan has one leashed leader. Llamas in a caravan cannot breed; separate suitable adults from the caravan before using hay bales for breeding.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ]
+      },
+      "breeding_conditions": {
+        "answer": "Use two tamed adult llamas and hay bales. They must not be part of a caravan when breeding. Wheat can help with other feeding uses but does not replace the hay bales that start breeding.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3844667",
+          "https://minecraft.wiki/w/Special:PermanentLink/3849739"
+        ]
+      }
+    },
+    "minecraft:zombie": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      },
+      "curing": {
+        "answer": "You cannot use the zombie-villager cure on an ordinary zombie, husk or drowned to turn it into a living villager. Weakness followed by a normal golden apple is specifically the cure for a zombie villager.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:husk": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      },
+      "curing": {
+        "answer": "You cannot use the zombie-villager cure on an ordinary zombie, husk or drowned to turn it into a living villager. Weakness followed by a normal golden apple is specifically the cure for a zombie villager.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:drowned": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      },
+      "curing": {
+        "answer": "You cannot use the zombie-villager cure on an ordinary zombie, husk or drowned to turn it into a living villager. Weakness followed by a normal golden apple is specifically the cure for a zombie villager.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:zombie_villager": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:zombie_villager_v2": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:villager": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:villager_v2": {
+      "infection": {
+        "answer": "When a zombie, husk, drowned or zombie villager kills a villager, conversion depends on difficulty: Easy 0%, Normal 50%, Hard 100%. The villager must be killed by the appropriate attacker; an ordinary environmental death does not create a zombie villager. A converted zombie villager can later be cured with Weakness and a normal golden apple.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3851910"
+        ]
+      }
+    },
+    "minecraft:witch": {
+      "curing": {
+        "answer": "You cannot cure a witch back into a villager. A villager transformed by lightning into a witch cannot be restored using the Weakness-and-golden-apple zombie-villager cure.",
+        "coverage": "reviewed_summary",
+        "sources": [
+          "https://minecraft.wiki/w/Special:PermanentLink/3850494"
+        ]
+      }
+    }
+  }
+}

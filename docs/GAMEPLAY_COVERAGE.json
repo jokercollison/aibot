@@ -28,7 +28,7 @@
     "biomes:spawning_summary_partial_biome_guidance": 127,
     "health:unresolved": 34,
     "attacks:unresolved": 29,
-    "diet:unresolved": 90,
+    "diet:unresolved": 39,
     "taming:unresolved": 39,
     "breeding:unresolved": 39,
     "environmental_reactions:reviewed_summary": 75,
@@ -36,14 +36,15 @@
     "health:sample_component_summary": 60,
     "attacks:basic_behavior_classification": 42,
     "drops:reviewed_summary": 100,
-    "diet:reviewed_summary": 39,
+    "diet:reviewed_summary": 90,
     "taming:reviewed_summary": 90,
     "breeding:reviewed_summary": 90,
     "spawn_conditions:unresolved": 2,
     "health:reviewed_summary": 32,
     "attacks:reviewed_summary": 58,
     "drops:conditional_source_evidence": 8,
-    "environmental_reactions:unresolved": 54,
+    "environmental_reactions:reviewed_capability": 42,
+    "environmental_reactions:unresolved": 12,
     "construction_or_summoning:reviewed_summary": 5,
     "health:component_derived_with_state_caveats": 3,
     "equipment_properties:unresolved": 1630,
@@ -65349,8 +65350,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -65478,8 +65480,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -65492,8 +65495,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -65600,8 +65604,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -65664,8 +65669,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -65678,8 +65684,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -65801,8 +65808,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -65980,8 +65988,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -65994,8 +66003,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -66226,8 +66236,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -66240,8 +66251,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -66349,8 +66361,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -66479,8 +66492,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -66543,8 +66557,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -66745,8 +66760,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -66854,8 +66870,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -66977,8 +66994,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -66991,8 +67009,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -67100,8 +67119,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67114,8 +67134,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "reviewed_summary",
@@ -67223,8 +67244,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67287,8 +67309,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67351,8 +67374,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67781,8 +67805,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67795,8 +67820,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -67844,8 +67870,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67858,8 +67885,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -67972,8 +68000,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -67986,8 +68015,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -68240,8 +68270,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -68289,8 +68320,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -68353,8 +68385,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -68551,8 +68584,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -68659,8 +68693,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -68673,8 +68708,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -68861,8 +68897,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -68925,8 +68962,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69222,8 +69260,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69236,8 +69275,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69350,8 +69390,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69544,8 +69585,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69558,8 +69600,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69607,8 +69650,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69731,8 +69775,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69745,8 +69790,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69794,8 +69840,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69808,8 +69855,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69872,8 +69920,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69921,8 +69970,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69935,8 +69985,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -69984,8 +70035,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -69998,8 +70050,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -70112,8 +70165,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70235,8 +70289,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70299,8 +70354,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70363,8 +70419,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70377,8 +70434,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -70426,8 +70484,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70440,8 +70499,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -70613,8 +70673,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70737,8 +70798,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70751,8 +70813,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -70859,8 +70922,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -70873,8 +70937,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -70922,8 +70987,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71001,8 +71067,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71373,8 +71440,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71481,8 +71549,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71495,8 +71564,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71609,8 +71679,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71623,8 +71694,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71687,8 +71759,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71751,8 +71824,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71800,8 +71874,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71814,8 +71889,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71863,8 +71939,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71877,8 +71954,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -71926,8 +72004,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -71940,8 +72019,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -72048,8 +72128,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72062,8 +72143,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -72111,8 +72193,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72125,8 +72208,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "reviewed_summary",
@@ -72175,8 +72259,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72189,8 +72274,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -72539,8 +72625,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72553,8 +72640,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -72602,8 +72690,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72681,8 +72770,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -72745,8 +72835,9 @@
           "exhaustive": false
         },
         "environmental_reactions": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_capability",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "construction_or_summoning": {
           "status": "unresolved",
@@ -72794,8 +72885,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72858,8 +72950,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",
@@ -72922,8 +73015,9 @@
           "exhaustive": false
         },
         "diet": {
-          "status": "unresolved",
-          "answer_connected": false
+          "status": "reviewed_summary",
+          "answer_connected": true,
+          "exhaustive": false
         },
         "taming": {
           "status": "reviewed_summary",

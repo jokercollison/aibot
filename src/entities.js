@@ -1,3 +1,5 @@
+import {tradeInventoryAnswer} from './entity-trading.js';
+import {affinityTopic} from './entity-affinities.js';
 import {prerequisiteTopic,conditionalEntityTopic} from './entity-conditions.js';
 import {objectTopic} from './entity-objects.js';
 import {movementTopic} from './entity-movement.js';
@@ -11,6 +13,7 @@ import database from '../data/entities/runtime.json' with {type:'json'};
 export function entityTopic(q) {
   const reward=rewardTopic(q);if(reward)return reward;
   if (/\b(drop|drops|loot|looting)\b/.test(q) && !/\bfroglights?\b/.test(q)) return 'drops';
+  const affinity=affinityTopic(q);if(affinity)return affinity;
   const prerequisite=prerequisiteTopic(q);if(prerequisite)return prerequisite;
   const movement=movementTopic(q);if(movement)return movement;
   const combat=combatTopic(q);if(combat)return combat;
@@ -24,14 +27,14 @@ export function entityTopic(q) {
   if (/\b(?:spawn|spawns|spawning)\b/.test(q)&&/\b(?:why|won t|doesn t|don t|not|never|prevent|stop|requirements?|conditions?|light|difficulty|peaceful|distance|far|height|level|space|blocks?|beds?|caps?)\b/.test(q))return 'spawn_conditions';
   if (/\b(where|find|found|spawn|spawns|spawning|biome|biomes|habitat)\b/.test(q)) return 'spawning';
   if (/\b(variant|variants|types|colors|colours|personalities)\b/.test(q)) return 'variants';
-  if (/\b(trade|trades|trading|barter)\b/.test(q)) return 'trading';
+  if (/\b(trade|trades|trading|barter|bartering|sell|sells|buy|buys|offer|offers)\b/.test(q)) return 'trading';
   if (/\b(ride|riding|saddle|control|mount)\b/.test(q)) return 'transport';
   if(/\b(?:golden dandelion|pause aging|stop growing|stay a baby|stop aging|resume aging)\b/.test(q))return 'age_lock';
   if (/\b(?:grow|grows|growing|growth|mature|matures|maturing|maturity|adulthood)\b/.test(q) || /\b(?:speed up|accelerate)\b.*\b(?:baby|babies|foal|snifflet|ghastling)\b/.test(q) || /\b(?:baby|babies)\b.*\b(?:become adults?|get bigger)\b/.test(q))return 'growth';
-  if (/\b(eat|eats|food|diet|feed|feeding|swallow|swallows|hunt|hunts)\b/.test(q)) return 'diet';
+  if (/\b(eat|eats|food|diet|feed|feeding|drink|drinks|drinking|swallow|swallows|hunt|hunts)\b/.test(q)) return 'diet';
   if (/^(?:what (?:is|are)|describe|tell me about)\b/.test(q)) return 'identity';
   const facet=entityFacet(q);if(facet)return facet;
-  if (/\b(make|build|construct|summon|create)\b/.test(q)) return 'construction';
+  if (/\b(make|build|construct|summon|create|resummon|respawn)\b/.test(q)) return 'construction';
   if (/\b(fight|defeat|attack|attacks|combat)\b/.test(q)) return 'combat';
   if (/\b(grow|growth)\b/.test(q))return 'growth';
   if (/\b(scared|scare|scares|afraid|fear)\b/.test(q)) return 'interactions';
@@ -43,6 +46,7 @@ export function entityAnswer(id,q,variant,requestedTopic) {
   if(!row)return null;
   if(!topic&&variant)topic='identity';
   if(!topic)return null;
+  if(topic==='trading'){const offers=tradeInventoryAnswer(id,q,variant);if(offers)return offers;}
   const condition=conditionalEntityTopic(id,q,topic,row.topics);
   if(condition){const fact=row.topics[condition];return {status:'conditional',answer:fact.answer,subject:id,topic:condition,sources:fact.sources,coverage:fact.coverage};}
   if(topic==='breeding_conditions'&&!row.topics[topic])topic='breeding';
