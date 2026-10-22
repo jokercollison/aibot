@@ -1,0 +1,57 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.10
+NEW/CHANGED CHECKS ONLY — Bedrock 1.26.52
+
+INSTALL
+Open TimeTrapRobot-0.2.10.mcaddon in Minecraft.
+Use a fresh world and NEW robot, with ONLY these matching packs:
+  Time Trap Studios AI Bot — Behavior 0.2.10
+  Time Trap Studios AI Bot — Resources 0.2.10
+Both descriptions and the robot menu must show 0.2.10.
+Optional summon: /summon tts_ai_bot_v0_2_10:robot
+
+SPAWNING — keep follow-ups in the same conversation
+1. Where can I find an iron golem?
+   Then: Why won’t it spawn?
+   Expect village guidance, then at least 20 beds/10 villagers and work/bed links.
+2. Where can I find an elder guardian?
+   Then: Why doesn’t it spawn again?
+   Expect three generated with each monument, not natural replacements.
+3. Why won’t cows spawn on grass blocks?
+   Expect COW spawning requirements, not a description of grass blocks.
+4. Why do slimes not spawn?
+   Expect slime chunks below Y=40 versus swamp Y=51-69, light/moon conditions.
+5. Why does a guardian not spawn?
+   Expect Bedrock’s 25 predetermined monument spawning columns.
+6. Where can I find a blue axolotl?
+   Then: Why won’t it spawn?
+   Expect breeding-only blue axolotls, not a naturally spawning blue population.
+
+SPECIAL INTERACTIONS
+7. Can I put a lead on a wolf?
+   Expect it must not be angry; leashing does not tame it.
+8. Can I leash a turtle?
+   Expect No through ordinary player interaction.
+9. Can I put a tadpole in a bucket?
+   Expect a water bucket; it can still grow into a frog after release.
+10. Can an allay collect items from a copper chest?
+    Then: Can it deliver to a note block?
+    Expect dropped-item collection, no chest access; note-block focus 30 seconds.
+11. Why won’t my villager change profession?
+    Expect trading locks its profession; babies/nitwits cannot take jobs.
+12. What is a villager?
+    Then: Why won’t it restock?
+    Expect access to its OWN claimed workstation, up to twice daily.
+13. Why won’t a panda breed?
+    Expect at least eight bamboo plants within five blocks of each panda.
+14. Can I breed sniffers with torchflower seeds?
+    Expect full health required in Bedrock, plus breeding/cooldown guidance.
+15. How do I gain an ocelot trust?
+    Expect raw cod/salmon, not turning it into a pet cat.
+16. Can I feed my parrot a cookie?
+    Expect a clear warning: Fatal Poison can kill it.
+
+Things to try and continuous follow-ups should remain available.
+No need to repeat the entire previous checklist. Report the exact question and
+answer for anything unexpected. Artwork, speaker colors and 500 health remain.
+Automatic bottom scrolling is unchanged. Multiplayer remains untested.
+Entity knowledge is still incomplete; these checks cover this release’s changes.

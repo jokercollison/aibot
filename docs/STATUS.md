@@ -1,3 +1,13 @@
+# Current test release: 0.2.10 — spawning and special interactions
+
+Packages both source batches after 0.2.9: 90 mob spawning-troubleshooting
+summaries, 48 expanded locations and 103 special-interaction summaries across
+56 subjects. Total reviewed entity summaries: 1,263. All 142 automated tests pass.
+See RELEASE_0.2.10.md and downloads/Robot_Test_Checklist-0.2.10.txt.
+Actual-game and multiplayer testing of this release remain pending.
+
+## Previous source and release records
+
 # Latest source batch: special entity interactions after 0.2.9
 
 Connected 103 reviewed interaction summaries across 56 subjects. Total reviewed
