@@ -147,6 +147,52 @@ export function recipeText(record) {
   });
   return {status:'conditional',answer:[...new Set(lines)].join('\n'),sources:recipes.map(r=>r.source)};
 }
+// Loose resource names in location questions mean the mineable resource.
+// Keep explicit identifiers, storage-block requests and named equipment intact.
+const resourceLocations = [
+  ['diamond', 'diamond', 'diamond_ore'],
+  ['coal', 'coal', 'coal_ore'],
+  ['iron', 'raw_iron', 'iron_ore'],
+  ['copper', 'raw_copper', 'copper_ore'],
+  ['gold', 'raw_gold', 'gold_ore'],
+  ['redstone', 'redstone', 'redstone_ore'],
+  ['lapis(?: lazuli)?', 'lapis_lazuli', 'lapis_ore'],
+  ['emerald', 'emerald', 'emerald_ore'],
+  ['quartz', 'quartz', 'quartz_ore'],
+  ['netherite|ancient debris', 'ancient_debris', 'ancient_debris']
+];
+for (const [name, , ore] of resourceLocations) {
+  if (ore === 'ancient_debris') continue;
+  const material = name.startsWith('lapis') ? 'lapis' : name;
+  const targets = (byMinecraftId.get('minecraft:' + material + '_block') ?? []).map(r => r.id);
+  for (const alias of [material, ...(material === 'lapis' ? ['lapis lazuli'] : [])]) {
+    for (const noun of ['block', 'blocks']) aliasIndex.set(noun + ' of ' + alias, targets);
+  }
+}
+function resourceLocation(q, input) {
+  if (/minecraft:/.test(String(input).toLowerCase()) ||
+      !/\b(?:where|find|deep|depth|height|level|biomes?|search|look for)\b/.test(q) ||
+      /\b(?:craft|recipe|ingredients|make|solid|storage|compressed|crafted|placed)\b/.test(q) ||
+      /\bblocks? of\b/.test(q)) return;
+  for (const [name, key, ore] of resourceLocations) {
+    const match = q.match(new RegExp('\\b(?:' + name + ')(?:s)?(?: blocks?)?\\b'));
+    if (!match) continue;
+    // A longer recognized noun (diamond sword, copper bulb, iron golem, etc.)
+    // must not be mistaken for the resource it contains.
+    const named = subjects(q);
+    const location = locationFacts['minecraft:' + key];
+    const allowed = new Set(['minecraft:' + key, 'minecraft:' + ore,
+      ...(location?.related_ids ?? []),
+      'minecraft:' + match[0].replace(/ blocks?$/, '').replace(/s$/, '') + '_block',
+      'minecraft:lapis_block', 'minecraft:netherite_block']);
+    if (named.some(m => !allowed.has(m.record.minecraft_id) &&
+        m.start <= q.slice(0, match.index).trim().split(/\s+/).filter(Boolean).length &&
+        m.size > match[0].split(' ').length)) continue;
+    const fallback = location ? undefined : blockAnswer('minecraft:' + ore, 'where can I find it');
+    return {fact: location ?? {answer:fallback.answer, reference_urls:fallback.sources}, ore: 'minecraft:' + ore,
+      netherite: /\bnetherite\b/.test(match[0])};
+  }
+}
 function followup(record) {
   const name = clean(record.name);
   const topics = facts[record.minecraft_id] ?? {};
@@ -168,6 +214,14 @@ export function createConversation() {
       const q = clean(input);
       if (!q) return {status: 'clarify', answer: 'What would you like to know about Minecraft?'};
       if (q.length > 240) return {status: 'clarify', answer: 'Please ask a shorter question (up to 240 characters).'};
+      const resource = resourceLocation(q, input);
+      if (resource) {
+        previous = (byMinecraftId.get(resource.ore) ?? [])[0];
+        previousVariant = previousEntityTopic = pendingChoice = pendingVariant = undefined;
+        return {status:'conditional', subject:resource.ore, topic:'location',
+          answer:(resource.netherite ? 'For netherite, start by mining ancient debris. ' : '') + resource.fact.answer,
+          sources:resource.fact.reference_urls};
+      }
       if(pendingVariant) {
         const picked=pendingVariant.options.find(v=>q===v || q===v+' wolf' || q==='the '+v+' one');
         if(picked) {

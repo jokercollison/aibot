@@ -1,3 +1,12 @@
+# Current release: 0.2.23 — resource-location intent fixes
+
+Loose ore/resource location questions now reach reviewed mining guidance, including
+“diamond blocks,” iron, copper, gold, lapis, quartz and netherite. Explicit storage
+requests and named equipment/mobs retain their separate meanings. Follow-up tool
+questions retain the ore subject. The explicit-ID baseline alone did not catch
+this player-wording gap; natural-language regression tests now cover it.
+Actual Minecraft testing is pending. Items have not started in this release.
+
 # Current release: 0.2.22 — normal block baseline closeout
 
 1,268 normal gameplay blocks pass 9,163 required baseline checks. 195 Education,

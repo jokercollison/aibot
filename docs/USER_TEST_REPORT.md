@@ -1,3 +1,9 @@
+# Current testing status: 0.2.23 pending
+
+Test the new natural resource-location questions and ore followups using the
+short 0.2.23 checklist. Automated conversation tests do not establish Minecraft
+import, multiplayer or device performance. No earlier unreported pass is inferred.
+
 # Current testing status: 0.2.22 pending
 
 The normal block baseline passes automated checks; the user still needs to test

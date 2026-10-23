@@ -1,0 +1,37 @@
+TIME TRAP STUDIOS AI BOT — TEST VERSION 0.2.23
+Bedrock 1.26.52 — changed features only
+
+INSTALL
+Open TimeTrapRobot-0.2.23.mcaddon. Use a fresh world and NEW robot with ONLY:
+  Time Trap Studios AI Bot — Behavior 0.2.23
+  Time Trap Studios AI Bot — Resources 0.2.23
+Confirm both descriptions/menu show 0.2.23 and no dependency/content errors.
+Optional summon: /summon tts_ai_bot_v0_2_23:robot
+
+RESOURCE LOCATION QUESTIONS
+1. Where can I find diamond blocks?
+   Expect diamond ore below Y=16, useful mining level around Y=-59, iron pickaxe.
+   Follow with: What tool do I need to mine it? / How deep can I find it?
+2. Where can I find iron? / What level are iron blocks at?
+   Expect underground around Y=16 and high mountains around Y=232.
+3. Where can I find copper blocks?
+   Expect Y=-16 to Y=112, commonly around Y=47/48, larger dripstone cave deposits.
+4. Where can I find gold blocks?
+   Expect underground around Y=-16 plus the Badlands extra generation range.
+5. Where can I find coal blocks? / lapis blocks? / redstone blocks? / emerald blocks?
+   Expect ore guidance, depth and relevant biome restrictions, not recipes.
+6. Where can I find quartz blocks? / Where can I find netherite blocks?
+   Expect quartz ore in Nether netherrack / ancient debris in the Nether.
+
+KEEP DISTINCT MEANINGS
+7. How do I craft diamond blocks?
+   Expect 9 diamonds, no grid instructions.
+8. Where can I find solid diamond blocks? / Where can I find blocks of diamond?
+   Expect the actual storage block acquisition, not diamond-ore mining depth.
+9. Where can I find diamond swords? / Where can I find iron golems?
+   Expect the sword/golem subject, not diamond/iron ore.
+10. Where can I find dirt?
+    Expect ordinary dirt guidance, not ore information.
+
+No need to repeat historical checklists. This fixes resource-question wording;
+it does not claim every possible wiki question or finish item knowledge.
